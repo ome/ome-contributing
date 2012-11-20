@@ -1,0 +1,24 @@
+Editor from Insight
+===================
+
+.. |C| replace:: **Check**
+
+To test in: 
+
+Insight
+
+
+Purpose of the test is to check the functionality (edit, save, re-open) of Editor as launched from Insight
+
+1. Launch editor from the Data Manager toolbar [:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
+
+2. Open a "New blank file", add few fields
+
+3. Save locally and save to the server using main menu File/Save As...[:download:`002 </images/testing_scenarios/EditorfromInsight/002.png>`, :download:`003 </images/testing_scenarios/EditorfromInsight/003.png>`, :download:`004 </images/testing_scenarios/EditorfromInsight/004.png>`, :download:`005 </images/testing_scenarios/EditorfromInsight/005.png>`]
+
+4. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:download:`006 </images/testing_scenarios/EditorfromInsight/006.png>`].
+
+ - Add more text to the file.
+ - Save and close the editor.
+
+5. Repeat step 4.
