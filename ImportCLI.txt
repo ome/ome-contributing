@@ -28,6 +28,6 @@ Purpose of the test is to check the import of single, multiple images and multi-
 
  - |C| Check that you can see the imported images within the file
 
-5. Try import into an existing database (use -d <databaseID>) and archive images at import (use -a) - e.g. omero import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dvßß
+5. Try import into an existing database (use -d <databaseID>) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
 
  - |C| Check the image has been imported into the right database and archived 
