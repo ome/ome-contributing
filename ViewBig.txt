@@ -1,6 +1,9 @@
 View Big
 =========
- Purpose of the test is to check viewing/rendering of large images (tiles, bird's eye features)
+
+.. |C| replace:: **Check**
+
+Purpose of the test is to check viewing/rendering of large images (tiles, bird's eye features)
 
 
 
