@@ -22,7 +22,7 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
   - |C| Check their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
 
-1.4 Download the metada file created by OMERO i.e. original metadata.txt (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
+1.4 Download the metada file created by OMERO i.e. ``original_metadata.txt`` (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
 
   - |C| Check the downloaded file [:download:`008 </images/testing_scenarios/DownloadExportDowngrade/008.txt>`].
 
