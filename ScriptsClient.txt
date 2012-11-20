@@ -1,0 +1,35 @@
+Scripts Client
+===============
+
+.. |C| replace:: **Check**
+
+To test in:
+
+Web, Insight
+
+
+Purpose of the test is to test the scripting functionalities, mainly checking the script launching on various targets and reporting about the script run
+
+1. Select a dataset
+
+2. Open list of available scripts.[:download:`001 </images/testing_scenarios/ScriptsClient/001.png>`]
+
+3. Select a script running on datasets.[:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
+
+ - |C| Check that the data type is set to dataset and the id of the dataset is displayed in the id field.
+
+ - Select other data type if applicable,
+
+ - |C| Check that the id is removed.[:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
+
+5. Select the initial data type and enter the initial id.
+
+6. Run the script and
+
+ - |C| Check that an entry is added to the activities section [:download:`004 </images/testing_scenarios/ScriptsClient/004.png>`, :download:`005 </images/testing_scenarios/ScriptsClient/005.png>`]
+
+7. Click on the result link e.g.
+
+ - |C| View if the script ran to completion w/o errors.[:download:`006 </images/testing_scenarios/ScriptsClient/006.png>`, :download:`007 </images/testing_scenarios/ScriptsClient/007.png>`]
+
+8. Repeat all steps with another type e.g. Image

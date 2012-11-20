@@ -1,0 +1,55 @@
+Import (UI)
+===========
+
+.. |C| replace:: **Check**
+
+Purpose of the test is to check all the features of Importer UI as started from Insight
+
+1. Select single image files
+
+ - Add them to the queue by pressing the ">" control.
+ - Select "New From Folder" option [:download:`001 </images/testing_scenarios/ImportUI/001.png>`] when choosing where to import the images.
+ - |C| A new Dataset will be created with the name of the folder.
+ - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:download:`002 </images/testing_scenarios/ImportUI/002.png>`].
+ - Click import.
+ - Go to the DataManager (left-hand side). Hit the refresh button
+ - |C| make sure that only one dataset is created. [:download:`003 </images/testing_scenarios/ImportUI/003.png>`]
+
+2. Repeat (1) this time by selecting a folder. [:download:`004 </images/testing_scenarios/ImportUI/004.png>`]
+
+3. Tag at import
+
+ - Select at least 2 images.
+ - Go to the "options" tab. The second tab when selecting the import location.[:download:`005 </images/testing_scenarios/ImportUI/005.png>`]
+ - Create a new tag
+ - Import the images.
+ - Go to the DataManager (left-hand side). Refresh
+ - |C| Check that the images are tagged and the tag is shown on thumbnails [:download:`006 </images/testing_scenarios/ImportUI/006.png>`, :download:`007 </images/testing_scenarios/ImportUI/007.png>`]
+ - |C| and the tag is created once. [:download:`008 </images/testing_scenarios/ImportUI/008.png>`]
+
+4. Repeat (3) and this time
+
+ - create a new tag and add an existing tag.[:download:`009 </images/testing_scenarios/ImportUI/009.png>`]
+ - Import the images
+ - Go to the DataManager (left-hand side). Refresh,
+ - |C| Check that the images are tagged and the tag is shown on thumbnails
+ - |C| The tag is created once
+ - |C| no new tag is created with the name of the existing tag.
+
+5. In the Location dialog, Switch between Project/Dataset and Screen [:download:`010 </images/testing_scenarios/ImportUI/010.png>`, :download:`011 </images/testing_scenarios/ImportUI/011.png>`]
+
+6. Import a Plate e.g. ``data_repo/from_skyking/flex/achim/003003000.flex``
+
+7. When the import is done, check in the import Window:
+
+ - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:download:`012 </images/testing_scenarios/ImportUI/012.png>`]
+ - |C| Hover over it.[:download:`013 </images/testing_scenarios/ImportUI/013.png>`]
+ - |C| Click on the thumbnail to open the image viewer
+ - |C| If Dataset is higlighted in blue, click on the dataset. This should bring you to the Data Manager.
+
+8. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:download:`014 </images/testing_scenarios/ImportUI/014.png>`]
+
+ - |C| Check that you can view the error.[:download:`015 </images/testing_scenarios/ImportUI/015.png>`]
+ - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:download:`016 </images/testing_scenarios/ImportUI/016.png>`]
+ - Enter a valid e-mail address
+ - |C| Make sure that you receive a notification e-mail.

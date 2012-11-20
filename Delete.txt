@@ -1,0 +1,21 @@
+Delete
+=======
+
+To test in: 
+
+Web, Insight
+
+
+Purpose of the test is to check the Delete function on all entities (except ROI)
+
+
+
+1. In the DataManager:
+
+ - Delete Ratings (Insight only), Delete Comments (right-hand pane)
+ - Delete attachments [:download:`001 </images/testing_scenarios/Delete/001.png>`, :download:`002 </images/testing_scenarios/Delete/002.png>`] (left-hand pane in Insight, right hand pane in Web)
+ - Delete tags [:download:`003 </images/testing_scenarios/Delete/003.png>`, :download:`004 </images/testing_scenarios/Delete/004.png>`] (left-hand pane)
+
+2. Delete P/D/I/Screen/Plate. [:download:`005 </images/testing_scenarios/Delete/005.png>`, :download:`006 </images/testing_scenarios/Delete/006.png>`, :download:`007 </images/testing_scenarios/Delete/007.png>`, :download:`008 </images/testing_scenarios/Delete/008.png>`]
+
+3. Import an image rich in metadata and delete it.

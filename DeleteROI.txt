@@ -1,0 +1,22 @@
+Delete ROI
+==========
+
+.. |C| replace:: **Check**
+
+To test in: 
+
+Insight
+
+
+Purpose of the test is to test ROI deleting as well as ROI tools behaviour when the underlying image is being deleted
+
+
+
+1. ROIs- Add ROI to an image - use full viewer [:download:`001 </images/testing_scenarios/DeleteROI/001.png>`, :download:`002 </images/testing_scenarios/DeleteROI/002.png>`]
+
+ - Delete a shape and save the ROIs.
+ - Use the Red Cross Icon to delete all ROIs on the image
+
+2. Add ROI to the image, go back to the DataManager and delete the image.
+
+ - |C| Check that the Measurement Tool window disappears.

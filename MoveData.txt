@@ -1,0 +1,27 @@
+Move Data
+==========
+
+.. |C| replace:: **Check**
+
+To test in:
+
+Web, Insight
+
+
+Purpose of the test is to check the feature of moving the entities between groups in all possible manners
+
+1. Move simple Project/Dataset/Image Screen/Plate between groups.[:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+
+ - |C| Check they are correctly moved. (put group to display if necessary-Insight [:download:`005 </images/testing_scenarios/MoveData/005.png>`])
+
+2. Move Project with dataset and images
+
+3. Move Image
+
+ - rich in metadata (see Import Testing set tab in Googledocs)
+ - with ROI
+ - with annotation
+
+4. Move using the right-click menu [:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+
+5. Move via D&D (Insight only) [:download:`006 </images/testing_scenarios/MoveData/006.png>`]

@@ -1,0 +1,80 @@
+ROI Insight
+===========
+
+.. |C| replace:: **Check**
+
+To test in:
+
+Insight
+
+
+Purpose of the test is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export)
+
+1. Open an image with multiple z/t planes in Full Viewer
+
+2. Open ROI tool
+
+ - from the icon on the top of the Full Viewer [:download:`001 </images/testing_scenarios/ROIInsight/001.png>`]
+ - from the main menu Controls/Measurement…
+
+3. Create ROIs (>3) of different types including Text [Text as one of Region types].[:download:`002 </images/testing_scenarios/ROIInsight/002.png>`]
+
+4. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box
+
+ - |C| Check the text (=comment...) appears and disappears.[:download:`003 </images/testing_scenarios/ROIInsight/003.png>`]
+
+5. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
+
+6. Move shapes and save.
+
+7. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:download:`005 </images/testing_scenarios/ROIInsight/005.png>`, :download:`006 </images/testing_scenarios/ROIInsight/006.png>`, :download:`007 </images/testing_scenarios/ROIInsight/007.png>`]. Merge only shapes from different z/t-planes, Split the Merged. [:download:`008 </images/testing_scenarios/ROIInsight/008.png>`]
+
+ - using right-click on the image
+ - using right-click on the ROI in the list in Measurement Tools window
+
+8. Edit: change Fill and Line color [:download:`009 </images/testing_scenarios/ROIInsight/009.png>`]/ show-hide text//change width and height (Inspector tab)
+
+ - |C| Check the changes of the region display.
+
+9. In Results tab, add new Measurements/remove Measurements using Results wizard.
+
+ - Click on a row, check that the chosen region/plane changes in the image.
+ - Export to Excel.
+ - |C| Check the file was created.
+
+
+Graph, Intensity View and Intensity Results View tabs:
+
+10. Choose a region on >3 z/t planes & scroll through the histograms
+
+11. Choose a Line-type of region.
+
+ - |C| Check that both Line profile and Histogram are shown.
+
+12. Try to create new regions when on Graph pane and to propagate them
+
+ - Using the magic wand icon
+ - Using right-click on the region
+ - |C| Check: message appears "ROI assistant cannot be used in graph pane or intensity view".
+
+13. Switch channels on/off on the image/select different regions/scroll through z planes on the Graph tab
+
+ - |C| Check that the graphs update
+ - |C| Check that the planes in the stack of images updates concurrently
+
+14. In Intensity View tab repeat steps 12 & 13. Export to Excel.
+ 
+ - |C| Check the file.
+
+15. Go to Intensity Results View tab.
+
+ - Go away from Intensity Results View tab. 
+ - Select one region to add (in Image Viewer/Results/Manager tabs or in the image itself) when off the Intensity Results View tab !
+ - Go to the Intensity Results View tab
+ - Press Add Selected
+ - |C| Check the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+ - Try to select more regions and press Add Selected
+ - |C| Check the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+ - Try Remove/Remove All.
+ - Export to Excel
+ - |C| Check the file. [:download:`011 </images/testing_scenarios/ROIInsight/011.png>`, :download:`012 </images/testing_scenarios/ROIInsight/012.xls>`]

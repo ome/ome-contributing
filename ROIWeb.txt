@@ -1,0 +1,29 @@
+ROI Web
+========
+
+.. |C| replace:: **Check**
+
+To test in:
+
+Web
+
+
+Purpose of the test is to check the ROI viewing in Web
+
+1. Open in Viewer an image with >3 ROIs propagated through multiple z/t (If not exist, create it in Insight.)
+
+2. View the ROIs [:download:`001 </images/testing_scenarios/ROIWeb/001.png>`, :download:`002 </images/testing_scenarios/ROIWeb/002.png>`]
+
+3. Expand and collapse the multiple-shape ROIs
+
+4. Choose ROIs on different z/t planes
+
+ - |C| Check that the Viewer updates
+
+5. Tick and untick the Text and Preview boxes [:download:`003 </images/testing_scenarios/ROIWeb/003.png>`]
+
+ - |C| Check the text in the ROIs appear/disappears and the Preview is made visible/invisible in all ROIs and shapes on different planes.
+
+6. Hover with mouse over the Thumbnail in Preview
+
+ - |C| Check that larger view appears.[:download:`004 </images/testing_scenarios/ROIWeb/004.png>`]
