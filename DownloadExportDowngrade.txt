@@ -1,6 +1,12 @@
 Download/Export/Downgrade
 ==========================
 
+.. toctree::
+    :hidden:
+ 
+    examples/Export_Downgrade_008
+    examples/Export_Downgrade_original_metadata.txt
+
 .. |C| replace:: **Check**
 
 To test in:
@@ -12,7 +18,7 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
 1.  Download :
 
-1.1.Import an image with a companion file e.g. data_repo/test_images_good/dv/CFPNEAT01_R3D.dv
+1.1.Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``
 
 1.2 Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
@@ -22,9 +28,9 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
   - |C| Check their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
 
-1.4 Download the metada file created by OMERO i.e. ``original_metadata.txt`` (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
+1.4 Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
 
-  - |C| Check the downloaded file [:download:`008 </images/testing_scenarios/DownloadExportDowngrade/008.txt>`].
+  - |C| Check the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
 
 
 2.  Export:

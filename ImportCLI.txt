@@ -1,6 +1,13 @@
 Import CLI
 ===========
 
+.. toctree::
+    :hidden:
+ 
+    examples/CLI_001
+    examples/CLI_003
+    examples/CLI_007
+
 .. |C| replace:: **Check**
 
 Purpose of the test is to check the import of single, multiple images and multi-images file from command line
@@ -11,11 +18,11 @@ Purpose of the test is to check the import of single, multiple images and multi-
 
 2. Go to Terminal (command line interface, CLI). From CLI
 
-3. Log in onto appropriate server and user. Import a single image [:download:`001 </images/testing_scenarios/ImportCLI/001.txt>`]
+3. Log in onto appropriate server and user. Import a single image [:download:`001 <examples/CLI_001.txt>`]
 
  - |C| Check that the file was imported using Insight UI [:download:`002 </images/testing_scenarios/ImportCLI/002.png>`]
 
-2. Import several images in one transaction.[:download:`003 </images/testing_scenarios/ImportCLI/003.txt>`]
+2. Import several images in one transaction.[:download:`003 <examples/CLI_003.txt>`]
 
  - |C| Check that the files were imported using Insight UI [:download:`004 </images/testing_scenarios/ImportCLI/004.png>`]
 
@@ -24,7 +31,7 @@ Purpose of the test is to check the import of single, multiple images and multi-
  - |C| Check that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:download:`005 </images/testing_scenarios/ImportCLI/005.png>`]
  - |C| Check that you can download the companion file
 
-4. Select a folder with a multi-images file (like ``test_images_good/lei``).[:download:`007 </images/testing_scenarios/ImportCLI/007.txt>`, :download:`006 </images/testing_scenarios/ImportCLI/006.png>`]
+4. Select a folder with a multi-images file (like ``test_images_good/lei``).[:download:`007 <examples/CLI_007.txt>`, :download:`006 </images/testing_scenarios/ImportCLI/006.png>`]
 
  - |C| Check that you can see the imported images within the file
 
