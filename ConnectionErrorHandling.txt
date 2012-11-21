@@ -1,0 +1,49 @@
+ConnectionErrorHandling
+========================
+
+.. |C| replace:: **Check**
+
+To test in: 
+
+Insight
+
+
+Purpose of the test: error handling when server goes down, network failure etc.
+
+1. Connect to local server.
+
+ - Expand a project.
+ - restart the server
+ - Expand a before end of server restart
+
+2. Connect to local server.
+
+ - Expand a project.
+ - restart the server
+ - Expand a dataset when the server is restarted.
+
+3. Connect to local server.
+
+ - Expand a project.
+ - Expand a dataset and open an image.
+ - restart the server
+ - Turn channel on/off when the server is restarted.
+
+4. Connect to server (not local) using a network cable [:download:`001 </images/testing_scenarios/ConnectionErrorHandling/001.png>`]
+
+ - Expand a project.
+ - Unplug cable.
+ - Expand dataset [:download:`002 </images/testing_scenarios/ConnectionErrorHandling/002.png>`, :download:`003 </images/testing_scenarios/ConnectionErrorHandling/003.png>`]
+
+5. Connect to server (not local) using a network cable
+
+ - Expand a project/dataset
+ - Open an image
+ - Unplug the cable.
+ - Turn channel on/off
+
+6. Connect to server (not local) using wireless network
+
+ - Expand a project.
+ - Turn off the wireless network
+ - Expand dataset

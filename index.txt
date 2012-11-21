@@ -37,4 +37,5 @@ Testing scenarios
    Render
    Edit
    Create
+   ConnectionErrorHandling
 
