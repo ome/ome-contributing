@@ -33,4 +33,5 @@ Testing scenarios
    ImportFileFormatsTesting
    MetadataDisplay
    InsightasPluginImageJFiji
+   SPW
 
