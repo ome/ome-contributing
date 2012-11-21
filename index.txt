@@ -35,4 +35,5 @@ Testing scenarios
    InsightasPluginImageJFiji
    SPW
    Render
+   Edit
 
