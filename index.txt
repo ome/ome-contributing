@@ -34,4 +34,5 @@ Testing scenarios
    MetadataDisplay
    InsightasPluginImageJFiji
    SPW
+   Render
 
