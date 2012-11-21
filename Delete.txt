@@ -1,14 +1,14 @@
 Delete
 =======
 
+.. |C| replace:: **Check**
+
 To test in: 
 
 Web, Insight
 
 
 Purpose of the test is to check the Delete function on all entities (except ROI)
-
-
 
 1. In the DataManager:
 

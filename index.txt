@@ -36,4 +36,5 @@ Testing scenarios
    SPW
    Render
    Edit
+   Create
 
