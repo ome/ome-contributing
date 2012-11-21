@@ -1,5 +1,5 @@
-ConnectionErrorHandling
-========================
+Connection/Error Handling
+==========================
 
 .. |C| replace:: **Check**
 
