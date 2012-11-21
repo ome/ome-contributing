@@ -1,0 +1,20 @@
+Metadata Display
+=================
+
+.. |C| replace:: **Check**
+
+To test in: 
+
+Web, Insight
+
+
+Purpose of the test is to test the metadata display, and check they display consistently in Web and Insight
+
+1. Import an image rich in metadata for example 'data_repo/test_images_metada/leica-lif/Rosier.lif.2' Compare the display between web and insight i.e. Make sure the same values are displayed [:download:`001 </images/testing_scenarios/MetadataDisplay/001.png>`, :download:`002 </images/testing_scenarios/MetadataDisplay/002.png>`]
+
+ - |C| Check the units
+
+2. Show or hide unset fields [not populated fields - click on "show unset fields" in the metadata tabs].[:download:`003 </images/testing_scenarios/MetadataDisplay/003.png>`, :download:`004 </images/testing_scenarios/MetadataDisplay/004.png>`]
+
+ - |C| Make sure they are the same in both clients (Web and Insight)
+ - |C| Check that the user cannot edit the fields.

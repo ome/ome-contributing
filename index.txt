@@ -27,7 +27,12 @@ Contents:
    MoveData
    DownloadExportDowngrade
    ScriptsClient
-
+   EditorfromInsight
+   EditorStandalone
+   ImporterStandalone
+   Share
+   ImportFileFormatsTesting
+   MetadataDisplay
 
 Indices and tables
 ==================
