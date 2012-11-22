@@ -38,4 +38,5 @@ Testing scenarios
    Edit
    Create
    ConnectionErrorHandling
+   Search
 
