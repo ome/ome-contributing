@@ -1,0 +1,35 @@
+Group/User Edit (Admin)
+========================
+
+.. |C| replace:: **Check**
+
+To test in: 
+
+Web, Insight
+
+
+Purpose of the test is to check the Editing and changing of Group/User as administrator
+
+1. Edit group [:download:`001Insight </images/testing_scenarios/GroupUserEditAdmin/001Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`. :download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`].
+
+2. Change name/description/permissions and Save
+
+ - |C| Check the parameters have been changed correctly 
+
+3. Add and remove users (=members) and owners 
+
+ - using Edit group window (Web only) [:download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`]
+ - using "Add existing users" from right-click menu (Insight only) [:download:`004Insight </images/testing_scenarios/GroupUserEditAdmin/004Insight.png>`]
+ - using Copy/Cut and Paste from main menu (Insight only)
+ - using Copy/Cut and Paste via icons & right-click (Insight only)
+ - using Drag & Drop (Insight only)
+
+ - |C| Check the users have been added/removed to/from the groups
+ 
+4. Edit user [:download:`005Insight </images/testing_scenarios/GroupUserEditAdmin/005Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`, :download:`006Web </images/testing_scenarios/GroupUserEditAdmin/006Web.png>`]
+
+ - change Login Name/Password/Status (Insight)
+ - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
+ - Save changes
+ - |C| Check the changes have been made appropriately
+

@@ -41,5 +41,5 @@ Testing scenarios
    Search
    DeAnnotateUnlink
    GroupUserCreateAdmin
-
+   GroupUserEditAdmin
 
