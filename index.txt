@@ -40,5 +40,6 @@ Testing scenarios
    ConnectionErrorHandling
    Search
    DeAnnotateUnlink
+   GroupUserCreateAdmin
 
 
