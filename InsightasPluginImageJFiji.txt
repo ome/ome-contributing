@@ -8,40 +8,39 @@ To test in:
 ImageJ
 
 
-
 Purpose of the test is to check that the OMERO insight works as plugin for ImageJ/IJ64/Fiji and the loci_tools.jar missing is not causing a crash.
 
-1. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:download:`001 </images/testing_scenarios/InsightasPluginImageJFiji/001.png>`].
+#. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:download:`001 </images/testing_scenarios/InsightasPluginImageJFiji/001.png>`].
 
-2. Do not add "loci_tools.jar" to the imageJ/plugins. If it is there, remove it.
+#. Do not add "loci_tools.jar" to the imageJ/plugins. If it is there, remove it.
 
-3. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
+#. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
 
- - |C| Dialog should indicate that "loci_tools.jar" is missing.[:download:`002 </images/testing_scenarios/InsightasPluginImageJFiji/002.png>`].
+   - |C| Dialog should indicate that "loci_tools.jar" is missing.[:download:`002 </images/testing_scenarios/InsightasPluginImageJFiji/002.png>`].
 
-4. Click on the hyperlink in the dialog. Download loci_tools.jar.
+#. Click on the hyperlink in the dialog. Download loci_tools.jar.
 
-5. Close ImageJ. Copy loci_tools.jar into ImageJ/Plugins folder.
+#. Close ImageJ. Copy loci_tools.jar into ImageJ/Plugins folder.
 
-6. Repeat step 3, this time
+#. Repeat step 3, this time
 
- - |C| Insight splashscreen should be displayed.
+   - |C| Insight splashscreen should be displayed.
 
-7. Log in.
+#. Log in.
 
-8. Go to the left-hand pane and select an image or import one if no images available.
+#. Go to the left-hand pane and select an image or import one if no images available.
 
-9. Right-click on the image,
+#. Right-click on the image,
 
- - |C| The "View" menu item should have the "View in ImageJ" option [:download:`003 </images/testing_scenarios/InsightasPluginImageJFiji/003.png>`]
- - Select the "View in imageJ" option.
- - |C| The image opens in imageJ
+   - |C| The "View" menu item should have the "View in ImageJ" option [:download:`003 </images/testing_scenarios/InsightasPluginImageJFiji/003.png>`]
+   - Select the "View in imageJ" option.
+   - |C| The image opens in imageJ
 
-10.Double-click on the image.
+#. Double-click on the image.
 
- - |C| The image opens in imageJ.
+   - |C| The image opens in imageJ.
 
-11.Try with ImageJ and ImageJ64
+#. Try with ImageJ and ImageJ64
 
-12.Repeat using Fiji
+#. Repeat using Fiji
 

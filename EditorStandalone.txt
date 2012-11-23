@@ -10,14 +10,14 @@ Standalone UI
 
 Purpose of the test is to check the Editor standalone client and to test its worthiness for writing/saving of Protocols/Text documentation
 
- - |C| Check that the application starts.[:download:`001 </images/testing_scenarios/EditorStandalone/001.png>`]
+   - |C| Check that the application starts.[:download:`001 </images/testing_scenarios/EditorStandalone/001.png>`]
 
-1. Open a blank editor, add few fields.
+#. Open a blank editor, add few fields.
 
-2. Save locally and save to the server using the main menu File/Save As.[:download:`002 </images/testing_scenarios/EditorStandalone/002.png>`, :download:`003 </images/testing_scenarios/EditorStandalone/003.png>`].
+#. Save locally and save to the server using the main menu File/Save As.[:download:`002 </images/testing_scenarios/EditorStandalone/002.png>`, :download:`003 </images/testing_scenarios/EditorStandalone/003.png>`].
 
- - |C| Check that you can connect to the server when saving the file.[:download:`004 </images/testing_scenarios/EditorStandalone/004.png>`]
+   - |C| Check that you can connect to the server when saving the file.[:download:`004 </images/testing_scenarios/EditorStandalone/004.png>`]
 
-3. Open a blank editor and open an online editor file, such as "Standard western blot procedure". Modify the file and save it locally and to the server (main menu File/Save As).
+#. Open a blank editor and open an online editor file, such as "Standard western blot procedure". Modify the file and save it locally and to the server (main menu File/Save As).
 
-4. Open the editor, choose "Open File", choose a file saved locally.[:download:`005 </images/testing_scenarios/EditorStandalone/005.png>`] Save the file to the server (main menu File/Save As...).
+#. Open the editor, choose "Open File", choose a file saved locally.[:download:`005 </images/testing_scenarios/EditorStandalone/005.png>`] Save the file to the server (main men# File/Save As...).

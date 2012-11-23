@@ -10,18 +10,18 @@ Web, Insight
 
 Purpose of the test is to check that the creation of new entities is smooth, valid and sensible and the appropriate menu commands work and correspond (right-click and main menu)
 
-1. Create new Project/Dataset/Screen* Create using right-click [:download:`001 </images/testing_scenarios/Create/001.png>`]
+#. Create new Project/Dataset/Screen* Create using right-click [:download:`001 </images/testing_scenarios/Create/001.png>`]
  
- - Create using the icon [:download:`002 </images/testing_scenarios/Create/002.png>`, :download:`003 </images/testing_scenarios/Create/003.png>`, :download:`004 </images/testing_scenarios/Create/004.png>`]
- - Create using the main menu (Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
+   - Create using the icon [:download:`002 </images/testing_scenarios/Create/002.png>`, :download:`003 </images/testing_scenarios/Create/003.png>`, :download:`004 </images/testing_scenarios/Create/004.png>`]
+   - Create using the main menu (Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
 
-2. Create new Tag Set/Tag (Menu:File>New, Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
+#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
 
-3. Select an image. Create New dataset from Selection (right-click - Insight only)
+#. Select an image. Create New dataset from Selection (right-click - Insight only)
 
- - |C| Check that a new dataset is created with the selected images inside
+   - |C| Check that a new dataset is created with the selected images inside
 
-4. Right-click on dataset, choose "New…."
+#. Right-click on dataset, choose "New…."
 
- - |C| Check that the "New project" window appears
+   - |C| Check that the "New project" window appears
 

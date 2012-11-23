@@ -12,22 +12,22 @@ Purpose of the test is to check the import using DropBox
 
 
 
-1. Find the DropBox folder in your ``/omero`` folder e.g. ``Petr/var/omero/DropBox``.
+#. Find the DropBox folder in your ``/omero`` folder e.g. ``Petr/var/omero/DropBox``.
 
-2. Open it and create a new folder with a name matching the user ID which you are going to import images for
+#. Open it and create a new folder with a name matching the user ID which you are going to import images for
 
-3. Open Terminal (command line)
+#. Open Terminal (command line)
 
-4. Create a DropBox.log. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to create a DropBox log.
+#. Create a DropBox.log. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to create a DropBox log.
 
-5. Drag and Drop a file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
+#. Drag and Drop a file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
 
-6. Observe the log info in your command line
+#. Observe the log info in your command line
 
- - |C| Check the file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`] and immediately
+   - |C| Check the file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`] and immediately
 
-7. Drag and Drop an accompanying file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
+#. Drag and Drop an accompanying file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
 
- - |C| Check the accompanying file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`]
- - |C| Check that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <examples/DropBox_001.txt>`]
- - |C| Check that the files have been correctly imported (using Insight UI)
+   - |C| Check the accompanying file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`]
+   - |C| Check that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <examples/DropBox_001.txt>`]
+   - |C| Check that the files have been correctly imported (using Insight UI)

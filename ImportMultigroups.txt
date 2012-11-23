@@ -3,23 +3,26 @@ Import and Multigroups
 
 .. |C| replace:: **Check**
 
+To test in: 
+
+Insight
+
+
 Purpose of the test is to test the import of images into multiple groups and check the Import Queue behaviour in this case
 
+#. Import the same image in 2 different groups. Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <examples/ImportTestingTemplate.pdf>`]
 
+   - Select an image
+   - Choose where to import the image in the first group.
+   - Do not change the selection, switch group and select where to import the image in the second group.
+   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:download:`001 </images/testing_scenarios/ImportMultigroups/001.png>`]
+   - |C| Make sure that the image is in the correct location (in both groups). [:download:`002 </images/testing_scenarios/ImportMultigroups/002.png>`]
 
-1. Import the same image in 2 different groups.
+#. Import queue
 
- - Select an image
- - Choose where to import the image in the first group.
- - Do not change the selection, switch group and select where to import the image in the second group.
- - Go back to the Data Manager and add the 2 groups to the display if not already added. [:download:`001 </images/testing_scenarios/ImportMultigroups/001.png>`]
- - |C| Make sure that the image is in the correct location (in both groups). [:download:`002 </images/testing_scenarios/ImportMultigroups/002.png>`]
-
-2. Import queue
-
- - Select files to import and select the "New From folder" option[default option] in the location dialog.
- - Start the import
- - Start immediately a new import with the same selected files.
- - In the location dialog, switch group and select "New Dataset".
- - Go back to the Data Manager and add the 2 groups to the display if not already added.
- - |C| Make sure that the image is in the correct location.
+   - Select files to import and select the "New From folder" option[default option] in the location dialog.
+   - Start the import
+   - Start immediately a new import with the same selected files.
+   - In the location dialog, switch group and select "New Dataset".
+   - Go back to the Data Manager and add the 2 groups to the display if not already added.
+   - |C| Make sure that the image is in the correct location.

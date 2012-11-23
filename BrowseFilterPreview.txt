@@ -11,27 +11,27 @@ Web, Insight
 
 Purpose of the test is to check the browsing/filtering/preview feature in clients and to check the sensibility of appropriate command menus
 
-1. Browse dataset/ Plate.
+#. Browse dataset/ Plate.
 
-2. Try to filter by rating/tags, date. [:download:`001 </images/testing_scenarios/BrowseFilterPreview/001.png>`]
+#. Try to filter by rating/tags, date. [:download:`001 </images/testing_scenarios/BrowseFilterPreview/001.png>`]
 
-3. Switch between list and thumbnail view.[:download:`002 </images/testing_scenarios/BrowseFilterPreview/002.png>`]
+#. Switch between list and thumbnail view.[:download:`002 </images/testing_scenarios/BrowseFilterPreview/002.png>`]
 
-4. If applicable
+#. If applicable
 
- - Sort the data by name
- - |C| Check that right-click menu options are the same in Browser and DataManager (Insight only). [:download:`003 </images/testing_scenarios/BrowseFilterPreview/003.png>`, :download:`004 </images/testing_scenarios/BrowseFilterPreview/004.png>`]
- - Create new dataset from selection
- - Double-click on image to open viewer.
+   - Sort the data by name
+   - |C| Check that right-click menu options are the same in Browser and DataManager (Insight only). [:download:`003 </images/testing_scenarios/BrowseFilterPreview/003.png>`, :download:`004 </images/testing_scenarios/BrowseFilterPreview/004.png>`]
+   - Create new dataset from selection
+   - Double-click on image to open viewer.
 
-5. |C| Check multi-selection i.e. shift - key down.
+#. |C| Check multi-selection i.e. shift - key down.
 
-6. |C| Check that DataManager and right-hand panel are correctly synchronized and updated.
+#. |C| Check that DataManager and right-hand panel are correctly synchronized and updated.
 
-7. In Preview (right-hand of the window, "Preview" tab) [:download:`005 </images/testing_scenarios/BrowseFilterPreview/005.png>`]: if applicable
+#. In Preview (right-hand of the window, "Preview" tab) [:download:`005 </images/testing_scenarios/BrowseFilterPreview/005.png>`]: if applicable
 
- - Modify the settings of the selected image.
- - Apply the settings to the selection.
+   - Modify the settings of the selected image.
+   - Apply the settings to the selection.
 
 
 

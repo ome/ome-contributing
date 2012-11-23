@@ -27,4 +27,4 @@ Purpose of the test is to check the Annotate ability (creating as well as viewin
 
 #. Go to the right-hand side and mouse over the annotation.
 
- - |C| Check that the owner of the annotation is indicated, who annotated etc.[:download:`002 </images/testing_scenarios/Annotate/002.png>`, :download:`003 </images/testing_scenarios/Annotate/003.png>`]
+   - |C| Check that the owner of the annotation is indicated, who annotated etc.[:download:`002 </images/testing_scenarios/Annotate/002.png>`, :download:`003 </images/testing_scenarios/Annotate/003.png>`]

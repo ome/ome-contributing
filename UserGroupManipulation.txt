@@ -10,19 +10,19 @@ Web, Insight
 
 Purpose of the test is to check the viewing/display of groups/users and their data
 
-1. Add several groups to the display (Insight only) Switch between groups. [:download:`001 </images/testing_scenarios/UserGroupManipulation/001.png>`, :download:`002 </images/testing_scenarios/UserGroupManipulation/002.png>`, :download:`003 </images/testing_scenarios/UserGroupManipulation/003.png>`]
+#. Add several groups to the display (Insight only) Switch between groups. [:download:`001 </images/testing_scenarios/UserGroupManipulation/001.png>`, :download:`002 </images/testing_scenarios/UserGroupManipulation/002.png>`, :download:`003 </images/testing_scenarios/UserGroupManipulation/003.png>`]
 
-2. Add several users to the display [:download:`004 </images/testing_scenarios/UserGroupManipulation/004.png>`, :download:`005 </images/testing_scenarios/UserGroupManipulation/005.png>`] (Insight only)
+#. Add several users to the display [:download:`004 </images/testing_scenarios/UserGroupManipulation/004.png>`, :download:`005 </images/testing_scenarios/UserGroupManipulation/005.png>`] (Insight only)
 
-3. Switch between users.
+#. Switch between users.
 
-4. Browse the user's data.
+#. Browse the user's data.
 
-5. Remove users from display.(Insight only)
+#. Remove users from display.(Insight only)
 
-6. Remove groups from display.(Insight only)
+#. Remove groups from display.(Insight only)
 
-7. Log off and log in as a new user.
+#. Log off and log in as a new user.
 
- - |C| Check you can browse data
- - |C| Check you can view images.
+   - |C| Check you can browse data
+   - |C| Check you can view images.

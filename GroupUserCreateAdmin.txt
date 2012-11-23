@@ -10,21 +10,21 @@ Web, Insight
 
 Purpose of the test is to check the creation of new groups/users functionality when logged in as administrator
 
-1. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:download:`00Web </images/testing_scenarios/GroupUserCreateAdmin/00Web.png>`]), 
+#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:download:`00Web </images/testing_scenarios/GroupUserCreateAdmin/00Web.png>`]), 
 
-2. Create new group 
+#. Create new group 
 
- - using the icon above the tree [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001insight.png>`] (Insight only)
- - using the right-click (Insight only)
- - using the button (called "Add new..." in Web, Web only) [:download:`001Web </images/testing_scenarios/GroupUserCreateAdmin/001Web.png>`, :download:`002Web </images/testing_scenarios/GroupUserCreateAdmin/002Web.png>`]  
- - create private/read-only/read-annotate group
- - |C| Check new group was created with permissions as chosen at creation
+   - using the icon above the tree [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001insight.png>`] (Insight only)
+   - using the right-click (Insight only)
+   - using the button (called "Add new..." in Web, Web only) [:download:`001Web </images/testing_scenarios/GroupUserCreateAdmin/001Web.png>`, :download:`002Web </images/testing_scenarios/GroupUserCreateAdmin/002Web.png>`]  
+   - create private/read-only/read-annotate group
+   - |C| Check new group was created with permissions as chosen at creation
 
-3. Create new user [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001Insight.png>`, :download:`003Web </images/testing_scenarios/GroupUserCreateAdmin/003Web.png>`, :download:`004Web </images/testing_scenarios/GroupUserCreateAdmin/004Web.png>`]
+#. Create new user [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001Insight.png>`, :download:`003Web </images/testing_scenarios/GroupUserCreateAdmin/003Web.png>`, :download:`004Web </images/testing_scenarios/GroupUserCreateAdmin/004Web.png>`]
 
- - tick/do not tick the Administrator box in the creation window
- - |C| Check that the new user is (or is not) an Administrator as appropriate
- - tick/do not tick the Group owner box (Insight only) [:download:`005Insight </images/testing_scenarios/GroupUserCreateAdmin/005Insight.png>`]
- - |C| Check that the new user is (or is not) Group owner as appropriate
- - add the new user to one or more existing groups [:download:`006Web </images/testing_scenarios/GroupUserCreateAdmin/006Web.png>`]
- - |C| Check that the user has been added to the groups correctly
+   - tick/do not tick the Administrator box in the creation window
+   - |C| Check that the new user is (or is not) an Administrator as appropriate
+   - tick/do not tick the Group owner box (Insight only) [:download:`005Insight </images/testing_scenarios/GroupUserCreateAdmin/005Insight.png>`]
+   - |C| Check that the new user is (or is not) Group owner as appropriate
+   - add the new user to one or more existing groups [:download:`006Web </images/testing_scenarios/GroupUserCreateAdmin/006Web.png>`]
+   - |C| Check that the user has been added to the groups correctly

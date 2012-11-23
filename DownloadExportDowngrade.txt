@@ -16,63 +16,63 @@ Web, Insight
 
 Purpose of the test is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import
 
-1.  Download :
+#.  Download :
 
-1.1.Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``
+    - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here <examples/ImportTestingSetTable.pdf>`])
 
-1.2 Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
+    - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
-  - |C| Check that you can see Info [:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
+    - |C| Check that you can see Info [:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
 
-1.3 Download the Companion file [:download:`003 </images/testing_scenarios/DownloadExportDowngrade/003.png>`, :download:`004 </images/testing_scenarios/DownloadExportDowngrade/004.png>`] - open downloaded file in text editor,
+    - Download the Companion file [:download:`003 </images/testing_scenarios/DownloadExportDowngrade/003.png>`, :download:`004 </images/testing_scenarios/DownloadExportDowngrade/004.png>`] - open downloaded file in text editor,
 
-  - |C| Check their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
+    - |C| Check their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
 
-1.4 Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
+    - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
 
-  - |C| Check the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
-
-
-2.  Export:
-
-2.1 Import an image - tick the "Archive" option after putting it into the Queue [:download:`009 </images/testing_scenarios/DownloadExportDowngrade/009.png>`] (Insight only)
-
-2.2 Go to the left-hand panel of the datamanager, select the image
-
-2.3 Go to the right-hand panel General tab,
-
- - for Insight, press the Saving icon [2nd form right] and choose Download.[:download:`010 </images/testing_scenarios/DownloadExportDowngrade/010.png>`]
- - for Web click on the arrow in General tab and choose 1st option [:download:`011 </images/testing_scenarios/DownloadExportDowngrade/011.png>`]
- - |C| Check that the image has correctly been downloaded [:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
-
-2.4 Re-import the image.(import in Insight, but check in Web as well)
-
- - |C| Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:download:`013 </images/testing_scenarios/DownloadExportDowngrade/013.png>`]
-
-2.6 Now Select an image with the archived option off. If not sure, re-import an image with archived off.(in Insight)
-
-2.7 Repeat step 2.2&2.3
-
- - |C| The image should be exported as an OME-TIFF this time.[:download:`014 </images/testing_scenarios/DownloadExportDowngrade/014.png>`]
-
-2.8 Re-import the image.[:download:`015 </images/testing_scenarios/DownloadExportDowngrade/015.png>`]
-
-2.9 Export as JPEG.[:download:`016 </images/testing_scenarios/DownloadExportDowngrade/016.png>`, :download:`017 </images/testing_scenarios/DownloadExportDowngrade/017.png>`]
-
- - |C| Check the result
+    - |C| Check the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
 
 
-3. Downgrade:
+#.  Export:
 
- - Select an image and go to the right-hand panel.
- - Select to "Export as OME-TIFF".(for Web, just export and check the file - for Insight, see below)
- - Export using the current schema:[:download:`018 </images/testing_scenarios/DownloadExportDowngrade/018.png>`] (Insight only)
- - |C| Check the exported file,
- - |C| Open the file
- - |C| Check the XML section the schema version should indicate the latest version e.g. 2012..[:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
- - Export using an older schema:(Insight only)
- - |C| Check the exported file
- - |C| Open the file
- - |C| Check the XML section, the schema version should match the selected schema.[:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
- - Re-Import the exported files
+    #. Import an image - tick the "Archive" option after putting it into the Queue [:download:`009 </images/testing_scenarios/DownloadExportDowngrade/009.png>`] (Insight only)
+
+    #. Go to the left-hand panel of the datamanager, select the image
+
+    #. Go to the right-hand panel General tab,
+
+         - for Insight, press the Saving icon [2nd form right] and choose Download.[:download:`010 </images/testing_scenarios/DownloadExportDowngrade/010.png>`]
+         - for Web click on the arrow in General tab and choose 1st option [:download:`011 </images/testing_scenarios/DownloadExportDowngrade/011.png>`]
+         - |C| Check that the image has correctly been downloaded [:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
+
+    #. Re-import the image.(import in Insight, but check in Web as well)
+
+    #. |C| Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:download:`013 </images/testing_scenarios/DownloadExportDowngrade/013.png>`]
+
+    #. Now Select an image with the archived option off. If not sure, re-import an image with archived off.(in Insight)
+
+    #. Repeat steps 2 & 3 (under Export)
+
+         - |C| The image should be exported as an OME-TIFF this time.[:download:`014 </images/testing_scenarios/DownloadExportDowngrade/014.png>`]
+
+    #. Re-import the image.[:download:`015 </images/testing_scenarios/DownloadExportDowngrade/015.png>`]
+
+    #. Export as JPEG.[:download:`016 </images/testing_scenarios/DownloadExportDowngrade/016.png>`, :download:`017 </images/testing_scenarios/DownloadExportDowngrade/017.png>`]
+
+         - |C| Check the result
+
+
+#.  Downgrade:
+
+    - Select an image and go to the right-hand panel.
+    - Select to "Export as OME-TIFF".(for Web, just export and check the file - for Insight, see below)
+    - Export using the current schema:[:download:`018 </images/testing_scenarios/DownloadExportDowngrade/018.png>`] (Insight only)
+    - |C| Check the exported file,
+    - |C| Open the file
+    - |C| Check the XML section the schema version should indicate the latest version e.g. 2012..[:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
+    - Export using an older schema:(Insight only)
+    - |C| Check the exported file
+    - |C| Open the file
+    - |C| Check the XML section, the schema version should match the selected schema.[:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
+    - Re-Import the exported files
 
