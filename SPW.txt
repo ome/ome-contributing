@@ -3,14 +3,9 @@ SPW
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check a plate/screen (with multiple Fields per well) import and viewing
-
-
+**Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
 
 #. In Importer, in the Location dialog. Switch from Project/Dataset to Screen. Import a plate with multiple fields for example ''ome/data_repo/test_images_good/cellworx/hms/plate1/plate1_802.pnl'' Other useful plate can be found [:download:`here <examples/ImportTestingSetTable.pdf>`]
 
@@ -31,5 +26,5 @@ Purpose of the test is to check a plate/screen (with multiple Fields per well) i
 #. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:download:`008 </images/testing_scenarios/SPW/008.png>`] (Insight only)
 
    - Select "Spatial" view [:download:`009 </images/testing_scenarios/SPW/009.png>`, :download:`010 </images/testing_scenarios/SPW/010.png>`]
-   - |C| Check that the spatial relation of the fields is displayed properly.
+   - |C| that the spatial relation of the fields is displayed properly.
    - Select "As a row" view [:download:`011 </images/testing_scenarios/SPW/011.png>`]

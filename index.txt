@@ -8,39 +8,11 @@ Testing scenarios
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+   :numbered:
 
-   Annotate
-   BrowseFilterPreview 
-   ConnectionErrorHandling
-   Create
-   DeAnnotateUnlink
-   Delete
-   DeleteROI
-   DownloadExportDowngrade
-   Edit
-   EditorfromInsight
-   EditorStandalone
-   GroupUserCreateAdmin
-   GroupUserEditAdmin
-   ImportCLI
-   ImportDropBox
-   ImporterStandalone
-   ImportFileFormatsTesting
-   ImportMultigroups
-   ImportUI
-   InsightasPluginImageJFiji
-   MetadataDisplay
-   MoveData
-   Render
-   ROIInsight
-   ROIWeb
-   ScriptsClient
-   Search
-   Share
-   SPW
-   UserGroupManipulation
-   View
-   ViewBig
+   WorkYourData.txt
+   WorkOthersData.txt
 
+   
 

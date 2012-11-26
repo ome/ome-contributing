@@ -10,7 +10,9 @@ Import CLI
 
 .. |C| replace:: **Check**
 
-Purpose of the test is to check the import of single, multiple images and multi-images file from command line
+**To test in**: Command line interface / Insight
+
+**Purpose of the test** is to check the import of single, multiple images and multi-images file from command line
 
 
 
@@ -20,21 +22,21 @@ Purpose of the test is to check the import of single, multiple images and multi-
 
 #. Log in onto appropriate server and user. Import a single image [:download:`001 <examples/CLI_001.txt>`]
 
-   - |C| Check that the file was imported using Insight UI [:download:`002 </images/testing_scenarios/ImportCLI/002.png>`]
+   - |C| that the file was imported using Insight UI [:download:`002 </images/testing_scenarios/ImportCLI/002.png>`]
 
 #. Import several images in one transaction.[:download:`003 <examples/CLI_003.txt>`]
 
-   - |C| Check that the files were imported using Insight UI [:download:`004 </images/testing_scenarios/ImportCLI/004.png>`]
+   - |C| that the files were imported using Insight UI [:download:`004 </images/testing_scenarios/ImportCLI/004.png>`]
 
 #. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here <examples/ImportTestingSetTable.pdf>`]
 
-   - |C| Check that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:download:`005 </images/testing_scenarios/ImportCLI/005.png>`]
-   - |C| Check that you can download the companion file
+   - |C| that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:download:`005 </images/testing_scenarios/ImportCLI/005.png>`]
+   - |C| that you can download the companion file
 
 #. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 <examples/CLI_007.txt>`, :download:`006 </images/testing_scenarios/ImportCLI/006.png>`]
 
-   - |C| Check that you can see the imported images within the file
+   - |C| that you can see the imported images within the file
 
 #. Try import into an existing database (use -d <databaseID>) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
 
-   - |C| Check the image has been imported into the right database and archived 
+   - |C| the image has been imported into the right database and archived 

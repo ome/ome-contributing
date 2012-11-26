@@ -3,11 +3,9 @@ Import (UI)
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Insight
 
-Insight
-
-Purpose of the test is to check all the features of Importer UI as started from Insight
+**Purpose of the test** is to check all the features of Importer UI as started from Insight
 
 Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <examples/ImportTestingTemplate.pdf>`]
 
@@ -30,7 +28,7 @@ Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable
    - Create a new tag
    - Import the images.
    - Go to the DataManager (left-hand side). Refresh
-   - |C| Check that the images are tagged and the tag is shown on thumbnails [:download:`006 </images/testing_scenarios/ImportUI/006.png>`, :download:`007 </images/testing_scenarios/ImportUI/007.png>`]
+   - |C| that the images are tagged and the tag is shown on thumbnails [:download:`006 </images/testing_scenarios/ImportUI/006.png>`, :download:`007 </images/testing_scenarios/ImportUI/007.png>`]
    - |C| and the tag is created once. [:download:`008 </images/testing_scenarios/ImportUI/008.png>`]
 
 #. Repeat (3) and this time
@@ -38,7 +36,7 @@ Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable
    - create a new tag and add an existing tag.[:download:`009 </images/testing_scenarios/ImportUI/009.png>`]
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
-   - |C| Check that the images are tagged and the tag is shown on thumbnails
+   - |C| that the images are tagged and the tag is shown on thumbnails
    - |C| The tag is created once
    - |C| no new tag is created with the name of the existing tag.
 
@@ -55,7 +53,7 @@ Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable
 
 #. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:download:`014 </images/testing_scenarios/ImportUI/014.png>`]
 
-   - |C| Check that you can view the error.[:download:`015 </images/testing_scenarios/ImportUI/015.png>`]
+   - |C| that you can view the error.[:download:`015 </images/testing_scenarios/ImportUI/015.png>`]
    - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:download:`016 </images/testing_scenarios/ImportUI/016.png>`]
    - Enter a valid e-mail address
    - |C| Make sure that you receive a notification e-mail.

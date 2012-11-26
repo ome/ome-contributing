@@ -1,0 +1,63 @@
+Bulk Annotations
+=================
+
+.. |C| replace:: **Check**
+
+**To test in**: Command line interface / Insight
+
+**Purpose of the test** is to check the creation of bulk annotations using a python script started from CLI
+
+#. You must have
+
+   - A working Python and Ice on the test machine  
+   - Downloaded (and extracted) `OMERO.server`*`.zip`
+   - Copied the ".csv" files from squig (test_plate.csv, test_screen.csv) i.e.
+
+         - `ome/team/screenshots/Testing Setup/Bulk annotations/test_plate.csv`
+         - `ome/team/screenshots/Testing Setup/Bulk annotations/test_screen.csv`
+
+#. Either in Insight UI or command line, create a Screen and note the Screen ID
+
+#. Import ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641 into the Screen created in step 2. 
+
+#. Import ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641 *again* not into a Screen and note the Plate ID
+
+#. In command line interface, change directory into OMERO.server-`*`/lib/python/
+
+#. Run the bulk annotation populate_metadata.py script for the MIAS dataset you imported into the Screen:
+
+      `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s <hostname> -u <username> Screen:<screen_id> path/to/test_screen.csv`
+
+   - If for example you have downloaded the CSVs to your desktop, have imported into Screen 51, are using howe and performing the tests as user-1:
+
+      `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s howe.openmicroscopy.org.uk -u user-1 Screen:51 ~/Desktop/test_screen.csv`
+
+#. Run the bulk annotation populate_metadata.py script for the MIAS dataset you imported without a Screen:
+
+      `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s <hostname> -u <username> Plate:<plate_id> path/to/test_plate.csv`
+
+   - If for example you have downloaded the CSVs to your desktop, ended up with an imported Plate 101, are using howe and performing the tests as user-1:
+
+      `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s howe.openmicroscopy.org.uk -u user-1 Plate:101 ~/Desktop/test_plate.csv`
+
+#. Open or go to the previously opened Insight UI
+
+#. |C| that there is a "bulk_annotations" File Annotation attached to the Screen you created and imported into
+
+#. |C| that there is a "bulk_annotations" File Annotation attached to the Plate you imported without a Screen
+
+#. With the Plate that you imported without a Screen select each of the 16 Wells with an Image in the middle panel individually:
+
+   - |C| Metadata is visible in the bottom left hand corner of the OMERO.insight tree view to the right of the Plate grid [:download:`001 </images/testing_scenarios/BulkAnnotations/001.png>`]
+   - |C| "Well" metadata is different for each selected Well
+   - |C| "Well Name" is correct for the selected Well
+   - |C| that the metadata match with the test_screen.csv (open the .csv in Excel)
+
+#. With the Plate that you imported into a Screen select each of the 16 Wells with an Image in the middle panel individually:
+
+   - |C| Metadata is visible in the bottom left hand corner of the OMERO.insight tree view to the right of the Plate grid [:download:`001 </images/testing_scenarios/BulkAnnotations/001.png>`]
+   - |C| the metadata is different for each selected Well
+   - |C| "Well Name" is correct for the selected Well
+   - |C| "Plate" is the same for each selected Well and matches the Plate's ID
+   - |C| "Plate Name" is the same for each selected Well and matches the Plate's name
+   - |C| that the metadata match with the test_plate.csv (open the .csv in Excel)

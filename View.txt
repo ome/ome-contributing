@@ -3,13 +3,9 @@ View
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-
-Purpose of the test is to test the View feature on multiple z/t image and to check the z-Projection creation functionality
+**Purpose of the test** is to test the View feature on multiple z/t image and to check the z-Projection creation functionality
 
 #. Import an image with several channels/timepoint/z-sections. [:download:`001 </images/testing_scenarios/View/001.png>`]
 
@@ -36,7 +32,7 @@ Purpose of the test is to test the View feature on multiple z/t image and to che
    - JPEG, PNG - use the icon in the projection window, see [:download:`007 </images/testing_scenarios/View/007.png>`, :download:`008 </images/testing_scenarios/View/008.png>`]
    - Save split channels.[:download:`008 </images/testing_scenarios/View/008.png>`]
    - Save with all channels turned off.
-   - |C| Check the saved files.
+   - |C| the saved files.
 
 
 

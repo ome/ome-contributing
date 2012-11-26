@@ -3,21 +3,18 @@ Edit
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check that the entities are editable smoothly and that the edited/changed texts are being respected
+**Purpose of the test** is to check that the entities are editable smoothly and that the edited/changed texts are being respected
 
 #. Edit project [:download:`001 </images/testing_scenarios/Edit/001.png>`], dataset [:download:`002 </images/testing_scenarios/Edit/002.png>`], image [:download:`003 </images/testing_scenarios/Edit/003.png>`], screen [:download:`004 </images/testing_scenarios/Edit/004.png>`], plate [:download:`005 </images/testing_scenarios/Edit/005.png>`], plate run (i.e. plate acquisition) [:download:`006 </images/testing_scenarios/Edit/006.png>`], field (i.e. Well sample) [:download:`007 </images/testing_scenarios/Edit/007.png>`]
 
    - Edit name (right panel, use pencil icon) [:download:`008 </images/testing_scenarios/Edit/008.png>`]
    - Edit description
-   - |C| Check that the text you put; in is escaped properly, this means for example
+   - |C| that the text you put; in is escaped properly, this means for example
    - Enter special htmil signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). the application should not interpret them but take as entered
 
 #. Edit share (Web only) [:download:`009 </images/testing_scenarios/Edit/009.png>`, :download:`010 </images/testing_scenarios/Edit/010.png>`], 
 
-   - |C| Check that the text you put; in is escaped properly - try to enter html special signs (e.g. <>), or scripts (e.g. <script>alert('hello')</script>)
+   - |C| that the text you put; in is escaped properly - try to enter html special signs (e.g. <>), or scripts (e.g. <script>alert('hello')</script>)
 

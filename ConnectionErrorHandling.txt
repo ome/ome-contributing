@@ -3,12 +3,9 @@ Connection/Error Handling
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Insight
 
-Insight
-
-
-Purpose of the test: error handling when server goes down, network failure etc.
+**Purpose of the test**: error handling when server goes down, network failure etc.
 
 #. Connect to local server.
 

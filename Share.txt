@@ -3,12 +3,9 @@ Share
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web
 
-Web
-
-
-Purpose of the test is to check the Share feature in Web, creation, visibility, and annotation possibility
+**Purpose of the test** is to check the Share feature in Web, creation, visibility, and annotation possibility
 
 #. Select images add to basket [:download:`001 </images/testing_scenarios/Share/001.png>`].
 
@@ -16,6 +13,6 @@ Purpose of the test is to check the Share feature in Web, creation, visibility, 
 
 #. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:download:`006 </images/testing_scenarios/Share/006.png>`, :download:`007 </images/testing_scenarios/Share/007.png>`]
 
-   - |C| Check that the number of images in the share [right-hand panel] is correct i.e. Share Count [:download:`008 </images/testing_scenarios/Share/008.png>`]
-   - |C| Check than images in the share can be viewed using the Preview and Full viewer [:download:`009 </images/testing_scenarios/Share/009.png>`]
-   - |C| Check that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:download:`010 </images/testing_scenarios/Share/010.png>`]
+   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:download:`008 </images/testing_scenarios/Share/008.png>`]
+   - |C| than images in the share can be viewed using the Preview and Full viewer [:download:`009 </images/testing_scenarios/Share/009.png>`]
+   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:download:`010 </images/testing_scenarios/Share/010.png>`]

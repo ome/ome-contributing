@@ -3,14 +3,10 @@ Delete ROI
 
 .. |C| replace:: **Check**
 
-To test in: 
-
-Insight
+**To test in**: Insight
 
 
-Purpose of the test is to test ROI deleting as well as ROI tools behaviour when the underlying image is being deleted
-
-
+**Purpose of the test** is to test ROI deleting as well as ROI tools behaviour when the underlying image is being deleted
 
 #. Add ROI to an image - use full viewer [:download:`001 </images/testing_scenarios/DeleteROI/001.png>`, :download:`002 </images/testing_scenarios/DeleteROI/002.png>`]
 
@@ -23,4 +19,4 @@ Purpose of the test is to test ROI deleting as well as ROI tools behaviour when 
 
 #. Add ROI to the image, go back to the DataManager and delete the image.
 
-   - |C| Check that the Measurement Tool window disappears.
+   - |C| that the Measurement Tool window disappears.

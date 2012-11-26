@@ -3,12 +3,9 @@ Create
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check that the creation of new entities is smooth, valid and sensible and the appropriate menu commands work and correspond (right-click and main menu)
+**Purpose of the test** is to check that the creation of new entities is smooth, valid and sensible and the appropriate menu commands work and correspond (right-click and main menu)
 
 #. Create new Project/Dataset/Screen* Create using right-click [:download:`001 </images/testing_scenarios/Create/001.png>`]
  
@@ -19,9 +16,9 @@ Purpose of the test is to check that the creation of new entities is smooth, val
 
 #. Select an image. Create New dataset from Selection (right-click - Insight only)
 
-   - |C| Check that a new dataset is created with the selected images inside
+   - |C| that a new dataset is created with the selected images inside
 
 #. Right-click on dataset, choose "New…."
 
-   - |C| Check that the "New project" window appears
+   - |C| that the "New project" window appears
 

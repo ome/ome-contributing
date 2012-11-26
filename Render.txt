@@ -3,12 +3,9 @@ Render
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional
+**Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional
 
 #. Copy settings from image [right-click on the thumbnail in central pane].[:download:`001 </images/testing_scenarios/Render/001.png>`] (Insight only)
 

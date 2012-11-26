@@ -3,15 +3,12 @@ Search
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose is to validate the Search engine of Insight and Web. 
+**Purpose of the test** is to validate the Search engine of Insight and Web. 
 Within this, the "empty To date option" in the search From - To Dates must be checked thoroughly as well as the reaction of the engine to single special/non-special characters
 
-#. |C| Check the available strings of names/tags/comments/attachments/URL/description in the group
+#. |C| the available strings of names/tags/comments/attachments/URL/description in the group
 
 #. Put a valid string into the Search box [:download:`001 </images/testing_scenarios/Search/001.png>`] - try single letters and numerals as well, To get to Search in Web, press to the right of the Search icon. [:download:`002 </images/testing_scenarios/Search/002.png>`].
 
@@ -25,35 +22,35 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 #. Choose a "Specify date range…" option (Insight) or go to Date (Web) and put only From date in, no To date [:download:`004 </images/testing_scenarios/Search/004.png>`]
 
-   - |C| Check that the images are found which are created/updated after the From date.
+   - |C| that the images are found which are created/updated after the From date.
 
 #. Search for images trying the options/combinations specified above
 
-   - |C| check the validity of the Search result
-   - |C| Check that you can view the thumbnails and metadata of images in Search result [:download:`005 </images/testing_scenarios/Search/005.png>`]
+   - |C| the validity of the Search result
+   - |C| that you can view the thumbnails and metadata of images in Search result [:download:`005 </images/testing_scenarios/Search/005.png>`]
 
 #. Repeat steps 1 - 8 with a non-existent string. Try special signs as well. Try single special signs. [:download:`004 </images/testing_scenarios/Search/004.png>`]
 
-   - |C| Check no images were found and that any warning message about wildcard search makes sense considering the character you put into the Search.
+   - |C| no images were found and that any warning message about wildcard search makes sense considering the character you put into the Search.
 
 #. Put a single character (numeral, letter, and special signs) in the Search window on the top right (Web only) and search.[:download:`006 </images/testing_scenarios/Search/006.png>`]
 
-   - |C| Check that no error occurs and that any warning message about wildcard search makes sense considering the character you put into the Search.
+   - |C| that no error occurs and that any warning message about wildcard search makes sense considering the character you put into the Search.
 
 #. Try steps 1 - 8 using Wildcard search (see the icon with question mark).[:download:`007 </images/testing_scenarios/Search/007.png>`, :download:`008 </images/testing_scenarios/Search/008.png>`]
 
-   - |C| Check the validity of search result.
+   - |C| the validity of search result.
 
 #. Try steps 1 -8 using Advanced search (Insight only) (yellow right arrow icon).
 
-   - |C| Check the validity of search result.
+   - |C| the validity of search result.
 
 #. Filter: Do steps 1 - 8 and filter by Tags (icon showing the Tag - Insight only [:download:`009 </images/testing_scenarios/Search/009.png>`])/Write into "Filter results" box additional strings to filter for (Web only) [:download:`010 </images/testing_scenarios/Search/010.png>`].
 
-   - |C| Check the validity of the filtered result.
+   - |C| the validity of the filtered result.
 
 #. Try batch searching (i.e. well-searching within a screen - Web only)
 
-   - |C| Check that the feature is self-explaining and easy to follow
+   - |C| that the feature is self-explaining and easy to follow
 
 

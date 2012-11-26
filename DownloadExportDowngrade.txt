@@ -9,12 +9,9 @@ Download/Export/Downgrade
 
 .. |C| replace:: **Check**
 
-To test in:
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import
+**Purpose of the test** is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import
 
 #.  Download :
 
@@ -22,15 +19,15 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
     - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
-    - |C| Check that you can see Info [:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
+    - |C| that you can see Info [:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
 
     - Download the Companion file [:download:`003 </images/testing_scenarios/DownloadExportDowngrade/003.png>`, :download:`004 </images/testing_scenarios/DownloadExportDowngrade/004.png>`] - open downloaded file in text editor,
 
-    - |C| Check their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
+    - |C| their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
 
     - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
 
-    - |C| Check the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
+    - |C| the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
 
 
 #.  Export:
@@ -43,7 +40,7 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
          - for Insight, press the Saving icon [2nd form right] and choose Download.[:download:`010 </images/testing_scenarios/DownloadExportDowngrade/010.png>`]
          - for Web click on the arrow in General tab and choose 1st option [:download:`011 </images/testing_scenarios/DownloadExportDowngrade/011.png>`]
-         - |C| Check that the image has correctly been downloaded [:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
+         - |C| that the image has correctly been downloaded [:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
 
     #. Re-import the image.(import in Insight, but check in Web as well)
 
@@ -59,7 +56,7 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
 
     #. Export as JPEG.[:download:`016 </images/testing_scenarios/DownloadExportDowngrade/016.png>`, :download:`017 </images/testing_scenarios/DownloadExportDowngrade/017.png>`]
 
-         - |C| Check the result
+         - |C| the result
 
 
 #.  Downgrade:
@@ -67,12 +64,12 @@ Purpose of the test is to check the Download, Export and Downgrade features and 
     - Select an image and go to the right-hand panel.
     - Select to "Export as OME-TIFF".(for Web, just export and check the file - for Insight, see below)
     - Export using the current schema:[:download:`018 </images/testing_scenarios/DownloadExportDowngrade/018.png>`] (Insight only)
-    - |C| Check the exported file,
+    - |C| the exported file,
     - |C| Open the file
-    - |C| Check the XML section the schema version should indicate the latest version e.g. 2012..[:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
+    - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
     - Export using an older schema:(Insight only)
-    - |C| Check the exported file
+    - |C| the exported file
     - |C| Open the file
-    - |C| Check the XML section, the schema version should match the selected schema.[:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
+    - |C| the XML section, the schema version should match the selected schema.[:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
     - Re-Import the exported files
 

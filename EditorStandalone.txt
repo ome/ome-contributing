@@ -3,12 +3,9 @@ Editor Standalone
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Standalone UI
 
-Standalone UI
-
-
-Purpose of the test is to check the Editor standalone client and to test its worthiness for writing/saving of Protocols/Text documentation
+**Purpose of the test** is to check the Editor standalone client and to test its worthiness for writing/saving of Protocols/Text documentation
 
    - |C| Check that the application starts.[:download:`001 </images/testing_scenarios/EditorStandalone/001.png>`]
 

@@ -3,12 +3,9 @@ Editor from Insight
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Insight
 
-Insight
-
-
-Purpose of the test is to check the functionality (edit, save, re-open) of Editor as launched from Insight
+**Purpose of the test** is to check the functionality (edit, save, re-open) of Editor as launched from Insight
 
 #. Launch editor from the Data Manager toolbar [:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
 

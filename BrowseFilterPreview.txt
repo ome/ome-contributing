@@ -3,13 +3,9 @@ Browse/Filter/Preview
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-
-Purpose of the test is to check the browsing/filtering/preview feature in clients and to check the sensibility of appropriate command menus
+**Purpose of the test** is to check the browsing/filtering/preview feature in clients and to check the sensibility of appropriate command menus
 
 #. Browse dataset/ Plate.
 
@@ -20,13 +16,13 @@ Purpose of the test is to check the browsing/filtering/preview feature in client
 #. If applicable
 
    - Sort the data by name
-   - |C| Check that right-click menu options are the same in Browser and DataManager (Insight only). [:download:`003 </images/testing_scenarios/BrowseFilterPreview/003.png>`, :download:`004 </images/testing_scenarios/BrowseFilterPreview/004.png>`]
+   - |C| that right-click menu options are the same in Browser and DataManager (Insight only). [:download:`003 </images/testing_scenarios/BrowseFilterPreview/003.png>`, :download:`004 </images/testing_scenarios/BrowseFilterPreview/004.png>`]
    - Create new dataset from selection
    - Double-click on image to open viewer.
 
-#. |C| Check multi-selection i.e. shift - key down.
+#. |C| multi-selection i.e. shift - key down.
 
-#. |C| Check that DataManager and right-hand panel are correctly synchronized and updated.
+#. |C| that DataManager and right-hand panel are correctly synchronized and updated.
 
 #. In Preview (right-hand of the window, "Preview" tab) [:download:`005 </images/testing_scenarios/BrowseFilterPreview/005.png>`]: if applicable
 

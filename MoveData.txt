@@ -3,16 +3,13 @@ Move Data
 
 .. |C| replace:: **Check**
 
-To test in:
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check the feature of moving the entities between groups in all possible manners
+**Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
 
 #. Move simple Project/Dataset/Image Screen/Plate between groups.[:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
 
-   - |C| Check they are correctly moved. (put group to display if necessary-Insight [:download:`005 </images/testing_scenarios/MoveData/005.png>`])
+   - |C| they are correctly moved. (put group to display if necessary-Insight [:download:`005 </images/testing_scenarios/MoveData/005.png>`])
 
 #. Move Project with dataset and images
 

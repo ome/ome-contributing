@@ -8,9 +8,9 @@ Import DropBox
 
 .. |C| replace:: **Check**
 
-Purpose of the test is to check the import using DropBox
+**To test in**: Command line interface/Dropbox/Insight
 
-
+**Purpose of the test** is to check the import using DropBox
 
 #. Find the DropBox folder in your ``/omero`` folder e.g. ``Petr/var/omero/DropBox``.
 
@@ -24,10 +24,10 @@ Purpose of the test is to check the import using DropBox
 
 #. Observe the log info in your command line
 
-   - |C| Check the file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`] and immediately
+   - |C| the file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`] and immediately
 
 #. Drag and Drop an accompanying file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
 
-   - |C| Check the accompanying file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`]
-   - |C| Check that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <examples/DropBox_001.txt>`]
-   - |C| Check that the files have been correctly imported (using Insight UI)
+   - |C| the accompanying file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`]
+   - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <examples/DropBox_001.txt>`]
+   - |C| that the files have been correctly imported (using Insight UI)

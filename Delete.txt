@@ -3,12 +3,9 @@ Delete
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check the Delete function on all entities (except ROI)
+**Purpose of the test** is to check the Delete function on all entities (except ROI)
 
 #. In the DataManager:
 

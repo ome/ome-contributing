@@ -3,12 +3,9 @@ Insight as Plugin ImageJ/Fiji
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: ImageJ
 
-ImageJ
-
-
-Purpose of the test is to check that the OMERO insight works as plugin for ImageJ/IJ64/Fiji and the loci_tools.jar missing is not causing a crash.
+**Purpose of the test** is to check that the OMERO insight works as plugin for ImageJ/IJ64/Fiji and the loci_tools.jar missing is not causing a crash.
 
 #. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:download:`001 </images/testing_scenarios/InsightasPluginImageJFiji/001.png>`].
 

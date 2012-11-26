@@ -3,12 +3,9 @@ De-Annotate/Unlink
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Web, Insight
 
-Web, Insight
-
-
-Purpose of the test is to check the De-annotate (alias Unlink, alias Remove) functionality This is another functionality than Delete (which is covered by a different scenario).
+**Purpose of the test** is to check the De-annotate (alias Unlink, alias Remove) functionality This is another functionality than Delete (which is covered by a different scenario).
 
 #. Go to right-hand pane in Insight
 
@@ -21,6 +18,6 @@ Purpose of the test is to check the De-annotate (alias Unlink, alias Remove) fun
 
 #. Remove image from Dataset (Web only - icon in left hand pane)
 
-   - |C| Check the image appears in the orphaned images in case it is not linked to other datasets.
+   - |C| the image appears in the orphaned images in case it is not linked to other datasets.
 
 

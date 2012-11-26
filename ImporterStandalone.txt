@@ -3,14 +3,11 @@ Importer Standalone
 
 .. |C| replace:: **Check**
 
-To test in: 
+**To test in**: Standalone Importer UI
 
-Standalone UI
-
-
-Purpose of the test is to check the Importer Standalone functionality in importing images/screens
+**Purpose of the test** is to check the Importer Standalone functionality in importing images/screens
  
-   - |C| Check that the application start and you can connect to the server [:download:`001 </images/testing_scenarios/ImporterStandalone/001.png>`, :download:`002 </images/testing_scenarios/ImporterStandalone/002.png>`]
+   - |C| that the application start and you can connect to the server [:download:`001 </images/testing_scenarios/ImporterStandalone/001.png>`, :download:`002 </images/testing_scenarios/ImporterStandalone/002.png>`]
 
 #. Import data in various groups if applicable [:download:`003 </images/testing_scenarios/ImporterStandalone/003.png>`, :download:`004 </images/testing_scenarios/ImporterStandalone/004.png>`, :download:`005 </images/testing_scenarios/ImporterStandalone/005.png>`, :download:`006 </images/testing_scenarios/ImporterStandalone/006.png>`]
 

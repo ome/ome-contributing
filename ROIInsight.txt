@@ -3,12 +3,9 @@ ROI Insight
 
 .. |C| replace:: **Check**
 
-To test in:
+**To test in**: Insight
 
-Insight
-
-
-Purpose of the test is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export)
+**Purpose of the test** is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export)
 
 #. Open an image with multiple z/t planes in Full Viewer
 
@@ -21,7 +18,7 @@ Purpose of the test is to check main ROI features in Insight (creation, editing,
 
 #. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box
 
-   - |C| Check the text (=comment...) appears and disappears.[:download:`003 </images/testing_scenarios/ROIInsight/003.png>`]
+   - |C| the text (=comment...) appears and disappears.[:download:`003 </images/testing_scenarios/ROIInsight/003.png>`]
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
 
@@ -34,13 +31,13 @@ Purpose of the test is to check main ROI features in Insight (creation, editing,
 
 #. Edit: change Fill and Line color [:download:`009 </images/testing_scenarios/ROIInsight/009.png>`]/ show-hide text/change width and height (Inspector tab)
 
-   - |C| Check the changes of the region display.
+   - |C| the changes of the region display.
 
 #. In Results tab, add new Measurements/remove Measurements using Results wizard.
 
    - Click on a row, check that the chosen region/plane changes in the image.
    - Export to Excel.
-   - |C| Check the file was created.
+   - |C| the file was created.
 
 
 **Graph, Intensity View and Intensity Results View tabs:**
@@ -49,22 +46,22 @@ Purpose of the test is to check main ROI features in Insight (creation, editing,
 
 #. Choose a Line-type of region.
 
-   - |C| Check that both Line profile and Histogram are shown.
+   - |C| that both Line profile and Histogram are shown.
 
 #. Try to create new regions when on Graph pane and to propagate them
 
    - Using the magic wand icon
    - Using right-click on the region
-   - |C| Check: message appears "ROI assistant cannot be used in graph pane or intensity view".
+   - |C|: message appears "ROI assistant cannot be used in graph pane or intensity view".
 
 #. Switch channels on/off on the image/select different regions/scroll through z planes on the Graph tab
 
-   - |C| Check that the graphs update
-   - |C| Check that the planes in the stack of images updates concurrently
+   - |C| that the graphs update
+   - |C| that the planes in the stack of images updates concurrently
 
 #. In Intensity View tab repeat steps 12 & 13. Export to Excel.
  
-   - |C| Check the file.
+   - |C| the file.
 
 #. Intensity Results View tab.
 
@@ -72,9 +69,9 @@ Purpose of the test is to check main ROI features in Insight (creation, editing,
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself)
    - NOW Select Intensity Results View tab (the region is still selected - do not change your selection now)
    - Press Add Selected
-   - |C| Check the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+   - |C| the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
    - Try to select more regions and press Add Selected
-   - |C| Check the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+   - |C| the data were added to the table [:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
    - Try Remove/Remove All.
    - Add data again and Export to Excel
-   - |C| Check the file. [:download:`011 </images/testing_scenarios/ROIInsight/011.png>`]
+   - |C| the file. [:download:`011 </images/testing_scenarios/ROIInsight/011.png>`]
