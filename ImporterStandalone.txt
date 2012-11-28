@@ -1,7 +1,7 @@
 Importer Standalone
 ===================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Standalone Importer UI
 

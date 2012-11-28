@@ -6,7 +6,7 @@ Import DropBox
  
     examples/DropBox_001
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Command line interface/Dropbox/Insight
 

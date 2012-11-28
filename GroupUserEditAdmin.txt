@@ -1,7 +1,7 @@
 Group/User Edit (Admin)
 ========================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Web, Insight
 

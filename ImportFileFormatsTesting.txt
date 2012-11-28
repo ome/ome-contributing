@@ -1,7 +1,7 @@
 Import File Formats Testing
 ============================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Insight
 

@@ -8,7 +8,7 @@ Import CLI
     examples/CLI_003
     examples/CLI_007
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Command line interface / Insight
 
@@ -39,4 +39,4 @@ Import CLI
 
 #. Try import into an existing database (use -d <databaseID>) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
 
-   - |C| the image has been imported into the right database and archived 
+   - |C| the image has been imported into the right database and archived

@@ -1,8 +1,6 @@
 Group/User Create (Admin)
 ==========================
 
-.. |C| replace:: **Check**
-
 **To test in**: Web, Insight
 
 **Purpose of the test** is to check the creation of new groups/users functionality when logged in as administrator

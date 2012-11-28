@@ -1,7 +1,7 @@
 Share
 ======
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Web
 

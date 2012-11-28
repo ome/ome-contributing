@@ -1,7 +1,7 @@
 Connection/Error Handling
 ==========================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Insight
 

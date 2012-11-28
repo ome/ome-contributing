@@ -1,7 +1,7 @@
 Bulk Annotations
 =================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Command line interface / Insight
 
@@ -10,7 +10,7 @@ Bulk Annotations
 #. You must have
 
    - A working Python and Ice on the test machine  
-   - Downloaded (and extracted) `OMERO.server`*`.zip`
+   - Downloaded (and extracted) `OMERO.server*.zip`
    - Copied the ".csv" files from squig (test_plate.csv, test_screen.csv) i.e.
 
          - `ome/team/screenshots/Testing Setup/Bulk annotations/test_plate.csv`
@@ -18,13 +18,13 @@ Bulk Annotations
 
 #. Either in Insight UI or command line, create a Screen and note the Screen ID
 
-#. Import ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641 into the Screen created in step 2. 
+#. Import `ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641` into the Screen created in step 2. 
 
-#. Import ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641 *again* not into a Screen and note the Plate ID
+#. Import `ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641` **again**, this time not into a Screen and note the Plate ID
 
-#. In command line interface, change directory into OMERO.server-`*`/lib/python/
+#. In command line interface, change directory into `OMERO.server-*/lib/python/`
 
-#. Run the bulk annotation populate_metadata.py script for the MIAS dataset you imported into the Screen:
+#. Run the bulk annotation `populate_metadata.py` script for the MIAS dataset you imported into the Screen:
 
       `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s <hostname> -u <username> Screen:<screen_id> path/to/test_screen.csv`
 
@@ -51,7 +51,7 @@ Bulk Annotations
    - |C| Metadata is visible in the bottom left hand corner of the OMERO.insight tree view to the right of the Plate grid [:download:`001 </images/testing_scenarios/BulkAnnotations/001.png>`]
    - |C| "Well" metadata is different for each selected Well
    - |C| "Well Name" is correct for the selected Well
-   - |C| that the metadata match with the test_screen.csv (open the .csv in Excel)
+   - |C| that the metadata match with the `test_screen.csv` (open the `.csv` in Excel)
 
 #. With the Plate that you imported into a Screen select each of the 16 Wells with an Image in the middle panel individually:
 
@@ -60,4 +60,5 @@ Bulk Annotations
    - |C| "Well Name" is correct for the selected Well
    - |C| "Plate" is the same for each selected Well and matches the Plate's ID
    - |C| "Plate Name" is the same for each selected Well and matches the Plate's name
-   - |C| that the metadata match with the test_plate.csv (open the .csv in Excel)
+   - |C| that the metadata match with the `test_plate.csv` (open the `.csv` in Excel)
+

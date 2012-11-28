@@ -1,7 +1,7 @@
 View
 =====
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Web, Insight
 

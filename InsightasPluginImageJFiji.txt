@@ -1,7 +1,7 @@
 Insight as Plugin ImageJ/Fiji
 ==============================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: ImageJ
 

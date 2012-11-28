@@ -1,7 +1,7 @@
 ROI Insight
 ===========
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Insight
 

@@ -7,7 +7,7 @@ Download/Export/Downgrade
     examples/Export_Downgrade_008
     examples/Export_Downgrade_original_metadata.txt
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Web, Insight
 

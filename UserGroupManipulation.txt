@@ -1,7 +1,7 @@
 User/Group Manipulation
 ========================
 
-.. |C| replace:: **Check**
+
 
 **To test in**: Web, Insight
 
