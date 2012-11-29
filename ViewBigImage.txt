@@ -9,11 +9,48 @@ View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:download:`001 </images/testing_scenarios/ViewBigImage/001.png>`, :download:`002 </images/testing_scenarios/ViewBigImage/002.png>`, :download:`003 </images/testing_scenarios/ViewBigImage/003.png>`]
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`][:ref:`ViewBigScreen003`][:download:`001 </images/testing_scenarios/ViewBigImage/001.png>`, :download:`002 </images/testing_scenarios/ViewBigImage/002.png>`, :download:`003 </images/testing_scenarios/ViewBigImage/003.png>`]
 
-#. Modify the resolution level using slider on the left (Insight) [:download:`004 </images/testing_scenarios/ViewBigImage/004.png>`] or mousewheel (Web) [:download:`005 </images/testing_scenarios/ViewBigImage/005.png>`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBigScreen004`][:download:`004 </images/testing_scenarios/ViewBigImage/004.png>`] or mousewheel (Web) [:ref:`ViewBigScreen005`][:download:`005 </images/testing_scenarios/ViewBigImage/005.png>`]
 
    - |C| tile loading
 
-#. Modify rendering settings [:download:`006 </images/testing_scenarios/ViewBigImage/006.png>`]
+#. Modify rendering settings [:ref:`ViewBigScreen006`][:download:`006 </images/testing_scenarios/ViewBigImage/006.png>`]
 
+
+
+.. _ViewBigScreen001:
+.. figure:: /images/testing_scenarios/ViewBigImage/001.png
+   :align: center
+
+   ViewBigScreen001: 
+
+.. _ViewBigScreen002:
+.. figure:: /images/testing_scenarios/ViewBigImage/002.png
+   :align: center
+
+   ViewBigScreen002:
+
+.. _ViewBigScreen003:
+.. figure:: /images/testing_scenarios/ViewBigImage/003.png
+   :align: center
+
+   ViewBigScreen003
+
+.. _ViewBigScreen004:
+.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+   :align: center
+
+   ViewBigScreen004
+
+.. _ViewBigScreen005:
+.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+   :align: center
+
+   ViewBigScreen005
+
+.. _ViewBigScreen006:
+.. figure:: /images/testing_scenarios/ViewBigImage/006.png
+   :align: center
+
+   ViewBigScreen006: 

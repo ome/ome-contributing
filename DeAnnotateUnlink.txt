@@ -11,13 +11,42 @@ De-Annotate/Unlink
 
 #. Unlink tags
 
-   - Unlink particular tags (left click - chose Unlink in Insight [:download:`001 </images/testing_scenarios/DeAnnotateUnlink/001.png>`, :download:`002b </images/testing_scenarios/DeAnnotateUnlink/002b.png>`], click on minus in Web to Remove)
-   - Unlink all tags added by you/by others (minus sign at Tags in Insight only) [:download:`002 </images/testing_scenarios/DeAnnotateUnlink/002.png>`]
+   - Unlink particular tags (left click - chose Unlink in Insight [:ref:`DeAnnotateUScreen001`][:ref:`DeAnnotateUScreen002`][:download:`001 </images/testing_scenarios/DeAnnotateUnlink/001.png>`, :download:`002b </images/testing_scenarios/DeAnnotateUnlink/002b.png>`], click on minus in Web to Remove)
+   - Unlink all tags added by you/by others (minus sign at Tags in Insight only) [:ref:`DeAnnotateUScreen003`][:download:`002 </images/testing_scenarios/DeAnnotateUnlink/002.png>`]
 
-#. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:download:`003 </images/testing_scenarios/DeAnnotateUnlink/003.png>`, :download:`004 </images/testing_scenarios/DeAnnotateUnlink/004.png>`]
+#. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:ref:`DeAnnotateUScreen004`][:ref:`DeAnnotateUScreen005`][:download:`003 </images/testing_scenarios/DeAnnotateUnlink/003.png>`, :download:`004 </images/testing_scenarios/DeAnnotateUnlink/004.png>`]
 
 #. Remove image from Dataset (Web only - icon in left hand pane)
 
    - |C| the image appears in the orphaned images in case it is not linked to other datasets.
 
 
+.. _DeAnnotateUScreen001:
+.. figure:: /images/testing_scenarios/DeAnnotateUnlink/001.png
+   :align: center
+
+   DeAnnotateUScreen001: 
+
+.. _DeAnnotateUScreen002:
+.. figure:: /images/testing_scenarios/DeAnnotateUnlink/002b.png
+   :align: center
+
+   DeAnnotateUScreen002:
+
+.. _DeAnnotateUScreen003:
+.. figure:: /images/testing_scenarios/DeAnnotateUnlink/002.png
+   :align: center
+
+   DeAnnotateUScreen003
+
+.. _DeAnnotateUScreen004:
+.. figure:: /images/testing_scenarios/DeAnnotateUnlink/003.png
+   :align: center
+
+   DeAnnotateUScreen004
+
+.. _DeAnnotateUScreen005:
+.. figure:: /images/testing_scenarios/DeAnnotateUnlink/004.png
+   :align: center
+
+   DeAnnotateUScreen005

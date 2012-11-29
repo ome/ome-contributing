@@ -26,11 +26,11 @@ Connection/Error Handling
    - restart the server
    - Turn channel on/off when the server is restarted.
 
-#. Connect to server (not local) using a network cable [:download:`001 </images/testing_scenarios/ConnectionErrorHandling/001.png>`]
+#. Connect to server (not local) using a network cable [:ref:`ConnectionEHScreen001`][:download:`001 </images/testing_scenarios/ConnectionErrorHandling/001.png>`]
 
    - Expand a project.
    - Unplug cable.
-   - Expand dataset [:download:`002 </images/testing_scenarios/ConnectionErrorHandling/002.png>`, :download:`003 </images/testing_scenarios/ConnectionErrorHandling/003.png>`]
+   - Expand dataset [:ref:`ConnectionEHScreen002`][:ref:`ConnectionEHScreen003`][:download:`002 </images/testing_scenarios/ConnectionErrorHandling/002.png>`, :download:`003 </images/testing_scenarios/ConnectionErrorHandling/003.png>`]
 
 #. Connect to server (not local) using a network cable
 
@@ -44,3 +44,21 @@ Connection/Error Handling
    - Expand a project.
    - Turn off the wireless network
    - Expand dataset
+
+.. _ConnectionEHScreen001:
+.. figure:: /images/testing_scenarios/ConnectionErrorHandling/001.png
+   :align: center
+
+   ConnectionEHScreen001: 
+
+.. _ConnectionEHScreen002:
+.. figure:: /images/testing_scenarios/ConnectionErrorHandling/002.png
+   :align: center
+
+   ConnectionEHScreen002:
+
+.. _ConnectionEHScreen003:
+.. figure:: /images/testing_scenarios/ConnectionErrorHandling/003.png
+   :align: center
+
+   ConnectionEHScreen003

@@ -7,15 +7,52 @@ Editor from Insight
 
 **Purpose of the test** is to check the functionality (edit, save, re-open) of Editor as launched from Insight
 
-#. Launch editor from the Data Manager toolbar [:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
+#. Launch editor from the Data Manager toolbar [:ref:`EditorfInsightScreen001`][:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
 
 #. Open a "New blank file", add few fields
 
-#. Save locally and save to the server using main menu File/Save As...[:download:`002 </images/testing_scenarios/EditorfromInsight/002.png>`, :download:`003 </images/testing_scenarios/EditorfromInsight/003.png>`, :download:`004 </images/testing_scenarios/EditorfromInsight/004.png>`, :download:`005 </images/testing_scenarios/EditorfromInsight/005.png>`]
+#. Save locally and save to the server using main menu File/Save As...[:ref:`EditorfInsightScreen002`][:ref:`EditorfInsightScreen003`][:ref:`EditorfInsightScreen004`][:ref:`EditorfInsightScreen005`][:download:`002 </images/testing_scenarios/EditorfromInsight/002.png>`, :download:`003 </images/testing_scenarios/EditorfromInsight/003.png>`, :download:`004 </images/testing_scenarios/EditorfromInsight/004.png>`, :download:`005 </images/testing_scenarios/EditorfromInsight/005.png>`]
 
-#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:download:`006 </images/testing_scenarios/EditorfromInsight/006.png>`].
+#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:ref:`EditorfInsightScreen006`][:download:`006 </images/testing_scenarios/EditorfromInsight/006.png>`].
 
    - Add more text to the file.
    - Save and close the editor.
 
 #. Repeat step 4.
+
+
+.. _EditorfInsightScreen001:
+.. figure:: /images/testing_scenarios/EditorfromInsight/001.png
+   :align: center
+
+   EditorfInsightScreen001: 
+
+.. _EditorfInsightScreen002:
+.. figure:: /images/testing_scenarios/EditorfromInsight/002.png
+   :align: center
+
+   EditorfInsightScreen002:
+
+.. _EditorfInsightScreen003:
+.. figure:: /images/testing_scenarios/EditorfromInsight/003.png
+   :align: center
+
+   EditorfInsightScreen003
+
+.. _EditorfInsightScreen004:
+.. figure:: /images/testing_scenarios/EditorfromInsight/004.png
+   :align: center
+
+   EditorfInsightScreen004
+
+.. _EditorfInsightScreen005:
+.. figure:: /images/testing_scenarios/EditorfromInsight/005.png
+   :align: center
+
+   EditorfInsightScreen005
+
+.. _EditorfInsightScreen006:
+.. figure:: /images/testing_scenarios/EditorfromInsight/006.png
+   :align: center
+
+   EditorfInsightScreen006: 

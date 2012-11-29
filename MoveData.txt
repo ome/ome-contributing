@@ -7,9 +7,9 @@ Move Data
 
 **Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
 
-#. Move simple Project/Dataset/Image Screen/Plate between groups.[:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+#. Move simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`][:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
 
-   - |C| they are correctly moved. (put group to display if necessary-Insight [:download:`005 </images/testing_scenarios/MoveData/005.png>`])
+   - |C| they are correctly moved. (put group to display if necessary-Insight [:ref:`MoveDataScreen005`][:download:`005 </images/testing_scenarios/MoveData/005.png>`])
 
 #. Move Project with dataset and images
 
@@ -19,6 +19,43 @@ Move Data
    - with ROI
    - with annotation
 
-#. Move using the right-click menu [:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+#. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`][:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
 
-#. Move via D&D (Insight only) [:download:`006 </images/testing_scenarios/MoveData/006.png>`]
+#. Move via D&D (Insight only) [:ref:`MoveDataScreen006`][:download:`006 </images/testing_scenarios/MoveData/006.png>`]
+
+
+.. _MoveDataScreen001:
+.. figure:: /images/testing_scenarios/MoveData/001.png
+   :align: center
+
+   MoveDataScreen001: 
+
+.. _MoveDataScreen002:
+.. figure:: /images/testing_scenarios/MoveData/002.png
+   :align: center
+
+   MoveDataScreen002:
+
+.. _MoveDataScreen003:
+.. figure:: /images/testing_scenarios/MoveData/003.png
+   :align: center
+
+   MoveDataScreen003
+
+.. _MoveDataScreen004:
+.. figure:: /images/testing_scenarios/MoveData/004.png
+   :align: center
+
+   MoveDataScreen004
+
+.. _MoveDataScreen005:
+.. figure:: /images/testing_scenarios/MoveData/005.png
+   :align: center
+
+   MoveDataScreen005
+
+.. _MoveDataScreen006:
+.. figure:: /images/testing_scenarios/MoveData/006.png
+   :align: center
+
+   MoveDataScreen006: 

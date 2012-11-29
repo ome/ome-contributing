@@ -7,8 +7,59 @@ Importer Standalone
 
 **Purpose of the test** is to check the Importer Standalone functionality in importing images/screens
  
-   - |C| that the application start and you can connect to the server [:download:`001 </images/testing_scenarios/ImporterStandalone/001.png>`, :download:`002 </images/testing_scenarios/ImporterStandalone/002.png>`]
+   - |C| that the application start and you can connect to the server [:ref:`ImporterStAScreen001`][:ref:`ImporterStAScreen002`][:download:`001 </images/testing_scenarios/ImporterStandalone/001.png>`, :download:`002 </images/testing_scenarios/ImporterStandalone/002.png>`]
 
-#. Import data in various groups if applicable [:download:`003 </images/testing_scenarios/ImporterStandalone/003.png>`, :download:`004 </images/testing_scenarios/ImporterStandalone/004.png>`, :download:`005 </images/testing_scenarios/ImporterStandalone/005.png>`, :download:`006 </images/testing_scenarios/ImporterStandalone/006.png>`]
+#. Import data in various groups if applicable [:ref:`ImporterStAScreen003`][:ref:`ImporterStAScreen004`][:ref:`ImporterStAScreen005`][:ref:`ImporterStAScreen006`][:download:`003 </images/testing_scenarios/ImporterStandalone/003.png>`, :download:`004 </images/testing_scenarios/ImporterStandalone/004.png>`, :download:`005 </images/testing_scenarios/ImporterStandalone/005.png>`, :download:`006 </images/testing_scenarios/ImporterStandalone/006.png>`]
 
-#. Create New Project/Dataset to import the images into.[:download:`007 </images/testing_scenarios/ImporterStandalone/007.png>`] Toggle the icon to Screen in the location selection window.[:download:`008 </images/testing_scenarios/ImporterStandalone/008.png>`] Create New Screen to import the plates into.
+#. Create New Project/Dataset to import the images into.[:ref:`ImporterStAScreen007`][:download:`007 </images/testing_scenarios/ImporterStandalone/007.png>`] Toggle the icon to Screen in the location selection window.[:ref:`ImporterStAScreen008`][:download:`008 </images/testing_scenarios/ImporterStandalone/008.png>`] Create New Screen to import the plates into.
+
+
+.. _ImporterStAScreen001:
+.. figure:: /images/testing_scenarios/ImporterStandalone/001.png
+   :align: center
+
+   ImporterStAScreen001: 
+
+.. _ImporterStAScreen002:
+.. figure:: /images/testing_scenarios/ImporterStandalone/002.png
+   :align: center
+
+   ImporterStAScreen002:
+
+.. _ImporterStAScreen003:
+.. figure:: /images/testing_scenarios/ImporterStandalone/003.png
+   :align: center
+
+   ImporterStAScreen003
+
+.. _ImporterStAScreen004:
+.. figure:: /images/testing_scenarios/ImporterStandalone/004.png
+   :align: center
+
+   ImporterStAScreen004
+
+.. _ImporterStAScreen005:
+.. figure:: /images/testing_scenarios/ImporterStandalone/005.png
+   :align: center
+
+   ImporterStAScreen005
+
+.. _ImporterStAScreen006:
+.. figure:: /images/testing_scenarios/ImporterStandalone/006.png
+   :align: center
+
+   ImporterStAScreen006: 
+
+.. _ImporterStAScreen007:
+.. figure:: /images/testing_scenarios/ImporterStandalone/007.png
+   :align: center
+
+   ImporterStAScreen007:
+
+.. _ImporterStAScreen008:
+.. figure:: /images/testing_scenarios/ImporterStandalone/008.png
+   :align: center
+
+   ImporterStAScreen008
+
+

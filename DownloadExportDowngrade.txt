@@ -19,42 +19,42 @@ Download/Export/Downgrade
 
     - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
-    - |C| that you can see Info [:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
+    - |C| that you can see Info [:ref:`DownloadEDScreen001`][:ref:`DownloadEDScreen002`][:download:`001 </images/testing_scenarios/DownloadExportDowngrade/001.png>`] and View the file [:download:`002 </images/testing_scenarios/DownloadExportDowngrade/002.png>`]
 
-    - Download the Companion file [:download:`003 </images/testing_scenarios/DownloadExportDowngrade/003.png>`, :download:`004 </images/testing_scenarios/DownloadExportDowngrade/004.png>`] - open downloaded file in text editor,
+    - Download the Companion file [:ref:`DownloadEDScreen003`][:ref:`DownloadEDScreen004`][:download:`003 </images/testing_scenarios/DownloadExportDowngrade/003.png>`, :download:`004 </images/testing_scenarios/DownloadExportDowngrade/004.png>`] - open downloaded file in text editor,
 
-    - |C| their size is not zero.[:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
+    - |C| their size is not zero.[:ref:`DownloadEDScreen005`][:download:`005 </images/testing_scenarios/DownloadExportDowngrade/005.png>`]
 
-    - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
+    - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`][:download:`006 </images/testing_scenarios/DownloadExportDowngrade/006.png>`, :download:`007 </images/testing_scenarios/DownloadExportDowngrade/007.png>`].
 
     - |C| the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
 
 
 #.  Export:
 
-    #. Import an image - tick the "Archive" option after putting it into the Queue [:download:`009 </images/testing_scenarios/DownloadExportDowngrade/009.png>`] (Insight only)
+    #. Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`][:download:`009 </images/testing_scenarios/DownloadExportDowngrade/009.png>`] (Insight only)
 
     #. Go to the left-hand panel of the datamanager, select the image
 
     #. Go to the right-hand panel General tab,
 
-         - for Insight, press the Saving icon [2nd form right] and choose Download.[:download:`010 </images/testing_scenarios/DownloadExportDowngrade/010.png>`]
-         - for Web click on the arrow in General tab and choose 1st option [:download:`011 </images/testing_scenarios/DownloadExportDowngrade/011.png>`]
-         - |C| that the image has correctly been downloaded [:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
+         - for Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadEDScreen010`][:download:`010 </images/testing_scenarios/DownloadExportDowngrade/010.png>`]
+         - for Web click on the arrow in General tab and choose 1st option [:ref:`DownloadEDScreen011`][:download:`011 </images/testing_scenarios/DownloadExportDowngrade/011.png>`]
+         - |C| that the image has correctly been downloaded [:ref:`DownloadEDScreen012`][:download:`012 </images/testing_scenarios/DownloadExportDowngrade/012.png>`]
 
     #. Re-import the image.(import in Insight, but check in Web as well)
 
-    #. |C| Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:download:`013 </images/testing_scenarios/DownloadExportDowngrade/013.png>`]
+    #. |C| Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:ref:`DownloadEDScreen013`][:download:`013 </images/testing_scenarios/DownloadExportDowngrade/013.png>`]
 
     #. Now Select an image with the archived option off. If not sure, re-import an image with archived off.(in Insight)
 
     #. Repeat steps 2 & 3 (under Export)
 
-         - |C| The image should be exported as an OME-TIFF this time.[:download:`014 </images/testing_scenarios/DownloadExportDowngrade/014.png>`]
+         - |C| The image should be exported as an OME-TIFF this time.[:ref:`DownloadEDScreen014`][:download:`014 </images/testing_scenarios/DownloadExportDowngrade/014.png>`]
 
-    #. Re-import the image.[:download:`015 </images/testing_scenarios/DownloadExportDowngrade/015.png>`]
+    #. Re-import the image.[:ref:`DownloadEDScreen015`][:download:`015 </images/testing_scenarios/DownloadExportDowngrade/015.png>`]
 
-    #. Export as JPEG.[:download:`016 </images/testing_scenarios/DownloadExportDowngrade/016.png>`, :download:`017 </images/testing_scenarios/DownloadExportDowngrade/017.png>`]
+    #. Export as JPEG.[:ref:`DownloadEDScreen016`][:ref:`DownloadEDScreen017`][:download:`016 </images/testing_scenarios/DownloadExportDowngrade/016.png>`, :download:`017 </images/testing_scenarios/DownloadExportDowngrade/017.png>`]
 
          - |C| the result
 
@@ -63,13 +63,133 @@ Download/Export/Downgrade
 
     - Select an image and go to the right-hand panel.
     - Select to "Export as OME-TIFF".(for Web, just export and check the file - for Insight, see below)
-    - Export using the current schema:[:download:`018 </images/testing_scenarios/DownloadExportDowngrade/018.png>`] (Insight only)
+    - Export using the current schema:[:ref:`DownloadEDScreen018`][:download:`018 </images/testing_scenarios/DownloadExportDowngrade/018.png>`] (Insight only)
     - |C| the exported file,
     - |C| Open the file
-    - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
+    - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadEDScreen019`][:download:`019 </images/testing_scenarios/DownloadExportDowngrade/019.png>`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadEDScreen020`][:download:`020 </images/testing_scenarios/DownloadExportDowngrade/020.png>`]
     - Export using an older schema:(Insight only)
     - |C| the exported file
     - |C| Open the file
-    - |C| the XML section, the schema version should match the selected schema.[:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
+    - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadEDScreen021`][:download:`021 </images/testing_scenarios/DownloadExportDowngrade/021.png>`] -Check from command line using tiffinfo
     - Re-Import the exported files
 
+	.. _DownloadEDScreen001:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
+	   :align: center
+
+	   DownloadEDScreen001: 
+
+	.. _DownloadEDScreen002:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/002.png
+	   :align: center
+
+	   DownloadEDScreen002:
+
+	.. _DownloadEDScreen003:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/003.png
+	   :align: center
+
+	   DownloadEDScreen003
+
+	.. _DownloadEDScreen004:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/004.png
+	   :align: center
+
+	   DownloadEDScreen004
+
+	.. _DownloadEDScreen005:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/005.png
+	   :align: center
+
+	   DownloadEDScreen005
+
+	.. _DownloadEDScreen006:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/006.png
+	   :align: center
+
+	   DownloadEDScreen006: 
+
+	.. _DownloadEDScreen007:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007.png
+	   :align: center
+
+	   DownloadEDScreen007:
+
+
+	.. _DownloadEDScreen009:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/009.png
+	   :align: center
+
+	   DownloadEDScreen009: 
+
+	.. _DownloadEDScreen010:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010.png
+	   :align: center
+
+	   DownloadEDScreen010:
+
+	.. _DownloadEDScreen011:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/011.png
+	   :align: center
+
+	   DownloadEDScreen011
+
+	.. _DownloadEDScreen012:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/012.png
+	   :align: center
+
+	   DownloadEDScreen012
+
+	.. _DownloadEDScreen013:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013.png
+	   :align: center
+
+	   DownloadEDScreen013
+
+	.. _DownloadEDScreen014:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/014.png
+	   :align: center
+
+	   DownloadEDScreen014: 
+
+	.. _DownloadEDScreen015:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/015.png
+	   :align: center
+
+	   DownloadEDScreen015:
+
+	.. _DownloadEDScreen016:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/016.png
+	   :align: center
+
+	   DownloadEDScreen016
+
+	.. _DownloadEDScreen017:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017.png
+	   :align: center
+
+	   DownloadEDScreen017: 
+
+	.. _DownloadEDScreen018:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/018.png
+	   :align: center
+
+	   DownloadEDScreen018:
+
+	.. _DownloadEDScreen019:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/019.png
+	   :align: center
+
+	   DownloadEDScreen019
+
+	.. _DownloadEDScreen020:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/020.png
+	   :align: center
+
+	   DownloadEDScreen020
+
+	.. _DownloadEDScreen021:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/021.png
+	   :align: center
+
+	   DownloadEDScreen021

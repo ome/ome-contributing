@@ -7,14 +7,73 @@ Edit
 
 **Purpose of the test** is to check that the entities are editable smoothly and that the edited/changed texts are being respected
 
-#. Edit project [:download:`001 </images/testing_scenarios/Edit/001.png>`], dataset [:download:`002 </images/testing_scenarios/Edit/002.png>`], image [:download:`003 </images/testing_scenarios/Edit/003.png>`], screen [:download:`004 </images/testing_scenarios/Edit/004.png>`], plate [:download:`005 </images/testing_scenarios/Edit/005.png>`], plate run (i.e. plate acquisition) [:download:`006 </images/testing_scenarios/Edit/006.png>`], field (i.e. Well sample) [:download:`007 </images/testing_scenarios/Edit/007.png>`]
+#. Edit project [:ref:`EditScreen001`][:download:`001 </images/testing_scenarios/Edit/001.png>`], dataset  [:ref:`EditScreen002`][:download:`002 </images/testing_scenarios/Edit/002.png>`], image [:ref:`EditScreen003`][:download:`003 </images/testing_scenarios/Edit/003.png>`], screen [:ref:`EditScreen004`][:download:`004 </images/testing_scenarios/Edit/004.png>`], plate [:ref:`EditScreen005`][:download:`005 </images/testing_scenarios/Edit/005.png>`], plate run (i.e. plate acquisition) [:ref:`EditScreen006`][:download:`006 </images/testing_scenarios/Edit/006.png>`], field (i.e. Well sample) [:ref:`EditScreen007`][:download:`007 </images/testing_scenarios/Edit/007.png>`]
 
-   - Edit name (right panel, use pencil icon) [:download:`008 </images/testing_scenarios/Edit/008.png>`]
+   - Edit name (right panel, use pencil icon) [:ref:`EditScreen008`][:download:`008 </images/testing_scenarios/Edit/008.png>`]
    - Edit description
    - |C| that the text you put; in is escaped properly, this means for example
    - Enter special htmil signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). the application should not interpret them but take as entered
 
-#. Edit share (Web only) [:download:`009 </images/testing_scenarios/Edit/009.png>`, :download:`010 </images/testing_scenarios/Edit/010.png>`], 
+#. Edit share (Web only) [:ref:`EditScreen009`][:ref:`EditScreen010`][:download:`009 </images/testing_scenarios/Edit/009.png>`, :download:`010 </images/testing_scenarios/Edit/010.png>`], 
 
    - |C| that the text you put; in is escaped properly - try to enter html special signs (e.g. <>), or scripts (e.g. <script>alert('hello')</script>)
 
+	.. _EditScreen001:
+	.. figure:: /images/testing_scenarios/Edit/001.png
+	   :align: center
+
+	   EditScreen001: 
+
+	.. _EditScreen002:
+	.. figure:: /images/testing_scenarios/Edit/002.png
+	   :align: center
+
+	   EditScreen002:
+
+	.. _EditScreen003:
+	.. figure:: /images/testing_scenarios/Edit/003.png
+	   :align: center
+
+	   EditScreen003
+
+	.. _EditScreen004:
+	.. figure:: /images/testing_scenarios/Edit/004.png
+	   :align: center
+
+	   EditScreen004
+
+	.. _EditScreen005:
+	.. figure:: /images/testing_scenarios/Edit/005.png
+	   :align: center
+
+	   EditScreen005
+
+	.. _EditScreen006:
+	.. figure:: /images/testing_scenarios/Edit/006.png
+	   :align: center
+
+	   EditScreen006: 
+
+	.. _EditScreen007:
+	.. figure:: /images/testing_scenarios/Edit/007.png
+	   :align: center
+
+	   EditScreen007:
+
+	.. _EditScreen008:
+	.. figure:: /images/testing_scenarios/Edit/008.png
+	   :align: center
+
+	   EditScreen008
+
+	.. _EditScreen009:
+	.. figure:: /images/testing_scenarios/Edit/009.png
+	   :align: center
+
+	   EditScreen009: 
+
+	.. _EditScreen010:
+	.. figure:: /images/testing_scenarios/Edit/010.png
+	   :align: center
+
+	   EditScreen010: 

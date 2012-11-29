@@ -7,12 +7,12 @@ Create
 
 **Purpose of the test** is to check that the creation of new entities is smooth, valid and sensible and the appropriate menu commands work and correspond (right-click and main menu)
 
-#. Create new Project/Dataset/Screen* Create using right-click [:download:`001 </images/testing_scenarios/Create/001.png>`]
+#. Create new Project/Dataset/Screen* Create using right-click [:ref:`CreateScreen001`][:download:`001 </images/testing_scenarios/Create/001.png>`]
  
-   - Create using the icon [:download:`002 </images/testing_scenarios/Create/002.png>`, :download:`003 </images/testing_scenarios/Create/003.png>`, :download:`004 </images/testing_scenarios/Create/004.png>`]
-   - Create using the main menu (Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
+   - Create using the icon [:ref:`CreateScreen002`, :ref:`CreateScreen003`, :ref:`CreateScreen004`][:download:`002 </images/testing_scenarios/Create/002.png>`, :download:`003 </images/testing_scenarios/Create/003.png>`, :download:`004 </images/testing_scenarios/Create/004.png>`]
+   - Create using the main menu (Insight only) [:ref:`CreateScreen005`][:download:`005 </images/testing_scenarios/Create/005.png>`]
 
-#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:download:`005 </images/testing_scenarios/Create/005.png>`]
+#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`CreateScreen005`][:download:`005 </images/testing_scenarios/Create/005.png>`]
 
 #. Select an image. Create New dataset from Selection (right-click - Insight only)
 
@@ -22,3 +22,32 @@ Create
 
    - |C| that the "New project" window appears
 
+.. _CreateScreen001:
+.. figure:: /images/testing_scenarios/Create/001.png
+   :align: center
+
+   CreateScreen001: 
+
+.. _CreateScreen002:
+.. figure:: /images/testing_scenarios/Create/002.png
+   :align: center
+
+   CreateScreen002:
+
+.. _CreateScreen003:
+.. figure:: /images/testing_scenarios/Create/003.png
+   :align: center
+
+   CreateScreen003
+
+.. _CreateScreen004:
+.. figure:: /images/testing_scenarios/Create/004.png
+   :align: center
+
+   CreateScreen004
+
+.. _CreateScreen005:
+.. figure:: /images/testing_scenarios/Create/005.png
+   :align: center
+
+   CreateScreen005

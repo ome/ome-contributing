@@ -5,21 +5,76 @@ Group/User Create (Admin)
 
 **Purpose of the test** is to check the creation of new groups/users functionality when logged in as administrator
 
-#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:download:`00Web </images/testing_scenarios/GroupUserCreateAdmin/00Web.png>`]), 
+#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCrScreen001`][:download:`00Web </images/testing_scenarios/GroupUserCreateAdmin/00Web.png>`]), 
 
 #. Create new group 
 
-   - using the icon above the tree [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001insight.png>`] (Insight only)
+   - using the icon above the tree [:ref:`AdminGrUsCrScreen002`][:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001insight.png>`] (Insight only)
    - using the right-click (Insight only)
-   - using the button (called "Add new..." in Web, Web only) [:download:`001Web </images/testing_scenarios/GroupUserCreateAdmin/001Web.png>`, :download:`002Web </images/testing_scenarios/GroupUserCreateAdmin/002Web.png>`]  
+   - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCrScreen003`][:ref:`AdminGrUsCrScreen004`][:download:`001Web </images/testing_scenarios/GroupUserCreateAdmin/001Web.png>`, :download:`002Web </images/testing_scenarios/GroupUserCreateAdmin/002Web.png>`]  
    - create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
 
-#. Create new user [:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001Insight.png>`, :download:`003Web </images/testing_scenarios/GroupUserCreateAdmin/003Web.png>`, :download:`004Web </images/testing_scenarios/GroupUserCreateAdmin/004Web.png>`]
+#. Create new user [:ref:`AdminGrUsCrScreen005`][:ref:`AdminGrUsCrScreen006`][:ref:`AdminGrUsCrScreen007`][:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001Insight.png>`, :download:`003Web </images/testing_scenarios/GroupUserCreateAdmin/003Web.png>`, :download:`004Web </images/testing_scenarios/GroupUserCreateAdmin/004Web.png>`]
 
    - tick/do not tick the Administrator box in the creation window
    - |C| that the new user is (or is not) an Administrator as appropriate
-   - tick/do not tick the Group owner box (Insight only) [:download:`005Insight </images/testing_scenarios/GroupUserCreateAdmin/005Insight.png>`]
+   - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCrScreen008`][:download:`005Insight </images/testing_scenarios/GroupUserCreateAdmin/005Insight.png>`]
    - |C| that the new user is (or is not) Group owner as appropriate
-   - add the new user to one or more existing groups [:download:`006Web </images/testing_scenarios/GroupUserCreateAdmin/006Web.png>`]
+   - add the new user to one or more existing groups [:ref:`AdminGrUsCrScreen009`][:download:`006Web </images/testing_scenarios/GroupUserCreateAdmin/006Web.png>`]
    - |C| that the user has been added to the groups correctly
+
+
+	.. _AdminGrUsCrScreen001:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/00Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen001: 
+
+	.. _AdminGrUsCrScreen002:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
+	   :align: center
+
+	   AdminGrUsCrScreen002:
+
+	.. _AdminGrUsCrScreen003:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen003
+
+	.. _AdminGrUsCrScreen004:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen004
+
+	.. _AdminGrUsCrScreen005:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
+	   :align: center
+
+	   AdminGrUsCrScreen005
+
+	.. _AdminGrUsCrScreen006:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/003Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen006: 
+
+	.. _AdminGrUsCrScreen007:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/004Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen007:
+
+	.. _AdminGrUsCrScreen008:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/005Insight.png
+	   :align: center
+
+	   AdminGrUsCrScreen008
+
+	.. _AdminGrUsCrScreen009:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/006Web.png
+	   :align: center
+
+	   AdminGrUsCrScreen009: 

@@ -12,8 +12,8 @@ Import and Multigroups
    - Select an image
    - Choose where to import the image in the first group.
    - Do not change the selection, switch group and select where to import the image in the second group.
-   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:download:`001 </images/testing_scenarios/ImportMultigroups/001.png>`]
-   - |C| Make sure that the image is in the correct location (in both groups). [:download:`002 </images/testing_scenarios/ImportMultigroups/002.png>`]
+   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen002`][:download:`001 </images/testing_scenarios/ImportMultigroups/001.png>`]
+   - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGrScreen002`][:download:`002 </images/testing_scenarios/ImportMultigroups/002.png>`]
 
 #. Import queue
 
@@ -23,3 +23,16 @@ Import and Multigroups
    - In the location dialog, switch group and select "New Dataset".
    - Go back to the Data Manager and add the 2 groups to the display if not already added.
    - |C| Make sure that the image is in the correct location.
+
+
+.. _ImportMultiGrScreen001:
+.. figure:: /images/testing_scenarios/ImportMultigroups/001.png
+   :align: center
+
+   ImportMultiGrScreen001: 
+
+.. _ImportMultiGrScreen002:
+.. figure:: /images/testing_scenarios/ImportMultigroups/002.png
+   :align: center
+
+   ImportMultiGrScreen002:

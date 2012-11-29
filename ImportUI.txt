@@ -12,48 +12,145 @@ Find suitable images here [:download:`TestingSet <examples/ImportTestingSetTable
 #. Select single image files
 
    - Add them to the queue by pressing the ">" control.
-   - Select "New From Folder" option [:download:`001 </images/testing_scenarios/ImportUI/001.png>`] when choosing where to import the images.
+   - Select "New From Folder" option [:ref:`ImportUIScreen001`][:download:`001 </images/testing_scenarios/ImportUI/001.png>`] when choosing where to import the images.
    - |C| A new Dataset will be created with the name of the folder.
-   - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:download:`002 </images/testing_scenarios/ImportUI/002.png>`].
+   - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUIScreen002`][:download:`002 </images/testing_scenarios/ImportUI/002.png>`].
    - Click import.
    - Go to the DataManager (left-hand side). Hit the refresh button
-   - |C| make sure that only one dataset is created. [:download:`003 </images/testing_scenarios/ImportUI/003.png>`]
+   - |C| make sure that only one dataset is created. [:ref:`ImportUIScreen003`][:download:`003 </images/testing_scenarios/ImportUI/003.png>`]
 
-#. Repeat (1) this time by selecting a folder. [:download:`004 </images/testing_scenarios/ImportUI/004.png>`]
+#. Repeat (1) this time by selecting a folder. [:ref:`ImportUIScreen004`][:download:`004 </images/testing_scenarios/ImportUI/004.png>`]
 
 #. Tag at import
 
    - Select at least 2 images.
-   - Go to the "options" tab. The second tab when selecting the import location.[:download:`005 </images/testing_scenarios/ImportUI/005.png>`]
+   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUIScreen005`][:download:`005 </images/testing_scenarios/ImportUI/005.png>`]
    - Create a new tag
    - Import the images.
    - Go to the DataManager (left-hand side). Refresh
-   - |C| that the images are tagged and the tag is shown on thumbnails [:download:`006 </images/testing_scenarios/ImportUI/006.png>`, :download:`007 </images/testing_scenarios/ImportUI/007.png>`]
-   - |C| and the tag is created once. [:download:`008 </images/testing_scenarios/ImportUI/008.png>`]
+   - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUIScreen006`][:ref:`ImportUIScreen007`][:download:`006 </images/testing_scenarios/ImportUI/006.png>`, :download:`007 </images/testing_scenarios/ImportUI/007.png>`]
+   - |C| and the tag is created once. [:ref:`ImportUIScreen008`][:download:`008 </images/testing_scenarios/ImportUI/008.png>`]
 
 #. Repeat (3) and this time
 
-   - create a new tag and add an existing tag.[:download:`009 </images/testing_scenarios/ImportUI/009.png>`]
+   - create a new tag and add an existing tag.[:ref:`ImportUIScreen009`][:download:`009 </images/testing_scenarios/ImportUI/009.png>`]
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
    - |C| that the images are tagged and the tag is shown on thumbnails
    - |C| The tag is created once
    - |C| no new tag is created with the name of the existing tag.
 
-#. In the Location dialog, Switch between Project/Dataset and Screen [:download:`010 </images/testing_scenarios/ImportUI/010.png>`, :download:`011 </images/testing_scenarios/ImportUI/011.png>`]
+#. In the Location dialog, Switch between Project/Dataset and Screen [:ref:`ImportUIScreen010`][:ref:`ImportUIScreen011`][:download:`010 </images/testing_scenarios/ImportUI/010.png>`, :download:`011 </images/testing_scenarios/ImportUI/011.png>`]
 
 #. Import a Plate e.g. ``data_repo/from_skyking/flex/achim/003003000.flex``
 
 #. When the import is done, check in the import Window:
 
-   - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:download:`012 </images/testing_scenarios/ImportUI/012.png>`]
-   - |C| Hover over it.[:download:`013 </images/testing_scenarios/ImportUI/013.png>`]
+   - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUIScreen012`][:download:`012 </images/testing_scenarios/ImportUI/012.png>`]
+   - |C| Hover over it.[:ref:`ImportUIScreen013`][:download:`013 </images/testing_scenarios/ImportUI/013.png>`]
    - |C| Click on the thumbnail to open the image viewer
    - |C| If Dataset is highlighted in blue, click on the dataset. This should bring you to the Data Manager.
 
-#. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:download:`014 </images/testing_scenarios/ImportUI/014.png>`]
+#. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUIScreen014`][:download:`014 </images/testing_scenarios/ImportUI/014.png>`]
 
-   - |C| that you can view the error.[:download:`015 </images/testing_scenarios/ImportUI/015.png>`]
-   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:download:`016 </images/testing_scenarios/ImportUI/016.png>`]
+   - |C| that you can view the error.[:ref:`ImportUIScreen015`][:download:`015 </images/testing_scenarios/ImportUI/015.png>`]
+   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:ref:`ImportUIScreen016`][:download:`016 </images/testing_scenarios/ImportUI/016.png>`]
    - Enter a valid e-mail address
    - |C| Make sure that you receive a notification e-mail.
+
+
+	.. _ImportUIScreen001:
+	.. figure:: /images/testing_scenarios/ImportUI/001.png
+	   :align: center
+
+	   ImportUIScreen001: 
+
+	.. _ImportUIScreen002:
+	.. figure:: /images/testing_scenarios/ImportUI/002.png
+	   :align: center
+
+	   ImportUIScreen002:
+
+	.. _ImportUIScreen003:
+	.. figure:: /images/testing_scenarios/ImportUI/003.png
+	   :align: center
+
+	   ImportUIScreen003
+
+	.. _ImportUIScreen004:
+	.. figure:: /images/testing_scenarios/ImportUI/004.png
+	   :align: center
+
+	   ImportUIScreen004
+
+	.. _ImportUIScreen005:
+	.. figure:: /images/testing_scenarios/ImportUI/005.png
+	   :align: center
+
+	   ImportUIScreen005
+
+	.. _ImportUIScreen006:
+	.. figure:: /images/testing_scenarios/ImportUI/006.png
+	   :align: center
+
+	   ImportUIScreen006: 
+
+	.. _ImportUIScreen007:
+	.. figure:: /images/testing_scenarios/ImportUI/007.png
+	   :align: center
+
+	   ImportUIScreen007:
+
+	.. _ImportUIScreen008:
+	.. figure:: /images/testing_scenarios/ImportUI/008.png
+	   :align: center
+
+	   ImportUIScreen008
+
+	.. _ImportUIScreen009:
+	.. figure:: /images/testing_scenarios/ImportUI/009.png
+	   :align: center
+
+	   ImportUIScreen009: 
+
+	.. _ImportUIScreen010:
+	.. figure:: /images/testing_scenarios/ImportUI/010.png
+	   :align: center
+
+	   ImportUIScreen010:
+
+	.. _ImportUIScreen011:
+	.. figure:: /images/testing_scenarios/ImportUI/011.png
+	   :align: center
+
+	   ImportUIScreen011
+
+	.. _ImportUIScreen012:
+	.. figure:: /images/testing_scenarios/ImportUI/012.png
+	   :align: center
+
+	   ImportUIScreen012
+
+	.. _ImportUIScreen013:
+	.. figure:: /images/testing_scenarios/ImportUI/013.png
+	   :align: center
+
+	   ImportUIScreen013
+
+	.. _ImportUIScreen014:
+	.. figure:: /images/testing_scenarios/ImportUI/014.png
+	   :align: center
+
+	   ImportUIScreen014: 
+
+	.. _ImportUIScreen015:
+	.. figure:: /images/testing_scenarios/ImportUI/015.png
+	   :align: center
+
+	   ImportUIScreen015:
+
+	.. _ImportUIScreen016:
+	.. figure:: /images/testing_scenarios/ImportUI/016.png
+	   :align: center
+
+	   ImportUIScreen016

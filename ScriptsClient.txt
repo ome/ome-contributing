@@ -10,24 +10,67 @@ Scripts Client
 
 #. Select a dataset
 
-#. Open list of available scripts.[:download:`001 </images/testing_scenarios/ScriptsClient/001.png>`]
+#. Open list of available scripts.[:ref:`ScriptClientScreen001`][:download:`001 </images/testing_scenarios/ScriptsClient/001.png>`]
 
-#. Select a script running on datasets.[:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
+#. Select a script running on datasets.[:ref:`ScriptClientScreen002`][:ref:`ScriptClientScreen003`][:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
 
    - |C| that the data type is set to dataset and the id of the dataset is displayed in the id field.
 
    - Select other data type if applicable,
 
-   - |C| that the id is removed.[:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
+   - |C| that the id is removed.[:ref:`ScriptClientScreen002`][:ref:`ScriptClientScreen003`][:download:`002 </images/testing_scenarios/ScriptsClient/002.png>`, :download:`003 </images/testing_scenarios/ScriptsClient/003.png>`]
 
 #. Select the initial data type and enter the initial id.
 
 #. Run the script and
 
-   - |C| that an entry is added to the activities section [:download:`004 </images/testing_scenarios/ScriptsClient/004.png>`, :download:`005 </images/testing_scenarios/ScriptsClient/005.png>`]
+   - |C| that an entry is added to the activities section [:ref:`ScriptClientScreen004`][:ref:`ScriptClientScreen005`][:download:`004 </images/testing_scenarios/ScriptsClient/004.png>`, :download:`005 </images/testing_scenarios/ScriptsClient/005.png>`]
 
 #. Click on the result link e.g.
 
-   - |C| View if the script ran to completion w/o errors.[:download:`006 </images/testing_scenarios/ScriptsClient/006.png>`, :download:`007 </images/testing_scenarios/ScriptsClient/007.png>`]
+   - |C| View if the script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`][:download:`006 </images/testing_scenarios/ScriptsClient/006.png>`, :download:`007 </images/testing_scenarios/ScriptsClient/007.png>`]
 
 #. Repeat all steps with another type e.g. Image
+
+
+.. _ScriptClientScreen001:
+.. figure:: /images/testing_scenarios/ScriptsClient/001.png
+   :align: center
+
+   ScriptClientScreen001: 
+
+.. _ScriptClientScreen002:
+.. figure:: /images/testing_scenarios/ScriptsClient/002.png
+   :align: center
+
+   ScriptClientScreen002:
+
+.. _ScriptClientScreen003:
+.. figure:: /images/testing_scenarios/ScriptsClient/003.png
+   :align: center
+
+   ScriptClientScreen003
+
+.. _ScriptClientScreen004:
+.. figure:: /images/testing_scenarios/ScriptsClient/004.png
+   :align: center
+
+   ScriptClientScreen004
+
+.. _ScriptClientScreen005:
+.. figure:: /images/testing_scenarios/ScriptsClient/005.png
+   :align: center
+
+   ScriptClientScreen005
+
+.. _ScriptClientScreen006:
+.. figure:: /images/testing_scenarios/ScriptsClient/006.png
+   :align: center
+
+   ScriptClientScreen006: 
+
+.. _ScriptClientScreen007:
+.. figure:: /images/testing_scenarios/ScriptsClient/007.png
+   :align: center
+
+   ScriptClientScreen007:

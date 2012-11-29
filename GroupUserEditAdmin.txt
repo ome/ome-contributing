@@ -7,7 +7,7 @@ Group/User Edit (Admin)
 
 **Purpose of the test** is to check the Editing and changing of Group/User as administrator
 
-#. Edit group [:download:`001Insight </images/testing_scenarios/GroupUserEditAdmin/001Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`. :download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`].
+#. Edit group [:ref:`AdminGrUsEdScreen001`][:ref:`AdminGrUsEdScreen002`][:ref:`AdminGrUsEdScreen003`][:download:`001Insight </images/testing_scenarios/GroupUserEditAdmin/001Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`. :download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`].
 
 #. Change name/description/permissions and Save
 
@@ -15,18 +15,60 @@ Group/User Edit (Admin)
 
 #. Add and remove users (=members) and owners 
 
-   - using Edit group window (Web only) [:download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`]
-   - using "Add existing users" from right-click menu (Insight only) [:download:`004Insight </images/testing_scenarios/GroupUserEditAdmin/004Insight.png>`]
+   - using Edit group window (Web only) [:ref:`AdminGrUsEdScreen003`][:download:`003Web </images/testing_scenarios/GroupUserEditAdmin/003Web.png>`]
+   - using "Add existing users" from right-click menu (Insight only) [:ref:`AdminGrUsEdScreen004`][:download:`004Insight </images/testing_scenarios/GroupUserEditAdmin/004Insight.png>`]
    - using Copy/Cut and Paste from main menu (Insight only)
    - using Copy/Cut and Paste via icons & right-click (Insight only)
    - using Drag & Drop (Insight only)
 
    - |C| the users have been added/removed to/from the groups
  
-#. Edit user [:download:`005Insight </images/testing_scenarios/GroupUserEditAdmin/005Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`, :download:`006Web </images/testing_scenarios/GroupUserEditAdmin/006Web.png>`]
+#. Edit user [:ref:`AdminGrUsEdScreen005`][:ref:`AdminGrUsEdScreen006`][:ref:`AdminGrUsEdScreen007`][:download:`005Insight </images/testing_scenarios/GroupUserEditAdmin/005Insight.png>`, :download:`002Web </images/testing_scenarios/GroupUserEditAdmin/002Web.png>`, :download:`006Web </images/testing_scenarios/GroupUserEditAdmin/006Web.png>`]
 
    - change Login Name/Password/Status (Insight)
    - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
    - Save changes
    - |C| the changes have been made appropriately
 
+
+	.. _AdminGrUsEdScreen001:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/001Insight.png
+	   :align: center
+
+	   AdminGrUsEdScreen001: 
+
+	.. _AdminGrUsEdScreen002:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
+	   :align: center
+
+	   AdminGrUsEdScreen002:
+
+	.. _AdminGrUsEdScreen003:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/003Web.png
+	   :align: center
+
+	   AdminGrUsEdScreen003
+
+	.. _AdminGrUsEdScreen004:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/004Insight.png
+	   :align: center
+
+	   AdminGrUsEdScreen004
+
+	.. _AdminGrUsEdScreen005:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/005Insight.png
+	   :align: center
+
+	   AdminGrUsEdScreen005
+
+	.. _AdminGrUsEdScreen006:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
+	   :align: center
+
+	   AdminGrUsEdScreen006: 
+
+	.. _AdminGrUsEdScreen007:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/006Web.png
+	   :align: center
+
+	   AdminGrUsEdScreen007:
