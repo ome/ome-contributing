@@ -5,15 +5,15 @@ View Image
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to test the ViewImage feature on multiple z/t image and to check the z-Projection creation functionality
+**Purpose of the test** is to test the View feature on multiple z/t image and to check the z-Projection creation functionality
 
 #. Import an image with several channels/timepoint/z-sections. [:download:`001 </images/testing_scenarios/ViewImage/001.png>`]
 
 #. Turn on/off channels, use z-slider and t-slider.3. Play channels movie and z/t movie.
 
-#. Go to the split-ViewImage (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
+#. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
 
-#. Toggle back between ViewImages.
+#. Toggle back between views.
 
 #. Turn on/off color/greyscale
 
@@ -21,11 +21,11 @@ View Image
 
 #. Projection tabs [a tab in the Full Viewer next to Image tab]:[:download:`002 </images/testing_scenarios/ViewImage/002.png>`] (Insight only) - in Web, click on "Max Intensity" instead
 
-   - PreViewImage the projection [:download:`002 </images/testing_scenarios/ViewImage/002.png>`]
+   - Preview the projection [:download:`002 </images/testing_scenarios/ViewImage/002.png>`]
    - Change the projection range.
    - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:download:`003 </images/testing_scenarios/ViewImage/003.png>`]].
    - Project the image.[:download:`004 </images/testing_scenarios/ViewImage/004.png>`, :download:`005 </images/testing_scenarios/ViewImage/005.png>`]
-   - |C| ViewImage the result [:download:`006 </images/testing_scenarios/ViewImage/006.png>`]
+   - |C| - view the result [:download:`006 </images/testing_scenarios/ViewImage/006.png>`]
 
 #. Save as (Insight only):
 
