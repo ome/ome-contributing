@@ -36,7 +36,7 @@ Work on your own data scenarios
    ScriptsClient
    Search
    Share
-   SPW
+   ScreenPlateWell
    UserGroupManipulation
-   View
-   ViewBig
+   ViewImage
+   ViewBigImage

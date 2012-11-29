@@ -4,7 +4,7 @@ Work on other's data scenarios (permissions)
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :numbered:
 
-  
+   OthersImportUI

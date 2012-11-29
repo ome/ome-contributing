@@ -1,0 +1,30 @@
+Screen/Plate/Well
+==================
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
+
+#. In Importer, in the Location dialog. Switch from Project/Dataset to Screen. Import a plate with multiple fields for example ''ome/data_repo/test_images_good/cellworx/hms/plate1/plate1_802.pnl'' Other useful plate can be found [:download:`here <examples/ImportTestingSetTable.pdf>`]
+
+   - |C| Refresh Datamanager. Check that a Plate Run (Plate Acquisition) is created in "Screens" tab [:download:`001 </images/testing_scenarios/ScreenPlateWell/001.png>`] (Insight only)
+
+#. Double-click on Plate or Plate Run.
+
+   - |C| Both actions should display in the central panel.[:download:`002 </images/testing_scenarios/ScreenPlateWell/002.png>`, :download:`003 </images/testing_scenarios/ScreenPlateWell/003.png>`]
+
+#. Double-click on a well/field to open viewer [:download:`004 </images/testing_scenarios/ScreenPlateWell/004.png>`, :download:`005 </images/testing_scenarios/ScreenPlateWell/005.png>`]
+
+#. Select a new Field in the dropdown menu above the central panel [:download:`006 </images/testing_scenarios/ScreenPlateWell/006.png>`]
+
+   - |C| All thumbnails should be updated.
+
+#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:download:`007 </images/testing_scenarios/ScreenPlateWell/007.png>`]
+
+#. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:download:`008 </images/testing_scenarios/ScreenPlateWell/008.png>`] (Insight only)
+
+   - Select "Spatial" view [:download:`009 </images/testing_scenarios/ScreenPlateWell/009.png>`, :download:`010 </images/testing_scenarios/ScreenPlateWell/010.png>`]
+   - |C| that the spatial relation of the fields is displayed properly.
+   - Select "As a row" view [:download:`011 </images/testing_scenarios/ScreenPlateWell/011.png>`]

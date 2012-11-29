@@ -1,0 +1,19 @@
+View Big Image
+===============
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features)
+
+#. Open a large image
+
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:download:`001 </images/testing_scenarios/ViewBigImage/001.png>`, :download:`002 </images/testing_scenarios/ViewBigImage/002.png>`, :download:`003 </images/testing_scenarios/ViewBigImage/003.png>`]
+
+#. Modify the resolution level using slider on the left (Insight) [:download:`004 </images/testing_scenarios/ViewBigImage/004.png>`] or mousewheel (Web) [:download:`005 </images/testing_scenarios/ViewBigImage/005.png>`]
+
+   - |C| tile loading
+
+#. Modify rendering settings [:download:`006 </images/testing_scenarios/ViewBigImage/006.png>`]
+
