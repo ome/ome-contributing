@@ -19,7 +19,7 @@ View Image
 
 #. Modify the rendering settings.
 
-#. Projection tabs [a tab in the Full ViewImageer next to Image tab]:[:download:`002 </images/testing_scenarios/ViewImage/002.png>`] (Insight only) - in Web, click on "Max Intensity" instead
+#. Projection tabs [a tab in the Full Viewer next to Image tab]:[:download:`002 </images/testing_scenarios/ViewImage/002.png>`] (Insight only) - in Web, click on "Max Intensity" instead
 
    - PreViewImage the projection [:download:`002 </images/testing_scenarios/ViewImage/002.png>`]
    - Change the projection range.
