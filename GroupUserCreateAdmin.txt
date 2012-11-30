@@ -9,7 +9,7 @@ Group/User Create (Admin)
 
 #. Create new group 
 
-   - using the icon above the tree [:ref:`AdminGrUsCrScreen002`][:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001insight.png>`] (Insight only)
+   - using the icon above the tree [:ref:`AdminGrUsCrScreen002`][:download:`001Insight </images/testing_scenarios/GroupUserCreateAdmin/001Insight.png>`] (Insight only)
    - using the right-click (Insight only)
    - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCrScreen003`][:ref:`AdminGrUsCrScreen004`][:download:`001Web </images/testing_scenarios/GroupUserCreateAdmin/001Web.png>`, :download:`002Web </images/testing_scenarios/GroupUserCreateAdmin/002Web.png>`]  
    - create private/read-only/read-annotate group

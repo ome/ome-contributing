@@ -4,7 +4,7 @@ Import CLI
 .. toctree::
     :hidden:
  
-    examples/CLI_001
+    examples/CLI_001.txt
     examples/CLI_003
     examples/CLI_007
 
