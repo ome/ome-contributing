@@ -49,14 +49,107 @@ Insight as Plugin ImageJ/Fiji
 
    InsightIJIScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _InsightIJIScreen002:
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/002.png
    :align: center
 
    InsightIJIScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _InsightIJIScreen003:
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/003.png
    :align: center
 
    InsightIJIScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+

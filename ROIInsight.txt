@@ -84,11 +84,73 @@ ROI Insight
 
 	   ROIInsightScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ROIInsightScreen002:
 	.. figure:: /images/testing_scenarios/ROIInsight/002.png
 	   :align: center
 
 	   ROIInsightScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ROIInsightScreen003:
 	.. figure:: /images/testing_scenarios/ROIInsight/003.png
@@ -97,11 +159,72 @@ ROI Insight
 	   ROIInsightScreen003
 
 
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ROIInsightScreen005:
 	.. figure:: /images/testing_scenarios/ROIInsight/005.png
 	   :align: center
 
 	   ROIInsightScreen005
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ROIInsightScreen006:
 	.. figure:: /images/testing_scenarios/ROIInsight/006.png
@@ -109,11 +232,73 @@ ROI Insight
 
 	   ROIInsightScreen006: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ROIInsightScreen007:
 	.. figure:: /images/testing_scenarios/ROIInsight/007.png
 	   :align: center
 
 	   ROIInsightScreen007:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ROIInsightScreen008:
 	.. figure:: /images/testing_scenarios/ROIInsight/008.png
@@ -121,11 +306,73 @@ ROI Insight
 
 	   ROIInsightScreen008
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ROIInsightScreen009:
 	.. figure:: /images/testing_scenarios/ROIInsight/009.png
 	   :align: center
 
 	   ROIInsightScreen009: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ROIInsightScreen010:
 	.. figure:: /images/testing_scenarios/ROIInsight/010.png
@@ -133,8 +380,70 @@ ROI Insight
 
 	   ROIInsightScreen010:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ROIInsightScreen011:
 	.. figure:: /images/testing_scenarios/ROIInsight/011.png
 	   :align: center
 
 	   ROIInsightScreen011
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

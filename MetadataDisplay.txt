@@ -23,11 +23,73 @@ Metadata Display
 
 	   MetadataScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _MetadataScreen002:
 	.. figure:: /images/testing_scenarios/MetadataDisplay/002.png
 	   :align: center
 
 	   MetadataScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _MetadataScreen003:
 	.. figure:: /images/testing_scenarios/MetadataDisplay/003.png
@@ -35,8 +97,70 @@ Metadata Display
 
 	   MetadataScreen003
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _MetadataScreen004:
 	.. figure:: /images/testing_scenarios/MetadataDisplay/004.png
 	   :align: center
 
 	   MetadataScreen004
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

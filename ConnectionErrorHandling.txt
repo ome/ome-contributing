@@ -45,11 +45,80 @@ Connection/Error Handling
    - Turn off the wireless network
    - Expand dataset
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 .. _ConnectionEHScreen001:
 .. figure:: /images/testing_scenarios/ConnectionErrorHandling/001.png
    :align: center
 
    ConnectionEHScreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 
 .. _ConnectionEHScreen002:
 .. figure:: /images/testing_scenarios/ConnectionErrorHandling/002.png
@@ -57,8 +126,73 @@ Connection/Error Handling
 
    ConnectionEHScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
 .. _ConnectionEHScreen003:
 .. figure:: /images/testing_scenarios/ConnectionErrorHandling/003.png
    :align: center
 
    ConnectionEHScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|

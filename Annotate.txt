@@ -24,11 +24,74 @@ Annotate
    - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`AnnotateScreen002`, :ref:`AnnotateScreen003`][:download:`002 </images/testing_scenarios/Annotate/002.png>`, :download:`003 </images/testing_scenarios/Annotate/003.png>`]
 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 .. _AnnotateScreen001:
 .. figure:: /images/testing_scenarios/Annotate/001.png
    :align: center
 
    AnnotateScreen001: Comments in Insight
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 .. _AnnotateScreen002:
 .. figure:: /images/testing_scenarios/Annotate/002.png
@@ -37,8 +100,73 @@ Annotate
    AnnotateScreen002: Check in Insight
 
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
 .. _AnnotateScreen003:
 .. figure:: /images/testing_scenarios/Annotate/003.png
    :align: center
 
    AnnotateScreen003: Check in Web
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+

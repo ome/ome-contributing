@@ -4,7 +4,7 @@ Import CLI
 .. toctree::
     :hidden:
  
-    examples/CLI_001.txt
+    examples/CLI_001
     examples/CLI_003
     examples/CLI_007
 
@@ -48,12 +48,72 @@ Import CLI
 
 	   ImportCLIScreen002: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ImportCLIScreen004:
 	.. figure:: /images/testing_scenarios/ImportCLI/004.png
 	   :align: center
 
 	   ImportCLIScreen004:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 
 	.. _ImportCLIScreen005:
@@ -62,8 +122,70 @@ Import CLI
 
 	   ImportCLIScreen005:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ImportCLIScreen006:
 	.. figure:: /images/testing_scenarios/ImportCLI/006.png
 	   :align: center
 
 	   ImportCLIScreen006
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

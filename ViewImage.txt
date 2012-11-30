@@ -30,7 +30,7 @@ View Image
 #. Save as (Insight only):
 
    - JPEG, PNG - use the icon in the projection window, see [:ref:`ViewScreen007`][:ref:`ViewScreen008`][:download:`007 </images/testing_scenarios/ViewImage/007.png>`, :download:`008 </images/testing_scenarios/ViewImage/008.png>`]
-   - Save split channels.[:download:`008 </images/testing_scenarios/ViewImage/008.png>`]
+   - Save split channels.[:ref:`ViewScreen008`][:download:`008 </images/testing_scenarios/ViewImage/008.png>`]
    - Save with all channels turned off.
    - |C| the saved files.
 
@@ -39,8 +39,40 @@ View Image
 	.. _ViewScreen001:
 	.. figure:: /images/testing_scenarios/ViewImage/001.png
 	   :align: center
+	   :width: 100%
 
 	   ViewScreen001: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ViewScreen002:
 	.. figure:: /images/testing_scenarios/ViewImage/002.png
@@ -48,11 +80,73 @@ View Image
 
 	   ViewScreen002:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ViewScreen003:
 	.. figure:: /images/testing_scenarios/ViewImage/003.png
 	   :align: center
 
 	   ViewScreen003
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ViewScreen004:
 	.. figure:: /images/testing_scenarios/ViewImage/004.png
@@ -60,17 +154,111 @@ View Image
 
 	   ViewScreen004
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ViewScreen005:
 	.. figure:: /images/testing_scenarios/ViewImage/005.png
 	   :align: center
 
 	   ViewScreen005
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ViewScreen006:
 	.. figure:: /images/testing_scenarios/ViewImage/006.png
 	   :align: center
+	 
 
 	   ViewScreen006: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _ViewScreen007:
 	.. figure:: /images/testing_scenarios/ViewImage/007.png
@@ -78,9 +266,72 @@ View Image
 
 	   ViewScreen007:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _ViewScreen008:
 	.. figure:: /images/testing_scenarios/ViewImage/008.png
 	   :align: center
+	 
 
 	   ViewScreen008
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 

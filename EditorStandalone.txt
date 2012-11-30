@@ -26,11 +26,73 @@ Editor Standalone
 
    EditorStandScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorStandScreen002:
 .. figure:: /images/testing_scenarios/EditorStandalone/002.png
    :align: center
 
    EditorStandScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _EditorStandScreen003:
 .. figure:: /images/testing_scenarios/EditorStandalone/003.png
@@ -38,14 +100,107 @@ Editor Standalone
 
    EditorStandScreen003
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorStandScreen004:
 .. figure:: /images/testing_scenarios/EditorStandalone/004.png
    :align: center
 
    EditorStandScreen004
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorStandScreen005:
 .. figure:: /images/testing_scenarios/EditorStandalone/005.png
    :align: center
 
    EditorStandScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+

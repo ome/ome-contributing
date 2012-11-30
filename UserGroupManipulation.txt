@@ -31,11 +31,73 @@ User/Group Manipulation
 
 	   UserGroupMScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _UserGroupMScreen002:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/002.png
 	   :align: center
 
 	   UserGroupMScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _UserGroupMScreen003:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/003.png
@@ -43,14 +105,107 @@ User/Group Manipulation
 
 	   UserGroupMScreen003
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _UserGroupMScreen004:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/004.png
 	   :align: center
 
 	   UserGroupMScreen004
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _UserGroupMScreen005:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/005.png
 	   :align: center
 
 	   UserGroupMScreen005
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

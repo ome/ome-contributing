@@ -37,11 +37,73 @@ Group/User Edit (Admin)
 
 	   AdminGrUsEdScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsEdScreen002:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
 	   AdminGrUsEdScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _AdminGrUsEdScreen003:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/003Web.png
@@ -49,11 +111,73 @@ Group/User Edit (Admin)
 
 	   AdminGrUsEdScreen003
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsEdScreen004:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/004Insight.png
 	   :align: center
 
 	   AdminGrUsEdScreen004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _AdminGrUsEdScreen005:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/005Insight.png
@@ -61,14 +185,107 @@ Group/User Edit (Admin)
 
 	   AdminGrUsEdScreen005
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsEdScreen006:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
 	   AdminGrUsEdScreen006: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsEdScreen007:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/006Web.png
 	   :align: center
 
 	   AdminGrUsEdScreen007:
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

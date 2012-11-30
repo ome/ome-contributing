@@ -28,8 +28,69 @@ Delete ROI
 
    DeleteROIScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteROIScreen002:
 .. figure:: /images/testing_scenarios/DeleteROI/002.png
    :align: center
 
    DeleteROIScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|

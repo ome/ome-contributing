@@ -28,11 +28,73 @@ Import File Formats Testing
 
    ImportFileFTScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ImportFileFTScreen003:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/003.png
    :align: center
 
    ImportFileFTScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _ImportFileFTScreen004:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
@@ -40,11 +102,73 @@ Import File Formats Testing
 
    ImportFileFTScreen004
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ImportFileFTScreen005:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005.png
    :align: center
 
    ImportFileFTScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _ImportFileFTScreen006:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
@@ -52,8 +176,70 @@ Import File Formats Testing
 
    ImportFileFTScreen006: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ImportFileFTScreen007:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
    :align: center
 
    ImportFileFTScreen007:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+

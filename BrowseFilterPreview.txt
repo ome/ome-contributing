@@ -29,11 +29,80 @@ Browse/Filter/Preview
    - Modify the settings of the selected image.
    - Apply the settings to the selection.
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
 .. _BrowseFPScreen001:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/001.png
    :align: center
 
    BrowseFPScreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 
 .. _BrowseFPScreen002:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/002.png
@@ -41,11 +110,79 @@ Browse/Filter/Preview
 
    BrowseFPScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 .. _BrowseFPScreen003:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/003.png
    :align: center
 
    BrowseFPScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
 
 .. _BrowseFPScreen004:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/004.png
@@ -53,8 +190,76 @@ Browse/Filter/Preview
 
    BrowseFPScreen004
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
 .. _BrowseFPScreen005:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/005.png
    :align: center
 
    BrowseFPScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+

@@ -31,8 +31,69 @@ Import and Multigroups
 
    ImportMultiGrScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ImportMultiGrScreen002:
 .. figure:: /images/testing_scenarios/ImportMultigroups/002.png
    :align: center
 
    ImportMultiGrScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|

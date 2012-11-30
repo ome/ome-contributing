@@ -31,11 +31,73 @@ Group/User Create (Admin)
 
 	   AdminGrUsCrScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsCrScreen002:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
 	   :align: center
 
 	   AdminGrUsCrScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _AdminGrUsCrScreen003:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Web.png
@@ -43,11 +105,73 @@ Group/User Create (Admin)
 
 	   AdminGrUsCrScreen003
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsCrScreen004:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002Web.png
 	   :align: center
 
 	   AdminGrUsCrScreen004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _AdminGrUsCrScreen005:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
@@ -55,11 +179,74 @@ Group/User Create (Admin)
 
 	   AdminGrUsCrScreen005
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsCrScreen006:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/003Web.png
 	   :align: center
+	   :width: 100%
 
 	   AdminGrUsCrScreen006: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _AdminGrUsCrScreen007:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/004Web.png
@@ -67,14 +254,107 @@ Group/User Create (Admin)
 
 	   AdminGrUsCrScreen007:
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsCrScreen008:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/005Insight.png
 	   :align: center
 
 	   AdminGrUsCrScreen008
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _AdminGrUsCrScreen009:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/006Web.png
 	   :align: center
 
 	   AdminGrUsCrScreen009: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|

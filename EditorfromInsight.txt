@@ -27,17 +27,111 @@ Editor from Insight
 
    EditorfInsightScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorfInsightScreen002:
 .. figure:: /images/testing_scenarios/EditorfromInsight/002.png
    :align: center
 
    EditorfInsightScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorfInsightScreen003:
 .. figure:: /images/testing_scenarios/EditorfromInsight/003.png
    :align: center
+   :width: 100%
 
    EditorfInsightScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _EditorfInsightScreen004:
 .. figure:: /images/testing_scenarios/EditorfromInsight/004.png
@@ -45,14 +139,107 @@ Editor from Insight
 
    EditorfInsightScreen004
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorfInsightScreen005:
 .. figure:: /images/testing_scenarios/EditorfromInsight/005.png
    :align: center
 
    EditorfInsightScreen005
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _EditorfInsightScreen006:
 .. figure:: /images/testing_scenarios/EditorfromInsight/006.png
    :align: center
 
    EditorfInsightScreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+

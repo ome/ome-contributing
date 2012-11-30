@@ -17,11 +17,73 @@ Delete
 
 #. Import an image rich in metadata and delete it.
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteScreen001:
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center
 
    DeleteScreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _DeleteScreen002:
 .. figure:: /images/testing_scenarios/Delete/002.png
@@ -29,11 +91,73 @@ Delete
 
    DeleteScreen002:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteScreen003:
 .. figure:: /images/testing_scenarios/Delete/003.png
    :align: center
 
    DeleteScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _DeleteScreen004:
 .. figure:: /images/testing_scenarios/Delete/004.png
@@ -41,11 +165,73 @@ Delete
 
    DeleteScreen004
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteScreen005:
 .. figure:: /images/testing_scenarios/Delete/005.png
    :align: center
 
    DeleteScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _DeleteScreen006:
 .. figure:: /images/testing_scenarios/Delete/006.png
@@ -53,15 +239,108 @@ Delete
 
    DeleteScreen006: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteScreen007:
 .. figure:: /images/testing_scenarios/Delete/007.png
    :align: center
 
    DeleteScreen007:
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _DeleteScreen008:
 .. figure:: /images/testing_scenarios/Delete/008.png
    :align: center
 
    DeleteScreen008
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 

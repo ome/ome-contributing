@@ -62,9 +62,72 @@ Bulk Annotations
    - |C| "Plate Name" is the same for each selected Well and matches the Plate's name
    - |C| that the metadata match with the `test_plate.csv` (open the `.csv` in Excel)
 
+
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _BulkAnnotScreen001:
 .. figure:: /images/testing_scenarios/BulkAnnotations/001.png
    :align: center
 
    BulkAnnotScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|

@@ -60,11 +60,73 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 	   SearchScreen001: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen002:
 	.. figure:: /images/testing_scenarios/Search/002.png
 	   :align: center
 
 	   SearchScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _SearchScreen003:
 	.. figure:: /images/testing_scenarios/Search/003.png
@@ -72,17 +134,111 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 	   SearchScreen003
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen004:
 	.. figure:: /images/testing_scenarios/Search/004.png
 	   :align: center
 
 	   SearchScreen004
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen005:
 	.. figure:: /images/testing_scenarios/Search/005.png
 	   :align: center
+	   :width: 100%
 
 	   SearchScreen005
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _SearchScreen006:
 	.. figure:: /images/testing_scenarios/Search/006.png
@@ -90,11 +246,74 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 	   SearchScreen006: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen007:
 	.. figure:: /images/testing_scenarios/Search/007.png
 	   :align: center
+	   :width: 100%
 
 	   SearchScreen007:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 	.. _SearchScreen008:
 	.. figure:: /images/testing_scenarios/Search/008.png
@@ -102,16 +321,109 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 	   SearchScreen008
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen009:
 	.. figure:: /images/testing_scenarios/Search/009.png
 	   :align: center
 
 	   SearchScreen009: 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _SearchScreen010:
 	.. figure:: /images/testing_scenarios/Search/010.png
 	   :align: center
 
 	   SearchScreen010:
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
 
 

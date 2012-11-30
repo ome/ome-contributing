@@ -25,11 +25,73 @@ View Big Image
 
    ViewBigScreen001: 
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ViewBigScreen002:
 .. figure:: /images/testing_scenarios/ViewBigImage/002.png
    :align: center
 
    ViewBigScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _ViewBigScreen003:
 .. figure:: /images/testing_scenarios/ViewBigImage/003.png
@@ -37,11 +99,73 @@ View Big Image
 
    ViewBigScreen003
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ViewBigScreen004:
 .. figure:: /images/testing_scenarios/ViewBigImage/004.png
    :align: center
 
    ViewBigScreen004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 .. _ViewBigScreen005:
 .. figure:: /images/testing_scenarios/ViewBigImage/005.png
@@ -49,8 +173,71 @@ View Big Image
 
    ViewBigScreen005
 
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
 .. _ViewBigScreen006:
 .. figure:: /images/testing_scenarios/ViewBigImage/006.png
    :align: center
+   :width: 100%
 
    ViewBigScreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
