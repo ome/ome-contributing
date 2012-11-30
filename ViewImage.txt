@@ -21,16 +21,16 @@ View Image
 
 #. Projection tabs [a tab in the Full Viewer next to Image tab]:[:ref:`ViewScreen002`][:download:`002 </images/testing_scenarios/ViewImage/002.png>`] (Insight only) - in Web, click on "Max Intensity" instead
 
-   - Preview the projection [:ref:`ViewScreen002`][:download:`002 </images/testing_scenarios/ViewImage/002.png>`]
+   - Preview the projection [:ref:`ViewScreen002`]
    - Change the projection range.
-   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`ViewScreen003`][:download:`003 </images/testing_scenarios/ViewImage/003.png>`]].
-   - Project the image.[:ref:`ViewScreen004`][:ref:`ViewScreen005`][:download:`004 </images/testing_scenarios/ViewImage/004.png>`, :download:`005 </images/testing_scenarios/ViewImage/005.png>`]
-   - |C| - view the result [:ref:`ViewScreen006`][:download:`006 </images/testing_scenarios/ViewImage/006.png>`]
+   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`ViewScreen003`].
+   - Project the image.[:ref:`ViewScreen004`][:ref:`ViewScreen005`]
+   - |C| - view the result [:ref:`ViewScreen006`]
 
 #. Save as (Insight only):
 
-   - JPEG, PNG - use the icon in the projection window, see [:ref:`ViewScreen007`][:ref:`ViewScreen008`][:download:`007 </images/testing_scenarios/ViewImage/007.png>`, :download:`008 </images/testing_scenarios/ViewImage/008.png>`]
-   - Save split channels.[:ref:`ViewScreen008`][:download:`008 </images/testing_scenarios/ViewImage/008.png>`]
+   - JPEG, PNG - use the icon in the projection window, see [:ref:`ViewScreen007`][:ref:`ViewScreen008`]
+   - Save split channels.[:ref:`ViewScreen008`]
    - Save with all channels turned off.
    - |C| the saved files.
 

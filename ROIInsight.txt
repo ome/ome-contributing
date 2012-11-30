@@ -11,25 +11,25 @@ ROI Insight
 
 #. Open ROI tool
 
-   - from the icon on the top of the Full Viewer [:ref:`ROIInsightScreen001`][:download:`001 </images/testing_scenarios/ROIInsight/001.png>`]
+   - from the icon on the top of the Full Viewer [:ref:`ROIInsightScreen001`]
    - from the main menu Controls/Measurement…
 
-#. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsightScreen002`][:download:`002 </images/testing_scenarios/ROIInsight/002.png>`]
+#. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsightScreen002`]
 
 #. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box
 
-   - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsightScreen003`][:download:`003 </images/testing_scenarios/ROIInsight/003.png>`]
+   - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsightScreen003`]
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
 
 #. Move shapes and save.
 
-#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`ROIInsightScreen005`][:ref:`ROIInsightScreen006`][:ref:`ROIInsightScreen007`][:download:`005 </images/testing_scenarios/ROIInsight/005.png>`, :download:`006 </images/testing_scenarios/ROIInsight/006.png>`, :download:`007 </images/testing_scenarios/ROIInsight/007.png>`]. Merge only shapes from different z/t-planes, Split the Merged. [:ref:`ROIInsightScreen008`][:download:`008 </images/testing_scenarios/ROIInsight/008.png>`]
+#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`ROIInsightScreen005`][:ref:`ROIInsightScreen006`][:ref:`ROIInsightScreen007`]. Merge only shapes from different z/t-planes, Split the Merged. [:ref:`ROIInsightScreen008`]
 
    - using right-click on the image
    - using right-click on the ROI in the list in Measurement Tools window
 
-#. Edit: change Fill and Line color [:ref:`ROIInsightScreen009`][:download:`009 </images/testing_scenarios/ROIInsight/009.png>`]/ show-hide text/change width and height (Inspector tab)
+#. Edit: change Fill and Line color [:ref:`ROIInsightScreen009`]/ show-hide text/change width and height (Inspector tab)
 
    - |C| the changes of the region display.
 
@@ -69,12 +69,12 @@ ROI Insight
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself)
    - NOW Select Intensity Results View tab (the region is still selected - do not change your selection now)
    - Press Add Selected
-   - |C| the data were added to the table [:ref:`ROIInsightScreen010`][:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+   - |C| the data were added to the table [:ref:`ROIInsightScreen010`]
    - Try to select more regions and press Add Selected
-   - |C| the data were added to the table [:ref:`ROIInsightScreen010`][:download:`010 </images/testing_scenarios/ROIInsight/010.png>`]
+   - |C| the data were added to the table [:ref:`ROIInsightScreen010`]
    - Try Remove/Remove All.
    - Add data again and Export to Excel
-   - |C| the file. [:ref:`ROIInsightScreen011`][:download:`011 </images/testing_scenarios/ROIInsight/011.png>`]
+   - |C| the file. [:ref:`ROIInsightScreen011`]
 
 
 

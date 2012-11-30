@@ -12,12 +12,12 @@ Import File Formats Testing
 #. Import the files for this format. A known good selection is located in test_images_good or a larger set in from_skyking (see details [:download:`here <examples/ImportTestingSetTable.pdf>`]) 
 
    - |C| Some formats have special import requirements--please check first!
-   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`ImportFileFTScreen002`][:ref:`ImportFileFTScreen003`][:ref:`ImportFileFTScreen004`][:download:`002 </images/testing_scenarios/ImportFileFormatsTesting/002.png>`, :download:`003 </images/testing_scenarios/ImportFileFormatsTesting/003.png>`, :download:`004 </images/testing_scenarios/ImportFileFormatsTesting/004.png>`]
+   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`ImportFileFTScreen002`][:ref:`ImportFileFTScreen003`][:ref:`ImportFileFTScreen004`]
    - |C| In case import has failed, check that all files have been copied.
    - |C| each imported image visually for the following features:
-   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`ImportFileFTScreen005`][:download:`005 </images/testing_scenarios/ImportFileFormatsTesting/005.png>`]
-   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`ImportFileFTScreen006`][:download:`006 </images/testing_scenarios/ImportFileFormatsTesting/006.png>`] and are of the correct size.
-   - All ROIs [if any] are present and in the correct place.[:ref:`ImportFileFTScreen007`][:download:`007 </images/testing_scenarios/ImportFileFormatsTesting/007.png>`]
+   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`ImportFileFTScreen005`]
+   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`ImportFileFTScreen006`] and are of the correct size.
+   - All ROIs [if any] are present and in the correct place.[:ref:`ImportFileFTScreen007`]
 
 
 

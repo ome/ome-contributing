@@ -9,7 +9,7 @@ ROI Web
 
 #. Open in Viewer an image with >3 ROIs propagated through multiple z/t (check here for suitable image [:download:`Images set <examples/ImportTestingSetTable.pdf>`]). If it does not exist, create it in Insight.)
 
-#. View the ROIs [:ref:`ROIWebScreen001`][:ref:`ROIWebScreen002`][:download:`001 </images/testing_scenarios/ROIWeb/001.png>`, :download:`002 </images/testing_scenarios/ROIWeb/002.png>`]
+#. View the ROIs [:ref:`ROIWebScreen001`][:ref:`ROIWebScreen002`]
 
 #. Expand and collapse the multiple-shape ROIs
 
@@ -17,13 +17,13 @@ ROI Web
 
    - |C| that the Viewer updates
 
-#. Tick and untick the Text and Preview boxes [:ref:`ROIWebScreen003`][:download:`003 </images/testing_scenarios/ROIWeb/003.png>`]
+#. Tick and untick the Text and Preview boxes [:ref:`ROIWebScreen003`]
 
    - |C| the text in the ROIs appear/disappears and the Preview is made visible/invisible in all ROIs and shapes on different planes.
 
 #. Hover with mouse over the Thumbnail in Preview
 
-   - |C| that larger view appears.[:ref:`ROIWebScreen004`][:download:`004 </images/testing_scenarios/ROIWeb/004.png>`]
+   - |C| that larger view appears.[:ref:`ROIWebScreen004`]
 
 
 	.. _ROIWebScreen001:

@@ -7,9 +7,9 @@ User/Group Manipulation
 
 **Purpose of the test** is to check the viewing/display of groups/users and their data
 
-#. Add several groups to the display (Insight only) Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`][:download:`001 </images/testing_scenarios/UserGroupManipulation/001.png>`, :download:`002 </images/testing_scenarios/UserGroupManipulation/002.png>`, :download:`003 </images/testing_scenarios/UserGroupManipulation/003.png>`]
+#. Add several groups to the display (Insight only) Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`]
 
-#. Add several users to the display [:ref:`UserGroupMScreen004`][:ref:`UserGroupMScreen005`][:download:`004 </images/testing_scenarios/UserGroupManipulation/004.png>`, :download:`005 </images/testing_scenarios/UserGroupManipulation/005.png>`] (Insight only)
+#. Add several users to the display [:ref:`UserGroupMScreen004`][:ref:`UserGroupMScreen005`] (Insight only)
 
 #. Switch between users.
 

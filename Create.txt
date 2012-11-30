@@ -9,10 +9,10 @@ Create
 
 #. Create new Project/Dataset/Screen* Create using right-click [:ref:`CreateScreen001`][:download:`001 </images/testing_scenarios/Create/001.png>`]
  
-   - Create using the icon [:ref:`CreateScreen002`, :ref:`CreateScreen003`, :ref:`CreateScreen004`][:download:`002 </images/testing_scenarios/Create/002.png>`, :download:`003 </images/testing_scenarios/Create/003.png>`, :download:`004 </images/testing_scenarios/Create/004.png>`]
-   - Create using the main menu (Insight only) [:ref:`CreateScreen005`][:download:`005 </images/testing_scenarios/Create/005.png>`]
+   - Create using the icon [:ref:`CreateScreen002`, :ref:`CreateScreen003`, :ref:`CreateScreen004`]
+   - Create using the main menu (Insight only) [:ref:`CreateScreen005`]
 
-#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`CreateScreen005`][:download:`005 </images/testing_scenarios/Create/005.png>`]
+#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`CreateScreen005`]
 
 #. Select an image. Create New dataset from Selection (right-click - Insight only)
 

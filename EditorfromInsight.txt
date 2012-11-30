@@ -11,9 +11,9 @@ Editor from Insight
 
 #. Open a "New blank file", add few fields
 
-#. Save locally and save to the server using main menu File/Save As...[:ref:`EditorfInsightScreen002`][:ref:`EditorfInsightScreen003`][:ref:`EditorfInsightScreen004`][:ref:`EditorfInsightScreen005`][:download:`002 </images/testing_scenarios/EditorfromInsight/002.png>`, :download:`003 </images/testing_scenarios/EditorfromInsight/003.png>`, :download:`004 </images/testing_scenarios/EditorfromInsight/004.png>`, :download:`005 </images/testing_scenarios/EditorfromInsight/005.png>`]
+#. Save locally and save to the server using main menu File/Save As...[:ref:`EditorfInsightScreen002`][:ref:`EditorfInsightScreen003`][:ref:`EditorfInsightScreen004`][:ref:`EditorfInsightScreen005`]
 
-#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:ref:`EditorfInsightScreen006`][:download:`006 </images/testing_scenarios/EditorfromInsight/006.png>`].
+#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:ref:`EditorfInsightScreen006`]
 
    - Add more text to the file.
    - Save and close the editor.

@@ -10,10 +10,10 @@ Delete
 #. In the DataManager:
 
    - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`DeleteScreen001`][:ref:`DeleteScreen002`][:download:`001 </images/testing_scenarios/Delete/001.png>`, :download:`002 </images/testing_scenarios/Delete/002.png>`] (left-hand pane in Insight, right hand pane in Web)
-   - Delete tags [:ref:`DeleteScreen003`][:ref:`DeleteScreen004`][:download:`003 </images/testing_scenarios/Delete/003.png>`, :download:`004 </images/testing_scenarios/Delete/004.png>`] (left-hand pane)
+   - Delete attachments [:ref:`DeleteScreen001`][:ref:`DeleteScreen002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete tags [:ref:`DeleteScreen003`][:ref:`DeleteScreen004`] (left-hand pane)
 
-#. Delete P/D/I/Screen/Plate. [:ref:`DeleteScreen005`][:ref:`DeleteScreen006`][:ref:`DeleteScreen007`][:ref:`DeleteScreen008`][:download:`005 </images/testing_scenarios/Delete/005.png>`, :download:`006 </images/testing_scenarios/Delete/006.png>`, :download:`007 </images/testing_scenarios/Delete/007.png>`, :download:`008 </images/testing_scenarios/Delete/008.png>`]
+#. Delete P/D/I/Screen/Plate. [:ref:`DeleteScreen005`][:ref:`DeleteScreen006`][:ref:`DeleteScreen007`][:ref:`DeleteScreen008`]
 
 #. Import an image rich in metadata and delete it.
 

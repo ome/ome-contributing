@@ -7,9 +7,9 @@ Move Data
 
 **Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
 
-#. Move simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`][:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+#. Move simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
-   - |C| they are correctly moved. (put group to display if necessary-Insight [:ref:`MoveDataScreen005`][:download:`005 </images/testing_scenarios/MoveData/005.png>`])
+   - |C| they are correctly moved. (put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
 
 #. Move Project with dataset and images
 
@@ -19,9 +19,9 @@ Move Data
    - with ROI
    - with annotation
 
-#. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`][:download:`001 </images/testing_scenarios/MoveData/001.png>`, :download:`002 </images/testing_scenarios/MoveData/002.png>`, :download:`003 </images/testing_scenarios/MoveData/003.png>`, :download:`004 </images/testing_scenarios/MoveData/004.png>`]
+#. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
-#. Move via D&D (Insight only) [:ref:`MoveDataScreen006`][:download:`006 </images/testing_scenarios/MoveData/006.png>`]
+#. Move via D&D (Insight only) [:ref:`MoveDataScreen006`]
 
 
 .. _MoveDataScreen001:

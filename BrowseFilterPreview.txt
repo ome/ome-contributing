@@ -9,14 +9,14 @@ Browse/Filter/Preview
 
 #. Browse dataset/ Plate.
 
-#. Try to filter by rating/tags, date. [:ref:`BrowseFPScreen001`][:download:`001 </images/testing_scenarios/BrowseFilterPreview/001.png>`]
+#. Try to filter by rating/tags, date. [:ref:`BrowseFPScreen001`]
 
-#. Switch between list and thumbnail view.[:ref:`BrowseFPScreen002`][:download:`002 </images/testing_scenarios/BrowseFilterPreview/002.png>`]
+#. Switch between list and thumbnail view.[:ref:`BrowseFPScreen002`]
 
 #. If applicable
 
    - Sort the data by name
-   - |C| that right-click menu options are the same in Browser and DataManager (Insight only). [:ref:`BrowseFPScreen003`, :ref:`BrowseFPScreen004`][:download:`003 </images/testing_scenarios/BrowseFilterPreview/003.png>`, :download:`004 </images/testing_scenarios/BrowseFilterPreview/004.png>`]
+   - |C| that right-click menu options are the same in Browser and DataManager (Insight only). [:ref:`BrowseFPScreen003`, :ref:`BrowseFPScreen004`]
    - Create new dataset from selection
    - Double-click on image to open viewer.
 
@@ -24,7 +24,7 @@ Browse/Filter/Preview
 
 #. |C| that DataManager and right-hand panel are correctly synchronized and updated.
 
-#. In Preview (right-hand of the window, "Preview" tab) [:ref:`BrowseFPScreen005`][:download:`005 </images/testing_scenarios/BrowseFilterPreview/005.png>`]: if applicable
+#. In Preview (right-hand of the window, "Preview" tab) [:ref:`BrowseFPScreen005`]: if applicable
 
    - Modify the settings of the selected image.
    - Apply the settings to the selection.

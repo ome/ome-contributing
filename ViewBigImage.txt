@@ -9,13 +9,13 @@ View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`][:ref:`ViewBigScreen003`][:download:`001 </images/testing_scenarios/ViewBigImage/001.png>`, :download:`002 </images/testing_scenarios/ViewBigImage/002.png>`, :download:`003 </images/testing_scenarios/ViewBigImage/003.png>`]
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`][:ref:`ViewBigScreen003`]
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBigScreen004`][:download:`004 </images/testing_scenarios/ViewBigImage/004.png>`] or mousewheel (Web) [:ref:`ViewBigScreen005`][:download:`005 </images/testing_scenarios/ViewBigImage/005.png>`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBigScreen004`] or mousewheel (Web) [:ref:`ViewBigScreen005`]
 
    - |C| tile loading
 
-#. Modify rendering settings [:ref:`ViewBigScreen006`][:download:`006 </images/testing_scenarios/ViewBigImage/006.png>`]
+#. Modify rendering settings [:ref:`ViewBigScreen006`]
 
 
 

@@ -11,10 +11,10 @@ De-Annotate/Unlink
 
 #. Unlink tags
 
-   - Unlink particular tags (left click - chose Unlink in Insight [:ref:`DeAnnotateUScreen001`][:ref:`DeAnnotateUScreen002`][:download:`001 </images/testing_scenarios/DeAnnotateUnlink/001.png>`, :download:`002b </images/testing_scenarios/DeAnnotateUnlink/002b.png>`], click on minus in Web to Remove)
-   - Unlink all tags added by you/by others (minus sign at Tags in Insight only) [:ref:`DeAnnotateUScreen003`][:download:`002 </images/testing_scenarios/DeAnnotateUnlink/002.png>`]
+   - Unlink particular tags (left click - chose Unlink in Insight [:ref:`DeAnnotateUScreen001`][:ref:`DeAnnotateUScreen002`], click on minus in Web to Remove)
+   - Unlink all tags added by you/by others (minus sign at Tags in Insight only) [:ref:`DeAnnotateUScreen003`]
 
-#. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:ref:`DeAnnotateUScreen004`][:ref:`DeAnnotateUScreen005`][:download:`003 </images/testing_scenarios/DeAnnotateUnlink/003.png>`, :download:`004 </images/testing_scenarios/DeAnnotateUnlink/004.png>`]
+#. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:ref:`DeAnnotateUScreen004`][:ref:`DeAnnotateUScreen005`]
 
 #. Remove image from Dataset (Web only - icon in left hand pane)
 

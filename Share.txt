@@ -7,15 +7,15 @@ Share
 
 **Purpose of the test** is to check the Share feature in Web, creation, visibility, and annotation possibility
 
-#. Select images add to basket [:ref:`ShareScreen001`][:download:`001 </images/testing_scenarios/Share/001.png>`].
+#. Select images add to basket [:ref:`ShareScreen001`].
 
-#. Create a share with several users: In the central window, click on the basket icon, choose "Manage basket"[:ref:`ShareScreen002`][:download:`002 </images/testing_scenarios/Share/002.png>`], choose images to share and use the "Globe" icon to create a share [:ref:`ShareScreen003`][:download:`003 </images/testing_scenarios/Share/003.png>`]. Choose an expiry date one day after creation [:ref:`ShareScreen004`][:ref:`ShareScreen005`][:download:`004 </images/testing_scenarios/Share/004.png>`, :download:`005 </images/testing_scenarios/Share/005.png>`].
+#. Create a share with several users: In the central window, click on the basket icon, choose "Manage basket"[:ref:`ShareScreen002`], choose images to share and use the "Globe" icon to create a share [:ref:`ShareScreen003`]. Choose an expiry date one day after creation [:ref:`ShareScreen004`][:ref:`ShareScreen005`]
 
-#. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:ref:`ShareScreen006`][:ref:`ShareScreen007`][:download:`006 </images/testing_scenarios/Share/006.png>`, :download:`007 </images/testing_scenarios/Share/007.png>`]
+#. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:ref:`ShareScreen006`][:ref:`ShareScreen007`]
 
-   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`ShareScreen008`][:download:`008 </images/testing_scenarios/Share/008.png>`]
-   - |C| than images in the share can be viewed using the Preview and Full viewer [:ref:`ShareScreen009`][:download:`009 </images/testing_scenarios/Share/009.png>`]
-   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`ShareScreen010`][:download:`010 </images/testing_scenarios/Share/010.png>`]
+   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`ShareScreen008`]
+   - |C| than images in the share can be viewed using the Preview and Full viewer [:ref:`ShareScreen009`]
+   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`ShareScreen010`]
 
 
 	.. _ShareScreen001:
