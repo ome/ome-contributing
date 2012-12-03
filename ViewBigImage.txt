@@ -18,10 +18,23 @@ View Big Image
 #. Modify rendering settings [:ref:`ViewBigScreen006`]
 
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
 .. _ViewBigScreen001:
 .. figure:: /images/testing_scenarios/ViewBigImage/001.png
    :align: center
+   :width: 100%
 
    ViewBigScreen001: 
 
