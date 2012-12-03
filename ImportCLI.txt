@@ -1,13 +1,6 @@
 Import CLI
 ===========
 
-.. toctree::
-    :hidden:
- 
-    examples/CLI_001
-    examples/CLI_003
-    examples/CLI_007
-
 
 
 **To test in**: Command line interface / Insight
@@ -20,20 +13,20 @@ Import CLI
 
 #. Go to Terminal (command line interface, CLI). From CLI
 
-#. Log in onto appropriate server and user. Import a single image [:download:`001 <examples/CLI_001.txt>`]
+#. Log in onto appropriate server and user. Import a single image [:download:`001 </downloads/CLI_001.txt>`]
 
    - |C| that the file was imported using Insight UI [:ref:`ImportCLIScreen002`]
 
-#. Import several images in one transaction.[:download:`003 <examples/CLI_003.txt>`]
+#. Import several images in one transaction.[:download:`003 </downloads/CLI_003.txt>`]
 
    - |C| that the files were imported using Insight UI [:ref:`ImportCLIScreen004`]
 
-#. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here <examples/ImportTestingSetTable.pdf>`]
+#. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`]
 
    - |C| that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:ref:`ImportCLIScreen005`]
    - |C| that you can download the companion file
 
-#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 <examples/CLI_007.txt>`][:ref:`ImportCLIScreen006`]
+#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 </downloads/CLI_007.txt>`][:ref:`ImportCLIScreen006`]
 
    - |C| that you can see the imported images within the file
 

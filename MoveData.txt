@@ -13,7 +13,7 @@ Move Data
 
 #. Move Project with dataset and images
 
-#. Move Image (see here for choice of images [:download:`Images <examples/ImportTestingSetTable.pdf>`])
+#. Move Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
 
    - rich in metadata 
    - with ROI

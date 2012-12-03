@@ -13,7 +13,7 @@ Delete ROI
    - Delete a shape and save the ROIs.
    - Use the Red Cross Icon to delete all ROIs on the image
 
-#. Import an image with ROI (find the image in [:download:`here <examples/ImportTestingSetTable.pdf>`])
+#. Import an image with ROI (find the image in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
 
    - repeat step 1. with the imported ROIs
 

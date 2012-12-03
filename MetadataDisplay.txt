@@ -7,7 +7,7 @@ Metadata Display
 
 **Purpose of the test** is to test the metadata display, and check they display consistently in Web and Insight
 
-#. Import an image rich in metadata for example 'data_repo/test_images_metada/leica-lif/Rosier.lif.2' or see the set of images here [:download:`here <examples/ImportTestingSetTable.pdf>`] Compare the display between web and insight i.e. Make sure the same values are displayed [:ref:`MetadataScreen001`][:ref:`MetadataScreen002`]
+#. Import an image rich in metadata for example 'data_repo/test_images_metada/leica-lif/Rosier.lif.2' or see the set of images here [:download:`here </downloads/ImportTestingSetTable.pdf>`] Compare the display between web and insight i.e. Make sure the same values are displayed [:ref:`MetadataScreen001`][:ref:`MetadataScreen002`]
 
    - |C| the units
 

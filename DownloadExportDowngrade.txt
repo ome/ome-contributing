@@ -1,11 +1,6 @@
 Download/Export/Downgrade
 ==========================
 
-.. toctree::
-    :hidden:
- 
-    examples/Export_Downgrade_008
-    examples/Export_Downgrade_original_metadata.txt
 
 
 
@@ -15,7 +10,7 @@ Download/Export/Downgrade
 
 #.  Download :
 
-    - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here <examples/ImportTestingSetTable.pdf>`])
+    - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
 
     - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
@@ -25,9 +20,9 @@ Download/Export/Downgrade
 
     - |C| their size is not zero.[:ref:`DownloadEDScreen005`]
 
-    - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <examples/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`].
+    - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`].
 
-    - |C| the downloaded file [:download:`008 <examples/Export_Downgrade_008.txt>`].
+    - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
 
 #.  Export:

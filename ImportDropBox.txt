@@ -1,12 +1,6 @@
 Import DropBox
 ==============
 
-.. toctree::
-    :hidden:
- 
-    examples/DropBox_001
-
-
 
 **To test in**: Command line interface/Dropbox/Insight
 
@@ -24,10 +18,10 @@ Import DropBox
 
 #. Observe the log info in your command line
 
-   - |C| the file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`] and immediately
+   - |C| the file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`] and immediately
 
 #. Drag and Drop an accompanying file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
 
-   - |C| the accompanying file has been registered by DropBox [:download:`001 <examples/DropBox_001.txt>`]
-   - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <examples/DropBox_001.txt>`]
+   - |C| the accompanying file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`]
+   - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 </downloads/DropBox_001.txt>`]
    - |C| that the files have been correctly imported (using Insight UI)
