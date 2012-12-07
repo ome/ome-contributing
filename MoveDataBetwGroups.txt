@@ -1,5 +1,5 @@
-Move Data
-==========
+Move Data between Groups
+=========================
 
 
 
@@ -18,10 +18,16 @@ Move Data
    - rich in metadata 
    - with ROI
    - with annotation
+   - large image
 
 #. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
 #. Move via D&D (Insight only) [:ref:`MoveDataScreen006`]
+
+   - |C| that the images are in their destinations and view them
+   - |C| that the large image displays properly the tiles and the position of birds eye
+
+
 
 
 .. _MoveDataScreen001:

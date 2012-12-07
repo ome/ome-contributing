@@ -11,6 +11,7 @@ Work on your own data scenarios
    BrowseFilterPreview
    BulkAnnotations 
    ConnectionErrorHandling
+   CopyCutPaste
    Create
    DeAnnotateUnlink
    Delete
@@ -29,7 +30,7 @@ Work on your own data scenarios
    ImportUI
    InsightasPluginImageJFiji
    MetadataDisplay
-   MoveData
+   MoveDataBetwGroups
    Render
    ROIInsight
    ROIWeb

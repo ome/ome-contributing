@@ -1,0 +1,28 @@
+Copy/Cut/Paste
+===============
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check the Copy, Cut and Paste functionalities
+
+Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+
+#. Copy/Cut & Paste by selecting the items & using right-click menu
+
+   - Datasets between Projects
+   - Images between Datasets
+   - Big Images between Datasets 
+   - Plates between Screens
+   - Refresh
+   - |C| the data are in their destination and display correctly 
+   - |C| the big image is displayed correctly in its' destination
+
+#. Repeat step 1. using main menu (Edit / Copy / Cut / Paste)
+
+#. Repeat step 1. using icons (top of the Project harmonica pane in Insight)
+
+#. Repeat step 1. using Drag & Drop
+
+
