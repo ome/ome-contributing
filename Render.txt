@@ -31,6 +31,8 @@ Render
    - Modify the settings in the "Preview" pane on the right.[:ref:`RenderScreen005`] Save your own using the "Apply" icon [Insight]. or Save button (Web) [:ref:`RenderScreen007`]
    - |C| Make sure thumbnails in central pane are updated
 
+#. Repeat the steps 1 - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`])
+
 
 
 	.. _RenderScreen001:
