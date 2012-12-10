@@ -8,18 +8,23 @@ Work on your own data scenarios
    :numbered:
 
    Annotate
+   BigImageUpgradeTestingServer
    BrowseFilterPreview
-   BulkAnnotations 
+   BulkAnnotations
+   ClientServerCompatibility
+   CommandLineInterfaceTesting
    ConnectionErrorHandling
    CopyCutPaste
    Create
    DeAnnotateUnlink
    Delete
+   DeleteImageBinaryDataServer
    DeleteROI
    DownloadExportDowngrade
    Edit
    EditorfromInsight
    EditorStandalone
+   FileFormatMetadataValidation
    GroupUserCreateAdmin
    GroupUserEditAdmin
    ImportCLI
@@ -29,6 +34,7 @@ Work on your own data scenarios
    ImportMultigroups
    ImportUI
    InsightasPluginImageJFiji
+   LdapTesting
    MetadataDisplay
    MoveDataBetwGroups
    Render

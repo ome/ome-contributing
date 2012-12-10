@@ -57,6 +57,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:ref:`ImportUIScreen016`]
    - Enter a valid e-mail address
    - |C| Make sure that you receive a notification e-mail.
+   - |C| Your email address, error message, and file links should all be included on the QA webpage.
+   - Send a reply comment to the QA webpage, include your email address and a message.
+   - |C| Log into the QA system as an administrator and confirm the comment was received.
+   - Reply to the QA message, the message should appear in your email.
+   - Finally, set the QA message status to "Closed" and save.
 
 
 	.. _ImportUIScreen001:

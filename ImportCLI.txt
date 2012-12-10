@@ -8,16 +8,17 @@ Import CLI
 **Purpose of the test** is to check the import of single, multiple images and multi-images file from command line
 
 
+**Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
 
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
 #. Go to Terminal (command line interface, CLI). From CLI
 
-#. Log in onto appropriate server and user. Import a single image [:download:`001 </downloads/CLI_001.txt>`]
+#. Log in onto appropriate server and user. Import a single image without an accompanying file [:download:`001 </downloads/CLI_001.txt>`]
 
    - |C| that the file was imported using Insight UI [:ref:`ImportCLIScreen002`]
 
-#. Import several images in one transaction.[:download:`003 </downloads/CLI_003.txt>`]
+#. Import several images in one transaction (a whole folder).[:download:`003 </downloads/CLI_003.txt>`]
 
    - |C| that the files were imported using Insight UI [:ref:`ImportCLIScreen004`]
 
@@ -34,6 +35,7 @@ Import CLI
 
    - |C| the image has been imported into the right database and archived
 
+#. Import a nested folder containing Screen/Plate/Well files
 
 	.. _ImportCLIScreen002:
 	.. figure:: /images/testing_scenarios/ImportCLI/002.png

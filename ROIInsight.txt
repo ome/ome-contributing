@@ -58,6 +58,7 @@ ROI Insight
 
    - |C| that the graphs update
    - |C| that the planes in the stack of images updates concurrently
+   - Turn channels on off. |C| that histogram updates.
 
 #. In Intensity View tab repeat steps 12 & 13. Export to Excel.
  
