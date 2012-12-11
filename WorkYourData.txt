@@ -37,6 +37,7 @@ Work on your own data scenarios
    LdapTesting
    MetadataDisplay
    MoveDataBetwGroups
+   OmeroDataDirFiles
    Render
    ROIInsight
    ROIWeb
@@ -47,3 +48,4 @@ Work on your own data scenarios
    UserGroupManipulation
    ViewImage
    ViewBigImage
+   VirtualMachineTesting

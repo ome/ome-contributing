@@ -16,6 +16,7 @@ Share
    - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`ShareScreen008`]
    - |C| than images in the share can be viewed using the Preview and Full viewer [:ref:`ShareScreen009`]
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`ShareScreen010`]
+   - |C| that users on the share get e-mail with link
 
 
 	.. _ShareScreen001:

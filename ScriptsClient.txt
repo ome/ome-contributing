@@ -30,7 +30,24 @@ Scripts Client
 
    - |C| View if the script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`]
 
+   - |C| that you can view the results of the scripts
+
+   - |C| that you can download the results of the scripts and view the downloaded
+
+
 #. Repeat all steps with another type e.g. Image
+
+#. |C| the "publishing options" scenarios, which are
+   
+   -  Make Movie
+
+   -  Split View Figure
+
+   -  ROI Split Figure
+
+   -  Thumbnail Figure
+
+   -  Movie Figure
 
 
 .. _ScriptClientScreen001:

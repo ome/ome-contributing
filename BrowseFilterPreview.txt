@@ -11,6 +11,9 @@ Browse/Filter/Preview
 
 #. Try to filter by rating/tags, date. [:ref:`BrowseFPScreen001`]
 
+   -  Load tags to filter by
+   -  Repeat the step 2. under the tags section on the left hand panel
+
 #. Switch between list and thumbnail view.[:ref:`BrowseFPScreen002`]
 
 #. If applicable
