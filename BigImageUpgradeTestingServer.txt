@@ -29,7 +29,7 @@ test images good :**
 -  /tif/4kx4k.tif
 -  /tif/8kx8k.tif
 
-#  Install 4.2.2 server and increase Java memory to 4096M in template.xml.
+#. Install 4.2.2 server and increase Java memory to 4096M in template.xml.
 
 #. Using a 4.2.2 client of OMERO upload big images listed in the prerequisite images (e.g. /bmp/8kx8k.bmp ).
 
