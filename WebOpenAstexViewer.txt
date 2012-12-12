@@ -1,0 +1,112 @@
+Web Open Astex Viewer
+=======================
+
+
+**To test in**: Web, (InsightUI just for import)
+
+**Purpose of the test** is to check the Astex Viewer application in Web client
+
+#. Choose a map from from  <http://emdatabank.org/recententries.html>
+
+   -  Click on 'PDBe' for an entry that looks decent and is larger than 120x120x120. See 'Map Information'
+   -  Click on the .map.gz (first line in Map information, next to Map:) to download it
+   -  Go to Downloads and grab the map.gz, unzip and import (use Insigh UI)
+
+#. View the image in web: you should see an option for 'Volume Viewer' in the web `General` pane for that image [:ref:`OpenAstex001`]
+
+#. Open the Volume viewer. You might need to start a java applet in the middle of the viewer first. [:ref:`OpenAstex002`]
+
+#. Zoom, rotate, pan.
+
+#. |C| the following controls
+
+   -  Wire-frame vs solid
+   -  Adjust contour level. You should see "something" for all but the extreme ranges.
+   -  Try loading a larger map (not scaled down). This option will not appear if the original is below 120
+   -  Try loading 'raw' data (float). This option will not appear if it is not a float pixel type (most are) - for large or complex images this step may fail.
+   -  Adjust the contours again to check they are working with float values.
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+.. _OpenAstex001:
+.. figure:: /images/testing_scenarios/OpenAstex/001.png
+   :align: center
+
+   OpenAstexScreen001: Volume Viewer Button
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _OpenAstex002:
+.. figure:: /images/testing_scenarios/OpenAstex/002.png
+   :align: center
+
+   OpenAstex002: The Volume Viewer window
+
+|
+|
+|
+|
+|
+|
+|
+|
+

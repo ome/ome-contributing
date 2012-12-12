@@ -49,3 +49,4 @@ Work on your own data scenarios
    ViewImage
    ViewBigImage
    VirtualMachineTesting
+   WebOpenAstexViewer
