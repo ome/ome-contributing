@@ -9,8 +9,10 @@ Web Open Astex Viewer
 #. Choose a map from from  <http://emdatabank.org/recententries.html>
 
    -  Click on 'PDBe' for an entry that looks decent and is larger than 120x120x120. See 'Map Information'
-   -  Click on the .map.gz (first line in Map information, next to Map:) to download it
-   -  Go to Downloads and grab the map.gz, unzip and import (use Insigh UI)
+   -  Click on the ""*".map.gz" (first line in Map information, next to Map:) to download it
+   -  Go to Downloads and grab the ""*".map.gz", and (when applicable) unzip
+   -  Import the whole ""*".map.gz" file you just downloaded (and unzipped), use Insight UI
+   -  In case of problems at import, choose the EM-data file from [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] and import this one - this should certainly work.
 
 #. View the image in web: you should see an option for 'Volume Viewer' in the web `General` pane for that image [:ref:`OpenAstex001`]
 

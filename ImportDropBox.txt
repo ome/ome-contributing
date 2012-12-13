@@ -23,19 +23,19 @@ implemented.
 
 #. Create a DropBox.log. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to create a DropBox log.
 
-#. Drag and Drop an image file which has an accompanying file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
+#. Drag and Drop an image file which has a companion file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
 
 #. Observe the log info in your command line
 
    - |C| the file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`] and immediately
 
-#. Drag and Drop an accompanying file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
+#. Drag and Drop a companion file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
 
-   - |C| the accompanying file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`]
+   - |C| the companion file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`]
    - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 </downloads/DropBox_001.txt>`]
    - |C| that the files have been correctly imported (using Insight UI)
 
-#. Drag and Drop an image without accompanying file into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``)
+#. Drag and Drop an image without companion file into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``)
 
    - Wait at least ~60sec - watch the progress of the import in the log
    - |C| they are all imported (using Insight UI)

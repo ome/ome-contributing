@@ -14,7 +14,7 @@ Import CLI
 
 #. Go to Terminal (command line interface, CLI). From CLI
 
-#. Log in onto appropriate server and user. Import a single image without an accompanying file [:download:`001 </downloads/CLI_001.txt>`]
+#. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
 
    - |C| that the file was imported using Insight UI [:ref:`ImportCLIScreen002`]
 
@@ -31,7 +31,7 @@ Import CLI
 
    - |C| that you can see the imported images within the file
 
-#. Try import into an existing database (use -d <databaseID>) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
+#. Try import into an existing dataset (use -d <datasetID> - use the dataset you created in step 1) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
 
    - |C| the image has been imported into the right database and archived
 
