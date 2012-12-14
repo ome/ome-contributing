@@ -26,6 +26,6 @@ LDAP testing
    - |C| check that cblackburn was added to omedev group in Insight
 
 For further details check:
-<https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-ldap.html>
+<http://www.openmicroscopy.org/site/support/omero4/sysadmins/server-ldap.html>
 and
 ``ldap-dev-configuration`` on ome-internal. 

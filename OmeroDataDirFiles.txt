@@ -14,7 +14,7 @@ discuss with Kenny how to put in what makes more sense
 
 #. Run bin/omero admin diagnostics ensuring that new omero.data.dir is picked up.
 -  
-#. Modifiy the omero.data.dir according to <https://www.openmicroscopy.org/site/support/omero4/sysadmins/unix/server-binary-repository.html> to a new directory you CANNOT write to
+#. Modifiy the omero.data.dir according to <http://www.openmicroscopy.org/site/support/omero4/sysadmins/unix/server-binary-repository.html> to a new directory you CANNOT write to
 
 #. Run bin/omero admin diagnostics ensuring that new omero.data.dir is picked up and a permissions error is displayed.
 

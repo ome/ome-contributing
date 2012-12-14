@@ -62,7 +62,7 @@ Confirmation of the technical setup
    -  Start - the OMERO.web server
    -  Run the command status and confirm the status of the web server has started.
    -  Run the command config and confirm a output config template for server
-   -  Run the command gateway and execute the code below (See` PythonClientBeginners <https://www.openmicroscopy.org/site/support/omero4/developers/Python.html> for additional information.)
+   -  Run the command gateway and execute the code below (See` PythonClientBeginners <http://www.openmicroscopy.org/site/support/omero4/developers/Python.html> for additional information.)
 
       ::
 
@@ -96,6 +96,6 @@ Confirmation of the technical setup
    -  Run the command insert and ensure the user is added to the group
 
 See
-<https://www.openmicroscopy.org/site/support/omero4/sysadmins/command-line-interface.html>
-<https://www.openmicroscopy.org/site/support/omero4/users/command-line-interface.html>
+<http://www.openmicroscopy.org/site/support/omero4/sysadmins/command-line-interface.html>
+<http://www.openmicroscopy.org/site/support/omero4/users/command-line-interface.html>
 for further information on the range of commands.
