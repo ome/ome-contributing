@@ -9,13 +9,13 @@ User/Group Manipulation
 
 #. Add several groups to the display (Insight only) Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`]
 
-#. Add several users to the display [:ref:`UserGroupMScreen004`][:ref:`UserGroupMScreen005`] (Insight only)
+#. Add several users to the display [:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen005`] (Insight only)
 
 #. Switch between users.
 
 #. Browse the user's data.
 
-#. Remove users from display.(Insight only)
+#. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupMScreen002`] and right-click (remomve & refresh) [:ref:`UserGroupMScreen004`]
 
 #. Remove groups from display.(Insight only)
 

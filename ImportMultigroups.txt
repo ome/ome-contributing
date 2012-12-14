@@ -12,7 +12,7 @@ Import and Multigroups
    - Select an image
    - Choose where to import the image in the first group.
    - Do not change the selection, switch group and select where to import the image in the second group.
-   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen002`]
+   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen001`]
    - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGrScreen002`]
 
 #. Import queue
