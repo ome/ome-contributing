@@ -33,6 +33,37 @@ If you test work on other's data (permissions) go first to :ref:`Work on others 
 
    - |C| that you CAN delete (but DO NOT DELETE them!) other's data named in this scenario (images..., ratings, attachments, tags) if you are one of the users named below working in the same group with permissions as indicated:
 
+
+
+
+.. tabularcolumns:: |l|c|c|c|
+
+=================== ======= ========= =============
+Group Administrator Private Read-only Read-annotate
+------------------- ------- --------- -------------
+    Delete             Y        Y          Y
+=================== ======= ========= =============
+
+|
+
+.. tabularcolumns:: |l|c|c|c|
+
+================ ======= ========= =============
+Group Ownder of  Private Read-only Read-annotate
+---------------- ------- --------- -------------
+    Delete          Y        Y           Y
+================ ======= ========= =============
+
+|
+
+.. tabularcolumns:: |c|c|c|c|
+
+================ ======= ========= =============
+Group Member of  Private Read-only Read-annotate
+---------------- ------- --------- -------------
+     Delete         N        N           N
+================ ======= ========= =============
+
       - user1/7  (owner) in  private,
       - user3/8  (owner) in  read-only,
       - user4/10 (owner) in  read-write,
