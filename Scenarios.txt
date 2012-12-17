@@ -46,7 +46,7 @@ Scenarios
    Share
    ScreenPlateWell
    UserGroupManipulation
-   ViewImage
+   ViewImageWithPerm
    ViewBigImage
    VirtualMachineTesting
    WebOpenAstexViewer
