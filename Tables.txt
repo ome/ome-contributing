@@ -8,5 +8,5 @@ Tables
    :numbered:
 
    TablePermissionsUsers
-   TablePermissionsGeneral
+
 
