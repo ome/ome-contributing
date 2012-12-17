@@ -32,7 +32,7 @@ If you test work on other's data (permissions) go first to :ref:`Work on others 
 #. 
 
    - |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-   - |C| whether you CAN (=Y) or CANNOT (=N) delete other's data in the table below (alternatively see all permissions: :ref:`Table of permissions-general <Table-of-permissions-general>`):
+   - |C| whether you CAN (=Y) or CANNOT (=N) delete other's data in the table below (alternatively see all permissions: <https://www.openmicroscopy.org/site/support/omero4/sysadmins/server-permissions.html>):
 
 
 
