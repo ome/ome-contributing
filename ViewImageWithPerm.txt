@@ -54,31 +54,15 @@ If you test work on other's data (permissions) go first to :ref:`Work on others 
 
 .. tabularcolumns:: |l|c|c|c|
 
-=================== ======= ========= =============
-Group Administrator Private Read-only Read-annotate
-------------------- ------- --------- -------------
-    View             Y        Y          Y
-=================== ======= ========= =============
-
-|
-
-.. tabularcolumns:: |l|c|c|c|
-
-================ ======= ========= =============
-Group Owner of   Private Read-only Read-annotate
----------------- ------- --------- -------------
-    View          Y        Y           Y
-================ ======= ========= =============
-
-|
-
-.. tabularcolumns:: |c|c|c|c|
-
-================ ======= ========= =============
-Group Member of  Private Read-only Read-annotate
----------------- ------- --------- -------------
-     View         N        Y           Y
-================ ======= ========= =============
+==================== ======= ========== ================
+CAN VIEW ?           Private Read-only  Read-annotate
+==================== ======= ========== ================
+Group Administrator    Y        Y           Y
+-------------------- ------- ---------- ----------------
+   Group Owner         Y        Y           Y
+-------------------- ------- ---------- ----------------
+   Group Member        N        Y           Y
+==================== ======= ========== ================
 
 #. Go through the steps 1.- 8. :ref:`above <view-work-own>` and
 
