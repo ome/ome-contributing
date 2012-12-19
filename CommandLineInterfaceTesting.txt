@@ -98,11 +98,11 @@ Confirmation of the technical setup
 
 .. seealso::
 
-<http://www.openmicroscopy.org/site/support/omero4-staging/users/command-line-interface.html>
+   <http://www.openmicroscopy.org/site/support/omero4-staging/users/command-line-interface.html>
         User documentation for the Command Line Interface
 
-<http://www.openmicroscopy.org/site/support/omero4-staging/sysadmins/command-line-interface.html>
+   <http://www.openmicroscopy.org/site/support/omero4-staging/sysadmins/command-line-interface.html>
         Sysadmin documentation for the Command Line Interface
 
-<http://www.openmicroscopy.org/site/support/omero4-staging/developers/command-line-interface.html>
+   <http://www.openmicroscopy.org/site/support/omero4-staging/developers/command-line-interface.html>
         Developer documentation for the Command Line Interface
