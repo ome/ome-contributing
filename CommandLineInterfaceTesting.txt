@@ -95,7 +95,14 @@ Confirmation of the technical setup
    -  Run the command list and view the current groups
    -  Run the command insert and ensure the user is added to the group
 
-See
-<http://www.openmicroscopy.org/site/support/omero4/sysadmins/command-line-interface.html>
-<http://www.openmicroscopy.org/site/support/omero4/users/command-line-interface.html>
-for further information on the range of commands.
+
+.. seealso::
+
+   <http://www.openmicroscopy.org/site/support/omero4-staging/users/command-line-interface.html>
+        User documentation for the Command Line Interface
+
+   <http://www.openmicroscopy.org/site/support/omero4-staging/sysadmins/command-line-interface.html>
+        Sysadmin documentation for the Command Line Interface
+
+   <http://www.openmicroscopy.org/site/support/omero4-staging/developers/command-line-interface.html>
+        Developer documentation for the Command Line Interface

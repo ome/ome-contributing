@@ -7,9 +7,13 @@ View Image
 
 **Purpose of the test** is to test the View feature on multiple z/t image and to check the z-Projection creation functionality
 
+If you test work on other's data (permissions) go first to :ref:`Work on others data <label-name>`
+
+.. _view-work-own:
+
 #. Import an image with several channels/timepoint/z-sections. [:ref:`ViewScreen001`][:download:`001 </images/testing_scenarios/ViewImage/001.png>`]
 
-#. Turn on/off channels, use z-slider and t-slider.3. Play channels movie and z/t movie.
+#. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
 #. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
 
@@ -33,6 +37,49 @@ View Image
    - Save split channels.[:ref:`ViewScreen008`]
    - Save with all channels turned off.
    - |C| the saved files.
+
+**End of scenario working on own data**
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+.. _label-name:
+
+**Work on other user's data**
+
+
+- |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
+- |C| whether you CAN (=Y) or CANNOT (=N) view other's data in the table below (alternatively see all permissions `here <http://www.openmicroscopy.org/site/support/omero4/sysadmins/server-permissions.html>`_)
+
+
+
+.. tabularcolumns:: |l|c|c|c|
+
+==================== ======= ========== ================
+CAN VIEW ?           Private Read-only  Read-annotate
+==================== ======= ========== ================
+Group Administrator    Y        Y           Y
+-------------------- ------- ---------- ----------------
+   Group Owner         Y        Y           Y
+-------------------- ------- ---------- ----------------
+   Group Member        N        Y           Y
+==================== ======= ========== ================
+
+#. Go through the steps 1.- 8. :ref:`above <view-work-own>` and
+
+   - |C| that you CAN/CANNOT (as appropriate) view other's data (e.g. images, plates)
+
+
+
+#. |C| - in case you CAN see the other's images, you should see the tags, attachments, comments of these images as well
+   
+#. |C| that you CAN/CANNOT (as appropriate) draw ROIs on other user's images (do not try to save the ROI - this is not covered in this scenario)
+
+#. Go through the steps 1.- 8. :ref:`above <view-work-own>` and
+
+   - |C| you see this - `link to the table with screenshots about permissions - visibility of objects - does not exist yet`
+
+
+
 
 
 

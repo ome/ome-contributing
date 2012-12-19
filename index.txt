@@ -9,9 +9,10 @@ Testing scenarios
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
+   :numbered: 1
 
-   WorkYourData.txt
+   Scenarios
+   Tables
 
 
 
