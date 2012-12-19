@@ -9,7 +9,7 @@ Testing scenarios
 
 .. toctree::
    :maxdepth: 1
-   :numbered:
+   :numbered: 1
 
    Scenarios
    Tables
