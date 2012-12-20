@@ -20,6 +20,12 @@ De-Annotate/Unlink
 
    - |C| the image appears in the orphaned images in case it is not linked to other datasets.
 
+#. Select >3 annotated objects at once and repeat the steps 1 - 4. 
+
+#. Repeat step 5., this time select once-annotated (with one tag/file etc. attached) as well as multi-annotated (with more tags/files etc.) objects in you multi-selection. 
+
+   - |C| that when you remove single tags/files from multi-selected images/datasets..., the remaining attachments remain intact
+
 |
 |
 |

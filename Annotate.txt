@@ -5,9 +5,9 @@ Annotate
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the Annotate ability (creating as well as viewing) for P/D/I/Plates/Plate Acquisitions
+**Purpose of the test** is to check the Annotate ability (creating as well as viewing) for P/D/I/S/Plates/Plate Acquisitions
 
-#. Annotate different type of objects i.e. Projects/Datasets/Images/Plates/Plate Acquisitions (=Plate Run)
+#. Annotate different type of objects i.e. Projects/Datasets/Images/Screens/Plates/Plate Acquisitions (=Plate Run)
 
    - Comments (right-hand pane [:ref:`AnnotateScreen001`])
 
@@ -15,13 +15,25 @@ Annotate
 
    - Attachments (right-hand pane)
 
-   - Tags (both left-hand pane right-click and right hand pane possible)
+   - Tags (select the object(s) and right-click as well as use "+" sign in right-hand pane)
+
+#. Repeat step 1., selecting each time more than 2 objects for annotation at one go [:ref:`AnnotateMScreen001`].
+
+   - |C| that each of the selected object has been annotated, and you still see the annotation when selecting them one-by-one
+   - |C| that when you select the annotated objects together with non-annotated objects, the annotation is still visible in right-hand pane [:ref:`AnnotateMScreen002`]
+   
+#. Select more than 2 objects and attach an existing tag. 
+
+#. Select again more than 2 objects, this time choose objects tagged in step 3. as well as untagged objects and try to add the tag from step 3
+   
+   - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateMScreen007`,  :ref:`AnnotateMScreen008`]
 
 #. Select an annotated object
 
 #. Go to the right-hand side and mouse over the annotation.
 
    - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`AnnotateScreen002`, :ref:`AnnotateScreen003`]
+   - |C| that in case of multiple selections (done in step 2) [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`] and in case you did not create the link yourself, the link owner is indicated in brackets [:ref:`AnnotateMScreen005`, :ref:`AnnotateMScreen006`]
 
 
 
@@ -64,6 +76,93 @@ Annotate
 
    AnnotateScreen001: Comments in Insight
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen001:
+.. figure:: /images/testing_scenarios/Annotate/multiple001.png
+   :align: center
+
+   AnnotateMScreen001
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen002:
+.. figure:: /images/testing_scenarios/Annotate/multiple002.png
+   :align: center
+
+   AnnotateMScreen002
+
+|
+|
 |
 |
 |
@@ -163,10 +262,185 @@ Annotate
 |
 |
 |
+
+.. _AnnotateMScreen003:
+.. figure:: /images/testing_scenarios/Annotate/multiple003.png
+   :align: center
+
+   AnnotateMScreen003
+
 |
 |
 |
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen004:
+.. figure:: /images/testing_scenarios/Annotate/multiple004.png
+   :align: center
+
+   AnnotateMScreen004
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen005:
+.. figure:: /images/testing_scenarios/Annotate/multiple005.png
+   :align: center
+
+   AnnotateMScreen005
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen006:
+.. figure:: /images/testing_scenarios/Annotate/multiple006.png
+   :align: center
+
+   AnnotateMScreen006
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen007:
+.. figure:: /images/testing_scenarios/Annotate/multiple007.png
+   :align: center
+
+   AnnotateMScreen007
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _AnnotateMScreen008:
+.. figure:: /images/testing_scenarios/Annotate/multiple008.png
+   :align: center
+
+   AnnotateMScreen008
 
