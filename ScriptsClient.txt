@@ -6,7 +6,7 @@ Scripts Client
 **To test in**: Web, Insight
 
 
-**Purpose of the test** is to test the scripting functionalities, mainly checking the script launching on various targets and reporting about the script run
+**Purpose of the test** is to test the scripting functionalities, mainly checking the script launching on various targets and reporting about the script run. Further, the most popular scripts (export scripts, publishing options) are being more thoroughly tested for output formats.
 
 #. Select a dataset
 
@@ -37,17 +37,34 @@ Scripts Client
 
 #. Repeat all steps with another type e.g. Image
 
-#. |C| the "publishing options" scenarios, which are
-   
-   -  Make Movie
+#. Select >3 images and run Batch image export script [:ref:`ScriptClientScreen002`] from Export Scripts submenu
+	
+   - Choose other output formats than the default (=.jpeg) like .tiff, tiff-ome and .png [:ref:`ScriptClientScreenN001`]
 
-   -  Split View Figure
+   - Download and unzip the resulting file and
 
-   -  ROI Split Figure
+   - |C| the correct format was indeed exported by the script
 
-   -  Thumbnail Figure
+#. Select an image, create a rectangular ROI and repeat point 8. running Movie ROI Figure script from the Figure Scripts submenu
 
-   -  Movie Figure
+
+#. Go to the right-hand pane in Insight, General tab and run the following publishing options scripts [:ref:`ScriptClientScreenN002`]
+
+   - Split View Figure
+
+   - ROI Split Figure (create a rectangular ROI first, then run the script)
+
+   - Thumbnail Figure
+
+   - Movie Figure
+
+   - Choose other output formats than the default (=.jpeg) like .tiff, tiff-ome and .png [:ref:`ScriptClientScreenN001`]
+
+   - |C| the correct format was indeed exported by the script
+
+#. |C| the consistency of script submenus, namely that scripts from the the right-hand pane icon ("publishing options" [:ref:`ScriptClientScreenN002`]) are not duplicated in the left-hand panel icon in Insight (the main Scripts menu [:ref:`ScriptClientScreenN003`])
+
+#. |C| the consistency between Insight and Web - are the scripts displayed logically in the corresponding submenus in both clients ?
 
 .. seealso::
 
@@ -334,4 +351,92 @@ Scripts Client
 |
 |
 |
+|
+|
+
+.. _ScriptClientScreenN001:
+.. figure:: /images/testing_scenarios/ScriptsClient/001N.png
+   :align: center
+
+   ScriptClientScreenN001
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ScriptClientScreenN002:
+.. figure:: /images/testing_scenarios/ScriptsClient/002N.png
+   :align: center
+
+   ScriptClientScreenN002
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ScriptClientScreenN003:
+.. figure:: /images/testing_scenarios/ScriptsClient/003N.png
+   :align: center
+
+   ScriptClientScreenN003
+
 
