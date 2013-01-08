@@ -58,7 +58,7 @@ Scripts Client
 
    - Movie Figure
 
-   - Choose other output formats than the default (=.jpeg) like .tiff, tiff-ome and .png [:ref:`ScriptClientScreenN001`]
+   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientScreenN001`]
 
    - |C| the correct format was indeed exported by the script
 
@@ -68,29 +68,29 @@ Scripts Client
 
 .. seealso::
 
-   <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-scripts.html>
-        User documentation for Running of scripts
+   `User documentation for Running scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-scripts.html>`_
 
-   <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-util-scripts.html>
-        User documentation for Running of Utility scripts
 
-   <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-export-figures.html>
-        User documentation for Running of Export scripts
+   `User documentation for Running Utility scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-util-scripts.html>`_
+        
 
-   <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html>
-        Developer documentation for Scripts
+   `User documentation for Running Export scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-export-figures.html>`_
+        
 
-   <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/Guide.html>
-        Developer documentation for Scripting Service Guide
+   `Developer documentation for Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html>`_
+        
 
-   <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html#matlab-and-scripting>
-        Developer documentation for MatLab Scripts
+   `Developer documentation for Scripting Service Guide <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/Guide.html>`_
+        
 
-   <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/StyleGuide.html>
-        Developer documentation for Script style
+   `Developer documentation for MatLab Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html#matlab-and-scripting>`_
+       
 
-   <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Api/ScriptingService.html>
-        Developer documentation for Script API
+   `Developer documentation for Script style <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/StyleGuide.html>`_
+        
+
+   `Developer documentation for Script API <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Api/ScriptingService.html>`_
+        
 
 
 
