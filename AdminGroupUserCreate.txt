@@ -1,4 +1,4 @@
-Group/User Create (Admin)
+Admin: Group/User Create
 ==========================
 
 **To test in**: Web, Insight

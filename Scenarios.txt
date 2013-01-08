@@ -7,6 +7,8 @@ Scenarios
    :maxdepth: 1
    :numbered:
 
+   AdminGroupUserCreate
+   AdminGroupUserEdit
    Annotate
    BigImageUpgradeTestingServer
    BrowseFilterPreview
@@ -25,8 +27,6 @@ Scenarios
    EditorfromInsight
    EditorStandalone
    FileFormatMetadataValidation
-   GroupUserCreateAdmin
-   GroupUserEditAdmin
    ImportCLI
    ImportDropBox
    ImporterStandalone
