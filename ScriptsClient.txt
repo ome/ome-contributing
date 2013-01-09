@@ -26,24 +26,24 @@ Scripts Client
 
    - |C| that an entry is added to the activities section [:ref:`ScriptClientScreen004`][:ref:`ScriptClientScreen005`]
 
-#. Click on the result link e.g.
+#. Click on the result link and 
 
-   - |C| View if the script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`]
+   - |C| that script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`]
 
    - |C| that you can view the results of the scripts
 
-   - |C| that you can download the results of the scripts and view the downloaded
+   - |C| that you can download the results of the scripts and view the downloaded results
 
 
 #. Repeat all steps with another type e.g. Image
 
-#. Select >3 images and run Batch image export script [:ref:`ScriptClientScreen002`] from Export Scripts submenu
+#. Select more than 3 images and run Batch image export script [:ref:`ScriptClientScreen002`] from Export Scripts submenu
 	
-   - Choose other output formats than the default (=.jpeg) like .tiff, tiff-ome and .png [:ref:`ScriptClientScreenN001`]
+   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientScreenN001`]
 
-   - Download and unzip the resulting file and
+   - Download and unzip the resulting file
 
-   - |C| the correct format was indeed exported by the script
+   - |C| that the correct format was indeed exported by the script
 
 #. Select an image, create a rectangular ROI and repeat point 8. running Movie ROI Figure script from the Figure Scripts submenu
 
@@ -60,9 +60,9 @@ Scripts Client
 
    - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientScreenN001`]
 
-   - |C| the correct format was indeed exported by the script
+   - |C| that the correct format was indeed exported by the script
 
-#. |C| the consistency of script submenus, namely that scripts from the the right-hand pane icon ("publishing options" [:ref:`ScriptClientScreenN002`]) are not duplicated in the left-hand panel icon in Insight (the main Scripts menu [:ref:`ScriptClientScreenN003`])
+#. |C| the consistency of script submenus, namely that scripts from the right-hand pane icon ("publishing options" [:ref:`ScriptClientScreenN002`]) are not duplicated in the left-hand panel icon in Insight (the main Scripts menu [:ref:`ScriptClientScreenN003`])
 
 #. |C| the consistency between Insight and Web - are the scripts displayed logically in the corresponding submenus in both clients ?
 
