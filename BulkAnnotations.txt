@@ -3,7 +3,7 @@ Bulk Annotations
 
 
 
-**To test in**: Command line interface / Insight
+**To test in**: Command line interface / Insight and Web (for Web - last step only)
 
 **Purpose of the test** is to check the creation of bulk annotations using a python script started from CLI
 
@@ -40,6 +40,8 @@ Bulk Annotations
 
       `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s howe.openmicroscopy.org.uk -u user-1 Plate:101 ~/Desktop/test_plate.csv`
 
+   - |C| that you can see following console output as a result of steps 6 and 7 [:ref:`BulkAnnotScreen001Nout`]. 
+
 #. Open or go to the previously opened Insight UI
 
 #. |C| that there is a "bulk_annotations" File Annotation attached to the Screen you created and imported into
@@ -62,7 +64,10 @@ Bulk Annotations
    - |C| "Plate Name" is the same for each selected Well and matches the Plate's name
    - |C| that the metadata match with the `test_plate.csv` (open the `.csv` in Excel)
 
+#. Using Web client, open the Plate without Screen, open an image in Full Viewer and click onto the "Image Information" link [:ref:`BulkAnnotScreen004NWeb`]  
 
+   - |C| that you can see the metadata annotations [:ref:`BulkAnnotScreen002NWeb`, :ref:`BulkAnnotScreen005NWeb`]
+   - |C| that the annotations in Web correspond with the information shown in Insight and in the test_plate.csv file
 
 
 
@@ -103,6 +108,162 @@ Bulk Annotations
    BulkAnnotScreen001: 
 
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _BulkAnnotScreen001Nout:
+.. figure:: /images/testing_scenarios/BulkAnnotations/001Nout.png
+   :align: center
+
+   Console output: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _BulkAnnotScreen004NWeb:
+.. figure:: /images/testing_scenarios/BulkAnnotations/004NWeb.png
+   :align: center
+
+   BulkAnnotScreen001NWeb: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _BulkAnnotScreen002NWeb:
+.. figure:: /images/testing_scenarios/BulkAnnotations/002NWeb.png
+   :align: center
+
+   BulkAnnotScreen002NWeb: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _BulkAnnotScreen005NWeb:
+.. figure:: /images/testing_scenarios/BulkAnnotations/005NWeb.png
+   :align: center
+
+   BulkAnnotScreen005NWeb: 
+
+
+|
+|
+|
 |
 |
 |
