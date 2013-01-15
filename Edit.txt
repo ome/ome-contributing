@@ -13,17 +13,17 @@ Edit
    - Edit description
    - |C| in Web, that the text you put in is escaped properly, this means for example enter special html signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). The Web application should not interpret them but take them as entered
 
-#. Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 1 channels, some 3 channels). Select an image)
+#. Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
    
-   - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`]
+   - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`, :ref:`EditScreen002Nb`]
    - Click Save
    - In the same image, edit channels again, this time click "Apply to All"
    - |C| that the warning message is displayed [:ref:`EditScreen003N` :ref:`EditScreen003NWeb`].
-   - Click Save and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. changes are on 1 channel images when a 1 channel image was selected, NO changes on 2 or 3 channel images in ANY of the channels)
-   - Edit channels again, click "Apply to All", then click Cancel and |C| the original channel names are reset
+   - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
+   - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
    - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
 
-#. Choose a plate, edit channels, make changes and click "Apply to All" [:ref:`EditScreen006NWeb`]
+#. Choose a plate, edit channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`]
 
 
 
@@ -557,6 +557,41 @@ Edit
 	|
 
 
+	.. _EditScreen002Nb:
+	.. figure:: /images/testing_scenarios/Edit/002Nb.png
+	   :align: center
+
+	   002Nb: 
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _EditScreen003N:
 	.. figure:: /images/testing_scenarios/Edit/003N.png
 	   :align: center
@@ -789,6 +824,41 @@ Edit
 	|
 
 
+	.. _EditScreen006N:
+	.. figure:: /images/testing_scenarios/Edit/006N.png
+	   :align: center
+
+	   006N: 
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 	.. _EditScreen006NWeb:
 	.. figure:: /images/testing_scenarios/Edit/006NWeb.png
 	   :align: center
@@ -798,6 +868,41 @@ Edit
 	
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen006Nb:
+	.. figure:: /images/testing_scenarios/Edit/006Nb.png
+	   :align: center
+
+	   006Nb: 
+	
+	
 	|
 	|
 	|
