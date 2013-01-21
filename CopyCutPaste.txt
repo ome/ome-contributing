@@ -19,10 +19,17 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| the data are in their destination and display correctly 
    - |C| the big image is displayed correctly in its' destination
 
-#. Repeat step 1. using main menu (Edit / Copy / Cut / Paste)
+#. Copy/Cut & Paste Images from Orphaned Images folder by selecting & using right-click menu
 
-#. Repeat step 1. using icons (top of the Project harmonica pane in Insight)
 
-#. Repeat step 1. using Drag & Drop
+#. Select images in a dataset and do Cut without Paste (Insight only)
+
+   - |C| that the images are in Orphaned images folder
+
+#. Repeat step 1.- 3. using main menu (Edit / Copy / Cut / Paste)
+
+#. Repeat step 1.- 3. using icons (top of the Project harmonica pane in Insight)
+
+#. Repeat step 1.- 3. using Drag & Drop
 
 

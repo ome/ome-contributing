@@ -33,9 +33,9 @@ Render
 
 #. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command or do Move command)
 
-#. Repeat steps 1. - 5 working on orphaned images. 
+#. Repeat steps 1. - 6. working on orphaned images. 
 
-#. Repeat the steps 1 - 5. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`])
+#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`])
 
 
 
