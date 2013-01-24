@@ -22,6 +22,8 @@ Move Data between Groups
 
 #. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
+   - |C| that image has been moved to Orphaned images when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveDataScreen002`] (Insight only)
+ 
 #. Move via D&D (Insight only) [:ref:`MoveDataScreen006`]
 
    - |C| that the images are in their destinations and view them
