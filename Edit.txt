@@ -23,7 +23,7 @@ Edit
    - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
    - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
 
-#. Choose a plate, edit channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`]
+#. Choose a plate, edit channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
 
 
 
@@ -903,6 +903,44 @@ Edit
 	   006Nb: 
 	
 	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen006NbWeb:
+	.. figure:: /images/testing_scenarios/Edit/006NbWeb.png
+	   :align: center
+
+	   Web Client b: 
+	
+	
+	|
 	|
 	|
 	|
