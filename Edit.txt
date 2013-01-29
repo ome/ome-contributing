@@ -13,17 +13,23 @@ Edit
    - Edit description
    - |C| in Web, that the text you put in is escaped properly, this means for example enter special html signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). The Web application should not interpret them but take them as entered
 
-#. Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
+#. Edit channels. 
    
-   - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`, :ref:`EditScreen002Nb`]
-   - Click Save
-   - In the same image, edit channels again, this time click "Apply to All"
-   - |C| that the warning message is displayed [:ref:`EditScreen003N` :ref:`EditScreen003NWeb`].
-   - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
-   - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
-   - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
+   #. Image 
 
-#. Choose a plate, edit channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
+      Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
+   
+      - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`, :ref:`EditScreen002Nb`]
+      - Click Save
+      - In the same image, edit channels again, this time click "Apply to All"
+      - |C| that the warning message is displayed [:ref:`EditScreen003N` :ref:`EditScreen003NWeb`].
+      - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
+      - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
+      - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
+
+   #. Plate
+
+      Choose a plate, click on a well sample, edit the channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
 
 
 
@@ -35,7 +41,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/001.png
 	   :align: center
 
-	   EditScreen001: 
+	   EditScreen001  
 
 
 	|
@@ -72,7 +78,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/002.png
 	   :align: center
 
-	   EditScreen002:
+	   EditScreen002 
 
 
 	|
@@ -220,7 +226,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006.png
 	   :align: center
 
-	   EditScreen006: 
+	   EditScreen006  
 
 
 	|
@@ -257,7 +263,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/007.png
 	   :align: center
 
-	   EditScreen007:
+	   EditScreen007 
 
 
 	|
@@ -331,7 +337,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/009.png
 	   :align: center
 
-	   EditScreen009: 
+	   EditScreen009  
 
 
 	|
@@ -368,7 +374,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/010.png
 	   :align: center
 
-	   EditScreen010: 
+	   EditScreen010  
 	
 	
 	|
@@ -406,7 +412,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/001N.png
 	   :align: center
 
-	   EditScreen001N: 
+	   EditScreen001N  
 	
 	
 	|
@@ -444,7 +450,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/001NWeb.png
 	   :align: center
 
-	   Web client: 
+	   Web client  
 	
 	
 	|
@@ -483,7 +489,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/002N.png
 	   :align: center
 
-	   EditScreen002N: 
+	   EditScreen002N  
 	
 	
 	|
@@ -522,7 +528,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/002NWeb.png
 	   :align: center
 
-	   Web Client: 
+	   Web Client  
 	
 	
 	|
@@ -561,7 +567,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/002Nb.png
 	   :align: center
 
-	   002Nb: 
+	   002Nb  
 	
 	
 	|
@@ -596,7 +602,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/003N.png
 	   :align: center
 
-	   EditScreen003N: 
+	   EditScreen003N  
 	
 	
 	|
@@ -635,7 +641,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/003NWeb.png
 	   :align: center
 
-	   Web Client: 
+	   Web Client  
 	
 	
 	|
@@ -674,7 +680,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/004N.png
 	   :align: center
 
-	   EditScreen004N: 
+	   EditScreen004N  
 	
 	
 	|
@@ -712,7 +718,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/004NWeb.png
 	   :align: center
 
-	   Web client: 
+	   Web client  
 	
 	
 	|
@@ -750,7 +756,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/005N.png
 	   :align: center
 
-	   EditScreen005N: 
+	   EditScreen005N  
 	
 	
 	|
@@ -789,7 +795,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/005NWeb.png
 	   :align: center
 
-	   Web client: 
+	   Web client  
 	
 	
 	|
@@ -828,7 +834,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006N.png
 	   :align: center
 
-	   006N: 
+	   006N  
 	
 	
 	|
@@ -863,7 +869,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006NWeb.png
 	   :align: center
 
-	   Web Client: 
+	   Web Client  
 	
 	
 	|
@@ -900,7 +906,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006Nb.png
 	   :align: center
 
-	   006Nb: 
+	   006Nb  
 	
 	
 	|
@@ -937,7 +943,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006NbWeb.png
 	   :align: center
 
-	   Web Client b: 
+	   Web Client b  
 	
 	
 	|
