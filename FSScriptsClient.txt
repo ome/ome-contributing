@@ -13,23 +13,25 @@ FS Scripts Client
 
 #. Run the following scripts which have projections as a part of their run
 
-   - Batch image export
+   - Batch image export (in "Choose z-section" select Projection)
 
    - Movie ROI Figure (create a rectangular ROI first, then run the script)
 
-   - Movie Figure (select the option "Z-projection")
+   - ROI Spli Figure (create a rectangular ROI first, then run the script)
 
-   - |C| that the output (attachment) is present
+   - Movie Figure (tick the box "Z Pprojection")
 
+   - Split View Figure
 
+   - |C| that the results link is present [:ref:`FSScriptsClientScreen006`]
 
 
 #. Click on the result link and
 
 
-   - |C| that the Info (and Error if applicable) files are present - it should be present even if no output was produced
+   - |C| that the Info (and Error if applicable) files are present - Info should be ALWAYS present [:ref:`FSScriptsClientScreen006`]
 
-   - |C| that script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`]
+   - |C| that script ran to completion w/o errors.[:ref:`FSScriptsClientScreen006`][:ref:`FSScriptsClientScreen007`]
 
    - |C| that you can view the results of the scripts
 
@@ -67,11 +69,11 @@ FS Scripts Client
 
 
 
-.. _ScriptClientScreen001:
+.. _FSScriptsClientScreen001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001.png
    :align: center
 
-   ScriptClientScreen001: 
+   FSScriptsClientScreen001: 
 
 
 |
@@ -104,11 +106,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen002:
+.. _FSScriptsClientScreen002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002.png
    :align: center
 
-   ScriptClientScreen002:
+   FSScriptsClientScreen002:
 
 
 |
@@ -141,11 +143,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen003:
+.. _FSScriptsClientScreen003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003.png
    :align: center
 
-   ScriptClientScreen003
+   FSScriptsClientScreen003
 
 
 |
@@ -178,11 +180,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen004:
+.. _FSScriptsClientScreen004:
 .. figure:: /images/testing_scenarios/ScriptsClient/004.png
    :align: center
 
-   ScriptClientScreen004
+   FSScriptsClientScreen004
 
 
 |
@@ -215,11 +217,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen005:
+.. _FSScriptsClientScreen005:
 .. figure:: /images/testing_scenarios/ScriptsClient/005.png
    :align: center
 
-   ScriptClientScreen005
+   FSScriptsClientScreen005
 
 
 |
@@ -252,11 +254,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen006:
+.. _FSScriptsClientScreen006:
 .. figure:: /images/testing_scenarios/ScriptsClient/006.png
    :align: center
 
-   ScriptClientScreen006: 
+   FSScriptsClientScreen006: 
 
 
 |
@@ -289,11 +291,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreen007:
+.. _FSScriptsClientScreen007:
 .. figure:: /images/testing_scenarios/ScriptsClient/007.png
    :align: center
 
-   ScriptClientScreen007:
+   FSScriptsClientScreen007:
 
 
 |
@@ -327,11 +329,11 @@ FS Scripts Client
 |
 |
 
-.. _ScriptClientScreenN001:
+.. _FSScriptsClientScreenN001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001N.png
    :align: center
 
-   ScriptClientScreenN001
+   FSScriptsClientScreenN001
 
 |
 |
@@ -362,11 +364,11 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreenN002:
+.. _FSScriptsClientScreenN002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002N.png
    :align: center
 
-   ScriptClientScreenN002
+   FSScriptsClientScreenN002
 
 
 |
@@ -406,10 +408,10 @@ FS Scripts Client
 |
 
 
-.. _ScriptClientScreenN003:
+.. _FSScriptsClientScreenN003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003N.png
    :align: center
 
-   ScriptClientScreenN003
+   FSScriptsClientScreenN003
 
 
