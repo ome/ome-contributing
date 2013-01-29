@@ -11,3 +11,4 @@ FS scenarios
    FSViewBigImage
    FSRender
    FSImportFileFormatsTesting
+   FSScriptsClient
