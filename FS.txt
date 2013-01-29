@@ -13,3 +13,4 @@ FS scenarios
    FSImportFileFormatsTesting
    FSScriptsClient
    FSScreenPlateWell
+   FSDelete
