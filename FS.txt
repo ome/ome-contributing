@@ -12,3 +12,4 @@ FS scenarios
    FSRender
    FSImportFileFormatsTesting
    FSScriptsClient
+   FSScreenPlateWell

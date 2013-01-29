@@ -1,0 +1,440 @@
+FS Screen/Plate/Well
+======================
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
+**Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL plates pre-loaded on Gretzky and Howe, see:**
+`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+
+
+#. Double-click on Plate or Plate Run.
+
+   - |C| Both actions should display in the central panel.[:ref:`FSspwscreen002`][:ref:`FSspwscreen003`]
+
+#. Double-click on a well/field to open viewer [:ref:`FSspwscreen004`][:ref:`FSspwscreen005`]
+
+#. Select a new Field in the dropdown menu above the central panel [:ref:`FSspwscreen006`]
+
+   - |C| All thumbnails should be updated.
+
+#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`FSspwscreen007`]
+
+#. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:ref:`FSspwscreen008`] (Insight only)
+
+   - Select "Spatial" view [:ref:`FSspwscreen009`][:ref:`FSspwscreen010`]
+   - |C| that the spatial relation of the fields is displayed properly.
+   - Select "As a row" view [:ref:`FSspwscreen011`]
+
+
+	.. _FSspwscreen001:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
+	   :align: center
+
+	   FSspwscreen001: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen002:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/002.png
+	   :align: center
+	   :width: 100%
+
+	   FSspwscreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen003:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/003.png
+	   :align: center
+	   :width: 100%
+
+	   FSspwscreen003
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen004:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/004.png
+	   :align: center
+	   :width: 100%
+
+	   FSspwscreen004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen005:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/005.png
+	   :align: center
+
+	   FSspwscreen005
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen006:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
+	   :align: center
+
+	   FSspwscreen006: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen007:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
+	   :align: center
+
+	   FSspwscreen007:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen008:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/008.png
+	   :align: center
+
+	   FSspwscreen008
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen009:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
+	   :align: center
+
+	   FSspwscreen009: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen010:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
+	   :align: center
+
+	   FSspwscreen010:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSspwscreen011:
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/011.png
+	   :align: center
+
+	   FSspwscreen011
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
