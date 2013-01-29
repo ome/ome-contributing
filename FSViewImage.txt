@@ -5,10 +5,10 @@ FS: View Image
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to test the View feature on images important for FS demo and concentrate on Projection and performance**
+**Purpose of the test** is to test the View feature on "small" images important for FS demo and concentrate on Projection and performance**
 
 
-**Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe.Test ALL of the images pre-loaded on Gretzky and howe, see:**
+**Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
 `FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
