@@ -1,0 +1,247 @@
+FS Import File Formats Testing
+===============================
+
+
+
+**To test in**: Insight
+
+**Purpose of the test** is to check the import of various file formats and ability to report failures correctly. For FS demo, the formats highlighted as "must" should be imported - see here for further info:
+`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+
+
+#. Note any special cases for the file format. These will be in the spreadsheet.
+
+#. Import the files for this format. 
+
+   - |C| Some formats have special import requirements--please check first!
+   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`FSImportFileFTScreen002`][:ref:`FSImportFileFTScreen003`][:ref:`FSImportFileFTScreen004`]
+   - |C| In case import has failed, check that all files have been copied.
+   - |C| each imported image visually for the following features:
+   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`FSImportFileFTScreen005`]
+   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`FSImportFileFTScreen006`] and are of the correct size.
+   - All ROIs [if any] are present and in the correct place.[:ref:`FSImportFileFTScreen007`]
+
+
+
+
+.. _FSImportFileFTScreen002:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002.png
+   :align: center
+
+   FSImportFileFTScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSImportFileFTScreen003:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/003.png
+   :align: center
+
+   FSImportFileFTScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSImportFileFTScreen004:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
+   :align: center
+
+   FSImportFileFTScreen004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSImportFileFTScreen005:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005.png
+   :align: center
+
+   FSImportFileFTScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSImportFileFTScreen006:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
+   :align: center
+
+   FSImportFileFTScreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSImportFileFTScreen007:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
+   :align: center
+
+   FSImportFileFTScreen007:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
