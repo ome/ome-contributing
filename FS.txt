@@ -14,3 +14,4 @@ FS scenarios
    FSScriptsClient
    FSScreenPlateWell
    FSDelete
+   FSROIInsight
