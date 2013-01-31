@@ -8,7 +8,7 @@ FS Render
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional for the FS demo.
 
 **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL images pre-loaded on Gretzky and Howe, see:**
-`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+`FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
 
 #. Copy settings from image [right-click on the thumbnail in central pane].[:ref:`FSRenderScreen001`] (Insight only)
 

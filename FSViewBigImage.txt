@@ -7,7 +7,7 @@ FS View Big Image
 
 **Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
 **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL Big images pre-loaded on Gretzky and Howe, see:**
-`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+`FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
 
 #. Open a large image
 

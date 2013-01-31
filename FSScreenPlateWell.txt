@@ -7,7 +7,7 @@ FS Screen/Plate/Well
 
 **Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
 **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL plates pre-loaded on Gretzky and Howe, see:**
-`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+`FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
 
 
 #. Double-click on Plate or Plate Run.

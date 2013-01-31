@@ -8,7 +8,7 @@ FS ROI Insight
 **Purpose of the test** is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export). Especially steps concerning the pixels intensity (**Graph, Intensity View and Intensity Results View tabs:**) must be checked throughly.
 
 **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
-`FS testing table <http://docs.google.com/spreadsheet/ccc?key=0AoKiTAl8UOxndER5UF9mczRNNklxbWFfakN4clhDaXc#gid=0>`_ 
+`FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
 
 
 #. Open image in Full Viewer
