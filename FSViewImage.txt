@@ -7,9 +7,15 @@ FS: View Image
 
 **Purpose of the test** is to test the View feature on "small" images important for FS demo and concentrate on Projection and performance**
 
+.. only:: html
 
-**Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
-`FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+      **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
+      `FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+
+.. only:: latex
+
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
