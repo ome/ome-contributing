@@ -15,7 +15,7 @@ Edit
 
 #. Edit channels. 
    
-   #. Image 
+   2.1. Edit channels of an Image 
 
       Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
    
@@ -27,7 +27,7 @@ Edit
       - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
       - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
 
-   #. Plate
+   2.2.   Edit channels of a Plate
 
       Choose a plate, click on a well sample, edit the channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
 
