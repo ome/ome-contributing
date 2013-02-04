@@ -4,8 +4,8 @@ Scenarios
 
 
 .. toctree::
-   :maxdepth: 1
-   :numbered:
+   :maxdepth: 2
+   :numbered: 2
 
    AdminGroupUserCreate
    AdminGroupUserEdit

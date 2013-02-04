@@ -3,6 +3,7 @@ Edit
 
 
 
+
 **To test in**: Web, Insight
 
 **Purpose of the test** is to check that the entities are editable smoothly and that the edited/changed texts are being respected
@@ -11,18 +12,37 @@ Edit
 
    - Edit name (right panel, use pencil icon) [:ref:`EditScreen008`]
    - Edit description
-   - |C| that the text you put; in is escaped properly, this means for example
-   - Enter special htmil signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). the application should not interpret them but take as entered
+   - |C| in Web, that the text you put in is escaped properly, this means for example enter special html signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). The Web application should not interpret them but take them as entered
+
+#. Edit channels. 
+   
+   - Edit channels of an Image 
+
+      Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
+   
+      - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`, :ref:`EditScreen002Nb`]
+      - Click Save
+      - In the same image, edit channels again, this time click "Apply to All"
+      - |C| that the warning message is displayed [:ref:`EditScreen003N` :ref:`EditScreen003NWeb`].
+      - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
+      - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
+      - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
+
+   - Edit channels of a Plate
+
+      Choose a plate, click on a well sample, edit the channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
+
+
 
 #. Edit share (Web only) [:ref:`EditScreen009`][:ref:`EditScreen010`], 
 
-   - |C| that the text you put; in is escaped properly - try to enter html special signs (e.g. <>), or scripts (e.g. <script>alert('hello')</script>)
+
 
 	.. _EditScreen001:
 	.. figure:: /images/testing_scenarios/Edit/001.png
 	   :align: center
 
-	   EditScreen001: 
+	   EditScreen001  
 
 
 	|
@@ -59,7 +79,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/002.png
 	   :align: center
 
-	   EditScreen002:
+	   EditScreen002 
 
 
 	|
@@ -207,7 +227,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/006.png
 	   :align: center
 
-	   EditScreen006: 
+	   EditScreen006  
 
 
 	|
@@ -244,7 +264,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/007.png
 	   :align: center
 
-	   EditScreen007:
+	   EditScreen007 
 
 
 	|
@@ -318,7 +338,7 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/009.png
 	   :align: center
 
-	   EditScreen009: 
+	   EditScreen009  
 
 
 	|
@@ -355,7 +375,502 @@ Edit
 	.. figure:: /images/testing_scenarios/Edit/010.png
 	   :align: center
 
-	   EditScreen010: 
+	   EditScreen010  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen001N:
+	.. figure:: /images/testing_scenarios/Edit/001N.png
+	   :align: center
+
+	   EditScreen001N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen001NWeb:
+	.. figure:: /images/testing_scenarios/Edit/001NWeb.png
+	   :align: center
+
+	   Web client  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen002N:
+	.. figure:: /images/testing_scenarios/Edit/002N.png
+	   :align: center
+
+	   EditScreen002N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen002NWeb:
+	.. figure:: /images/testing_scenarios/Edit/002NWeb.png
+	   :align: center
+
+	   Web Client  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen002Nb:
+	.. figure:: /images/testing_scenarios/Edit/002Nb.png
+	   :align: center
+
+	   002Nb  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen003N:
+	.. figure:: /images/testing_scenarios/Edit/003N.png
+	   :align: center
+
+	   EditScreen003N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen003NWeb:
+	.. figure:: /images/testing_scenarios/Edit/003NWeb.png
+	   :align: center
+
+	   Web Client  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen004N:
+	.. figure:: /images/testing_scenarios/Edit/004N.png
+	   :align: center
+
+	   EditScreen004N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen004NWeb:
+	.. figure:: /images/testing_scenarios/Edit/004NWeb.png
+	   :align: center
+
+	   Web client  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen005N:
+	.. figure:: /images/testing_scenarios/Edit/005N.png
+	   :align: center
+
+	   EditScreen005N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen005NWeb:
+	.. figure:: /images/testing_scenarios/Edit/005NWeb.png
+	   :align: center
+
+	   Web client  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen006N:
+	.. figure:: /images/testing_scenarios/Edit/006N.png
+	   :align: center
+
+	   006N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen006NWeb:
+	.. figure:: /images/testing_scenarios/Edit/006NWeb.png
+	   :align: center
+
+	   Web Client  
 	
 	
 	|
@@ -387,3 +902,76 @@ Edit
 	|
 	|
 
+
+	.. _EditScreen006Nb:
+	.. figure:: /images/testing_scenarios/Edit/006Nb.png
+	   :align: center
+
+	   006Nb  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _EditScreen006NbWeb:
+	.. figure:: /images/testing_scenarios/Edit/006NbWeb.png
+	   :align: center
+
+	   Web Client b  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
