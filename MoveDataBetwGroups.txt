@@ -7,27 +7,26 @@ Move Data between Groups
 
 **Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
 
-#. Move simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
+#. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
-   - |C| they are correctly moved. (put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
+   - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source project and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
 
-#. Move Project with dataset and images
+#. Move a Project with datasets and images
 
-#. Move Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
+#. Move an Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
 
    - rich in metadata 
-   - with ROI
-   - with annotation
+   - with a ROI
+   - with an annotation
    - large image
 
 #. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
-   - |C| that image has been moved to Orphaned images when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveDataScreen002`] (Insight only)
+   - |C| that the image has been moved to "Orphaned Images" when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveDataScreen002`] (Insight only)
  
 #. Move via D&D (Insight only) [:ref:`MoveDataScreen006`]
 
    - |C| that the images are in their destinations and view them
-   - |C| that the large image displays properly the tiles and the position of birds eye
 
 
 
