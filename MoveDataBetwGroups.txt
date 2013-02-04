@@ -9,7 +9,7 @@ Move Data between Groups
 
 #. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
-   - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source project and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
+   - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source group and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
 
 #. Move a Project with datasets and images
 
