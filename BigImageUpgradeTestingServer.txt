@@ -34,7 +34,7 @@ test images good :**
 #. Using a 4.2.2 client of OMERO upload big images listed in the prerequisite images (e.g. /bmp/8kx8k.bmp ).
 
 #. Upgrade to the newest 4.4.x server. (See
-   ` http://openmicroscopy.org/site/support/omero4/server/upgrade <http://openmicroscopy.org/site/support/omero4/server/upgrade>`_,
+   :omerodoc:`Server Upgrade <sysadmins/server-upgrade.html>`,
    remember about config files).
 
 #. Now again try to view the same big image.
