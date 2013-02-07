@@ -15,7 +15,7 @@ Import and Multigroups
    - Import the images
    - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen001`]
    - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGrScreen002`]
-
+   - Go to Screens harmonica tab in the left pan and repeat step 1 with plates (e.g. `test_images_good/flex/`).
 
 #. "Import Location" window - group update
 
@@ -27,7 +27,6 @@ Import and Multigroups
    - Go back to the importer, click onto ">" and |C| that the group display matches your choice in Data Manager
 
 
-
 #. Import queue
 
    - Select files to import and select the "New From folder" option[default option] in the location dialog.
@@ -36,6 +35,8 @@ Import and Multigroups
    - In the location dialog, switch group and select "New From Folder", then add images to the queue and click "Import".
    - Go back to the Data Manager and add the 2 groups to the display if not already added.
    - |C| that the image is in the correct locations.
+
+
 
 
 
