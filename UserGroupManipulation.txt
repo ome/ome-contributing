@@ -13,16 +13,16 @@ User/Group Manipulation
 
 #. Switch between users.
 
-#. Browse the user's data.
+#. Browse the user's data - go to the tree in left-hand pan, expand projects and datasets, view images. Go to Screens harmonica and browse screens.
 
 #. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupMScreen002`] and right-click (remomve & refresh) [:ref:`UserGroupMScreen004`]
 
 #. Remove groups from display.(Insight only)
 
-#. Log off and log in as a new user.
+#. Log off and log in as a new user. Bear in mind the danger of clashes with other testers when picking a new username.
 
-   - |C| you can browse data
-   - |C| you can view images.
+   - |C| that you can browse data
+   - |C| that you can view images.
 
 
 	.. _UserGroupMScreen001:
