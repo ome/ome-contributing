@@ -28,12 +28,19 @@ Annotate
    
    - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateMScreen007`,  :ref:`AnnotateMScreen008`]
 
-#. Select an annotated object
+#. Mouse over the annotation name (right-hand pan)
 
-#. Go to the right-hand side and mouse over the annotation.
+   - Selecting a SINGLE annotated object
 
-   - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`AnnotateScreen002`, :ref:`AnnotateScreen003`]
-   - |C| that in case of multiple selections (done in step 2) [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`] and in case you did not create the link yourself, the link owner is indicated in brackets [:ref:`AnnotateMScreen005`, :ref:`AnnotateMScreen006`]
+        - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`AnnotateScreen002`, :ref:`AnnotateScreen003`]
+
+   - Selecting 2 or more objects which you annotated yourself
+
+        - |C| that you can see the [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`]
+
+   - Selecting 2 or more objects annotated by another user
+
+        - |C| that the link owner is indicated in brackets [:ref:`AnnotateMScreen005`, :ref:`AnnotateMScreen006`]
 
 
 
