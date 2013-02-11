@@ -15,13 +15,13 @@ Import and Multigroups
    - Import the images
    - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen001`]
    - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGrScreen002`]
-   - Go to Screens harmonica tab in the left pan and repeat step 1 with plates (e.g. `test_images_good/flex/`).
+   - Go to Screens harmonica tab in the left-hand pane and repeat step 1 with plates (e.g. `test_images_good/flex/`).
 
 #. "Import Location" window - group update
 
    - Open Importer window, select an image, click onto ">" to bring up the "Import Location" window 
    - Choose where to import the image in the first group [:ref:`ImportMultiGrScreen000a`].
-   - Close the "Import Location" window, leave the importer open and go to Data Manager, into the tree (left pan) [:ref:`ImportMultiGrScreen002`]
+   - Close the "Import Location" window, leave the importer open and go to Data Manager, into the tree (left-hand pane) [:ref:`ImportMultiGrScreen002`]
    - Expand a group (NOT the one you have previously selected in the "Import Location" window)
    - Select a user
    - Go back to the importer, click onto ">" and |C| that the group display matches your choice in Data Manager

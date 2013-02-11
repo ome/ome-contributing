@@ -28,7 +28,7 @@ Annotate
    
    - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateMScreen007`,  :ref:`AnnotateMScreen008`]
 
-#. Mouse over the annotation name (right-hand pan)
+#. Mouse over the annotation name (right-hand pane)
 
    - Selecting a SINGLE annotated object
 

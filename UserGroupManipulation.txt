@@ -13,7 +13,7 @@ User/Group Manipulation
 
 #. Switch between users.
 
-#. Browse the user's data - go to the tree in left-hand pan, expand projects and datasets, view images. Go to Screens harmonica and browse screens.
+#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens.
 
 #. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupMScreen002`] and right-click (remomve & refresh) [:ref:`UserGroupMScreen004`]
 
