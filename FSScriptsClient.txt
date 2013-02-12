@@ -1,0 +1,424 @@
+FS Scripts Client
+==================
+
+
+
+**To test in**: Web, Insight
+
+
+**Purpose of the test** is to test the scripting functionalities. For FS demo, check mainly the scripts which have Projections as a part of their performance and check that the scripts do produce Info and Errors files.
+
+.. only:: html
+
+      **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
+      `FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+
+.. only:: latex
+
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+
+
+#. Run the following scripts which have projections as a part of their run
+
+   - Batch image export (in "Choose z-section" select Projection)
+
+   - Movie ROI Figure (create a rectangular ROI first, then run the script)
+
+   - ROI Spli Figure (create a rectangular ROI first, then run the script)
+
+   - Movie Figure (tick the box "Z Pprojection")
+
+   - Split View Figure
+
+   - |C| that the results link is present [:ref:`FSScriptsClientScreen006`]
+
+
+#. Click on the result link and
+
+
+   - |C| that the Info (and Error if applicable) files are present - Info should be ALWAYS present [:ref:`FSScriptsClientScreen006`]
+
+   - |C| that script ran to completion w/o errors.[:ref:`FSScriptsClientScreen006`][:ref:`FSScriptsClientScreen007`]
+
+   - |C| that you can view the results of the scripts
+
+   - |C| that you can download the results of the scripts and view the downloaded results
+
+
+
+
+
+.. seealso::
+
+   `User documentation for Running scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-scripts.html>`_
+
+
+   `User documentation for Running Utility scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-util-scripts.html>`_
+        
+
+   `User documentation for Running Export scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-export-figures.html>`_
+        
+
+   `Developer documentation for Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html>`_
+        
+
+   `Developer documentation for Scripting Service Guide <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/Guide.html>`_
+        
+
+   `Developer documentation for MatLab Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html#matlab-and-scripting>`_
+       
+
+   `Developer documentation for Script style <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/StyleGuide.html>`_
+        
+
+   `Developer documentation for Script API <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Api/ScriptingService.html>`_
+        
+
+
+
+.. _FSScriptsClientScreen001:
+.. figure:: /images/testing_scenarios/ScriptsClient/001.png
+   :align: center
+
+   FSScriptsClientScreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen002:
+.. figure:: /images/testing_scenarios/ScriptsClient/002.png
+   :align: center
+
+   FSScriptsClientScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen003:
+.. figure:: /images/testing_scenarios/ScriptsClient/003.png
+   :align: center
+
+   FSScriptsClientScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen004:
+.. figure:: /images/testing_scenarios/ScriptsClient/004.png
+   :align: center
+
+   FSScriptsClientScreen004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen005:
+.. figure:: /images/testing_scenarios/ScriptsClient/005.png
+   :align: center
+
+   FSScriptsClientScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen006:
+.. figure:: /images/testing_scenarios/ScriptsClient/006.png
+   :align: center
+
+   FSScriptsClientScreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreen007:
+.. figure:: /images/testing_scenarios/ScriptsClient/007.png
+   :align: center
+
+   FSScriptsClientScreen007:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _FSScriptsClientScreenN001:
+.. figure:: /images/testing_scenarios/ScriptsClient/001N.png
+   :align: center
+
+   FSScriptsClientScreenN001
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreenN002:
+.. figure:: /images/testing_scenarios/ScriptsClient/002N.png
+   :align: center
+
+   FSScriptsClientScreenN002
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSScriptsClientScreenN003:
+.. figure:: /images/testing_scenarios/ScriptsClient/003N.png
+   :align: center
+
+   FSScriptsClientScreenN003
+
+

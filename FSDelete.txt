@@ -1,0 +1,356 @@
+FS Delete
+==========
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check the Delete function on all entities (except ROI)
+
+.. only:: html
+
+      **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL images and plates pre-loaded on Gretzky and Howe, see:**
+      `FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+
+.. only:: latex
+
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+
+#. In the DataManager:
+
+   - Delete Ratings (Insight only), Delete Comments (right-hand pane)
+   - Delete attachments [:ref:`FSdeletescreen001`][:ref:`FSdeletescreen002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete tags [:ref:`FSdeletescreen003`][:ref:`FSdeletescreen004`] (left-hand pane)
+
+#. Delete P/D/I/Screen/Plate. [:ref:`FSdeletescreen005`][:ref:`FSdeletescreen006`][:ref:`FSdeletescreen007`][:ref:`FSdeletescreen008`]
+
+#. Import an image rich in metadata and delete it.
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen001:
+.. figure:: /images/testing_scenarios/Delete/001.png
+   :align: center
+
+   FSdeletescreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen002:
+.. figure:: /images/testing_scenarios/Delete/002.png
+   :align: center
+
+   FSdeletescreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen003:
+.. figure:: /images/testing_scenarios/Delete/003.png
+   :align: center
+
+   FSdeletescreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen004:
+.. figure:: /images/testing_scenarios/Delete/004.png
+   :align: center
+
+   FSdeletescreen004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen005:
+.. figure:: /images/testing_scenarios/Delete/005.png
+   :align: center
+
+   FSdeletescreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen006:
+.. figure:: /images/testing_scenarios/Delete/006.png
+   :align: center
+
+   FSdeletescreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen007:
+.. figure:: /images/testing_scenarios/Delete/007.png
+   :align: center
+
+   FSdeletescreen007:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSdeletescreen008:
+.. figure:: /images/testing_scenarios/Delete/008.png
+   :align: center
+
+   FSdeletescreen008
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+

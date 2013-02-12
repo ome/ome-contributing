@@ -1,0 +1,349 @@
+FS: View Image
+===============
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to test the View feature on "small" images important for FS demo and concentrate on Projection and performance**
+
+.. only:: html
+
+      **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL "small" images pre-loaded on Gretzky and Howe, see:**
+      `FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+
+.. only:: latex
+
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+
+
+#. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
+
+#. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
+
+#. Toggle back between views.
+
+#. Turn on/off color/greyscale
+
+#. Modify the rendering settings.
+
+#. Projection tabs [a tab in the Full Viewer next to Image tab]:[:ref:`FSViewScreen002`] (Insight only) - in Web, click on "Max Intensity" instead
+
+   - Preview the projection [:ref:`FSViewScreen002`]
+   - Change the projection range.
+   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`FSViewScreen003`].
+   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`]
+   - |C| - view the result [:ref:`FSViewScreen006`]
+
+#. Save as (Insight only):
+
+   - JPEG, PNG - use the icon in the projection window, see [:ref:`FSViewScreen007`][:ref:`FSViewScreen008`]
+   - Save split channels.[:ref:`FSViewScreen008`]
+   - Save with all channels turned off.
+   - |C| the saved files.
+
+
+
+
+
+
+
+	.. _FSViewScreen001:
+	.. figure:: /images/testing_scenarios/ViewImage/001.png
+	   :align: center
+	   :width: 100%
+
+	   FSViewScreen001: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen002:
+	.. figure:: /images/testing_scenarios/ViewImage/002.png
+	   :align: center
+
+	   FSViewScreen002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen003:
+	.. figure:: /images/testing_scenarios/ViewImage/003.png
+	   :align: center
+
+	   FSViewScreen003
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen004:
+	.. figure:: /images/testing_scenarios/ViewImage/004.png
+	   :align: center
+
+	   FSViewScreen004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen005:
+	.. figure:: /images/testing_scenarios/ViewImage/005.png
+	   :align: center
+
+	   FSViewScreen005
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen006:
+	.. figure:: /images/testing_scenarios/ViewImage/006.png
+	   :align: center
+	 
+
+	   FSViewScreen006: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen007:
+	.. figure:: /images/testing_scenarios/ViewImage/007.png
+	   :align: center
+
+	   FSViewScreen007:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSViewScreen008:
+	.. figure:: /images/testing_scenarios/ViewImage/008.png
+	   :align: center
+	 
+
+	   FSViewScreen008
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

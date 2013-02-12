@@ -1,0 +1,267 @@
+FS View Big Image
+==================
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
+
+.. only:: html
+
+      **Download both Gretzky and Howe builds and compare the speed of the workflow on the same images on Gretzky vs Howe. Test ALL Big images pre-loaded on Gretzky and Howe, see:**
+      `FS testing table <https://docs.google.com/spreadsheet/ccc?key=0AoMHD4RIe-94dHJabm9UWVo0VzRqVnhBalk1eEJKZlE#gid=4>`_ 
+
+.. only:: latex
+
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+
+
+#. Open a large image
+
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`][:ref:`FSViewBigScreen003`]
+
+#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or mousewheel (Web) [:ref:`FSViewBigScreen005`]
+
+   - |C| tile loading
+
+#. Modify rendering settings [:ref:`FSViewBigScreen006`]
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _FSViewBigScreen001:
+.. figure:: /images/testing_scenarios/ViewBigImage/001.png
+   :align: center
+   :width: 100%
+
+   FSViewBigScreen001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSViewBigScreen002:
+.. figure:: /images/testing_scenarios/ViewBigImage/002.png
+   :align: center
+
+   FSViewBigScreen002:
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSViewBigScreen003:
+.. figure:: /images/testing_scenarios/ViewBigImage/003.png
+   :align: center
+
+   FSViewBigScreen003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSViewBigScreen004:
+.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+   :align: center
+
+   FSViewBigScreen004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSViewBigScreen005:
+.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+   :align: center
+
+   FSViewBigScreen005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _FSViewBigScreen006:
+.. figure:: /images/testing_scenarios/ViewBigImage/006.png
+   :align: center
+   :width: 100%
+
+   FSViewBigScreen006: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
