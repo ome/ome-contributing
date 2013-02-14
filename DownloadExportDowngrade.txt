@@ -8,6 +8,8 @@ Download/Export/Downgrade
 
 **Purpose of the test** is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import
 
+Note: if several images have to be downloaded a zip will be created (Web and Insight) - this might take couple of seconds with no warning.
+
 #.  Download non-image files :
 
     - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
@@ -18,18 +20,19 @@ Download/Export/Downgrade
 
     - Download the Companion file [:ref:`DownloadEDScreen003`][:ref:`DownloadEDScreen004`] - open downloaded file in text editor,
 
-    - |C| their size is not zero.[:ref:`DownloadEDScreen005`]
+    - |C| that the size is not zero.[:ref:`DownloadEDScreen005`]
 
     - Download the metada file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`].
 
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
 
-#.  non-FS-Download/Export images:
+#.  non-FS-Download/Export images: 
+ 
 
     - Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
 
-    - After import is finished, select the image
+    - When the import is finished, select the image
 
     - Go to the right-hand panel General tab,
 
@@ -39,19 +42,19 @@ Download/Export/Downgrade
          - Re-import the image.(import in Insight, but check in Web as well)
          - |C| Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:ref:`DownloadEDScreen013`]
 
-    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei`, select archive at import
+    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
 
          - Select the download option on the right-hand side
-         - Download the image
+         - Download the image - a zip will be created 
          - |C| that the image has been downloaded correctly [:ref:`DownloadEDScreen012`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:ref:`DownloadEDScreen013`]
 
-    - Now Select an image with the archived option off. If not sure, re-import an image with archived off.
+    - Now Select an image which had the "Archive" option off at import. If not sure, re-import an image with the "Archive" option off.
 
          - Select the download option on the right-hand side (Insight only - Download menu item not available in Web in this case)
          - Download the image. No result returned, 
-         - A message indicating to download as OME-TIFF should be displayed in Activities window.
+         - A message indicating to download as OME-TIFF should be displayed in the Activities window.
 
     - Export an image as JPEG.[:ref:`DownloadEDScreen016`][:ref:`DownloadEDScreen017`]
 
@@ -68,7 +71,7 @@ Download/Export/Downgrade
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image. i.e. metadata, view etc.[:ref:`DownloadEDScreen013`]
 
-    - FS-multi-image - repeat the "FS-Sinle image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`). Note: In Web, downloading multi-files can take a few secs with no feedback
+    - FS-multi-image - repeat the "FS-Sinle image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`).
 
 
 
