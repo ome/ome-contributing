@@ -1,0 +1,137 @@
+Check Filepath (FS)
+====================
+
+
+
+**To test in**: Web, Insight
+
+**Purpose of the test** is to check the filepath to the image which is shown in clients in FS
+
+#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`CheckFilePathScreen002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePathScreen003w`](images 003in, 003w)
+
+#. Go to the server and find the file according to the given path HOW ?????
+
+   - |C| that the path in the clients and the filepath on the server match 
+
+#. Repeat steps 1 and 2 with multi-image file, like `test_images_good/lei/050118.lei`.(images 004in, 004w)
+
+#. For the mixed FS & non-FS database:
+
+   - Import an image in FS and do steps 1, 2 and 3.
+   - Click on a non-FS image.
+         - |C| that you cannot see the icon described in step 1
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _CheckFilePathScreen002w:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
+	   :align: center
+
+	   CheckFilePathScreen002Web
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _CheckFilePathScreen003w:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
+	   :align: center
+
+	   CheckFilePathScreen003Web
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+

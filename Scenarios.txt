@@ -13,6 +13,7 @@ Scenarios
    BigImageUpgradeTestingServer
    BrowseFilterPreview
    BulkAnnotations
+   CheckFilePathFS
    ClientServerCompatibility
    CommandLineInterfaceTesting
    ConnectionErrorHandling

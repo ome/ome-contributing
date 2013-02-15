@@ -1,0 +1,17 @@
+Scenarios for Publication
+===========================
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+
+   PubFSViewImage
+   PubFSViewBigImage
+   PubFSRender
+   PubFSImportFileFormatsTesting
+   PubFSScriptsClient
+   PubFSScreenPlateWell
+   PubFSDelete
+   PubFSROIInsight
