@@ -12,7 +12,7 @@ Testing scenarios
    :numbered: 1
 
 
-   Pub
+   pub/Pub
    TablePermissionsUsers
    AdminGroupUserCreate
    AdminGroupUserEdit
