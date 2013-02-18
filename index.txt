@@ -11,10 +11,53 @@ Testing scenarios
    :maxdepth: 1
    :numbered: 1
 
-   Scenarios
-   Tables
-   Pub
 
+   Pub
+   TablePermissionsUsers
+   AdminGroupUserCreate
+   AdminGroupUserEdit
+   Annotate
+   BigImageUpgradeTestingServer
+   BrowseFilterPreview
+   BulkAnnotations
+   CheckFilePathFS
+   ClientServerCompatibility
+   CommandLineInterfaceTesting
+   ConnectionErrorHandling
+   CopyCutPaste
+   Create
+   DeAnnotateUnlink
+   DeleteWithPerm
+   DeleteImageBinaryDataServer
+   DeleteROI
+   DownloadExportDowngrade
+   Edit
+   EditorfromInsight
+   EditorStandalone
+   FileFormatMetadataValidation
+   ImportCLI
+   ImportDropBox
+   ImporterStandalone
+   ImportFileFormatsTesting
+   ImportMultigroups
+   ImportUI
+   InsightasPluginImageJFiji
+   LdapTesting
+   MetadataDisplay
+   MoveDataBetwGroups
+   OmeroDataDirFiles
+   Render
+   ROIInsight
+   ROIWeb
+   ScriptsClient
+   Search
+   Share
+   ScreenPlateWell
+   UserGroupManipulation
+   ViewImageWithPerm
+   ViewBigImage
+   VirtualMachineTesting
+   WebOpenAstexViewer
 
 
 
