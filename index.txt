@@ -12,7 +12,6 @@ Testing scenarios
    :numbered: 1
 
 
-   pub/Pub
    TablePermissionsUsers
    AdminGroupUserCreate
    AdminGroupUserEdit
@@ -35,6 +34,14 @@ Testing scenarios
    EditorfromInsight
    EditorStandalone
    FileFormatMetadataValidation
+   FSDelete
+   FSImportFileFormatsTesting
+   FSScreenPlateWell
+   FSScriptsClient
+   FSRender
+   FSROIInsight
+   FSViewBigImage
+   FSViewImage
    ImportCLI
    ImportDropBox
    ImporterStandalone

@@ -1,17 +1,16 @@
+:orphan:
+
 Scenarios for Publication
 ===========================
 
-
-
 .. toctree::
    :maxdepth: 1
-   :numbered:
 
-   PubFSViewImage
-   PubFSViewBigImage
-   PubFSRender
-   PubFSImportFileFormatsTesting
-   PubFSScriptsClient
-   PubFSScreenPlateWell
-   PubFSDelete
-   PubFSROIInsight
+   FSViewImage
+   FSViewBigImage
+   FSRender
+   FSImportFileFormatsTesting
+   FSScriptsClient
+   FSScreenPlateWell
+   FSDelete
+   FSROIInsight
