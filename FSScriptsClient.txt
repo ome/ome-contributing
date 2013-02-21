@@ -50,29 +50,17 @@ FS Scripts Client
 
 .. seealso::
 
-   `User documentation for Running scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-scripts.html>`_
-
-
-   `User documentation for Running Utility scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-util-scripts.html>`_
+   :omerodoc:`User documentation for Running Export scripts <users/client-tutorials/insight/scripts.html>`
         
+   :omerodoc:`Developer documentation for Scripts <developers/Modules/Scripts.html>`
 
-   `User documentation for Running Export scripts <http://www.openmicroscopy.org/site/support/omero4/users/client-tutorials/insight/insight-export-figures.html>`_
-        
+   :omerodoc:`Developer documentation for Scripting Service Guide <developers/Modules/Scripts/Guide.html>`
 
-   `Developer documentation for Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html>`_
-        
+   :omerodoc:`Developer documentation for MatLab Scripts <developers/Modules/Scripts.html#matlab-and-scripting>`
 
-   `Developer documentation for Scripting Service Guide <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/Guide.html>`_
-        
+   :omerodoc:`Developer documentation for Script style <developers/Modules/Scripts/StyleGuide.html>`
 
-   `Developer documentation for MatLab Scripts <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts.html#matlab-and-scripting>`_
-       
-
-   `Developer documentation for Script style <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Scripts/StyleGuide.html>`_
-        
-
-   `Developer documentation for Script API <http://www.openmicroscopy.org/site/support/omero4/developers/Modules/Api/ScriptingService.html>`_
-        
+   :omerodoc:`Developer documentation for Script API <developers/Modules/Api/ScriptingService.html>`
 
 
 
