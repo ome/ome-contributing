@@ -70,6 +70,8 @@ Scripts Client
 
    :omerodoc:`User documentation for Running Export scripts <users/client-tutorials/insight/scripts.html>`
 
+   :omerodoc:`User documentation for Running utility scripts <users/client-tutorials/insight/util-scripts.html>`
+
    :omerodoc:`Developer documentation for Scripts <developers/Modules/Scripts.html>`
 
    :omerodoc:`Developer documentation for Scripting Service Guide <developers/Modules/Scripts/Guide.html>`
