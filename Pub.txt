@@ -6,11 +6,11 @@ Scenarios for Publication
 .. toctree::
    :maxdepth: 1
 
+   FSImportFileFormatsTesting
    FSViewImage
    FSViewBigImage
+   CheckFilePathFS
    FSRender
-   FSImportFileFormatsTesting
-   FSScriptsClient
    FSScreenPlateWell
    FSDelete
-   FSROIInsight
+

@@ -19,11 +19,6 @@ Check Filepath (FS)
 
 
 
-#. For the mixed FS & non-FS database:
-
-   - Import an image in FS and do steps 1, 2 and 3.
-   - Click on a non-FS image.
-   - |C| that you cannot see the icon described in step 1
 
 
 
