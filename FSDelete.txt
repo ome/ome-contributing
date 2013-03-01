@@ -26,6 +26,8 @@ FS Delete
 
 #. Import an image rich in metadata and delete it.
 
+#. Import a multi-image file (e.g. `lei`). Choose one image only and press Delete. NB: All images of the multifile will be deleted.
+
 
 
 |

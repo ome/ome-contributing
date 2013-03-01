@@ -29,12 +29,15 @@ FS Import File Formats Testing
    - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`FSImportFileFTScreen005`]
    - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`FSImportFileFTScreen006`] and are of the correct size.
    - All ROIs [if any] are present and in the correct place.[:ref:`FSImportFileFTScreen007`]
+   - |C| that the upload/import progress is being shown to the right of the "Cancel" link.
+
+
 
 
 
 
 .. _FSImportFileFTScreen002:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002.png
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002pub.png
    :align: center
 
    FSImportFileFTScreen002:
@@ -75,7 +78,7 @@ FS Import File Formats Testing
 
 
 .. _FSImportFileFTScreen005:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005.png
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005pub.png
    :align: center
 
    FSImportFileFTScreen005
