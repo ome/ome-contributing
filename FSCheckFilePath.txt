@@ -7,116 +7,30 @@ Check Filepath (FS)
 
 **Purpose of the test** is to check the filepath to the image which is shown in clients in FS
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`CheckFilePathScreen002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePathScreen003w`](images 003in, 003w)
+#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`FSCheckFilePathScreen003w`]
 
-#. Go to the server and find the file according to the given filepath.
+#. Go to the server and find the file according to the given filepath [:ref:`FSCheckFilePathScreen004`].
 
 
    - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:download:`Path example </downloads/check_path.txt>`].
    - |C| that the path in the clients and the filepath on the server match 
 
-#. Repeat steps 1 and 2 with multi-image file, like `test_images_good/lei/050118.lei`.(images 004in, 004w)
+#. Repeat steps 1 and 2 with multi-image file, like `lei`
 
 
 
 
 
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _CheckFilePathScreen002w:
+	.. _FSCheckFilePathScreen002w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
 	   :align: center
 
 	   CheckFilePathScreen002Web
 
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
 
-	.. _CheckFilePathScreen003w:
+	.. _FSCheckFilePathScreen003w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
@@ -124,15 +38,13 @@ Check Filepath (FS)
 
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+
+
+	.. _FSCheckFilePathScreen004:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/004.png
+	   :align: center
+
+	   CheckFilePathScreen003Web
+
+
 

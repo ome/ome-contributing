@@ -9,7 +9,7 @@ Scenarios for Publication
    FSImportFileFormatsTesting
    FSViewImage
    FSViewBigImage
-   CheckFilePathFS
+   FSCheckFilePath
    FSRender
    FSScreenPlateWell
    FSDelete
