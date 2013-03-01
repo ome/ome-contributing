@@ -9,7 +9,7 @@ View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`][:ref:`ViewBigScreen003`]
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`]
 
 #. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBigScreen004`] or mousewheel (Web) [:ref:`ViewBigScreen005`]
 
@@ -90,30 +90,6 @@ View Big Image
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _ViewBigScreen003:
-.. figure:: /images/testing_scenarios/ViewBigImage/003.png
-   :align: center
-
-   ViewBigScreen003
-
-
 |
 |
 |
