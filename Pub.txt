@@ -9,8 +9,8 @@ Scenarios for Publication
    FSImportFileFormatsTesting
    FSViewImage
    FSViewBigImage
+   FSScreenPlateWell
    FSCheckFilePath
    FSRender
-   FSScreenPlateWell
    FSDelete
 
