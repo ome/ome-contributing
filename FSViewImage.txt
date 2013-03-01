@@ -44,7 +44,8 @@ FS: View Image
 
 
 
-
+	|
+	|
 
 
 
@@ -56,31 +57,6 @@ FS: View Image
 	   FSViewScreen001: 
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 	|
 	|
 	|
@@ -97,31 +73,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen003:
 	.. figure:: /images/testing_scenarios/ViewImage/003.png
@@ -134,31 +85,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen004:
 	.. figure:: /images/testing_scenarios/ViewImage/004.png
@@ -171,31 +97,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen005:
 	.. figure:: /images/testing_scenarios/ViewImage/005.png
@@ -208,31 +109,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen006:
 	.. figure:: /images/testing_scenarios/ViewImage/006.png
@@ -246,31 +122,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen007:
 	.. figure:: /images/testing_scenarios/ViewImage/007.png
@@ -283,31 +134,6 @@ FS: View Image
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
 
 	.. _FSViewScreen008:
 	.. figure:: /images/testing_scenarios/ViewImage/008.png
@@ -317,33 +143,4 @@ FS: View Image
 	   FSViewScreen008
 
 
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
