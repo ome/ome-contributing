@@ -45,29 +45,6 @@ FS Import File Formats Testing
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen003:
@@ -77,29 +54,6 @@ FS Import File Formats Testing
    FSImportFileFTScreen003
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 |
 |
 |
@@ -118,30 +72,6 @@ FS Import File Formats Testing
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen005:
@@ -156,29 +86,6 @@ FS Import File Formats Testing
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen006:
@@ -188,30 +95,6 @@ FS Import File Formats Testing
    FSImportFileFTScreen006: 
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 |
 |
 |
@@ -249,8 +132,5 @@ FS Import File Formats Testing
 |
 |
 |
-|
-|
-|
-|
+
 
