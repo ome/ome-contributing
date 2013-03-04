@@ -9,17 +9,17 @@ Check Filepath (FS)
 
 #. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen002w`]. A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`FSCheckFilePathScreen003w`]
 
-#. Go to the server and find the file according to the given filepath [:ref:`FSCheckFilePathScreen004`].
+#. Go to the server and find the file according to the given filepath.
 
 
-   - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:ref:`FSCheckFilePathScreen004`].
+   - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` :ref:`Example <label-name2>`.
    - |C| that the path in the clients and the filepath on the server match 
 
 #. Repeat steps 1 and 2 with multi-image file, like `lei`
 
 
 
-
+	|
 
 	.. _FSCheckFilePathScreen002w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
@@ -36,35 +36,37 @@ Check Filepath (FS)
 
 	   CheckFilePathScreen003Web
 
+
+
 	|
 	|
 
 
-	.. _FSCheckFilePathScreen004:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/004.png
-	   :align: center
+.. _label-name2:
 
-	   CheckFilePathScreen003Web
+	::
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	
-	
-	
+	    omero@gretzky:/$ cd /OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15/
+	    omero@gretzky:/OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15$ cd petr/Desktop/dv
+	    omero@gretzky:/OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15/petr/Desktop/dv$ ls
+	    CFPNEAT01_R3D.dv  CFPNEAT01_R3D.dv.log
 
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 

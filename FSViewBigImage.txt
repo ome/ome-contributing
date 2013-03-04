@@ -19,7 +19,7 @@ FS View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`]
+   - |C| that location of bird's eye corresponds with the image part shown.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`]
 
 #. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or mousewheel (Web) [:ref:`FSViewBigScreen005`]
 
