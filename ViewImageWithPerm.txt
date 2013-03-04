@@ -7,7 +7,9 @@ View Image
 
 **Purpose of the test** is to test the View feature on multiple z/t image and to check the z-Projection creation functionality
 
-If you test work on other's data (permissions) go first to :ref:`Work on others data <label-name>`
+If you test work on other's data (permissions) go first to :ref:`Section 2: Work on others data <label-name>`
+
+**Section 1:**
 
 .. _view-work-own:
 
@@ -38,13 +40,13 @@ If you test work on other's data (permissions) go first to :ref:`Work on others 
    - Save with all channels turned off.
    - |C| the saved files.
 
-**End of scenario working on own data**
+**End of Section 1: working on own data**
 
 ---------------------------------------------------------------------------------------------------------------------------------
 
 .. _label-name:
 
-**Work on other user's data**
+**Section 2: Work on other user's data**
 
 
 - |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
@@ -70,13 +72,6 @@ Group Administrator    Y        Y           Y
 
 
 
-#. |C| - in case you CAN see the other's images, you should see the tags, attachments, comments of these images as well
-   
-#. |C| that you CAN/CANNOT (as appropriate) draw ROIs on other user's images (do not try to save the ROI - this is not covered in this scenario)
-
-#. Go through the steps 1.- 8. :ref:`above <view-work-own>` and
-
-   - |C| you see this - `link to the table with screenshots about permissions - visibility of objects - does not exist yet`
 
 
 
