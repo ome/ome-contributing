@@ -7,6 +7,8 @@ ROI Insight
 
 **Purpose of the test** is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export)
 
+**Section 1: Create ROI, Manager, Inspector and Results tabs**
+
 #. Open an image with multiple z/t planes in Full Viewer
 
 #. Open ROI tool
@@ -40,7 +42,7 @@ ROI Insight
    - |C| the file was created.
 
 
-**Graph, Intensity View and Intensity Results View tabs:**
+**Section 2: Graph, Intensity View and Intensity Results View tabs:**
 
 #. Choose a region propagated on >3 z/t planes & scroll through the histograms
 
