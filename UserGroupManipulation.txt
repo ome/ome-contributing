@@ -7,6 +7,8 @@ User/Group Manipulation
 
 **Purpose of the test** is to check the viewing/display of groups/users and their data
 
+#. Switch to "User Display" in the main menu. Go View > User Display [:ref:`UserGroupMScreen001b`].
+
 #. Add several groups to the display (Insight only) Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`]
 
 #. Add several users to the display [:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen005`] (Insight only)
@@ -25,6 +27,29 @@ User/Group Manipulation
    - |C| that you can view images.
 
 #. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate. 
+
+
+	|
+
+	.. _UserGroupMScreen001b:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/001b.png
+	   :align: center
+
+	   UserGroupMScreen001: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 
 	.. _UserGroupMScreen001:
