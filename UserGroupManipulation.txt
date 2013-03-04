@@ -24,6 +24,8 @@ User/Group Manipulation
    - |C| that you can browse data
    - |C| that you can view images.
 
+#. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate. 
+
 
 	.. _UserGroupMScreen001:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001.png

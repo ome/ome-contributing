@@ -77,7 +77,6 @@ Group Administrator    Y        Y           Y
 
 
 
-
 	.. _ViewScreen001:
 	.. figure:: /images/testing_scenarios/ViewImage/001.png
 	   :align: center

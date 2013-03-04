@@ -36,12 +36,11 @@ Annotate
 
    - Selecting 2 or more objects which you annotated yourself
 
-        - |C| that you can see the [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`]
+        - |C| that you can see the annotations [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`]
 
    - Selecting 2 or more objects annotated by another user
 
         - |C| that the link owner is indicated in brackets [:ref:`AnnotateMScreen005`, :ref:`AnnotateMScreen006`]
-
 
 
 |
