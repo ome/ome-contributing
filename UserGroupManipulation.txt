@@ -26,6 +26,9 @@ User/Group Manipulation
    - |C| that you can browse data
    - |C| that you can view images.
 
+#. Switch to "Group Display" in the main menu. Go View > Group Display [:ref:`UserGroupMScreen001c`].
+
+
 #. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate. 
 
 
@@ -235,4 +238,16 @@ User/Group Manipulation
 	|
 	|
 	|
+	|
 
+	.. _UserGroupMScreen001c:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/001c.png
+	   :align: center
+
+	   UserGroupMScreen001: 
+
+
+
+	|
+	|
+	|
