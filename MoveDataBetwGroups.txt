@@ -13,21 +13,26 @@ Move Data between Groups
 
 #. Move a Project with datasets and images
 
+#. Move a Screen with Plates
+
+   - |C| that the Plates are at the destination with all the ROIs/annotations
+
 #. Move an Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
 
    - rich in metadata 
    - with a ROI
    - with an annotation
    - large image
+   - |C| that the image is at the destination with all the ROIs/annotations
 
 #. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
 
    - |C| that the image has been moved to "Orphaned Images" when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveDataScreen002`] (Insight only)
  
-#. Move via D&D (Insight only) [:ref:`MoveDataScreen006`]
+#. Move via D&D [:ref:`MoveDataScreen006`]
 
    - |C| that the images are in their destinations and view them
-
+   - |C| that the image is at the destination with all the ROIs/annotations
 
 
 
