@@ -23,7 +23,7 @@ User/Group Manipulation
 
 #. Remove groups from display.
 
-#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen001c`].
+#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
 
 #. |C| that you can see other user's data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
@@ -36,19 +36,19 @@ User/Group Manipulation
 
 **Section 2: Group Display (Web, Insight)**
 
-#. Switch to "Group Display" in the main menu. Go View > Group Display [:ref:`UserGroupMScreen001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupMScreen001c`].
+#. Switch to "Group Display" in the main menu. Go View > Group Display [:ref:`UserGroupMScreen001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupMScreen006w`].
 
-#. Put several groups to display (Insight only) [:ref:`UserGroupMScreen001c`].
+#. Put several groups to display (Insight only) [:ref:`UserGroupMScreen006i`].
 
-#. Switch between groups [:ref:`UserGroupMScreen001c`] (Insight only), put them on/off display.
+#. Switch between groups [:ref:`UserGroupMScreen006i`] (Insight only), put them on/off display.
 
-#. Browse yours and other user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen001c`].
+#. Browse yours and other user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen007i`].
 
-#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen001c`][:ref:`UserGroupMScreen001c`].
+#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
 
 #. |C| that you can see other user's data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
-#. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate [:ref:`UserGroupMScreen009w`].. 
+#. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate according to your permissions [:ref:`UserGroupMScreen009w`].
 
 
 	|
@@ -267,6 +267,186 @@ User/Group Manipulation
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _UserGroupMScreen006i:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/006i.png
+	   :align: center
+
+	   UserGroupMScreen005
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _UserGroupMScreen006w:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/006w.png
+	   :align: center
+
+	   UserGroupMScreen005
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _UserGroupMScreen007i:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/007i.png
+	   :align: center
+
+	   UserGroupMScreen005
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _UserGroupMScreen008i:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/008i.png
+	   :align: center
+
+	   UserGroupMScreen005
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _UserGroupMScreen008w:
+	.. figure:: /images/testing_scenarios/UserGroupManipulation/008w.png
+	   :align: center
+
+	   UserGroupMScreen005
+	
+	
 	|
 	|
 	|
