@@ -8,7 +8,7 @@ Edit
 
 **Purpose of the test** is to check that the entities are editable smoothly and that the edited/changed texts are being respected
 
-#. Edit project [:ref:`EditScreen001`], dataset  [:ref:`EditScreen002`], image [:ref:`EditScreen003`], screen [:ref:`EditScreen004`], plate [:ref:`EditScreen005`], plate run (i.e. plate acquisition) [:ref:`EditScreen006`], field (i.e. Well sample) [:ref:`EditScreen007`]
+#. Edit project [:ref:`EditScreen001`], dataset  [:ref:`EditScreen002`], image [:ref:`EditScreen003`], screen [:ref:`EditScreen004`], plate [:ref:`EditScreen005`], plate run [:ref:`EditScreen006`].
 
    - Edit name (right panel, use pencil icon) [:ref:`EditScreen008`]
    - Edit description
@@ -243,30 +243,6 @@ Edit
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _EditScreen007:
-	.. figure:: /images/testing_scenarios/Edit/007.png
-	   :align: center
-
-	   EditScreen007 
-
-
 	|
 	|
 	|
