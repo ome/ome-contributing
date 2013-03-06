@@ -19,11 +19,14 @@ FS View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`]
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`]
+   - move the red square in the bird's eye view
+   - pan
+   - |C| the tile loading.
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or mousewheel (Web) [:ref:`FSViewBigScreen005`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBigScreen005`]
 
-   - |C| tile loading
+   - |C| the tile loading
 
 #. Modify rendering settings [:ref:`FSViewBigScreen006`]
 
