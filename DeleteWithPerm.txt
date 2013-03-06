@@ -96,7 +96,7 @@ Group Administrator    Y        Y           Y
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center
 
-   DeleteScreen001: 
+   DeleteScreen001 
 
 
 |
@@ -133,7 +133,7 @@ Group Administrator    Y        Y           Y
 .. figure:: /images/testing_scenarios/Delete/002.png
    :align: center
 
-   DeleteScreen002:
+   DeleteScreen002
 
 
 |
@@ -281,7 +281,7 @@ Group Administrator    Y        Y           Y
 .. figure:: /images/testing_scenarios/Delete/006.png
    :align: center
 
-   DeleteScreen006: 
+   DeleteScreen006 
 
 
 |
@@ -318,7 +318,7 @@ Group Administrator    Y        Y           Y
 .. figure:: /images/testing_scenarios/Delete/007.png
    :align: center
 
-   DeleteScreen007:
+   DeleteScreen007
 
 
 |
