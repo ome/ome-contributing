@@ -69,7 +69,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	   :align: center
 	   :width: 100%
 
-	   ImportUIScreen001: 
+	   ImportUIScreen001 
 
 
 	|
@@ -106,7 +106,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/002.png
 	   :align: center
 
-	   ImportUIScreen002:
+	   ImportUIScreen002
 
 
 	|
@@ -255,7 +255,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/006.png
 	   :align: center
 
-	   ImportUIScreen006: 
+	   ImportUIScreen006 
 
 
 	|
@@ -292,7 +292,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/007.png
 	   :align: center
 
-	   ImportUIScreen007:
+	   ImportUIScreen007
 
 
 	|
@@ -366,7 +366,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/009.png
 	   :align: center
 
-	   ImportUIScreen009: 
+	   ImportUIScreen009 
 
 
 	|
@@ -536,7 +536,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/014.png
 	   :align: center
 
-	   ImportUIScreen014: 
+	   ImportUIScreen014 
 
 
 	|
@@ -573,7 +573,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	.. figure:: /images/testing_scenarios/ImportUI/015.png
 	   :align: center
 
-	   ImportUIScreen015:
+	   ImportUIScreen015
 
 
 	|
