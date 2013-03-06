@@ -34,6 +34,8 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat steps 1 to 3 using Drag & Drop (i.e. Move within group)
 
-#. (For permissions testing only) go through steps 1 - 6 copying/moving other users' objects (P/D/I/S/Plates/Plate Runs) and pasting them into your Projects/Datasets/Screens/Plates.
 
-#. (For permissions testing only) go through steps 1 - 6 copying/moving your objects (P/D/I/S/Plates/Plate Runs) and pasting them into other users' Projects/Datasets/Screens/Plates.
+
+#. (For permissions testing only) go through steps 1 - 7 copying/moving other users' objects (P/D/I/S/Plates/Plate Runs) and pasting them into your Projects/Datasets/Screens/Plates.
+
+#. (For permissions testing only) go through steps 1 - 7 copying/moving your objects (P/D/I/S/Plates/Plate Runs) and pasting them into other users' Projects/Datasets/Screens/Plates.
