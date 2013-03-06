@@ -8,7 +8,7 @@ Delete
 **Purpose of the test** is to check the Delete function on all entities (except ROI)
 
 
-If you test work on other's data (permissions) go first to :ref:`Section 2: Work on others data <label-Delete>`
+If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others data <label-Delete>`
 
 **Section 1: Work on your own data**
 
@@ -30,7 +30,7 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 .. _label-Delete:
 
-**Section 2: Work on other user's data**
+**Section 2: Work on other users' data**
 
 
 - |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`

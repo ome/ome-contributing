@@ -9,7 +9,7 @@ User/Group Manipulation
 
 **Section 1: User Display (Insight only)**
 
-#. Switch to "User Display" in the main menu. Go View > User Display [:ref:`UserGroupMScreen001b`].
+#. Switch to "User Display" in the main menu. Go to :menuselection:`View --> User Display` [:ref:`UserGroupMScreen001b`].
 
 #. Add several groups to the display. Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`]
 
@@ -25,9 +25,9 @@ User/Group Manipulation
 
 #. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
 
-#. |C| that you can see other user's data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
+#. |C| that you can see other users' data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
-#. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate [:ref:`UserGroupMScreen009w`].. 
+#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate [:ref:`UserGroupMScreen009w`].. 
 
 #. (Not to do during permissions testing). Log off and log in as a new user. Bear in mind the danger of clashes with other testers when picking a new username.
 
@@ -36,13 +36,13 @@ User/Group Manipulation
 
 **Section 2: Group Display (Web, Insight)**
 
-#. Switch to "Group Display" in the main menu. Go View > Group Display [:ref:`UserGroupMScreen001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupMScreen006w`].
+#. Switch to "Group Display" in the main menu. Go to :menuselection:`View --> Group Display` [:ref:`UserGroupMScreen001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupMScreen006w`].
 
 #. Put several groups to display (Insight only) [:ref:`UserGroupMScreen006i`].
 
 #. Switch between groups [:ref:`UserGroupMScreen006i`] (Insight only), put them on/off display.
 
-#. Browse yours and other user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen007i`].
+#. Browse yours and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen007i`].
 
 #. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
 
@@ -57,7 +57,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001b.png
 	   :align: center
 
-	   UserGroupMScreen001: 
+	   UserGroupMScreen001b 
 
 
 
@@ -78,7 +78,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001.png
 	   :align: center
 
-	   UserGroupMScreen001: 
+	   UserGroupMScreen001 
 
 
 	|
@@ -115,7 +115,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/002.png
 	   :align: center
 
-	   UserGroupMScreen002:
+	   UserGroupMScreen002
 
 
 	|
@@ -258,7 +258,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/005bi.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen005bi
 	
 	
 	|
@@ -300,7 +300,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/006i.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen006i
 	
 	
 	|
@@ -341,7 +341,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/006w.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen006w
 	
 	
 	|
@@ -375,7 +375,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/007i.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen007i
 	
 	
 	|
@@ -414,7 +414,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/008i.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen008i
 	
 	
 	|
@@ -444,7 +444,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/008w.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen008w
 	
 	
 	|
@@ -474,7 +474,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001c.png
 	   :align: center
 
-	   UserGroupMScreen001: 
+	   UserGroupMScreen001c: 
 
 
 
@@ -499,7 +499,7 @@ User/Group Manipulation
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/009w.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupMScreen009w
 	
 	
 	|

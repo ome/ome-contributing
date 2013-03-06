@@ -31,7 +31,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUIScreen006`][:ref:`ImportUIScreen007`]
    - |C| and the tag is created once. [:ref:`ImportUIScreen008`]
 
-#. Repeat (3) and this time (for permissions testing, tag with tags belonging to other user's)
+#. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
 
    - create a new tag and add an existing tag.[:ref:`ImportUIScreen009`]
    - Import the images
