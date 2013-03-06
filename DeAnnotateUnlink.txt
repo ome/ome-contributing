@@ -29,6 +29,8 @@ De-Annotate/Unlink
 
 #. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking annotations from other users' P/D/I/Screens/Plates.
 
+#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking other users' annotations from your P/D/I/Screens/Plates.
+
 #. (For permissions testing only) Do step 4 removing your Images/Datasets/Plates from other users' D/P/S.
 
 #. (For permissions testing only) Do step 4 removing other users' Images/Datasets/Plates from
