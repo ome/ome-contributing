@@ -17,7 +17,7 @@ User/Group Manipulation
 
 #. Switch between users.
 
-#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen005bi`].
+#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupMScreen005bi`].
 
 #. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupMScreen002`] and right-click (remomve & refresh) [:ref:`UserGroupMScreen004`]
 
@@ -42,13 +42,13 @@ User/Group Manipulation
 
 #. Switch between groups [:ref:`UserGroupMScreen006i`] (Insight only), put them on/off display.
 
-#. Browse yours and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other user's data have a red flag [:ref:`UserGroupMScreen007i`].
+#. Browse your and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupMScreen007i`].
 
 #. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
 
-#. |C| that you can see other user's data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
+#. |C| that you can see other users' data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
-#. |C| that you can see annotations on other user's objects (P/D/I/S/Plate/Plate Run) as appropriate according to your permissions [:ref:`UserGroupMScreen009w`].
+#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate according to your permissions [:ref:`UserGroupMScreen009w`].
 
 
 	|
