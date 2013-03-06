@@ -16,7 +16,7 @@ De-Annotate/Unlink
 
 #. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:ref:`DeAnnotateUScreen004`][:ref:`DeAnnotateUScreen005`]
 
-#. Remove image from a Dataset, Dataset from a Project, Plate from a Screen (Web only - icon in left hand pane/right-click)
+#. Remove image from a Dataset, Dataset from a Project, Plate from a Screen (Web only - icon in left-hand pane or right-click - Edit menu)
 
    - In case of image, |C| that the image appears in the orphaned images in case it is not linked to other datasets.
    - In case of Dataset/Plate, |C| that the Dataset/Plate appears as orphaned in the tree (not within any Project/Screen)
@@ -27,7 +27,16 @@ De-Annotate/Unlink
 
    - |C| that when you remove single tags/files from multi-selected images/datasets..., the remaining attachments remain intact
 
-#. (For permissions testing only) Go through steps 1 - 6, unlinking annotations from other users'P/D/I/Screens/Plates
+#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking annotations from other users' P/D/I/Screens/Plates.
+
+#. (For permissions testing only) Do step 4 removing your Images/Datasets/Plates from other users' D/P/S.
+
+#. (For permissions testing only) Do step 4 removing other users' Images/Datasets/Plates from
+
+   - your Datasets/Projects/Screens
+   - other users' D/P/S
+
+
 
 |
 |
