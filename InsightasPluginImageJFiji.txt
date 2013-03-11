@@ -11,7 +11,7 @@ Insight as Plugin ImageJ/Fiji
 
 #. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJIScreen001`]
 
-#. Download the latest stable version of ImageJ.
+#. Download the latest stable version of ImageJ for Windows/Mac/Linux as appropriate.
 
 #. Do not add "loci_tools.jar" to the imageJ/plugins. If it is there, remove it.
 
@@ -41,7 +41,7 @@ Insight as Plugin ImageJ/Fiji
 
    - |C| The image opens in imageJ.
 
-#. Try with ImageJ and ImageJ64
+#. Go through all steps using ImageJ64 and the platform independent version of ImageJ (all from IJ homepage).
 
 #. Download the latest stable version of Fiji. Repeat all steps using Fiji.
 
