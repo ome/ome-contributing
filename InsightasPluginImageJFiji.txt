@@ -7,7 +7,7 @@ Insight as Plugin ImageJ/Fiji
 
 **Purpose of the test** is to check that the OMERO insight works as plugin for ImageJ/IJ64/Fiji and the loci_tools.jar missing is not causing a crash.
 
-**Test on Linux as well as WindowsXP**
+**Test on Linux (Ubuntu Linux 12.04 with kernel 3.2.0-38-generic) as well as WindowsXP**
 
 #. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJIScreen001`]
 
