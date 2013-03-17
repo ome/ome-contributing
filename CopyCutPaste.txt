@@ -17,7 +17,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Big Images between Datasets 
    - Plates between Screens
    - Refresh
-   - |C| that the data are in their destination and display correctly 
+   - |C| that the data are in their destination and are displayed correctly 
    - |C| that the big image is displayed correctly in its destination
    - |C| that the annotations on the copied objects are in the appropriate destinations
 
@@ -36,6 +36,6 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 
 
-#. (For permissions testing only) go through steps 1 - 7 copying/moving other users' objects (P/D/I/S/Plates/Plate Runs) and pasting them into your Projects/Datasets/Screens/Plates.
+#. (For permissions testing only) go through steps 1 - 7 copying/moving other users' objects (P/D/I/S/Plates) and pasting them into your Projects/Datasets/Screens/Plates.
 
-#. (For permissions testing only) go through steps 1 - 7 copying/moving your objects (P/D/I/S/Plates/Plate Runs) and pasting them into other users' Projects/Datasets/Screens/Plates.
+#. (For permissions testing only) go through steps 1 - 7 copying/moving your objects (P/D/I/S/Plates) and pasting them into other users'  Projects/Datasets/Screens/Plates.

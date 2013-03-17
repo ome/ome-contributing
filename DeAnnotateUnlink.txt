@@ -5,7 +5,7 @@ De-Annotate/Unlink
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the De-annotate (alias Unlink or Remove Annotations) functionality This is another functionality than Delete (which is covered by a different scenario).
+**Purpose of the test** is to check the De-annotate (alias Unlink or Remove Annotations) functionality. This is another functionality than Delete (which is covered by a different scenario).
 
 #. Go to right-hand pane in Insight
 
