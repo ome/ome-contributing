@@ -9,6 +9,7 @@ Copy/Cut/Paste
 
 Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
 
+
 #. Copy/Cut & Paste by selecting the items & using right-click menu
 
    - Datasets between Projects
@@ -16,8 +17,9 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Big Images between Datasets 
    - Plates between Screens
    - Refresh
-   - |C| the data are in their destination and display correctly 
-   - |C| the big image is displayed correctly in its destination
+   - |C| that the data are in their destination and are displayed correctly 
+   - |C| that the big image is displayed correctly in its destination
+   - |C| that the annotations on the copied objects are in the appropriate destinations
 
 #. Copy/Cut & Paste Images from "Orphaned Images" folder by selecting & using right-click menu
 
@@ -33,3 +35,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 #. Repeat steps 1 to 3 using Drag & Drop (i.e. Move within group)
 
 
+
+#. (For permissions testing only) go through steps 1 - 7 copying/moving other users' objects (P/D/I/S/Plates) and pasting them into your Projects/Datasets/Screens/Plates.
+
+#. (For permissions testing only) go through steps 1 - 7 copying/moving your objects (P/D/I/S/Plates) and pasting them into other users'  Projects/Datasets/Screens/Plates.

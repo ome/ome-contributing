@@ -5,7 +5,7 @@ De-Annotate/Unlink
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the De-annotate (alias Unlink, alias Remove) functionality This is another functionality than Delete (which is covered by a different scenario).
+**Purpose of the test** is to check the De-annotate (alias Unlink or Remove Annotations) functionality. This is another functionality than Delete (which is covered by a different scenario).
 
 #. Go to right-hand pane in Insight
 
@@ -16,15 +16,29 @@ De-Annotate/Unlink
 
 #. Repeat step 2 on attachments (Web: choose minus sign to remove - not cross to delete) [:ref:`DeAnnotateUScreen004`][:ref:`DeAnnotateUScreen005`]
 
-#. Remove image from Dataset (Web only - icon in left hand pane)
+#. Remove image from a Dataset, Dataset from a Project, Plate from a Screen (Web only - icon in left-hand pane or right-click - Edit menu)
 
-   - |C| the image appears in the orphaned images in case it is not linked to other datasets.
+   - In case of image, |C| that the image appears in the orphaned images in case it is not linked to other datasets.
+   - In case of Dataset/Plate, |C| that the Dataset/Plate appears as orphaned in the tree (not within any Project/Screen)
 
 #. Select >3 annotated objects at once and repeat the steps 1 - 4. 
 
 #. Repeat step 5., this time select once-annotated (with one tag/file etc. attached) as well as multi-annotated (with more tags/files etc.) objects in you multi-selection. 
 
    - |C| that when you remove single tags/files from multi-selected images/datasets..., the remaining attachments remain intact
+
+#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking annotations from other users' P/D/I/Screens/Plates.
+
+#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking other users' annotations from your P/D/I/Screens/Plates.
+
+#. (For permissions testing only) Do step 4 removing your Images/Datasets/Plates from other users' D/P/S.
+
+#. (For permissions testing only) Do step 4 removing other users' Images/Datasets/Plates from
+
+   - your Datasets/Projects/Screens
+   - other users' D/P/S
+
+
 
 |
 |
