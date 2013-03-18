@@ -13,7 +13,7 @@ Insight as Plugin ImageJ/Fiji
 
 #. Download the latest stable version of ImageJ for Windows/Mac/Linux as appropriate.
 
-#. Do not add "loci_tools.jar" to the imageJ/plugins. If it is there, remove it.
+#. Do not add "loci_tools.jar" to the imageJ/plugins folder. If it is there, remove it.
 
 #. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
 
