@@ -7,29 +7,29 @@ Render
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional
 
-#. Copy settings from image [right-click on the thumbnail in central pane].[:ref:`RenderScreen001`] (Insight only)
+#. Copy settings from an image [right-click on the thumbnail in central pane].[:ref:`RenderScreen001`] (Insight only)
 
-#. Select a collection of images and paste settings.[:ref:`RenderScreen002`] (Insight only)
+#. Select a collection of images and paste the settings.[:ref:`RenderScreen002`] (Insight only)
 
-   - |C| that that the thumbnails in the main pane are updated.
+   - |C| that the thumbnails in the central pane are updated.
 
 #. Reset default settings.[:ref:`RenderScreen003`] (Web - in Full Viewer only, for one image)
 
-   - |C| that thumbnails main viewer are updated
+   - |C| that thumbnails in the central pane are updated.
 
 #. Set min/max settings. (Insight only)
 
-   - |C| that thumbnails main viewer are updated
+   - |C| that thumbnails in the central pane are updated.
 
 #. Set owner's settings. (Insight only)
 
-   - |C| that thumbnails main viewer are updated [:ref:`RenderScreen004`]
+   - |C| that thumbnails in the central pane are updated [:ref:`RenderScreen004`].
 
 #. If applicable:
 
    - Open an image belonging to another user.
-   - Modify the settings in the "Preview" pane on the right.[:ref:`RenderScreen005`] or using the icon on the top left in Viewer window. Save your own using the "Apply" icon (Preview in Insight - NOT for Big images) Save icon (icon in Viewer - Insight) or Save button (Web) [:ref:`RenderScreen007`]
-   - |C| that thumbnails in central pane are updated
+   - Modify the settings in the "Preview" pane on the right [:ref:`RenderScreen005`] or use the icon on the top left in the Full Viewer window. Save your own setting using the "Apply" icon (Preview in Insight - NOT for Big images) Save icon (icon in Viewer - Insight) or Save button (Web) [:ref:`RenderScreen007`].
+   - |C| that thumbnails in the central pane are updated.
 
 #. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command or do Move command)
 
