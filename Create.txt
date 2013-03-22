@@ -7,6 +7,10 @@ Create
 
 **Purpose of the test** is to check that the creation of new entities is smooth, valid and sensible and the appropriate menu commands work and correspond (right-click and main menu)
 
+If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others data <label-Create>`
+
+**Section 1: Work on your own data**
+
 #. Create new Project/Dataset/Screen* Create using right-click [:ref:`CreateScreen001`][:download:`001 </images/testing_scenarios/Create/001.png>`]
  
    - Create using the icon [:ref:`CreateScreen002`, :ref:`CreateScreen003`, :ref:`CreateScreen004`]
@@ -23,7 +27,22 @@ Create
    - |C| that the "New project" window appears
 
 
-|
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+.. _label-Create:
+
+**Section 2: Work on other users' data**
+
+#. Switch to Group View in Insight, put "All members" to display in Web.
+
+#. Do step 1 in Section 1 only creating Datasets under others' Projects (it is not possible to create Project or Screen under the name of another user)
+
+#. Do step 3 in Section 1 on other users' images.
+
+#. Switch to User View in Insight, put a particular user to display in Web and do steps 2 and 3 in Section 2.
+
+
+
 |
 |
 |
