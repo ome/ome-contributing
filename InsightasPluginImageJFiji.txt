@@ -3,13 +3,17 @@ Insight as Plugin ImageJ/Fiji
 
 
 
-**To test in**: ImageJ
+**To test in**: ImageJ, Fiji
 
 **Purpose of the test** is to check that the OMERO insight works as plugin for ImageJ/IJ64/Fiji and the loci_tools.jar missing is not causing a crash.
 
+**Test on Linux as well as Windows (XP and Win7 if possible)**
+
 #. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJIScreen001`]
 
-#. Do not add "loci_tools.jar" to the imageJ/plugins. If it is there, remove it.
+#. Download the latest stable version of ImageJ for Windows/Mac/Linux as appropriate from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_.
+
+#. Do not add "loci_tools.jar" to the ImageJ/plugins folder. If it is there, remove it.
 
 #. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
 
@@ -37,9 +41,9 @@ Insight as Plugin ImageJ/Fiji
 
    - |C| The image opens in imageJ.
 
-#. Try with ImageJ and ImageJ64
+#. Go through all steps using ImageJ64 and the platform independent version of ImageJ (download from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_).
 
-#. Repeat using Fiji
+#. Download the latest stable version of Fiji from `Fiji homepage <http://fiji.sc/Fiji>`_. Repeat all steps using Fiji.
 
 
 
@@ -47,7 +51,7 @@ Insight as Plugin ImageJ/Fiji
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/001.png
    :align: center
 
-   InsightIJIScreen001: 
+   InsightIJIScreen001 
 
 
 |
@@ -84,7 +88,7 @@ Insight as Plugin ImageJ/Fiji
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/002.png
    :align: center
 
-   InsightIJIScreen002:
+   InsightIJIScreen002
 
 
 |
@@ -122,7 +126,6 @@ Insight as Plugin ImageJ/Fiji
    :align: center
 
    InsightIJIScreen003
-
 
 |
 |
