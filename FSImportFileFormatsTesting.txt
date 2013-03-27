@@ -22,13 +22,14 @@ FS Import File Formats Testing
 
 #. Import the files for this format. 
 
-   - |C| Some formats have special import requirements--please check first!
-   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`FSImportFileFTScreen002`][:ref:`FSImportFileFTScreen003`][:ref:`FSImportFileFTScreen004`]
-   - |C| In case import has failed, check that all files have been copied.
+   - Note that some formats have special import requirements--please check first!
+   - |C| for any import failures, and take a copy of any exceptions (= import failure reasons in the "Failed" button window) or other failures [:ref:`FSImportFileFTScreen002`][:ref:`FSImportFileFTScreen003`][:ref:`FSImportFileFTScreen004`].
+   - |C| that in case import has failed all files have been copied.
    - |C| each imported image visually for the following features:
-   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`FSImportFileFTScreen005`]
-   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`FSImportFileFTScreen006`] and are of the correct size.
-   - All ROIs [if any] are present and in the correct place.[:ref:`FSImportFileFTScreen007`]
+      - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFTScreen005`]
+      - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFTScreen006`] and are of the correct size.
+      - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFTScreen007`].
+
    - |C| that the upload/import progress is being shown to the right of the "Cancel" link.
 
 
@@ -40,7 +41,7 @@ FS Import File Formats Testing
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002pub.png
    :align: center
 
-   FSImportFileFTScreen002:
+   FSImportFileFTScreen002
 
 
 |
@@ -95,7 +96,7 @@ FS Import File Formats Testing
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
    :align: center
 
-   FSImportFileFTScreen006: 
+   FSImportFileFTScreen006 
 
 
 |
@@ -108,7 +109,7 @@ FS Import File Formats Testing
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
    :align: center
 
-   FSImportFileFTScreen007:
+   FSImportFileFTScreen007
 
 
 |
