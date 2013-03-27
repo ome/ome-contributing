@@ -22,19 +22,19 @@ FS Render
 
 #. Select a collection of images and paste settings.[:ref:`FSRenderScreen002`] (Insight only)
 
-   - |C| Make sure that the thumbnails in the main pane are updated.
+   - |C| that the thumbnails in the main pane are updated.
 
 #. Reset default settings.[:ref:`FSRenderScreen003`] (Web - in Full Viewer only, for one image)
 
-   - |C| Make sure thumbnails main viewer are updated
+   - |C| that thumbnails in the main viewer are updated
 
 #. Set min/max settings. (Insight only)
 
-   - |C| Make sure thumbnails main viewer are updated
+   - |C| that thumbnails in the main viewer are updated
 
 #. Set owner's settings. (Insight only)
 
-   - |C| Make sure thumbnails main viewer are updated [:ref:`FSRenderScreen004`]
+   - |C| that thumbnails in the main viewer are updated [:ref:`FSRenderScreen004`]
 
 #. If applicable (does not work for Big images):
 
