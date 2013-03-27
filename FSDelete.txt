@@ -38,7 +38,7 @@ FS Delete
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center
 
-   FSdeletescreen001: 
+   FSdeletescreen001 
 
 
 |
@@ -50,7 +50,7 @@ FS Delete
 .. figure:: /images/testing_scenarios/Delete/002.png
    :align: center
 
-   FSdeletescreen002:
+   FSdeletescreen002
 
 
 |
@@ -96,7 +96,7 @@ FS Delete
 .. figure:: /images/testing_scenarios/Delete/006.png
    :align: center
 
-   FSdeletescreen006: 
+   FSdeletescreen006 
 
 
 |
@@ -107,7 +107,7 @@ FS Delete
 .. figure:: /images/testing_scenarios/Delete/007.png
    :align: center
 
-   FSdeletescreen007:
+   FSdeletescreen007
 
 
 |

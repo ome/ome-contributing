@@ -36,7 +36,7 @@ FS View Big Image
 	   :align: center
 	   :width: 100%
 
-	   FSViewBigScreen001: 
+	   FSViewBigScreen001 
 
 
 	|
@@ -47,7 +47,7 @@ FS View Big Image
 	.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
 	   :align: center
 
-	   FSViewBigScreen002:
+	   FSViewBigScreen002
 
 
 	|
@@ -81,7 +81,7 @@ FS View Big Image
 	   :align: center
 	   :width: 100%
 
-	   FSViewBigScreen006: 
+	   FSViewBigScreen006 
 
 	|
 	|

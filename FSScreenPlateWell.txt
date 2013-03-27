@@ -41,7 +41,7 @@ FS Screen/Plate/Well
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
 	   :align: center
 
-	   FSspwscreen001: 
+	   FSspwscreen001 
 
 
 	|
@@ -54,7 +54,7 @@ FS Screen/Plate/Well
 	   :align: center
 	   :width: 100%
 
-	   FSspwscreen002:
+	   FSspwscreen002
 
 
 	|
@@ -108,7 +108,7 @@ FS Screen/Plate/Well
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
 	   :align: center
 
-	   FSspwscreen006: 
+	   FSspwscreen006 
 
 
 	|
@@ -121,7 +121,7 @@ FS Screen/Plate/Well
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
 	   :align: center
 
-	   FSspwscreen007:
+	   FSspwscreen007
 
 
 	|
@@ -144,7 +144,7 @@ FS Screen/Plate/Well
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
 	   :align: center
 
-	   FSspwscreen009: 
+	   FSspwscreen009 
 
 
 	|
@@ -156,7 +156,7 @@ FS Screen/Plate/Well
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
 	   :align: center
 
-	   FSspwscreen010:
+	   FSspwscreen010
 
 
 	|

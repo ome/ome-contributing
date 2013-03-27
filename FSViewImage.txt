@@ -31,7 +31,7 @@ FS View Image
 
    - Preview the projection [:ref:`FSViewScreen002`]
    - Change the projection range.
-   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`FSViewScreen003`].
+   - Change the projection type (Maximum or Mean - double arrow menu next to "Intensity") [:ref:`FSViewScreen003`].
    - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`]
    - |C| - view the result [:ref:`FSViewScreen006`]
 
