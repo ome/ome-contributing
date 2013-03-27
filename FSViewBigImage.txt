@@ -1,8 +1,6 @@
 FS View Big Image
 ==================
 
-
-
 **To test in**: Web, Insight
 
 **Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
@@ -31,72 +29,87 @@ FS View Big Image
 #. Modify rendering settings [:ref:`FSViewBigScreen006`]
 
 
+	|
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+	.. _FSViewBigScreen001:
+	.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
+	   :align: center
+	   :width: 100%
 
-.. _FSViewBigScreen001:
-.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
-   :align: center
-   :width: 100%
-
-   FSViewBigScreen001: 
+	   FSViewBigScreen001: 
 
 
-|
-|
+	|
+	|
 
 
-.. _FSViewBigScreen002:
-.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
-   :align: center
+	.. _FSViewBigScreen002:
+	.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
+	   :align: center
 
-   FSViewBigScreen002:
-
-
-|
-|
+	   FSViewBigScreen002:
 
 
-.. _FSViewBigScreen004:
-.. figure:: /images/testing_scenarios/ViewBigImage/004.png
-   :align: center
-
-   FSViewBigScreen004
+	|
+	|
 
 
-|
-|
+	.. _FSViewBigScreen004:
+	.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+	   :align: center
+
+	   FSViewBigScreen004
 
 
-.. _FSViewBigScreen005:
-.. figure:: /images/testing_scenarios/ViewBigImage/005.png
-   :align: center
-
-   FSViewBigScreen005
+	|
+	|
 
 
-|
+	.. _FSViewBigScreen005:
+	.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+	   :align: center
+
+	   FSViewBigScreen005
+
+
+	|
 
 
 
-.. _FSViewBigScreen006:
-.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
-   :align: center
-   :width: 100%
+	.. _FSViewBigScreen006:
+	.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
+	   :align: center
+	   :width: 100%
 
-   FSViewBigScreen006: 
+	   FSViewBigScreen006: 
 
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	
 
-|
 

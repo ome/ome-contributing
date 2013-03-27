@@ -27,7 +27,7 @@ FS View Image
 
 #. Modify the rendering settings.
 
-#. Projection tabs [a tab in the Full Viewer next to Image tab]:[:ref:`FSViewScreen002`] (Insight only) - in Web, click on "Max Intensity" instead
+#. Projection tab (= tab in the Full Viewer next to Image tab - Insight only):[:ref:`FSViewScreen002`]  - in Web, click on "Max Intensity" instead
 
    - Preview the projection [:ref:`FSViewScreen002`]
    - Change the projection range.
@@ -44,31 +44,17 @@ FS View Image
 
 
 
-	.. _FSViewScreen001:
-	.. figure:: /images/testing_scenarios/ViewImage/001.png
-	   :align: center
-	   :width: 100%
-
-	   FSViewScreen001: 
-
-
-	|
-	|
-	|
-	|
 
 
 	.. _FSViewScreen002:
 	.. figure:: /images/testing_scenarios/ViewImage/002.png
 	   :align: center
 
-	   FSViewScreen002:
+	   FSViewScreen002
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen003:
 	.. figure:: /images/testing_scenarios/ViewImage/003.png
@@ -77,10 +63,8 @@ FS View Image
 	   FSViewScreen003
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen004:
 	.. figure:: /images/testing_scenarios/ViewImage/004.png
@@ -89,10 +73,8 @@ FS View Image
 	   FSViewScreen004
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen005:
 	.. figure:: /images/testing_scenarios/ViewImage/005.png
@@ -101,35 +83,29 @@ FS View Image
 	   FSViewScreen005
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen006:
 	.. figure:: /images/testing_scenarios/ViewImage/006.png
 	   :align: center
 	 
 
-	   FSViewScreen006: 
+	   FSViewScreen006 
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen007:
 	.. figure:: /images/testing_scenarios/ViewImage/007.png
 	   :align: center
 
-	   FSViewScreen007:
+	   FSViewScreen007
 
 
-	|
-	|
-	|
-	|
+
+
 
 	.. _FSViewScreen008:
 	.. figure:: /images/testing_scenarios/ViewImage/008.png
@@ -166,10 +142,56 @@ FS View Image
 	|
 	|
 	|
-	
-	
-	
-	
-	
-	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
