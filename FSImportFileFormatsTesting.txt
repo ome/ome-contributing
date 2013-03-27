@@ -30,7 +30,7 @@ FS Import File Formats Testing
       - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFTScreen006`] and are of the correct size.
       - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFTScreen007`].
 
-   - |C| that the upload/import progress is being shown to the right of the "Cancel" link.
+   - |C| that the upload/import progress is being shown to the right of the "Cancel" link [:ref:`FSImportFileFTScreen007`, :ref:`FSImportFileFTScreen008`, :ref:`FSImportFileFTScreen009`, :ref:`FSImportFileFTScreen010`, :ref:`FSImportFileFTScreen011`, :ref:`FSImportFileFTScreen012`, :ref:`FSImportFileFTScreen013`:ref:`FSImportFileFTScreen014`, :ref:`FSImportFileFTScreen015`, :ref:`FSImportFileFTScreen016`].
 
 
 
@@ -114,18 +114,87 @@ FS Import File Formats Testing
 
 |
 |
+
+
+.. _FSImportFileFTScreen008:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/008.png
+   :align: center
+
+   FSImportFileFTScreen008
+
 |
 |
+
+
+.. _FSImportFileFTScreen009:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/009.png
+   :align: center
+
+   FSImportFileFTScreen009
+
 |
 |
+
+
+.. _FSImportFileFTScreen010:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/010.png
+   :align: center
+
+   FSImportFileFTScreen010
+
 |
 |
+
+
+.. _FSImportFileFTScreen011:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/011.png
+   :align: center
+
+   FSImportFileFTScreen011
+
 |
+
+
+.. _FSImportFileFTScreen012:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/012.png
+   :align: center
+
+   FSImportFileFTScreen012
+
 |
+
+
+.. _FSImportFileFTScreen013:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/013.png
+   :align: center
+
+   FSImportFileFTScreen013
+
 |
+
+.. _FSImportFileFTScreen014:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/014.png
+   :align: center
+
+   FSImportFileFTScreen014
+
+
 |
+
+.. _FSImportFileFTScreen015:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/015.png
+   :align: center
+
+   FSImportFileFTScreen015
+
 |
-|
+
+.. _FSImportFileFTScreen016:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/016.png
+   :align: center
+
+   FSImportFileFTScreen016
+
 |
 |
 |
