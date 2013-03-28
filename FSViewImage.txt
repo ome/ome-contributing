@@ -27,13 +27,13 @@ FS View Image
 
 #. Modify the rendering settings.
 
-#. Projection tab (= tab in the Full Viewer next to Image tab - Insight only):[:ref:`FSViewScreen002`]  - in Web, click on "Max Intensity" instead
+#. Click on Projection tab if enabled:[:ref:`FSViewScreen002`]  - in Web, click on "Max Intensity" instead
 
-   - Preview the projection [:ref:`FSViewScreen002`]
-   - Change the projection range.
-   - Change the projection type (Maximum or Mean - double arrow menu next to "Intensity") [:ref:`FSViewScreen003`].
-   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`]
-   - |C| - view the result [:ref:`FSViewScreen006`]
+   - Preview the projection [:ref:`FSViewScreen002`] (Insight only)
+   - Change the projection range (Insight only).
+   - Change the projection type (Maximum or Mean - double arrow menu next to "Intensity") [:ref:`FSViewScreen003`] (Insight only).
+   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`] (Insight only)
+   - |C| the result [:ref:`FSViewScreen006`] (Insight; Web - the result will appear in the full viewer window after click on "Max Intensity")
 
 #. Save as (Insight only):
 
