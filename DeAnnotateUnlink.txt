@@ -7,6 +7,10 @@ De-Annotate/Unlink
 
 **Purpose of the test** is to check the De-annotate (alias Unlink or Remove Annotations) functionality. This is another functionality than Delete (which is covered by a different scenario).
 
+If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others data <label-DeAnnotate>`
+
+**Section 1: Work on your data**
+
 #. Go to right-hand pane in Insight
 
 #. Unlink tags
@@ -27,13 +31,24 @@ De-Annotate/Unlink
 
    - |C| that when you remove single tags/files from multi-selected images/datasets..., the remaining attachments remain intact
 
-#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking annotations from other users' P/D/I/Screens/Plates.
+**End of Section 1: Work on your own data**
 
-#. (For permissions testing only) Go through steps 1, 2, 3, 5, 6, unlinking other users' annotations from your P/D/I/Screens/Plates.
+---------------------------------------------------------------------------------------------------------------------------------
 
-#. (For permissions testing only) Do step 4 removing your Images/Datasets/Plates from other users' D/P/S.
+.. _label-DeAnnotate:
 
-#. (For permissions testing only) Do step 4 removing other users' Images/Datasets/Plates from
+**Section 2a: Work on other users' data (permissions) - De-Annotate**
+
+
+#. Go through steps 1, 2, 3, 5, 6 in Section 1 unlinking annotations from other users' P/D/I/Screens/Plates.
+
+#. Go through steps 1, 2, 3, 5, 6 in Section 1 unlinking other users' annotations from your P/D/I/Screens/Plates.
+
+**Section 2b: Work on other users' data (permissions) - Unlink**
+
+#. Do step 4 in Section 1 removing your Images/Datasets/Plates from other users' D/P/S.
+
+#. Do step 4 in Section 1 removing other users' Images/Datasets/Plates from
 
    - your Datasets/Projects/Screens
    - other users' D/P/S
