@@ -25,13 +25,13 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 #. Modify the rendering settings.
 
-#. Projection tabs [a tab in the Full Viewer next to Image tab]:[:ref:`ViewScreen002`][:download:`002 </images/testing_scenarios/ViewImage/002.png>`] (Insight only) - in Web, click on "Max Intensity" instead
+#. Click on Projection tab if enabled:[:ref:`FSViewScreen002`]  - in Web, click on "Max Intensity" instead
 
-   - Preview the projection [:ref:`ViewScreen002`]
-   - Change the projection range.
-   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`ViewScreen003`].
-   - Project the image.[:ref:`ViewScreen004`][:ref:`ViewScreen005`]
-   - |C| - view the result [:ref:`ViewScreen006`]
+   - Preview the projection [:ref:`FSViewScreen002`] (Insight only)
+   - Change the projection range (Insight only).
+   - Change the projection type (Maximum or Mean - double arrow menu next to "Intensity") [:ref:`FSViewScreen003`] (Insight only).
+   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`] (Insight only)
+   - |C| the result [:ref:`FSViewScreen006`] (Insight; Web - the result will appear in the full viewer window after click on "Max Intensity")
 
 #. Save as (Insight only):
 
@@ -46,30 +46,36 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 .. _label-name:
 
-**Section 2: Work on other user's data**
+**Section 2: Work on other users' data**
 
+Note: Projection (step 7 in Section 1) has different permission levels than the View action. Projection has the same permissions as the "Link/Unlink" action. 
 
 - |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-- |C| whether you CAN (=Y) or CANNOT (=N) view other's data in the table below (alternatively see all :omerodoc:`permissions  <sysadmins/server-permissions.html>`)
+- |C| whether you CAN (=Y) or CANNOT (=N) view others' data in the table below.
 
 
 
 .. tabularcolumns:: |l|c|c|c|
 
-==================== ======= ========== ================
-CAN VIEW ?           Private Read-only  Read-annotate
-==================== ======= ========== ================
-Group Administrator    Y        Y           Y
--------------------- ------- ---------- ----------------
-   Group Owner         Y        Y           Y
--------------------- ------- ---------- ----------------
-   Group Member        N        Y           Y
-==================== ======= ========== ================
+==================== ======= ========== ================ ================
+CAN VIEW ?           Private Read-only  Read-annotate     Read-write
+==================== ======= ========== ================ ================
+Group Administrator    Y        Y           Y                  Y
+-------------------- ------- ---------- ---------------- ----------------
+   Group Owner         Y        Y           Y                  Y
+-------------------- ------- ---------- ---------------- ----------------
+   Group Member        N        Y           Y                  Y
+==================== ======= ========== ================ ================
 
-#. Go through the steps 2.- 8. :ref:`above <view-work-own>` and
+#. Switch to Group View (Insight) or put "All members" to display (Web). Go through the steps 2.- 8. :ref:`above <view-work-own>` and
 
-   - |C| that you CAN/CANNOT (as appropriate) view other's data (e.g. images, plates)
+   - |C| that you CAN/CANNOT (as appropriate) view others' data (e.g. images, plates)
+   - |C| that you CAN/CANNOT (as appropriate) make Projections of others' images and that the resulting projection is in the Dataset with the projected image
 
+#. Switch to User View (Insight) or put a single member to display (Web). o through the steps 2.- 8. :ref:`above <view-work-own>` and
+
+   - |C| that you CAN/CANNOT (as appropriate) view others' data (e.g. images, plates)
+   - |C| that you CAN/CANNOT (as appropriate) make Projections of others' images and that the resulting projection is in the Dataset with the projected image
 
 
 
