@@ -13,7 +13,7 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 .. _view-work-own:
 
-#. Import an image with several channels/timepoint/z-sections. [:ref:`ViewScreen001`][:download:`001 </images/testing_scenarios/ViewImage/001.png>`]
+#. Import an image with several channels/timepoint/z-sections. [:ref:`ViewScreen001`]
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
