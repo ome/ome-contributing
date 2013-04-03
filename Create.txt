@@ -22,9 +22,9 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
    - |C| that a new dataset is created with the selected images inside
 
-#. Right-click on dataset, choose "New…."
+#. Right-click on a Project choose "New…."
 
-   - |C| that the "New project" window appears
+   - |C| that the "New dataset" window appears
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
