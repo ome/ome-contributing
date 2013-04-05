@@ -67,12 +67,12 @@ Group Administrator    Y        Y           Y                  Y
    Group Member        N        Y           Y                  Y
 ==================== ======= ========== ================ ================
 
-#. Switch to Group View (Insight) or put "All members" to display (Web). Go through the steps 2.- 8. :ref:`above <view-work-own>` and
+#. Switch to Group Display (Insight) or put "All members" to display (Web). Go through the steps 2.- 8. :ref:`above <view-work-own>` and
 
    - |C| that you CAN/CANNOT (as appropriate) view others' data (e.g. images, plates)
    - |C| that you CAN/CANNOT (as appropriate) make Projections of others' images and that the resulting projection is in the Dataset with the projected image
 
-#. Switch to User View (Insight) or put a single member to display (Web). o through the steps 2.- 8. :ref:`above <view-work-own>` and
+#. Switch to User Display (Insight) or put a single member to display (Web). o through the steps 2.- 8. :ref:`above <view-work-own>` and
 
    - |C| that you CAN/CANNOT (as appropriate) view others' data (e.g. images, plates)
    - |C| that you CAN/CANNOT (as appropriate) make Projections of others' images and that the resulting projection is in the Dataset with the projected image
