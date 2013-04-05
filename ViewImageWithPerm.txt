@@ -58,7 +58,7 @@ Note: Projection (step 7 in Section 1) has different permission levels than the 
 .. tabularcolumns:: |l|c|c|c|
 
 ==================== ======= ========== ================ ================
-CAN VIEW ?           Private Read-only  Read-annotate     Read-write
+   CAN VIEW ?        Private Read-only  Read-annotate     Read-write
 ==================== ======= ========== ================ ================
 Group Administrator    Y        Y           Y                  Y
 -------------------- ------- ---------- ---------------- ----------------
@@ -71,6 +71,7 @@ Group Administrator    Y        Y           Y                  Y
 
    - |C| that you CAN/CANNOT (as appropriate) view others' data (e.g. images, plates)
    - |C| that you CAN/CANNOT (as appropriate) make Projections of others' images and that the resulting projection is in the Dataset with the projected image
+
 
 #. Switch to User Display (Insight) or put a single member to display (Web). o through the steps 2.- 8. :ref:`above <view-work-own>` and
 
