@@ -58,7 +58,7 @@ Note: Projection (step 7 in Section 1) has different permission levels than the 
 .. tabularcolumns:: |l|c|c|c|
 
 ==================== ======= ========== ================ ================
-   CAN VIEW ?        Private Read-only  Read-annotate     Read-write
+   CAN VIEW?         Private Read-only  Read-annotate     Read-write
 ==================== ======= ========== ================ ================
 Group Administrator    Y        Y           Y                  Y
 -------------------- ------- ---------- ---------------- ----------------
