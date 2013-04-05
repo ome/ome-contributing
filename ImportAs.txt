@@ -1,0 +1,97 @@
+Import As
+===============
+
+
+
+**To test in**: Insight
+
+**Purpose of the test** is to check importing for other users.
+
+#. Log in as administrator and import for another user choosing it in the Import Location window. [:ref:`ImportAsScreen001`],           	
+
+- - |C| that new Dataset was created and the images were imported as appropriate [:ref:`ImportAsScreen002`]
+  - |C| that the owner of the dataset and of the imported images is indicated as intended at import [:ref:`ImportAsScreen002`] 
+
+
+#. Log in as a group member (e.g. .....)
+
+#. Create a new Project at import stage...
+
+#. Repeat the same with plates
+
+#. Repeat the same being in User View.
+
+
+
+.. _ImportAsScreen001:
+.. figure:: /images/testing_scenarios/ImportAs/001.png
+   :align: center
+
+   ImportAsScreen001
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ImportAsScreen002:
+.. figure:: /images/testing_scenarios/ImportAs/002.png
+   :align: center
+
+   ImportAsScreen002
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
