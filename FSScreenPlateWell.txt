@@ -3,9 +3,9 @@ FS Screen/Plate/Well
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
-**Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
+``Purpose``- check a plate/screen (with multiple Fields per well) import and viewing.
 
 .. only:: html
 

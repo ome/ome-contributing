@@ -3,9 +3,9 @@ FS Check Filepath
 
 
 
-**To test in**: Web, Insight
+``To test in``: Web, Insight
 
-**Purpose of the test** is to check the filepath to the image which is shown in clients in FS
+``Purpose`` - check the filepath to the image which is shown in clients in FS.
 
 #. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen001in`, :ref:`FSCheckFilePathScreen002in`, :ref:`FSCheckFilePathScreen002w`]. A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`FSCheckFilePathScreen003in`, :ref:`FSCheckFilePathScreen003w`]
 

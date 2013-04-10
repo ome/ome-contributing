@@ -3,9 +3,9 @@ FS ROI Insight
 
 
 
-**To test in**: Insight
+``Test in``: Insight
 
-**Purpose of the test** is to check main ROI features in Insight (creation, editing, propagation, merging, result collection and export). Especially steps concerning the pixels intensity (**Graph, Intensity View and Intensity Results View tabs:**) must be checked throughly.
+``Purpose``- check main ROI features in Insight (creation, editing, propagation, merging, result collection and export). Especially steps concerning the pixels intensity (**Graph, Intensity View and Intensity Results View tabs:**) must be checked throughly.
 
 .. only:: html
 

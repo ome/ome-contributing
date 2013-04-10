@@ -3,9 +3,9 @@ FS View Image
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
-**The purpose of the test** is to view "small" images and concentrate on projection and performance.
+``Purpose``- view "small" images and concentrate on projection and performance.
 
 .. only:: html
 

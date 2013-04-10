@@ -3,10 +3,10 @@ FS Scripts Client
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
 
-**Purpose of the test** is to test the scripting functionalities. For FS demo, check mainly the scripts which have Projections as a part of their performance and check that the scripts do produce Info and Errors files.
+``Purpose``- test the scripting functionalities. For FS demo, check mainly the scripts which have Projections as a part of their performance and check that the scripts do produce Info and Errors files.
 
 .. only:: html
 
