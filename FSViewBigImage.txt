@@ -15,18 +15,18 @@ FS View Big Image
       **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
 
 
-#. Open a large image
+#. Open a large image.
 
-   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`]
-   - move the red square in the bird's eye view
-   - pan
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`].
+   - Move the red square in the bird's eye view.
+   - Pan.
    - |C| the tile loading.
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBigScreen005`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBigScreen005`].
 
-   - |C| the tile loading
+   - |C| the tile loading.
 
-#. Modify rendering settings [:ref:`FSViewBigScreen006`]
+#. Modify rendering settings [:ref:`FSViewBigScreen006`].
 
 
 	|

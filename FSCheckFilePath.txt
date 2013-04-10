@@ -7,15 +7,15 @@ FS Check Filepath
 
 ``Purpose`` - check the filepath to the image which is shown in clients in FS.
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen001in`, :ref:`FSCheckFilePathScreen002in`, :ref:`FSCheckFilePathScreen002w`]. A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`FSCheckFilePathScreen003in`, :ref:`FSCheckFilePathScreen003w`]
+#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen001in`, :ref:`FSCheckFilePathScreen002in`, :ref:`FSCheckFilePathScreen002w`]. A table with the paths of the files associated with the chosen image will appear under the icon [:ref:`FSCheckFilePathScreen003in`, :ref:`FSCheckFilePathScreen003w`].
 
 #. Go to the server and find the file according to the given filepath.
 
 
    - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` :ref:`Example <label-name2>`.
-   - |C| that the path in the clients and the filepath on the server match 
+   - |C| that the path in the clients and the filepath on the server match. 
 
-#. Repeat steps 1 and 2 with multi-image file, like `lei`
+#. Repeat steps 1 and 2 with multi-image file, like `lei`.
 
 
 	|

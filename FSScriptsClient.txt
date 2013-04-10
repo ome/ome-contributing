@@ -18,31 +18,31 @@ FS Scripts Client
       **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
 
 
-#. Run the following scripts which have projections as a part of their run
+#. Run the following scripts which have projections as a part of their run.
 
-   - Batch image export (in "Choose z-section" select Projection)
+   - Batch image export (in "Choose z-section" select Projection).
 
-   - Movie ROI Figure (create a rectangular ROI first, then run the script)
+   - Movie ROI Figure (create a rectangular ROI first, then run the script).
 
-   - ROI Spli Figure (create a rectangular ROI first, then run the script)
+   - ROI Spli Figure (create a rectangular ROI first, then run the script).
 
-   - Movie Figure (tick the box "Z Pprojection")
+   - Movie Figure (tick the box "Z Pprojection").
 
-   - Split View Figure
+   - Split View Figure.
 
-   - |C| that the results link is present [:ref:`FSScriptsClientScreen006`]
-
-
-#. Click on the result link and
+   - |C| that the results link is present [:ref:`FSScriptsClientScreen006`].
 
 
-   - |C| that the Info (and Error if applicable) files are present - Info should be ALWAYS present [:ref:`FSScriptsClientScreen006`]
+#. Click on the result link.
 
-   - |C| that script ran to completion w/o errors.[:ref:`FSScriptsClientScreen006`][:ref:`FSScriptsClientScreen007`]
 
-   - |C| that you can view the results of the scripts
+   - |C| that the Info (and Error if applicable) files are present. - Info should be ALWAYS present [:ref:`FSScriptsClientScreen006`].
 
-   - |C| that you can download the results of the scripts and view the downloaded results
+   - |C| that script ran to completion w/o errors [:ref:`FSScriptsClientScreen006`][:ref:`FSScriptsClientScreen007`].
+
+   - |C| that you can view the results of the scripts.
+
+   - |C| that you can download the results of the scripts and view the downloaded results.
 
 
 

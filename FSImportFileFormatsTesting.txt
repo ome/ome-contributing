@@ -3,7 +3,7 @@ FS Import File Formats Testing
 
 
 
-``To test in``: Insight
+``Test in``: Insight
 
 ``Purpose`` - check the import of various file formats and ability to report failures correctly. 
 
@@ -28,7 +28,7 @@ FS Import File Formats Testing
      or other failures [:ref:`FSImportFileFTScreen002`, :ref:`FSImportFileFTScreen003`, :ref:`FSImportFileFTScreen004`].
    - |C| that all files have been copied even in any case, including import failure case.
    - |C| each imported image visually for the following features:
-      - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFTScreen005`]
+      - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFTScreen005`].
       - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFTScreen006`] and are of the correct size.
       - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFTScreen007`].
 

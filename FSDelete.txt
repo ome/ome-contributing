@@ -18,11 +18,11 @@ FS Delete
 
 #. In the DataManager:
 
-   - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`FSdeletescreen001`][:ref:`FSdeletescreen002`] (left-hand pane in Insight, right hand pane in Web)
-   - Delete tags [:ref:`FSdeletescreen003`][:ref:`FSdeletescreen004`] (left-hand pane)
+   - Delete Ratings (Insight only), Delete Comments (right-hand pane).
+   - Delete attachments [:ref:`FSdeletescreen001`][:ref:`FSdeletescreen002`] (left-hand pane in Insight, right hand pane in Web).
+   - Delete tags [:ref:`FSdeletescreen003`][:ref:`FSdeletescreen004`] (left-hand pane).
 
-#. Delete P/D/I/Screen/Plate. [:ref:`FSdeletescreen005`][:ref:`FSdeletescreen006`][:ref:`FSdeletescreen007`][:ref:`FSdeletescreen008`]
+#. Delete P/D/I/Screen/Plate [:ref:`FSdeletescreen005`][:ref:`FSdeletescreen006`][:ref:`FSdeletescreen007`][:ref:`FSdeletescreen008`].
 
 #. Import an image rich in metadata and delete it.
 
