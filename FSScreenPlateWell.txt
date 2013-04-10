@@ -28,7 +28,7 @@ FS Screen/Plate/Well
 
    - All thumbnails should be updated.
 
-#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`FSspwscreen007`]
+#. Toggle on and off the icon allowing you to magnify a thumbnail while mousing over it.[:ref:`FSspwscreen007`] (Insight only)
 
 #. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:ref:`FSspwscreen008`] (Insight only)
 
