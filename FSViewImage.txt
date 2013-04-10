@@ -5,7 +5,7 @@ FS View Image
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to test the View feature on "small" images important for FS demo and concentrate on Projection and performance**
+**The purpose of the test** is to view "small" images and concentrate on projection and performance.
 
 .. only:: html
 
