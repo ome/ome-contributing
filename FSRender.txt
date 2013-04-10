@@ -5,7 +5,7 @@ FS Render
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional for the FS demo.
+**Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualizations of the images and all the options of rendering are functional for the FS demo.
 
 .. only:: html
 
