@@ -29,11 +29,6 @@ FS Delete
 #. Import a multi-image file (e.g. `lei`). Choose one image only and press Delete. NB: All images of the multifile will be deleted.
 
 
-
-|
-|
-
-
 .. _FSdeletescreen001:
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center

@@ -93,7 +93,7 @@ FS Check Filepath
 
 	::
 
-	    omero@gretzky:~$ cd /OMERO/ManagedRepository/
+		omero@gretzky:~$ cd /OMERO/ManagedRepository/
 		omero@gretzky:/OMERO/ManagedRepository$ cd user-4_5/2013-04/10/05-29-24.598
 		omero@gretzky:/OMERO/ManagedRepository/user-4_5/2013-04/10/05-29-24.598$ ls -al
 		total 162732
