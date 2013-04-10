@@ -19,11 +19,11 @@ FS View Image
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
-#. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
+#. Go to the split-view (=multi-channel in Web). Turn channels on/off, use the z and t-sliders.
 
 #. Toggle back between views.
 
-#. Turn on/off color/greyscale
+#. Turn on/off color/grayscale
 
 #. Modify the rendering settings.
 
@@ -31,7 +31,8 @@ FS View Image
 
    - Preview the projection [:ref:`FSViewScreen002`] (Insight only)
    - Change the projection range (Insight only).
-   - Change the projection type (Maximum or Mean - double arrow menu next to "Intensity") [:ref:`FSViewScreen003`] (Insight only).
+   - Change the projection type (Maximum or Mean - double arrow menu
+     next to "Intensity") [:ref:`FSViewScreen003`] (Insight only).
    - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`] (Insight only)
    - |C| the result [:ref:`FSViewScreen006`] (Insight; Web - the result will appear in the full viewer window after click on "Max Intensity")
 

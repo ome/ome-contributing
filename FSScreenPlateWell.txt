@@ -20,13 +20,13 @@ FS Screen/Plate/Well
 
 #. Double-click on Plate or Plate Run.
 
-   - |C| Both actions should display in the central panel.[:ref:`FSspwscreen002`][:ref:`FSspwscreen003`]
+   - Both actions should display in the central panel.[:ref:`FSspwscreen002`][:ref:`FSspwscreen003`]
 
 #. Double-click on a well/field to open viewer [:ref:`FSspwscreen004`][:ref:`FSspwscreen005`]
 
 #. Select a new Field in the dropdown menu above the central panel [:ref:`FSspwscreen006`]
 
-   - |C| All thumbnails should be updated.
+   - All thumbnails should be updated.
 
 #. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`FSspwscreen007`]
 
