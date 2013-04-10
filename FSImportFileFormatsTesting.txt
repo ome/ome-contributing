@@ -23,14 +23,18 @@ FS Import File Formats Testing
 #. Import the files for this format. 
 
    - Note that some formats have special import requirements--please check first!
-   - |C| for any import failures, and take a copy of any exceptions (= import failure reasons in the "Failed" button window) or other failures [:ref:`FSImportFileFTScreen002`][:ref:`FSImportFileFTScreen003`][:ref:`FSImportFileFTScreen004`].
+   - |C| for any import failures, and take a copy of any exceptions (= import failure reasons in the "Failed" button window)
+     or other failures [:ref:`FSImportFileFTScreen002`][:ref:`FSImportFileFTScreen003`][:ref:`FSImportFileFTScreen004`].
    - |C| that in case import has failed all files have been copied.
    - |C| each imported image visually for the following features:
       - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFTScreen005`]
       - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFTScreen006`] and are of the correct size.
       - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFTScreen007`].
 
-   - |C| that the upload/import progress is being shown to the right of the "Cancel" link [:ref:`FSImportFileFTScreen007`, :ref:`FSImportFileFTScreen008`, :ref:`FSImportFileFTScreen009`, :ref:`FSImportFileFTScreen010`, :ref:`FSImportFileFTScreen011`, :ref:`FSImportFileFTScreen012`, :ref:`FSImportFileFTScreen013`:ref:`FSImportFileFTScreen014`, :ref:`FSImportFileFTScreen015`, :ref:`FSImportFileFTScreen016`].
+   - |C| that the upload/import progress is being shown to the right of the "Cancel" link [:ref:`FSImportFileFTScreen007`,
+     :ref:`FSImportFileFTScreen008`, :ref:`FSImportFileFTScreen009`, :ref:`FSImportFileFTScreen010`,
+     :ref:`FSImportFileFTScreen011`, :ref:`FSImportFileFTScreen012`, :ref:`FSImportFileFTScreen013`,
+     :ref:`FSImportFileFTScreen014`, :ref:`FSImportFileFTScreen015`, :ref:`FSImportFileFTScreen016`].
 
 
 
