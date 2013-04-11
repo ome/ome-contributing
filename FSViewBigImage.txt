@@ -29,18 +29,12 @@ FS View Big Image
 #. Modify rendering settings [:ref:`FSViewBigScreen006`].
 
 
-	|
-
 	.. _FSViewBigScreen001:
 	.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
 	   :align: center
 	   :width: 100%
 
 	   FSViewBigScreen001 
-
-
-	|
-	|
 
 
 	.. _FSViewBigScreen002:
@@ -50,19 +44,11 @@ FS View Big Image
 	   FSViewBigScreen002
 
 
-	|
-	|
-
-
 	.. _FSViewBigScreen004:
 	.. figure:: /images/testing_scenarios/ViewBigImage/004.png
 	   :align: center
 
 	   FSViewBigScreen004
-
-
-	|
-	|
 
 
 	.. _FSViewBigScreen005:
@@ -72,44 +58,9 @@ FS View Big Image
 	   FSViewBigScreen005
 
 
-	|
-
-
-
 	.. _FSViewBigScreen006:
 	.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
 	   :align: center
 	   :width: 100%
 
-	   FSViewBigScreen006 
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	
-
-
+	   FSViewBigScreen006

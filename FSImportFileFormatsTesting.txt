@@ -38,22 +38,11 @@ FS Import File Formats Testing
      :ref:`FSImportFileFTScreen014`, :ref:`FSImportFileFTScreen015`, :ref:`FSImportFileFTScreen016`].
 
 
-
-
-
-
 .. _FSImportFileFTScreen002:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002pub.png
    :align: center
 
    FSImportFileFTScreen002
-
-
-|
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen003:
@@ -63,24 +52,11 @@ FS Import File Formats Testing
    FSImportFileFTScreen003
 
 
-|
-|
-|
-|
-|
-
-
 .. _FSImportFileFTScreen004:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
    :align: center
 
    FSImportFileFTScreen004
-
-
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen005:
@@ -90,24 +66,11 @@ FS Import File Formats Testing
    FSImportFileFTScreen005
 
 
-|
-|
-|
-|
-|
-
-
 .. _FSImportFileFTScreen006:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
    :align: center
 
    FSImportFileFTScreen006 
-
-
-|
-|
-|
-|
 
 
 .. _FSImportFileFTScreen007:
@@ -117,18 +80,11 @@ FS Import File Formats Testing
    FSImportFileFTScreen007
 
 
-|
-|
-
-
 .. _FSImportFileFTScreen008:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/008.png
    :align: center
 
    FSImportFileFTScreen008
-
-|
-|
 
 
 .. _FSImportFileFTScreen009:
@@ -137,18 +93,12 @@ FS Import File Formats Testing
 
    FSImportFileFTScreen009
 
-|
-|
-
 
 .. _FSImportFileFTScreen010:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/010.png
    :align: center
 
    FSImportFileFTScreen010
-
-|
-|
 
 
 .. _FSImportFileFTScreen011:
@@ -157,16 +107,12 @@ FS Import File Formats Testing
 
    FSImportFileFTScreen011
 
-|
-
 
 .. _FSImportFileFTScreen012:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/012.png
    :align: center
 
    FSImportFileFTScreen012
-
-|
 
 
 .. _FSImportFileFTScreen013:
@@ -175,7 +121,6 @@ FS Import File Formats Testing
 
    FSImportFileFTScreen013
 
-|
 
 .. _FSImportFileFTScreen014:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/014.png
@@ -184,31 +129,15 @@ FS Import File Formats Testing
    FSImportFileFTScreen014
 
 
-|
-
 .. _FSImportFileFTScreen015:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/015.png
    :align: center
 
    FSImportFileFTScreen015
 
-|
 
 .. _FSImportFileFTScreen016:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/016.png
    :align: center
 
    FSImportFileFTScreen016
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-

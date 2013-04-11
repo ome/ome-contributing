@@ -53,25 +53,11 @@ FS Render
 	   FSRenderScreen001 
 
 
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen002:
 	.. figure:: /images/testing_scenarios/Render/002.png
 	   :align: center
 
 	   FSRenderScreen002
-
-
-	|
-	|
-	|
-	|
-	|
 
 
 	.. _FSRenderScreen003:
@@ -81,25 +67,11 @@ FS Render
 	   FSRenderScreen003
 
 
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen004:
 	.. figure:: /images/testing_scenarios/Render/004.png
 	   :align: center
 
 	   FSRenderScreen004
-
-
-	|
-	|
-	|
-	|
-	|
 
 
 	.. _FSRenderScreen005:
@@ -109,12 +81,6 @@ FS Render
 	   FSRenderScreen005
 
 
-	|
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen006:
 	.. figure:: /images/testing_scenarios/Render/006.png
 	   :align: center
@@ -122,45 +88,8 @@ FS Render
 	   FSRenderScreen006 
 
 
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen007:
 	.. figure:: /images/testing_scenarios/Render/007.png
 	   :align: center
 
 	   FSRenderScreen007
-	
-	
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-

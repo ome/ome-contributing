@@ -36,21 +36,11 @@ FS Delete
    FSdeletescreen001 
 
 
-|
-|
-|
-
-
 .. _FSdeletescreen002:
 .. figure:: /images/testing_scenarios/Delete/002.png
    :align: center
 
    FSdeletescreen002
-
-
-|
-|
-|
 
 
 .. _FSdeletescreen003:
@@ -60,20 +50,11 @@ FS Delete
    FSdeletescreen003
 
 
-|
-|
-|
-
-
 .. _FSdeletescreen004:
 .. figure:: /images/testing_scenarios/Delete/004.png
    :align: center
 
    FSdeletescreen004
-
-
-|
-|
 
 
 .. _FSdeletescreen005:
@@ -83,19 +64,11 @@ FS Delete
    FSdeletescreen005
 
 
-|
-|
-
-
 .. _FSdeletescreen006:
 .. figure:: /images/testing_scenarios/Delete/006.png
    :align: center
 
    FSdeletescreen006 
-
-
-|
-|
 
 
 .. _FSdeletescreen007:
@@ -105,44 +78,8 @@ FS Delete
    FSdeletescreen007
 
 
-|
-|
-
-
 .. _FSdeletescreen008:
 .. figure:: /images/testing_scenarios/Delete/008.png
    :align: center
 
    FSdeletescreen008
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-

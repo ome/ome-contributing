@@ -44,17 +44,11 @@ FS View Image
    - |C| the saved files.
 
 
-
-
-
 	.. _FSViewScreen002:
 	.. figure:: /images/testing_scenarios/ViewImage/002.png
 	   :align: center
 
 	   FSViewScreen002
-
-
-
 
 
 	.. _FSViewScreen003:
@@ -64,9 +58,6 @@ FS View Image
 	   FSViewScreen003
 
 
-
-
-
 	.. _FSViewScreen004:
 	.. figure:: /images/testing_scenarios/ViewImage/004.png
 	   :align: center
@@ -74,17 +65,11 @@ FS View Image
 	   FSViewScreen004
 
 
-
-
-
 	.. _FSViewScreen005:
 	.. figure:: /images/testing_scenarios/ViewImage/005.png
 	   :align: center
 
 	   FSViewScreen005
-
-
-
 
 
 	.. _FSViewScreen006:
@@ -95,17 +80,11 @@ FS View Image
 	   FSViewScreen006 
 
 
-
-
-
 	.. _FSViewScreen007:
 	.. figure:: /images/testing_scenarios/ViewImage/007.png
 	   :align: center
 
 	   FSViewScreen007
-
-
-
 
 
 	.. _FSViewScreen008:
@@ -114,85 +93,3 @@ FS View Image
 	 
 
 	   FSViewScreen008
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-

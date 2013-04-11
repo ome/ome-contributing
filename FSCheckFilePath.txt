@@ -18,15 +18,11 @@ FS Check Filepath
 #. Repeat steps 1 and 2 with multi-image file, like `lei`.
 
 
-	|
-
 	.. _FSCheckFilePathScreen001in:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/001in.png
 	   :align: center
 
 	   CheckFilePathScreen001Insight
-
-	|
 
 
 	.. _FSCheckFilePathScreen002in:
@@ -35,8 +31,6 @@ FS Check Filepath
 
 	   CheckFilePathScreen002Insight
 
-	|
-
 
 	.. _FSCheckFilePathScreen002w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
@@ -44,7 +38,6 @@ FS Check Filepath
 
 	   CheckFilePathScreen002Web
 
-	|
 
 	.. _FSCheckFilePathScreen003in:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003in.png
@@ -52,41 +45,12 @@ FS Check Filepath
 
 	   CheckFilePathScreen003Insight
 
-	|
 
 	.. _FSCheckFilePathScreen003w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
 	   CheckFilePathScreen003Web
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
 
 .. _label-name2:
@@ -124,17 +88,3 @@ FS Check Filepath
 		
 
         Example of a filepath - command line output
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
