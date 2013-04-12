@@ -19,11 +19,22 @@ NB: When importing the data for another user, the permissions to link these data
    - a user which can Link
    - a user which cannot Link
 
-#. Use small images which can be found here. Make sure you have these images ready on your local hierarchy. Both images without folders as well as whole folders with images will be imported in following steps. 
+#. Make sure you have images ready on your local hierarchy. Use small images which can be found here. You will need to have images without folders as well as whole folders with images ready for the import.
 
-   - login as the user which cannot Link
-   - create a project to which you will import your own data later
-   - create a project for the data of the user which can Link
+   - prepare folders with images for the user which can Link
+   - prepare folders with images for the user which cannot Link
+
+#. In Insight UI, prepare Projects and Datasets for the users for which you will import later
+
+   - Login as the user which cannot Link.
+   - Create a project for the data for the user which cannot Link (e.g. "user-3 for user-3's data")
+   - Create a project for the data of the user which can Link (e.g. "user-3 for user-11's data")
+   - Login as the user which can Link.
+   - Create a project for the data of the user which can Link (e.g. "user-11 for user-11's data")
+   - Create a project for the data of the user which cannot Link (e.g. "user-11 for user-3's data")
+   - Login as administrator
+   - Create a project for the data of the user which cannot Link (e.g. "user-6 for user-3's data") 
+   - Create a project for the data of the user which can Link (e.g. "user-6 for user-11's data")
 
 #. Log in as administrator.
 
