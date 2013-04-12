@@ -40,20 +40,33 @@ NB: When importing the data for another user, the permissions to link these data
 
 #. Switch to Group Display. 
 
-#. Import for the user which can Link. 
+#. Import for the user which can Link, do not create a new Project at import stage. 
 
-   - Open Importer, choose data, click ``>``.
+   - Open Importer, select the folder you prepared in step 3 for the user which can Link, click ``>``.
    - In the Import Location window, select ``Import For`` the user which can Link [:ref:`ImportAsScreen001`]
-   - Import the images with no folder - do not create new project or dataset at import
-   -             	
+   - Open the Projects menu, you should be able to select the Projects of the user which can Link and other users' Projects [:ref:`ImportAsScreen001b`].
+   - Select the Project owned by the user which cannot Link (e.g. "user-3 for user-11's data") and import
+   - Select the Project owned by the user which can Link (e.g. "user-11 for user-11's data") and import.
 
--  - |C| that new Dataset was created and the images were imported as appropriate [:ref:`ImportAsScreen002`]
-   - |C| that the owner of the dataset and of the imported images is indicated as intended at import [:ref:`ImportAsScreen002`] 
+#. Import for the user which cannot Link, do not create a new Project at import stage
+
+   - Select "Import For" the user which cannot Link
+   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by the user you are importing for now
+   - Select the Project owned by the user which cannot Link (e.g. "user-3 for user-3's data") and import   
 
 
-#. Log in as a group member (e.g. .....)
+#. Repeat steps 7, 8 importing single images (not a whole folder).
 
-#. Create a new Project at import stage...
+#. Repeat steps 7, 8 creating a new 
+
+   - Project at import stage and importing to it
+   - Dataset at import stage and importing to it
+
+#. Check the imported / created entities:
+
+-  - |C| that new P/Ds were created and the images were imported as appropriate [:ref:`ImportAsScreen002`]
+   - |C| that the ownership of the P/Ds and of the imported images is as expected [:ref:`ImportAsScreen002`] 
+
 
 #. Repeat the same with plates. Use BD pathway plate to import.
 
