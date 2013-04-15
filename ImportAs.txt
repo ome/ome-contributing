@@ -12,47 +12,49 @@ NB: Only Administrators can import data for other users. When importing the data
 
 #. Check the permission levels for linking the data to other users' P/D/S (= Link/Unlink) :omerodoc:`here <sysadmins/server-permissions.html>`.
 
-#. Read the :ref:`Table of permissions-users <Table-of-permissions-users>`. You will pick or you have been assigned to 3 users from one group:
+#. Read the :ref:`Table of permissions-users <Table-of-permissions-users>`. You will pick or you have been assigned to 3 users from one group.:
  
    - an administrator (e.g. user-6)
-   - a user which can Link (e.g. user-11)
-   - a user which cannot Link (e.g. user-3)
+   - a user which canNot Link (NL) - referred to as user-NL from here
+   - a user which Can Link (CL) - referred to as user-CL from here
+
 
 #. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/pwalczysko/fresh_import/tree/final-scripts>`_. You will need to have well-named images within well-named folders.
 
-   - prepare folders with images for the user which can Link
-   - prepare folders with images for the user which cannot Link
+   - prepare folders with images for user-NL
+   - prepare folders with images for user-CL
+
 
 #. In Insight UI, prepare Projects and Datasets for the users for which you will import later
 
-   - Login as the user which cannot Link.
-   - Create a Project and a Screen for the data for the user which cannot Link (e.g. "user-3 for user-3's data")
-   - Create a Project and a Screen for the data of the user which can Link (e.g. "user-3 for user-11's data")
-   - Login as the user which can Link.
-   - Create a Project and a Screen for the data of the user which can Link (e.g. "user-11 for user-11's data")
-   - Create a Project and a Screen for the data of the user which cannot Link (e.g. "user-11 for user-3's data")
+   - Login as user-NL.
+   - Create a Project and a Screen for the data for user-NL (e.g. "user-NL for user-NL's data")
+   - Create a Project and a Screen for the data of user-CL (e.g. "user-NL for user-CL's data")
+   - Login as user-CL.
+   - Create a Project and a Screen for the data of user-NL (e.g. "user-CL for user-NL's data")
+   - Create a Project and a Screen for the data of user-CL (e.g. "user-CL for user-CL's data")
    - Login as administrator
-   - Create a project and a Screen for the data of the user which cannot Link (e.g. "user-6 for user-3's data") 
-   - Create a project and a Screen for the data of the user which can Link (e.g. "user-6 for user-11's data")
+   - Create a project and a Screen for the data of user-NL (e.g. "user-6 for user-NL's data") 
+   - Create a project and a Screen for the data of user-CL (e.g. "user-6 for user-CL's data")
 
 #. Log in as administrator.
 
 #. Switch to Group Display. 
 
-#. Import for the user which can Link, do not create a new Project at import stage. 
+#. Import for user-CL, do not create a new Project at import stage. 
 
-   - Open Importer, select the folder you prepared in step 3 for the user which can Link, click ``>``.
-   - In the Import Location window, select ``Import For`` the user which can Link [:ref:`ImportAsScreen001`]
-   - Open the Projects menu, you should be able to select the Projects of the user which can Link and other users' Projects [:ref:`ImportAsScreen002`]. The red dots mark the projects owned by any user for which you ARE NOT IMPORTING FOR atm.
-   - Select the Project owned by the user which cannot Link (e.g. "user-3 for user-11's data") [:ref:`ImportAsScreen003`] and import.
-   - Select the Project owned by the user which can Link (e.g. "user-11 for user-11's data") and import.
-   - Select the Project owned by the admin (e.g. "user-6 for user-11's data") and import
+   - Open Importer, select the folder you prepared in step 3 for user-CL, click ``>``.
+   - In the Import Location window, select ``Import For`` user-CL [:ref:`ImportAsScreen001`]
+   - Open the Projects menu, you should be able to select the Projects of the user-CL and other users' Projects [:ref:`ImportAsScreen002`]. The red dots mark the projects owned by anyone else than user-CL.
+   - Select the Project owned by the user-NL (e.g. "user-NL for user-CL's data") [:ref:`ImportAsScreen003`] and import.
+   - Select the Project owned by the user-CL (e.g. "user-CL for user-CL's data") and import.
+   - Select the Project owned by the admin (e.g. "user-6 for user-CL's data") and import
 
-#. Import for the user which cannot Link, do not create a new Project at import stage
+#. Import for user-NL, do not create a new Project at import stage
 
-   - Select "Import For" the user which cannot Link
-   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by the user you are importing for now [:ref:`ImportAsScreen004`]
-   - Select the Project owned by the user which cannot Link (e.g. "user-3 for user-3's data") and import.
+   - Select ``Import For`` user-NL
+   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by user-NL [:ref:`ImportAsScreen004`]
+   - Select the Project owned by the user-NL (e.g. "user-NL for user-NL's data") and import.
 
 
 #. Repeat steps 7, 8 importing single images (not a whole folder).
