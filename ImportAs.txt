@@ -69,8 +69,8 @@ NB: Only Administrators can import data for other users. When importing the data
 
 #. Check the imported objects
 
-   - |C| that new P/D/Ss were created and the images/plates were imported as appropriate [:ref:`ImportAsScreen005`]
-   - |C| that the ownership of the P/D/Ss and of the imported images/plates is as expected [:ref:`ImportAsScreen006`] 
+   - |C| that new P/D/S were created and the images/plates were imported as appropriate [:ref:`ImportAsScreen005`]
+   - |C| that the ownership of the P/D/S and of the imported images/plates is as expected [:ref:`ImportAsScreen006`] 
 
 
 
