@@ -357,7 +357,43 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 	|
 	|
 	|
+	|
 
+
+	.. _DownloadEDScreen007b:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007b.png
+	   :align: center
+
+	   DownloadEDScreen007b:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 
 	.. _DownloadEDScreen009:
@@ -405,6 +441,80 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
 
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen010a:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010a.png
+	   :align: center
+
+	   DownloadEDScreen010a:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen010b:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010b.png
+	   :align: center
+
+	   DownloadEDScreen010b:
+
+
 	|
 	|
 	|
@@ -584,6 +694,196 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 	|
 	|
 	|
+	|
+
+
+	.. _DownloadEDScreen013b:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013b.png
+	   :align: center
+
+	   DownloadEDScreen013b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen013c:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013c.png
+	   :align: center
+
+	   DownloadEDScreen013c
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen013d:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013d.png
+	   :align: center
+
+	   DownloadEDScreen013d
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen013e:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013e.png
+	   :align: center
+
+	   DownloadEDScreen013e
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|	
+	|
+
+
+	.. _DownloadEDScreen013f:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013f.png
+	   :align: center
+
+	   DownloadEDScreen013f
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 
 	.. _DownloadEDScreen014:
@@ -732,7 +1032,82 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 	|
 	|
 	|
+	|
 
+
+	.. _DownloadEDScreen017b:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017b.png
+	   :align: center
+
+	   DownloadEDScreen017b: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _DownloadEDScreen017c:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017c.png
+	   :align: center
+
+	   DownloadEDScreen017c: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 	.. _DownloadEDScreen018:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/018.png
