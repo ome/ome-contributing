@@ -56,11 +56,6 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
          - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010`]
          - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen010`] nor Web (menu item missing) [:ref:`DownloadEDScreen010`]
 
-    - Export an image as OME-TIFF [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`]
-
-    - Export an image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 
-
-         - |C| the result
 
 #.  FS-Download/Export images (perform on FS server with FS-data-only database)
 
@@ -87,16 +82,22 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 #.  Downgrade:
 
     - Select an image and go to the right-hand panel.
-    - Select to "Export as OME-TIFF".(for Web, just export and check the file - for Insight, see below)
-    - Export using the current schema:[:ref:`DownloadEDScreen018`] (Insight only)
-    - |C| the exported file,
-    - |C| Open the file
-    - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadEDScreen019`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadEDScreen020`]
-    - Export using an older schema:(Insight only)
-    - |C| the exported file
-    - |C| Open the file
-    - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadEDScreen021`] - Check from command line using tiffinfo
-    - Re-Import the exported files
+    - Export the image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 
+
+      - |C| the result
+
+    - Export the image as OME-TIFF [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`]
+      - for Web, just export and check the file - for Insight, see below
+      - Export using the current schema:[:ref:`DownloadEDScreen018`] (Insight only)
+        - |C| the exported file,
+        - |C| Open the file
+        - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadEDScreen019`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadEDScreen020`]
+
+      - Export using an older schema:(Insight only)
+        - |C| the exported file
+        - |C| Open the file
+        - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadEDScreen021`] - Check from command line using tiffinfo
+      - Re-Import the exported files
 
 	.. _DownloadEDScreen001:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
