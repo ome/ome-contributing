@@ -23,7 +23,7 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
     - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`].
 
-    - Download the metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadEDScreen006`]
+    - Download the metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadEDScreen007b`]
 
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
@@ -37,8 +37,8 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
     - Go to the right-hand panel General tab,
 
-         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010`]
-         - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadEDScreen010`]
+         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010a`]
+         - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadEDScreen010b`]
          - in Web click on the arrow in General tab [:ref:`DownloadEDScreen011`]
          - |C| that the image has correctly been downloaded [:ref:`DownloadEDScreen012`]
          - Re-import the image.(import in Insight, but check in Web as well)
@@ -47,14 +47,14 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
     - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
 
          - Select the download option on the right-hand side
-         - Download the image - a zip will be created 
-         - |C| that the image has been downloaded correctly [:ref:`DownloadEDScreen012`]
+         - Download the image - a zip will be created [:ref:`DownloadEDScreen013b`]
+         - |C| that the image has been downloaded correctly [:ref:`DownloadEDScreen013c`]
          - Re-import the image.(import in Insight, but check in Web as well)
-         - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`].
+         - Compare the image originally imported and the re-imported image (check also the metadata).
 
     - Now Select an image which had the "Archive" option off at import. If not sure, re-import an image with the "Archive" option off.
-         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010`]
-         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen010`] nor Web (menu item missing) [:ref:`DownloadEDScreen010`]
+         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadEDScreen013d`]
+         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen013e`] nor Web (menu item missing) [:ref:`DownloadEDScreen013f`]
 
 
 #.  FS-Download/Export images (perform on FS server with FS-data-only database)
@@ -62,13 +62,13 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
     - FS-Single image
 
          - Import an image
-         - Select the download option on the right-hand side [:ref:`DownloadEDScreen010`][:ref:`FSDownloadEDScreen011`]
+         - Select the download option on the right-hand side [:ref:`DownloadEDScreen010b`, :ref:`FSDownloadEDScreen011`]
          - Download the image
          - |C| that the image has been correctly downloaded [:ref:`DownloadEDScreen012`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`].
 
-    - FS-multi-image - repeat the "FS-Sinle image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`).
+    - FS-multi-image - repeat the "FS-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`).
 
 
 
@@ -86,7 +86,7 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
       - |C| the result
 
-    - Export the image as OME-TIFF [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`]
+    - Export the image as OME-TIFF [:ref:`DownloadEDScreen017b`, :ref:`DownloadEDScreen017c`]
       - for Web, just export and check the file - for Insight, see below
       - Export using the current schema:[:ref:`DownloadEDScreen018`] (Insight only)
         - |C| the exported file,
