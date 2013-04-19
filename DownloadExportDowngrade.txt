@@ -10,7 +10,7 @@ Download/Export/Downgrade
 
 Note: if several images have to be downloaded a zip will be created (Web and Insight) - this might take couple of seconds with no warning.
 
-#.  Download non-image files (both FS and non-FS):
+**Section 1: Download non-image files (both FS and non-FS)**
 
     - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
 
@@ -28,7 +28,7 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
 
-#.  non-FS-Download/Export images: 
+**Section 2: non-FS-Download/Export images** 
  
 
     - Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
@@ -57,7 +57,7 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
          - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen013e`] nor Web (menu item missing) [:ref:`DownloadEDScreen013f`]
 
 
-#.  FS-Download/Export images (perform on FS server with FS-data-only database)
+**Section 3: FS-Download/Export images (perform on FS server with FS-data-only database)**
 
     - FS-Single image
 
@@ -72,14 +72,14 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
 
 
-#.  Mixed FS & non-FS Download/Export images (this is to be performed on FS server with a database consisting of non-FS as well as FS images)
+**Section 4: Mixed FS & non-FS Download/Export images (this is to be performed on FS server with a database consisting of non-FS as well as FS images)**
 
          - Choosing images imported using non-FS and skipping importing, go through the "non-FS-Download/Export images:" step
          - Go through the "FS-Download/Export images" step
 
 
 
-#.  Downgrade:
+**Section 5: Downgrade**
 
     - Select an image and go to the right-hand panel.
     - Export the image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 
