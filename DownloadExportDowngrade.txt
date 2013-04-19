@@ -21,9 +21,9 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
     - Download the Companion file [:ref:`DownloadEDScreen003`][:ref:`DownloadEDScreen004`] - open downloaded file in text editor,
     - |C| that the size is not zero.[:ref:`DownloadEDScreen005`]
 
-    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Acquisition tab) [:ref:`DownloadEDScreen006`][:ref:`DownloadEDScreen007`].
+    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Web only - Acquisition tab) [:ref:`DownloadEDScreen007`].
 
-    - Download the metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadEDScreen007b`]
+    - Download the original metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadEDScreen007b`].
 
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
@@ -273,27 +273,6 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _DownloadEDScreen006:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/006.png
-	   :align: center
-
-	   DownloadEDScreen006: 
-
-
 	|
 	|
 	|
