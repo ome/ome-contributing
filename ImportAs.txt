@@ -15,7 +15,7 @@ NB: Only Administrators can import data for other users. When importing the data
 #. Read the :ref:`Table of permissions-users <Table-of-permissions-users>`. You will pick or you have been assigned to 3 users from one group.:
  
    - an administrator (e.g. user-6)
-   - a user which canNot Link (NL) - referred to as user-NL from here
+   - a user which CANNOT Link ("No Link" = NL) - referred to as user-NL from here
    - a user which Can Link (CL) - referred to as user-CL from here
 
 
