@@ -1,5 +1,10 @@
+.. contents::
+   :depth: 2
+
+
+##############################################
 Download/Export/Downgrade
-==========================
+##############################################
 
 
 
@@ -10,7 +15,12 @@ Download/Export/Downgrade
 
 Note: if several images have to be downloaded a zip will be created (Web and Insight) - this might take couple of seconds with no warning.
 
-**Section 1: Download non-image files (both FS and non-FS)**
+
+
+Download non-image files (both FS and non-FS)
+============================================================
+
+**To test in**: Web, Insight
 
     - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
 
@@ -28,8 +38,10 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
 
-**Section 2: non-FS-Download/Export images** 
- 
+non-FS-Download/Export images
+============================================================
+
+**To test in**: Web, Insight
 
     - Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
 
@@ -57,7 +69,10 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
          - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen013e`] nor Web (menu item missing) [:ref:`DownloadEDScreen013f`]
 
 
-**Section 3: FS-Download/Export images (perform on FS server with FS-data-only database)**
+FS-Download/Export images (perform on FS server with FS-data-only database)
+========================================================================================================================
+
+**To test in**: Web, Insight
 
     - FS-Single image
 
@@ -72,14 +87,20 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
 
 
-**Section 4: Mixed FS & non-FS Download/Export images (this is to be performed on FS server with a database consisting of non-FS as well as FS images)**
+Mixed FS & non-FS Download/Export images (this is to be performed on FS server with a database consisting of non-FS as well as FS images)
+=================================================================================================================================================
 
-         - Choosing images imported using non-FS and skipping importing, go through the "non-FS-Download/Export images:" step
-         - Go through the "FS-Download/Export images" step
+**To test in**: Web, Insight
+
+         - Choosing images imported using non-FS and skipping importing, go through the "18.2 non-FS-Download/Export images:" step
+         - Go through the "18.3 FS-Download/Export images" step
 
 
 
-**Section 5: Downgrade**
+Downgrade
+============================================================
+
+**To test in**: Web, Insight
 
     - Select an image and go to the right-hand panel.
     - Export the image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 

@@ -8,8 +8,8 @@ Testing scenarios
 
 
 .. toctree::
-   :maxdepth: 1
-   :numbered: 1
+   :maxdepth: 2
+   :numbered: 2
 
 
    TablePermissionsUsers
