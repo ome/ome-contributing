@@ -42,6 +42,7 @@ Testing scenarios
    FSROIInsight
    FSViewBigImage
    FSViewImage
+   ImportAs
    ImportCLI
    ImportDropBox
    ImporterStandalone
