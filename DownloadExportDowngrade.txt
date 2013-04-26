@@ -37,6 +37,8 @@ Download non-image files (both FS and non-FS)
 
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
+    - Download the companion files as well as original metadata both into your home directory as well as to your Desktop.
+
 
 non-FS-Download/Export images
 ============================================================
@@ -52,6 +54,7 @@ non-FS-Download/Export images
          - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010a`]
          - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadEDScreen010b`]
          - in Web click on the arrow in General tab [:ref:`DownloadEDScreen011`]
+         - Download both into your home directory as well as to your Desktop.
          - |C| that the image has correctly been downloaded [:ref:`DownloadEDScreen012`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`]
@@ -60,9 +63,11 @@ non-FS-Download/Export images
 
          - Select the download option on the right-hand side
          - Download the image - a zip will be created [:ref:`DownloadEDScreen013b`]
+         - Download both into your home directory as well as to your Desktop.
          - |C| that the image has been downloaded correctly [:ref:`DownloadEDScreen013c`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata).
+
 
     - Now Select an image which had the "Archive" option off at import. If not sure, re-import an image with the "Archive" option off.
          - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadEDScreen013d`]
@@ -78,7 +83,7 @@ FS-Download/Export images (perform on FS server with FS-data-only database)
 
          - Import an image
          - Select the download option on the right-hand side [:ref:`DownloadEDScreen010b`, :ref:`FSDownloadEDScreen011`]
-         - Download the image
+         - Download the image both into your home directory as well as to your Desktop.
          - |C| that the image has been correctly downloaded [:ref:`DownloadEDScreen012`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`].
@@ -101,6 +106,8 @@ Downgrade
 ============================================================
 
 **To test in**: Web, Insight
+
+When performing the following steps, export both into your home directory as well as to your Desktop.
 
     - Select an image and go to the right-hand panel.
     - Export the image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 
