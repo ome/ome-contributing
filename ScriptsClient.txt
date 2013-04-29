@@ -48,7 +48,7 @@ Scripts Client
 #. Select an image, create a rectangular ROI and repeat point 8. running Movie ROI Figure script from the Figure Scripts submenu
 
 
-#. Go to the right-hand pane in Insight, General tab and run the following publishing options scripts [:ref:`ScriptClientScreenN002`]
+#. Go to the right-hand pane in Insight and Web, General tab and run the following publishing options scripts [:ref:`ScriptClientScreenN002`, :ref:`ScriptClientScreen002b`]
 
    - Split View Figure
 
@@ -145,6 +145,37 @@ Scripts Client
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ScriptClientScreen002b:
+.. figure:: /images/testing_scenarios/ScriptsClient/002b.png
+   :align: center
+
+   ScriptClientScreen002b:
+
+
 |
 |
 |

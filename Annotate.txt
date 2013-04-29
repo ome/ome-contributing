@@ -17,6 +17,8 @@ Annotate
 
    - Tags (select the object(s) and right-click as well as use "+" sign in right-hand pane)
 
+#. Create a file of size 0 and add it as an attachment to P/D/I/S/P/PR.
+
 #. Repeat step 1., selecting each time more than 2 objects for annotation at one go [:ref:`AnnotateMScreen001`].
 
    - |C| that each of the selected object has been annotated, and you still see the annotation when selecting them one-by-one
