@@ -19,7 +19,7 @@ Testing scenarios
    BigImageUpgradeTestingServer
    BrowseFilterPreview
    BulkAnnotations
-   CheckFilePathFS
+   CheckFilePath
    ClientServerCompatibility
    CommandLineInterfaceTesting
    ConnectionErrorHandling

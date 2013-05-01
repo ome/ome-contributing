@@ -11,16 +11,21 @@ Check Filepath (FS)
 
 #. Go to the server and find the file according to the given filepath.
 
+
    - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:download:`Path example </downloads/check_path.txt>`].
    - |C| that the path in the clients and the filepath on the server match 
 
 #. Repeat steps 1 and 2 with multi-image file, like `test_images_good/lei/050118.lei`.(images 004in, 004w)
 
+
+
 #. For the mixed FS & non-FS database:
 
    - Import an image in FS and do steps 1, 2 and 3.
    - Click on a non-FS image.
-         - |C| that you cannot see the icon described in step 1
+   - |C| that you cannot see the icon described in step 1
+
+
 
 	|
 	|

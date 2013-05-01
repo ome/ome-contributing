@@ -3,9 +3,9 @@ FS Screen/Plate/Well
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
-**Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
+``Purpose``- check a plate/screen (with multiple Fields per well) import and viewing.
 
 .. only:: html
 
@@ -20,58 +20,28 @@ FS Screen/Plate/Well
 
 #. Double-click on Plate or Plate Run.
 
-   - |C| Both actions should display in the central panel.[:ref:`FSspwscreen002`][:ref:`FSspwscreen003`]
+   - Both actions should display in the central panel [:ref:`FSspwscreen002`, :ref:`FSspwscreen003`].
 
-#. Double-click on a well/field to open viewer [:ref:`FSspwscreen004`][:ref:`FSspwscreen005`]
+#. Double-click on a well/field to open viewer [:ref:`FSspwscreen004`, :ref:`FSspwscreen005`].
 
-#. Select a new Field in the dropdown menu above the central panel [:ref:`FSspwscreen006`]
+#. Select a new Field in the dropdown menu above the central panel [:ref:`FSspwscreen006`].
 
-   - |C| All thumbnails should be updated.
+   - All thumbnails should be updated.
 
-#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`FSspwscreen007`]
+#. Toggle on and off the icon allowing you to magnify a thumbnail while mousing over it [:ref:`FSspwscreen007`] (Insight only).
 
-#. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:ref:`FSspwscreen008`] (Insight only)
+#. Open the view of all Fields - icon to the left of field choice menu, above central panel [:ref:`FSspwscreen008`] (Insight only).
 
-   - Select "Spatial" view [:ref:`FSspwscreen009`][:ref:`FSspwscreen010`]
+   - Select "Spatial" view [:ref:`FSspwscreen009`][:ref:`FSspwscreen010`].
    - |C| that the spatial relation of the fields is displayed properly.
-   - Select "As a row" view [:ref:`FSspwscreen011`]
+   - Select "As a row" view [:ref:`FSspwscreen011`].
 
 
 	.. _FSspwscreen001:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
 	   :align: center
 
-	   FSspwscreen001: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen001 
 
 
 	.. _FSspwscreen002:
@@ -79,37 +49,7 @@ FS Screen/Plate/Well
 	   :align: center
 	   :width: 100%
 
-	   FSspwscreen002:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen002
 
 
 	.. _FSspwscreen003:
@@ -120,183 +60,33 @@ FS Screen/Plate/Well
 	   FSspwscreen003
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSspwscreen004:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/004.png
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/004pub.png
 	   :align: center
 	   :width: 100%
 
 	   FSspwscreen004
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSspwscreen005:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/005.png
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/005pub.png
 	   :align: center
 
 	   FSspwscreen005
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
 
 	.. _FSspwscreen006:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
 	   :align: center
 
-	   FSspwscreen006: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen006 
 
 
 	.. _FSspwscreen007:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
 	   :align: center
 
-	   FSspwscreen007:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen007
 
 
 	.. _FSspwscreen008:
@@ -306,143 +96,22 @@ FS Screen/Plate/Well
 	   FSspwscreen008
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSspwscreen009:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
 	   :align: center
 
-	   FSspwscreen009: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen009 
 
 
 	.. _FSspwscreen010:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
 	   :align: center
 
-	   FSspwscreen010:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSspwscreen010
 
 
 	.. _FSspwscreen011:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/011.png
+	.. figure:: /images/testing_scenarios/ScreenPlateWell/011pub.png
 	   :align: center
 
 	   FSspwscreen011
-	
-	
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-

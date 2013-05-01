@@ -1,11 +1,9 @@
 FS View Big Image
 ==================
 
+``Test in``: Web, Insight
 
-
-**To test in**: Web, Insight
-
-**Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
+``Purpose``- check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
 
 .. only:: html
 
@@ -17,251 +15,52 @@ FS View Big Image
       **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
 
 
-#. Open a large image
+#. Open a large image.
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`][:ref:`FSViewBigScreen003`]
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`FSViewBigScreen001`][:ref:`FSViewBigScreen002`].
+   - Move the red square in the bird's eye view.
+   - Pan.
+   - |C| the tile loading.
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or mousewheel (Web) [:ref:`FSViewBigScreen005`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBigScreen004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBigScreen005`].
 
-   - |C| tile loading
+   - |C| the tile loading.
 
-#. Modify rendering settings [:ref:`FSViewBigScreen006`]
-
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-.. _FSViewBigScreen001:
-.. figure:: /images/testing_scenarios/ViewBigImage/001.png
-   :align: center
-   :width: 100%
-
-   FSViewBigScreen001: 
+#. Modify rendering settings [:ref:`FSViewBigScreen006`].
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+	.. _FSViewBigScreen001:
+	.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
+	   :align: center
+	   :width: 100%
+
+	   FSViewBigScreen001 
 
 
-.. _FSViewBigScreen002:
-.. figure:: /images/testing_scenarios/ViewBigImage/002.png
-   :align: center
+	.. _FSViewBigScreen002:
+	.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
+	   :align: center
 
-   FSViewBigScreen002:
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+	   FSViewBigScreen002
 
 
-.. _FSViewBigScreen003:
-.. figure:: /images/testing_scenarios/ViewBigImage/003.png
-   :align: center
+	.. _FSViewBigScreen004:
+	.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+	   :align: center
 
-   FSViewBigScreen003
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+	   FSViewBigScreen004
 
 
-.. _FSViewBigScreen004:
-.. figure:: /images/testing_scenarios/ViewBigImage/004.png
-   :align: center
+	.. _FSViewBigScreen005:
+	.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+	   :align: center
 
-   FSViewBigScreen004
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+	   FSViewBigScreen005
 
 
-.. _FSViewBigScreen005:
-.. figure:: /images/testing_scenarios/ViewBigImage/005.png
-   :align: center
+	.. _FSViewBigScreen006:
+	.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
+	   :align: center
+	   :width: 100%
 
-   FSViewBigScreen005
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _FSViewBigScreen006:
-.. figure:: /images/testing_scenarios/ViewBigImage/006.png
-   :align: center
-   :width: 100%
-
-   FSViewBigScreen006: 
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
+	   FSViewBigScreen006

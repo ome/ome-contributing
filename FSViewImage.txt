@@ -1,11 +1,11 @@
-FS: View Image
+FS View Image
 ===============
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
-**Purpose of the test** is to test the View feature on "small" images important for FS demo and concentrate on Projection and performance**
+``Purpose``- view "small" images and concentrate on projection and performance.
 
 .. only:: html
 
@@ -19,21 +19,22 @@ FS: View Image
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
-#. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
+#. Go to the split-view (=multi-channel in Web). Turn channels on/off, use the z and t-sliders.
 
 #. Toggle back between views.
 
-#. Turn on/off color/greyscale
+#. Turn on/off color/grayscale
 
 #. Modify the rendering settings.
 
-#. Projection tabs [a tab in the Full Viewer next to Image tab]:[:ref:`FSViewScreen002`] (Insight only) - in Web, click on "Max Intensity" instead
+#. Click on Projection tab if enabled:[:ref:`FSViewScreen002`]  - in Web, click on "Max Intensity" instead
 
-   - Preview the projection [:ref:`FSViewScreen002`]
-   - Change the projection range.
-   - Change the projection type [Maximum or Mean - double arrow menu next to "Intensity" [:ref:`FSViewScreen003`].
-   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`]
-   - |C| - view the result [:ref:`FSViewScreen006`]
+   - Preview the projection [:ref:`FSViewScreen002`] (Insight only)
+   - Change the projection range (Insight only).
+   - Change the projection type (Maximum or Mean - double arrow menu
+     next to "Intensity") [:ref:`FSViewScreen003`] (Insight only).
+   - Project the image.[:ref:`FSViewScreen004`][:ref:`FSViewScreen005`] (Insight only)
+   - |C| the result [:ref:`FSViewScreen006`] (Insight; Web - the result will appear in the full viewer window after click on "Max Intensity")
 
 #. Save as (Insight only):
 
@@ -43,84 +44,11 @@ FS: View Image
    - |C| the saved files.
 
 
-
-
-
-
-
-	.. _FSViewScreen001:
-	.. figure:: /images/testing_scenarios/ViewImage/001.png
-	   :align: center
-	   :width: 100%
-
-	   FSViewScreen001: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSViewScreen002:
 	.. figure:: /images/testing_scenarios/ViewImage/002.png
 	   :align: center
 
-	   FSViewScreen002:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSViewScreen002
 
 
 	.. _FSViewScreen003:
@@ -130,71 +58,11 @@ FS: View Image
 	   FSViewScreen003
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSViewScreen004:
 	.. figure:: /images/testing_scenarios/ViewImage/004.png
 	   :align: center
 
 	   FSViewScreen004
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
 
 	.. _FSViewScreen005:
@@ -204,109 +72,19 @@ FS: View Image
 	   FSViewScreen005
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSViewScreen006:
 	.. figure:: /images/testing_scenarios/ViewImage/006.png
 	   :align: center
 	 
 
-	   FSViewScreen006: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSViewScreen006 
 
 
 	.. _FSViewScreen007:
 	.. figure:: /images/testing_scenarios/ViewImage/007.png
 	   :align: center
 
-	   FSViewScreen007:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSViewScreen007
 
 
 	.. _FSViewScreen008:
@@ -315,35 +93,3 @@ FS: View Image
 	 
 
 	   FSViewScreen008
-
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-

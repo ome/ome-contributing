@@ -3,9 +3,9 @@ FS Render
 
 
 
-**To test in**: Web, Insight
+``Test in``: Web, Insight
 
-**Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional for the FS demo.
+``Purpose``- make sure rendering is smooth and changes are applied consistently to all visualizations of the images and all the options of rendering are functional.
 
 .. only:: html
 
@@ -18,31 +18,31 @@ FS Render
       **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
 
 
-#. Copy settings from image [right-click on the thumbnail in central pane].[:ref:`FSRenderScreen001`] (Insight only)
+#. Copy settings from image (right-click on the thumbnail in central pane - Insight only) [:ref:`FSRenderScreen001`].
 
-#. Select a collection of images and paste settings.[:ref:`FSRenderScreen002`] (Insight only)
+#. Select a collection of images and paste settings [:ref:`FSRenderScreen002`] (Insight only).
 
-   - |C| Make sure that the thumbnails in the main pane are updated.
+   - |C| that the thumbnails in the central pane are updated.
 
-#. Reset default settings.[:ref:`FSRenderScreen003`] (Web - in Full Viewer only, for one image)
+#. Reset default settings [:ref:`FSRenderScreen003`] (Web - in Full Viewer only, for one image).
 
-   - |C| Make sure thumbnails main viewer are updated
+   - |C| that thumbnails in the central pane are updated.
 
-#. Set min/max settings. (Insight only)
+#. Set min/max settings (Insight only).
 
-   - |C| Make sure thumbnails main viewer are updated
+   - |C| that thumbnails in the central pane are updated.
 
-#. Set owner's settings. (Insight only)
+#. Set owner's settings (Insight only).
 
-   - |C| Make sure thumbnails main viewer are updated [:ref:`FSRenderScreen004`]
+   - |C| that thumbnails in the central pane are updated [:ref:`FSRenderScreen004`].
 
 #. If applicable (does not work for Big images):
 
    - Open an image belonging to another user.
-   - Modify the settings in the "Preview" pane on the right.[:ref:`FSRenderScreen005`] Save your own using the "Apply" icon [Insight]. or Save button (Web) [:ref:`FSRenderScreen007`]
-   - |C| Make sure thumbnails in central pane are updated
+   - Modify the settings in the "Preview" pane on the right [:ref:`FSRenderScreen005`]. Save your own using the "Apply" icon (Insight). or Save button (Web) [:ref:`FSRenderScreen007`].
+   - |C| that thumbnails in the central pane are updated.
 
-#. Repeat the steps 1 - 5. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`])
+#. Repeat the steps 1 - 5. with Big Images.
 
 
 
@@ -50,74 +50,14 @@ FS Render
 	.. figure:: /images/testing_scenarios/Render/001.png
 	   :align: center
 
-	   FSRenderScreen001: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSRenderScreen001 
 
 
 	.. _FSRenderScreen002:
 	.. figure:: /images/testing_scenarios/Render/002.png
 	   :align: center
 
-	   FSRenderScreen002:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSRenderScreen002
 
 
 	.. _FSRenderScreen003:
@@ -127,71 +67,11 @@ FS Render
 	   FSRenderScreen003
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen004:
 	.. figure:: /images/testing_scenarios/Render/004.png
 	   :align: center
 
 	   FSRenderScreen004
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
 
 
 	.. _FSRenderScreen005:
@@ -201,107 +81,15 @@ FS Render
 	   FSRenderScreen005
 
 
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _FSRenderScreen006:
 	.. figure:: /images/testing_scenarios/Render/006.png
 	   :align: center
 
-	   FSRenderScreen006: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	   FSRenderScreen006 
 
 
 	.. _FSRenderScreen007:
 	.. figure:: /images/testing_scenarios/Render/007.png
 	   :align: center
 
-	   FSRenderScreen007:
-	
-	
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
+	   FSRenderScreen007
