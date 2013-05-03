@@ -3,7 +3,7 @@ Import As
 
 
 
-**To test in**: Insight
+**To test in**: Insight and Web (Web - viewing the imported plates/images only)
 
 **Purpose of the test** is to check importing for other users.
 
@@ -67,8 +67,9 @@ NB: Only Administrators can import data for other users. When importing the data
    - Dataset at import stage and importing to it
    - Screen at import stage and importing a plate to it.
 
-#. Check the imported objects
+#. Check the imported objects.
 
+   - Start checking in Web first, then in Insight. View the data logged in as the user which did not import them and does not own them.
    - |C| that new P/D/S were created and the images/plates were imported as appropriate [:ref:`ImportAsScreen005`]
    - |C| that the ownership of the P/D/S and of the imported images/plates is as expected [:ref:`ImportAsScreen006`] 
 
