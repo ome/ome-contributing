@@ -11,12 +11,12 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 1: Work on your own data**
 
-#. Create new Project/Dataset/Screen* Create using right-click [:ref:`CreateScreen001`]
+#. Create new Project/Dataset/Screen* Create using right-click [:ref:`Create001`]
  
-   - Create using the icon [:ref:`CreateScreen002`, :ref:`CreateScreen003`, :ref:`CreateScreen004`]
-   - Create using the main menu (Insight only) [:ref:`CreateScreen005`]
+   - Create using the icon [:ref:`Create002`, :ref:`Create003`, :ref:`Create004`]
+   - Create using the main menu (Insight only) [:ref:`Create005`]
 
-#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`CreateScreen005`]
+#. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`Create005`]
 
 #. Select an image. Create New dataset from Selection (right-click - Insight only)
 
@@ -71,11 +71,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 |
 |
 
-.. _CreateScreen001:
+.. _Create001:
 .. figure:: /images/testing_scenarios/Create/001.png
    :align: center
 
-   CreateScreen001: 
+   Create001: 
 
 
 |
@@ -111,11 +111,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 
-.. _CreateScreen002:
+.. _Create002:
 .. figure:: /images/testing_scenarios/Create/002.png
    :align: center
 
-   CreateScreen002:
+   Create002:
 
 
 |
@@ -151,11 +151,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 
-.. _CreateScreen003:
+.. _Create003:
 .. figure:: /images/testing_scenarios/Create/003.png
    :align: center
 
-   CreateScreen003
+   Create003
 
 
 |
@@ -191,11 +191,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 
-.. _CreateScreen004:
+.. _Create004:
 .. figure:: /images/testing_scenarios/Create/004.png
    :align: center
 
-   CreateScreen004
+   Create004
 
 
 |
@@ -231,11 +231,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 
-.. _CreateScreen005:
+.. _Create005:
 .. figure:: /images/testing_scenarios/Create/005.png
    :align: center
 
-   CreateScreen005
+   Create005
 
 
 |

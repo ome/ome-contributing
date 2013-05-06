@@ -5,31 +5,31 @@ Admin: Group/User Create
 
 **Purpose of the test** is to check the creation of new groups/users functionality when logged in as administrator
 
-#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCrScreen001`]), 
+#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCr001`]), 
 
 #. Create new group 
 
-   - using the icon above the tree [:ref:`AdminGrUsCrScreen002`] (Insight only)
+   - using the icon above the tree [:ref:`AdminGrUsCr002`] (Insight only)
    - using the right-click (Insight only)
-   - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCrScreen003`][:ref:`AdminGrUsCrScreen004`]  
+   - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
    - create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
 
-#. Create new user [:ref:`AdminGrUsCrScreen005`][:ref:`AdminGrUsCrScreen006`][:ref:`AdminGrUsCrScreen007`]
+#. Create new user [:ref:`AdminGrUsCr005`][:ref:`AdminGrUsCr006`][:ref:`AdminGrUsCr007`]
 
    - tick/do not tick the Administrator box in the creation window
    - |C| that the new user is (or is not) an Administrator as appropriate
-   - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCrScreen008`]
+   - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
-   - add the new user to one or more existing groups [:ref:`AdminGrUsCrScreen009`]
+   - add the new user to one or more existing groups [:ref:`AdminGrUsCr009`]
    - |C| that the user has been added to the groups correctly
 
 
-	.. _AdminGrUsCrScreen001:
+	.. _AdminGrUsCr001:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/00Web.png
 	   :align: center
 
-	   AdminGrUsCrScreen001: 
+	   AdminGrUsCr001: 
 
 
 	|
@@ -62,11 +62,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen002:
+	.. _AdminGrUsCr002:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
 	   :align: center
 
-	   AdminGrUsCrScreen002:
+	   AdminGrUsCr002:
 
 
 	|
@@ -99,11 +99,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen003:
+	.. _AdminGrUsCr003:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Web.png
 	   :align: center
 
-	   AdminGrUsCrScreen003
+	   AdminGrUsCr003
 
 
 	|
@@ -136,11 +136,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen004:
+	.. _AdminGrUsCr004:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002Web.png
 	   :align: center
 
-	   AdminGrUsCrScreen004
+	   AdminGrUsCr004
 
 
 	|
@@ -173,11 +173,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen005:
+	.. _AdminGrUsCr005:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
 	   :align: center
 
-	   AdminGrUsCrScreen005
+	   AdminGrUsCr005
 
 
 	|
@@ -210,12 +210,12 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen006:
+	.. _AdminGrUsCr006:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/003Web.png
 	   :align: center
 	   :width: 100%
 
-	   AdminGrUsCrScreen006: 
+	   AdminGrUsCr006: 
 
 
 	|
@@ -248,11 +248,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen007:
+	.. _AdminGrUsCr007:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/004Web.png
 	   :align: center
 
-	   AdminGrUsCrScreen007:
+	   AdminGrUsCr007:
 
 
 	|
@@ -285,11 +285,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen008:
+	.. _AdminGrUsCr008:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/005Insight.png
 	   :align: center
 
-	   AdminGrUsCrScreen008
+	   AdminGrUsCr008
 
 
 	|
@@ -322,11 +322,11 @@ Admin: Group/User Create
 	|
 
 
-	.. _AdminGrUsCrScreen009:
+	.. _AdminGrUsCr009:
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/006Web.png
 	   :align: center
 
-	   AdminGrUsCrScreen009: 
+	   AdminGrUsCr009: 
 
 
 

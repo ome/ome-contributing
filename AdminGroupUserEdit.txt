@@ -7,7 +7,7 @@ Admin: Group/User Edit
 
 **Purpose of the test** is to check the Editing and changing of Group/User as administrator
 
-#. Edit group [:ref:`AdminGrUsEdScreen001`][:ref:`AdminGrUsEdScreen002`][:ref:`AdminGrUsEdScreen003`]
+#. Edit group [:ref:`AdminGrUsEd001`][:ref:`AdminGrUsEd002`][:ref:`AdminGrUsEd003`]
 
 #. Change name/description/permissions and Save
 
@@ -15,15 +15,15 @@ Admin: Group/User Edit
 
 #. Add and remove users (=members) and owners 
 
-   - using Edit group window (Web only) [:ref:`AdminGrUsEdScreen003`]
-   - using "Add existing users" from right-click menu (Insight only) [:ref:`AdminGrUsEdScreen004`]
+   - using Edit group window (Web only) [:ref:`AdminGrUsEd003`]
+   - using "Add existing users" from right-click menu (Insight only) [:ref:`AdminGrUsEd004`]
    - using Copy/Cut and Paste from main menu (Insight only)
    - using Copy/Cut and Paste via icons & right-click (Insight only)
    - using Drag & Drop (Insight only)
 
    - |C| the users have been added/removed to/from the groups
  
-#. Edit user [:ref:`AdminGrUsEdScreen005`][:ref:`AdminGrUsEdScreen006`][:ref:`AdminGrUsEdScreen007`]
+#. Edit user [:ref:`AdminGrUsEd005`][:ref:`AdminGrUsEd006`][:ref:`AdminGrUsEd007`]
 
    - change Login Name/Password/Status (Insight)
    - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
@@ -31,11 +31,11 @@ Admin: Group/User Edit
    - |C| the changes have been made appropriately
 
 
-	.. _AdminGrUsEdScreen001:
+	.. _AdminGrUsEd001:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/001Insight.png
 	   :align: center
 
-	   AdminGrUsEdScreen001: 
+	   AdminGrUsEd001: 
 
 
 	|
@@ -68,11 +68,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen002:
+	.. _AdminGrUsEd002:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
-	   AdminGrUsEdScreen002:
+	   AdminGrUsEd002:
 
 
 	|
@@ -105,11 +105,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen003:
+	.. _AdminGrUsEd003:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/003Web.png
 	   :align: center
 
-	   AdminGrUsEdScreen003
+	   AdminGrUsEd003
 
 
 	|
@@ -142,11 +142,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen004:
+	.. _AdminGrUsEd004:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/004Insight.png
 	   :align: center
 
-	   AdminGrUsEdScreen004
+	   AdminGrUsEd004
 
 
 	|
@@ -179,11 +179,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen005:
+	.. _AdminGrUsEd005:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/005Insight.png
 	   :align: center
 
-	   AdminGrUsEdScreen005
+	   AdminGrUsEd005
 
 
 	|
@@ -216,11 +216,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen006:
+	.. _AdminGrUsEd006:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
-	   AdminGrUsEdScreen006: 
+	   AdminGrUsEd006: 
 
 
 	|
@@ -253,11 +253,11 @@ Admin: Group/User Edit
 	|
 
 
-	.. _AdminGrUsEdScreen007:
+	.. _AdminGrUsEd007:
 	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/006Web.png
 	   :align: center
 
-	   AdminGrUsEdScreen007:
+	   AdminGrUsEd007:
 	
 	
 	|

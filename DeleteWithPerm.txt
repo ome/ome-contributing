@@ -17,10 +17,10 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 #. In the DataManager:
 
    - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`DeleteScreen001`][:ref:`DeleteScreen002`] (left-hand pane in Insight, right hand pane in Web)
-   - Delete tags [:ref:`DeleteScreen003`][:ref:`DeleteScreen004`] (left-hand pane)
+   - Delete attachments [:ref:`Delete001`][:ref:`Delete002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete tags [:ref:`Delete003`][:ref:`Delete004`] (left-hand pane)
 
-#. Delete P/D/I/Screen/Plate. [:ref:`DeleteScreen005`][:ref:`DeleteScreen006`][:ref:`DeleteScreen007`][:ref:`DeleteScreen008`]
+#. Delete P/D/I/Screen/Plate. [:ref:`Delete005`][:ref:`Delete006`][:ref:`Delete007`][:ref:`Delete008`]
 
 #. Import an image rich in metadata and delete it.
 
@@ -92,11 +92,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen001:
+.. _Delete001:
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center
 
-   DeleteScreen001 
+   Delete001 
 
 
 |
@@ -129,11 +129,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen002:
+.. _Delete002:
 .. figure:: /images/testing_scenarios/Delete/002.png
    :align: center
 
-   DeleteScreen002
+   Delete002
 
 
 |
@@ -166,11 +166,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen003:
+.. _Delete003:
 .. figure:: /images/testing_scenarios/Delete/003.png
    :align: center
 
-   DeleteScreen003
+   Delete003
 
 
 |
@@ -203,11 +203,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen004:
+.. _Delete004:
 .. figure:: /images/testing_scenarios/Delete/004.png
    :align: center
 
-   DeleteScreen004
+   Delete004
 
 
 |
@@ -240,11 +240,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen005:
+.. _Delete005:
 .. figure:: /images/testing_scenarios/Delete/005.png
    :align: center
 
-   DeleteScreen005
+   Delete005
 
 
 |
@@ -277,11 +277,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen006:
+.. _Delete006:
 .. figure:: /images/testing_scenarios/Delete/006.png
    :align: center
 
-   DeleteScreen006 
+   Delete006 
 
 
 |
@@ -314,11 +314,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen007:
+.. _Delete007:
 .. figure:: /images/testing_scenarios/Delete/007.png
    :align: center
 
-   DeleteScreen007
+   Delete007
 
 
 |
@@ -351,11 +351,11 @@ Group Administrator    Y        Y           Y
 |
 
 
-.. _DeleteScreen008:
+.. _Delete008:
 .. figure:: /images/testing_scenarios/Delete/008.png
    :align: center
 
-   DeleteScreen008
+   Delete008
 
 
 |

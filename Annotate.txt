@@ -9,7 +9,7 @@ Annotate
 
 #. Annotate different type of objects i.e. Projects/Datasets/Images/Screens/Plates/Plate Acquisitions (=Plate Run)
 
-   - Comments (right-hand pane [:ref:`AnnotateScreen001`])
+   - Comments (right-hand pane [:ref:`Annotate001`])
 
    - Rating (right-hand pane)
 
@@ -19,30 +19,30 @@ Annotate
 
 #. Create a file of size 0 and add it as an attachment to P/D/I/S/P/PR.
 
-#. Repeat step 1., selecting each time more than 2 objects for annotation at one go [:ref:`AnnotateMScreen001`].
+#. Repeat step 1., selecting each time more than 2 objects for annotation at one go [:ref:`AnnotateM001`].
 
    - |C| that each of the selected object has been annotated, and you still see the annotation when selecting them one-by-one
-   - |C| that when you select the annotated objects together with non-annotated objects, the annotation is still visible in right-hand pane [:ref:`AnnotateMScreen002`]
+   - |C| that when you select the annotated objects together with non-annotated objects, the annotation is still visible in right-hand pane [:ref:`AnnotateM002`]
    
 #. Select more than 2 objects and attach an existing tag. 
 
 #. Select again more than 2 objects, this time choose objects tagged in step 3. as well as untagged objects and try to add the tag from step 3
    
-   - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateMScreen007`,  :ref:`AnnotateMScreen008`]
+   - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateM007`,  :ref:`AnnotateM008`]
 
 #. Mouse over the annotation name (right-hand pane)
 
    - Selecting a SINGLE annotated object
 
-        - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`AnnotateScreen002`, :ref:`AnnotateScreen003`]
+        - |C| that the owner of the annotation is indicated, who annotated etc.[:ref:`Annotate002`, :ref:`Annotate003`]
 
    - Selecting 2 or more objects which you annotated yourself
 
-        - |C| that you can see the annotations [:ref:`AnnotateMScreen003`, :ref:`AnnotateMScreen004`]
+        - |C| that you can see the annotations [:ref:`AnnotateM003`, :ref:`AnnotateM004`]
 
    - Selecting 2 or more objects annotated by another user
 
-        - |C| that the link owner is indicated in brackets [:ref:`AnnotateMScreen005`, :ref:`AnnotateMScreen006`]
+        - |C| that the link owner is indicated in brackets [:ref:`AnnotateM005`, :ref:`AnnotateM006`]
 
 
 |
@@ -78,11 +78,11 @@ Annotate
 
 
 
-.. _AnnotateScreen001:
+.. _Annotate001:
 .. figure:: /images/testing_scenarios/Annotate/001.png
    :align: center
 
-   AnnotateScreen001: Comments in Insight
+   Annotate001: Comments in Insight
 
 |
 |
@@ -118,11 +118,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen001:
+.. _AnnotateM001:
 .. figure:: /images/testing_scenarios/Annotate/multiple001.png
    :align: center
 
-   AnnotateMScreen001
+   AnnotateM001
 
 |
 |
@@ -163,11 +163,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen002:
+.. _AnnotateM002:
 .. figure:: /images/testing_scenarios/Annotate/multiple002.png
    :align: center
 
-   AnnotateMScreen002
+   AnnotateM002
 
 |
 |
@@ -200,11 +200,11 @@ Annotate
 |
 |
 
-.. _AnnotateScreen002:
+.. _Annotate002:
 .. figure:: /images/testing_scenarios/Annotate/002.png
    :align: center
 
-   AnnotateScreen002: Check in Insight
+   Annotate002: Check in Insight
 
 
 |
@@ -241,11 +241,11 @@ Annotate
 
 
 
-.. _AnnotateScreen003:
+.. _Annotate003:
 .. figure:: /images/testing_scenarios/Annotate/003.png
    :align: center
 
-   AnnotateScreen003: Check in Web
+   Annotate003: Check in Web
 
 
 |
@@ -271,11 +271,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen003:
+.. _AnnotateM003:
 .. figure:: /images/testing_scenarios/Annotate/multiple003.png
    :align: center
 
-   AnnotateMScreen003
+   AnnotateM003
 
 |
 |
@@ -307,11 +307,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen004:
+.. _AnnotateM004:
 .. figure:: /images/testing_scenarios/Annotate/multiple004.png
    :align: center
 
-   AnnotateMScreen004
+   AnnotateM004
 
 |
 |
@@ -344,11 +344,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen005:
+.. _AnnotateM005:
 .. figure:: /images/testing_scenarios/Annotate/multiple005.png
    :align: center
 
-   AnnotateMScreen005
+   AnnotateM005
 
 |
 |
@@ -378,11 +378,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen006:
+.. _AnnotateM006:
 .. figure:: /images/testing_scenarios/Annotate/multiple006.png
    :align: center
 
-   AnnotateMScreen006
+   AnnotateM006
 
 |
 |
@@ -412,11 +412,11 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen007:
+.. _AnnotateM007:
 .. figure:: /images/testing_scenarios/Annotate/multiple007.png
    :align: center
 
-   AnnotateMScreen007
+   AnnotateM007
 
 |
 |
@@ -446,9 +446,9 @@ Annotate
 |
 |
 
-.. _AnnotateMScreen008:
+.. _AnnotateM008:
 .. figure:: /images/testing_scenarios/Annotate/multiple008.png
    :align: center
 
-   AnnotateMScreen008
+   AnnotateM008
 

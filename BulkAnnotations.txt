@@ -42,7 +42,7 @@ Bulk Annotations
 
       `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_metadata.py -s howe.openmicroscopy.org.uk -u user-1 Plate:101 ~/Desktop/test_plate.csv`
 
-   - |C| that you can see following console output as a result of steps 6 and 7 [:ref:`BulkAnnotScreen001Nout`]. 
+   - |C| that you can see following console output as a result of steps 6 and 7 [:ref:`BulkAnnot001Nout`]. 
 
 #. Open or go to the previously opened Insight UI
 
@@ -54,7 +54,7 @@ Bulk Annotations
 
 
 
-   - |C| that the metadata is visible in the bottom left hand corner of the Insight tree view to the right of the Plate grid [:ref:`BulkAnnotScreen001`]
+   - |C| that the metadata is visible in the bottom left hand corner of the Insight tree view to the right of the Plate grid [:ref:`BulkAnnot001`]
    - |C| "Well" metadata is different for each selected Well
    - |C| "Well Name" is correct for the selected Well
    - |C| that the metadata match with the `test_plate.csv` (open the `.csv` in Excel)
@@ -63,7 +63,7 @@ Bulk Annotations
 
 
 
-   - |C| that the metadata is visible in the bottom left hand corner of the Insight tree view to the right of the Plate grid [:ref:`BulkAnnotScreen001`]
+   - |C| that the metadata is visible in the bottom left hand corner of the Insight tree view to the right of the Plate grid [:ref:`BulkAnnot001`]
    - |C| the metadata is different for each selected Well
    - |C| "Well Name" is correct for the selected Well
    - |C| "Plate" is the same for each selected Well and matches the Plate's ID
@@ -72,9 +72,9 @@ Bulk Annotations
 
 
 
-#. Using Web client, open the Plate without Screen, open an image in Full Viewer and click onto the "Image Information" link [:ref:`BulkAnnotScreen004NWeb`]  
+#. Using Web client, open the Plate without Screen, open an image in Full Viewer and click onto the "Image Information" link [:ref:`BulkAnnot004NWeb`]  
 
-   - |C| that you can see the metadata annotations [:ref:`BulkAnnotScreen002NWeb`, :ref:`BulkAnnotScreen005NWeb`]
+   - |C| that you can see the metadata annotations [:ref:`BulkAnnot002NWeb`, :ref:`BulkAnnot005NWeb`]
    - |C| that the annotations in Web match the ones displayed in Insight and in the test_plate.csv.
 
 
@@ -109,11 +109,11 @@ Bulk Annotations
 |
 
 
-.. _BulkAnnotScreen001:
+.. _BulkAnnot001:
 .. figure:: /images/testing_scenarios/BulkAnnotations/001.png
    :align: center
 
-   BulkAnnotScreen001: 
+   BulkAnnot001: 
 
 
 |
@@ -146,7 +146,7 @@ Bulk Annotations
 |
 
 
-.. _BulkAnnotScreen001Nout:
+.. _BulkAnnot001Nout:
 .. figure:: /images/testing_scenarios/BulkAnnotations/001Nout.png
    :align: center
 
@@ -185,11 +185,11 @@ Bulk Annotations
 |
 
 
-.. _BulkAnnotScreen004NWeb:
+.. _BulkAnnot004NWeb:
 .. figure:: /images/testing_scenarios/BulkAnnotations/004NWeb.png
    :align: center
 
-   BulkAnnotScreen001NWeb: 
+   BulkAnnot001NWeb: 
 
 
 |
@@ -225,11 +225,11 @@ Bulk Annotations
 |
 
 
-.. _BulkAnnotScreen002NWeb:
+.. _BulkAnnot002NWeb:
 .. figure:: /images/testing_scenarios/BulkAnnotations/002NWeb.png
    :align: center
 
-   BulkAnnotScreen002NWeb: 
+   BulkAnnot002NWeb: 
 
 
 |
@@ -262,11 +262,11 @@ Bulk Annotations
 |
 
 
-.. _BulkAnnotScreen005NWeb:
+.. _BulkAnnot005NWeb:
 .. figure:: /images/testing_scenarios/BulkAnnotations/005NWeb.png
    :align: center
 
-   BulkAnnotScreen005NWeb: 
+   BulkAnnot005NWeb: 
 
 
 |

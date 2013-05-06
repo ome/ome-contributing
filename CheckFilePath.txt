@@ -7,7 +7,7 @@ Check Filepath (FS)
 
 **Purpose of the test** is to check the filepath to the image which is shown in clients in FS
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`CheckFilePathScreen002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePathScreen003w`](images 003in, 003w)
+#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`CheckFilePath002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePath003w`](images 003in, 003w)
 
 #. Go to the server and find the file according to the given filepath.
 
@@ -57,11 +57,11 @@ Check Filepath (FS)
 	|
 
 
-	.. _CheckFilePathScreen002w:
+	.. _CheckFilePath002w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
 	   :align: center
 
-	   CheckFilePathScreen002Web
+	   CheckFilePath002Web
 
 	|
 	|
@@ -121,11 +121,11 @@ Check Filepath (FS)
 	|
 
 
-	.. _CheckFilePathScreen003w:
+	.. _CheckFilePath003w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
-	   CheckFilePathScreen003Web
+	   CheckFilePath003Web
 
 	|
 	|

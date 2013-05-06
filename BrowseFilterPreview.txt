@@ -9,17 +9,17 @@ Browse/Filter/Preview
 
 #. Browse dataset/ Plate.
 
-#. Try to filter by rating/tags, date. [:ref:`BrowseFPScreen001`]
+#. Try to filter by rating/tags, date. [:ref:`BrowseFP001`]
 
    -  Load tags to filter by
    -  Repeat the step 2. under the tags section on the left hand panel
 
-#. Switch between list and thumbnail view.[:ref:`BrowseFPScreen002`]
+#. Switch between list and thumbnail view.[:ref:`BrowseFP002`]
 
 #. If applicable
 
    - Sort the data by name
-   - |C| that right-click menu options are the same in Browser and DataManager (Insight only). [:ref:`BrowseFPScreen003`, :ref:`BrowseFPScreen004`]
+   - |C| that right-click menu options are the same in Browser and DataManager (Insight only). [:ref:`BrowseFP003`, :ref:`BrowseFP004`]
    - Create new dataset from selection
    - Double-click on image to open viewer.
 
@@ -27,7 +27,7 @@ Browse/Filter/Preview
 
 #. |C| that DataManager and right-hand panel are correctly synchronized and updated.
 
-#. In Preview (right-hand of the window, "Preview" tab) [:ref:`BrowseFPScreen005`]: if applicable
+#. In Preview (right-hand of the window, "Preview" tab) [:ref:`BrowseFP005`]: if applicable
 
    - Modify the settings of the selected image.
    - Apply the settings to the selection.
@@ -66,11 +66,11 @@ Browse/Filter/Preview
 
 
 
-.. _BrowseFPScreen001:
+.. _BrowseFP001:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/001.png
    :align: center
 
-   BrowseFPScreen001: 
+   BrowseFP001: 
 
 
 |
@@ -107,11 +107,11 @@ Browse/Filter/Preview
 
 
 
-.. _BrowseFPScreen002:
+.. _BrowseFP002:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/002.png
    :align: center
 
-   BrowseFPScreen002:
+   BrowseFP002:
 
 
 |
@@ -147,11 +147,11 @@ Browse/Filter/Preview
 
 
 
-.. _BrowseFPScreen003:
+.. _BrowseFP003:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/003.png
    :align: center
 
-   BrowseFPScreen003
+   BrowseFP003
 
 
 |
@@ -187,11 +187,11 @@ Browse/Filter/Preview
 
 
 
-.. _BrowseFPScreen004:
+.. _BrowseFP004:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/004.png
    :align: center
 
-   BrowseFPScreen004
+   BrowseFP004
 
 
 |
@@ -227,11 +227,11 @@ Browse/Filter/Preview
 
 
 
-.. _BrowseFPScreen005:
+.. _BrowseFP005:
 .. figure:: /images/testing_scenarios/BrowseFilterPreview/005.png
    :align: center
 
-   BrowseFPScreen005
+   BrowseFP005
 
 
 |

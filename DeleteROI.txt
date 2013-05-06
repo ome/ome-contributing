@@ -8,7 +8,7 @@ Delete ROI
 
 **Purpose of the test** is to test ROI deleting as well as ROI tools behaviour when the underlying image is being deleted
 
-#. Add ROI to an image - use full viewer [:ref:`DeleteROIScreen001`][:ref:`DeleteROIScreen002`]
+#. Add ROI to an image - use full viewer [:ref:`DeleteROI001`][:ref:`DeleteROI002`]
 
    - Delete a shape and save the ROIs.
    - Use the Red Cross Icon to delete all ROIs on the image
@@ -22,11 +22,11 @@ Delete ROI
    - |C| that the Measurement Tool window disappears.
 
 
-.. _DeleteROIScreen001:
+.. _DeleteROI001:
 .. figure:: /images/testing_scenarios/DeleteROI/001.png
    :align: center
 
-   DeleteROIScreen001: 
+   DeleteROI001: 
 
 
 |
@@ -59,11 +59,11 @@ Delete ROI
 |
 
 
-.. _DeleteROIScreen002:
+.. _DeleteROI002:
 .. figure:: /images/testing_scenarios/DeleteROI/002.png
    :align: center
 
-   DeleteROIScreen002:
+   DeleteROI002:
 
 
 |
