@@ -9,13 +9,13 @@ View Big Image
 
 #. Open a large image
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBigScreen001`][:ref:`ViewBigScreen002`]
+   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBig001`][:ref:`ViewBig002`]
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBigScreen004`] or mousewheel (Web) [:ref:`ViewBigScreen005`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBig004`] or mousewheel (Web) [:ref:`ViewBig005`]
 
    - |C| tile loading
 
-#. Modify rendering settings [:ref:`ViewBigScreen006`]
+#. Modify rendering settings [:ref:`ViewBig006`]
 
 
 
@@ -32,12 +32,12 @@ View Big Image
 |
 |
 
-.. _ViewBigScreen001:
+.. _ViewBig001:
 .. figure:: /images/testing_scenarios/ViewBigImage/001.png
    :align: center
    :width: 100%
 
-   ViewBigScreen001: 
+   ViewBig001: 
 
 
 |
@@ -70,11 +70,11 @@ View Big Image
 |
 
 
-.. _ViewBigScreen002:
+.. _ViewBig002:
 .. figure:: /images/testing_scenarios/ViewBigImage/002.png
    :align: center
 
-   ViewBigScreen002:
+   ViewBig002:
 
 
 |
@@ -120,11 +120,11 @@ View Big Image
 |
 
 
-.. _ViewBigScreen004:
+.. _ViewBig004:
 .. figure:: /images/testing_scenarios/ViewBigImage/004.png
    :align: center
 
-   ViewBigScreen004
+   ViewBig004
 
 
 |
@@ -157,11 +157,11 @@ View Big Image
 |
 
 
-.. _ViewBigScreen005:
+.. _ViewBig005:
 .. figure:: /images/testing_scenarios/ViewBigImage/005.png
    :align: center
 
-   ViewBigScreen005
+   ViewBig005
 
 
 |
@@ -194,12 +194,12 @@ View Big Image
 |
 
 
-.. _ViewBigScreen006:
+.. _ViewBig006:
 .. figure:: /images/testing_scenarios/ViewBigImage/006.png
    :align: center
    :width: 100%
 
-   ViewBigScreen006: 
+   ViewBig006: 
 
 
 |

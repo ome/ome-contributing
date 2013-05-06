@@ -16,18 +16,18 @@ Import CLI
 
 #. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
 
-   - |C| that the file was imported using Insight UI [:ref:`ImportCLIScreen002`]
+   - |C| that the file was imported using Insight UI [:ref:`ImportCLI002`]
 
 #. Import several images in one transaction (a whole folder).[:download:`003 </downloads/CLI_003.txt>`]
 
-   - |C| that the files were imported using Insight UI [:ref:`ImportCLIScreen004`]
+   - |C| that the files were imported using Insight UI [:ref:`ImportCLI004`]
 
 #. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`]
 
-   - |C| that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:ref:`ImportCLIScreen005`]
+   - |C| that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:ref:`ImportCLI005`]
    - |C| that you can download the companion file
 
-#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 </downloads/CLI_007.txt>`][:ref:`ImportCLIScreen006`]
+#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 </downloads/CLI_007.txt>`][:ref:`ImportCLI006`]
 
    - |C| that you can see the imported images within the file
 
@@ -37,11 +37,11 @@ Import CLI
 
 #. Import a nested folder containing Screen/Plate/Well files
 
-	.. _ImportCLIScreen002:
+	.. _ImportCLI002:
 	.. figure:: /images/testing_scenarios/ImportCLI/002.png
 	   :align: center
 
-	   ImportCLIScreen002: 
+	   ImportCLI002: 
 
 
 	|
@@ -74,11 +74,11 @@ Import CLI
 	|
 
 
-	.. _ImportCLIScreen004:
+	.. _ImportCLI004:
 	.. figure:: /images/testing_scenarios/ImportCLI/004.png
 	   :align: center
 
-	   ImportCLIScreen004:
+	   ImportCLI004:
 
 
 	|
@@ -111,11 +111,11 @@ Import CLI
 	|
 
 
-	.. _ImportCLIScreen005:
+	.. _ImportCLI005:
 	.. figure:: /images/testing_scenarios/ImportCLI/005.png
 	   :align: center
 
-	   ImportCLIScreen005:
+	   ImportCLI005:
 
 
 	|
@@ -148,11 +148,11 @@ Import CLI
 	|
 
 
-	.. _ImportCLIScreen006:
+	.. _ImportCLI006:
 	.. figure:: /images/testing_scenarios/ImportCLI/006.png
 	   :align: center
 
-	   ImportCLIScreen006
+	   ImportCLI006
 	
 	
 	|

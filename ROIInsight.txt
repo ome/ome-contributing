@@ -13,25 +13,25 @@ ROI Insight
 
 #. Open ROI tool
 
-   - from the icon on the top of the Full Viewer [:ref:`ROIInsightScreen001`]
+   - from the icon on the top of the Full Viewer [:ref:`ROIInsight001`]
    - from the main menu Controls/Measurement…
 
-#. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsightScreen002`]
+#. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsight002`]
 
 #. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box
 
-   - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsightScreen003`]
+   - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsight003`]
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
 
 #. Move shapes and save.
 
-#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`ROIInsightScreen005`][:ref:`ROIInsightScreen006`][:ref:`ROIInsightScreen007`]. Merge only shapes from different z/t-planes, Split the Merged. [:ref:`ROIInsightScreen008`]
+#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`ROIInsight005`][:ref:`ROIInsight006`][:ref:`ROIInsight007`]. Merge only shapes from different z/t-planes, Split the Merged. [:ref:`ROIInsight008`]
 
    - using right-click on the image
    - using right-click on the ROI in the list in Measurement Tools window
 
-#. Edit: change Fill and Line color [:ref:`ROIInsightScreen009`]/ show-hide text/change width and height (Inspector tab)
+#. Edit: change Fill and Line color [:ref:`ROIInsight009`]/ show-hide text/change width and height (Inspector tab)
 
    - |C| the changes of the region display.
 
@@ -72,20 +72,20 @@ ROI Insight
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself)
    - NOW Select Intensity Results View tab (the region is still selected - do not change your selection now)
    - Press Add Selected
-   - |C| the data were added to the table [:ref:`ROIInsightScreen010`]
+   - |C| the data were added to the table [:ref:`ROIInsight010`]
    - Try to select more regions and press Add Selected
-   - |C| the data were added to the table [:ref:`ROIInsightScreen010`]
+   - |C| the data were added to the table [:ref:`ROIInsight010`]
    - Try Remove/Remove All.
    - Add data again and Export to Excel
-   - |C| the file. [:ref:`ROIInsightScreen011`]
+   - |C| the file. [:ref:`ROIInsight011`]
 
 
 
-	.. _ROIInsightScreen001:
+	.. _ROIInsight001:
 	.. figure:: /images/testing_scenarios/ROIInsight/001.png
 	   :align: center
 
-	   ROIInsightScreen001: 
+	   ROIInsight001: 
 
 
 	|
@@ -118,11 +118,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen002:
+	.. _ROIInsight002:
 	.. figure:: /images/testing_scenarios/ROIInsight/002.png
 	   :align: center
 
-	   ROIInsightScreen002:
+	   ROIInsight002:
 
 
 	|
@@ -155,11 +155,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen003:
+	.. _ROIInsight003:
 	.. figure:: /images/testing_scenarios/ROIInsight/003.png
 	   :align: center
 
-	   ROIInsightScreen003
+	   ROIInsight003
 
 
 	|
@@ -192,11 +192,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen005:
+	.. _ROIInsight005:
 	.. figure:: /images/testing_scenarios/ROIInsight/005.png
 	   :align: center
 
-	   ROIInsightScreen005
+	   ROIInsight005
 
 
 	|
@@ -229,11 +229,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen006:
+	.. _ROIInsight006:
 	.. figure:: /images/testing_scenarios/ROIInsight/006.png
 	   :align: center
 
-	   ROIInsightScreen006: 
+	   ROIInsight006: 
 
 
 	|
@@ -266,11 +266,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen007:
+	.. _ROIInsight007:
 	.. figure:: /images/testing_scenarios/ROIInsight/007.png
 	   :align: center
 
-	   ROIInsightScreen007:
+	   ROIInsight007:
 
 
 	|
@@ -303,11 +303,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen008:
+	.. _ROIInsight008:
 	.. figure:: /images/testing_scenarios/ROIInsight/008.png
 	   :align: center
 
-	   ROIInsightScreen008
+	   ROIInsight008
 
 
 	|
@@ -340,11 +340,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen009:
+	.. _ROIInsight009:
 	.. figure:: /images/testing_scenarios/ROIInsight/009.png
 	   :align: center
 
-	   ROIInsightScreen009: 
+	   ROIInsight009: 
 
 
 	|
@@ -377,11 +377,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen010:
+	.. _ROIInsight010:
 	.. figure:: /images/testing_scenarios/ROIInsight/010.png
 	   :align: center
 
-	   ROIInsightScreen010:
+	   ROIInsight010:
 
 
 	|
@@ -414,11 +414,11 @@ ROI Insight
 	|
 
 
-	.. _ROIInsightScreen011:
+	.. _ROIInsight011:
 	.. figure:: /images/testing_scenarios/ROIInsight/011.png
 	   :align: center
 
-	   ROIInsightScreen011
+	   ROIInsight011
 	
 	
 	|

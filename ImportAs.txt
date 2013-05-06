@@ -45,16 +45,16 @@ NB: Only Administrators can import data for other users. When importing the data
 #. Import for user-CL, do not create a new Project at import stage. 
 
    - Open Importer, select the folder you prepared in step 3 for user-CL, click ``>``.
-   - In the Import Location window, select ``Import For`` user-CL [:ref:`ImportAsScreen001`]
-   - Open the Projects menu, you should be able to select the Projects of the user-CL and other users' Projects [:ref:`ImportAsScreen002`]. The red dots mark the projects owned by anyone else than user-CL.
-   - Select the Project owned by the user-NL (e.g. "user-NL for user-CL's data") [:ref:`ImportAsScreen003`] and import.
+   - In the Import Location window, select ``Import For`` user-CL [:ref:`ImportAs001`]
+   - Open the Projects menu, you should be able to select the Projects of the user-CL and other users' Projects [:ref:`ImportAs002`]. The red dots mark the projects owned by anyone else than user-CL.
+   - Select the Project owned by the user-NL (e.g. "user-NL for user-CL's data") [:ref:`ImportAs003`] and import.
    - Select the Project owned by the user-CL (e.g. "user-CL for user-CL's data") and import.
    - Select the Project owned by the admin (e.g. "user-6 for user-CL's data") and import
 
 #. Import for user-NL, do not create a new Project at import stage
 
    - Select ``Import For`` user-NL
-   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by user-NL [:ref:`ImportAsScreen004`]
+   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by user-NL [:ref:`ImportAs004`]
    - Select the Project owned by the user-NL (e.g. "user-NL for user-NL's data") and import.
 
 
@@ -71,23 +71,23 @@ NB: Only Administrators can import data for other users. When importing the data
 #. Check the imported objects.
 
    - Start checking in Web first, then in Insight. View the data logged in as the user which did not import them and does not own them.
-   - |C| that new P/D/S were created and the images and plates were imported as appropriate [:ref:`ImportAsScreen005`]
-   - |C| that the ownership of the P/D/S and of the imported images and plates is as expected [:ref:`ImportAsScreen006`] 
+   - |C| that new P/D/S were created and the images and plates were imported as appropriate [:ref:`ImportAs005`]
+   - |C| that the ownership of the P/D/S and of the imported images and plates is as expected [:ref:`ImportAs006`] 
 
 
 
 
-#. Switch to User Display. Note that now you cannot see other users' Projects in the Import Location window. The only Projects which you can see and select are owned by the user you are importing for [:ref:`ImportAsScreen007`].
+#. Switch to User Display. Note that now you cannot see other users' Projects in the Import Location window. The only Projects which you can see and select are owned by the user you are importing for [:ref:`ImportAs007`].
 
    - Working in User Display mode, repeat steps 7, 8, 9, 10, 11, 12. 
 
 
 
-.. _ImportAsScreen001:
+.. _ImportAs001:
 .. figure:: /images/testing_scenarios/ImportAs/001.png
    :align: center
 
-   ImportAsScreen001
+   ImportAs001
 
 
 |
@@ -119,11 +119,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 |
 
-.. _ImportAsScreen002:
+.. _ImportAs002:
 .. figure:: /images/testing_scenarios/ImportAs/002.png
    :align: center
 
-   ImportAsScreen002
+   ImportAs002
 
 
 |
@@ -156,11 +156,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 
 
-.. _ImportAsScreen003:
+.. _ImportAs003:
 .. figure:: /images/testing_scenarios/ImportAs/003.png
    :align: center
 
-   ImportAsScreen003
+   ImportAs003
 
 
 |
@@ -192,11 +192,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 |
 
-.. _ImportAsScreen004:
+.. _ImportAs004:
 .. figure:: /images/testing_scenarios/ImportAs/004.png
    :align: center
 
-   ImportAsScreen004
+   ImportAs004
 
 
 |
@@ -228,11 +228,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 |
 
-.. _ImportAsScreen005:
+.. _ImportAs005:
 .. figure:: /images/testing_scenarios/ImportAs/005.png
    :align: center
 
-   ImportAsScreen005
+   ImportAs005
 
 |
 |
@@ -264,11 +264,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 
 
-.. _ImportAsScreen006:
+.. _ImportAs006:
 .. figure:: /images/testing_scenarios/ImportAs/006.png
    :align: center
 
-   ImportAsScreen006
+   ImportAs006
 
 
 |
@@ -300,11 +300,11 @@ NB: Only Administrators can import data for other users. When importing the data
 |
 |
 
-.. _ImportAsScreen007:
+.. _ImportAs007:
 .. figure:: /images/testing_scenarios/ImportAs/007.png
    :align: center
 
-   ImportAsScreen007
+   ImportAs007
 
 
 |

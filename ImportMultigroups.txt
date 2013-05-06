@@ -10,18 +10,18 @@ Import and Multigroups
 #. Import the same image in 2 different groups. Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
 
    - Open Importer window, select an image, click onto ">" to bring up the "Import Location" window 
-   - Choose where to import the image in the first group [:ref:`ImportMultiGrScreen000a`]
-   - Do not change the selection of images, switch group and select where to import the image in the second group [:ref:`ImportMultiGrScreen000b`].
+   - Choose where to import the image in the first group [:ref:`ImportMultiGr000a`]
+   - Do not change the selection of images, switch group and select where to import the image in the second group [:ref:`ImportMultiGr000b`].
    - Import the images
-   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGrScreen001`]
-   - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGrScreen002`]
+   - Go back to the Data Manager and add the 2 groups to the display if not already added. [:ref:`ImportMultiGr001`]
+   - |C| Make sure that the image is in the correct location (in both groups). [:ref:`ImportMultiGr002`]
    - Go to Screens harmonica tab in the left-hand pane and repeat step 1 with plates (e.g. `test_images_good/flex/`).
 
 #. "Import Location" window - group update
 
    - Open Importer window, select an image, click onto ">" to bring up the "Import Location" window 
-   - Choose where to import the image in the first group [:ref:`ImportMultiGrScreen000a`].
-   - Close the "Import Location" window, leave the importer open and go to Data Manager, into the tree (left-hand pane) [:ref:`ImportMultiGrScreen002`]
+   - Choose where to import the image in the first group [:ref:`ImportMultiGr000a`].
+   - Close the "Import Location" window, leave the importer open and go to Data Manager, into the tree (left-hand pane) [:ref:`ImportMultiGr002`]
    - Expand a group (NOT the one you have previously selected in the "Import Location" window)
    - Select a user
    - Go back to the importer, click onto ">" and |C| that the group display matches your choice in Data Manager
@@ -40,11 +40,11 @@ Import and Multigroups
 
 
 
-.. _ImportMultiGrScreen000a:
+.. _ImportMultiGr000a:
 .. figure:: /images/testing_scenarios/ImportMultigroups/000a.png
    :align: center
 
-   ImportMultiGrScreen000a 
+   ImportMultiGr000a 
 
 
 |
@@ -73,11 +73,11 @@ Import and Multigroups
 |
 |
 
-.. _ImportMultiGrScreen000b:
+.. _ImportMultiGr000b:
 .. figure:: /images/testing_scenarios/ImportMultigroups/000b.png
    :align: center
 
-   ImportMultiGrScreen000b 
+   ImportMultiGr000b 
 
 
 |
@@ -112,11 +112,11 @@ Import and Multigroups
 |
 |
 
-.. _ImportMultiGrScreen001:
+.. _ImportMultiGr001:
 .. figure:: /images/testing_scenarios/ImportMultigroups/001.png
    :align: center
 
-   ImportMultiGrScreen001: 
+   ImportMultiGr001: 
 
 
 |
@@ -149,11 +149,11 @@ Import and Multigroups
 |
 
 
-.. _ImportMultiGrScreen002:
+.. _ImportMultiGr002:
 .. figure:: /images/testing_scenarios/ImportMultigroups/002.png
    :align: center
 
-   ImportMultiGrScreen002:
+   ImportMultiGr002:
 
 
 |

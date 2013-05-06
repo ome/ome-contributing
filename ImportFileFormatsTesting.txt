@@ -12,21 +12,21 @@ Import File Formats Testing
 #. Import the files for this format. A known good selection is located in test_images_good or a larger set in from_skyking (see details [:download:`here </downloads/ImportTestingSetTable.pdf>`]) 
 
    - |C| Some formats have special import requirements--please check first!
-   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`ImportFileFTScreen002`][:ref:`ImportFileFTScreen003`][:ref:`ImportFileFTScreen004`]
+   - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`ImportFileFT002`][:ref:`ImportFileFT003`][:ref:`ImportFileFT004`]
    - |C| In case import has failed, check that all files have been copied.
    - |C| each imported image visually for the following features:
-   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`ImportFileFTScreen005`]
-   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`ImportFileFTScreen006`] and are of the correct size.
-   - All ROIs [if any] are present and in the correct place.[:ref:`ImportFileFTScreen007`]
+   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`ImportFileFT005`]
+   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`ImportFileFT006`] and are of the correct size.
+   - All ROIs [if any] are present and in the correct place.[:ref:`ImportFileFT007`]
 
 
 
 
-.. _ImportFileFTScreen002:
+.. _ImportFileFT002:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002.png
    :align: center
 
-   ImportFileFTScreen002:
+   ImportFileFT002:
 
 
 |
@@ -59,11 +59,11 @@ Import File Formats Testing
 |
 
 
-.. _ImportFileFTScreen003:
+.. _ImportFileFT003:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/003.png
    :align: center
 
-   ImportFileFTScreen003
+   ImportFileFT003
 
 
 |
@@ -96,11 +96,11 @@ Import File Formats Testing
 |
 
 
-.. _ImportFileFTScreen004:
+.. _ImportFileFT004:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
    :align: center
 
-   ImportFileFTScreen004
+   ImportFileFT004
 
 
 |
@@ -133,11 +133,11 @@ Import File Formats Testing
 |
 
 
-.. _ImportFileFTScreen005:
+.. _ImportFileFT005:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005.png
    :align: center
 
-   ImportFileFTScreen005
+   ImportFileFT005
 
 
 |
@@ -170,11 +170,11 @@ Import File Formats Testing
 |
 
 
-.. _ImportFileFTScreen006:
+.. _ImportFileFT006:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
    :align: center
 
-   ImportFileFTScreen006: 
+   ImportFileFT006: 
 
 
 |
@@ -207,11 +207,11 @@ Import File Formats Testing
 |
 
 
-.. _ImportFileFTScreen007:
+.. _ImportFileFT007:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
    :align: center
 
-   ImportFileFTScreen007:
+   ImportFileFT007:
 
 
 |

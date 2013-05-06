@@ -7,23 +7,23 @@ Share
 
 **Purpose of the test** is to check the Share feature in Web, creation, visibility, and annotation possibility
 
-#. Select images add to basket [:ref:`ShareScreen001`].
+#. Select images add to basket [:ref:`Share001`].
 
-#. Create a share with several users: In the central window, click on the basket icon, choose "Manage basket"[:ref:`ShareScreen002`], choose images to share and use the "Globe" icon to create a share [:ref:`ShareScreen003`]. Choose an expiry date one day after creation [:ref:`ShareScreen004`][:ref:`ShareScreen005`]
+#. Create a share with several users: In the central window, click on the basket icon, choose "Manage basket"[:ref:`Share002`], choose images to share and use the "Globe" icon to create a share [:ref:`Share003`]. Choose an expiry date one day after creation [:ref:`Share004`][:ref:`Share005`]
 
-#. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:ref:`ShareScreen006`][:ref:`ShareScreen007`]
+#. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
 
-   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`ShareScreen008`]
-   - |C| than images in the share can be viewed using the Preview and Full viewer [:ref:`ShareScreen009`]
-   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`ShareScreen010`]
+   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share008`]
+   - |C| than images in the share can be viewed using the Preview and Full viewer [:ref:`Share009`]
+   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
    - |C| that users on the share get e-mail with link
 
 
-	.. _ShareScreen001:
+	.. _Share001:
 	.. figure:: /images/testing_scenarios/Share/001.png
 	   :align: center
 
-	   ShareScreen001: 
+	   Share001: 
 
 
 	|
@@ -56,11 +56,11 @@ Share
 	|
 
 
-	.. _ShareScreen002:
+	.. _Share002:
 	.. figure:: /images/testing_scenarios/Share/002.png
 	   :align: center
 
-	   ShareScreen002:
+	   Share002:
 
 
 	|
@@ -93,12 +93,12 @@ Share
 	|
 
 
-	.. _ShareScreen003:
+	.. _Share003:
 	.. figure:: /images/testing_scenarios/Share/003.png
 	   :align: center
 	   :width: 100%
 
-	   ShareScreen003
+	   Share003
 
 
 	|
@@ -131,11 +131,11 @@ Share
 	|
 
 
-	.. _ShareScreen004:
+	.. _Share004:
 	.. figure:: /images/testing_scenarios/Share/004.png
 	   :align: center
 
-	   ShareScreen004
+	   Share004
 
 
 	|
@@ -168,11 +168,11 @@ Share
 	|
 
 
-	.. _ShareScreen005:
+	.. _Share005:
 	.. figure:: /images/testing_scenarios/Share/005.png
 	   :align: center
 
-	   ShareScreen005
+	   Share005
 
 
 	|
@@ -205,12 +205,12 @@ Share
 	|
 
 
-	.. _ShareScreen006:
+	.. _Share006:
 	.. figure:: /images/testing_scenarios/Share/006.png
 	   :align: center
 	   :width: 100%
 
-	   ShareScreen006: 
+	   Share006: 
 
 
 	|
@@ -243,11 +243,11 @@ Share
 	|
 
 
-	.. _ShareScreen007:
+	.. _Share007:
 	.. figure:: /images/testing_scenarios/Share/007.png
 	   :align: center
 
-	   ShareScreen007:
+	   Share007:
 
 
 	|
@@ -280,11 +280,11 @@ Share
 	|
 
 
-	.. _ShareScreen008:
+	.. _Share008:
 	.. figure:: /images/testing_scenarios/Share/008.png
 	   :align: center
 
-	   ShareScreen008
+	   Share008
 
 
 	|
@@ -317,11 +317,11 @@ Share
 	|
 
 
-	.. _ShareScreen009:
+	.. _Share009:
 	.. figure:: /images/testing_scenarios/Share/009.png
 	   :align: center
 
-	   ShareScreen009: 
+	   Share009: 
 
 
 	|
@@ -354,11 +354,11 @@ Share
 	|
 
 
-	.. _ShareScreen010:
+	.. _Share010:
 	.. figure:: /images/testing_scenarios/Share/010.png
 	   :align: center
 
-	   ShareScreen010:
+	   Share010:
 	
 	
 	|

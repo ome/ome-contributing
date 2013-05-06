@@ -9,7 +9,7 @@ Insight as Plugin ImageJ/Fiji
 
 **Test on Linux as well as Windows (XP and Win7 if possible)**
 
-#. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJIScreen001`]
+#. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJI001`]
 
 #. Download the latest stable version of ImageJ for Windows/Mac/Linux as appropriate from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_.
 
@@ -17,7 +17,7 @@ Insight as Plugin ImageJ/Fiji
 
 #. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
 
-   - |C| Dialog should indicate that "loci_tools.jar" is missing.[:ref:`InsightIJIScreen002`]
+   - |C| Dialog should indicate that "loci_tools.jar" is missing.[:ref:`InsightIJI002`]
 
 #. Click on the hyperlink in the dialog. Download loci_tools.jar.
 
@@ -33,7 +33,7 @@ Insight as Plugin ImageJ/Fiji
 
 #. Right-click on the image,
 
-   - |C| The "View" menu item should have the "View in ImageJ" option [:ref:`InsightIJIScreen003`][:download:`003 </images/testing_scenarios/InsightasPluginImageJFiji/003.png>`]
+   - |C| The "View" menu item should have the "View in ImageJ" option [:ref:`InsightIJI003`][:download:`003 </images/testing_scenarios/InsightasPluginImageJFiji/003.png>`]
    - Select the "View in imageJ" option.
    - |C| The image opens in imageJ
 
@@ -47,11 +47,11 @@ Insight as Plugin ImageJ/Fiji
 
 
 
-.. _InsightIJIScreen001:
+.. _InsightIJI001:
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/001.png
    :align: center
 
-   InsightIJIScreen001 
+   InsightIJI001 
 
 
 |
@@ -84,11 +84,11 @@ Insight as Plugin ImageJ/Fiji
 |
 
 
-.. _InsightIJIScreen002:
+.. _InsightIJI002:
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/002.png
    :align: center
 
-   InsightIJIScreen002
+   InsightIJI002
 
 
 |
@@ -121,11 +121,11 @@ Insight as Plugin ImageJ/Fiji
 |
 
 
-.. _InsightIJIScreen003:
+.. _InsightIJI003:
 .. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/003.png
    :align: center
 
-   InsightIJIScreen003
+   InsightIJI003
 
 |
 |

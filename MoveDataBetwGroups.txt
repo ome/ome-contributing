@@ -7,9 +7,9 @@ Move Data between Groups
 
 **Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
 
-#. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
+#. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`]
 
-   - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source group and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveDataScreen005`]
+   - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source group and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveData005`]
 
 #. Move a Project with datasets and images
 
@@ -25,22 +25,22 @@ Move Data between Groups
    - large image
    - |C| that the image is at the destination with all the ROIs/annotations
 
-#. Move using the right-click menu [:ref:`MoveDataScreen001`][:ref:`MoveDataScreen002`][:ref:`MoveDataScreen003`][:ref:`MoveDataScreen004`]
+#. Move using the right-click menu [:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`]
 
-   - |C| that the image has been moved to "Orphaned Images" when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveDataScreen002`] (Insight only)
+   - |C| that the image has been moved to "Orphaned Images" when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveData002`] (Insight only)
  
-#. Move via D&D [:ref:`MoveDataScreen006`]
+#. Move via D&D [:ref:`MoveData006`]
 
    - |C| that the images are in their destinations and view them
    - |C| that the image is at the destination with all the ROIs/annotations
 
 
 
-.. _MoveDataScreen001:
+.. _MoveData001:
 .. figure:: /images/testing_scenarios/MoveData/001.png
    :align: center
 
-   MoveDataScreen001: 
+   MoveData001: 
 
 
 |
@@ -73,11 +73,11 @@ Move Data between Groups
 |
 
 
-.. _MoveDataScreen002:
+.. _MoveData002:
 .. figure:: /images/testing_scenarios/MoveData/002.png
    :align: center
 
-   MoveDataScreen002:
+   MoveData002:
 
 
 |
@@ -110,11 +110,11 @@ Move Data between Groups
 |
 
 
-.. _MoveDataScreen003:
+.. _MoveData003:
 .. figure:: /images/testing_scenarios/MoveData/003.png
    :align: center
 
-   MoveDataScreen003
+   MoveData003
 
 
 |
@@ -147,11 +147,11 @@ Move Data between Groups
 |
 
 
-.. _MoveDataScreen004:
+.. _MoveData004:
 .. figure:: /images/testing_scenarios/MoveData/004.png
    :align: center
 
-   MoveDataScreen004
+   MoveData004
 
 
 |
@@ -184,11 +184,11 @@ Move Data between Groups
 |
 
 
-.. _MoveDataScreen005:
+.. _MoveData005:
 .. figure:: /images/testing_scenarios/MoveData/005.png
    :align: center
 
-   MoveDataScreen005
+   MoveData005
 
 
 |
@@ -221,11 +221,11 @@ Move Data between Groups
 |
 
 
-.. _MoveDataScreen006:
+.. _MoveData006:
 .. figure:: /images/testing_scenarios/MoveData/006.png
    :align: center
 
-   MoveDataScreen006: 
+   MoveData006: 
 
 
 |

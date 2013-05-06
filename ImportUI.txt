@@ -12,49 +12,49 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 #. Select single image files
 
    - Add them to the queue by pressing the ">" control.
-   - Select "New From Folder" option [:ref:`ImportUIScreen001`] when choosing where to import the images.
+   - Select "New From Folder" option [:ref:`ImportUI001`] when choosing where to import the images.
    - |C| A new Dataset will be created with the name of the folder.
-   - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUIScreen002`]
+   - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUI002`]
    - Click import.
    - Go to the DataManager (left-hand side). Hit the refresh button
-   - |C| make sure that only one dataset is created. [:ref:`ImportUIScreen003`]
+   - |C| make sure that only one dataset is created. [:ref:`ImportUI003`]
 
-#. Repeat (1) this time by selecting a folder. [:ref:`ImportUIScreen004`]
+#. Repeat (1) this time by selecting a folder. [:ref:`ImportUI004`]
 
 #. Tag at import (for permissions testing, tag with tags belonging to other user's)
 
    - Select at least 2 images.
-   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUIScreen005`]
+   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
    - Create a new tag
    - Import the images.
    - Go to the DataManager (left-hand side). Refresh
-   - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUIScreen006`][:ref:`ImportUIScreen007`]
-   - |C| and the tag is created once. [:ref:`ImportUIScreen008`]
+   - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
+   - |C| and the tag is created once. [:ref:`ImportUI008`]
 
 #. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
 
-   - create a new tag and add an existing tag.[:ref:`ImportUIScreen009`]
+   - create a new tag and add an existing tag.[:ref:`ImportUI009`]
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
    - |C| that the images are tagged and the tag is shown on thumbnails
    - |C| The tag is created once
    - |C| no new tag is created with the name of the existing tag.
 
-#. In the Location dialog, press the Screen button [:ref:`ImportUIScreen011`]
+#. In the Location dialog, press the Screen button [:ref:`ImportUI011`]
 
 #. Import a Plate e.g. ``data_repo/from_skyking/flex/achim/003003000.flex``
 
 #. When the import is done, check in the import Window:
 
-   - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUIScreen012`]
-   - |C| Hover over it.[:ref:`ImportUIScreen013`]
+   - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUI012`]
+   - |C| Hover over it.[:ref:`ImportUI013`]
    - |C| Click on the thumbnail to open the image viewer
    - |C| If Dataset is highlighted in blue, click on the dataset. This should bring you to the Data Manager.
 
-#. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUIScreen014`]
+#. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
-   - |C| that you can view the error.[:ref:`ImportUIScreen015`]
-   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:ref:`ImportUIScreen016`]
+   - |C| that you can view the error.[:ref:`ImportUI015`]
+   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:ref:`ImportUI016`]
    - Enter a valid e-mail address
    - |C| that you received a notification e-mail.
    - |C| that your email address, error message, and file links are all included on the QA webpage.
@@ -64,12 +64,12 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Finally, set the QA message status to "Closed" and save.
 
 
-	.. _ImportUIScreen001:
+	.. _ImportUI001:
 	.. figure:: /images/testing_scenarios/ImportUI/001.png
 	   :align: center
 	   :width: 100%
 
-	   ImportUIScreen001 
+	   ImportUI001 
 
 
 	|
@@ -102,11 +102,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen002:
+	.. _ImportUI002:
 	.. figure:: /images/testing_scenarios/ImportUI/002.png
 	   :align: center
 
-	   ImportUIScreen002
+	   ImportUI002
 
 
 	|
@@ -139,11 +139,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen003:
+	.. _ImportUI003:
 	.. figure:: /images/testing_scenarios/ImportUI/003.png
 	   :align: center
 
-	   ImportUIScreen003
+	   ImportUI003
 
 
 	|
@@ -176,12 +176,12 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen004:
+	.. _ImportUI004:
 	.. figure:: /images/testing_scenarios/ImportUI/004.png
 	   :align: center
 	   :width: 100%
 
-	   ImportUIScreen004
+	   ImportUI004
 
 
 	|
@@ -214,11 +214,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen005:
+	.. _ImportUI005:
 	.. figure:: /images/testing_scenarios/ImportUI/005.png
 	   :align: center
 
-	   ImportUIScreen005
+	   ImportUI005
 
 
 	|
@@ -251,11 +251,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen006:
+	.. _ImportUI006:
 	.. figure:: /images/testing_scenarios/ImportUI/006.png
 	   :align: center
 
-	   ImportUIScreen006 
+	   ImportUI006 
 
 
 	|
@@ -288,11 +288,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen007:
+	.. _ImportUI007:
 	.. figure:: /images/testing_scenarios/ImportUI/007.png
 	   :align: center
 
-	   ImportUIScreen007
+	   ImportUI007
 
 
 	|
@@ -325,11 +325,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen008:
+	.. _ImportUI008:
 	.. figure:: /images/testing_scenarios/ImportUI/008.png
 	   :align: center
 
-	   ImportUIScreen008
+	   ImportUI008
 
 
 	|
@@ -362,11 +362,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen009:
+	.. _ImportUI009:
 	.. figure:: /images/testing_scenarios/ImportUI/009.png
 	   :align: center
 
-	   ImportUIScreen009 
+	   ImportUI009 
 
 
 	|
@@ -421,11 +421,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen011:
+	.. _ImportUI011:
 	.. figure:: /images/testing_scenarios/ImportUI/011.png
 	   :align: center
 
-	   ImportUIScreen011
+	   ImportUI011
 
 
 	|
@@ -458,11 +458,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen012:
+	.. _ImportUI012:
 	.. figure:: /images/testing_scenarios/ImportUI/012.png
 	   :align: center
 
-	   ImportUIScreen012
+	   ImportUI012
 
 
 	|
@@ -495,11 +495,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen013:
+	.. _ImportUI013:
 	.. figure:: /images/testing_scenarios/ImportUI/013.png
 	   :align: center
 
-	   ImportUIScreen013
+	   ImportUI013
 
 
 	|
@@ -532,11 +532,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen014:
+	.. _ImportUI014:
 	.. figure:: /images/testing_scenarios/ImportUI/014.png
 	   :align: center
 
-	   ImportUIScreen014 
+	   ImportUI014 
 
 
 	|
@@ -569,11 +569,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen015:
+	.. _ImportUI015:
 	.. figure:: /images/testing_scenarios/ImportUI/015.png
 	   :align: center
 
-	   ImportUIScreen015
+	   ImportUI015
 
 
 	|
@@ -606,11 +606,11 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 
 
-	.. _ImportUIScreen016:
+	.. _ImportUI016:
 	.. figure:: /images/testing_scenarios/ImportUI/016.png
 	   :align: center
 
-	   ImportUIScreen016
+	   ImportUI016
 	
 	
 	|

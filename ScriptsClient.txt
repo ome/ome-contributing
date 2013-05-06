@@ -10,25 +10,25 @@ Scripts Client
 
 #. Select a dataset
 
-#. Open list of available scripts.[:ref:`ScriptClientScreen001`]
+#. Open list of available scripts.[:ref:`ScriptClient001`]
 
-#. Select a script running on datasets.[:ref:`ScriptClientScreen002`][:ref:`ScriptClientScreen003`]
+#. Select a script running on datasets.[:ref:`ScriptClient002`][:ref:`ScriptClient003`]
 
    - |C| that the data type is set to dataset and the id of the dataset is displayed in the id field.
 
    - Select other data type if applicable,
 
-   - |C| that the id is removed.[:ref:`ScriptClientScreen002`][:ref:`ScriptClientScreen003`]
+   - |C| that the id is removed.[:ref:`ScriptClient002`][:ref:`ScriptClient003`]
 
 #. Select the initial data type and enter the initial id.
 
 #. Run the script and
 
-   - |C| that an entry is added to the activities section [:ref:`ScriptClientScreen004`][:ref:`ScriptClientScreen005`]
+   - |C| that an entry is added to the activities section [:ref:`ScriptClient004`][:ref:`ScriptClient005`]
 
 #. Click on the result link and 
 
-   - |C| that script ran to completion w/o errors.[:ref:`ScriptClientScreen006`][:ref:`ScriptClientScreen007`]
+   - |C| that script ran to completion w/o errors.[:ref:`ScriptClient006`][:ref:`ScriptClient007`]
 
    - |C| that you can view the results of the scripts
 
@@ -37,9 +37,9 @@ Scripts Client
 
 #. Repeat all steps with another type e.g. Image
 
-#. Select more than 3 images and run Batch image export script [:ref:`ScriptClientScreen002`] from Export Scripts submenu
+#. Select more than 3 images and run Batch image export script [:ref:`ScriptClient002`] from Export Scripts submenu
 	
-   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientScreenN001`]
+   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientN001`]
 
    - Download and unzip the resulting file
 
@@ -48,7 +48,7 @@ Scripts Client
 #. Select an image, create a rectangular ROI and repeat point 8. running Movie ROI Figure script from the Figure Scripts submenu
 
 
-#. Go to the right-hand pane in Insight and Web, General tab and run the following publishing options scripts [:ref:`ScriptClientScreenN002`, :ref:`ScriptClientScreen002b`]
+#. Go to the right-hand pane in Insight and Web, General tab and run the following publishing options scripts [:ref:`ScriptClientN002`, :ref:`ScriptClient002b`]
 
    - Split View Figure
 
@@ -58,11 +58,11 @@ Scripts Client
 
    - Movie Figure
 
-   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientScreenN001`]
+   - Choose other output formats than the default (=.jpeg) like .tiff, ome-tiff and .png [:ref:`ScriptClientN001`]
 
    - |C| that the correct format was indeed exported by the script
 
-#. |C| the consistency of script submenus, namely that scripts from the right-hand pane icon ("publishing options" [:ref:`ScriptClientScreenN002`]) are not duplicated in the left-hand panel icon in Insight (the main Scripts menu [:ref:`ScriptClientScreenN003`])
+#. |C| the consistency of script submenus, namely that scripts from the right-hand pane icon ("publishing options" [:ref:`ScriptClientN002`]) are not duplicated in the left-hand panel icon in Insight (the main Scripts menu [:ref:`ScriptClientN003`])
 
 #. |C| the consistency between Insight and Web - are the scripts displayed logically in the corresponding submenus in both clients ?
 
@@ -84,11 +84,11 @@ Scripts Client
 
 
 
-.. _ScriptClientScreen001:
+.. _ScriptClient001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001.png
    :align: center
 
-   ScriptClientScreen001: 
+   ScriptClient001: 
 
 
 |
@@ -121,11 +121,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen002:
+.. _ScriptClient002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002.png
    :align: center
 
-   ScriptClientScreen002:
+   ScriptClient002:
 
 
 |
@@ -169,11 +169,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen002b:
+.. _ScriptClient002b:
 .. figure:: /images/testing_scenarios/ScriptsClient/002b.png
    :align: center
 
-   ScriptClientScreen002b:
+   ScriptClient002b:
 
 
 |
@@ -189,11 +189,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen003:
+.. _ScriptClient003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003.png
    :align: center
 
-   ScriptClientScreen003
+   ScriptClient003
 
 
 |
@@ -226,11 +226,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen004:
+.. _ScriptClient004:
 .. figure:: /images/testing_scenarios/ScriptsClient/004.png
    :align: center
 
-   ScriptClientScreen004
+   ScriptClient004
 
 
 |
@@ -263,11 +263,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen005:
+.. _ScriptClient005:
 .. figure:: /images/testing_scenarios/ScriptsClient/005.png
    :align: center
 
-   ScriptClientScreen005
+   ScriptClient005
 
 
 |
@@ -300,11 +300,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen006:
+.. _ScriptClient006:
 .. figure:: /images/testing_scenarios/ScriptsClient/006.png
    :align: center
 
-   ScriptClientScreen006: 
+   ScriptClient006: 
 
 
 |
@@ -337,11 +337,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreen007:
+.. _ScriptClient007:
 .. figure:: /images/testing_scenarios/ScriptsClient/007.png
    :align: center
 
-   ScriptClientScreen007:
+   ScriptClient007:
 
 
 |
@@ -375,11 +375,11 @@ Scripts Client
 |
 |
 
-.. _ScriptClientScreenN001:
+.. _ScriptClientN001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001N.png
    :align: center
 
-   ScriptClientScreenN001
+   ScriptClientN001
 
 |
 |
@@ -410,11 +410,11 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreenN002:
+.. _ScriptClientN002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002N.png
    :align: center
 
-   ScriptClientScreenN002
+   ScriptClientN002
 
 
 |
@@ -454,10 +454,10 @@ Scripts Client
 |
 
 
-.. _ScriptClientScreenN003:
+.. _ScriptClientN003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003N.png
    :align: center
 
-   ScriptClientScreenN003
+   ScriptClientN003
 
 

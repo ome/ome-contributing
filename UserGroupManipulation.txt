@@ -9,25 +9,25 @@ User/Group Manipulation
 
 **Section 1: User Display (Insight only)**
 
-#. Switch to "User Display" in the main menu. Go to :menuselection:`View --> User Display` [:ref:`UserGroupMScreen001b`].
+#. Switch to "User Display" in the main menu. Go to :menuselection:`View --> User Display` [:ref:`UserGroupM001b`].
 
-#. Add several groups to the display. Switch between groups. [:ref:`UserGroupMScreen001`][:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen003`]
+#. Add several groups to the display. Switch between groups. [:ref:`UserGroupM001`][:ref:`UserGroupM002`][:ref:`UserGroupM003`]
 
-#. Add several users to the display [:ref:`UserGroupMScreen002`][:ref:`UserGroupMScreen005`].
+#. Add several users to the display [:ref:`UserGroupM002`][:ref:`UserGroupM005`].
 
 #. Switch between users.
 
-#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupMScreen005bi`].
+#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupM005bi`].
 
-#. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupMScreen002`] and right-click (remomve & refresh) [:ref:`UserGroupMScreen004`]
+#. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupM002`] and right-click (remomve & refresh) [:ref:`UserGroupM004`]
 
 #. Remove groups from display.
 
-#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
+#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupM008i`][:ref:`UserGroupM008w`].
 
 #. |C| that you can see other users' data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
-#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate [:ref:`UserGroupMScreen009w`].. 
+#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate [:ref:`UserGroupM009w`].. 
 
 #. (Not to do during permissions testing). Log off and log in as a new user. Bear in mind the danger of clashes with other testers when picking a new username.
 
@@ -36,28 +36,28 @@ User/Group Manipulation
 
 **Section 2: Group Display (Web, Insight)**
 
-#. Switch to "Group Display" in the main menu. Go to :menuselection:`View --> Group Display` [:ref:`UserGroupMScreen001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupMScreen006w`].
+#. Switch to "Group Display" in the main menu. Go to :menuselection:`View --> Group Display` [:ref:`UserGroupM001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupM006w`].
 
-#. Put several groups to display (Insight only) [:ref:`UserGroupMScreen006i`].
+#. Put several groups to display (Insight only) [:ref:`UserGroupM006i`].
 
-#. Switch between groups [:ref:`UserGroupMScreen006i`] (Insight only), put them on/off display.
+#. Switch between groups [:ref:`UserGroupM006i`] (Insight only), put them on/off display.
 
-#. Browse your and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupMScreen007i`].
+#. Browse your and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupM007i`].
 
-#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupMScreen008i`][:ref:`UserGroupMScreen008w`].
+#. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupM008i`][:ref:`UserGroupM008w`].
 
 #. |C| that you can see other users' data (P/D/I/S/Plate/Plate Run) in the group on display as appropriate according to your permissions.
 
-#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate according to your permissions [:ref:`UserGroupMScreen009w`].
+#. |C| that you can see annotations on other users' objects (P/D/I/S/Plate/Plate Run) as appropriate according to your permissions [:ref:`UserGroupM009w`].
 
 
 	|
 
-	.. _UserGroupMScreen001b:
+	.. _UserGroupM001b:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001b.png
 	   :align: center
 
-	   UserGroupMScreen001b 
+	   UserGroupM001b 
 
 
 
@@ -74,11 +74,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen001:
+	.. _UserGroupM001:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001.png
 	   :align: center
 
-	   UserGroupMScreen001 
+	   UserGroupM001 
 
 
 	|
@@ -111,11 +111,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen002:
+	.. _UserGroupM002:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/002.png
 	   :align: center
 
-	   UserGroupMScreen002
+	   UserGroupM002
 
 
 	|
@@ -148,11 +148,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen003:
+	.. _UserGroupM003:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/003.png
 	   :align: center
 
-	   UserGroupMScreen003
+	   UserGroupM003
 
 
 	|
@@ -185,11 +185,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen004:
+	.. _UserGroupM004:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/004.png
 	   :align: center
 
-	   UserGroupMScreen004
+	   UserGroupM004
 
 
 	|
@@ -222,11 +222,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen005:
+	.. _UserGroupM005:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/005.png
 	   :align: center
 
-	   UserGroupMScreen005
+	   UserGroupM005
 	
 	
 	|
@@ -254,11 +254,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen005bi:
+	.. _UserGroupM005bi:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/005bi.png
 	   :align: center
 
-	   UserGroupMScreen005bi
+	   UserGroupM005bi
 	
 	
 	|
@@ -296,11 +296,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen006i:
+	.. _UserGroupM006i:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/006i.png
 	   :align: center
 
-	   UserGroupMScreen006i
+	   UserGroupM006i
 	
 	
 	|
@@ -337,11 +337,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen006w:
+	.. _UserGroupM006w:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/006w.png
 	   :align: center
 
-	   UserGroupMScreen006w
+	   UserGroupM006w
 	
 	
 	|
@@ -371,11 +371,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen007i:
+	.. _UserGroupM007i:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/007i.png
 	   :align: center
 
-	   UserGroupMScreen007i
+	   UserGroupM007i
 	
 	
 	|
@@ -410,11 +410,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen008i:
+	.. _UserGroupM008i:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/008i.png
 	   :align: center
 
-	   UserGroupMScreen008i
+	   UserGroupM008i
 	
 	
 	|
@@ -440,11 +440,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen008w:
+	.. _UserGroupM008w:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/008w.png
 	   :align: center
 
-	   UserGroupMScreen008w
+	   UserGroupM008w
 	
 	
 	|
@@ -470,11 +470,11 @@ User/Group Manipulation
 	|
 	|
 
-	.. _UserGroupMScreen001c:
+	.. _UserGroupM001c:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/001c.png
 	   :align: center
 
-	   UserGroupMScreen001c: 
+	   UserGroupM001c: 
 
 
 
@@ -495,11 +495,11 @@ User/Group Manipulation
 	|
 
 
-	.. _UserGroupMScreen009w:
+	.. _UserGroupM009w:
 	.. figure:: /images/testing_scenarios/UserGroupManipulation/009w.png
 	   :align: center
 
-	   UserGroupMScreen009w
+	   UserGroupM009w
 	
 	
 	|

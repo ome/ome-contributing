@@ -9,32 +9,32 @@ Screen/Plate/Well
 
 #. In Importer, in the Location dialog. Switch from Project/Dataset to Screen. Import a plate with multiple fields for example ''ome/data_repo/test_images_good/cellworx/hms/plate1/plate1_802.pnl'' Other useful plate can be found [:download:`here </downloads/ImportTestingSetTable.pdf>`]
 
-   - |C| Refresh Datamanager. Check that a Plate Run (Plate Acquisition) is created in "Screens" tab [:ref:`SPWScreen001`] (Insight only)
+   - |C| Refresh Datamanager. Check that a Plate Run (Plate Acquisition) is created in "Screens" tab [:ref:`SPW001`] (Insight only)
 
 #. Double-click on Plate or Plate Run.
 
-   - |C| Both actions should display in the central panel.[:ref:`SPWScreen002`][:ref:`SPWScreen003`]
+   - |C| Both actions should display in the central panel.[:ref:`SPW002`][:ref:`SPW003`]
 
-#. Double-click on a well/field to open viewer [:ref:`SPWScreen004`][:ref:`SPWScreen005`]
+#. Double-click on a well/field to open viewer [:ref:`SPW004`][:ref:`SPW005`]
 
-#. Select a new Field in the dropdown menu above the central panel [:ref:`SPWScreen006`]
+#. Select a new Field in the dropdown menu above the central panel [:ref:`SPW006`]
 
    - |C| All thumbnails should be updated.
 
-#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`SPWScreen007`]
+#. Toggle on and off the icon allowing you to preview on mouse over above the central panel.[:ref:`SPW007`]
 
-#. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:ref:`SPWScreen008`] (Insight only)
+#. Open the view of all Fields - icon to the left of field choice menu, above central panel.[:ref:`SPW008`] (Insight only)
 
-   - Select "Spatial" view [:ref:`SPWScreen009`][:ref:`SPWScreen010`]
+   - Select "Spatial" view [:ref:`SPW009`][:ref:`SPW010`]
    - |C| that the spatial relation of the fields is displayed properly.
-   - Select "As a row" view [:ref:`SPWScreen011`]
+   - Select "As a row" view [:ref:`SPW011`]
 
 
-	.. _SPWScreen001:
+	.. _SPW001:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
 	   :align: center
 
-	   SPWScreen001: 
+	   SPW001: 
 
 
 	|
@@ -67,12 +67,12 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen002:
+	.. _SPW002:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/002.png
 	   :align: center
 	   :width: 100%
 
-	   SPWScreen002:
+	   SPW002:
 
 
 	|
@@ -105,12 +105,12 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen003:
+	.. _SPW003:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/003.png
 	   :align: center
 	   :width: 100%
 
-	   SPWScreen003
+	   SPW003
 
 
 	|
@@ -143,12 +143,12 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen004:
+	.. _SPW004:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/004.png
 	   :align: center
 	   :width: 100%
 
-	   SPWScreen004
+	   SPW004
 
 
 	|
@@ -181,11 +181,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen005:
+	.. _SPW005:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/005.png
 	   :align: center
 
-	   SPWScreen005
+	   SPW005
 
 
 	|
@@ -218,11 +218,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen006:
+	.. _SPW006:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
 	   :align: center
 
-	   SPWScreen006: 
+	   SPW006: 
 
 
 	|
@@ -255,11 +255,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen007:
+	.. _SPW007:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
 	   :align: center
 
-	   SPWScreen007:
+	   SPW007:
 
 
 	|
@@ -292,11 +292,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen008:
+	.. _SPW008:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/008.png
 	   :align: center
 
-	   SPWScreen008
+	   SPW008
 
 
 	|
@@ -329,11 +329,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen009:
+	.. _SPW009:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
 	   :align: center
 
-	   SPWScreen009: 
+	   SPW009: 
 
 
 	|
@@ -366,11 +366,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen010:
+	.. _SPW010:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
 	   :align: center
 
-	   SPWScreen010:
+	   SPW010:
 
 
 	|
@@ -403,11 +403,11 @@ Screen/Plate/Well
 	|
 
 
-	.. _SPWScreen011:
+	.. _SPW011:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/011.png
 	   :align: center
 
-	   SPWScreen011
+	   SPW011
 	
 	
 	|

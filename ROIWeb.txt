@@ -9,7 +9,7 @@ ROI Web
 
 #. Open in Viewer an image with >3 ROIs propagated through multiple z/t (check here for suitable image [:download:`Images set </downloads/ImportTestingSetTable.pdf>`]). If it does not exist, create it in Insight.)
 
-#. View the ROIs [:ref:`ROIWebScreen001`][:ref:`ROIWebScreen002`]
+#. View the ROIs [:ref:`ROIWeb001`][:ref:`ROIWeb002`]
 
 #. Expand and collapse the multiple-shape ROIs
 
@@ -17,20 +17,20 @@ ROI Web
 
    - |C| that the Viewer updates
 
-#. Tick and untick the Text and Preview boxes [:ref:`ROIWebScreen003`]
+#. Tick and untick the Text and Preview boxes [:ref:`ROIWeb003`]
 
    - |C| the text in the ROIs appear/disappears and the Preview is made visible/invisible in all ROIs and shapes on different planes.
 
 #. Hover with mouse over the Thumbnail in Preview
 
-   - |C| that larger view appears.[:ref:`ROIWebScreen004`]
+   - |C| that larger view appears.[:ref:`ROIWeb004`]
 
 
-	.. _ROIWebScreen001:
+	.. _ROIWeb001:
 	.. figure:: /images/testing_scenarios/ROIWeb/001.png
 	   :align: center
 
-	   ROIWebScreen001: 
+	   ROIWeb001: 
 
 
 	|
@@ -63,11 +63,11 @@ ROI Web
 	|
 
 
-	.. _ROIWebScreen002:
+	.. _ROIWeb002:
 	.. figure:: /images/testing_scenarios/ROIWeb/002.png
 	   :align: center
 
-	   ROIWebScreen002:
+	   ROIWeb002:
 
 
 	|
@@ -100,11 +100,11 @@ ROI Web
 	|
 
 
-	.. _ROIWebScreen003:
+	.. _ROIWeb003:
 	.. figure:: /images/testing_scenarios/ROIWeb/003.png
 	   :align: center
 
-	   ROIWebScreen003
+	   ROIWeb003
 
 
 	|
@@ -137,11 +137,11 @@ ROI Web
 	|
 
 
-	.. _ROIWebScreen004:
+	.. _ROIWeb004:
 	.. figure:: /images/testing_scenarios/ROIWeb/004.png
 	   :align: center
 
-	   ROIWebScreen004
+	   ROIWeb004
 	
 	
 	|

@@ -7,22 +7,22 @@ Importer Standalone
 
 **Purpose of the test** is to check the Importer Standalone functionality in importing images/screens
  
-   - |C| that the application start and you can connect to the server [:ref:`ImporterStAScreen001`][:ref:`ImporterStAScreen002`]
+   - |C| that the application start and you can connect to the server [:ref:`ImporterStA001`][:ref:`ImporterStA002`]
 
-#. Import data in various groups if applicable [:ref:`ImporterStAScreen003`][:ref:`ImporterStAScreen004`][:ref:`ImporterStAScreen005`][:ref:`ImporterStAScreen006`]
+#. Import data in various groups if applicable [:ref:`ImporterStA003`][:ref:`ImporterStA004`][:ref:`ImporterStA005`][:ref:`ImporterStA006`]
 
-#. Create New Project/Dataset to import the images into.[:ref:`ImporterStAScreen007`] Toggle the icon to Screen in the location selection window.[:ref:`ImporterStAScreen008`] Create New Screen to import the plates into.
+#. Create New Project/Dataset to import the images into.[:ref:`ImporterStA007`] Toggle the icon to Screen in the location selection window.[:ref:`ImporterStA008`] Create New Screen to import the plates into.
 
 #. Login with both Importer and Insight
 
    -  Change user password in Insight
    -  Try to import something with importer.
 
-.. _ImporterStAScreen001:
+.. _ImporterStA001:
 .. figure:: /images/testing_scenarios/ImporterStandalone/001.png
    :align: center
 
-   ImporterStAScreen001: 
+   ImporterStA001: 
 
 
 |
@@ -55,11 +55,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen002:
+.. _ImporterStA002:
 .. figure:: /images/testing_scenarios/ImporterStandalone/002.png
    :align: center
 
-   ImporterStAScreen002:
+   ImporterStA002:
 
 
 |
@@ -92,11 +92,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen003:
+.. _ImporterStA003:
 .. figure:: /images/testing_scenarios/ImporterStandalone/003.png
    :align: center
 
-   ImporterStAScreen003
+   ImporterStA003
 
 
 |
@@ -129,11 +129,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen004:
+.. _ImporterStA004:
 .. figure:: /images/testing_scenarios/ImporterStandalone/004.png
    :align: center
 
-   ImporterStAScreen004
+   ImporterStA004
 
 
 |
@@ -166,11 +166,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen005:
+.. _ImporterStA005:
 .. figure:: /images/testing_scenarios/ImporterStandalone/005.png
    :align: center
 
-   ImporterStAScreen005
+   ImporterStA005
 
 
 |
@@ -203,11 +203,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen006:
+.. _ImporterStA006:
 .. figure:: /images/testing_scenarios/ImporterStandalone/006.png
    :align: center
 
-   ImporterStAScreen006: 
+   ImporterStA006: 
 
 
 |
@@ -240,11 +240,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen007:
+.. _ImporterStA007:
 .. figure:: /images/testing_scenarios/ImporterStandalone/007.png
    :align: center
 
-   ImporterStAScreen007:
+   ImporterStA007:
 
 
 |
@@ -277,11 +277,11 @@ Importer Standalone
 |
 
 
-.. _ImporterStAScreen008:
+.. _ImporterStA008:
 .. figure:: /images/testing_scenarios/ImporterStandalone/008.png
    :align: center
 
-   ImporterStAScreen008
+   ImporterStA008
 
 
 |

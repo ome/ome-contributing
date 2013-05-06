@@ -10,34 +10,34 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
 #. |C| the available strings of names/tags/comments/attachments/URL/description in the group
 
-#. Put a valid string into the Search box [:ref:`SearchScreen001`] - try single letters and numerals as well, To get to Search in Web, press to the right of the Search icon. [:ref:`SearchScreen002`].
+#. Put a valid string into the Search box [:ref:`Search001`] - try single letters and numerals as well, To get to Search in Web, press to the right of the Search icon. [:ref:`Search002`].
 
 #. Choose a group in which to search (Insight only)
 
 #. Choose an item (or more items) to search for the string in - Names/Comments/URL/Description/Tags/Comments/Attachments/URL/Description (Insight only)
 
-#. Choose an object to look for Images/Datasets/Projects/Plates/Screens (Web only) [:ref:`SearchScreen003`]
+#. Choose an object to look for Images/Datasets/Projects/Plates/Screens (Web only) [:ref:`Search003`]
 
 #. Choose a date/timespan to search in. Toggle between Created and Updated options in time search (Insight only).
 
-#. Choose a "Specify date range…" option (Insight) or go to Date (Web) and put only From date in, no To date [:ref:`SearchScreen004`]
+#. Choose a "Specify date range…" option (Insight) or go to Date (Web) and put only From date in, no To date [:ref:`Search004`]
 
    - |C| that the images are found which are created/updated after the From date.
 
 #. Search for images trying the options/combinations specified above
 
    - |C| the validity of the Search result
-   - |C| that you can view the thumbnails and metadata of images in Search result [:ref:`SearchScreen005`]
+   - |C| that you can view the thumbnails and metadata of images in Search result [:ref:`Search005`]
 
-#. Repeat steps 1 - 8 with a non-existent string. Try special signs as well. Try single special signs. [:ref:`SearchScreen004`]
+#. Repeat steps 1 - 8 with a non-existent string. Try special signs as well. Try single special signs. [:ref:`Search004`]
 
    - |C| no images were found and that any warning message about wildcard search makes sense considering the character you put into the Search.
 
-#. Put a single character (numeral, letter, and special signs) in the Search window on the top right (Web only) and search.[:ref:`SearchScreen006`]
+#. Put a single character (numeral, letter, and special signs) in the Search window on the top right (Web only) and search.[:ref:`Search006`]
 
    - |C| that no error occurs and that any warning message about wildcard search makes sense considering the character you put into the Search.
 
-#. Try steps 1 - 8 using Wildcard search (see the icon with question mark).[:ref:`SearchScreen007`][:ref:`SearchScreen008`]
+#. Try steps 1 - 8 using Wildcard search (see the icon with question mark).[:ref:`Search007`][:ref:`Search008`]
 
    - |C| the validity of search result.
 
@@ -45,7 +45,7 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 
    - |C| the validity of search result.
 
-#. Filter: Do steps 1 - 8 and filter by Tags (icon showing the Tag - Insight only [:ref:`SearchScreen009`])/Write into "Filter results" box additional strings to filter for (Web only) [:ref:`SearchScreen010`]
+#. Filter: Do steps 1 - 8 and filter by Tags (icon showing the Tag - Insight only [:ref:`Search009`])/Write into "Filter results" box additional strings to filter for (Web only) [:ref:`Search010`]
 
    - |C| the validity of the filtered result.
 
@@ -54,11 +54,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
    - |C| that the feature is self-explaining and easy to follow
 
 
-	.. _SearchScreen001:
+	.. _Search001:
 	.. figure:: /images/testing_scenarios/Search/001.png
 	   :align: center
 
-	   SearchScreen001: 
+	   Search001: 
 
 
 	|
@@ -91,11 +91,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen002:
+	.. _Search002:
 	.. figure:: /images/testing_scenarios/Search/002.png
 	   :align: center
 
-	   SearchScreen002:
+	   Search002:
 
 
 	|
@@ -128,11 +128,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen003:
+	.. _Search003:
 	.. figure:: /images/testing_scenarios/Search/003.png
 	   :align: center
 
-	   SearchScreen003
+	   Search003
 
 
 	|
@@ -165,11 +165,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen004:
+	.. _Search004:
 	.. figure:: /images/testing_scenarios/Search/004.png
 	   :align: center
 
-	   SearchScreen004
+	   Search004
 
 
 	|
@@ -202,12 +202,12 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen005:
+	.. _Search005:
 	.. figure:: /images/testing_scenarios/Search/005.png
 	   :align: center
 	   :width: 100%
 
-	   SearchScreen005
+	   Search005
 
 
 	|
@@ -240,11 +240,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen006:
+	.. _Search006:
 	.. figure:: /images/testing_scenarios/Search/006.png
 	   :align: center
 
-	   SearchScreen006: 
+	   Search006: 
 
 
 	|
@@ -277,12 +277,12 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen007:
+	.. _Search007:
 	.. figure:: /images/testing_scenarios/Search/007.png
 	   :align: center
 	   :width: 100%
 
-	   SearchScreen007:
+	   Search007:
 
 
 	|
@@ -315,11 +315,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen008:
+	.. _Search008:
 	.. figure:: /images/testing_scenarios/Search/008.png
 	   :align: center
 
-	   SearchScreen008
+	   Search008
 
 
 	|
@@ -352,11 +352,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen009:
+	.. _Search009:
 	.. figure:: /images/testing_scenarios/Search/009.png
 	   :align: center
 
-	   SearchScreen009: 
+	   Search009: 
 
 
 	|
@@ -389,11 +389,11 @@ Within this, the "empty To date option" in the search From - To Dates must be ch
 	|
 
 
-	.. _SearchScreen010:
+	.. _Search010:
 	.. figure:: /images/testing_scenarios/Search/010.png
 	   :align: center
 
-	   SearchScreen010:
+	   Search010:
 	
 	
 	|
