@@ -19,11 +19,12 @@ NB: Only Administrators can import data for other users. When importing the data
    - a user which Can Link (CL) - referred to as user-CL from here
 
 
-#. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/pwalczysko/fresh_import/tree/final-scripts>`_. You will need to have well-named images within well-named folders.
+#. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/pwalczysko/fresh_import/tree/final-scripts>`_, and some multi-well plate, like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have well-named images and plates within well-named folders.
 
    - prepare folders with images for user-NL
    - prepare folders with images for user-CL
-
+   - prepare folders with plates for user-NL
+   - prepare folders with plates for user-CL
 
 #. In Insight UI, prepare Projects and Datasets for the users for which you will import later
 
@@ -70,8 +71,8 @@ NB: Only Administrators can import data for other users. When importing the data
 #. Check the imported objects.
 
    - Start checking in Web first, then in Insight. View the data logged in as the user which did not import them and does not own them.
-   - |C| that new P/D/S were created and the images/plates were imported as appropriate [:ref:`ImportAsScreen005`]
-   - |C| that the ownership of the P/D/S and of the imported images/plates is as expected [:ref:`ImportAsScreen006`] 
+   - |C| that new P/D/S were created and the images and plates were imported as appropriate [:ref:`ImportAsScreen005`]
+   - |C| that the ownership of the P/D/S and of the imported images and plates is as expected [:ref:`ImportAsScreen006`] 
 
 
 
