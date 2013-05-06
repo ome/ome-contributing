@@ -7,13 +7,13 @@ Editor from Insight
 
 **Purpose of the test** is to check the functionality (edit, save, re-open) of Editor as launched from Insight
 
-#. Launch editor from the Data Manager toolbar [:ref:`EditorfInsightScreen001`][:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
+#. Launch editor from the Data Manager toolbar [:ref:`EditorfInsight001`][:download:`001 </images/testing_scenarios/EditorfromInsight/001.png>`]. Close and launch the editor from the main menu.
 
 #. Open a "New blank file", add few fields
 
-#. Save locally and save to the server using main menu File/Save As...[:ref:`EditorfInsightScreen002`][:ref:`EditorfInsightScreen003`][:ref:`EditorfInsightScreen004`][:ref:`EditorfInsightScreen005`]
+#. Save locally and save to the server using main menu File/Save As...[:ref:`EditorfInsight002`][:ref:`EditorfInsight003`][:ref:`EditorfInsight004`][:ref:`EditorfInsight005`]
 
-#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:ref:`EditorfInsightScreen006`]
+#. Go back to the Attachments tabs in the left-hand panel, find the [in step 3] created file and open it in the editor using double-click [:ref:`EditorfInsight006`]
 
    - Add more text to the file.
    - Save and close the editor.
@@ -21,11 +21,11 @@ Editor from Insight
 #. Repeat step 4.
 
 
-.. _EditorfInsightScreen001:
+.. _EditorfInsight001:
 .. figure:: /images/testing_scenarios/EditorfromInsight/001.png
    :align: center
 
-   EditorfInsightScreen001: 
+   EditorfInsight001: 
 
 
 |
@@ -58,11 +58,11 @@ Editor from Insight
 |
 
 
-.. _EditorfInsightScreen002:
+.. _EditorfInsight002:
 .. figure:: /images/testing_scenarios/EditorfromInsight/002.png
    :align: center
 
-   EditorfInsightScreen002:
+   EditorfInsight002:
 
 
 |
@@ -95,12 +95,12 @@ Editor from Insight
 |
 
 
-.. _EditorfInsightScreen003:
+.. _EditorfInsight003:
 .. figure:: /images/testing_scenarios/EditorfromInsight/003.png
    :align: center
    :width: 100%
 
-   EditorfInsightScreen003
+   EditorfInsight003
 
 
 |
@@ -133,11 +133,11 @@ Editor from Insight
 |
 
 
-.. _EditorfInsightScreen004:
+.. _EditorfInsight004:
 .. figure:: /images/testing_scenarios/EditorfromInsight/004.png
    :align: center
 
-   EditorfInsightScreen004
+   EditorfInsight004
 
 
 |
@@ -170,11 +170,11 @@ Editor from Insight
 |
 
 
-.. _EditorfInsightScreen005:
+.. _EditorfInsight005:
 .. figure:: /images/testing_scenarios/EditorfromInsight/005.png
    :align: center
 
-   EditorfInsightScreen005
+   EditorfInsight005
 
 
 |
@@ -207,11 +207,11 @@ Editor from Insight
 |
 
 
-.. _EditorfInsightScreen006:
+.. _EditorfInsight006:
 .. figure:: /images/testing_scenarios/EditorfromInsight/006.png
    :align: center
 
-   EditorfInsightScreen006: 
+   EditorfInsight006: 
 
 
 |

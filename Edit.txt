@@ -8,9 +8,9 @@ Edit
 
 **Purpose of the test** is to check that the entities are editable smoothly and that the edited/changed texts are being respected
 
-#. Edit project [:ref:`EditScreen001`], dataset  [:ref:`EditScreen002`], image [:ref:`EditScreen003`], screen [:ref:`EditScreen004`], plate [:ref:`EditScreen005`], plate run [:ref:`EditScreen006`].
+#. Edit project [:ref:`Edit001`], dataset  [:ref:`Edit002`], image [:ref:`Edit003`], screen [:ref:`Edit004`], plate [:ref:`Edit005`], plate run [:ref:`Edit006`].
 
-   - Edit name (right panel, use pencil icon) [:ref:`EditScreen008`]
+   - Edit name (right panel, use pencil icon) [:ref:`Edit008`]
    - Edit description
    - |C| in Web, that the text you put in is escaped properly, this means for example enter special html signs (e.g. <>), or scripts (e.g. '<script>alert('hello')</script>'). The Web application should not interpret them but take them as entered
 
@@ -20,29 +20,29 @@ Edit
 
       Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
    
-      - Edit a channel [:ref:`EditScreen001N`, :ref:`EditScreen001NWeb`, :ref:`EditScreen002N`, :ref:`EditScreen002NWeb`, :ref:`EditScreen002Nb`]
+      - Edit a channel [:ref:`Edit001N`, :ref:`Edit001NWeb`, :ref:`Edit002N`, :ref:`Edit002NWeb`, :ref:`Edit002Nb`]
       - Click Save
       - In the same image, edit channels again, this time click "Apply to All"
-      - |C| that the warning message is displayed [:ref:`EditScreen003N` :ref:`EditScreen003NWeb`].
+      - |C| that the warning message is displayed [:ref:`Edit003N` :ref:`Edit003NWeb`].
       - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
       - Edit channels again, click "Apply to All", then click Cancel and |C| that the original channel names are reset
-      - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`EditScreen004N`, :ref:`EditScreen004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`EditScreen005N`, :ref:`EditScreen005NWeb`]
+      - Open an image in Full Viewer, edit channels, make changes, click Save (Full Viewer is still open) [:ref:`Edit004N`, :ref:`Edit004NWeb`] and |C| that the changes are immediately displayed also in Full Viewer [:ref:`Edit005N`, :ref:`Edit005NWeb`]
 
    - Edit channels of a Plate
 
-      Choose a plate, click on a well sample, edit the channels, make changes and click "Apply to All" [:ref:`EditScreen006N`, :ref:`EditScreen006NWeb`, :ref:`EditScreen006Nb`,  :ref:`EditScreen006NbWeb`]
+      Choose a plate, click on a well sample, edit the channels, make changes and click "Apply to All" [:ref:`Edit006N`, :ref:`Edit006NWeb`, :ref:`Edit006Nb`,  :ref:`Edit006NbWeb`]
 
 
 
-#. Edit share (Web only) [:ref:`EditScreen009`][:ref:`EditScreen010`], 
+#. Edit share (Web only) [:ref:`Edit009`][:ref:`Edit010`], 
 
 
 
-	.. _EditScreen001:
+	.. _Edit001:
 	.. figure:: /images/testing_scenarios/Edit/001.png
 	   :align: center
 
-	   EditScreen001  
+	   Edit001  
 
 
 	|
@@ -75,11 +75,11 @@ Edit
 	|
 
 
-	.. _EditScreen002:
+	.. _Edit002:
 	.. figure:: /images/testing_scenarios/Edit/002.png
 	   :align: center
 
-	   EditScreen002 
+	   Edit002 
 
 
 	|
@@ -112,11 +112,11 @@ Edit
 	|
 
 
-	.. _EditScreen003:
+	.. _Edit003:
 	.. figure:: /images/testing_scenarios/Edit/003.png
 	   :align: center
 
-	   EditScreen003
+	   Edit003
 
 
 	|
@@ -149,11 +149,11 @@ Edit
 	|
 
 
-	.. _EditScreen004:
+	.. _Edit004:
 	.. figure:: /images/testing_scenarios/Edit/004.png
 	   :align: center
 
-	   EditScreen004
+	   Edit004
 
 
 	|
@@ -186,11 +186,11 @@ Edit
 	|
 
 
-	.. _EditScreen005:
+	.. _Edit005:
 	.. figure:: /images/testing_scenarios/Edit/005.png
 	   :align: center
 
-	   EditScreen005
+	   Edit005
 
 
 	|
@@ -223,11 +223,11 @@ Edit
 	|
 
 
-	.. _EditScreen006:
+	.. _Edit006:
 	.. figure:: /images/testing_scenarios/Edit/006.png
 	   :align: center
 
-	   EditScreen006  
+	   Edit006  
 
 
 	|
@@ -273,11 +273,11 @@ Edit
 	|
 
 
-	.. _EditScreen008:
+	.. _Edit008:
 	.. figure:: /images/testing_scenarios/Edit/008.png
 	   :align: center
 
-	   EditScreen008
+	   Edit008
 
 
 	|
@@ -310,11 +310,11 @@ Edit
 	|
 
 
-	.. _EditScreen009:
+	.. _Edit009:
 	.. figure:: /images/testing_scenarios/Edit/009.png
 	   :align: center
 
-	   EditScreen009  
+	   Edit009  
 
 
 	|
@@ -347,11 +347,11 @@ Edit
 	|
 
 
-	.. _EditScreen010:
+	.. _Edit010:
 	.. figure:: /images/testing_scenarios/Edit/010.png
 	   :align: center
 
-	   EditScreen010  
+	   Edit010  
 	
 	
 	|
@@ -385,11 +385,11 @@ Edit
 	|
 
 
-	.. _EditScreen001N:
+	.. _Edit001N:
 	.. figure:: /images/testing_scenarios/Edit/001N.png
 	   :align: center
 
-	   EditScreen001N  
+	   Edit001N  
 	
 	
 	|
@@ -423,7 +423,7 @@ Edit
 	|
 
 
-	.. _EditScreen001NWeb:
+	.. _Edit001NWeb:
 	.. figure:: /images/testing_scenarios/Edit/001NWeb.png
 	   :align: center
 
@@ -462,11 +462,11 @@ Edit
 	|
 
 
-	.. _EditScreen002N:
+	.. _Edit002N:
 	.. figure:: /images/testing_scenarios/Edit/002N.png
 	   :align: center
 
-	   EditScreen002N  
+	   Edit002N  
 	
 	
 	|
@@ -501,7 +501,7 @@ Edit
 	|
 
 
-	.. _EditScreen002NWeb:
+	.. _Edit002NWeb:
 	.. figure:: /images/testing_scenarios/Edit/002NWeb.png
 	   :align: center
 
@@ -540,7 +540,7 @@ Edit
 	|
 
 
-	.. _EditScreen002Nb:
+	.. _Edit002Nb:
 	.. figure:: /images/testing_scenarios/Edit/002Nb.png
 	   :align: center
 
@@ -575,11 +575,11 @@ Edit
 	|
 
 
-	.. _EditScreen003N:
+	.. _Edit003N:
 	.. figure:: /images/testing_scenarios/Edit/003N.png
 	   :align: center
 
-	   EditScreen003N  
+	   Edit003N  
 	
 	
 	|
@@ -614,7 +614,7 @@ Edit
 	|
 
 
-	.. _EditScreen003NWeb:
+	.. _Edit003NWeb:
 	.. figure:: /images/testing_scenarios/Edit/003NWeb.png
 	   :align: center
 
@@ -653,11 +653,11 @@ Edit
 	|
 
 
-	.. _EditScreen004N:
+	.. _Edit004N:
 	.. figure:: /images/testing_scenarios/Edit/004N.png
 	   :align: center
 
-	   EditScreen004N  
+	   Edit004N  
 	
 	
 	|
@@ -691,7 +691,7 @@ Edit
 	|
 
 
-	.. _EditScreen004NWeb:
+	.. _Edit004NWeb:
 	.. figure:: /images/testing_scenarios/Edit/004NWeb.png
 	   :align: center
 
@@ -729,11 +729,11 @@ Edit
 	|
 
 
-	.. _EditScreen005N:
+	.. _Edit005N:
 	.. figure:: /images/testing_scenarios/Edit/005N.png
 	   :align: center
 
-	   EditScreen005N  
+	   Edit005N  
 	
 	
 	|
@@ -768,7 +768,7 @@ Edit
 	|
 
 
-	.. _EditScreen005NWeb:
+	.. _Edit005NWeb:
 	.. figure:: /images/testing_scenarios/Edit/005NWeb.png
 	   :align: center
 
@@ -807,7 +807,7 @@ Edit
 	|
 
 
-	.. _EditScreen006N:
+	.. _Edit006N:
 	.. figure:: /images/testing_scenarios/Edit/006N.png
 	   :align: center
 
@@ -842,7 +842,7 @@ Edit
 	|
 
 
-	.. _EditScreen006NWeb:
+	.. _Edit006NWeb:
 	.. figure:: /images/testing_scenarios/Edit/006NWeb.png
 	   :align: center
 
@@ -879,7 +879,7 @@ Edit
 	|
 
 
-	.. _EditScreen006Nb:
+	.. _Edit006Nb:
 	.. figure:: /images/testing_scenarios/Edit/006Nb.png
 	   :align: center
 
@@ -916,7 +916,7 @@ Edit
 	|
 
 
-	.. _EditScreen006NbWeb:
+	.. _Edit006NbWeb:
 	.. figure:: /images/testing_scenarios/Edit/006NbWeb.png
 	   :align: center
 

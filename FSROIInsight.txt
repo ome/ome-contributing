@@ -22,25 +22,25 @@ FS ROI Insight
 
 #. Open ROI tool.
 
-   - from the icon on the top of the Full Viewer [:ref:`FSroiinsightscreen001`].
+   - from the icon on the top of the Full Viewer [:ref:`FSroiinsight001`].
    - from the main menu Controls/Measurement.
 
-#. Create ROIs (>3) of different types including Text (Text as one of Region types) [:ref:`FSroiinsightscreen002`].
+#. Create ROIs (>3) of different types including Text (Text as one of Region types) [:ref:`FSroiinsight002`].
 
 #. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box.
 
-   - |C| that the text (=comment...) appears and disappears.[:ref:`FSroiinsightscreen003`].
+   - |C| that the text (=comment...) appears and disappears.[:ref:`FSroiinsight003`].
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
 
 #. Move shapes and save.
 
-#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`FSroiinsightscreen005`][:ref:`FSroiinsightscreen006`][:ref:`FSroiinsightscreen007`]. Merge only shapes from different z/t-planes, Split the Merged [:ref:`FSroiinsightscreen008`].
+#. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`FSroiinsight005`][:ref:`FSroiinsight006`][:ref:`FSroiinsight007`]. Merge only shapes from different z/t-planes, Split the Merged [:ref:`FSroiinsight008`].
 
    - using right-click on the image.
    - using right-click on the ROI in the list in Measurement Tools window.
 
-#. Edit: change Fill and Line color [:ref:`FSroiinsightscreen009`]/ show-hide text/change width and height (Inspector tab).
+#. Edit: change Fill and Line color [:ref:`FSroiinsight009`]/ show-hide text/change width and height (Inspector tab).
 
    - |C| the changes of the region display.
 
@@ -75,8 +75,8 @@ FS ROI Insight
  
    - Scroll through the z-planes (scroll bar next to table on the left)
    - Click onto the "Intensity Values" button.
-   - |C| that a new window appears with intensities in cells of a table which map the region [:ref:`FSroiinsightscreen009b`].
-   - Switch the channel [:ref:`FSroiinsightscreen009c`] and |C| that the values change.
+   - |C| that a new window appears with intensities in cells of a table which map the region [:ref:`FSroiinsight009b`].
+   - Switch the channel [:ref:`FSroiinsight009c`] and |C| that the values change.
    - Export to Excel.
    - |C| the file.
 
@@ -87,20 +87,20 @@ FS ROI Insight
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself).
    - NOW Select Intensity Results View tab (the region is still selected - do not change your selection now).
    - Press Add Selected.
-   - |C| the data were added to the table [:ref:`FSroiinsightscreen010`].
+   - |C| the data were added to the table [:ref:`FSroiinsight010`].
    - Try to select more regions and press Add Selected.
-   - |C| the data were added to the table [:ref:`FSroiinsightscreen010`].
+   - |C| the data were added to the table [:ref:`FSroiinsight010`].
    - Try Remove/Remove All.
    - Add data again and Export to Excel (make sure you enlarge the window to see the "Export to Excel" button).
-   - |C| the file. [:ref:`FSroiinsightscreen011`].
+   - |C| the file. [:ref:`FSroiinsight011`].
 
 
 
-	.. _FSroiinsightscreen001:
+	.. _FSroiinsight001:
 	.. figure:: /images/testing_scenarios/ROIInsight/001.png
 	   :align: center
 
-	   FSroiinsightscreen001: 
+	   FSroiinsight001: 
 
 
 	|
@@ -133,11 +133,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen002:
+	.. _FSroiinsight002:
 	.. figure:: /images/testing_scenarios/ROIInsight/002.png
 	   :align: center
 
-	   FSroiinsightscreen002:
+	   FSroiinsight002:
 
 
 	|
@@ -170,11 +170,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen003:
+	.. _FSroiinsight003:
 	.. figure:: /images/testing_scenarios/ROIInsight/003.png
 	   :align: center
 
-	   FSroiinsightscreen003
+	   FSroiinsight003
 
 
 	|
@@ -207,11 +207,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen005:
+	.. _FSroiinsight005:
 	.. figure:: /images/testing_scenarios/ROIInsight/005.png
 	   :align: center
 
-	   FSroiinsightscreen005
+	   FSroiinsight005
 
 
 	|
@@ -244,11 +244,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen006:
+	.. _FSroiinsight006:
 	.. figure:: /images/testing_scenarios/ROIInsight/006.png
 	   :align: center
 
-	   FSroiinsightscreen006: 
+	   FSroiinsight006: 
 
 
 	|
@@ -281,11 +281,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen007:
+	.. _FSroiinsight007:
 	.. figure:: /images/testing_scenarios/ROIInsight/007.png
 	   :align: center
 
-	   FSroiinsightscreen007:
+	   FSroiinsight007:
 
 
 	|
@@ -318,11 +318,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen008:
+	.. _FSroiinsight008:
 	.. figure:: /images/testing_scenarios/ROIInsight/008.png
 	   :align: center
 
-	   FSroiinsightscreen008
+	   FSroiinsight008
 
 
 	|
@@ -355,11 +355,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen009:
+	.. _FSroiinsight009:
 	.. figure:: /images/testing_scenarios/ROIInsight/009.png
 	   :align: center
 
-	   FSroiinsightscreen009: 
+	   FSroiinsight009: 
 
 
 	|
@@ -389,11 +389,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen009b:
+	.. _FSroiinsight009b:
 	.. figure:: /images/testing_scenarios/ROIInsight/009b.png
 	   :align: center
 
-	   FSroiinsightscreen009b: 
+	   FSroiinsight009b: 
 
 
 	|
@@ -423,11 +423,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen009c:
+	.. _FSroiinsight009c:
 	.. figure:: /images/testing_scenarios/ROIInsight/009c.png
 	   :align: center
 
-	   FSroiinsightscreen009c: 
+	   FSroiinsight009c: 
 
 
 	|
@@ -461,11 +461,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen010:
+	.. _FSroiinsight010:
 	.. figure:: /images/testing_scenarios/ROIInsight/010.png
 	   :align: center
 
-	   FSroiinsightscreen010:
+	   FSroiinsight010:
 
 
 	|
@@ -498,11 +498,11 @@ FS ROI Insight
 	|
 
 
-	.. _FSroiinsightscreen011:
+	.. _FSroiinsight011:
 	.. figure:: /images/testing_scenarios/ROIInsight/011.png
 	   :align: center
 
-	   FSroiinsightscreen011
+	   FSroiinsight011
 	
 	
 	|

@@ -26,14 +26,14 @@ Download non-image files (both FS and non-FS)
 
     - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
-    - |C| that you can see Info [:ref:`DownloadEDScreen001`][:ref:`DownloadEDScreen002`]and View the file 
+    - |C| that you can see Info [:ref:`DownloadED001`][:ref:`DownloadED002`]and View the file 
 
-    - Download the Companion file [:ref:`DownloadEDScreen003`][:ref:`DownloadEDScreen004`] - open downloaded file in text editor,
-    - |C| that the size is not zero.[:ref:`DownloadEDScreen005`]
+    - Download the Companion file [:ref:`DownloadED003`][:ref:`DownloadED004`] - open downloaded file in text editor,
+    - |C| that the size is not zero.[:ref:`DownloadED005`]
 
-    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Web only - Acquisition tab) [:ref:`DownloadEDScreen007`].
+    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Web only - Acquisition tab) [:ref:`DownloadED007`].
 
-    - Download the original metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadEDScreen007b`].
+    - Download the original metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadED007b`].
 
     - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
 
@@ -45,33 +45,33 @@ non-FS-Download/Export images
 
 **To test in**: Web, Insight
 
-    - Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
+    - Import an image - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only)
 
     - When the import is finished, select the image
 
     - Go to the right-hand panel General tab,
 
-         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadEDScreen010a`]
-         - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadEDScreen010b`]
-         - in Web click on the arrow in General tab [:ref:`DownloadEDScreen011`]
+         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadED010a`]
+         - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadED010b`]
+         - in Web click on the arrow in General tab [:ref:`DownloadED011`]
          - Download both into your home directory as well as to your Desktop.
-         - |C| that the image has correctly been downloaded [:ref:`DownloadEDScreen012`]
+         - |C| that the image has correctly been downloaded [:ref:`DownloadED012`]
          - Re-import the image.(import in Insight, but check in Web as well)
-         - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`]
+         - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`]
 
-    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadEDScreen009`] (Insight only)
+    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only)
 
          - Select the download option on the right-hand side
-         - Download the image - a zip will be created [:ref:`DownloadEDScreen013b`]
+         - Download the image - a zip will be created [:ref:`DownloadED013b`]
          - Download both into your home directory as well as to your Desktop.
-         - |C| that the image has been downloaded correctly [:ref:`DownloadEDScreen013c`]
+         - |C| that the image has been downloaded correctly [:ref:`DownloadED013c`]
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata).
 
 
     - Now Select an image which had the "Archive" option off at import. If not sure, re-import an image with the "Archive" option off.
-         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadEDScreen013d`]
-         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadEDScreen013e`] nor Web (menu item missing) [:ref:`DownloadEDScreen013f`]
+         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadED013d`]
+         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadED013e`] nor Web (menu item missing) [:ref:`DownloadED013f`]
 
 
 FS-Download/Export images (perform on FS server with FS-data-only database)
@@ -82,11 +82,11 @@ FS-Download/Export images (perform on FS server with FS-data-only database)
     - FS-Single image
 
          - Import an image
-         - Select the download option on the right-hand side [:ref:`DownloadEDScreen010b`, :ref:`FSDownloadEDScreen011`]
+         - Select the download option on the right-hand side [:ref:`DownloadED010b`, :ref:`FSDownloadED011`]
          - Download the image both into your home directory as well as to your Desktop.
-         - |C| that the image has been correctly downloaded [:ref:`DownloadEDScreen012`]
+         - |C| that the image has been correctly downloaded [:ref:`DownloadED012`]
          - Re-import the image.(import in Insight, but check in Web as well)
-         - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadEDScreen013`].
+         - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
     - FS-multi-image - repeat the "FS-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`).
 
@@ -110,30 +110,30 @@ Downgrade
 When performing the following steps, export both into your home directory as well as to your Desktop.
 
     - Select an image and go to the right-hand panel.
-    - Export the image as JPEG (Web & Insight) [:ref:`DownloadEDScreen016`, :ref:`DownloadEDScreen017`], PNG (Insight only), TIFF (Insight only) 
+    - Export the image as JPEG (Web & Insight) [:ref:`DownloadED016`, :ref:`DownloadED017`], PNG (Insight only), TIFF (Insight only) 
 
          - |C| the result
 
-    - Export the image as OME-TIFF [:ref:`DownloadEDScreen017b`, :ref:`DownloadEDScreen017c`]
+    - Export the image as OME-TIFF [:ref:`DownloadED017b`, :ref:`DownloadED017c`]
 
          - for Web, just export and check the file - for Insight, see below
-         - Export using the current schema:[:ref:`DownloadEDScreen018`] (Insight only)
+         - Export using the current schema:[:ref:`DownloadED018`] (Insight only)
          - |C| the exported file,
          - |C| Open the file
-         - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadEDScreen019`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadEDScreen020`]
+         - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadED019`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadED020`]
 
     - Export using an older schema:(Insight only)
 
          - |C| the exported file
          - |C| Open the file
-         - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadEDScreen021`] - Check from command line using tiffinfo
+         - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadED021`] - Check from command line using tiffinfo
     - Re-Import the exported files
 
-	.. _DownloadEDScreen001:
+	.. _DownloadED001:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
 	   :align: center
 
-	   DownloadEDScreen001: 
+	   DownloadED001: 
 
 
 	|
@@ -166,11 +166,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen002:
+	.. _DownloadED002:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/002.png
 	   :align: center
 
-	   DownloadEDScreen002:
+	   DownloadED002:
 
 
 	|
@@ -203,12 +203,12 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen003:
+	.. _DownloadED003:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/003.png
 	   :align: center
 	   :width: 100%
 
-	   DownloadEDScreen003
+	   DownloadED003
 
 
 	|
@@ -241,11 +241,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen004:
+	.. _DownloadED004:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/004.png
 	   :align: center
 
-	   DownloadEDScreen004
+	   DownloadED004
 
 
 	|
@@ -278,11 +278,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen005:
+	.. _DownloadED005:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/005.png
 	   :align: center
 
-	   DownloadEDScreen005
+	   DownloadED005
 
 
 	|
@@ -331,11 +331,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen007:
+	.. _DownloadED007:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007.png
 	   :align: center
 
-	   DownloadEDScreen007:
+	   DownloadED007:
 
 
 	|
@@ -369,11 +369,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen007b:
+	.. _DownloadED007b:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007b.png
 	   :align: center
 
-	   DownloadEDScreen007b:
+	   DownloadED007b:
 
 
 	|
@@ -405,11 +405,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen009:
+	.. _DownloadED009:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/009.png
 	   :align: center
 
-	   DownloadEDScreen009: 
+	   DownloadED009: 
 
 
 	|
@@ -442,11 +442,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen010:
+	.. _DownloadED010:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010.png
 	   :align: center
 
-	   DownloadEDScreen010:
+	   DownloadED010:
 
 
 	|
@@ -480,11 +480,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen010a:
+	.. _DownloadED010a:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010a.png
 	   :align: center
 
-	   DownloadEDScreen010a:
+	   DownloadED010a:
 
 
 	|
@@ -517,11 +517,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen010b:
+	.. _DownloadED010b:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010b.png
 	   :align: center
 
-	   DownloadEDScreen010b:
+	   DownloadED010b:
 
 
 	|
@@ -553,11 +553,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen011:
+	.. _DownloadED011:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/011.png
 	   :align: center
 
-	   DownloadEDScreen011
+	   DownloadED011
 
 
 	|
@@ -595,11 +595,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _FSDownloadEDScreen011:
+	.. _FSDownloadED011:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/FS011.png
 	   :align: center
 
-	   FSDownloadEDScreen011
+	   FSDownloadED011
 
 
 	|
@@ -631,11 +631,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen012:
+	.. _DownloadED012:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/012.png
 	   :align: center
 
-	   DownloadEDScreen012
+	   DownloadED012
 
 
 	|
@@ -668,11 +668,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013:
+	.. _DownloadED013:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013.png
 	   :align: center
 
-	   DownloadEDScreen013
+	   DownloadED013
 
 
 	|
@@ -706,11 +706,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013b:
+	.. _DownloadED013b:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013b.png
 	   :align: center
 
-	   DownloadEDScreen013b
+	   DownloadED013b
 
 
 	|
@@ -744,11 +744,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013c:
+	.. _DownloadED013c:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013c.png
 	   :align: center
 
-	   DownloadEDScreen013c
+	   DownloadED013c
 
 
 	|
@@ -782,11 +782,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013d:
+	.. _DownloadED013d:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013d.png
 	   :align: center
 
-	   DownloadEDScreen013d
+	   DownloadED013d
 
 
 	|
@@ -820,11 +820,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013e:
+	.. _DownloadED013e:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013e.png
 	   :align: center
 
-	   DownloadEDScreen013e
+	   DownloadED013e
 
 
 	|
@@ -858,11 +858,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen013f:
+	.. _DownloadED013f:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013f.png
 	   :align: center
 
-	   DownloadEDScreen013f
+	   DownloadED013f
 
 
 	|
@@ -895,11 +895,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen014:
+	.. _DownloadED014:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/014.png
 	   :align: center
 
-	   DownloadEDScreen014: 
+	   DownloadED014: 
 
 
 	|
@@ -932,11 +932,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen015:
+	.. _DownloadED015:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/015.png
 	   :align: center
 
-	   DownloadEDScreen015:
+	   DownloadED015:
 
 
 	|
@@ -969,11 +969,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen016:
+	.. _DownloadED016:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/016.png
 	   :align: center
 
-	   DownloadEDScreen016
+	   DownloadED016
 
 
 	|
@@ -1006,11 +1006,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen017:
+	.. _DownloadED017:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017.png
 	   :align: center
 
-	   DownloadEDScreen017: 
+	   DownloadED017: 
 
 
 	|
@@ -1044,11 +1044,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen017b:
+	.. _DownloadED017b:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017b.png
 	   :align: center
 
-	   DownloadEDScreen017b: 
+	   DownloadED017b: 
 
 
 	|
@@ -1082,11 +1082,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen017c:
+	.. _DownloadED017c:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017c.png
 	   :align: center
 
-	   DownloadEDScreen017c: 
+	   DownloadED017c: 
 
 
 	|
@@ -1118,11 +1118,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 	|
 
-	.. _DownloadEDScreen018:
+	.. _DownloadED018:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/018.png
 	   :align: center
 
-	   DownloadEDScreen018:
+	   DownloadED018:
 
 
 	|
@@ -1155,12 +1155,12 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen019:
+	.. _DownloadED019:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/019.png
 	   :align: center
 	   :width: 100%
 
-	   DownloadEDScreen019
+	   DownloadED019
 
 
 	|
@@ -1193,11 +1193,11 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen020:
+	.. _DownloadED020:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/020.png
 	   :align: center
 
-	   DownloadEDScreen020
+	   DownloadED020
 
 
 	|
@@ -1230,12 +1230,12 @@ When performing the following steps, export both into your home directory as wel
 	|
 
 
-	.. _DownloadEDScreen021:
+	.. _DownloadED021:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/021.png
 	   :align: center
 	   :width: 110%
 
-	   DownloadEDScreen021
+	   DownloadED021
 	
 	
 	|

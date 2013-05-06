@@ -20,98 +20,98 @@ FS Screen/Plate/Well
 
 #. Double-click on Plate or Plate Run.
 
-   - Both actions should display in the central panel [:ref:`FSspwscreen002`, :ref:`FSspwscreen003`].
+   - Both actions should display in the central panel [:ref:`FSspw002`, :ref:`FSspw003`].
 
-#. Double-click on a well/field to open viewer [:ref:`FSspwscreen004`, :ref:`FSspwscreen005`].
+#. Double-click on a well/field to open viewer [:ref:`FSspw004`, :ref:`FSspw005`].
 
-#. Select a new Field in the dropdown menu above the central panel [:ref:`FSspwscreen006`].
+#. Select a new Field in the dropdown menu above the central panel [:ref:`FSspw006`].
 
    - All thumbnails should be updated.
 
-#. Toggle on and off the icon allowing you to magnify a thumbnail while mousing over it [:ref:`FSspwscreen007`] (Insight only).
+#. Toggle on and off the icon allowing you to magnify a thumbnail while mousing over it [:ref:`FSspw007`] (Insight only).
 
-#. Open the view of all Fields - icon to the left of field choice menu, above central panel [:ref:`FSspwscreen008`] (Insight only).
+#. Open the view of all Fields - icon to the left of field choice menu, above central panel [:ref:`FSspw008`] (Insight only).
 
-   - Select "Spatial" view [:ref:`FSspwscreen009`][:ref:`FSspwscreen010`].
+   - Select "Spatial" view [:ref:`FSspw009`][:ref:`FSspw010`].
    - |C| that the spatial relation of the fields is displayed properly.
-   - Select "As a row" view [:ref:`FSspwscreen011`].
+   - Select "As a row" view [:ref:`FSspw011`].
 
 
-	.. _FSspwscreen001:
+	.. _FSspw001:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
 	   :align: center
 
-	   FSspwscreen001 
+	   FSspw001 
 
 
-	.. _FSspwscreen002:
+	.. _FSspw002:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/002.png
 	   :align: center
 	   :width: 100%
 
-	   FSspwscreen002
+	   FSspw002
 
 
-	.. _FSspwscreen003:
+	.. _FSspw003:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/003.png
 	   :align: center
 	   :width: 100%
 
-	   FSspwscreen003
+	   FSspw003
 
 
-	.. _FSspwscreen004:
+	.. _FSspw004:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/004pub.png
 	   :align: center
 	   :width: 100%
 
-	   FSspwscreen004
+	   FSspw004
 
 
-	.. _FSspwscreen005:
+	.. _FSspw005:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/005pub.png
 	   :align: center
 
-	   FSspwscreen005
+	   FSspw005
 
 
-	.. _FSspwscreen006:
+	.. _FSspw006:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
 	   :align: center
 
-	   FSspwscreen006 
+	   FSspw006 
 
 
-	.. _FSspwscreen007:
+	.. _FSspw007:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
 	   :align: center
 
-	   FSspwscreen007
+	   FSspw007
 
 
-	.. _FSspwscreen008:
+	.. _FSspw008:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/008.png
 	   :align: center
 
-	   FSspwscreen008
+	   FSspw008
 
 
-	.. _FSspwscreen009:
+	.. _FSspw009:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
 	   :align: center
 
-	   FSspwscreen009 
+	   FSspw009 
 
 
-	.. _FSspwscreen010:
+	.. _FSspw010:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
 	   :align: center
 
-	   FSspwscreen010
+	   FSspw010
 
 
-	.. _FSspwscreen011:
+	.. _FSspw011:
 	.. figure:: /images/testing_scenarios/ScreenPlateWell/011pub.png
 	   :align: center
 
-	   FSspwscreen011
+	   FSspw011

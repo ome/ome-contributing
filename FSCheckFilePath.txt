@@ -7,7 +7,7 @@ FS Check Filepath
 
 ``Purpose`` - check the filepath to the image which is shown in clients in FS.
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePathScreen001in`, :ref:`FSCheckFilePathScreen002in`, :ref:`FSCheckFilePathScreen002w`]. A table with the paths of the files associated with the chosen image will appear under the icon [:ref:`FSCheckFilePathScreen003in`, :ref:`FSCheckFilePathScreen003w`].
+#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`FSCheckFilePath001in`, :ref:`FSCheckFilePath002in`, :ref:`FSCheckFilePath002w`]. A table with the paths of the files associated with the chosen image will appear under the icon [:ref:`FSCheckFilePath003in`, :ref:`FSCheckFilePath003w`].
 
 #. Go to the server and find the file according to the given filepath.
 
@@ -18,39 +18,39 @@ FS Check Filepath
 #. Repeat steps 1 and 2 with multi-image file, like `lei`.
 
 
-	.. _FSCheckFilePathScreen001in:
+	.. _FSCheckFilePath001in:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/001in.png
 	   :align: center
 
-	   CheckFilePathScreen001Insight
+	   CheckFilePath001Insight
 
 
-	.. _FSCheckFilePathScreen002in:
+	.. _FSCheckFilePath002in:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002in.png
 	   :align: center
 
-	   CheckFilePathScreen002Insight
+	   CheckFilePath002Insight
 
 
-	.. _FSCheckFilePathScreen002w:
+	.. _FSCheckFilePath002w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
 	   :align: center
 
-	   CheckFilePathScreen002Web
+	   CheckFilePath002Web
 
 
-	.. _FSCheckFilePathScreen003in:
+	.. _FSCheckFilePath003in:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003in.png
 	   :align: center
 
-	   CheckFilePathScreen003Insight
+	   CheckFilePath003Insight
 
 
-	.. _FSCheckFilePathScreen003w:
+	.. _FSCheckFilePath003w:
 	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
-	   CheckFilePathScreen003Web
+	   CheckFilePath003Web
 
 
 .. _label-name2:

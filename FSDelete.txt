@@ -19,67 +19,67 @@ FS Delete
 #. In the DataManager:
 
    - Delete Ratings (Insight only), Delete Comments (right-hand pane).
-   - Delete attachments [:ref:`FSdeletescreen001`][:ref:`FSdeletescreen002`] (left-hand pane in Insight, right hand pane in Web).
-   - Delete tags [:ref:`FSdeletescreen003`][:ref:`FSdeletescreen004`] (left-hand pane).
+   - Delete attachments [:ref:`FSdelete001`][:ref:`FSdelete002`] (left-hand pane in Insight, right hand pane in Web).
+   - Delete tags [:ref:`FSdelete003`][:ref:`FSdelete004`] (left-hand pane).
 
-#. Delete P/D/I/Screen/Plate [:ref:`FSdeletescreen005`][:ref:`FSdeletescreen006`][:ref:`FSdeletescreen007`][:ref:`FSdeletescreen008`].
+#. Delete P/D/I/Screen/Plate [:ref:`FSdelete005`][:ref:`FSdelete006`][:ref:`FSdelete007`][:ref:`FSdelete008`].
 
 #. Import an image rich in metadata and delete it.
 
 #. Import a multi-image file (e.g. `lei`). Choose one image only and press Delete. NB: All images of the multifile will be deleted.
 
 
-.. _FSdeletescreen001:
+.. _FSdelete001:
 .. figure:: /images/testing_scenarios/Delete/001.png
    :align: center
 
-   FSdeletescreen001 
+   FSdelete001 
 
 
-.. _FSdeletescreen002:
+.. _FSdelete002:
 .. figure:: /images/testing_scenarios/Delete/002.png
    :align: center
 
-   FSdeletescreen002
+   FSdelete002
 
 
-.. _FSdeletescreen003:
+.. _FSdelete003:
 .. figure:: /images/testing_scenarios/Delete/003.png
    :align: center
 
-   FSdeletescreen003
+   FSdelete003
 
 
-.. _FSdeletescreen004:
+.. _FSdelete004:
 .. figure:: /images/testing_scenarios/Delete/004.png
    :align: center
 
-   FSdeletescreen004
+   FSdelete004
 
 
-.. _FSdeletescreen005:
+.. _FSdelete005:
 .. figure:: /images/testing_scenarios/Delete/005.png
    :align: center
 
-   FSdeletescreen005
+   FSdelete005
 
 
-.. _FSdeletescreen006:
+.. _FSdelete006:
 .. figure:: /images/testing_scenarios/Delete/006.png
    :align: center
 
-   FSdeletescreen006 
+   FSdelete006 
 
 
-.. _FSdeletescreen007:
+.. _FSdelete007:
 .. figure:: /images/testing_scenarios/Delete/007.png
    :align: center
 
-   FSdeletescreen007
+   FSdelete007
 
 
-.. _FSdeletescreen008:
+.. _FSdelete008:
 .. figure:: /images/testing_scenarios/Delete/008.png
    :align: center
 
-   FSdeletescreen008
+   FSdelete008

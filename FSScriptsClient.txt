@@ -30,15 +30,15 @@ FS Scripts Client
 
    - Split View Figure.
 
-   - |C| that the results link is present [:ref:`FSScriptsClientScreen006`].
+   - |C| that the results link is present [:ref:`FSScriptsClient006`].
 
 
 #. Click on the result link.
 
 
-   - |C| that the Info (and Error if applicable) files are present. - Info should be ALWAYS present [:ref:`FSScriptsClientScreen006`].
+   - |C| that the Info (and Error if applicable) files are present. - Info should be ALWAYS present [:ref:`FSScriptsClient006`].
 
-   - |C| that script ran to completion w/o errors [:ref:`FSScriptsClientScreen006`][:ref:`FSScriptsClientScreen007`].
+   - |C| that script ran to completion w/o errors [:ref:`FSScriptsClient006`][:ref:`FSScriptsClient007`].
 
    - |C| that you can view the results of the scripts.
 
@@ -66,11 +66,11 @@ FS Scripts Client
 
 
 
-.. _FSScriptsClientScreen001:
+.. _FSScriptsClient001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001.png
    :align: center
 
-   FSScriptsClientScreen001: 
+   FSScriptsClient001: 
 
 
 |
@@ -103,11 +103,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen002:
+.. _FSScriptsClient002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002.png
    :align: center
 
-   FSScriptsClientScreen002:
+   FSScriptsClient002:
 
 
 |
@@ -140,11 +140,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen003:
+.. _FSScriptsClient003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003.png
    :align: center
 
-   FSScriptsClientScreen003
+   FSScriptsClient003
 
 
 |
@@ -177,11 +177,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen004:
+.. _FSScriptsClient004:
 .. figure:: /images/testing_scenarios/ScriptsClient/004.png
    :align: center
 
-   FSScriptsClientScreen004
+   FSScriptsClient004
 
 
 |
@@ -214,11 +214,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen005:
+.. _FSScriptsClient005:
 .. figure:: /images/testing_scenarios/ScriptsClient/005.png
    :align: center
 
-   FSScriptsClientScreen005
+   FSScriptsClient005
 
 
 |
@@ -251,11 +251,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen006:
+.. _FSScriptsClient006:
 .. figure:: /images/testing_scenarios/ScriptsClient/006.png
    :align: center
 
-   FSScriptsClientScreen006: 
+   FSScriptsClient006: 
 
 
 |
@@ -288,11 +288,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreen007:
+.. _FSScriptsClient007:
 .. figure:: /images/testing_scenarios/ScriptsClient/007.png
    :align: center
 
-   FSScriptsClientScreen007:
+   FSScriptsClient007:
 
 
 |
@@ -326,11 +326,11 @@ FS Scripts Client
 |
 |
 
-.. _FSScriptsClientScreenN001:
+.. _FSScriptsClientN001:
 .. figure:: /images/testing_scenarios/ScriptsClient/001N.png
    :align: center
 
-   FSScriptsClientScreenN001
+   FSScriptsClientN001
 
 |
 |
@@ -361,11 +361,11 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreenN002:
+.. _FSScriptsClientN002:
 .. figure:: /images/testing_scenarios/ScriptsClient/002N.png
    :align: center
 
-   FSScriptsClientScreenN002
+   FSScriptsClientN002
 
 
 |
@@ -405,10 +405,10 @@ FS Scripts Client
 |
 
 
-.. _FSScriptsClientScreenN003:
+.. _FSScriptsClientN003:
 .. figure:: /images/testing_scenarios/ScriptsClient/003N.png
    :align: center
 
-   FSScriptsClientScreenN003
+   FSScriptsClientN003
 
 
