@@ -9,18 +9,18 @@ View Big Image
 
 #. Open a large image.
 
-   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`FSViewBig001`][:ref:`FSViewBig002`].
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`ViewBig001`][:ref:`ViewBig002`].
    - Move the red square in the bird's eye view by D&D and by clicking into the bird's eye view.
    - Pan.
    - |C| the tile loading.
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBig004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBig005`].
+#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBig004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`ViewBig005`].
 
    - |C| the tile loading.
 
 #. Modify the resolution level using mousewheel (both Web and Insight)
 
-#. Modify rendering settings [:ref:`FSViewBig006`].
+#. Modify rendering settings [:ref:`ViewBig006`].
 
    - Switch channels on / off
    - Change the min / max values in the image.
@@ -28,7 +28,7 @@ View Big Image
 
 #. Save the new rendering settings, close the image and reopen.
 
-   - 
+   - |C| that the rendering settings change is being respected.
 
 |
 |
@@ -42,12 +42,14 @@ View Big Image
 |
 |
 
-.. _FSViewBig001:
+
+.. _ViewBig001:
 .. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
    :align: center
    :width: 100%
 
-   FSViewBig001 
+   ViewBig001 
+
 
 |
 |
@@ -71,11 +73,12 @@ View Big Image
 |
 |
 |
-.. _FSViewBig002:
+
+.. _ViewBig002:
 .. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
    :align: center
 
-   FSViewBig002
+   ViewBig002
 
 |
 |
@@ -100,11 +103,11 @@ View Big Image
 |
 |
 
-.. _FSViewBig004:
+.. _ViewBig004:
 .. figure:: /images/testing_scenarios/ViewBigImage/004.png
    :align: center
 
-   FSViewBig004
+   ViewBig004
 
 |
 |
@@ -129,11 +132,11 @@ View Big Image
 |
 |
 
-.. _FSViewBig005:
+.. _ViewBig005:
 .. figure:: /images/testing_scenarios/ViewBigImage/005.png
    :align: center
 
-   FSViewBig005
+   ViewBig005
 
 |
 |
@@ -158,9 +161,9 @@ View Big Image
 |
 |
 
-.. _FSViewBig006:
+.. _ViewBig006:
 .. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
    :align: center
    :width: 100%
 
-   FSViewBig006
+   ViewBig006
