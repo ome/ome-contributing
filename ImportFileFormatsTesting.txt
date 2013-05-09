@@ -15,9 +15,9 @@ Import File Formats Testing
    - |C| for any import failures, and take a copy of any exceptions [import failure reasons in the "failed" button window] or other failures.[:ref:`ImportFileFT002`][:ref:`ImportFileFT003`][:ref:`ImportFileFT004`]
    - |C| In case import has failed, check that all files have been copied.
    - |C| each imported image visually for the following features:
-   - All images have thumbnails. Note that big images may take some time to generate thumbnails following import [clock placeholder shown] [:ref:`ImportFileFT005`]
-   - All image planes are visible, and that the correct number of planes are in each dimension [check the metadata pane] [:ref:`ImportFileFT006`] and are of the correct size.
-   - All ROIs [if any] are present and in the correct place.[:ref:`ImportFileFT007`]
+      - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFT005`].
+      - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFT006`] and are of the correct size.
+      - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFT007`].
 
 
 

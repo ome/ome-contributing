@@ -7,17 +7,28 @@ View Big Image
 
 **Purpose of the test** is to check viewing/rendering of large images (tiles, bird's eye features)
 
-#. Open a large image
+#. Open a large image.
 
-   - |C| that location of bird's eye corresponds with the image part shown while loading of tiles.[:ref:`ViewBig001`][:ref:`ViewBig002`]
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`FSViewBig001`][:ref:`FSViewBig002`].
+   - Move the red square in the bird's eye view by D&D and by clicking into the bird's eye view.
+   - Pan.
+   - |C| the tile loading.
 
-#. Modify the resolution level using slider on the left (Insight) [:ref:`ViewBig004`] or mousewheel (Web) [:ref:`ViewBig005`]
+#. Modify the resolution level using slider on the left (Insight) [:ref:`FSViewBig004`] or `+`, `-` signs on the left-hand side of the image (Web) [:ref:`FSViewBig005`].
 
-   - |C| tile loading
+   - |C| the tile loading.
 
-#. Modify rendering settings [:ref:`ViewBig006`]
+#. Modify the resolution level using mousewheel (both Web and Insight)
 
+#. Modify rendering settings [:ref:`FSViewBig006`].
 
+   - Switch channels on / off
+   - Change the min / max values in the image.
+   - Note: The thumbnail will be updated only after the new settings are saved.
+
+#. Save the new rendering settings, close the image and reopen.
+
+   - 
 
 |
 |
@@ -30,16 +41,14 @@ View Big Image
 |
 |
 |
-|
 
-.. _ViewBig001:
-.. figure:: /images/testing_scenarios/ViewBigImage/001.png
+.. _FSViewBig001:
+.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
    :align: center
    :width: 100%
 
-   ViewBig001: 
+   FSViewBig001 
 
-
 |
 |
 |
@@ -62,40 +71,12 @@ View Big Image
 |
 |
 |
-|
-|
-|
-|
-|
-|
-
-
-.. _ViewBig002:
-.. figure:: /images/testing_scenarios/ViewBigImage/002.png
+.. _FSViewBig002:
+.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
    :align: center
 
-   ViewBig002:
+   FSViewBig002
 
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 |
 |
 |
@@ -119,20 +100,12 @@ View Big Image
 |
 |
 
-
-.. _ViewBig004:
+.. _FSViewBig004:
 .. figure:: /images/testing_scenarios/ViewBigImage/004.png
    :align: center
 
-   ViewBig004
+   FSViewBig004
 
-
-|
-|
-|
-|
-|
-|
 |
 |
 |
@@ -156,20 +129,12 @@ View Big Image
 |
 |
 
-
-.. _ViewBig005:
+.. _FSViewBig005:
 .. figure:: /images/testing_scenarios/ViewBigImage/005.png
    :align: center
 
-   ViewBig005
+   FSViewBig005
 
-
-|
-|
-|
-|
-|
-|
 |
 |
 |
@@ -193,41 +158,9 @@ View Big Image
 |
 |
 
-
-.. _ViewBig006:
-.. figure:: /images/testing_scenarios/ViewBigImage/006.png
+.. _FSViewBig006:
+.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
    :align: center
    :width: 100%
 
-   ViewBig006: 
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
+   FSViewBig006
