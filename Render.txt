@@ -7,7 +7,10 @@ Render
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional
 
-#. Copy settings from an image [right-click on the thumbnail in central pane].[:ref:`Render001`] (both Insight and Web)
+#. Copy settings from an image [right-click].[:ref:`Render001`] (both Insight and Web)
+
+   - In Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane.
+   - In Insight: both left-hand pane tree and central pane have the appropriate right-click menu.
 
 #. Select a collection of images and paste the settings.[:ref:`Render002`] (both Insight and Web)
 
