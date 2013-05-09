@@ -24,6 +24,8 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Import an image rich in metadata and delete it.
 
+#. Import a multi-image file (e.g. ``test_images_good/lei/050118.lei``). Choose one image only and press Delete. NB: The delete action should not proceed - instead an info will be produced, indicating that you must select all the images in the multi-image file to be able to delete the whole file.
+
 **End of Section 1: Work on your own data**
 
 ---------------------------------------------------------------------------------------------------------------------------------
