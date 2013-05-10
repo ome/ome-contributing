@@ -26,7 +26,7 @@ FS Import File Formats Testing
    - |C| for any import failures, and take a copy of any exceptions
      (= import failure reasons in the "Failed" button window)
      or other failures [:ref:`FSImportFileFT002`, :ref:`FSImportFileFT003`, :ref:`FSImportFileFT004`].
-   - |C| that all files have been copied even in any case, including import failure case.
+   - |C| that all files have been copied in all cases, including import failure case.
    - |C| each imported image visually for the following features:
       - All images have thumbnails. Note that big images may take some time to generate thumbnails following import, showing clock placeholder [:ref:`FSImportFileFT005`].
       - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFT006`] and are of the correct size.
