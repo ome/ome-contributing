@@ -43,6 +43,10 @@ FS View Image
    - Save with all channels turned off.
    - |C| the saved files.
 
+#. Import a multi-image fileset ( = MIF, for example ``lei``). Select one or more image(s) of the MIF in the central pane [:ref:`FSView009`]
+   
+   - |C| that you see the other images belonging to the same MIF being indicated by a lighter highlight [:ref:`FSView010`, :ref:`FSView011`].
+
 
 	.. _FSView002:
 	.. figure:: /images/testing_scenarios/ViewImage/002.png
@@ -93,3 +97,27 @@ FS View Image
 	 
 
 	   FSView008
+	
+	.. _FSView009:
+	.. figure:: /images/testing_scenarios/ViewImage/009.png
+	   :align: center
+
+
+	   FSView009
+	
+	.. _FSView010:
+	.. figure:: /images/testing_scenarios/ViewImage/010.png
+	   :align: center
+
+
+	   FSView010
+	
+	.. _FSView011:
+	.. figure:: /images/testing_scenarios/ViewImage/011.png
+	   :align: center
+
+
+	   FSView011
+	
+	
+	
