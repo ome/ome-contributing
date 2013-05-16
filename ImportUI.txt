@@ -18,7 +18,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Click import.
    - Go to the DataManager.
  
-     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004`]
+     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004b`]
      - |C| that the number next to green tick is incremented when an import is finished successfully.
 
    - Still in Data Manager (left-hand side), hit the refresh button
@@ -26,9 +26,9 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
 
-   - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUIgreen tick and wheel`].
+   - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUI004b`].
 
-#. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUIcreate project`, :ref:`ImportUIcreate dataset`].
+#. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
@@ -53,22 +53,22 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Import a Plate e.g. ``test_images_good/bd-pathway/2009-05-01_000/`` 
 
-   - not creating new Screen at import stage [:ref:`ImportUIno new screen`]
-   - creating a new Screen to import the plate to at import stage [:ref:`ImportUI011new screen`]
+   - not creating new Screen at import stage [:ref:`ImportUI011b`]
+   - creating a new Screen to import the plate to at import stage [:ref:`ImportUI011c`]
 
 
 
 #. When the import is done, check in the import Window:
 
    - |C| that thumbnail(s) is(are) created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUI012`]
-   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI013`].
-   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file or plate [:ref:`ImportUIclick on thumbnail`], click on every thumbnail in the row.
-   - |C| that a click onto the blue link brings you to the dataset in Data Manager [:ref:`ImportUIblue link`].
+   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
+   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file or plate [:ref:`ImportUI013b`], click on every thumbnail in the row.
+   - |C| that a click onto the blue link brings you to the dataset in Data Manager [:ref:`ImportUI013c`].
 
 #. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
    - |C| that you can view the error.[:ref:`ImportUI015`]
-   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner [:ref:`ImportUIsubmit failures`]. 
+   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner [:ref:`ImportUI015b`]. 
    - Enter a valid e-mail address [:ref:`ImportUI016`]
    - |C| that you received a notification e-mail.
    - |C| that your email address, error message, and file links are all included on the QA webpage.
@@ -208,6 +208,98 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004b:
+	.. figure:: /images/testing_scenarios/ImportUI/004b.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004c:
+	.. figure:: /images/testing_scenarios/ImportUI/004c.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004c
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004d:
+	.. figure:: /images/testing_scenarios/ImportUI/004d.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004d
+
+
 	|
 	|
 	|
@@ -470,6 +562,94 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI011b:
+	.. figure:: /images/testing_scenarios/ImportUI/011b.png
+	   :align: center
+
+	   ImportUI011b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI011c:
+	.. figure:: /images/testing_scenarios/ImportUI/011c.png
+	   :align: center
+
+	   ImportUI011c
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 
 
 	.. _ImportUI012:
@@ -481,6 +661,39 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI012b:
+	.. figure:: /images/testing_scenarios/ImportUI/012b.png
+	   :align: center
+
+	   ImportUI012b
+
+
 	|
 	|
 	|
@@ -518,6 +731,72 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI013b:
+	.. figure:: /images/testing_scenarios/ImportUI/013b.png
+	   :align: center
+
+	   ImportUI013b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI013c:
+	.. figure:: /images/testing_scenarios/ImportUI/013c.png
+	   :align: center
+
+	   ImportUI013c
+
+
 	|
 	|
 	|
@@ -593,6 +872,44 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI015b:
+	.. figure:: /images/testing_scenarios/ImportUI/015b.png
+	   :align: center
+
+	   ImportUI015b
+
+
 	|
 	|
 	|
