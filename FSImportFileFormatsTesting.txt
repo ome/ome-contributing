@@ -37,6 +37,11 @@ FS Import File Formats Testing
      :ref:`FSImportFileFT011`, :ref:`FSImportFileFT012`, :ref:`FSImportFileFT013`,
      :ref:`FSImportFileFT014`, :ref:`FSImportFileFT015`, :ref:`FSImportFileFT016`].
 
+#. Mouse over the green tick after a successful import [:ref:`FSImportFileFT017`]. 
+
+   - |C| that you can see the Checksums in the tooltip [:ref:`FSImportFileFT018`].
+
+
 
 .. _FSImportFileFT002:
 .. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002pub.png
@@ -141,3 +146,21 @@ FS Import File Formats Testing
    :align: center
 
    FSImportFileFT016
+
+
+.. _FSImportFileFT017:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/017.png
+   :align: center
+
+   FSImportFileFT017
+
+
+.. _FSImportFileFT018:
+.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/018.png
+   :align: center
+
+   FSImportFileFT018
+
+
+
+
