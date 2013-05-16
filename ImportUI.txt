@@ -13,15 +13,24 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
    - Add them to the queue by pressing the ">" control.
    - Select "New From Folder" option [:ref:`ImportUI001`] when choosing where to import the images.
-   - |C| A new Dataset will be created with the name of the folder.
-   - |C| Make sure the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUI002`]
+   - |C| that a new Dataset will be created with the name of the folder.
+   - |C| that the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUI002`]
    - Click import.
-   - Go to the DataManager (left-hand side). Hit the refresh button
-   - |C| make sure that only one dataset is created. [:ref:`ImportUI003`]
+   - Go to the DataManager.
+ 
+     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004`]
+     - |C| that the number next to green tick is incremented when an import is finished successfully.
 
-#. Repeat (1) this time by selecting a folder. [:ref:`ImportUI004`]
+   - Still in Data Manager (left-hand side), hit the refresh button
+     - |C| that only one dataset is created. [:ref:`ImportUI003`]
 
-#. Tag at import (for permissions testing, tag with tags belonging to other user's)
+#. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
+
+   - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUIgreen tick and wheel`].
+
+#. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUIcreate project`, :ref:`ImportUIcreate dataset`].
+
+#. Tag at import (for permissions testing, tag with tags belonging to other users)
 
    - Select at least 2 images.
    - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
@@ -37,25 +46,30 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
    - |C| that the images are tagged and the tag is shown on thumbnails
-   - |C| The tag is created once
-   - |C| no new tag is created with the name of the existing tag.
+   - |C| that the tag is created once
+   - |C| that no new tag is created with the name of an existing tag.
 
 #. In the Location dialog, press the Screen button [:ref:`ImportUI011`]
 
-#. Import a Plate e.g. ``data_repo/from_skyking/flex/achim/003003000.flex``
+#. Import a Plate e.g. ``test_images_good/bd-pathway/2009-05-01_000/`` 
+
+   - not creating new Screen at import stage [:ref:`ImportUIno new screen`]
+   - creating a new Screen to import the plate to at import stage [:ref:`ImportUI011new screen`]
+
+
 
 #. When the import is done, check in the import Window:
 
-   - |C| If thumbnail is created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUI012`]
-   - |C| Hover over it.[:ref:`ImportUI013`]
-   - |C| Click on the thumbnail to open the image viewer
-   - |C| If Dataset is highlighted in blue, click on the dataset. This should bring you to the Data Manager.
+   - |C| that thumbnail(s) is(are) created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUI012`]
+   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI013`].
+   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file or plate [:ref:`ImportUIclick on thumbnail`], click on every thumbnail in the row.
+   - |C| that a click onto the blue link brings you to the dataset in Data Manager [:ref:`ImportUIblue link`].
 
 #. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
    - |C| that you can view the error.[:ref:`ImportUI015`]
-   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner. [:ref:`ImportUI016`]
-   - Enter a valid e-mail address
+   - Submit the error to the QA system using "Submit Failures" button in the right bottom corner [:ref:`ImportUIsubmit failures`]. 
+   - Enter a valid e-mail address [:ref:`ImportUI016`]
    - |C| that you received a notification e-mail.
    - |C| that your email address, error message, and file links are all included on the QA webpage.
    - Send a reply comment to the QA webpage, include your email address and a message.
