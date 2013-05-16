@@ -26,8 +26,14 @@ FS Delete
 
 #. Import an image rich in metadata and delete it.
 
-#. Import a multi-image file (e.g. `lei`). Choose one image only and press Delete. NB: All images of the multifile will be deleted.
+#. Import a multi-image fileset (= MIF, for example `lei`). Choose one image of the MIF only and press Delete. 
+   
+   - |C| that the action does not proceed [:ref:`FSdelete009`].
+   - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
 
+#. Choose all the images in the MIF and try to Delete them.
+
+   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`].
 
 .. _FSdelete001:
 .. figure:: /images/testing_scenarios/Delete/001.png
@@ -83,3 +89,16 @@ FS Delete
    :align: center
 
    FSdelete008
+
+.. _FSdelete009:
+.. figure:: /images/testing_scenarios/Delete/009.png
+   :align: center
+
+   FSdelete009
+
+.. _FSdelete010:
+.. figure:: /images/testing_scenarios/Delete/010.png
+   :align: center
+
+   FSdelete010
+
