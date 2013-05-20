@@ -30,6 +30,19 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
+#. Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
+
+   - add both files to the import queue
+   - click import
+   - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
+   - |C| that the import of the duplicate does not proceed (in this transaction)
+
+#. (FS only) Upload.
+
+   - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``data_repo/test_images_good/leica-lif/free edge 6.lif`` or other ``.lif`` files
+   - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
+   - |C| that the size in the header of the importer window changes after each import
+
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
    - Select at least 2 images.
@@ -60,12 +73,35 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. When the import is done, check in the import Window:
 
-   - |C| that thumbnail(s) is(are) created. Note that the "Show thumbnail" must have been selected prior to the import. [:ref:`ImportUI012`]
+   - |C| that thumbnail(s) is(are) created [:ref:`ImportUI012`].
    - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
-   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file or plate [:ref:`ImportUI013b`], click on every thumbnail in the row.
+   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
    - |C| that a click onto the blue link brings you to the dataset in Data Manager [:ref:`ImportUI013c`].
 
-#. Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
+
+
+#. (FS only) Error reporting in all import stages.
+
+   - Failure at scanning stage: Import ``test_images_bad/Mike.dv``
+
+     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry option works.
+   
+   - Failure of checksums: Test on ``ome-adhoc-test`` server.
+
+     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry option works.
+
+   - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff``
+
+     - |C| that you can submit the .zip, consisting of the file AND log
+     - |C| that you can submit the exceptions
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry option works.
+
+#. Error submission process: Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
    - |C| that you can view the error.[:ref:`ImportUI015`]
    - Submit the error to the QA system using "Submit Failures" button in the right bottom corner [:ref:`ImportUI015b`]. 
