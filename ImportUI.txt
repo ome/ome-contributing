@@ -38,7 +38,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| that the import of the duplicate does not proceed (in this transaction)
    - |C| the Companion File:
       
-     - Go to right-hand pane, Acquisition tab
+     - Go to Data Manager, right-hand pane, Acquisition tab
      - |C| that the first harmonica tab is ```Companion file``` (NOT ```Original Metadata```)
      - Expand the ```Companion file harmonica``` tab and check the file is there
 
