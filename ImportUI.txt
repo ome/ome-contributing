@@ -39,14 +39,23 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| the Companion File:
       
      - Go to Data Manager, right-hand pane, Acquisition tab
-     - |C| that the first harmonica tab is ```Companion file``` (NOT ```Original Metadata```)
-     - Expand the ```Companion file harmonica``` tab and check the file is there
+     - |C| that the first harmonica tab is ``Companion file`` (NOT ``Original Metadata``)
+     - Expand the ``Companion file`` harmonica tab and check the file is there
 
 #. (FS only) Upload.
 
    - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``data_repo/test_images_good/leica-lif/free edge 6.lif`` or other ``.lif`` files
    - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
    - |C| that the size in the header of the importer window changes after each import
+
+#. Cancelling: 
+   
+   - Cancel a single running import using ``Cancel`` button.
+   - |C| that only this particular import has been cancelled
+   - Cancel all imports using ``Close`` button
+   - |C| that you get warning popup.
+   - Click ``Yes`` in the popup. 
+   - |C| that the importer closes after the uploads have finished.
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
