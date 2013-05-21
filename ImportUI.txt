@@ -30,12 +30,17 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
-#. Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
+#. Duplicate and Companion File: Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
 
    - add both files to the import queue
    - click import
    - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
    - |C| that the import of the duplicate does not proceed (in this transaction)
+   - |C| the Companion File:
+      
+     - Go to right-hand pane, Acquisition tab
+     - |C| that the first harmonica tab is ```Companion file``` (NOT ```Original Metadata```)
+     - Expand the ```Companion file harmonica``` tab and check the file is there
 
 #. (FS only) Upload.
 
