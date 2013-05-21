@@ -85,12 +85,17 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 
 
-#. When the import is done, check in the import Window:
+#. When the import is done, check in the Importer Window:
 
    - |C| that thumbnail(s) is(are) created [:ref:`ImportUI012`].
    - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
    - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
-   - |C| that a click onto the blue link brings you to the dataset in Data Manager [:ref:`ImportUI013c`].
+   - |C| the ``View`` menu: [:ref:`ImportUI013c`].
+
+     - |C| that the ``In Full Viewer`` item opens the image in viewer
+     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
+     - |C| that the ``Import Log`` item shows the Log file
+     - (FS only) |C| that the ``Checksum`` item opens the checksum popup
 
 
 
