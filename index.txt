@@ -61,6 +61,7 @@ Testing scenarios
    Search
    Share
    ScreenPlateWell
+   StressPerformance
    UserGroupManipulation
    ViewImageWithPerm
    ViewBigImage
