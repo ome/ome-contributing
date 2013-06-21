@@ -56,10 +56,12 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    
    - Cancel a single running import using ``Cancel`` button.
    - |C| that only this particular import has been cancelled
-   - Cancel all imports using ``Close`` button
+   - Cancel all imports using ``Cancel All`` button
    - |C| that you get warning popup.
    - Click ``Yes`` in the popup. 
-   - |C| that the importer closes after the uploads have finished.
+   - |C| that all the imports where the upload did not start yet are cancelled
+   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Data Manager.
+   - Repeat step 6 when importing a whole folder (for example ``test_images_good/dv``).
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
