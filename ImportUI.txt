@@ -101,7 +101,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
      - |C| that the ``In Full Viewer`` item opens the image in viewer
      - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
      - |C| that the ``View Import Log`` item shows the Log file
-     - Import the folder ``team/pwalczysko/broken images from Andrew/``into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log - |C| that the import log appears.
+     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
      - (FS only) |C| that the ``Checksum`` item opens the checksum popup
 
 
@@ -126,7 +126,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
      - |C| that you can submit the exceptions
      - |C| that you have Retry as the menu option in the ``Failure`` menu.
      - |C| that the Retry All button is greyed out.
-     - Import the folder ``team/pwalczysko/broken images from Andrew/``into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log - |C| that the import log appears.
+     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
 
 #. Error submission process: Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
