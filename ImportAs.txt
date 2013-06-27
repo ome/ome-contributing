@@ -19,7 +19,7 @@ NB: Only Administrators can import data for other users. When importing the data
    - a user which Can Link (CL) - referred to as user-CL from here
 
 
-#. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/pwalczysko/fresh_import/tree/final-scripts>`_, and some multi-well plate, like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have well-named images and plates within well-named folders.
+#. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/ome/omero-setup>`_, and some multi-well plate, like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have well-named images and plates within well-named folders.
 
    - prepare folders with images for user-NL
    - prepare folders with images for user-CL
