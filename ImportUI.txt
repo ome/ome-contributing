@@ -24,10 +24,10 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Still in Data Manager (left-hand side), hit the refresh button
      - |C| that only one dataset is created. [:ref:`ImportUI003`]
 
-#. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`]. Make sure you have also images which will fail to import inside the folder (``test_images_bad/mike1_R3D.dv``).
+#. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
 
    - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUI004b`].
-   - |C| that the ``Retry`` item in the submenu under ``Failed`` button
+
    - |C| that only one dataset was created for the imported folder.
    - Import again another folder and check that again just one dataset was created and no duplicate imports or re-imports of the previous folder occurred.
 
@@ -100,7 +100,8 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
      - |C| that the ``In Full Viewer`` item opens the image in viewer
      - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
-     - |C| that the ``Import Log`` item shows the Log file
+     - |C| that the ``View Import Log`` item shows the Log file
+     - Import the folder ``team/pwalczysko/broken images from Andrew/``into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log - |C| that the import log appears.
      - (FS only) |C| that the ``Checksum`` item opens the checksum popup
 
 
@@ -111,20 +112,21 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
      - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
      - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry option works.
+     - |C| that the Retry All button works.
    
    - Failure of checksums: Test on ``ome-adhoc-test`` server.
 
      - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
      - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry option works.
+     - |C| that the Retry All button works.
 
-   - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff``
+   - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff`` and ``team/pwalczysko/broken images from Andrew/``
 
      - |C| that you can submit the .zip, consisting of the file AND log
      - |C| that you can submit the exceptions
      - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry option works.
+     - |C| that the Retry All button is greyed out.
+     - Import the folder ``team/pwalczysko/broken images from Andrew/``into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log - |C| that the import log appears.
 
 #. Error submission process: Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
