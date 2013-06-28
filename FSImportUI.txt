@@ -106,27 +106,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 
 
-#. Error reporting in all import stages.
 
-   - Failure at scanning stage: Import ``test_images_bad/Mike.dv``
-
-     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button works.
-   
-   - Failure of checksums: Test on ``ome-adhoc-test`` server.
-
-     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button works.
-
-   - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff`` and ``team/pwalczysko/broken images from Andrew/``
-
-     - |C| that you can submit the .zip, consisting of the file AND log
-     - |C| that you can submit the exceptions
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button is greyed out.
-     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
 
 
 	.. _FSImportUI001:
