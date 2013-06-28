@@ -13,22 +13,22 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
    - Add them to the queue by pressing the ">" control.
    - Select "New From Folder" option [:ref:`FSImportUI001`] when choosing where to import the images.
-   -  C  that a new Dataset will be created with the name of the folder.
-   -  C  that the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`FSImportUI002`]
+   - |C| that a new Dataset will be created with the name of the folder.
+   - |C| that the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`FSImportUI002`]
    - Click import.
    - Go to the DataManager.
  
-     -  C  that the wheel in the toolbar is spinning when import in progress [:ref:`FSImportUI004b`]
-     -  C  that the number next to green tick is incremented when an import is finished successfully.
+     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`FSImportUI004b`]
+     - |C| that the number next to green tick is incremented when an import is finished successfully.
 
    - Still in Data Manager (left-hand side), hit the refresh button
-     -  C  that only one dataset is created. [:ref:`FSImportUI003`]
+     - |C| that only one dataset is created. [:ref:`FSImportUI003`]
 
 #. Repeat (1) this time selecting a whole folder to import. [:ref:`FSImportUI004`].
 
-   -  C  that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`FSImportUI004b`].
+   - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`FSImportUI004b`].
 
-   -  C  that only one dataset was created for the imported folder.
+   - |C| that only one dataset was created for the imported folder.
    - Import again another folder and check that again just one dataset was created and no duplicate imports or re-imports of the previous folder occurred.
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`FSImportUI004c`, :ref:`FSImportUI004d`].
@@ -37,30 +37,30 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
    - add both files to the import queue
    - click import
-   -  C  that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
-   -  C  that the import of the duplicate does not proceed (in this transaction)
-   -  C  that the counter in the Toolbar of the Data Manager is not counting the skipped files as ``Imported``
-   -  C  the Companion File:
+   - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
+   - |C| that the import of the duplicate does not proceed (in this transaction)
+   - |C| that the counter in the Toolbar of the Data Manager is not counting the skipped files as ``Imported``
+   - |C| the Companion File:
       
      - Go to Data Manager, right-hand pane, Acquisition tab
-     -  C  that the first harmonica tab is ``Companion file`` (NOT ``Original Metadata``)
+     - |C| that the first harmonica tab is ``Companion file`` (NOT ``Original Metadata``)
      - Expand the ``Companion file`` harmonica tab and check the file is there
 
 #. Upload.
 
    - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``.lif`` files
-   -  C  that the import of the files in the queue starts immediately after the upload of the previous file is finished
-   -  C  that the size in the header of the importer window changes after each import
+   - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
+   - |C| that the size in the header of the importer window changes after each import
 
 #. Cancelling: 
    
    - Cancel a single running import using ``Cancel`` button.
-   -  C  that only this particular import has been cancelled
+   - |C| that only this particular import has been cancelled
    - Cancel all imports using ``Cancel All`` button
-   -  C  that you get warning popup.
+   - |C| that you get warning popup.
    - Click ``Yes`` in the popup. 
-   -  C  that all the imports where the upload did not start yet are cancelled
-   -  C  that after everything is imported or cancelled the spinners stop both in Importer and Data Manager.
+   - |C| that all the imports where the upload did not start yet are cancelled
+   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Data Manager.
    - Repeat step 6 when importing a whole folder
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
@@ -70,17 +70,17 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Create a new tag
    - Import the images.
    - Go to the DataManager (left-hand side). Refresh
-   -  C  that the images are tagged and the tag is shown on thumbnails [:ref:`FSImportUI006`][:ref:`FSImportUI007`]
-   -  C  and the tag is created once. [:ref:`FSImportUI008`]
+   - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`FSImportUI006`][:ref:`FSImportUI007`]
+   - |C| and the tag is created once. [:ref:`FSImportUI008`]
 
 #. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
 
    - create a new tag and add an existing tag.[:ref:`FSImportUI009`]
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
-   -  C  that the images are tagged and the tag is shown on thumbnails
-   -  C  that the tag is created once
-   -  C  that no new tag is created with the name of an existing tag.
+   - |C| that the images are tagged and the tag is shown on thumbnails
+   - |C| that the tag is created once
+   - |C| that no new tag is created with the name of an existing tag.
 
 #. In the Location dialog, press the Screen button [:ref:`FSImportUI011`]
 
@@ -93,16 +93,16 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. When the import is done, check in the Importer Window:
 
-   -  C  that thumbnail(s) is(are) created [:ref:`FSImportUI012`].
-   -  C  that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
-   -  C  that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], click on every thumbnail in the row.
-   -  C  the ``View`` menu: [:ref:`FSImportUI013c`].
+   - |C| that thumbnail(s) is(are) created [:ref:`FSImportUI012`].
+   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
+   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], click on every thumbnail in the row.
+   - |C| the ``View`` menu: [:ref:`FSImportUI013c`].
 
-     -  C  that the ``In Full Viewer`` item opens the image in viewer
-     -  C  that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
-     -  C  that the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
-     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log.  C  that the import log appears.
-     -  C  that the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
+     - |C| that the ``In Full Viewer`` item opens the image in viewer
+     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
+     - |C| that the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
+     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+     - |C| that the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
 
 
 
