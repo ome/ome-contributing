@@ -28,20 +28,20 @@ FS Delete
 
 #. Import a multi-image fileset (= MIF, for example `lei`). Choose one image of the MIF only and press Delete. 
    
-   - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete009`].
+   - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
 
 #. Choose all the images in the MIF and try to Delete them.
 
-   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`, :ref:`FSdelete009`].
+   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete011`, :ref:`FSdelete012`].
 
 #. Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
 
-   - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete009`].
+   - |C| that the action does not proceed [:ref:`FSdelete013`, :ref:`FSdelete014`].
 
 #. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should be complete now. Select the dataset with the (now) complete MIF and try to delete it.
    
-   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`, :ref:`FSdelete009`].
+   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete015`, :ref:`FSdelete016`].
 
 .. _FSdelete001:
 .. figure:: /images/testing_scenarios/Delete/001.png
@@ -109,4 +109,46 @@ FS Delete
    :align: center
 
    FSdelete010
+
+
+.. _FSdelete011:
+.. figure:: /images/testing_scenarios/Delete/011.png
+   :align: center
+
+   FSdelete011
+
+
+.. _FSdelete012:
+.. figure:: /images/testing_scenarios/Delete/012.png
+   :align: center
+
+   FSdelete012
+
+
+.. _FSdelete013:
+.. figure:: /images/testing_scenarios/Delete/013.png
+   :align: center
+
+   FSdelete013
+
+
+.. _FSdelete014:
+.. figure:: /images/testing_scenarios/Delete/014.png
+   :align: center
+
+   FSdelete014
+
+
+.. _FSdelete015:
+.. figure:: /images/testing_scenarios/Delete/015.png
+   :align: center
+
+   FSdelete015
+
+
+.. _FSdelete016:
+.. figure:: /images/testing_scenarios/Delete/016.png
+   :align: center
+
+   FSdelete016
 
