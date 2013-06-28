@@ -1,0 +1,851 @@
+FS Import (UI)
+===============
+
+
+
+**To test in**: Insight
+
+**Purpose of the test** is to check all the features of Importer UI as started from Insight
+
+Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+
+#. Select single image files
+
+   - Add them to the queue by pressing the ">" control.
+   - Select "New From Folder" option [:ref:`ImportUI001`] when choosing where to import the images.
+   - |C| that a new Dataset will be created with the name of the folder.
+   - |C| that the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUI002`]
+   - Click import.
+   - Go to the DataManager.
+ 
+     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004b`]
+     - |C| that the number next to green tick is incremented when an import is finished successfully.
+
+   - Still in Data Manager (left-hand side), hit the refresh button
+     - |C| that only one dataset is created. [:ref:`ImportUI003`]
+
+#. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
+
+   - |C| that the counter in toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUI004b`].
+
+   - |C| that only one dataset was created for the imported folder.
+   - Import again another folder and check that again just one dataset was created and no duplicate imports or re-imports of the previous folder occurred.
+
+#. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
+
+#. Duplicate and Companion File: Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
+
+   - add both files to the import queue
+   - click import
+   - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
+   - |C| that the import of the duplicate does not proceed (in this transaction)
+   - |C| that the counter in the Toolbar of the Data Manager is not counting the skipped files as ``Imported``
+   - |C| the Companion File:
+      
+     - Go to Data Manager, right-hand pane, Acquisition tab
+     - |C| that the first harmonica tab is ``Companion file`` (NOT ``Original Metadata``)
+     - Expand the ``Companion file`` harmonica tab and check the file is there
+
+#. Upload.
+
+   - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``data_repo/test_images_good/leica-lif/free edge 6.lif`` or other ``.lif`` files
+   - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
+   - |C| that the size in the header of the importer window changes after each import
+
+#. Cancelling: 
+   
+   - Cancel a single running import using ``Cancel`` button.
+   - |C| that only this particular import has been cancelled
+   - Cancel all imports using ``Cancel All`` button
+   - |C| that you get warning popup.
+   - Click ``Yes`` in the popup. 
+   - |C| that all the imports where the upload did not start yet are cancelled
+   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Data Manager.
+   - Repeat step 6 when importing a whole folder (for example ``test_images_good/dv``).
+
+#. Tag at import (for permissions testing, tag with tags belonging to other users)
+
+   - Select at least 2 images.
+   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
+   - Create a new tag
+   - Import the images.
+   - Go to the DataManager (left-hand side). Refresh
+   - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
+   - |C| and the tag is created once. [:ref:`ImportUI008`]
+
+#. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
+
+   - create a new tag and add an existing tag.[:ref:`ImportUI009`]
+   - Import the images
+   - Go to the DataManager (left-hand side). Refresh,
+   - |C| that the images are tagged and the tag is shown on thumbnails
+   - |C| that the tag is created once
+   - |C| that no new tag is created with the name of an existing tag.
+
+#. In the Location dialog, press the Screen button [:ref:`ImportUI011`]
+
+#. Import a Plate
+
+   - not creating new Screen at import stage [:ref:`ImportUI011b`]
+   - creating a new Screen to import the plate to at import stage [:ref:`ImportUI011c`]
+
+
+
+#. When the import is done, check in the Importer Window:
+
+   - |C| that thumbnail(s) is(are) created [:ref:`ImportUI012`].
+   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
+   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
+   - |C| the ``View`` menu: [:ref:`ImportUI013c`].
+
+     - |C| that the ``In Full Viewer`` item opens the image in viewer
+     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
+     - |C| that the ``View Import Log`` item shows the Log file
+     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+     - (FS only) |C| that the ``Checksum`` item opens the checksum popup
+
+
+
+#. Error reporting in all import stages.
+
+   - Failure at scanning stage: Import ``test_images_bad/Mike.dv``
+
+     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry All button works.
+   
+   - Failure of checksums: Test on ``ome-adhoc-test`` server.
+
+     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry All button works.
+
+   - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff`` and ``team/pwalczysko/broken images from Andrew/``
+
+     - |C| that you can submit the .zip, consisting of the file AND log
+     - |C| that you can submit the exceptions
+     - |C| that you have Retry as the menu option in the ``Failure`` menu.
+     - |C| that the Retry All button is greyed out.
+     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+
+
+	.. _ImportUI001:
+	.. figure:: /images/testing_scenarios/ImportUI/001.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI001 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI002:
+	.. figure:: /images/testing_scenarios/ImportUI/002.png
+	   :align: center
+
+	   ImportUI002
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI003:
+	.. figure:: /images/testing_scenarios/ImportUI/003.png
+	   :align: center
+
+	   ImportUI003
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004:
+	.. figure:: /images/testing_scenarios/ImportUI/004.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004b:
+	.. figure:: /images/testing_scenarios/ImportUI/004b.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004c:
+	.. figure:: /images/testing_scenarios/ImportUI/004c.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004c
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI004d:
+	.. figure:: /images/testing_scenarios/ImportUI/004d.png
+	   :align: center
+	   :width: 100%
+
+	   ImportUI004d
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI005:
+	.. figure:: /images/testing_scenarios/ImportUI/005.png
+	   :align: center
+
+	   ImportUI005
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI006:
+	.. figure:: /images/testing_scenarios/ImportUI/006.png
+	   :align: center
+
+	   ImportUI006 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI007:
+	.. figure:: /images/testing_scenarios/ImportUI/007.png
+	   :align: center
+
+	   ImportUI007
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI008:
+	.. figure:: /images/testing_scenarios/ImportUI/008.png
+	   :align: center
+
+	   ImportUI008
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI009:
+	.. figure:: /images/testing_scenarios/ImportUI/009.png
+	   :align: center
+
+	   ImportUI009 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI011:
+	.. figure:: /images/testing_scenarios/ImportUI/011.png
+	   :align: center
+
+	   ImportUI011
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI011b:
+	.. figure:: /images/testing_scenarios/ImportUI/011b.png
+	   :align: center
+
+	   ImportUI011b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI011c:
+	.. figure:: /images/testing_scenarios/ImportUI/011c.png
+	   :align: center
+
+	   ImportUI011c
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI012:
+	.. figure:: /images/testing_scenarios/ImportUI/012.png
+	   :align: center
+
+	   ImportUI012
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI012b:
+	.. figure:: /images/testing_scenarios/ImportUI/012b.png
+	   :align: center
+
+	   ImportUI012b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI013:
+	.. figure:: /images/testing_scenarios/ImportUI/013.png
+	   :align: center
+
+	   ImportUI013
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI013b:
+	.. figure:: /images/testing_scenarios/ImportUI/013b.png
+	   :align: center
+
+	   ImportUI013b
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ImportUI013c:
+	.. figure:: /images/testing_scenarios/ImportUI/013c.png
+	   :align: center
+
+	   ImportUI013c
+
+
+
