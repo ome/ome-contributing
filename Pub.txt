@@ -7,11 +7,12 @@ Scenarios for Publication
    :maxdepth: 1
 
    FSImportFileFormatsTesting
+   FSImportUI
    FSViewImage
    FSViewBigImage
    FSScreenPlateWell
    FSCheckFilePath
    FSRender
    FSDelete
-   FSImportUI
+
 
