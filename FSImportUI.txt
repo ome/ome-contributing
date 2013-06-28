@@ -100,9 +100,9 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
      - |C| that the ``In Full Viewer`` item opens the image in viewer
      - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
-     - |C| that the ``View Import Log`` item shows the Log file
+     - |C| that the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
      - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
-     - (FS only) |C| that the ``Checksum`` item opens the checksum popup
+     - |C| that the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
 
 
 
@@ -827,5 +827,89 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 	   ImportUI013c
 
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSImportUI013d:
+	.. figure:: /images/testing_scenarios/ImportUI/013d.png
+	   :align: center
+
+	   ImportUI013d
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSImportUI013e:
+	.. figure:: /images/testing_scenarios/ImportUI/013e.png
+	   :align: center
+
+	   ImportUI013e
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _FSImportUI013f:
+	.. figure:: /images/testing_scenarios/ImportUI/013f.png
+	   :align: center
+
+	   ImportUI013f
+
+	|
+	|
+	|
+	|
 
 
