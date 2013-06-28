@@ -28,12 +28,20 @@ FS Delete
 
 #. Import a multi-image fileset (= MIF, for example `lei`). Choose one image of the MIF only and press Delete. 
    
-   - |C| that the action does not proceed [:ref:`FSdelete009`].
+   - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete009`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
 
 #. Choose all the images in the MIF and try to Delete them.
 
-   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`].
+   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`, :ref:`FSdelete009`].
+
+#. Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
+
+   - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete009`].
+
+#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should be complete now. Select the dataset with the (now) complete MIF and try to delete it.
+   
+   - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete010`, :ref:`FSdelete009`].
 
 .. _FSdelete001:
 .. figure:: /images/testing_scenarios/Delete/001.png
