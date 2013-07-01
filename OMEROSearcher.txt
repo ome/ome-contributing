@@ -1,0 +1,189 @@
+OMERO.Searcher
+===============
+
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to check that the OMERO.Searcher as an OMERO.Web application is functioning correctly.
+
+NB: Because the image features are being stored in two different places, which may occasionally get out of sync, it is important to run the ``Omero Searcher Rebuild Content DB`` script in following cases:
+   - after you deleted features
+   - after you got an error when calculating features normally (= as described in step 2 below)
+   - after you disabled content DB update (by ticking a box in the feature calculation script, see step 4 below)
+
+
+#. Login to ``http://ome-analysis-01.openmicroscopy.org.uk`` server as ``searcher-1`` (unless instructed otherwise by testing setup or remark on PR).
+
+
+
+#. Run the Feature Calculation script "normally"
+
+   - Select an image and go Scripts > Searcher > Omero searcher feature calculation [:ref:`OMEROSearcher001a`]
+   - In the script dialog, make sure you tick ``Advanced Features`` and ``Recalculate Existing Features`` [:ref:`OMEROSearcher001b`]
+   - Do not tick ``Disable ContentDB Update`` [:ref:`OMEROSearcher001b`]
+   - |C| that an attachment was created with the calculated features (cannot be viewed atm)
+
+#. Run 2 Feature Calculation scripts in parallel with an error
+
+   - make sure you have 2 projects or datasets ready with many images in each of them
+   - start the Feature Calculation script as in step 2 above on one of the 2 P/Ds
+   - immediately (when the previous calculation is still in progress) start a second Feature Calculation script running on the other P/D
+   - |C| that you get an error in the script run saying something like ``WARNING:omero.gateway:OptimisticLockException on <class 'omero.gateway.OmeroGatewaySafeCallWrapper'>``
+
+#. Run 2 Feature Calculation scripts in parallel without any error
+
+   - repeat step 3, this time checking the box ``Advanced Features``, ``Recalculate Existing Features`` AND ``Disable ContentDB Update`` in both script runs [:ref:`OMEROSearcher002`]
+   - |C| that this time both scripts ended successfully and the attachments were created
+
+#. Run ``Rebuild Content DB`` script
+
+   - Go Scripts > Searcher > Rebuild Content DB 
+   - |C| that the script ended up successfully  [:download:`002b </downloads/Output_rebuild_ContentDB.txt>`].
+
+#. Search for images
+
+   - Select an image which you have calculated the features for.    
+   - Go to the ``Searcher`` tab (right-hand pane).
+   - Select the Featureset for which you Rebuilt Content DB [:ref:`OMEROSearcher003`]
+   - Click ``Do Search``
+   - |C| that a list of images was found in the middle panel
+
+#. Refine search
+
+   - In the list of images found in previous step, select the positive and negative examples to refine your search (click the radio button)
+   - Click the ``Refine Search`` button in the left-hand pane
+   - |C| that the search results match now better the original image
+   - Change the Retrieved images number from 100 to 20
+   - Click ``Refine Serach``
+   - |C| that the results are now identical with the top 20 results of the previous search
+   - Change the Retrieved images number back to 100
+   - |C| that after click on "Refine Search" you get the same results as before
+   - |C| that there are no duplicates in the search results
+   - |C| that the images you deemed to be ``negative`` do not appear in the search results
+
+#. Additional search filters
+
+   - Click ``Enable additional search filters (may slow down queries).``
+   - Deselect some of the Projects / Datasets
+   - Click ``Refine Search``
+   - |C| that the search results are filtered as intended
+
+
+	.. _OMEROSearcher001a:
+	.. figure:: /images/testing_scenarios/OMEROSearcher/001a.png
+	   :align: center
+
+	   OMEROSearcher001a: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _OMEROSearcher001b:
+	.. figure:: /images/testing_scenarios/OMEROSearcher/001b.png
+	   :align: center
+
+	   OMEROSearcher001b:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _OMEROSearcher002:
+	.. figure:: /images/testing_scenarios/OMEROSearcher/002.png
+	   :align: center
+
+	   OMEROSearcher002
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _OMEROSearcher003:
+	.. figure:: /images/testing_scenarios/OMEROSearcher/003.png
+	   :align: center
+
+	   OMEROSearcher003

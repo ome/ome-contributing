@@ -54,6 +54,7 @@ Testing scenarios
    MetadataDisplay
    MoveDataBetwGroups
    OmeroDataDirFiles
+   OMEROSearcher
    Render
    ROIInsight
    ROIWeb
