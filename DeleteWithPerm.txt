@@ -24,20 +24,20 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Import an image rich in metadata e.g. ``data_repo/test_images_metadata/zeiss-zvi/6ch-Z-stack_deconvolved.zvi`` and delete it.
 
-#. Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
+#. (FS only) Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
    
    - |C| that the action does not proceed [:ref:`Delete009`, :ref:`Delete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
 
-#. Choose all the images in the MIF and try to Delete them.
+#. (FS only) Choose all the images in the MIF and try to Delete them.
 
    - |C| that this time the Delete action proceeds successfully [:ref:`Delete011`, :ref:`Delete012`].
 
-#. Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
+#. (FS only) Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
 
    - |C| that the action does not proceed [:ref:`Delete013`, :ref:`Delete014`].
 
-#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
+#. (FS only) Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
    
    - |C| that this time the Delete action proceeds successfully [:ref:`Delete015`, :ref:`Delete016`].
 
