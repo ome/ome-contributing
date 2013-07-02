@@ -17,14 +17,30 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 #. In the DataManager:
 
    - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`Delete001`][:ref:`Delete002`] (left-hand pane in Insight, right hand pane in Web)
-   - Delete tags [:ref:`Delete003`][:ref:`Delete004`] (left-hand pane)
+   - Delete attachments [:ref:`Delete001`, :ref:`Delete002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete tags [:ref:`Delete003`, :ref:`Delete004`] (left-hand pane)
 
-#. Delete P/D/I/Screen/Plate. [:ref:`Delete005`][:ref:`Delete006`][:ref:`Delete007`][:ref:`Delete008`]
+#. Delete P/D/I/Screen/Plate. [:ref:`Delete005`, :ref:`Delete006`, :ref:`Delete007`, :ref:`Delete008`]
 
-#. Import an image rich in metadata and delete it.
+#. Import an image rich in metadata e.g. ``data_repo/test_images_metadata/zeiss-zvi/6ch-Z-stack_deconvolved.zvi`` and delete it.
 
-#. Import a multi-image file (e.g. ``test_images_good/lei/050118.lei``). Choose one image only and press Delete. NB: The delete action should not proceed - instead an info will be produced, indicating that you must select all the images in the multi-image file to be able to delete the whole file.
+#. Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
+   
+   - |C| that the action does not proceed [:ref:`Delete009`, :ref:`Delete010`].
+   - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
+
+#. Choose all the images in the MIF and try to Delete them.
+
+   - |C| that this time the Delete action proceeds successfully [:ref:`Delete011`, :ref:`Delete012`].
+
+#. Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
+
+   - |C| that the action does not proceed [:ref:`Delete013`, :ref:`Delete014`].
+
+#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
+   
+   - |C| that this time the Delete action proceeds successfully [:ref:`Delete015`, :ref:`Delete016`].
+
 
 **End of Section 1: Work on your own data**
 
@@ -388,5 +404,197 @@ Group Administrator    Y        Y           Y
 |
 |
 |
+
+.. _Delete009:
+.. figure:: /images/testing_scenarios/Delete/009.png
+   :align: center
+
+   Delete009
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+.. _Delete010:
+.. figure:: /images/testing_scenarios/Delete/010.png
+   :align: center
+
+   Delete010
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+.. _Delete011:
+.. figure:: /images/testing_scenarios/Delete/011.png
+   :align: center
+
+   Delete011
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Delete012:
+.. figure:: /images/testing_scenarios/Delete/012.png
+   :align: center
+
+   Delete012
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Delete013:
+.. figure:: /images/testing_scenarios/Delete/013.png
+   :align: center
+
+   Delete013
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Delete014:
+.. figure:: /images/testing_scenarios/Delete/014.png
+   :align: center
+
+   Delete014
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Delete015:
+.. figure:: /images/testing_scenarios/Delete/015.png
+   :align: center
+
+   Delete015
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Delete016:
+.. figure:: /images/testing_scenarios/Delete/016.png
+   :align: center
+
+   Delete016
+
 
 
