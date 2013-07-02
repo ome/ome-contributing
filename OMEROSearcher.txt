@@ -14,7 +14,7 @@ NB: Because the image features are being stored in two different places, which m
    - after you disabled content DB update (by ticking a box in the feature calculation script, see step 4 below)
 
 
-#. Login to ``http://ome-analysis-01.openmicroscopy.org.uk`` server as ``searcher-1`` (unless instructed otherwise by testing setup or remark on PR).
+#. Login to the server mentioned in PR or testing setup.
 
 
 
@@ -61,7 +61,7 @@ NB: Because the image features are being stored in two different places, which m
    - Change the Retrieved images number back to 100
    - |C| that after click on "Refine Search" you get the same results as before
    - |C| that there are no duplicates in the search results
-   - |C| that the images you deemed to be ``negative`` do not appear in the search results
+   - |C| that the images you deemed to be ``negative`` do not appear in the search results or appear near the end of the search results if there are not many images in the database.
 
 #. Additional search filters
 
