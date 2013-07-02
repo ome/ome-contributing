@@ -24,9 +24,9 @@ FS Delete
 
 #. Delete P/D/I/Screen/Plate [:ref:`FSdelete005`][:ref:`FSdelete006`][:ref:`FSdelete007`][:ref:`FSdelete008`].
 
-#. Import an image rich in metadata and delete it.
+#. Import an image rich in metadata (e.g. ``zvi``) and delete it.
 
-#. Import a multi-image fileset (= MIF, for example `lei`). Choose one image of the MIF only and press Delete. 
+#. Import a multi-image fileset (= MIF, for example `lei` or ``lif``). Choose one image of the MIF only and press Delete. 
    
    - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
@@ -39,7 +39,7 @@ FS Delete
 
    - |C| that the action does not proceed [:ref:`FSdelete013`, :ref:`FSdelete014`].
 
-#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should be complete now. Select the dataset with the (now) complete MIF and try to delete it.
+#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
    
    - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete015`, :ref:`FSdelete016`].
 
