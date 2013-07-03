@@ -20,9 +20,9 @@ NB: Because the image features are being stored in two different places, which m
 
 #. Run the Feature Calculation script "normally"
 
-   - Select an image and go Scripts > searcher > Omero searcher feature calculation [:ref:`OMEROsearcher001a`]
-   - In the script dialog, make sure you tick ``Advanced Features`` and ``Recalculate Existing Features`` [:ref:`OMEROsearcher001b`]
-   - Do not tick ``Disable ContentDB Update`` [:ref:`OMEROsearcher001b`]
+   - Select an image and go Scripts > searcher > Omero searcher feature calculation [:ref:`OMERO.searcher001a`]
+   - In the script dialog, make sure you tick ``Advanced Features`` and ``Recalculate Existing Features`` [:ref:`OMERO.searcher001b`]
+   - Do not tick ``Disable ContentDB Update`` [:ref:`OMERO.searcher001b`]
    - |C| that an attachment was created with the calculated features (cannot be viewed atm)
 
 #. Run 2 Feature Calculation scripts in parallel with an error
@@ -34,7 +34,7 @@ NB: Because the image features are being stored in two different places, which m
 
 #. Run 2 Feature Calculation scripts in parallel without any error
 
-   - repeat step 3, this time checking the box ``Advanced Features``, ``Recalculate Existing Features`` AND ``Disable ContentDB Update`` in both script runs [:ref:`OMEROsearcher002`]
+   - repeat step 3, this time checking the box ``Advanced Features``, ``Recalculate Existing Features`` AND ``Disable ContentDB Update`` in both script runs [:ref:`OMERO.searcher002`]
    - |C| that this time both scripts ended successfully and the attachments were created
 
 #. Run ``Rebuild Content DB`` script
@@ -46,7 +46,7 @@ NB: Because the image features are being stored in two different places, which m
 
    - Select an image which you have calculated the features for.    
    - Go to the ``searcher`` tab (right-hand pane).
-   - Select the Featureset for which you Rebuilt Content DB [:ref:`OMEROsearcher003`]
+   - Select the Featureset for which you Rebuilt Content DB [:ref:`OMERO.searcher003`]
    - Click ``Do Search``
    - |C| that a list of images was found in the middle panel
 
@@ -71,11 +71,11 @@ NB: Because the image features are being stored in two different places, which m
    - |C| that the search results are filtered as intended
 
 
-	.. _OMEROsearcher001a:
+	.. _OMERO.searcher001a:
 	.. figure:: /images/testing_scenarios/OMEROsearcher/001a.png
 	   :align: center
 
-	   OMEROsearcher001a: 
+	   OMERO.searcher001a: 
 
 
 	|
@@ -108,11 +108,11 @@ NB: Because the image features are being stored in two different places, which m
 	|
 
 
-	.. _OMEROsearcher001b:
+	.. _OMERO.searcher001b:
 	.. figure:: /images/testing_scenarios/OMEROsearcher/001b.png
 	   :align: center
 
-	   OMEROsearcher001b:
+	   OMERO.searcher001b:
 
 
 	|
@@ -145,11 +145,11 @@ NB: Because the image features are being stored in two different places, which m
 	|
 
 
-	.. _OMEROsearcher002:
+	.. _OMERO.searcher002:
 	.. figure:: /images/testing_scenarios/OMEROsearcher/002.png
 	   :align: center
 
-	   OMEROsearcher002
+	   OMERO.searcher002
 
 
 	|
@@ -182,8 +182,8 @@ NB: Because the image features are being stored in two different places, which m
 	|
 
 
-	.. _OMEROsearcher003:
+	.. _OMERO.searcher003:
 	.. figure:: /images/testing_scenarios/OMEROsearcher/003.png
 	   :align: center
 
-	   OMEROsearcher003
+	   OMERO.searcher003
