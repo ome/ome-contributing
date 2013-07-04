@@ -12,12 +12,13 @@ FS View Big Image
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
+
 
 
 #. Open a large image.
 
-   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds with the image part shown in the main window [:ref:`FSViewBig001`][:ref:`FSViewBig002`].
+   - |C| that location in the bird's eye view (the red square in the insert in the lower-right corner) corresponds to the image part shown in the main window [:ref:`FSViewBig001`][:ref:`FSViewBig002`].
    - Move the red square in the bird's eye view.
    - Pan.
    - |C| the tile loading.
