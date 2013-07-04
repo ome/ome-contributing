@@ -14,12 +14,13 @@ FS View Image
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+   **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
+
 
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
-#. Go to the split-view (=multi-channel in Web). Turn channels on/off, use the z and t-sliders.
+#. Go to the split-view (= multi-channel in Web). Turn channels on/off, use the z and t-sliders.
 
 #. Toggle back between views.
 
