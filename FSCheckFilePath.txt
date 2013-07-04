@@ -13,7 +13,7 @@ FS Check Filepath
 
 
    - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` :ref:`Example <label-name2>`.
-   - |C| that the path in the clients and the filepath on the server match. 
+   - |C| that the path displayed in the clients and the filepath on the server match. 
 
 #. Repeat steps 1 and 2 with multi-image file, like `lei`.
 
