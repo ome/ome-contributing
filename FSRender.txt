@@ -15,10 +15,11 @@ FS Render
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
 
 
-#. Copy settings from image (right-click on the thumbnail in central pane - Insight only) [:ref:`FSRender001`].
+
+#. Copy settings from an image (right-click on the thumbnail in central pane - Insight only) [:ref:`FSRender001`].
 
 #. Select a collection of images and paste settings [:ref:`FSRender002`] (Insight only).
 
