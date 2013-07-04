@@ -14,7 +14,7 @@ FS Delete
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
 
 #. In the DataManager:
 
