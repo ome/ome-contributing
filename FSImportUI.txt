@@ -18,7 +18,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - Click import.
    - Go to the DataManager.
  
-     - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`FSImportUI004b`]
+     - |C| that the wheel in the toolbar is spinning while there are imports in progress [:ref:`FSImportUI004b`]
      - |C| that the number next to green tick is incremented when an import is finished successfully.
 
    - Still in Data Manager (left-hand side), hit the refresh button
@@ -35,8 +35,8 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Duplicate and Companion File: Select a dv image and its log file
 
-   - add both files to the import queue
-   - click import
+   - Add both files to the import queue
+   - Click import
    - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
    - |C| that the import of the duplicate does not proceed (in this transaction)
    - |C| that the counter in the Toolbar of the Data Manager is not counting the skipped files as ``Imported``
@@ -66,7 +66,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
    - Select at least 2 images.
-   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`FSImportUI005`]
+   - Go to the "options" tab (the second tab when selecting the import location).[:ref:`FSImportUI005`]
    - Create a new tag
    - Import the images.
    - Go to the DataManager (left-hand side). Refresh
@@ -75,7 +75,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
 
-   - create a new tag and add an existing tag.[:ref:`FSImportUI009`]
+   - Create a new tag and add an existing tag.[:ref:`FSImportUI009`]
    - Import the images
    - Go to the DataManager (left-hand side). Refresh,
    - |C| that the images are tagged and the tag is shown on thumbnails
@@ -86,8 +86,8 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Import a Plate
 
-   - not creating new Screen at import stage [:ref:`FSImportUI011b`]
-   - creating a new Screen to import the plate to at import stage [:ref:`FSImportUI011c`]
+   - not Creating new Screen at import stage [:ref:`FSImportUI011b`]
+   - Creating a new Screen to import the plate to at import stage [:ref:`FSImportUI011c`]
 
 
 
@@ -95,13 +95,13 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
    - |C| that thumbnail(s) is(are) created [:ref:`FSImportUI012`].
    - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
-   - |C| that click on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], click on every thumbnail in the row.
+   - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], Click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`FSImportUI013c`].
 
      - |C| that the ``In Full Viewer`` item opens the image in viewer
      - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
      - |C| that the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
-     - Import the folder ``team/pwalczysko/broken images from Andrew/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+     - Import a folder with an image which will fail into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
      - |C| that the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
 
 
