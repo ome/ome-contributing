@@ -26,7 +26,7 @@ FS Delete
 
 #. Import an image rich in metadata (e.g. ``zvi``) and delete it.
 
-#. Import a multi-image fileset (= MIF, for example `lei` or ``lif``). Choose one image of the MIF only and press Delete. 
+#. Import a multi-image fileset (= MIF, for example `lei` or ``lif`` = ``Leica`` and ``Leica Image File Format``). Choose one image of the MIF only and press Delete. 
    
    - |C| that the action does not proceed [:ref:`FSdelete009`, :ref:`FSdelete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
