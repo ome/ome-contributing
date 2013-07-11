@@ -5,7 +5,7 @@ Move Data between Groups
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the feature of moving the entities between groups in all possible manners
+**Purpose of the test** is to check the feature of moving the entities between groups
 
 #. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`]
 
@@ -25,15 +25,64 @@ Move Data between Groups
    - large image
    - |C| that the image is at the destination with all the ROIs/annotations
 
-#. Move using the right-click menu [:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`]
+#. Targeted / non-targeted Move:
 
-   - |C| that the image has been moved to "Orphaned Images" when no destination P/D was chosen in "Move to..." dialog [:ref:`MoveData002`] (Insight only)
+   - Move a Dataset / image / plate and 
+     - target the Move into a Project / Dataset / Screen
  
-#. Move via D&D [:ref:`MoveData006`]
+       - |C| that the data are in the intended location
 
-   - |C| that the images are in their destinations and view them
-   - |C| that the image is at the destination with all the ROIs/annotations
+     - do not target the Move into a P/D/S
 
+       - |C| that the data are in the target group as orphaned Datasets / Images / plates
+
+
+ 
+#. (Insight only) Move via D&D [:ref:`MoveData006`]
+
+   - Put at least 2 groups to display
+   - Repeat steps 1 using Drag & Drop
+   - |C| that the objects are in their destination group
+
+
+#. Move a Screen / Plate
+   
+   - |C| that the Screen / Plate is in the target group
+
+#. (FS only) Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and try to Move it. 
+
+   - NB: You cannot Move just a part of a MIF, you have to select the whole MIF or use "Move All" buton in order for the action to go through.
+   - |C| that the action does not proceed and a warning popup appears [:ref:`MoveData006`, :ref:`MoveData006`]
+   - Click Move All button in the warning popup
+   - |C| that the action proceeds now and the images are Moved to the target group
+
+
+
+
+#. (FS only) Choose all the images in the MIF and try to Move them.
+
+   - |C| that this time the Delete action proceeds successfully [:ref:`MoveData006`, :ref:`MoveData006`].
+
+#. (FS only) Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to Move it.
+
+   - |C| that the action does not proceed [:ref:`MoveData006`, :ref:`MoveData006`].
+   - |C| that the "Move All" button successfully completes the Move action
+     - in Web, all the images of the MIF end up in the moved Dataset
+     - in Insight, the images of the MIF which were originally in the Dataset are in the moved Dataset, the other images are in Orphaned images folder in the target group
+
+#. (FS only) Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to Move it.
+
+   - |C| that this time the Move action proceeds successfully [:ref:`MoveData006`, :ref:`MoveData006`].
+
+#. (FS only) Repeat step 5, this time moving 
+
+   - a MIF
+     - not selecting all the images of a MIF & using the "Move All" button
+     - selecting all the images of a MIF
+
+   - a Dataset with a MIF inside.
+     - a Dataset containing an incomplete MIF & using the "Move All" button
+     - a Dataset containing a complete MIF
 
 
 .. _MoveData001:
