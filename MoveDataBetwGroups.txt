@@ -56,14 +56,14 @@ Move Data between Groups
 #. (FS only) Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and try to Move it. 
 
    - NB: You cannot Move just a part of a MIF, you have to select the whole MIF or use "Move All" buton in order for the action to go through.
-   - |C| that the action does not proceed and a warning popup appears [:ref:`Insight move warning`, :ref:`Web move warning`]
+   - |C| that the action does not proceed and a warning popup appears [:ref:`MoveData007`, :ref:`MoveData008`]
    - Click Move All button in the warning popup
    - Select a Project and Dataset in the destination group to Move the Dataset to 
    - |C| that the action proceeds now and the images are Moved to the target group
    - |C| that in case the MIF was split between several Datasets in the original group, then 
 
      - in Web, all the images of the MIF end up in the selected Dataset in target group 
-     - in Insight, the images of the MIF which were originally in the Dataset are in the selected Dataset, the other images are in Orphaned images [:ref:`Insight move done dataset tree - orphan`]
+     - in Insight, the images of the MIF which were originally in the Dataset are in the selected Dataset, the other images are in Orphaned images [:ref:`MoveData009`]
 
 #. (FS only) Repeat previous step, this time not choosing any Project and Dataset to Move the MIF to
 
@@ -72,19 +72,19 @@ Move Data between Groups
 
 #. (FS only) Choose all the images in the MIF and try to Move them.
 
-   - |C| that this time the Move action proceeds successfully [:ref:`Insight move done`, :ref:`Web move done`].
+   - |C| that this time the Move action proceeds successfully [:ref:`MoveData010`, :ref:`MoveData011`].
    - |C| that the MIF is in the destination group.
 
 
 #. (FS only) Create a new dataset. Cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to Move it.
 
-   - |C| that the action does not proceed [:ref:`Insight move warning`, :ref:`Web move warning`]
+   - |C| that the action does not proceed [:ref:`MoveData007`, :ref:`MoveData008`]
    - Click "Move All" button and 
    - choose a Project in the destination group to Move the Dataset to
    - |C| that the Dataset is in the destination group and
 
      - in Web, all the images of the MIF end up in the moved Dataset
-     - in Insight, the images of the MIF which were originally in the Dataset are in the moved Dataset, the other images are in Orphaned images folder in the target group [:ref:`Insight move done dataset tree - orphan`]
+     - in Insight, the images of the MIF which were originally in the Dataset are in the moved Dataset, the other images are in Orphaned images folder in the target group [:ref:`MoveData009`]
 
 #. (FS only) Repeat previous step, this time not choosing any Project to Move the Dataset to
 
@@ -92,7 +92,7 @@ Move Data between Groups
 
 #. (FS only) Cut and paste the image you manipulated in the step 10 back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to Move it.
 
-   - |C| that this time the Move action proceeds successfully [:ref:`Insight move done`, :ref:`Web move done`].
+   - |C| that this time the Move action proceeds successfully [:ref:`MoveData010`, :ref:`MoveData011`].
 
 
 
@@ -309,6 +309,145 @@ Move Data between Groups
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _MoveData007:
+.. figure:: /images/testing_scenarios/MoveData/007.png
+   :align: center
+
+   MoveData007: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _MoveData008:
+.. figure:: /images/testing_scenarios/MoveData/008.png
+   :align: center
+
+   MoveData008: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _MoveData009:
+.. figure:: /images/testing_scenarios/MoveData/009.png
+   :align: center
+
+   MoveData009: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _MoveData010:
+.. figure:: /images/testing_scenarios/MoveData/010.png
+   :align: center
+
+   MoveData010: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _MoveData011:
+.. figure:: /images/testing_scenarios/MoveData/011.png
+   :align: center
+
+   MoveData011: 
+
+
 |
 |
 |
