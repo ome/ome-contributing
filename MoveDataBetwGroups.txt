@@ -7,15 +7,19 @@ Move Data between Groups
 
 **Purpose of the test** is to check the feature of moving the entities between groups
 
-#. Move a simple Project/Dataset/Image Screen/Plate between groups.[:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`]
+#. Move Dataset/Image between groups.[:ref:`MoveData001`][:ref:`MoveData002`][:ref:`MoveData003`][:ref:`MoveData004`][:ref:`MoveData006`]
 
    - |C| that the Project/Dataset/Image Screen/Plate is no longer in the source group and has been moved to the target group. Put group to display if necessary-Insight [:ref:`MoveData005`]
 
-#. Move a Project with datasets and images
+#. Move a Project with Datasets and images
 
-#. Move a Screen with Plates
+   - |C| that the Project / Dataset and images are in the target group.
 
-   - |C| that the Plates are at the destination with all the ROIs/annotations
+#. Move Screen/Plate
+
+   - Move a Screen with Plate
+   - Move an orphaned Plate
+   - |C| that the Screen/Plates are at the destination with all the ROIs/annotations
 
 #. Move an Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
 
@@ -27,7 +31,8 @@ Move Data between Groups
 
 #. Targeted / non-targeted Move:
 
-   - Move a Dataset / image / plate and 
+   - Move a Dataset / image / plate and
+ 
      - target the Move into a Project / Dataset / Screen
  
        - |C| that the data are in the intended location
@@ -38,51 +43,56 @@ Move Data between Groups
 
 
  
-#. (Insight only) Move via D&D [:ref:`MoveData006`]
+#. (Insight only) Move via D&D 
 
    - Put at least 2 groups to display
-   - Repeat steps 1 using Drag & Drop
+   - Repeat steps 1, 2, 3 using Drag & Drop
    - |C| that the objects are in their destination group
 
 
-#. Move a Screen / Plate
-   
-   - |C| that the Screen / Plate is in the target group
 
 #. (FS only) Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and try to Move it. 
 
    - NB: You cannot Move just a part of a MIF, you have to select the whole MIF or use "Move All" buton in order for the action to go through.
    - |C| that the action does not proceed and a warning popup appears [:ref:`MoveData006`, :ref:`MoveData006`]
    - Click Move All button in the warning popup
+
+     - choose a Project and Dataset in the destination group to Move the Dataset to
+
    - |C| that the action proceeds now and the images are Moved to the target group
 
+#. Repeat previous step, this time not choosing any Project and Dataset to Move the MIF to
 
+   - |C| that the MIF ends up in Orphaned folder in the target group
 
 
 #. (FS only) Choose all the images in the MIF and try to Move them.
 
-   - |C| that this time the Delete action proceeds successfully [:ref:`MoveData006`, :ref:`MoveData006`].
+   - |C| that this time the Move action proceeds successfully [:ref:`MoveData006`, :ref:`MoveData006`].
+
 
 #. (FS only) Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to Move it.
 
    - |C| that the action does not proceed [:ref:`MoveData006`, :ref:`MoveData006`].
-   - |C| that the "Move All" button successfully completes the Move action
+   - Click "Move All" button and 
+     
+     - choose a Project in the destination group to Move the Dataset to
+   
+   - |C| that the Dataset is in the destination group and
+
      - in Web, all the images of the MIF end up in the moved Dataset
      - in Insight, the images of the MIF which were originally in the Dataset are in the moved Dataset, the other images are in Orphaned images folder in the target group
+
+#. Repeat previous step, this time not choosing any Project to Move the Dataset to
+
+   - |C| that the Dataset ends up as orphaned in the target group, with the images arranged as described in previous step
 
 #. (FS only) Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to Move it.
 
    - |C| that this time the Move action proceeds successfully [:ref:`MoveData006`, :ref:`MoveData006`].
 
-#. (FS only) Repeat step 5, this time moving 
 
-   - a MIF
-     - not selecting all the images of a MIF & using the "Move All" button
-     - selecting all the images of a MIF
 
-   - a Dataset with a MIF inside.
-     - a Dataset containing an incomplete MIF & using the "Move All" button
-     - a Dataset containing a complete MIF
 
 
 .. _MoveData001:
