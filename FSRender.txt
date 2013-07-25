@@ -5,7 +5,7 @@ FS Render
 
 ``Test in``: Web, Insight
 
-``Purpose``- make sure rendering is smooth and changes are applied consistently to all visualizations of the images and all the options of rendering are functional.
+``Purpose``: To make sure rendering is smooth and changes are applied consistently to all visualizations of the images and all the options of rendering are functional.
 
 .. only:: html
 

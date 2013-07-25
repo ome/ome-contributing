@@ -3,9 +3,9 @@ FS Import (UI)
 
 
 
-**To test in**: Insight
+``Test in``: Insight
 
-**Purpose of the test** is to check all the features of Importer UI as started from Insight
+``Purpose``: Check all the features of Importer UI as started from Insight
 
 
 **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
@@ -92,18 +92,30 @@ FS Import (UI)
 
 
 
-#. When the import is done, check in the Importer Window:
+#. When the import is done, 
 
-   - |C| that thumbnail(s) have been created [:ref:`FSImportUI012`].
-   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
-   - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], Click on every thumbnail in the row.
-   - |C| the ``View`` menu: [:ref:`FSImportUI013c`].
+   |C|:
+   
+   - in the Importer window:
 
-     - |C| that the ``In Full Viewer`` item opens the image in viewer
-     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
-     - |C| that the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
-     - Import a folder with an image which will fail into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
-     - |C| that the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
+     - the thumbnail(s) have been created [:ref:`FSImportUI012`].
+     - when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
+     - clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], Click on every thumbnail in the row.
+
+   - in the ``View`` menu in Importer window: [:ref:`FSImportUI013c`].
+
+     - the ``In Full Viewer`` item opens the image in viewer
+     - the ``In Data Browser`` item brings you to the image in data tree in Data Manager
+     - the ``View Import Log`` item shows the Log file [:ref:`FSImportUI013d`, :ref:`FSImportUI013e`]
+     - the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
+
+#. Import a folder with an image which will fail into a non-default group (you have to switch the group actively) and after it failed
+
+   |C|: 
+     
+     - the import log appears after you go ``Failed > View Import Log``.
+     - the ``Checksum`` item opens the checksum popup [:ref:`FSImportUI013f`]
+
 
 
 

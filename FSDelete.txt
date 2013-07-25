@@ -3,9 +3,9 @@ FS Delete
 
 
 
-``To test in``: Web, Insight
+``Test in``: Web, Insight
 
-``Purpose``- check the Delete function on all entities (except ROI).
+``Purpose``: Check the Delete function on all entities (except ROI).
 
 .. only:: html
 

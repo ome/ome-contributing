@@ -5,7 +5,7 @@ FS View Image
 
 ``Test in``: Web, Insight
 
-``Purpose``- view "small" images and concentrate on projection and performance.
+``Purpose``: View "small" images and concentrate on projection and performance.
 
 .. only:: html
 

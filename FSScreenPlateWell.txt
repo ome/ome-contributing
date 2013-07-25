@@ -5,7 +5,7 @@ FS Screen/Plate/Well
 
 ``Test in``: Web, Insight
 
-``Purpose``- check a plate/screen (with multiple Fields per well) import and viewing.
+``Purpose``: Check a plate/screen (with multiple Fields per well) import and viewing.
 
 .. only:: html
 

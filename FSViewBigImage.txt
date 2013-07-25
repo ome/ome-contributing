@@ -3,7 +3,7 @@ FS View Big Image
 
 ``Test in``: Web, Insight
 
-``Purpose``- check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
+``Purpose``: Check viewing/rendering of large images (tiles, bird's eye features) for FS demo. Concentrate on performance.
 
 .. only:: html
 

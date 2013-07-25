@@ -5,7 +5,7 @@ FS Import File Formats Testing
 
 ``Test in``: Insight
 
-``Purpose`` - check the import of various file formats and ability to report failures correctly. 
+``Purpose``: Check the import of various file formats and ability to report failures correctly. 
 
 .. only:: html
 
