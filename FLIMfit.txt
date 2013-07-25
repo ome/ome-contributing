@@ -11,7 +11,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Download the latest build of FLIMfit from url to hudson
 
-#. Start the FLIMfit by clicking onto the application.
+#. Start the FLIMfit by clicking onto the application. Note that the errors are being recorded in the first window which pops up after you start the application.
 
 #. Login to the appropriate OMERO.server in the login dialog
 
