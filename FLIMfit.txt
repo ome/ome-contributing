@@ -1,0 +1,65 @@
+FLIMfit
+========
+
+
+
+**To test in**: Insight
+
+Purpose of the test is to check the functionality of the standalone FLIMfit application and the communication with OMERO.Insight.
+
+#. Make sure you have the Matlab Compiler Runtime installed - check the version number necessary.
+
+#. Download the latest build of FLIMfit from url to hudson
+
+#. Start the FLIMfit by clicking onto the application.
+
+#. Login to the appropriate OMERO.server in the login dialog
+
+#. Open Insight and login to the same server as in previous point. Import some FLIM data, for example ``test_images_good/sdt/DCIS-01 at 780 nm.sdt``.
+
+#. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the dataset into which you imported the flim data. Click OK.
+
+#. Load the data
+
+   - go ``OMERO > Load FLIM Data: Single FOV`` to open single files
+   - go ``OMERO > Load FLIM Data: Multiple FOVs``
+     
+     - in the popup, tick the files to upload and click ``Load Selected``
+
+   - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot]
+   - |C| that when you click into the integrated intensity preview, you get fluorescence decay graphs in the middle pane of FLIMfit
+
+#. Adjust the parameters
+
+   - In the Data tab (bottom left corner, under the image preview) find the Time Min box.
+   - Watching the graph of the fluorescence decay in the middle pane, enter a number [in picoseconds] into the Time Min box and press enter
+
+
+     - |C| that the x-axis (=time) in the fluorescence decay graph in the middle pane gets trimmed, the lowest value being the number you have just entered
+
+   - In the Data tab find the "Integrated Min" box and enter a number and press enter
+
+     - |C| that the Integrated Intensity preview gets red areas which expand as you increase the number in the "Integrated Min" box
+
+#. Click the ``Fit Dataset`` button on the bottom left of FLIMfit UI
+
+   - |C| that the "operation in progress" popup appears
+
+#. Go to Images tab in the central pane of FLIMfit
+
+   - In the right-hand pane, tick the Display and Merge boxes in the tau-1, IO, I and ch2 rows
+   - |C| that for each of the box ticked, an image appears in the central pane
+
+#. Go ``OMERO > Export Fitting Results``
+
+   - |C| that a popup appears indicating that a new dataset was created in omero with the exported results
+   - |C| in OMERO.Insight that the dataset was indeed created with a 4-channel image (channels: tau_1, IO, I, ch2) in it.
+   - |C| that there are 3 attachments on the created dataset -> ``Fit Results Table``, ``data settings`` and ``fitting settings``
+   - |C| that you can open the image and download and view the 3 attachments
+
+
+.. seealso::
+   
+   `FLIMfit documentation <http://www.openmicroscopy.org/site/support/partner/flimfit>`_.
+
+
