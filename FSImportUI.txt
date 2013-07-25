@@ -94,7 +94,7 @@ FS Import (UI)
 
 #. When the import is done, check in the Importer Window:
 
-   - |C| that thumbnail(s) is(are) created [:ref:`FSImportUI012`].
+   - |C| that thumbnail(s) have been created [:ref:`FSImportUI012`].
    - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`FSImportUI012b`].
    - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`FSImportUI013b`], Click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`FSImportUI013c`].
