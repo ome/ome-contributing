@@ -108,25 +108,34 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. (FS only) Error reporting in all import stages.
 
-   - Failure at scanning stage: Import ``test_images_bad/Mike.dv``
+   - Failure at scanning stage: Import ``test_images_bad/Mike.dv`` and 
 
-     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button works.
+     - |C| that
+
+       - you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+       - you have Retry as the menu option in the ``Failure`` menu.
+       - the Retry All button works.
    
    - Failure of checksums: Test on a dedicated server (e.g. a server with recompiled server code in a way which causes checksum failure).
 
-     - |C| that you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button works.
+     - |C| that
+
+       - you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+       - you have Retry as the menu option in the ``Failure`` menu.
+       - the Retry All button works.
 
    - Failure at processing stage: Import ``test_images_broken/volocity/3 Colour.acff`` and ``data_repo/test_images_broken/broken_images_scenario/``
 
-     - |C| that you can submit the .zip, consisting of the file AND log
-     - |C| that you can submit the exceptions
-     - |C| that you have Retry as the menu option in the ``Failure`` menu.
-     - |C| that the Retry All button is greyed out.
-     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+     - |C| that
+
+       - you can submit the .zip, consisting of the file AND log
+       - you can submit the exceptions
+       - you have Retry as the menu option in the ``Failure`` menu.
+       - the Retry All button is greyed out.
+
+     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. 
+
+       - |C| that the import log appears.
 
 #. Error submission process: Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
