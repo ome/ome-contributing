@@ -20,7 +20,7 @@ FS Delete
 
    - Delete Ratings (Insight only) 
    - Delete Comments (right-hand pane).
-   - Delete Attachments [:ref:`FSdelete001`][:ref:`FSdelete002`] (left-hand pane in Insight, right hand pane in Web).
+   - Delete Attachments [:ref:`FSdelete001`][:ref:`FSdelete002`] (left-hand pane in Insight, right-hand pane in Web).
    - Delete Tags [:ref:`FSdelete003`][:ref:`FSdelete004`] (left-hand pane).
 
 #. Delete P/D/I/Screen/Plate [:ref:`FSdelete005`][:ref:`FSdelete006`][:ref:`FSdelete007`][:ref:`FSdelete008`].
