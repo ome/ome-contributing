@@ -9,7 +9,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Make sure you have the Matlab Compiler Runtime installed - check the version number necessary.
 
-#. Download the latest build of FLIMfit from http://hudson.openmicroscopy.org.uk/view/Analysis/job/FLIMFit-build-stable/30/
+#. Download the latest build of FLIMfit from http://hudson.openmicroscopy.org.uk/view/Analysis/job/FLIMFit-build-stable/
 
 #. Start the FLIMfit by clicking onto the application. Note that the errors are being recorded in the first window which pops up after you start the application.
 
