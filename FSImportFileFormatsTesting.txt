@@ -5,7 +5,7 @@ FS Import File Formats Testing
 
 ``Test in``: Insight
 
-``Purpose`` - check the import of various file formats and ability to report failures correctly. 
+``Purpose``: Check the import of various file formats and ability to report failures correctly. 
 
 .. only:: html
 
@@ -15,7 +15,7 @@ FS Import File Formats Testing
 
 .. only:: latex
 
-     **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+**Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
 
 
 #. Note any special cases for the file format. These will be in the spreadsheet.
@@ -32,10 +32,9 @@ FS Import File Formats Testing
       - All image planes are visible, and that the correct number of planes are in each dimension (check the metadata pane) [:ref:`FSImportFileFT006`] and are of the correct size.
       - All ROIs (if any) are present and in the correct place [:ref:`FSImportFileFT007`].
 
-   - |C| that the upload/import progress is being shown to the right of the "Cancel" link [:ref:`FSImportFileFT007`,
-     :ref:`FSImportFileFT008`, :ref:`FSImportFileFT009`, :ref:`FSImportFileFT010`,
-     :ref:`FSImportFileFT011`, :ref:`FSImportFileFT012`, :ref:`FSImportFileFT013`,
-     :ref:`FSImportFileFT014`, :ref:`FSImportFileFT015`, :ref:`FSImportFileFT016`].
+
+
+
 
 
 .. _FSImportFileFT002:
@@ -80,64 +79,3 @@ FS Import File Formats Testing
    FSImportFileFT007
 
 
-.. _FSImportFileFT008:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/008.png
-   :align: center
-
-   FSImportFileFT008
-
-
-.. _FSImportFileFT009:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/009.png
-   :align: center
-
-   FSImportFileFT009
-
-
-.. _FSImportFileFT010:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/010.png
-   :align: center
-
-   FSImportFileFT010
-
-
-.. _FSImportFileFT011:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/011.png
-   :align: center
-
-   FSImportFileFT011
-
-
-.. _FSImportFileFT012:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/012.png
-   :align: center
-
-   FSImportFileFT012
-
-
-.. _FSImportFileFT013:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/013.png
-   :align: center
-
-   FSImportFileFT013
-
-
-.. _FSImportFileFT014:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/014.png
-   :align: center
-
-   FSImportFileFT014
-
-
-.. _FSImportFileFT015:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/015.png
-   :align: center
-
-   FSImportFileFT015
-
-
-.. _FSImportFileFT016:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/016.png
-   :align: center
-
-   FSImportFileFT016

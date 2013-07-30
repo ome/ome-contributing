@@ -5,7 +5,7 @@ FS Screen/Plate/Well
 
 ``Test in``: Web, Insight
 
-``Purpose``- check a plate/screen (with multiple Fields per well) import and viewing.
+``Purpose``: Check a plate/screen (with multiple Fields per well) import and viewing.
 
 .. only:: html
 
@@ -14,15 +14,16 @@ FS Screen/Plate/Well
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
+
 
 
 
 #. Double-click on Plate or Plate Run.
 
-   - Both actions should display in the central panel [:ref:`FSspw002`, :ref:`FSspw003`].
+   - Both actions should load the thumbnails of the plate images in the central panel [:ref:`FSspw002`, :ref:`FSspw003`].
 
-#. Double-click on a well/field to open viewer [:ref:`FSspw004`, :ref:`FSspw005`].
+#. Double-click on a well/field to open the viewer [:ref:`FSspw004`, :ref:`FSspw005`].
 
 #. Select a new Field in the dropdown menu above the central panel [:ref:`FSspw006`].
 

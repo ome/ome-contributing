@@ -5,7 +5,7 @@ FS View Image
 
 ``Test in``: Web, Insight
 
-``Purpose``- view "small" images and concentrate on projection and performance.
+``Purpose``: View "small" images and concentrate on projection and performance.
 
 .. only:: html
 
@@ -14,12 +14,13 @@ FS View Image
 
 .. only:: latex
 
-      **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (e.g. 4.4.6).** 
+   **Compare the speed of the workflow on the same images on FS-demo build vs non-FS build (the most recent non-FS release).** 
+
 
 
 #. Turn on/off channels, use z-slider and t-slider and play channels movie and z/t movie.
 
-#. Go to the split-view (=multi-channel in Web). Turn channels on/off, use the z and t-sliders.
+#. Go to the split-view (= multi-channel in Web). Turn channels on/off, use the z and t-sliders.
 
 #. Toggle back between views.
 
@@ -42,6 +43,10 @@ FS View Image
    - Save split channels.[:ref:`FSView008`]
    - Save with all channels turned off.
    - |C| the saved files.
+
+#. Import a multi-image fileset ( = MIF, for example ``lei``). Select one or more image(s) of the MIF in the central pane [:ref:`FSView009`]
+   
+   - |C| that you see the other images belonging to the same MIF being indicated by a lighter highlight [:ref:`FSView010`, :ref:`FSView011`].
 
 
 	.. _FSView002:
@@ -93,3 +98,27 @@ FS View Image
 	 
 
 	   FSView008
+	
+	.. _FSView009:
+	.. figure:: /images/testing_scenarios/ViewImage/009.png
+	   :align: center
+
+
+	   FSView009
+	
+	.. _FSView010:
+	.. figure:: /images/testing_scenarios/ViewImage/010.png
+	   :align: center
+
+
+	   FSView010
+	
+	.. _FSView011:
+	.. figure:: /images/testing_scenarios/ViewImage/011.png
+	   :align: center
+
+
+	   FSView011
+	
+	
+	

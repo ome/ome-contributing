@@ -34,14 +34,6 @@ Testing scenarios
    EditorfromInsight
    EditorStandalone
    FileFormatMetadataValidation
-   FSDelete
-   FSImportFileFormatsTesting
-   FSScreenPlateWell
-   FSScriptsClient
-   FSRender
-   FSROIInsight
-   FSViewBigImage
-   FSViewImage
    ImportAs
    ImportCLI
    ImportDropBox
