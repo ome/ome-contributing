@@ -15,47 +15,88 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Login to the appropriate OMERO.server in the login dialog.
 
-#. Open Insight and login to the same server as in previous point. Import some FLIM data, for example ``test_images_good/sdt/DCIS-01 at 780 nm.sdt``.
+#. Open Insight and login to the same server as in previous point.
 
-#. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the dataset into which you imported the flim data. Click OK.
+#. Create a new dataset named ``Single`` and import 2 files from ``test_images_good/sdt/instrument_response_function/convalaria ex 740nm 2 min.sdt`` and ``test_images_good/sdt/instrument_response_function/nanorods ex 740 nm 2 min.sdt`` into it.
 
-#. Load the data.
+#. Create a new dataset named ``Multiple`` and import files from ``team/FLIM-Files/Instrument Response Function/MEF/*.sdt`` into it.
 
-   - Go ``OMERO > Load FLIM Data: Single FOV`` to open single files.
-   - Go ``OMERO > Load FLIM Data: Multiple FOVs``.
-     
-     - In the popup, tick the files to upload and click ``Load Selected``.
+#. Go to the dataset ``Multiple`` you just created and attach the file ``team/FLIM-Files/Instrument Response Function/MEF/IRF 2013-05-22-T-15-36-21.irf`` to it. Also, attach this file to one of the ``.sdt`` images inside the dataset.
+
+#. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the ``Single`` dataset into which you created in Insight..
+
+#. Load the data (single FOV).
+
+   - Go ``OMERO > Load FLIM Data: Single FOV`` to open single files. Select the file ``convalaria ex 740nm 2 min.sdt``.
 
    - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot].
    - |C| that when you click into the integrated intensity preview, you get fluorescence decay graphs in the middle pane of FLIMfit.
 
-#. Adjust the parameters.
 
-   - In the Data tab (bottom left corner, under the image preview) find the Time Min box.
-   - Watching the graph of the fluorescence decay in the middle pane, enter a number [in picoseconds] into the Time Min box and press enter.
+#. Load the Instrument Response Function (IRF) for this data from an image file
+
+   - Go ``OMERO > Load IRF (Single FOV)`` and select the file ``nanorods ex 740 nm 2 min.sdt``.
+   - |C| that you can now see additionally a pulse of the IRF in the fluorescence decay graphs in the main pane [screenshot]
+
+#. Adjust the Integrated Min. parameter
+
+   - Find the ``Integrated Min`` parameter box, enter a value (e.g. 50) and press Enter.
+   - |C| that the Integrated Intensity preview gets red areas (threshold) which expand as you increase the number in the "Integrated Min" box.
 
 
-     - |C| that the x-axis (=time) in the fluorescence decay graph in the middle pane gets trimmed, the lowest value being the number you have just entered.
+#. Fit locally
 
-   - In the Data tab find the "Integrated Min" box and enter a number and press enter.
-
-     - |C| that the Integrated Intensity preview gets red areas which expand as you increase the number in the "Integrated Min" box.
-
-#. Click the ``Fit Dataset`` button on the bottom left of FLIMfit UI.
-
-   - |C| that the "operation in progress" popup appears.
+   - make sure that the number of exponentials fitted (drop-down menu next to ``No. Exp``) is set to 1
+   - make sure that the ``Fit Contributions`` parameter is set to ``Fitted Locally``
+   - Click ``Fit Dataset`` (bottom-left of the application)
+   - |C| that the "operation in progress" popup appears.   -  
 
 #. Go to Images tab in the central pane of FLIMfit.
 
    - In the right-hand pane, tick the Display and Merge boxes in the tau-1, IO, I and ch2 rows.
    - |C| that for each of the box ticked, an image appears in the central pane.
+ 
 
 #. Go ``OMERO > Export Fitting Results``.
 
-   - |C| that a popup appears indicating that a new dataset was created in omero with the exported results.
+   - |C| that a popup appears indicating that a new dataset was created in OMERO with the exported results.
    - |C| in OMERO.Insight that the dataset was indeed created with a 4-channel image (channels: tau_1, IO, I, ch2) in it.
    - |C| that there are 3 attachments on the created dataset -> ``Fit Results Table``, ``data settings`` and ``fitting settings``.
    - |C| that you can open the image and download and view the 3 attachments.
+
+#. Immediately after this, fit locally again, choosing ``2`` in the ``No. Exp`` menu.
+
+   - |C| that the application finishes the fit without crashing.
+
+#. Load the data (multiple FOVs)
+
+   - Go ``OMERO > Load FLIM Data: Multiple FOVs``. Select the ``Multiple`` dataset you have created in Insight.
+   - In the popup, tick the files to upload and click ``Load Selected``.
+   - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot] and the list of uploaded files in the top-left corner of the application [screenshot].
+
+#. Load the IRF for the multiple FOVs from an attachment
+
+   - Go ``OMERO > Load IRF (Annotation)``
+   - |C| that the pulse of the IRF is visible in the graphs in the central panel under ``Decay`` tab.
+
+#. Fit Multiple FOVs Globally with 2 exponentials 
+
+   - Select ``2`` in the ``No. Exp`` menu.
+   - Select ``Fitted Globally`` in the ``Fit Contributions`` menu.
+   - Click ``Fit Dataset``.
+   - After fitting is finished, go to ``Gallery`` tab in the main pane and in the ``Image`` dropdown on the bottom of the middle pane select ``tau-1``, ``tau-2``, ``beta-1``, ``beta-2``
+   - |C| that 30 images in the main pane appear each time when you change the parameter selection
+
+
+
+
+
+
+
+
+
+
+
 
 
 .. seealso::
