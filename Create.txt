@@ -11,20 +11,23 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 1: Work on your own data**
 
-#. Create new Project/Dataset/Screen* Create using right-click [:ref:`Create001`]
- 
+#. Create new Project/Dataset/Screen* 
+
+   - Create using right-click [:ref:`Create001`]
    - Create using the icon [:ref:`Create002`, :ref:`Create003`, :ref:`Create004`]
    - Create using the main menu (Insight only) [:ref:`Create005`]
 
 #. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`Create005`]
 
-#. Select an image. Create New dataset from Selection (right-click - Insight only)
+#. Select images. Create New Dataset
 
    - |C| that a new dataset is created with the selected images inside
 
-#. Right-click on a Project choose "New…."
+#. Select plates. Create New Screen
 
-   - |C| that the "New dataset" window appears
+   - |C| that a new Screen is created with the selected plates inside
+
+
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
