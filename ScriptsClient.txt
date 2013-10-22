@@ -68,19 +68,17 @@ Scripts Client
 
 .. seealso::
 
-   :omerodoc:`User documentation for Running Export scripts <users/client-tutorials/insight/scripts.html>`
+   :help:`User documentation for Running Export scripts <scripts.html>`
 
-   :omerodoc:`User documentation for Running utility scripts <users/client-tutorials/insight/util-scripts.html>`
+   :help:`User documentation for Running utility scripts <utility-scripts.html>`
 
-   :omerodoc:`Developer documentation for Scripts <developers/Modules/Scripts.html>`
+   :omerodoc:`Developer documentation for Scripts <developers/scripts/user-guide.html>`
 
-   :omerodoc:`Developer documentation for Scripting Service Guide <developers/Modules/Scripts/Guide.html>`
+   :omerodoc:`Developer documentation for MatLab Scripts <developers/scripts/matlab-scripts.html>`
 
-   :omerodoc:`Developer documentation for MatLab Scripts <developers/Modules/Scripts.html#matlab-and-scripting>`
+   :omerodoc:`Developer documentation for Script style <developers/scripts/style-guide.html>`
 
-   :omerodoc:`Developer documentation for Script style <developers/Modules/Scripts/StyleGuide.html>`
-
-   :omerodoc:`Developer documentation for Script API <developers/Modules/Api/ScriptingService.html>`
+   :omerodoc:`Developer documentation for Script API <developers/scripts/advanced.html>`
 
 
 
