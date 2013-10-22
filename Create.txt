@@ -19,14 +19,17 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Create new Tag Set/Tag (Menu:File>New, Insight only) [:ref:`Create005`]
 
-#. Select images. Create New Dataset
+#. Select **non-orphaned** images. Create New Dataset
 
-   - |C| that a new dataset is created with the selected images inside
+   - |C| that a new empty dataset is created.
 
 #. Select plates. Create New Screen
 
-   - |C| that a new Screen is created with the selected plates inside
+   - |C| that a new empty Screen is created.
 
+#. Select **orphaned** images. Create New Dataset
+
+   - |C| that a new dataset is created with the selected images inside.
 
 
 
