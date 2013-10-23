@@ -29,7 +29,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Select **orphaned** images. Create New Dataset
 
-   - |C| that a new dataset is created with the selected images inside.
+   - |C| that a new dataset containing the selected images is created.
 
 
 
