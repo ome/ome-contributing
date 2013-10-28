@@ -3,68 +3,89 @@ U-Track
 
 Purpose of the test is to check the functionality of the U-Track application.
 
+U-Track is a Matlab software to track single-particles, microtubules plus-ends
+or labelled nuclei. It can run against  multi-frame images stored under an
+OMERO server containing either of these objects. Multi-channel images are
+supported but multi-Z images are currently not supported.
+
+.. note::
+	Because U-Track deals with multi-frame images, the term "movie" used in
+	this scenario but also across the U-Track PDF documentation has the same
+	meaning as multi-frame images.
+
+For the purpose of the testing scenario describe below, an example dataset
+can be downloaded: :images_downloads:`integrins.zip <U-Track/integrins.zip>`.
+This zip file contains two OME-TIFF files which are crops of an original
+multi-frame fluorescent image of labelled integrins with different signal to
+noise ratios.
+
 #. Make sure you have MATLAB installed on your machine
 
-#. Download the OMERO.matlab toolbox corresponding to the OMERO server to test 
+#. Download the OMERO.matlab toolbox corresponding to the OMERO server to test
    against from :omero_downloads:`the OMERO downloads page<>`.
 
-#. Download the latest build of U-Track from :jenkinsjob:`U-track-release` and unzip.
+#. Download the latest build of U-Track from :jenkinsjob:`U-Track-release` and
+   unzip it.
 
-#. Import test images onto the OMERO server using OMERO.insight. 
-   :images_downloads:`Public example images <u-track>` can be downloaded.
-   Note the ID(s) of the image(s) to analyze.
+#. Import test images onto the OMERO server using OMERO.insight.
+
+   - Note the ID(s) of the image(s) to analyze.
 
 #. Start MATLAB
 
-#. Add u-track and the OMERO.matlab toolbox to the Matlab path. Navigate to 
-   the directory containing the folders, click right on them and select 
-   :menuselection:`Add to Path -> Selected Folders And SubFolders`
+#. Add U-Track and the OMERO.matlab toolbox to the Matlab path. Navigate to
+   the :file:`OMERO.matlab` directory, click right on it and select
+   :menuselection:`Add to Path -> Selected Folders And SubFolders`. Repeat the
+   same operation for the :file:`U-Track` directory.
 
-#. Start the movie selection interface by typing ``movieSelectorGUI`` at the  
+#. Start the movie selection interface by typing ``movieSelectorGUI`` at the
    MATLAB prompt.
 
    - |C| that the movie selection graphical interface opens.
 
-#. In the top-level menu, select :menuselection:`OMERO -> Log in`. In the 
+#. In the top-level menu, select :menuselection:`OMERO -> Log in`. In the
    login graphical interface enter the credentials and click on
    :guilabel:`Log in`. Adjust the group if necessary using the drop-down menu.
 
    - |C| that the status line indicates a connection is created to the server.
 
-#. In the top-level menu, select :menuselection:`OMERO -> Load Image`, enter 
+#. In the top-level menu, select :menuselection:`OMERO -> Load Image`, enter
    the ID of the test image.
 
-   - |C| that the movie is added to the list of movies to analyze
+   - |C| that the movie is added to the list of movies to process in the
+     U-Track movie selection graphical interface
    - |C| that a file annotation is created and attached to the selected image 
      using either OMERO.insight or OMERO.web
 
-#. In the right panel, make sure :guilabel:`U-Track` is selected and click 
+#. In the right panel, make sure :guilabel:`U-Track` is selected and click
    :guilabel:`Continue` at the bottom of the interface.
 
-#. If the image has never been analyzed by u-track previously, a pop-up window  
+#. If the image has never been analyzed by U-Track previously, a pop-up window
    should open asking which objects should be tracked. Choose 
-   single-particles as the type of objects to track. The main analysis panel   
+   `Single-particles` as the type of objects to track. The main analysis panel
    should open.
 
-#. Set the detection parameters by clicking on the :guilabel:`Setting` button 
-   next to ``Step 1: Detection``. Select the default detection method 
-   (Gaussian Mixture Model Fitting) and click on :guilabel:`Setting`. Click on 
-   :guilabel:`Apply` to accept the default detection settings
+#. Set the detection parameters by clicking on the :guilabel:`Setting` button
+   next to ``Step 1: Detection``. Select the default detection method
+   (Gaussian Mixture Model Fitting) and click on :guilabel:`Setting`. Fill the
+   camera bit depth and Gaussian standard deviation if these parameters are
+   not specified in the movie metadata. Click on :guilabel:`Apply` to accept
+   the default detection settings
 
-   - |C| that **Step 1: Detection** appears in bold meaning the detection step 
+   - |C| that **Step 1: Detection** appears in bold meaning the detection step
      is set up for this movie
 
-#. Check the checkbox next to **Step 1: Detection** and click on the 
-   :guilabel:`Run` button at the bottom of the window.
+#. Check the checkbox next to **Step 1: Detection** and click on the
+   :guilabel:`Run` button under the list of steps.
 
    - |C| that the software starts the analysis at the MATLAB command prompt
-   - |C| that a green icon appears next to the detection step once it is run 
+   - |C| that a green icon appears next to the detection step once it is run
      successfully
 
-#. Click on the :guilabel:`Result` button next to **Step 1: Detection**. Three 
-   graphical windows should open. One of them, called ``Movie`` shows the 
-   movie planes with the analysis results overlaid on top of it. A second 
-   window called ``Viewer`` allows to navigate through the time dimension via 
+#. Click on the :guilabel:`Result` button next to **Step 1: Detection**. Three
+   graphical windows should open. One of them, called ``Movie`` shows the
+   movie planes with the analysis results overlaid on top of it. A second
+   window called ``Viewer`` allows to navigate through the time dimension via
    a scrollbar. 
 
    - |C| that the detection results are overlaid by default on top of the 
