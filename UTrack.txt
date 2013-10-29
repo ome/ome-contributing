@@ -14,7 +14,7 @@ supported but multi-Z images are currently not supported.
 	meaning as multi-frame images.
 
 For the purpose of the testing scenario describe below, an example dataset
-can be downloaded: :images_downloads:`integrins.zip <U-Track/integrins.zip>`.
+can be downloaded: :images_downloads:`integrins.zip <u-track/integrins.zip>`.
 This zip file contains two OME-TIFF files which are crops of an original
 multi-frame fluorescent image of labelled integrins with different signal to
 noise ratios.
