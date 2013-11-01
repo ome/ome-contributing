@@ -3,7 +3,7 @@ U-Track
 
 Purpose of the test is to check the functionality of the U-Track application.
 
-U-Track is a Matlab software to track single-particles, microtubules plus-ends
+U-Track is a Matlab software to track single particles, microtubules plus-ends
 or labelled nuclei. It can run against  multi-frame images stored under an
 OMERO server containing either of these objects. Multi-channel images are
 supported but multi-Z images are currently not supported.
@@ -21,8 +21,9 @@ noise ratios.
 
 #. Make sure you have MATLAB installed on your machine
 
-#. Download the OMERO.matlab toolbox corresponding to the OMERO server to test
-   against from :omero_downloads:`the OMERO downloads page<>`.
+#. Download the latest OMERO.matlab toolbox corresponding to the OMERO server
+   to test against using :jenkinsjob:`OMERO-merge-stable` or
+   :jenkinsjob:`OMERO-merge-develop`.
 
 #. Download the latest build of U-Track from :jenkinsjob:`U-Track-release` and
    unzip it.
@@ -34,7 +35,7 @@ noise ratios.
 #. Start MATLAB
 
 #. Add U-Track and the OMERO.matlab toolbox to the Matlab path. Navigate to
-   the :file:`OMERO.matlab` directory, click right on it and select
+   the :file:`OMERO.matlab` directory, right-click on it and select
    :menuselection:`Add to Path -> Selected Folders And SubFolders`. Repeat the
    same operation for the :file:`U-Track` directory.
 
