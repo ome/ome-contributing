@@ -35,7 +35,7 @@ NB: Because the image features are being stored in two different places, which m
 #. Run 2 Feature Calculation scripts in parallel without any error
 
    - repeat step 3, this time checking the box ``Advanced Features``, ``Recalculate Existing Features`` AND ``Disable ContentDB Update`` in both script runs [:ref:`OMERO.searcher002`]
-   - |C| that this time both scripts ended successfully and the attachments were created
+   - |C| that this time both scripts ended successfully and the attachments on images inside the datasets (not on the datasets themselves) were created
 
 #. Run ``Rebuild Content DB`` script
 
@@ -69,6 +69,10 @@ NB: Because the image features are being stored in two different places, which m
    - Deselect some of the Projects / Datasets
    - Click ``Refine Search``
    - |C| that the search results are filtered as intended
+
+#. Change group in OMERO.web (from a default group to non-default group or the other way round) and start a new search
+
+   - |C| that the search results are taken only from the group you have on display, not the other group.
 
 
 	.. _OMERO.searcher001a:
