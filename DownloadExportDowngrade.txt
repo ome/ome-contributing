@@ -748,7 +748,7 @@ When performing the following steps, export both into your home directory as wel
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013c.png
 	   :align: center
 
-	   DownloadED013c
+	   the screenshot shows the expected situation after 1st image of the 56 images of the ``050118.lei`` set was selected & downloaded
 
 
 	|
