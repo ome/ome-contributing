@@ -30,8 +30,6 @@ noise ratios.
 
 #. Import test images onto the OMERO server using OMERO.insight.
 
-   - Note the ID(s) of the image(s) to analyze.
-
 #. Start MATLAB
 
 #. Add U-Track and the OMERO.matlab toolbox to the Matlab path. Navigate to
@@ -42,28 +40,38 @@ noise ratios.
 #. Start the movie selection interface by typing ``movieSelectorGUI`` at the
    MATLAB prompt.
 
-   - |C| that the movie selection graphical interface opens.
+   - |C| that the `Movie selection` graphical interface opens.
 
 #. In the top-level menu, select :menuselection:`OMERO -> Log in`. In the
-   login graphical interface enter the credentials and click on
+   `OMERO login` graphical interface enter the credentials and click on
    :guilabel:`Log in`. Adjust the group if necessary using the drop-down menu.
 
    - |C| that the status line indicates a connection is created to the server.
 
-#. In the top-level menu, select :menuselection:`OMERO -> Load Image`, enter
-   the ID of the test image.
+#. In the top-level menu, select :menuselection:`OMERO -> Load data`. In the
+   `OMERO data selection` interface, browse through your projects/datasets,
+   select the images to be analyzed and click on
+   :guilabel:`Load selected images`.
 
-   - |C| that the movie is added to the list of movies to process in the
-     U-Track movie selection graphical interface
-   - |C| that a file annotation is created and attached to the selected image 
+   - |C| that the MATLAB command window displays information about the movie
+     loading
+   - |C| that the movies are added to the list of movies to process in the
+     U-Track `Movie selection` graphical interface
+   - |C| that a file annotation is created and attached to the selected image
      using either OMERO.insight or OMERO.web
+
+#.  Optionally, go to the `OMERO data selection` graphical interface,
+    re-select loaded movies and click on :guilabel:`Load selected images`.
+
+    - |C| that an error message informs that the movies have already been
+      loaded
 
 #. In the right panel, make sure :guilabel:`U-Track` is selected and click
    :guilabel:`Continue` at the bottom of the interface.
 
 #. If the image has never been analyzed by U-Track previously, a pop-up window
    should open asking which objects should be tracked. Choose 
-   `Single-particles` as the type of objects to track. The main analysis panel
+   `Single particles` as the type of objects to track. The main analysis panel
    should open.
 
 #. Set the detection parameters by clicking on the :guilabel:`Setting` button
