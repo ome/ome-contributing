@@ -88,7 +88,9 @@ FS-Download/Export images (perform on FS server with FS-data-only database)
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
-    - FS-multi-image - repeat the "FS-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`).
+    - FS-multi-image - repeat the "FS-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`). 
+        
+         - |C| that the whole multi-image fileset (MIF) has been downloaded. See [:ref:`DownloadED013p`]. 
 
 
 
@@ -872,6 +874,38 @@ When performing the following steps, export both into your home directory as wel
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|	
+	|
+
+
+	.. _DownloadED013p:
+	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013p.png
+	   :align: center
+
+	   example of `test_images_good/lei/050118.lei` when 1st image only was selected.
+
+
 	|
 	|
 	|
