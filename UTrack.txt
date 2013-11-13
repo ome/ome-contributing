@@ -60,7 +60,7 @@ noise ratios.
    - |C| that a file annotation is created and attached to the selected image
      using either OMERO.insight or OMERO.web
 
-#.  Go to the `OMERO data selection` graphical interface, re-select loaded
+#. Go to the `OMERO data selection` graphical interface, re-select loaded
     movies and click on :guilabel:`Load selected images`.
 
     - |C| that an error message informs that the movies have already been
@@ -81,11 +81,12 @@ noise ratios.
    not specified in the movie metadata. Click on :guilabel:`Apply` to accept
    the default detection settings
 
-   - |C| that **Step 1: Detection** appears in bold meaning the detection step
-     is set up for this movie
+   - |C| that **Step 1: Detection** appears in bold, i.e. that the detection
+     step is set up for this movie
+   - |C| that checkbox next to **Step 1: Detection** is checked, i.e. that the
+     detection step is scheduled for running
 
-#. Check the checkbox next to **Step 1: Detection** and click on the
-   :guilabel:`Run` button under the list of steps.
+#. Click on the :guilabel:`Run` button under the list of steps.
 
    - |C| that the software starts the analysis at the MATLAB command prompt
    - |C| that a green icon appears next to the detection step once it is run
@@ -110,11 +111,12 @@ noise ratios.
    next to ``Step 2: Tracking``. Click on :guilabel:`Apply` to accept the 
    default tracking parameters.
 
-   - |C| that **Step 2: Tracking** appears in bold meaning the tracking step 
-     is set up for this movie
+   - |C| that **Step 2: Tracking** appears in bold, i.e. that the tracking
+     step is set up for this movie
+   - |C| that checkbox next to **Step 2: Tracking** is checked, i.e. that the
+     detection step is scheduled for running
 
-#. Check the checkbox next to **Step 2: Tracking** and click on the 
-   :guilabel:`Run` button at the bottom of the window.
+#. Click on the :guilabel:`Run` button under the list of steps.
 
    - |C| that the software starts the tracking at the MATLAB command prompt
    - |C| that a green icon appears next to the tracking step once it is run 
