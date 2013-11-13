@@ -125,10 +125,11 @@ noise ratios.
 #. Click on the :guilabel:`Result` button next to **Step 2: Tracking**.
 
    - |C| that the tracks are overlaid by default on top of the image plane as 
-     red circles. To check this, scroll through the frames of the movie and 
+     red paths. To check this, scroll through the frames of the movie and 
      make sure the tracks are updated.
 
    - |C| that the track dragtail length can be controlled. Choose a frame in 
      the middle of the movie. In the ``Movie options`` graphical interface, 
-     modify the ``Dragtail length`` edit box to different values: 1, 5, 10...
-     |C| that the tracks dragtail is updated.
+     modify the ``Dragtail length`` edit box to different values in the range
+     between 1 and the number of timepoints of the movie e.g. 1, 5, 10... and
+     hit Enter. |C| that the tracks dragtail is updated.
