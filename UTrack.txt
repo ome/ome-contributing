@@ -60,8 +60,8 @@ noise ratios.
    - |C| that a file annotation is created and attached to the selected image
      using either OMERO.insight or OMERO.web
 
-#.  Optionally, go to the `OMERO data selection` graphical interface,
-    re-select loaded movies and click on :guilabel:`Load selected images`.
+#.  Go to the `OMERO data selection` graphical interface, re-select loaded
+    movies and click on :guilabel:`Load selected images`.
 
     - |C| that an error message informs that the movies have already been
       loaded
