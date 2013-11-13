@@ -89,6 +89,8 @@ noise ratios.
 #. Click on the :guilabel:`Run` button under the list of steps.
 
    - |C| that the software starts the analysis at the MATLAB command prompt
+   - |C| that a window pops up informing that the step has been completed
+     successfully
    - |C| that a green icon appears next to the detection step once it is run
      successfully
 
@@ -119,6 +121,8 @@ noise ratios.
 #. Click on the :guilabel:`Run` button under the list of steps.
 
    - |C| that the software starts the tracking at the MATLAB command prompt
+   - |C| that a window pops up informing that the step has been completed
+     successfully
    - |C| that a green icon appears next to the tracking step once it is run 
      successfully
 
