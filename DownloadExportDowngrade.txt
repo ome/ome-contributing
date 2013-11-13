@@ -51,27 +51,27 @@ non-FS-Download/Export images
 
     - Go to the right-hand panel General tab,
 
-         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadED010a`]
-         - in Insight, press the Saving icon [2nd form right] and choose Download.[:ref:`DownloadED010b`]
-         - in Web click on the arrow in General tab [:ref:`DownloadED011`]
+         - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadED010a`].
+         - in Insight, press the Saving icon [2nd from right] and choose Download.[:ref:`DownloadED010b`].
+         - in Web click on the arrow in General tab [:ref:`DownloadED011`].
          - Download both into your home directory as well as to your Desktop.
-         - |C| that the image has correctly been downloaded [:ref:`DownloadED012`]
-         - Re-import the image.(import in Insight, but check in Web as well)
-         - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`]
+         - |C| that the image has correctly been downloaded [:ref:`DownloadED012`].
+         - Re-import the image: import in Insight, but check in Web as well.
+         - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
-    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only)
+    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only).
 
-         - Select the download option on the right-hand side
-         - Download the image - a zip will be created [:ref:`DownloadED013b`]
+         - Select the download option on the right-hand side.
+         - Download the image - a zip will be created [:ref:`DownloadED013b`].
          - Download both into your home directory as well as to your Desktop.
-         - |C| that the image has been downloaded correctly [:ref:`DownloadED013c`]
-         - Re-import the image.(import in Insight, but check in Web as well)
+         - |C| that the image has been downloaded correctly [:ref:`DownloadED013c`].
+         - Re-import the image: import in Insight, but check in Web as well.
          - Compare the image originally imported and the re-imported image (check also the metadata).
 
 
     - Now Select an image which had the "Archive" option off at import. If not sure, re-import an image with the "Archive" option off.
-         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadED013d`]
-         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadED013e`] nor Web (menu item missing) [:ref:`DownloadED013f`]
+         - |C| that you see the image is not shown as ``Archived`` in Insight [:ref:`DownloadED013d`].
+         - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadED013e`] nor Web (menu item missing) [:ref:`DownloadED013f`].
 
 
 FS-Download/Export images (perform on FS server with FS-data-only database)
