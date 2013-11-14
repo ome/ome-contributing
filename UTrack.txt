@@ -61,7 +61,7 @@ noise ratios.
      using either OMERO.insight or OMERO.web
 
 #. Go to the `OMERO data selection` graphical interface, re-select loaded
-    movies and click on :guilabel:`Load selected images`.
+   movies and click on :guilabel:`Load selected images`.
 
     - |C| that an error message informs that the movies have already been
       loaded
