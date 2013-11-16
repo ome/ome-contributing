@@ -25,7 +25,7 @@ noise ratios.
    to test against using :jenkinsjob:`OMERO-merge-stable` or
    :jenkinsjob:`OMERO-merge-develop`.
 
-#. Download the latest build of U-Track from :jenkinsjob:`U-Track-release` and
+#. Download the latest build of U-Track from :jenkinsjob:`U-TRACK-build` and
    unzip it.
 
 #. Import test images onto the OMERO server using OMERO.insight.
