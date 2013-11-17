@@ -3,23 +3,24 @@ U-Track
 
 Purpose of the test is to check the functionality of the U-Track application.
 
-U-Track is a Matlab software to track single particles, microtubules plus-ends
-or labelled nuclei. It can run against  multi-frame images stored under an
-OMERO server containing either of these objects. Multi-channel images are
-supported but multi-Z images are currently not supported.
+U-Track is a MATLAB-based software program for tracking single particles,
+microtubules plus-ends or labelled nuclei. It can run against multi-frame
+images stored under an OMERO server containing either of these objects.
+Multi-channel images are supported but multi-Z images are currently not
+supported.
 
 .. note::
 	Because U-Track deals with multi-frame images, the term "movie" used in
-	this scenario but also across the U-Track PDF documentation has the same
-	meaning as multi-frame images.
+	this scenario matches the U-Track PDF documentation in meaning
+	"multi-frame images".
 
 For the purpose of the testing scenario describe below, an example dataset
 can be downloaded: :images_downloads:`integrins.zip <u-track/integrins.zip>`.
 This zip file contains two OME-TIFF files which are crops of an original
-multi-frame fluorescent image of labelled integrins with different signal to
-noise ratios.
+multi-frame fluorescent image of labelled integrins with different
+signal-to-noise ratios.
 
-#. Make sure you have MATLAB installed on your machine
+#. Make sure you have MATLAB installed on your machine.
 
 #. Download the latest OMERO.matlab toolbox corresponding to the OMERO server
    to test against using :jenkinsjob:`OMERO-merge-stable` or
@@ -30,7 +31,7 @@ noise ratios.
 
 #. Import test images onto the OMERO server using OMERO.insight.
 
-#. Start MATLAB
+#. Start MATLAB.
 
 #. Add U-Track and the OMERO.matlab toolbox to the Matlab path. Navigate to
    the :file:`OMERO.matlab` directory, right-click on it and select
@@ -54,17 +55,17 @@ noise ratios.
    :guilabel:`Load selected images`.
 
    - |C| that the MATLAB command window displays information about the movie
-     loading
+     loading.
    - |C| that the movies are added to the list of movies to process in the
-     U-Track `Movie selection` graphical interface
+     U-Track `Movie selection` graphical interface.
    - |C| that a file annotation is created and attached to the selected image
-     using either OMERO.insight or OMERO.web
+     using either OMERO.insight or OMERO.web.
 
 #. Go to the `OMERO data selection` graphical interface, re-select loaded
    movies and click on :guilabel:`Load selected images`.
 
     - |C| that an error message informs that the movies have already been
-      loaded
+      loaded.
 
 #. In the right panel, make sure :guilabel:`U-Track` is selected and click
    :guilabel:`Continue` at the bottom of the interface.
@@ -79,26 +80,26 @@ noise ratios.
    (Gaussian Mixture Model Fitting) and click on :guilabel:`Setting`. Fill the
    camera bit depth and Gaussian standard deviation if these parameters are
    not specified in the movie metadata. Click on :guilabel:`Apply` to accept
-   the default detection settings
+   the default detection settings.
 
    - |C| that **Step 1: Detection** appears in bold, i.e. that the detection
-     step is set up for this movie
+     step is set up for this movie.
    - |C| that checkbox next to **Step 1: Detection** is checked, i.e. that the
-     detection step is scheduled for running
+     detection step is scheduled for running.
 
 #. Click on the :guilabel:`Run` button under the list of steps.
 
-   - |C| that the software starts the analysis at the MATLAB command prompt
+   - |C| that the software starts the analysis at the MATLAB command prompt.
    - |C| that a window pops up informing that the step has been completed
-     successfully
+     successfully.
    - |C| that a green icon appears next to the detection step once it is run
-     successfully
+     successfully.
 
 #. Click on the :guilabel:`Result` button next to **Step 1: Detection**. Three
-   graphical windows should open. One of them, called ``Movie`` shows the
+   graphical windows should open. One of them, called ``Movie``, shows the
    movie planes with the analysis results overlaid on top of it. A second
    window called ``Viewer`` allows to navigate through the time dimension via
-   a scrollbar. 
+   a scrollbar.
 
    - |C| that the detection results are overlaid by default on top of the 
      image plane as red circles.
@@ -114,17 +115,17 @@ noise ratios.
    default tracking parameters.
 
    - |C| that **Step 2: Tracking** appears in bold, i.e. that the tracking
-     step is set up for this movie
+     step is set up for this movie.
    - |C| that checkbox next to **Step 2: Tracking** is checked, i.e. that the
-     detection step is scheduled for running
+     detection step is scheduled for running.
 
 #. Click on the :guilabel:`Run` button under the list of steps.
 
-   - |C| that the software starts the tracking at the MATLAB command prompt
+   - |C| that the software starts the tracking at the MATLAB command prompt.
    - |C| that a window pops up informing that the step has been completed
-     successfully
+     successfully.
    - |C| that a green icon appears next to the tracking step once it is run 
-     successfully
+     successfully.
 
 #. Click on the :guilabel:`Result` button next to **Step 2: Tracking**.
 
