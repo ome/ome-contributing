@@ -52,7 +52,7 @@ non-FS-Download/Export images
     - Go to the right-hand panel General tab,
 
          - |C| that you see the image is shown as ``Archived`` in Insight [:ref:`DownloadED010a`].
-         - in Insight, press the Saving icon [2nd from right] and choose Download.[:ref:`DownloadED010b`].
+         - in Insight, press the Saving icon (2nd from right) and choose Download.[:ref:`DownloadED010b`].
          - in Web click on the arrow in General tab [:ref:`DownloadED011`].
          - Download both into your home directory as well as to your Desktop.
          - |C| that the image has correctly been downloaded [:ref:`DownloadED012`].
