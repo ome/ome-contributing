@@ -39,19 +39,28 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 2: Work on other users' data**
 
-#. |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-   |C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data in the table :omerodoc:`here <sysadmins/server-permissions.html>`
-
+|C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
+|C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data (= look for Mix data (formerly "Link") permissions) in the table :omerodoc:`here <sysadmins/server-permissions.html>`
 
 #. Switch to Group Display in Insight, put "All members" to display in Web.
 
-#. Do step 1 in Section 1 only creating Datasets under others' Projects (it is not possible to create Project or Screen under the name of another user)
+#. In Insight and Web try to create new P/D/S being under other users data (=selecting other users P/D/S/I) 
 
-#. Do step 3 in Section 1 working on other users' images.
+   - |C| that you can/cannot create the new entities as appropriate to your permissions (= menu items in contextual menu, icons and main menu are enabled/disabled as appropriate) - both Web and Insight
+   - |C| in Insight that new Datasets are created under other users Projects when these Projects are selected and creation is permitted.
+   - |C| in Web that new Datasets are created outside of other users projects even when the Projects are selected
+
+
+
+#. Do step 5 in Section 1 selecting other users' images.
+
+   - |C| that when creation permitted, the newly created Dataset belongs to you and contains the selected images of the other user(s)
+
 
 #. Switch to User View in Insight, put a particular user to display in Web and do steps 2 and 3 in Section 2.
 
-
+   - |C| that when you select other users data Projects and Screens are created under your name in the tree in Insight (when permitted), the Datasets are created under selected projects of other users (when permitted)
+   - |C| that when you select other users data P/D/S are created under the name of the other user in Web, but after the first change of display (put yourself to display) the newly created P/D/S are under your name
 
 |
 |
