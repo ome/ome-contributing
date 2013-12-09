@@ -39,6 +39,10 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 2: Work on other users' data**
 
+#. |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
+   |C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data in the table :omerodoc:`here <sysadmins/server-permissions.html>`
+
+
 #. Switch to Group Display in Insight, put "All members" to display in Web.
 
 #. Do step 1 in Section 1 only creating Datasets under others' Projects (it is not possible to create Project or Screen under the name of another user)
