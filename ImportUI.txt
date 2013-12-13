@@ -99,7 +99,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
      - |C| that the ``In Full Viewer`` item opens the image in viewer
      - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
      - |C| that the ``View Import Log`` item shows the Log file [:ref:`ImportUI013f`]
-     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. |C| that the import log appears.
+     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Exception. |C| that the exception window appears.
      - (FS only) |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`] 
 
 
