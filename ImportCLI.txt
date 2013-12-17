@@ -10,9 +10,11 @@ Import CLI
 
 **Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
 
+**Note that you have to download the right .zip server file (with the correct Ice version) to have the correct CLI-client for testing. You can use omego for this purpose, or download the .zip manually.**
+
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
-#. Go to Terminal (command line interface, CLI). From CLI
+#. Go to Terminal. cd into your OMERO_HOME directory. From there:
 
 #. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
 
@@ -31,9 +33,13 @@ Import CLI
 
    - |C| that you can see the imported images within the file
 
-#. Try import into an existing dataset (use -d <datasetID> - use the dataset you created in step 1) and archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
+#. Try import into an existing dataset (use -d <datasetID> - use the dataset you created in step 1) - e.g. ``import -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
+   
+   - |C| the image has been imported into the right dataset
 
-   - |C| the image has been imported into the right database and archived
+#. (non-FS only) Try archiving images at import (use -a) - e.g. ``import -a ~/Desktop/dv/CFPNEAT01_R3D.dv``
+
+   - |C| the image has been imported and archived.
 
 #. Import a nested folder containing Screen/Plate/Well files
 
