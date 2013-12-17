@@ -8,54 +8,55 @@ Import As
 **Purpose of the test** is to check importing for other users.
 
 
-NB: Only Administrators can import data for other users. When importing the data for another user, the permissions to link these data to a third party P/D/S is dependent on the permission levels of the user for whom the data is being imported ( = the owner of the data).
+NB: Only Administrators can import data for other users (**NO Import As** is permitted in **private** group though). When importing the data for another user, the permissions to put these data to a **third party** P/D/S is dependent on the permission levels of the user for whom the data is being imported ( = the owner of the data).
 
-#. Check the permission levels for linking the data to other users' P/D/S (= Link/Unlink) :omerodoc:`here <sysadmins/server-permissions.html>`.
+#. Check the permission levels for putting the data to other users' P/D/S (= Mix Data) :omerodoc:`here <sysadmins/server-permissions.html>`.
+
 
 #. Read the :ref:`Table of permissions-users <Table-of-permissions-users>`. You will pick or you have been assigned to 3 users from one group.:
  
    - an administrator (e.g. user-6)
-   - a user which CANNOT Link ("No Link" = NL) - referred to as user-NL from here
-   - a user which Can Link (CL) - referred to as user-CL from here
+   - a user which CANNOT Mix ("No Mix" = NM) - referred to as user-NM from here
+   - a user which Can Mix (CM) - referred to as user-CM from here
 
 
 #. Make sure you have images ready on your local hierarchy. Use small images which you can pull from `here <https://github.com/ome/omero-setup>`_, and some multi-well plate, like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have well-named images and plates within well-named folders.
 
-   - prepare folders with images for user-NL
-   - prepare folders with images for user-CL
-   - prepare folders with plates for user-NL
-   - prepare folders with plates for user-CL
+   - prepare folders with images for user-NM
+   - prepare folders with images for user-CM
+   - prepare folders with plates for user-NM
+   - prepare folders with plates for user-CM
 
 #. In Insight UI, prepare Projects and Datasets for the users for which you will import later
 
-   - Login as user-NL.
-   - Create a Project and a Screen for the data for user-NL (e.g. "user-NL for user-NL's data")
-   - Create a Project and a Screen for the data of user-CL (e.g. "user-NL for user-CL's data")
-   - Login as user-CL.
-   - Create a Project and a Screen for the data of user-NL (e.g. "user-CL for user-NL's data")
-   - Create a Project and a Screen for the data of user-CL (e.g. "user-CL for user-CL's data")
+   - Login as user-NM.
+   - Create a Project and a Screen for the data for user-NM (e.g. "user-NM for user-NM's data")
+   - Create a Project and a Screen for the data of user-CM (e.g. "user-NM for user-CM's data")
+   - Login as user-CM.
+   - Create a Project and a Screen for the data of user-NM (e.g. "user-CM for user-NM's data")
+   - Create a Project and a Screen for the data of user-CM (e.g. "user-CM for user-CM's data")
    - Login as administrator
-   - Create a project and a Screen for the data of user-NL (e.g. "user-6 for user-NL's data") 
-   - Create a project and a Screen for the data of user-CL (e.g. "user-6 for user-CL's data")
+   - Create a project and a Screen for the data of user-NM (e.g. "user-6 for user-NM's data") 
+   - Create a project and a Screen for the data of user-CM (e.g. "user-6 for user-CM's data")
 
 #. Log in as administrator.
 
 #. Switch to Group Display. 
 
-#. Import for user-CL, do not create a new Project at import stage. 
+#. Import for user-CM, do not create a new Project at import stage. 
 
-   - Open Importer, select the folder you prepared in step 3 for user-CL, click ``>``.
-   - In the Import Location window, select ``Import For`` user-CL [:ref:`ImportAs001`]
-   - Open the Projects menu, you should be able to select the Projects of the user-CL and other users' Projects [:ref:`ImportAs002`]. The red dots mark the projects owned by anyone else than user-CL.
-   - Select the Project owned by the user-NL (e.g. "user-NL for user-CL's data") [:ref:`ImportAs003`] and import.
-   - Select the Project owned by the user-CL (e.g. "user-CL for user-CL's data") and import.
-   - Select the Project owned by the admin (e.g. "user-6 for user-CL's data") and import
+   - Open Importer, select the folder you prepared in step 3 for user-CM, click ``>``.
+   - In the Import Location window, select ``Import For`` user-CM [:ref:`ImportAs001`]
+   - Open the Projects menu, you should be able to select the Projects of the user-CM and other users' Projects [:ref:`ImportAs002`]. 
+   - Select the Project owned by the user-NM (e.g. "user-NM for user-CM's data") [:ref:`ImportAs003`] and import.
+   - Select the Project owned by the user-CM (e.g. "user-CM for user-CM's data") and import.
+   - Select the Project owned by the admin (e.g. "user-6 for user-CM's data") and import
 
-#. Import for user-NL, do not create a new Project at import stage
+#. Import for user-NM, do not create a new Project at import stage
 
-   - Select ``Import For`` user-NL
-   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by user-NL [:ref:`ImportAs004`]
-   - Select the Project owned by the user-NL (e.g. "user-NL for user-NL's data") and import.
+   - Select ``Import For`` user-NM
+   - Open the Projects menu, you should see all projects, but not be able to select any Projects except the ones owned by user-NM [:ref:`ImportAs004`]
+   - Select the Project owned by the user-NM (e.g. "user-NM for user-NM's data") and import.
 
 
 #. Repeat steps 7, 8 importing single images (not a whole folder).
