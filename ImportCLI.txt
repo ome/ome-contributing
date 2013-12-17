@@ -14,7 +14,7 @@ Import CLI
 
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
-#. Go to Terminal (command line interface, CLI). From CLI
+#. Go to Terminal. cd into your OMERO_HOME directory. From there:
 
 #. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
 
@@ -33,9 +33,13 @@ Import CLI
 
    - |C| that you can see the imported images within the file
 
-#. Try import into an existing dataset (use -d <datasetID> - use the dataset you created in step 1) and (non-FS only) archive images at import (use -a) - e.g. ``import -a -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
+#. Try import into an existing dataset (use -d <datasetID> - use the dataset you created in step 1) - e.g. ``import -d 101 ~/Desktop/dv/CFPNEAT01_R3D.dv``
+   
+   - |C| the image has been imported into the right dataset
 
-   - |C| the image has been imported into the right dataset and archived (if non-FS)
+#. (non-FS only) Try archiving images at import (use -a) - e.g. ``import -a ~/Desktop/dv/CFPNEAT01_R3D.dv``
+
+   - |C| the image has been imported and archived.
 
 #. Import a nested folder containing Screen/Plate/Well files
 
