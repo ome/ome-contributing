@@ -89,10 +89,10 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 
 
-#. When the import is done, check in the Importer Window:
+#. After each import, when the import is done, check in the Importer Window:
 
-   - |C| that thumbnail(s) is(are) created [:ref:`ImportUI012`].
-   - |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
+   - |C| that thumbnail(s) is(are) created - should always be the case in FS. (non-FS only) Note that for this the box in the Importer prior to Import must have been ticked [:ref:`ImportUI012`].
+   - (non-FS only) |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
    - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`ImportUI013c`].
 
