@@ -110,7 +110,8 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
      - |C| that
 
-       - you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions.
+       - you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions. The exception can also be viewed in a separate item under "Failed" menu.
+       - you can Retry All (button on the bottom of the Importer)
 
    
    - Failure of checksums: Test on a dedicated server (e.g. a server with recompiled server code in a way which causes checksum failure).
@@ -126,9 +127,9 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
        - you can submit the .zip, consisting of the file AND log
        - you can submit the exceptions
 
-     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Import Log. 
+     - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Exception 
 
-       - |C| that the import log appears.
+       - |C| that the Exception appears.
 
 #. Error submission process: Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
 
