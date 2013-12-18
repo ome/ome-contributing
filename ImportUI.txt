@@ -16,34 +16,34 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| that a new Dataset will be created with the name of the folder.
    - |C| that the icon of the Dataset (right-hand side of the Import window) is light blue, not plum color as for Project [:ref:`ImportUI002`]
    - Click import.
-   - Go to the DataManager.
+   - Go to the Insigth UI main window.
  
      - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004b`]
      - |C| that the number next to green tick is incremented when an import is finished successfully.
 
-   - Still in Data Manager (left-hand side), hit the refresh button
+   - Still in Insight UI Insigth UI main window (left-hand side), hit the refresh button
      - |C| that only one dataset is created. [:ref:`ImportUI003`]
 
 #. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
 
-   - |C| that the counter in the toolbar of Data Manager (right-hand side) counts the imported files correctly [:ref:`ImportUI004b`].
+   - |C| that the counter in the toolbar of Insigth UI main window (right-hand side) counts the imported files correctly [:ref:`ImportUI004b`].
 
    - |C| that only one dataset was created for the imported folder.
    - Import another folder and again check that just one dataset was created and no duplicate imports or re-imports of the previous folder occurred.
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at the import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
-#. Duplicate and Companion File: Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
+#. De-duplication of import in case of a Companion File: Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
 
    - add both files to the import queue
    - click import
    - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
    - |C| that the import of the duplicate does not proceed (in this transaction)
-   - |C| that the counter in the Toolbar of the Data Manager is not counting the skipped files as ``Imported``
+   - |C| that the counter in the Toolbar of the Insigth UI main window is not counting the skipped files as ``Imported``
    - |C| the Companion File:
       
-     - Go to the Data Manager, right-hand pane, Acquisition tab
-     - |C| that the first harmonica tab is ``Companion file`` (NOT ``Original Metadata``)
+     - Go to the Insigth UI main window, right-hand pane, Acquisition tab
+     - |C| that the first harmonica tab is ``Companion files`` (NOT ``Original Metadata``)
      - Expand the ``Companion file`` harmonica tab and check the file is there
 
 #. (FS only) Upload.
@@ -58,7 +58,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| that only this particular import has been cancelled
    - Cancel all imports using the ``Cancel All`` button
    - |C| that all the imports where the upload did not start yet are cancelled
-   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Data Manager.
+   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Insigth UI main window.
    - Repeat step 6 when importing a whole folder (for example ``test_images_good/dv``).
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
@@ -97,7 +97,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| the ``View`` menu: [:ref:`ImportUI013c`].
 
      - |C| that the ``In Full Viewer`` item opens the image in viewer
-     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Data Manager
+     - |C| that the ``In Data Browser`` item brings you to the image in data tree in Insigth UI main window
      - |C| that the ``View Import Log`` item shows the Log file [:ref:`ImportUI013f`]
      - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Exception. |C| that the exception window appears.
      - (FS only) |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`] 
