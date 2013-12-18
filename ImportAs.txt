@@ -22,9 +22,9 @@ Mix Data) :omerodoc:`here <sysadmins/server-permissions.html>`.
 You will pick or you have been assigned to 3 users from one group.:
  
    - an administrator (e.g. user-6)
-   - a user which CANNOT Mix ("No Mix" = NM) - referred to as user-NM from 
+   - a user who CANNOT Mix ("No Mix" = NM) - referred to as user-NM from 
      here
-   - a user which Can Mix (CM) - referred to as user-CM from here
+   - a user who Can Mix (CM) - referred to as user-CM from here
 
 
 #. Make sure you have images ready on your local hierarchy. Use small images
@@ -38,7 +38,7 @@ well-named images and plates within well-named folders.
    - prepare folders with plates for user-NM
    - prepare folders with plates for user-CM
 
-#. In Insight UI, prepare Projects and Datasets for the users for which you 
+#. In Insight UI, prepare Projects and Datasets for the users for whom you 
 will import later
 
    - Login as user-NM.
@@ -99,7 +99,7 @@ will import later
 #. Check the imported objects.
 
    - Start checking in Web first, then in Insight. View the data logged in as 
-     the user which did not import them and does not own them.
+     the user who did not import them and does not own them.
    - |C| that new P/D/S were created and the images and plates were imported 
      as appropriate [:ref:`ImportAs005`]
    - |C| that the ownership of the P/D/S and of the imported images and plates 
