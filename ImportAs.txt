@@ -11,8 +11,7 @@ only)
 
 NB: Only Administrators can import data for other users (**NO Import As** is 
 permitted in **private** group though). When importing the data for another 
-user, the permissions to put these data to a **third party** P/D/S is 
-dependent on the permission levels of the user for whom the data is being 
+user, permission to put these data into a **third party** P/D/S depends on the permission levels of the user for whom the data is being 
 imported ( = the owner of the data).
 
 #. Check the permission levels for putting the data to other users' P/D/S (= 
