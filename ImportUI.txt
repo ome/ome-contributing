@@ -56,7 +56,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    
    - Cancel a single running import using the ``Cancel`` button.
    - |C| that only this particular import has been cancelled
-   - Cancel all imports using the ``Cancel All`` button
+   - (FS only) Cancel all imports using the ``Cancel All`` button
    - |C| that all the imports where the upload did not start yet are cancelled
    - |C| that after everything is imported or cancelled the spinners stop both in Importer and Insigth UI main window.
    - Repeat step 6 when importing a whole folder (for example ``test_images_good/dv``).
