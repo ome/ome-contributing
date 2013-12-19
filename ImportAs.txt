@@ -15,11 +15,11 @@ user, permission to put these data into a **third party** P/D/S depends on the p
 imported ( = the owner of the data).
 
 #. Check the permission levels for putting the data to other users' P/D/S (= 
-Mix Data) :omerodoc:`here <sysadmins/server-permissions.html>`.
+   Mix Data) :omerodoc:`here <sysadmins/server-permissions.html>`.
 
 
 #. Read the :ref:`Table of permissions-users <Table-of-permissions-users>`. 
-You will pick or you have been assigned to 3 users from one group.:
+   You will pick or you have been assigned to 3 users from one group.:
  
    - an administrator (e.g. user-6)
    - a user who CANNOT Mix ("No Mix" = NM) - referred to as user-NM from 
@@ -31,10 +31,11 @@ You will pick or you have been assigned to 3 users from one group.:
 
 
 #. Make sure you have images ready on your local hierarchy. Use small images
-which you can pull
-from `here <https://github.com/ome/omero-setup>`_, and some multi-well plate, 
-like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have 
-well-named images and plates within well-named folders.
+   which you can pull
+   from `here <https://github.com/ome/omero-setup>`_, and some multi-well 
+   plate, 
+   like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have 
+   well-named images and plates within well-named folders.
 
    - prepare folders with images for user-NM
    - prepare folders with images for user-CM
@@ -42,7 +43,7 @@ well-named images and plates within well-named folders.
    - prepare folders with plates for user-CM
 
 #. In Insight UI, prepare Projects and Datasets for the users for whom you 
-will import later
+   will import later
 
    - Login as user-NM.
    - Create a Project and a Screen for the data for user-NM (e.g. "user-NM for 
@@ -62,9 +63,12 @@ will import later
 
 #. Log in as administrator.
 
+
 #. Switch to Group Display. 
 
+
 #. Import for user-CM, do not create a new Project at import stage. 
+
 
    - Open Importer, select the folder you prepared in step 3 for user-CM, 
      click ``>``.
@@ -79,16 +83,14 @@ will import later
    - Select the Project owned by the admin (e.g. "user-6 for user-CM's data") 
      and import
    - Switch groups in the Import Location window (selecting the other group 
-     user-NM is a member of)
-
-        - |C| that the selection of P/Ds in the other group makes sense = the 
-          P/Ds to which user-CM is allowed to put his data into are black, the 
-          other P/Ds are greyed out and that you can import an image and put 
-          it into one of the black P/Ds
-
-    - Switch group back to the original one and again |C| that the  P/Ds in 
-      the Import Location selection are black or greyed out as they were  
-      before you switched groups. 
+     user-CM is a member of)
+   - |C| that the selection of P/Ds in the other group makes sense = the 
+     P/Ds to which user-CM is allowed to put his data into are black, the 
+     other P/Ds are greyed out and that you can import an image and put 
+     it into one of the black P/Ds
+   - Switch group back to the original one and again |C| that the  P/Ds in 
+     the Import Location selection are black or greyed out as they were  
+     before you switched groups. 
 
 #. Import for user-NM, do not create a new Project at import stage
 
@@ -99,21 +101,19 @@ will import later
      data") and import.
    - Switch groups in the Import Location window (selecting the other group 
      user-NM is a member of)
-
-        - |C| that the selection of P/Ds in the other group makes sense = the 
-          P/Ds to which user-NM is allowed to put his data into are black, the 
-          other P/Ds are greyed out and that you can import an image and put 
-          it into one of the black P/Ds
-
-    - Switch group back to the original one and again |C| that the  P/Ds in 
-      the Import Location selection are black or greyed out as they were  
-      before you switched groups. 
+   - |C| that the selection of P/Ds in the other group makes sense = the 
+     P/Ds to which user-NM is allowed to put his data into are black, the 
+     other P/Ds are greyed out and that you can import an image and put 
+     it into one of the black P/Ds
+   - Switch group back to the original one and again |C| that the  P/Ds in 
+     the Import Location selection are black or greyed out as they were  
+     before you switched groups. 
 
 
 #. Repeat steps 7, 8 importing single images (not a whole folder).
 
 #. Repeat steps 7, 8 importing plates (small multi-well e.g. 
-``test_images_good/bd-pathway/2009-05-01_000/``).
+   ``test_images_good/bd-pathway/2009-05-01_000/``).
 
 #. Repeat steps 7, 8 creating a new 
 
@@ -142,10 +142,10 @@ will import later
 
 
 #. Switch to User Display. The situation in Import Location window should be 
-the same as in Group Display. The P/Ds of the user you are importing for as 
-well as all the P/Ds of the other users which the user you are importing for 
-can put data in are selectable. All the other P/Ds in the group are greyed 
-out, but visible.
+   the same as in Group Display. The P/Ds of the user you are importing for as 
+   well as all the P/Ds of the other users which the user you are importing    
+   for can put data in are selectable. All the other P/Ds in the group are 
+   greyed out, but visible.
 
 
 
