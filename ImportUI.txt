@@ -70,8 +70,19 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
    - |C| that only this particular import has been cancelled
    - (FS only) Cancel all imports using the ``Cancel All`` button
    - |C| that all the imports where the upload did not start yet are cancelled
-   - |C| that after everything is imported or cancelled the spinners stop both in Importer and Insigth UI main window.
-   - Repeat step 6 when importing a whole folder (for example ``test_images_good/dv``).
+   - |C| that after everything is imported or cancelled the spinners stop both 
+     in Importer and Insigth UI main window.
+
+#. Cancelling during scanning phase & large MIF import
+
+   - |C| that after you Cancel and Cancel All successfully during ``scanning`` 
+     phase when importing a whole folder (for example 
+     ``data_repo/public/images/HCS/INCELL2000/``) spinners have stopped & 
+     Insight can Quit normally.
+
+   - |C| that when importing multi-images-fileset (MIF) 
+     ``test_images_good/lei/050118.lei`` you can Cancel both during   
+     ``scanning`` and ``preparing upload`` phases
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
