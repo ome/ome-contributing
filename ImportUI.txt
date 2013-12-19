@@ -23,7 +23,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      - |C| that the wheel in the toolbar is spinning when import in progress [:ref:`ImportUI004b`]
      - |C| that the number next to green tick is incremented when an import is finished successfully.
 
-   - Still in Data Manager (left-hand side), hit the refresh button
+   - Still in the Data Manager (left-hand side), hit the refresh button
      - |C| that only one dataset is created. [:ref:`ImportUI003`]
 
 #. Repeat (1) this time selecting a whole folder to import. [:ref:`ImportUI004`].
@@ -136,7 +136,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      - |C| that
 
        - you can submit the failure. There will be no log, but you should be able to submit the files (as .zip) and exceptions. The exception can also be viewed in a separate item under "Failed" menu.
-       - you can Retry All (button on the bottom of the Importer)
+       - you can Retry All (button at the bottom of the Importer)
 
    
    - Failure of checksums: Test on a dedicated server (e.g. a server with recompiled server code in a way which causes checksum failure).
