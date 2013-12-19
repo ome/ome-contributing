@@ -108,11 +108,11 @@ will import later
 
 
 
-#. Switch to User Display. Note that now you cannot see other users' Projects 
-in the Import Location window. The only Projects which you can see and select 
-are owned by the user you are importing for [:ref:`ImportAs007`].
-
-   - Working in User Display mode, repeat steps 7, 8, 9, 10, 11, 12. 
+#. Switch to User Display. The situation in Import Location window should be 
+the same as in Group Display. The P/Ds of the user you are importing for as 
+well as all the P/Ds of the other users which the user you are importing for 
+can put data in are selectable. All the other P/Ds in the group are greyed 
+out, but visible.
 
 
 
