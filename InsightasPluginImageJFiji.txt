@@ -45,13 +45,13 @@ Insight as Plugin ImageJ/Fiji
 
 #. Download the latest stable version of Fiji from `Fiji homepage <http://fiji.sc/Fiji>`_. 
 
-#. (FS-only) Note that you have to update Fiji in order to run Bio-formats5 with your Fiji. Go to the `Fiji update page <http://fiji.sc/Bio-Formats#Daily_builds>`_). Follow the instructions there.
+#. (FS-only) Note that you have to update Fiji in order to run Bio-Formats 5 with your Fiji. Go to the `Fiji update page <http://fiji.sc/Bio-Formats#Daily_builds>`_). Follow the instructions there.
 
 #. Download the Insight IJ/Fiji plugin, put it into the Plugin folder of Fiji (expose Fiji's plugin folder on Mac via right-click and Show package content).
 
 #. Restart Fiji and go Plugins > OMERO.
 
-   - |C| that Insight starts and you can connect and open an image .
+   - |C| that Insight starts and you can connect and open an image.
 
 
 
