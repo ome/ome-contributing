@@ -105,7 +105,15 @@ will import later
    - |C| that the ownership of the P/D/S and of the imported images and plates 
      is as expected [:ref:`ImportAs006`] 
 
+#. Import now for yourself (=admin).
 
+   - Switch to private group in Import Location window and |C| that you can 
+     put your data to your own P/Ds on import.
+   - Switch to all other groups (read-only, read-annotate, read-write) and |C| 
+     that you can put your data to other users P/Ds according to 
+     permissions (see the ``Mix data`` row in :omerodoc:`here 
+     <sysadmins/server-permissions.html>`.)
+   
 
 
 #. Switch to User Display. The situation in Import Location window should be 
