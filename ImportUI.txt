@@ -33,13 +33,25 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at the import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
+#. De-duplication of import: Make sure you can import in 2 different groups. 
+   Select any file, put it to the queue. 
+
+   - |C| that if you select the same file again, and add it to the queue (in 
+     **the same group**), the new addition **will be ignored**
+   - |C| that when you select the same file again and select **another target   
+     group** in the Import Location window, the file **will be added** to the 
+     queue
+
 #. De-duplication of import in case of a Companion File: Select a dv image like ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` and its log file, (``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv.log``).
 
    - add both files to the import queue
    - click import
-   - |C| that you get a message indicating that the log file is a duplicate, i.e. that this file has been already imported in this transaction
-   - |C| that the import of the duplicate does not proceed (in this transaction)
-   - |C| that the counter in the Toolbar of the Insigth UI main window is not counting the skipped files as ``Imported``
+   - |C| that you get a message indicating that the log file is a duplicate,    
+     meaning that this file has been already imported in this transaction
+   - |C| that the import of the duplicate does not proceed (in this 
+     transaction)
+   - |C| that the counter in the Toolbar of the Insigth UI main window is not 
+     counting the skipped files as ``Imported``
    - |C| the Companion File:
       
      - Go to the Insigth UI main window, right-hand pane, Acquisition tab
