@@ -25,6 +25,9 @@ You will pick or you have been assigned to 3 users from one group.:
    - a user who CANNOT Mix ("No Mix" = NM) - referred to as user-NM from 
      here
    - a user who Can Mix (CM) - referred to as user-CM from here
+   - both user-NM and user-CM must be members of more than one    
+     group (they must share one group, and each be a member of at least one 
+     other group as well)
 
 
 #. Make sure you have images ready on your local hierarchy. Use small images
@@ -75,6 +78,17 @@ will import later
      data") and import.
    - Select the Project owned by the admin (e.g. "user-6 for user-CM's data") 
      and import
+   - Switch groups in the Import Location window (selecting the other group 
+     user-NM is a member of)
+
+        - |C| that the selection of P/Ds in the other group makes sense = the 
+          P/Ds to which user-CM is allowed to put his data into are black, the 
+          other P/Ds are greyed out and that you can import an image and put 
+          it into one of the black P/Ds
+
+    - Switch group back to the original one and again |C| that the  P/Ds in 
+      the Import Location selection are black or greyed out as they were  
+      before you switched groups. 
 
 #. Import for user-NM, do not create a new Project at import stage
 
@@ -83,6 +97,17 @@ will import later
      select any Projects except the ones owned by user-NM [:ref:`ImportAs004`]
    - Select the Project owned by the user-NM (e.g. "user-NM for user-NM's 
      data") and import.
+   - Switch groups in the Import Location window (selecting the other group 
+     user-NM is a member of)
+
+        - |C| that the selection of P/Ds in the other group makes sense = the 
+          P/Ds to which user-NM is allowed to put his data into are black, the 
+          other P/Ds are greyed out and that you can import an image and put 
+          it into one of the black P/Ds
+
+    - Switch group back to the original one and again |C| that the  P/Ds in 
+      the Import Location selection are black or greyed out as they were  
+      before you switched groups. 
 
 
 #. Repeat steps 7, 8 importing single images (not a whole folder).
