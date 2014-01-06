@@ -1,78 +1,93 @@
+.. contents::
+   :depth: 2
+
+
+##############################################
 General Release
-================
+##############################################
 
-
-
-**To test in**: Web, Insight, OMERO.server, IJ/Fiji Plugin, Webstart
 
 **Purpose of the test** is to make sure the particular application on the release day is built correctly and starts and connects and opens an image as expected (when applicable).
 
-#. Download the correct build as indicated on the Standup Notes.
+**Click onto the application you are assigned to test in the Contents above**
 
-   - |C| the build is available and has a non-zero size
 
 
 OMERO.clients:
+============================================================
 
-#. Open the application and login as any user
+#. Download and open the application and login as any user
 
    - |C| that the application starts and you can log in
    - |C| that you can open an image
 
 IJ/Fiji Plugin
+============================================================
 
-#. Follow https://www.openmicroscopy.org/private/ome-internal/testing_scenarios/InsightasPluginImageJFiji.html 
+#. Follow `IJ/Fiji Plugin scenario <https://www.openmicroscopy.org/private/ome-internal/testing_scenarios/InsightasPluginImageJFiji.html>`_ 
+
 
 OMERO.server
+============================================================
 
-#. Unzip the downloaded file. 
-#. Configure the server
-#. Start the server.
+#. Download the appropriate OMERO.server*.zip and unzip the downloaded file. 
+#. Configure the server.
+#. Start the server and the web server.
 
-   -|C| the server starts as expected
+   - |C| the server starts as expected
 
-#. Download and open OMERO.insight and OMERO.web
-#. Connect in OMERO.insight and OMERO.web to the server you just started
+#. Download and open OMERO.insight and go to the appropriate port address in your web browser to login to OMERO.web.
+#. Login in OMERO.insight and OMERO.web connecting to the server you just started
 
-   -|C| the clients connect to the server
+   - |C| the clients connect to the server and login is successful
 
 
 Webstart
+============================================================
 
 #. Download and deploy the release server and start OMERO.web - start Webstart, connect and open an image.
 
    - |C| the application starts, you can connect and an image opens as expected
 
 OMERO.matlab toolbox
+============================================================
 
-#. Follow the workflow described in  https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html using the build indicated in the Standup Notes. The purpose of following this workflow is just to enable you to execute following 6 commands:
+#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ using the build indicated in the Standup Notes. Then, execute in Matlab:
 
 ``session = client.createSession(user,pass)``
+
 ``image = getImages(session, imageID)``
+
 ``plane = getPlane(session, image, 0, 0, 0);``
+
 ``datasets  = getDatasets(session)``
+
 ``figure; imshow(plane, []);``
+
 ``client.closeSession()``
 
-   -|C| that all 6 commands executed without errors
-   -|C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
+   - |C| that all 6 commands executed without errors
+   - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
 
 OMERO Virtual Appliance
+============================================================
 
-#. Follow https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box. 
+#. Follow `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box. 
 
-#. Start OMERO.insight and OMERO.web as described in https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance and try to login.
+#. Start OMERO.insight and OMERO.web as described in `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_  and try to login.
 
    - |C| that Insight and Web start okay and you can login successfully
    - |C| that you can import and then open a small image (any small image will do)
 
 Bio-Formats MATLAB toolbox
+============================================================
 
-#. Follow instructions here http://www.openmicroscopy.org/site/support/bio-formats5/developers/matlab-dev.html up to and including the section ``Displaying images``. Use any small image on your local disk or on squig.
+#. Follow the instructions `here <http://www.openmicroscopy.org/site/support/bio-formats5/developers/matlab-dev.html>`_ up to and including the section ``Displaying images``. Use any small image on your local disk or on squig.
 
    - |C| that the image opens as expected
 
 Bio-Formats loci_tools.jar
+============================================================
 
 #. Remove any previous loci_tools.jar files out of your ImageJ Plugins folder. Put the freshly downloaded loci_tools.jar into a Plugins folder of ImageJ and start ImageJ.
 
@@ -83,15 +98,17 @@ Bio-Formats loci_tools.jar
    - |C| that the image imports successfully
 
 Bio-Formats command-line tools
+============================================================
 
 #. Download and unzip the bftools.zip. 
-#. Download loci_tools.jar and place the jar into the unzipped bftools folder.
-#. Cd into this folder and execute the ``bfconvert`` command on the cmd line, for example 
-``[petr@LS25165 ~/Downloads/bftools]$ ./bfconvert <path-to-image>.png  <path-to-image-to-create>.avi``
-   
-   -|C| that a new image with the name you chose and the extension .avi was created
-#. View the newly created image using ``bfview`` command, for example
-``[petr@LS25165 ~/Downloads/bftools]$ ./bfview ~/Desktop/converted.avi ``
 
-   -|C| that the image opens
+#. Download loci_tools.jar and place it into the unzipped bftools folder.
+
+#. Cd into this folder and execute the ``bfconvert`` command on the cmd line, for example ``[petr@LS25165 ~/Downloads/bftools]$ ./bfconvert <path-to-image>.png  <path-to-converted-image>.avi``
+   
+   - |C| that a new image with the name you chose and the chosen extension (for example ``.avi``) was created
+
+#. View the newly created image using ``bfview`` command, for example ``[petr@LS25165 ~/Downloads/bftools]$ ./bfview ~/Desktop/converted.avi``
+
+   - |C| that the image opens
 
