@@ -171,6 +171,25 @@ Bio-Formats loci_tools.jar
 
    - |C| that the image imports successfully
 
+#. Leave the imported image open in ImageJ and go ``Plugins`` > ``LOCI`` > ``Bio-formats Exporter`` and export this image.
+
+   - |C| that the image exports successfully
+
+#. Go ``Plugins`` > ``LOCI`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+
+   - |C| that the image imports successfully
+
+#. Go ``Help`` > ``About Plugins`` > ``LOCI Plugins...``
+
+   - |C| that the urls shown in the popup link to existing and sensible pages.
+
+#. Go ``Plugins`` > ``LOCI`` > ``Update LOCI Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+
+   - |C| that the version number in the brackets shows the most recent stable release number.
+
+
+
+
 Bio-Formats command-line tools
 ============================================================
 
