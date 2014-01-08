@@ -35,12 +35,12 @@ OMERO.server
 #. Configure the server.
 #. Start the server and the web server.
 
-   - |C| the server starts as expected
+   - |C| that the server starts as expected
 
 #. Download and open OMERO.insight and go to the appropriate port address in your web browser to login to OMERO.web.
 #. Login in OMERO.insight and OMERO.web connecting to the server you just started
 
-   - |C| the clients connect to the server and login is successful
+   - |C| that the clients connect to the server and login is successful
 
 
 Webstart
@@ -48,7 +48,7 @@ Webstart
 
 #. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart url (change the ``webclient`` to ``webstart`` at the end of the url).
 
-   - |C| the application starts (see examples below), 
+   - |C| that the application starts (see examples below), 
    - |C| that you can connect and expand a dataset and open an image
 
 Examples of expected events:
@@ -115,19 +115,21 @@ OMERO.matlab toolbox
 
 #. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ using the build indicated in the Standup Notes. Then, execute in Matlab:
 
-``session = client.createSession(user,pass)``
+(``hostname``, ``username``, ``password`` and ``imageID`` needs to be substituted by valid values):
 
-``image = getImages(session, imageID)``
+::
 
-``plane = getPlane(session, image, 0, 0, 0);``
+    client = loadOmero(hostname);
+    session = client.createSession(username, password);
+    image = getImages(session, imageID);
+    plane = getPlane(session, image, 0, 0, 0);
+    datasets  = getDatasets(session);
+    figure; imshow(plane, []);
+    client.closeSession();
 
-``datasets  = getDatasets(session)``
+#. After you have executed the above commands, 
 
-``figure; imshow(plane, []);``
-
-``client.closeSession()``
-
-   - |C| that all 6 commands executed without errors
+   - |C| that all 7 commands executed without errors
    - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
 
 #. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
