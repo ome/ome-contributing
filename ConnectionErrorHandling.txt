@@ -26,11 +26,11 @@ Connection/Error Handling
    - restart the server
    - Turn channel on/off when the server is restarted.
 
-#. Connect to server (not local) using a network cable [:ref:`ConnectionEH001`]
+#. Connect to server (not local) using a network cable 
 
    - Expand a project.
    - Unplug cable.
-   - Expand dataset [:ref:`ConnectionEH002`][:ref:`ConnectionEH003`]
+   - Expand dataset 
 
 #. Connect to server (not local) using a network cable
 
@@ -45,154 +45,21 @@ Connection/Error Handling
    - Turn off the wireless network
    - Expand dataset
 
+#. Connect to server (not local)
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
+   - Expand a project and dataset and select an image
+   - Put computer to sleep (~2 mins)
+   - Wake computer up 
+   - Open an image
 
+#. Connect to server (not local)
 
+   - Open an image in full viewer
+   - Put computer to sleep (~2 mins)
+   - Wake computer up
+   - Open another image
 
+#. Win XP only
 
+   - |C| that Insight starts and you can open an image
 
-.. _ConnectionEH001:
-.. figure:: /images/testing_scenarios/ConnectionErrorHandling/001.png
-   :align: center
-
-   ConnectionEH001: 
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-
-
-
-
-.. _ConnectionEH002:
-.. figure:: /images/testing_scenarios/ConnectionErrorHandling/002.png
-   :align: center
-
-   ConnectionEH002:
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-
-
-
-
-.. _ConnectionEH003:
-.. figure:: /images/testing_scenarios/ConnectionErrorHandling/003.png
-   :align: center
-
-   ConnectionEH003
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
