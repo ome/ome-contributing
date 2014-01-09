@@ -74,6 +74,23 @@ Insight as Plugin ImageJ/Fiji
 
 **Note** that you might experience problems with the Fiji Updater when trying to go from OMERO 5 -> OMERO 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be OMERO 4 by default).
 
+**Note**  that during the update, there might be a problem with the class ``org.joda.time.Instant`` which can be found here:
+
+::
+/Applications/Fiji.app/jars/jruby.jar
+/Applications/Fiji.app/jars/loci_tools.jar
+/Applications/Fiji.app/plugins/OMERO.insight-ij-5.0.0-rc1-ice35-b10/libs/joda-time.jar
+
+
+The warning looks as follows:
+
+::
+WARNING: multiple locations found!
+java.lang.NoSuchMethodError: org.joda.time.Instant.parse(Ljava/lang/String;Lorg/joda/time/format/DateTimeFormatter;)Lorg/joda/time/Instant;
+
+**Solution**: Delete the jruby.jar.
+
+
 
 
 
