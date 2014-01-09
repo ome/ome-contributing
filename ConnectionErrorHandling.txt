@@ -5,7 +5,9 @@ Connection/Error Handling
 
 **To test in**: Insight
 
-**Purpose of the test**: error handling when server goes down, network failure etc.
+**Purpose of the test**: error handling when server goes down, network failure occurs or when computer goes to sleep
+
+**When testing on Windows 64-bit machine, do the tests with 32-bit as well as 64-bit Insight. (There are known differences between 64 and 32-bit Insight.)**
 
 #. Connect to local server.
 
@@ -54,12 +56,15 @@ Connection/Error Handling
 
 #. Connect to server (not local)
 
+   - **Note** that as of January 2014 there is a known bug/work in progress with 32-bit Insight on Win 7 in this workflow (does not reconnect)
    - Open an image in full viewer
    - Put computer to sleep (~2 mins)
    - Wake computer up
    - Open another image
 
-#. Win XP only
+#. Win XP only 
 
    - |C| that Insight starts and you can open an image
+   - **Note** that on Win XP the ambition is only to get Insight started and working. We do not attempt to sort out loss-of-connection issues on Win XP as long as they do not interfere with the first startup of the app.
+
 
