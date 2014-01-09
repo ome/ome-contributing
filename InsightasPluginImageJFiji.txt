@@ -49,9 +49,9 @@ Insight as Plugin ImageJ/Fiji
 
    - if testing OMERO 4: select Bio-formats 4
    - if testing OMERO 5: select Bio-formats 5
-   - make sure you have selected just either OMERO 4 or OMERO 5, never select both
+   - make sure you have selected just either Bio-formats 4 or Bio-formats 5, never select both
 
-#. OMERO 4 -> OMERO 5 switch workflow
+#. Bio-formats 4 -> Bio-formats 5 switch workflow
 
    - a list of jars to update will be displayed in the Fiji updater window after you ticked Bio-formats 4 box and closed the ``Manage Update Sites`` window. 
    - click ``Apply changes``
@@ -72,23 +72,26 @@ Insight as Plugin ImageJ/Fiji
 
    - |C| that the image opens in Fiji.
 
-**Note** that you might experience problems with the Fiji Updater when trying to go from OMERO 5 -> OMERO 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be OMERO 4 by default).
+**Note** that you might experience problems with the Fiji Updater when trying to go from Bio-formats 5 -> Bio-formats 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be Bio-formats 4 by default).
+
+**Note** to check which Bio-formats version you are currently on, go ``Help`` > ``About Plugings`` > ``LOCI Plugins...``
 
 **Note**  that during the update, there might be a problem with the class ``org.joda.time.Instant`` which can be found here:
 
 ::
-/Applications/Fiji.app/jars/jruby.jar
-/Applications/Fiji.app/jars/loci_tools.jar
-/Applications/Fiji.app/plugins/OMERO.insight-ij-5.0.0-rc1-ice35-b10/libs/joda-time.jar
+
+    /Applications/Fiji.app/jars/jruby.jar
+    /Applications/Fiji.app/jars/loci_tools.jar
+    /Applications/Fiji.app/plugins/OMERO.insight-ij-5.0.0-rc1-ice35-b10/libs/joda-time.jar
 
 
 The warning looks as follows:
 
 ::
-WARNING: multiple locations found!
-java.lang.NoSuchMethodError: org.joda.time.Instant.parse(Ljava/lang/String;Lorg/joda/time/format/DateTimeFormatter;)Lorg/joda/time/Instant;
 
-**Solution**: Delete the jruby.jar.
+    WARNING: multiple locations found! java.lang.NoSuchMethodError: org.joda.time.Instant.parse(Ljava/lang/String;Lorg/joda/time/format/DateTimeFormatter;)Lorg/joda/time/Instant;
+
+**Solution**: Delete the ``jruby.jar``.
 
 
 
