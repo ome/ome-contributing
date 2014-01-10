@@ -24,7 +24,7 @@ signal-to-noise ratios.
 
 #. Download the latest OMERO.matlab toolbox corresponding to the OMERO server
    to test against using :jenkinsjob:`OMERO-merge-stable` or
-   :jenkinsjob:`OMERO-merge-develop`.
+   :jenkinsjob:`OMERO-5.0-merge-daily`.
 
 #. Download the latest build of U-Track from :jenkinsjob:`U-TRACK-build` and
    unzip it.
