@@ -12,27 +12,27 @@ Connection/Error Handling
 #. Connect to local server.
 
    - Expand a project.
-   - restart the server
-   - Expand a before end of server restart
+   - Restart the server
+   - Expand a Dataset before end of server restart
 
 #. Connect to local server.
 
    - Expand a project.
-   - restart the server
+   - Restart the server
    - Expand a dataset when the server is restarted.
 
 #. Connect to local server.
 
    - Expand a project.
    - Expand a dataset and open an image.
-   - restart the server
+   - Restart the server
    - Turn channel on/off when the server is restarted.
 
 #. Connect to server (not local) using a network cable 
 
    - Expand a project.
    - Unplug cable.
-   - Expand dataset 
+   - Expand a dataset 
 
 #. Connect to server (not local) using a network cable
 
@@ -45,7 +45,7 @@ Connection/Error Handling
 
    - Expand a project.
    - Turn off the wireless network
-   - Expand dataset
+   - Expand a dataset
 
 #. Connect to server (not local)
 
