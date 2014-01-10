@@ -35,6 +35,7 @@ Testing scenarios
    EditorStandalone
    FileFormatMetadataValidation
    FLIMfit
+   GeneralRelease
    ImportAs
    ImportCLI
    ImportDropBox

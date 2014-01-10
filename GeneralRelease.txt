@@ -1,0 +1,209 @@
+.. contents::
+   :depth: 2
+
+
+##############################################
+General Release
+##############################################
+
+
+**Purpose of the test** is to make sure the particular application on the release day is built correctly and starts and connects and opens an image as expected (when applicable).
+
+**Click onto the application you are assigned to test in the Contents above**
+
+
+
+OMERO.clients:
+============================================================
+
+#. Download and open the application and login as any user
+
+   - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen 
+   - |C| that the application starts and you can log in
+   - |C| that you can expand a dataset and open an image
+
+IJ/Fiji Plugin
+============================================================
+
+#. Follow :doc:`InsightasPluginImageJFiji` 
+
+
+OMERO.server
+============================================================
+
+#. Download the appropriate OMERO.server*.zip and unzip the downloaded file. 
+#. Configure the server.
+#. Start the server and the web server.
+
+   - |C| that the server starts as expected
+
+#. Download and open OMERO.insight and go to the appropriate port address in your web browser to login to OMERO.web.
+#. Login in OMERO.insight and OMERO.web connecting to the server you just started
+
+   - |C| that the clients connect to the server and login is successful
+
+
+Webstart
+============================================================
+
+#. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart url (change the ``webclient`` to ``webstart`` at the end of the url).
+
+   - |C| that the application starts (see examples below), 
+   - |C| that you can connect and expand a dataset and open an image
+
+Examples of expected events:
+
+**Win 7**
+
+IE 9.0, java "1.7.0_45"
+
+   - OMERO webstart window appears: click on Webstart logo
+   - Security Warning popup appears: popup: click ``I accept...`` and then click ``Run``
+   - Webstart splashscreen appears
+
+Firefox 26.0, java "1.7.0_45"
+
+   - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ignore it and click the Webstart logo
+   - Webstart splashscreen appears immediately
+
+Chrome 31.0, java "1.7.0_45"
+
+   - OMERO webstart window appears: click on Webstart logo
+   - an arrow indicating Download of the ``.jnlp`` file appears shortly, then click ``Show all downloads`` link which appears in the bottom-left corner of the OMERO webstart window
+   - select the .jnlp file from the appearing list and confirm that you want to ``Keep`` and ``Keep anyway`` in two consecutive popups
+   - after this, you can click on the ``.jnlp`` file
+   - Downloading window appears shortly
+   - Security Warning popup appears: popup: click ``I accept...`` and then click ``Run``
+   - Webstart splashscreen appears
+
+**Mac OS X**
+
+Safari 6.0.5 and 6.1.1, OS X 10.8.5, java "1.7.0_21" and "1.7.0_45"
+
+   - OMERO webstart window appears: click on Webstart logo
+   - no window or popup appears: go to Downloads (top-right corner of your browser, icon with downward arrow in a circle) and double-click onto the ``.jnlp`` file 
+   - intermittent Java 7 popup appears followed by Download popup and a Security Warning popup: click ``I accept...`` and then click ``Run``
+   - Download popup appears again shortly and then Webstart splashscreen appears
+
+Safari 5.1.1, OS X 10.6.8, java "1.6.0_26"
+
+   - OMERO webstart window appears: click on Webstart logo
+   - Webstart splashscreen appears immediately
+
+Firefox 21.0, OS X 10.8.5, java "1.7.0_21":
+
+   - OMERO webstart window appears - click on Webstart logo
+   - "Opening Insight.jnlp" window appears - keep the default and click OK
+   - First Security warning popup from the OS X - click ``Open``
+   - Short flash of "Java 7" window starting
+   - Second security warning: click ``I accept...`` and then click ``Run``
+   - OMERO webstart splashscreen opens
+
+Firefox 27.0, OS X 10.6.8, java "1.6.0_26"
+
+   - Webstart does not work: redirection to a java update information website with info about updates happens instead. When these updates are applied, it does not help.
+
+Chrome 31.0.1650.63, OS X 10.8.5, java "1.7.0_21":
+
+   - Webstart does not work: redirection to a java update information website with info about updates happens instead. When these updates are applied, it does not help.
+
+
+OMERO.matlab toolbox
+============================================================
+
+#. Install Matlab (development).
+
+#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ using the build indicated in the Standup Notes. Then, execute in Matlab:
+
+(``hostname``, ``username``, ``password`` and ``imageID`` needs to be substituted by valid values):
+
+::
+
+    client = loadOmero(hostname);
+    session = client.createSession(username, password);
+    image = getImages(session, imageID);
+    plane = getPlane(session, image, 0, 0, 0);
+    datasets  = getDatasets(session);
+    figure; imshow(plane, []);
+    client.closeSession();
+
+#. After you have executed the above commands, 
+
+   - |C| that all 7 commands executed without errors
+   - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
+
+#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
+
+   - |C| that a Dataset was created
+
+#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the paragraph ``Creating ROI`` under ``ROIs`` section. Follow the commands to create a ROI and link it to an Image.
+
+   - |C| that a ROI was created
+
+#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the section ``Deleting data``. Follow the commands to Delete an image, a Dataset and a Project.
+
+   - |C| that the I/D/P was deleted
+
+
+OMERO Virtual Appliance
+============================================================
+
+#. Follow `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box. 
+
+#. Start OMERO.insight and OMERO.web as described in `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_  and try to login.
+
+   - |C| that Insight and Web start okay and you can login successfully
+   - |C| that you can import and then open a small image (any small image will do)
+
+Bio-Formats MATLAB toolbox
+============================================================
+
+#. Follow the instructions `here <http://www.openmicroscopy.org/site/support/bio-formats5/developers/matlab-dev.html>`_ up to and including the section ``Displaying images``. Use any small image on your local disk or on squig.
+
+   - |C| that the image opens as expected
+
+Bio-Formats loci_tools.jar
+============================================================
+
+#. Remove any previous loci_tools.jar files out of your ImageJ Plugins folder. Put the freshly downloaded loci_tools.jar into a Plugins folder of ImageJ and start ImageJ.
+
+   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu
+
+#. Go ``Plugins`` > ``LOCI`` > ``Bio-formats Importer`` and import a small image (any small image will do).
+
+   - |C| that the image imports successfully
+
+#. Leave the imported image open in ImageJ and go ``Plugins`` > ``LOCI`` > ``Bio-formats Exporter`` and export this image.
+
+   - |C| that the image exports successfully
+
+#. Go ``Plugins`` > ``LOCI`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+
+   - |C| that the image imports successfully
+
+#. Go ``Help`` > ``About Plugins`` > ``LOCI Plugins...``
+
+   - |C| that the urls shown in the popup link to existing and sensible pages.
+
+#. Go ``Plugins`` > ``LOCI`` > ``Update LOCI Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+
+   - |C| that the version number in the brackets shows the most recent stable release number.
+
+
+
+
+Bio-Formats command-line tools
+============================================================
+
+#. Download and unzip the bftools.zip. 
+
+#. Download loci_tools.jar and place it into the unzipped bftools folder.
+
+#. Cd into this folder and execute the ``bfconvert`` command on the cmd line, for example ``[petr@LS25165 ~/Downloads/bftools]$ ./bfconvert <path-to-image>.png  <path-to-converted-image>.avi``
+   
+   - |C| that a new image with the name you chose and the chosen extension (for example ``.avi``) was created
+
+#. View the newly created image using ``bfview`` command, for example ``[petr@LS25165 ~/Downloads/bftools]$ ./bfview ~/Desktop/converted.avi``
+
+   - |C| that the image opens
+
