@@ -9,49 +9,92 @@ Insight as Plugin ImageJ/Fiji
 
 **Test on Linux as well as Windows (XP and Win7 if possible)**
 
-#. Download the OMERO.insight-ij… build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJI001`]
+#. Download the ``OMERO.insight-ij*`` build and unzip it [or copy it into] in imageJ/plugins folder [:ref:`InsightIJI001`]
 
-#. Download the latest stable version of ImageJ for Windows/Mac/Linux as appropriate from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_.
+**ImageJ**
 
-#. Do not add "loci_tools.jar" to the ImageJ/plugins folder. If it is there, remove it.
+#. Do not add ``loci_tools.jar`` to the ImageJ/plugins folder. If it is there, remove it.
 
-#. Start imageJ (resp. Fiji) and go Plugins/Connect to OMERO
+#. Start imageJ and go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
 
-   - |C| Dialog should indicate that "loci_tools.jar" is missing.[:ref:`InsightIJI002`]
+   - |C| that a popup appears indicating that ``loci_tools.jar`` is missing.[:ref:`InsightIJI002`]
 
-#. Click on the hyperlink in the dialog. Download loci_tools.jar.
+#. Click on the hyperlink in the popup. Download ``loci_tools.jar``.
 
-#. Close ImageJ. Copy loci_tools.jar into ImageJ/Plugins folder.
+   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO ``OMERO.insight-ij*`` plugin). **Note** that when testing OMERO 4, the link in the popup will point to a wrong place - you might need to download the corresponding ``loci_tools.jar`` from OMERO 4 Bio-formats download page.
 
-#. Repeat step 3, this time
+#. Quit ImageJ. Copy ``loci_tools.jar`` into ``Plugins`` folder of ImageJ.
 
-   - |C| Insight splashscreen should be displayed.
+#. Restart ImageJ, and go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
+
+   - |C| that Insight splashscreen is displayed.
 
 #. Log in.
 
 #. Go to the left-hand pane and select an image or import one if no images available.
 
-#. Right-click on the image,
+#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window.
 
-   - |C| The "View" menu item should have the "View in ImageJ" option [:ref:`InsightIJI003`][:download:`003 </images/testing_scenarios/InsightasPluginImageJFiji/003.png>`]
-   - Select the "View in imageJ" option.
-   - |C| The image opens in imageJ
-
-#. Double-click on the image.
-
-   - |C| The image opens in imageJ.
+   - |C| that the image opens in imageJ.
 
 #. Go through all steps using ImageJ64 and the platform independent version of ImageJ (download from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_).
 
-#. Download the latest stable version of Fiji from `Fiji homepage <http://fiji.sc/Fiji>`_. 
+**Fiji**
 
-#. (FS-only) Note that you have to update Fiji in order to run Bio-Formats 5 with your Fiji. Go to the `Fiji update page <http://fiji.sc/Bio-Formats#Daily_builds>`_). Follow the instructions there.
+#. Start Fiji
 
-#. Download the Insight IJ/Fiji plugin, put it into the Plugin folder of Fiji (expose Fiji's plugin folder on Mac via right-click and Show package content).
+#. Go ``Help`` > ``Update Fiji`` -> the update process will start.
 
-#. Restart Fiji and go Plugins > OMERO.
+#. When update is finished, press ``Manage Update Sites`` button.
 
-   - |C| that Insight starts and you can connect and open an image.
+   - if testing OMERO 4: select Bio-formats 4
+   - if testing OMERO 5: select Bio-formats 5
+   - make sure you have selected just either Bio-formats 4 or Bio-formats 5, never select both
+
+#. Bio-formats 4 -> Bio-formats 5 switch workflow
+
+   - a list of jars to update will be displayed in the Fiji updater window after you ticked Bio-formats 4 box and closed the ``Manage Update Sites`` window. 
+   - click ``Apply changes``
+   - Quit Fiji
+   - Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji
+   - Start Fiji
+
+#. Go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
+
+   - |C| that Insight splashscreen is displayed.
+
+#. Log in.
+
+#. Go to the left-hand pane and select an image or import one if no images available.
+
+
+#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window.
+
+   - |C| that the image opens in Fiji.
+
+**Note** that you might experience problems with the Fiji Updater when trying to go from Bio-formats 5 -> Bio-formats 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be Bio-formats 4 by default).
+
+**Note** to check which Bio-formats version you are currently on, go ``Help`` > ``About Plugings`` > ``LOCI Plugins...``
+
+**Note**  that during the update, there might be a problem with the class ``org.joda.time.Instant`` which can be found here:
+
+::
+
+    /Applications/Fiji.app/jars/jruby.jar
+    /Applications/Fiji.app/jars/loci_tools.jar
+    /Applications/Fiji.app/plugins/OMERO.insight-ij-5.0.0-rc1-ice35-b10/libs/joda-time.jar
+
+
+The warning looks as follows:
+
+::
+
+    WARNING: multiple locations found! java.lang.NoSuchMethodError: org.joda.time.Instant.parse(Ljava/lang/String;Lorg/joda/time/format/DateTimeFormatter;)Lorg/joda/time/Instant;
+
+**Solution**: Delete the ``jruby.jar``.
+
+
+
 
 
 
