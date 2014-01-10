@@ -6,7 +6,7 @@ Import As
 **To test in**: Insight and Web (Web - viewing the imported plates/images 
 only)
 
-**Purpose of the test** is to check importing for other users.
+**Purpose of the test** is to check the import of data for other users.
 
 
 NB: Only Administrators can import data for other users (**NO Import As** is 
