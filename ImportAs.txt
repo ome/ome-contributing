@@ -43,7 +43,8 @@ imported ( = the owner of the data).
    - prepare folders with plates for user-CM
 
 #. In Insight UI, prepare Projects and Datasets for the users for whom you 
-   will import later
+   will import later. 
+   **Note** that even when you are (later) logged in as admin and Importing As for another user, you can still create P/D/S for that user at import stage (will be tested here further down). These P/D/S will be owned by the user you are just about to Import As. This step prepares P/D/S to cover only the pre-prepared-P/D/S case. 
 
    - Login as user-NM.
    - Create a Project and a Screen for the data for user-NM (e.g. "user-NM for 
@@ -76,12 +77,10 @@ imported ( = the owner of the data).
      [:ref:`ImportAs001`]
    - Open the Projects menu, you should be able to select the Projects of the 
      user-CM and other users' Projects [:ref:`ImportAs002`]. 
-   - Select the Project owned by the user-NM (e.g. "user-NM for user-CM's 
-     data") [:ref:`ImportAs003`] and import.
-   - Select the Project owned by the user-CM (e.g. "user-CM for user-CM's 
-     data") and import.
-   - Select the Project owned by the admin (e.g. "user-6 for user-CM's data") 
-     and import
+   - Perform 3 separate imports into 3 different Projects: 
+          - 1 Project owned by the user-NM (e.g. "Project of user-NM for user-CM's data") [:ref:`ImportAs003`].
+          - 1 Project owned by the user-CM (e.g. "Project of user-CM for user-CM's data").
+          - 1 Project owned by the admin (e.g. "Project of user-6 for user-CM's data")
    - Switch groups in the Import Location window (selecting the other group 
      user-CM is a member of)
    - |C| that the selection of P/Ds in the other group makes sense = the 
