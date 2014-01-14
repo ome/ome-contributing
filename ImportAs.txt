@@ -78,9 +78,9 @@ imported ( = the owner of the data).
    - Open the Projects menu, you should be able to select the Projects of the 
      user-CM and other users' Projects [:ref:`ImportAs002`]. 
    - Perform 3 separate imports into 3 different Projects: 
-          - 1 Project owned by the user-NM (e.g. "Project of user-NM for user-CM's data") [:ref:`ImportAs003`].
-          - 1 Project owned by the user-CM (e.g. "Project of user-CM for user-CM's data").
-          - 1 Project owned by the admin (e.g. "Project of user-6 for user-CM's data")
+          - 1 Project owned by the user-NM (e.g. "Project of user-NM for user-CM's data") [:ref:`ImportAs002b`].
+          - 1 Project owned by the user-CM (e.g. "Project of user-CM for user-CM's data") [:ref:`ImportAs002c`].
+          - 1 Project owned by the admin (e.g. "Project of user-6 for user-CM's data") [:ref:`ImportAs002d`]
    - Switch groups in the Import Location window (selecting the other group 
      user-CM is a member of)
    - |C| that the selection of P/Ds in the other group makes sense = the 
@@ -93,6 +93,7 @@ imported ( = the owner of the data).
 
 #. Import for user-NM, do not create a new Project at import stage
 
+   - In Importer select the folder you prepared for user-NM in step 3, click ``>``.
    - Select ``Import For`` user-NM
    - Open the Projects menu, you should see all projects, but not be able to 
      select any Projects except the ones owned by user-NM [:ref:`ImportAs004`]
@@ -217,17 +218,71 @@ imported ( = the owner of the data).
 |
 |
 |
-|
-|
 
-
-.. _ImportAs003:
-.. figure:: /images/testing_scenarios/ImportAs/003.png
+.. _ImportAs002b:
+.. figure:: /images/testing_scenarios/ImportAs/002b.png
    :align: center
 
-   ImportAs003
+   ImportAs002b
 
 
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _ImportAs002c:
+.. figure:: /images/testing_scenarios/ImportAs/002c.png
+   :align: center
+
+   ImportAs002c
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _ImportAs002d:
+.. figure:: /images/testing_scenarios/ImportAs/002d.png
+   :align: center
+
+   ImportAs002d
+
+
+|
+|
+|
+|
+|
 |
 |
 |
