@@ -10,7 +10,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 #. Make sure you have the Matlab Compiler Runtime installed - check the version number necessary.
 
 #. Download the latest build of FLIMfit from
-   :jenkinsjob:`FLIMFit-build-stable` or :jenkinsjob:`FLIMFit-5.0-build`.
+   :jenkinsjob:`FLIMFit-4.4-build` or :jenkinsjob:`FLIMFit-5.0-build`.
 
 #. Start the FLIMfit by clicking onto the application. Note that the errors are being recorded in the first window which pops up after you start the application.
 
