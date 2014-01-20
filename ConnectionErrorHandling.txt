@@ -32,6 +32,7 @@ Connection/Error Handling
 
    - Expand a project.
    - Unplug cable.
+   - Replug the cable and check your network is up on other apps
    - Expand a dataset 
 
 #. Connect to server (not local) using a network cable
@@ -39,12 +40,14 @@ Connection/Error Handling
    - Expand a project/dataset
    - Open an image
    - Unplug the cable.
+   - Replug the cable and check your network is up on other apps
    - Turn channel on/off
 
 #. Connect to server (not local) using wireless network
 
    - Expand a project.
    - Turn off the wireless network
+   - Turn the wireless network back on and check your network is up on other apps
    - Expand a dataset
 
 #. Connect to server (not local)
