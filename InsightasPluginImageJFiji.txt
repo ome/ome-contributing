@@ -170,47 +170,5 @@ The warning looks as follows:
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
 
-
-.. _InsightIJI003:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/003.png
-   :align: center
-
-   InsightIJI003
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
 
