@@ -19,9 +19,15 @@ Insight as Plugin ImageJ/Fiji
 
    - |C| that a popup appears indicating that ``loci_tools.jar`` is missing.[:ref:`InsightIJI002`]
 
-#. Click on the hyperlink in the popup. Download ``loci_tools.jar``.
+#. (For the release-day testing only.) Click on the hyperlink in the popup and check it brings you to a sensible place, but do not download it. 
 
-   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO ``OMERO.insight-ij*`` plugin). **Note** that when testing OMERO 4, the link in the popup will point to a wrong place - you might need to download the corresponding ``loci_tools.jar`` from OMERO 4 Bio-formats download page.
+#. (For the release-day testing only.) Download ``loci_tools.jar`` from the RC Download page which is being prepared for the release. 
+
+   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). 
+
+#. (For non-release-day testing only.) Download ``loci_tools.jar`` as instructed by the popup.
+
+   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). **Note** that when testing OMERO 4, the link in the popup will point to a wrong place - you might need to download the corresponding ``loci_tools.jar`` from OMERO 4 Bio-formats download page.
 
 #. Quit ImageJ. Copy ``loci_tools.jar`` into ``Plugins`` folder of ImageJ.
 
