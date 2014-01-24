@@ -21,15 +21,15 @@ Insight as Plugin ImageJ/Fiji
 
 #. (For the release-day testing only.) Click on the hyperlink in the popup and check it brings you to a sensible place, but do not download it. 
 
-#. (For the release-day testing only.) Download ``loci_tools.jar`` from the RC Download page which is being prepared for the release. 
+#. (For the release-day testing only.) Download ``loci_tools.jar`` [:ref:`InsightIJI005`] from the RC Download page which is being prepared for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` (find link in the Standup Notes) . 
 
-   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). 
+   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). To check the ``loci_tools.jar`` version, open ImageJ, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`].
 
 #. (For non-release-day testing only.) Download ``loci_tools.jar`` as instructed by the popup.
 
-   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). **Note** that when testing OMERO 4, the link in the popup will point to a wrong place - you might need to download the corresponding ``loci_tools.jar`` from OMERO 4 Bio-formats download page.
+   - |C| that the ``loci_tools.jar`` version (==the Bio-formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``loci_tools.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). To check the ``loci_tools.jar`` version, open ImageJ, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that when testing OMERO 5, the link in the popup will point to a wrong place - you might need to download the corresponding ``loci_tools.jar`` from OMERO 5 Bio-formats download page (e.g. ``http://downloads.openmicroscopy.org/bio-formats/5.0.0-xxx/``).
 
-#. Quit ImageJ. Copy ``loci_tools.jar`` into ``Plugins`` folder of ImageJ.
+#. Quit ImageJ. Copy ``loci_tools.jar`` into ``Plugins`` folder of ImageJ [:ref:`InsightIJI001`].
 
 #. Restart ImageJ, and go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
 
@@ -39,9 +39,9 @@ Insight as Plugin ImageJ/Fiji
 
 #. Go to the left-hand pane and select an image or import one if no images available.
 
-#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window.
+#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window [:ref:`InsightIJI006`].
 
-   - |C| that the image opens in imageJ.
+   - |C| that the image opens in imageJ [:ref:`InsightIJI007`].
 
 #. Go through all steps using ImageJ64 and the platform independent version of ImageJ (download from `ImageJ homepage <http://rsbweb.nih.gov/ij/download.html>`_).
 
@@ -49,21 +49,27 @@ Insight as Plugin ImageJ/Fiji
 
 #. Start Fiji
 
+   - |C| whether the Bio-formats version you have in your Fiji matches the version of the ``OMERO.insight-ij*`` plugin (for example Bio-formats 4 with OMERO 4 ``OMERO.insight-ij*`` plugin). To check the Bio-formats version, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`].
+
 #. Go ``Help`` > ``Update Fiji`` -> the update process will start.
 
-#. When update is finished, press ``Manage Update Sites`` button.
+#. When update is finished, press ``Manage Update Sites`` button [:ref:`InsightIJI008`].
 
-   - if testing OMERO 4: select Bio-formats 4
-   - if testing OMERO 5: select Bio-formats 5
+   - note that a freshly downloaded Fiji or a never-updated Fiji will have neither of the Bio-formats boxes ticked
+   - if testing OMERO 4: select Bio-formats 4 (but if ``Bio-formats 5`` was ticked before, see Notes below)
+   - if testing OMERO 5: select Bio-formats 5 
    - make sure you have selected just either Bio-formats 4 or Bio-formats 5, never select both
+   - close the ``Manage Update Sites`` window
 
 #. Bio-formats 4 -> Bio-formats 5 switch workflow
 
-   - a list of jars to update will be displayed in the Fiji updater window after you ticked Bio-formats 4 box and closed the ``Manage Update Sites`` window. 
+   - a list of jars to update will be displayed in the Fiji updater window after you ticked Bio-formats 4 box and closed the ``Manage Update Sites`` window [:ref:`InsightIJI009`] . 
    - click ``Apply changes``
    - Quit Fiji
-   - Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji
+   - Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji - on Mac, use rigth-click on Fiji icon & ``Show package content`` [:ref:`InsightIJI003`] to get to ``Plugins`` 
    - Start Fiji
+
+
 
 #. Go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
 
@@ -74,13 +80,12 @@ Insight as Plugin ImageJ/Fiji
 #. Go to the left-hand pane and select an image or import one if no images available.
 
 
-#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window.
+#. Double-click on the image and then click ``OK`` in the ``Bio-formats Import Options`` window [:ref:`InsightIJI006`].
 
    - |C| that the image opens in Fiji.
 
-**Note** that you might experience problems with the Fiji Updater when trying to go from Bio-formats 5 -> Bio-formats 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be Bio-formats 4 by default).
+**Note** that you might experience problems with the Fiji Updater when trying to go from Bio-formats 5 -> Bio-formats 4 in Bio-formats version. In that case, you might download a new Fiji from the website (this will be Bio-formats 4 by default). 
 
-**Note** to check which Bio-formats version you are currently on, go ``Help`` > ``About Plugings`` > ``LOCI Plugins...``
 
 **Note**  that during the update, there might be a problem with the class ``org.joda.time.Instant`` which can be found here:
 
@@ -170,5 +175,230 @@ The warning looks as follows:
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI003:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/003.png
+   :align: center
+
+   InsightIJI003
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI004:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/004.png
+   :align: center
+
+   InsightIJI004
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI005:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/005.png
+   :align: center
+
+   InsightIJI005
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI006:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/006.png
+   :align: center
+
+   InsightIJI006
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007.png
+   :align: center
+
+   InsightIJI007
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI008:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/008.png
+   :align: center
+
+   InsightIJI008
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI009:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/009.png
+   :align: center
+
+   InsightIJI009
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 
