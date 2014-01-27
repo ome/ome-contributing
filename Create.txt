@@ -40,7 +40,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 **Section 2: Work on other users' data**
 
 |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-|C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data (= look for Mix data (formerly "Link") permissions) in the table :omerodoc:`here <sysadmins/server-permissions.html>`
+|C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data (= look for Mix data (formerly "Link") permissions) in the table `here <https://docs.google.com/spreadsheet/ccc?key=0AuqP9_Rq_HgldDNjT0ZIcHRSOUg1OFpjVUthdzM4cmc&usp=drive_web#gid=1>`_.
 
 #. Switch to Group Display in Insight, put "All members" to display in Web.
 
