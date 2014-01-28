@@ -18,6 +18,8 @@ Admin: Group/User Create
 #. Create new user [:ref:`AdminGrUsCr005`][:ref:`AdminGrUsCr006`][:ref:`AdminGrUsCr007`]
 
    - tick/do not tick the Administrator box in the creation window
+   - |C| that when you use an existing login name for a new user, the action does not proceed and a popup appears [:ref:`AdminGrUsCr010`]
+   - |C| that the term in the popup is ``User``, not ``Experimenter``
    - |C| that the new user is (or is not) an Administrator as appropriate
    - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
@@ -358,3 +360,44 @@ Admin: Group/User Create
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr010:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/010.png
+	   :align: center
+
+	   AdminGrUsCr010: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	
+	
+	

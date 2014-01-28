@@ -5,30 +5,45 @@ Admin: Group/User Edit
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the Editing and changing of Group/User as administrator
+**Purpose of the test** is to check the Editing and changing of Group/User as administrator or group owner
 
 #. Edit group [:ref:`AdminGrUsEd001`][:ref:`AdminGrUsEd002`][:ref:`AdminGrUsEd003`]
 
 #. Change name/description/permissions and Save
 
-   - |C| the parameters have been changed correctly 
+    - |C| the parameters have been changed correctly 
 
-#. Add and remove users (=members) and owners 
+#. Add and remove users (=members)
 
-   - using Edit group window (Web only) [:ref:`AdminGrUsEd003`]
-   - using "Add existing users" from right-click menu (Insight only) [:ref:`AdminGrUsEd004`]
-   - using Copy/Cut and Paste from main menu (Insight only)
-   - using Copy/Cut and Paste via icons & right-click (Insight only)
-   - using Drag & Drop (Insight only)
+    - using Edit group window (Web only) [:ref:`AdminGrUsEd003`]
+    - using ``Edit group membership`` from right-click menu (Insight only) [:ref:`AdminGrUsEd004`]
+    - using Copy/Cut and Paste from main menu (Insight only)
+    - using Copy/Cut and Paste via icons & right-click (Insight only)
+    - using Drag & Drop (Insight only)
 
-   - |C| the users have been added/removed to/from the groups
- 
+    - |C| the users have been added/removed to/from the groups
+    - |C| that when a user is a member of only one group, you cannot remove him/her from this group
+
 #. Edit user [:ref:`AdminGrUsEd005`][:ref:`AdminGrUsEd006`][:ref:`AdminGrUsEd007`]
 
-   - change Login Name/Password/Status (Insight)
-   - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
-   - Save changes
-   - |C| the changes have been made appropriately
+    - change Login Name/Password/Status (Insight)
+    - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
+    - Save changes
+    - |C| the changes have been made appropriately
+
+#. Login as group owner (e.g. user-5 in read-annotate or user-1 in private group) and in the group you are the owner of only add and remove users:
+
+    - using Edit group window (Web only - right-click onto your name in top right corner and go ``User settings > My Groups > Edit``) [:ref:`AdminGrUsEd003`]
+    - using ``Edit group membership`` from right-click menu (Insight only) [:ref:`AdminGrUsEd004`]
+    - using Copy/Cut and Paste from main menu (Insight only)
+    - using Copy/Cut and Paste via icons & right-click (Insight only)
+    - using Drag & Drop (Insight only)
+
+    - |C| the users have been added/removed to/from the groups
+    - |C| that you cannot Create new user in Insight (right-click menu item is greyed out)
+    - |C| that when a user is a member of only one group, you cannot remove him/her from this group
+    - (Insight only) |C| that you can Edit only the Default group of other users, but not their credentials, login names or anything else.
+
 
 
 	.. _AdminGrUsEd001:
