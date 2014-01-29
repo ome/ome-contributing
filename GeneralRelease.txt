@@ -18,7 +18,8 @@ OMERO.clients:
 
 #. Download and open the application and login as any user
 
-   - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen 
+   - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen
+   - (Windows only) |C| that there is only one executable in each of the ``*win-openGL.zip`` files, for example ``https://downloads.openmicroscopy.org/omero/4.4.10/artifacts/OMERO.insight-4.4.10-ice35-b112-win-openGL.zip`` will have just the 32-bit executable Insight file and the corresponding ``*win64-openGL.zip`` will have just the 64-bit Insight executable
    - |C| that the application starts and you can log in
    - |C| that you can expand a dataset and open an image
 
