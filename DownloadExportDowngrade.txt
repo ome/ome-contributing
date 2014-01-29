@@ -132,6 +132,7 @@ When performing the following steps, export both into your home directory as wel
          - |C| Open the file
          - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadED021`] - Check from command line using tiffinfo
     - Re-Import the exported files
+    - (OME-TIFF only) |C| that the re-import does not take longer than the import of the original file from which the ome-tiff was generated.
 
 	.. _DownloadED001:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
