@@ -7,14 +7,64 @@ Render
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional
 
-#. Copy settings from an image [right-click].[:ref:`Render001`] (both Insight and Web)
+#. Copy settings from an image (right-click). (both Insight and Web)
 
-   - In Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane.
-   - In Insight: both left-hand pane tree and central pane have the appropriate right-click menu.
+   - In Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane [:ref:`RenderWeb003`].
+   - In Insight: both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
+
+
+
+
+
 
 #. Select a collection of images and paste the settings.[:ref:`Render002`] (both Insight and Web)
 
    - |C| that the thumbnails in the central pane are updated.
+
+#. Select a plate and paste the settings
+
+   - |C| that the images in the wells update
+
+#. (Web only) Copy settings in Preview pane (right-hand side) [:ref:`RenderWeb004`] ) and paste them 
+
+   - in Full Viewer of another image 
+   - in tree, using right-click menu [:ref:`RenderWeb003`].
+   - in Preview pane of another image
+   - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview)
+   - |C| that the Rendering settings were updated after Paste in all cases
+
+
+
+#. (Web only) Copy settings in Full Viewer [:ref:`RenderWeb002`] ) and paste them 
+
+   - in Full Viewer of another image 
+   - in tree, using right-click menu [:ref:`RenderWeb003`].
+   - in Preview pane of another image
+   - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview)
+   - |C| that the Rendering settings were updated after Paste in all cases
+
+
+
+#. (Insight only) Paste settings when Full viewer open
+
+   - make sure you have 2 identical images next to each other (you can quickly import the ``test_images_good/dv/CFPNEAT01_R3D.dv`` image 2x)
+   - let us call the images ``image-1`` and ``image-2``
+   - open ``image-1`` in full viewer, switch off a channel and Save (icon in the top row in Full Viewer )
+   - do not close the Full Viewer of ``image-1``
+   - in the Data Manager (= the main pane of OMERO.insight) select the thumb of ``image-2`` and copy the rendering settings
+   - select the thumb of ``image-1`` and paste the rendering settings
+   - |C| that both the thumb as well as the Full Viewer of ``image-1`` have the new settings now
+   - close the Full Viewer of ``image-1``
+   - |C| that no ``Save`` dialog is displayed
+   - re-open the ``image-1`` in Full Viewer
+   - select the thumb of ``image-1`` and paste the rendering settings
+   - in Full Viewer, switch off a channel again and DO NOT save
+   - close Full Viewer of ``image-1``
+   - |C| that the ``Save`` dialog appears
+   - select ``Yes`` to save the new rendering settings
+   - |C| that the thumb of ``image-1`` has updated
+   - re-open ``image-1``
+   - |C| that the rendering settings are as saved last time and the Full Viewer and thumb correspond
 
 #. Reset default settings.[:ref:`Render003`] (Web - in Full Viewer only, for one image)
 
@@ -24,17 +74,19 @@ Render
 
    - |C| that thumbnails in the central pane are updated.
 
-#. Set owner's settings. (Insight only)
+#. Set owner's settings [:ref:`Render004`]. (Insight only)
 
-   - |C| that thumbnails in the central pane are updated [:ref:`Render004`].
+   - |C| that thumbnails in the central pane are updated.
 
 #. If applicable:
 
    - Open an image belonging to another user.
-   - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window. Save your own setting using the "Apply" icon (Preview in Insight - NOT for Big images) Save icon (icon in Viewer - Insight) or Save button (Web) [:ref:`Render007`].
+   - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window (Insight). In Web, click ``Edit`` in Full Viewer to modify settings. Save your own setting using the "Apply" icon (Preview in Insight - NOT for Big images) or Save icon (icon in Viewer - Insight) or Save button (Web)[:ref:`Render007`].
    - |C| that thumbnails in the central pane are updated.
+   - (Insight only) use ``Apply to all`` button
+   - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated
 
-#. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command or do Move command)
+#. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command)
 
 #. Repeat steps 1. - 6. working on orphaned images. 
 
@@ -113,6 +165,62 @@ Render
 	|
 	|
 	|
+
+
+	.. _RenderWeb002:
+	.. figure:: /images/testing_scenarios/Render/Web002.png
+	   :align: center
+
+	   RenderWeb002:
+
+
+	|
+	|
+	|
+	|
+	
+	|
+	|
+	|
+	|
+	|
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _RenderWeb003:
+	.. figure:: /images/testing_scenarios/Render/Web003.png
+	   :align: center
+
+	   RenderWeb003:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
 	|
 	|
 
@@ -165,6 +273,54 @@ Render
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _RenderWeb004:
+	.. figure:: /images/testing_scenarios/Render/Web004.png
+	   :align: center
+
+	   RenderWeb004
+
+
 	|
 	|
 	|
