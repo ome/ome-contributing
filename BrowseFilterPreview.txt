@@ -9,6 +9,8 @@ Browse/Filter/Preview
 
 #. Browse dataset/ Plate.
 
+   - (Insight only) |C| that the ``Browse`` button [:ref:`BrowseFP001b`] (top-left corner, 3rd from the left) is clickable at all times when a Dataset (D) or Project (P) with images or Datasets inside are selected (also after double click on P/D in the tree) [:ref:`BrowseFP001a`]
+
 #. Try to filter by rating/tags, date. [:ref:`BrowseFP001`]
 
    -  Load tags to filter by
@@ -36,6 +38,60 @@ Browse/Filter/Preview
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
+.. _BrowseFP001b:
+.. figure:: /images/testing_scenarios/BrowseFilterPreview/001b.png
+   :align: center
+
+   BrowseFP001b: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+
+
+
+.. _BrowseFP001a:
+.. figure:: /images/testing_scenarios/BrowseFilterPreview/001a.png
+   :align: center
+
+   BrowseFP001a: 
+
+
 |
 |
 |
