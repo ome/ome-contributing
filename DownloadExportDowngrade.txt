@@ -119,7 +119,9 @@ When performing the following steps, export both into your home directory as wel
     - Export the image as OME-TIFF [:ref:`DownloadED017b`, :ref:`DownloadED017c`]
 
          - for Web, just export and check the file - for Insight, see below
+         - (Insight only) |C| that when you select a single big image or select couple of images which consist of big and small images, the ``Export as OME-TIFF`` option is greyed out
          - Export using the current schema:[:ref:`DownloadED018`] (Insight only)
+
          - |C| the exported file,
          - |C| Open the file
          - |C| the XML section the schema version should indicate the latest version e.g. 2012..[:ref:`DownloadED019`].-Do it from command line [tiffinfo command from libtiff library - download tiffinfo using Homebrew][:ref:`DownloadED020`]
@@ -130,6 +132,7 @@ When performing the following steps, export both into your home directory as wel
          - |C| Open the file
          - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadED021`] - Check from command line using tiffinfo
     - Re-Import the exported files
+    - (OME-TIFF only) |C| that the re-import does not take longer than the import of the original file from which the ome-tiff was generated.
 
 	.. _DownloadED001:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
