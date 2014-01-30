@@ -21,7 +21,9 @@ Edit
       Go to a dataset with images which have different number of channels (e.g. some images in the dataset will have 3 channels, some 5 channels). Select an image)
    
       - Edit a channel [:ref:`Edit001N`, :ref:`Edit001NWeb`, :ref:`Edit002N`, :ref:`Edit002NWeb`, :ref:`Edit002Nb`]
+      - |C| that when you try to paste very long string into the name box, the string is truncated at 255 characters. 
       - Click Save
+      - |C| that when doing this in Full Viewer in Insight, the channel name in the boxes to the left of the image [:ref:`Edit001NN`] are displayed in full when <7 characters. When >7 characters, the front of the name is truncated (the end is visible only in the box.)
       - In the same image, edit channels again, this time click "Apply to All"
       - |C| that the warning message is displayed [:ref:`Edit003N` :ref:`Edit003NWeb`].
       - Click Save (or "Continue" in Insight) and |C| that the changes were made only on images with the same number of channels, but NOT on images with different number of channels (e.g. only 3 channel images channel names are changed when a 3 channel image was selected, NO changes on 5 channel images in ANY of the channels)
@@ -390,6 +392,50 @@ Edit
 	   :align: center
 
 	   Edit001N  
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _Edit001NN:
+	.. figure:: /images/testing_scenarios/Edit/001NN.png
+	   :align: center
+
+	   Edit001NN  
 	
 	
 	|
