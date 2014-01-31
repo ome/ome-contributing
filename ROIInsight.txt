@@ -16,11 +16,11 @@ ROI Insight
    - from the icon on the top of the Full Viewer [:ref:`ROIInsight001`]
    - from the main menu Controls/Measurement…
 
-#. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsight002`]
+#. Create ROIs (>3) of different types including Text (Text is one of Region types).[:ref:`ROIInsight002`]
 
-#. Add comment to the shape - double-click on the shape and write. Tick and untick the ``Show comment`` box
+#. Add comment to the shape (double-click on the shape and write). Tick and untick the ``Show comment`` box
 
-   - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsight003`]
+   - |C| that the comment appears and disappears.[:ref:`ROIInsight003`]
    - |C| that when the only action after the image was open was toggling the ``Show comment`` box, no dialog asking whether you want to save pops up
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
@@ -65,9 +65,17 @@ ROI Insight
    - |C| that the planes in the stack of images updates concurrently
    - Turn channels on off. |C| that histogram updates.
 
-#. In Intensity View tab repeat steps 12 & 13. Export to Excel.
- 
+#. In Intensity View tab:
+
+   - |C| that when no region is selected, the ``Intensity Values`` button is greyed out.
+   - Select a region in the image which you have saved before.
+   - Click to ``Intensity Values`` button.
+   - |C| that window pops up with intensity values of single pixels [:ref:`ROIInsight009b`].
+   - Toggle channels on the image on/off.
+   - Change the channel selection in the ``Intensity Values`` window.
+   - Export to Excel. 
    - |C| the file.
+   - Close the image viewer, reopen it and open the ROI tool again.
 
 #. Intensity Results View tab.
 
@@ -364,7 +372,46 @@ ROI Insight
 	|
 	|
 	|
+	|	
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _ROIInsight009b:
+	.. figure:: /images/testing_scenarios/ROIInsight/009b.png
+	   :align: center
+
+	   ROIInsight009b: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|	
 	|
 	|
 	|
