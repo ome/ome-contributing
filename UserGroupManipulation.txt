@@ -15,11 +15,14 @@ User/Group Manipulation
 
 #. Add several users to the display [:ref:`UserGroupM002`][:ref:`UserGroupM005`].
 
+#. Use ``Show all users`` option.
+
 #. Switch between users.
 
-#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupM005bi`].
+#. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens.  [:ref:`UserGroupM005bi`].
 
-#. Remove/Refresh users from/on display.(Insight only) - use both menu (remove) [:ref:`UserGroupM002`] and right-click (remomve & refresh) [:ref:`UserGroupM004`]
+#. Remove/Refresh users from/on display.(Insight only) - use right-click (remomve & refresh) [:ref:`UserGroupM004`]
+
 
 #. Remove groups from display.
 
@@ -36,13 +39,15 @@ User/Group Manipulation
 
 **Section 2: Group Display (Web, Insight)**
 
+**Note that at the moment, the ``Group Display`` menu is "old style" - new design implemented only to ``User Display``` by now.**
+
 #. Switch to "Group Display" in the main menu. Go to :menuselection:`View --> Group Display` [:ref:`UserGroupM001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupM006w`].
 
 #. Put several groups to display (Insight only) [:ref:`UserGroupM006i`].
 
 #. Switch between groups [:ref:`UserGroupM006i`] (Insight only), put them on/off display.
 
-#. Browse your and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens. Your data are unmarked, the other users' data have a red flag [:ref:`UserGroupM007i`].
+#. Browse your and other users' data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica (Insight) or to the bottom of the tree (Web) and browse screens [:ref:`UserGroupM007i`].
 
 #. |C| that you can see the owner of the object in the right-hand pane [:ref:`UserGroupM008i`][:ref:`UserGroupM008w`].
 
