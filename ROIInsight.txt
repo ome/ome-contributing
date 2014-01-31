@@ -18,13 +18,16 @@ ROI Insight
 
 #. Create ROIs (>3) of different types including Text [Text as one of Region types].[:ref:`ROIInsight002`]
 
-#. Add text (=comment, description) to the shape - double-click on the shape and write. Tick and untick the "Show text" box
+#. Add comment to the shape - double-click on the shape and write. Tick and untick the ``Show comment`` box
 
    - |C| the text (=comment...) appears and disappears.[:ref:`ROIInsight003`]
+   - |C| that when the only action after the image was open was toggling the ``Show comment`` box, no dialog asking whether you want to save pops up
 
 #. Select and de-select the ROIs/shapes. Check that type corresponds with Manager.
 
-#. Move shapes and save.
+#. Move shapes and close the full viewer. 
+
+   - |C| that dialog asking whether you want to save pops up.
 
 #. Propagate/Merge/Split//Duplicate/Delete [Propagate first [:ref:`ROIInsight005`][:ref:`ROIInsight006`][:ref:`ROIInsight007`]. Merge only shapes from different z/t-planes, Split the Merged. [:ref:`ROIInsight008`]
 
