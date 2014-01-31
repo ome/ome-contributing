@@ -5,7 +5,7 @@ Import CLI
 
 **To test in**: Command line interface / Insight
 
-**Purpose of the test** is to check the import of single, multiple images and multi-images file from command line
+**Purpose of the test** is to check the import of single, multiple images and multi-images file from command line. Also, to test Inplace import and the Background import functionalities.
 
 
 **Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
@@ -14,7 +14,7 @@ Import CLI
 
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
-#. Go to Terminal. cd into your OMERO_HOME directory. From there:
+#. Go to Terminal. cd into the directory where your server runs. From there:
 
 #. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
 
@@ -42,6 +42,33 @@ Import CLI
    - |C| the image has been imported and archived.
 
 #. Import a nested folder containing Screen/Plate/Well files
+
+#. Import ``inplace``: to understand better, read the doc here. 
+
+   - try hard link (also with a plate)
+   - try soft link (also with a plate)
+   - try ln_rm (also with a plate)
+
+#. Go to the inplace (via soft-link) imported image and remove the original file. 
+
+    - |C| that when you open the image now in Insight & Web you get reasonable message from the UI that image is not available.
+    - |C| that when you return the original file, both Insight & Web will open the inplace imported image with no problem (**|C| also for a plate and images in a plate**)
+
+#. On an inplace imported image, try to do a Projection, Export it, Move it to another group.
+
+    - |C| that the actions proceed without error.
+
+
+#. Background import: check the doc  here to understand better.
+
+
+
+
+
+
+
+
+
 
 	.. _ImportCLI002:
 	.. figure:: /images/testing_scenarios/ImportCLI/002.png
