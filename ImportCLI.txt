@@ -43,25 +43,30 @@ Import CLI
 
 #. Import a nested folder containing Screen/Plate/Well files
 
-#. Import ``inplace``: to understand better, read the doc here. 
+#. Import a multi z/t image and a plate ``inplace``: to understand better, read the doc `here <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_. Do the ``inplace`` import using
 
-   - try hard link (also with a plate)
-   - try soft link (also with a plate)
-   - try ln_rm (also with a plate)
+   - hard link
+   - soft link
+   - ``ln_rm``
+   - |C| that the plate and image imported well in Insight and Web
 
-#. Go to the inplace (via soft-link) imported image and remove the original file. 
+#. Find the original of the image/plate you imported ``inplace`` using soft link and remove it (try also removing individual images in plates.) 
 
-    - |C| that when you open the image now in Insight & Web you get reasonable message from the UI that image is not available.
-    - |C| that when you return the original file, both Insight & Web will open the inplace imported image with no problem (**|C| also for a plate and images in a plate**)
+   - |C| that when you open the image/image in a plate now in Insight & Web you get reasonable message from the UI that image is not available.
+   - |C| that when you return the original file, both Insight & Web will open the inplace imported image/plate with no problem (|C| also images in a plate)
 
-#. On an inplace imported image, try to do a Projection, Export it, Move it to another group.
+#. On an inplace imported image, perform following actions: 
+   
+   - Projection (in Insight)
+   - Download the original file (Insight & Web)
+   - Move it to another group (Insight & Web)
+   - |C| that the actions proceed without error.
 
-    - |C| that the actions proceed without error.
 
+#. Background importing: read the doc  `here <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_., section ``Background importing``  to understand better.
 
-#. Background import: check the doc  here to understand better.
-
-
+   - Perform background import with all options mentioned in the doc.
+   - |C| that the importer disconnected as expected and the images were imported okay.
 
 
 
