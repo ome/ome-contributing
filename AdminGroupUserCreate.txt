@@ -12,16 +12,29 @@ Admin: Group/User Create
    - using the icon above the tree [:ref:`AdminGrUsCr002`] (Insight only)
    - using the right-click (Insight only)
    - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
-   - create private/read-only/read-annotate group
+   - Create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
 
 #. Create new user [:ref:`AdminGrUsCr005`][:ref:`AdminGrUsCr006`][:ref:`AdminGrUsCr007`]
 
-   - tick/do not tick the Administrator box in the creation window
+   - Tick/do not tick the Administrator box in the creation window
+   - |C| that when you use an existing login name for a new user, the action    
+     does not proceed and a popup appears [:ref:`AdminGrUsCr010`]. The login  
+     name must be unique for the whole database, not just for the group the 
+     new user is a member of.
+   - |C| that the term in the popup is ``User``, not ``Experimenter``
    - |C| that the new user is (or is not) an Administrator as appropriate
    - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
-   - add the new user to one or more existing groups [:ref:`AdminGrUsCr009`]
+   - Add the new user to one or more existing groups (see screenshot for Web) 
+     [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
+
+         - right-click on group and ``Edit group membershop...`` (Insight only)
+         - D & D (Insight only)
+         - Copy & Paste using icons (Insight only) [:ref:`AdminGrUsCr011`] 
+         - Copy & Paste from right-click menu (Insight only) [:ref:`AdminGrUsCr012`]
+
+
    - |C| that the user has been added to the groups correctly
 
 
@@ -358,3 +371,118 @@ Admin: Group/User Create
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr010:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/010.png
+	   :align: center
+
+	   AdminGrUsCr010: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr011:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/011Insight.png
+	   :align: center
+
+	   AdminGrUsCr011: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr012:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/012Insight.png
+	   :align: center
+
+	   AdminGrUsCr012: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	
+	
+	
