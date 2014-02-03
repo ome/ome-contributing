@@ -54,4 +54,16 @@ implemented.
 
    - Wait at least ~60sec - watch the progress of the import in the log
    - |C| they are all imported (using Insight UI)
+
+#. Inplace import via Dropbox. To understand better, read the DropBox section at the bottom of `this doc <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
+
+   - ``"--transfer=ln_rm"`` 
+   - ``"--transfer=ln -s"`` 
+   - ``"--transfer=ln"``
+
+     and import a plate/image via DroBox after each of the 3 resets above.
+
+   - |C| that the plate/image has been imported successfully and the files stay in the Dropbox folder (``ln`` and ``ln -s`` options) or are deleted from it (``ln_rm`` option)
+
+
  
