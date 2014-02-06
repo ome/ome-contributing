@@ -113,7 +113,7 @@ OMERO.matlab toolbox
 
 #. Install Matlab (development).
 
-#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ using the build indicated in the Standup Notes. Then, execute in Matlab:
+#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  :omerodoc:`Matlab docs <developers/Matlab.html>` using the build indicated in the Standup Notes. Then, execute in Matlab:
 
 (``hostname``, ``username``, ``password`` and ``imageID`` needs to be substituted by valid values):
 
@@ -132,15 +132,15 @@ OMERO.matlab toolbox
    - |C| that all 7 commands executed without errors
    - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
 
-#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
+#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
 
    - |C| that a Dataset was created
 
-#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the paragraph ``Creating ROI`` under ``ROIs`` section. Follow the commands to create a ROI and link it to an Image.
+#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Creating ROI`` under ``ROIs`` section. Follow the commands to create a ROI and link it to an Image.
 
    - |C| that a ROI was created
 
-#. Go to `Matlab docs <https://www.openmicroscopy.org/site/support/omero4/developers/Matlab.html>`_ and find the section ``Deleting data``. Follow the commands to Delete an image, a Dataset and a Project.
+#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the section ``Deleting data``. Follow the commands to Delete an image, a Dataset and a Project.
 
    - |C| that the I/D/P was deleted
 
@@ -148,9 +148,9 @@ OMERO.matlab toolbox
 OMERO Virtual Appliance
 ============================================================
 
-#. Follow `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box. 
+#. Follow :omerodoc:`Virtual Appliance doc <users/virtual-appliance.html?highlight=virtual%20appliance>` to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box.
 
-#. Start OMERO.insight and OMERO.web as described in `Virtual Appliance doc <https://www.openmicroscopy.org/site/support/omero4/users/virtual-appliance.html?highlight=virtual%20appliance>`_  and try to login.
+#. Start OMERO.insight and OMERO.web as described in :omerodoc:`Virtual Appliance doc <users/virtual-appliance.html?highlight=virtual%20appliance>` and try to login.
 
    - |C| that Insight and Web start okay and you can login successfully
    - |C| that you can import and then open a small image (any small image will do)
