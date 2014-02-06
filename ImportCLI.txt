@@ -43,7 +43,7 @@ Import CLI
 
 #. Import a nested folder containing Screen/Plate/Well files
 
-#. Import a multi z/t image and a plate ``inplace``: to understand better, read the doc `here <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_. Do the ``inplace`` import using
+#. Import a multi z/t image and a plate ``inplace``: to understand better, read the doc :doc:`here </investigations/2014/01/InPlace>`. Do the ``inplace`` import using
 
    - hard link
    - soft link
@@ -63,7 +63,7 @@ Import CLI
    - |C| that the actions proceed without error.
 
 
-#. Background importing: read the doc  `here <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_., section ``Background importing``  to understand better.
+#. Background importing: read the doc :doc:`here </investigations/2014/01/InPlace>`., section ``Background importing``  to understand better.
 
    - Perform background import with all options mentioned in the doc.
    - |C| that the importer disconnected as expected and the images were imported okay.
