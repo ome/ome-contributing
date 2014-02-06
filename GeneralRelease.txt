@@ -158,9 +158,24 @@ OMERO Virtual Appliance
 Bio-Formats MATLAB toolbox
 ============================================================
 
-#. Follow the instructions `here <http://www.openmicroscopy.org/site/support/bio-formats5/developers/matlab-dev.html>`_ up to and including the section ``Displaying images``. Use any small image on your local disk or on squig.
+#. Install the Bio-Formats MATLAB toolbox following the instructions
+   :bf_doc:`here <users/matlab>`.
+
+#. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
+   Alternatively, use any small image on your local disk or on squig.
+
+#. Follow the instructions :bf_doc:`here <developers/matlab-dev.html>` up to
+   and including the section ``Displaying images``.
 
    - |C| that the image opens as expected
+
+#. Increase the logging level by opening :file:`bfopen` and replacing
+   ``loci.common.DebugTools.enableLogging('INFO');`` by
+   ``loci.common.DebugTools.enableLogging('DEBUG');``.
+
+#. Reopen the image using the same commands as previously.
+
+   - |C| that the amount of logging increases in the MATLAB command prompt
 
 Bio-Formats loci_tools.jar
 ============================================================
