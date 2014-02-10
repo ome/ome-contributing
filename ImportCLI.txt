@@ -47,7 +47,7 @@ Import CLI
 
 #. **Note that the inplace import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
 
-#. Perform ``ssh`` command into the server you are going to test the ``inplace`` import to or start up your local server. Import a multi z/t image and a plate ``inplace``. To understand better, read the doc `here <http://www.openmicroscopy.org/private/ome-internal/investigations/2014/01/InPlace.html>`_. Do the ``inplace`` import using
+#. Perform ``ssh`` command into the server you are going to test the ``inplace`` import to or start up your local server. Import a multi z/t image and a plate ``inplace``. To understand better, read the doc :doc:`/investigations/2014/01/InPlace`. Do the ``inplace`` import using
 
    - hard link
    - soft link
