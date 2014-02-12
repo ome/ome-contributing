@@ -5,14 +5,14 @@ Import CLI
 
 **To test in**: Command line interface / Insight
 
-**Purpose of the test** is to check the import of single, multiple images and multi-images file from command line. Also, to test Inplace import and the Background import functionalities.
+**Purpose of the test** is to check the import of single, multiple images and multi-images file from command line. Also, to test In-place import and the Background import functionalities.
 
 
 **Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
 
 **Note that you have to download the right .zip server file (with the correct Ice version) to have the correct CLI-client for testing. You can use omego for this purpose, or download the .zip manually.**
 
-**Note that you do not have to do CLI import on the OMERO server system you are importing into (no need to ssh into the server), as long as you do not do ``inplace`` import (steps 10 -13 below).**
+**Note that you do not have to do CLI import on the OMERO server system you are importing into (no need to ssh into the server), as long as you do not do In-place import (steps 10 -13 below).**
 
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
@@ -45,21 +45,21 @@ Import CLI
 
 #. Import a nested folder containing Screen/Plate/Well files
 
-#. **Note that the inplace import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
+#. **Note that the In-place import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
 
-#. Perform ``ssh`` command into the server you are going to test the ``inplace`` import to or start up your local server. Import a multi z/t image and a plate ``inplace``. To understand better, read the doc :doc:`/investigations/2014/01/InPlace`. Do the ``inplace`` import using
+#. Perform ``ssh`` command into the server you are going to test the In-place import to or start up your local server. Import a multi z/t image and a plate In-place. To understand better, read the doc :doc:`/investigations/2014/01/InPlace`. Do the In-place import using
 
    - hard link
    - soft link
    - ``ln_rm`` (NEVER use ``ln_rm`` on ``ome/data_repo`` !!!)
    - |C| that the plate and image imported well in Insight and Web
 
-#. Find the original of the image/plate you imported ``inplace`` using soft link and remove it (try also removing individual images in plates.) 
+#. Find the original of the image/plate you imported In-place using soft link and remove it (try also removing individual images in plates.) 
 
    - |C| that when you open the image/image in a plate now in Insight & Web you get reasonable message from the UI that image is not available.
-   - |C| that when you return the original file, both Insight & Web will open the inplace imported image/plate with no problem (|C| also images in a plate)
+   - |C| that when you return the original file, both Insight & Web will open the In-place imported image/plate with no problem (|C| also images in a plate)
 
-#. On an inplace imported image, perform following actions: 
+#. On an In-place imported image, perform following actions: 
    
    - Projection (in Insight)
    - Download the original file (Insight & Web)
