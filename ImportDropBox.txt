@@ -2,7 +2,7 @@ Import DropBox
 ==============
 
 
-**To test in**: Command line interface/Dropbox/Insight
+**To test in**: Command line interface/DropBox/Insight
 
 **Purpose of the test** is to check the import using DropBox
 
@@ -55,15 +55,15 @@ implemented.
    - Wait at least ~60sec - watch the progress of the import in the log
    - |C| they are all imported (using Insight UI)
 
-#. Inplace import via Dropbox. To understand better, read the DropBox section at the bottom of :doc:`this doc </investigations/2014/01/InPlace>`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
+#. Inplace import via DropBox. To understand better, read the DropBox section at the bottom of :doc:`this doc </investigations/2014/01/InPlace>`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
 
    - ``"--transfer=ln_rm"`` 
-   - ``"--transfer=ln -s"`` 
+   - ``"--transfer=ln_s"`` 
    - ``"--transfer=ln"``
 
      and import a plate/image via DroBox after each of the 3 resets above.
 
-   - |C| that the plate/image has been imported successfully and the files stay in the Dropbox folder (``ln`` and ``ln -s`` options) or are deleted from it (``ln_rm`` option)
+   - |C| that the plate/image has been imported successfully and the files stay in the DropBox folder (``ln`` and ``ln_s`` options) or are deleted from it (``ln_rm`` option)
 
 
  
