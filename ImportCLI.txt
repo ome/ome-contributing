@@ -51,9 +51,9 @@ Import CLI
 
    - hard link
    - soft link
-   - "ln_rm" (NEVER use "ln_rm" on ``ome/data_repo`` !!!)
+   - ``ln_rm`` (NEVER use ``ln_rm`` on ``ome/data_repo`` !!!)
    - |C| that the plate and image imported well in Insight and Web
-   - |C| that when you perform "ln_rm" option across file systems (of the same machine) the original file is NOT deleted and the import does not proceed ("ln_rm" proceeds only when operating within one file system)
+   - |C| that when you perform ``ln_rm`` option across file systems (of the same machine) the original file is NOT deleted and the import does not proceed (``ln_rm`` proceeds only when operating within one file system)
 
 #. Find the original of the image/plate you imported In-place using soft link and remove it (try also removing individual images in plates.) 
 
