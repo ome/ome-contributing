@@ -51,13 +51,16 @@ Import CLI
 
    - hard link
    - soft link
-   - ``ln_rm`` (NEVER use ``ln_rm`` on ``ome/data_repo`` !!!)
+   - "ln_rm" (NEVER use "ln_rm" on ``ome/data_repo`` !!!)
    - |C| that the plate and image imported well in Insight and Web
+   - |C| that when you perform "ln_rm" option across file systems (of the same machine) the original file is NOT deleted and the import does not proceed ("ln_rm" proceeds only when operating within one file system)
 
 #. Find the original of the image/plate you imported In-place using soft link and remove it (try also removing individual images in plates.) 
 
    - |C| that when you open the image/image in a plate now in Insight & Web you get reasonable message from the UI that image is not available.
    - |C| that when you return the original file, both Insight & Web will open the In-place imported image/plate with no problem (|C| also images in a plate)
+
+
 
 #. On an In-place imported image, perform following actions: 
    
@@ -67,7 +70,7 @@ Import CLI
    - |C| that the actions proceed without error.
 
 
-#. Background importing: read the doc :doc:`here </investigations/2014/01/InPlace>`., section ``Background importing``  to understand better.
+#. Background importing: read the doc :doc:`In-place import </investigations/2014/01/InPlace>`., section ``Background importing``  to understand better.
 
    - Perform background import with all options mentioned in the doc.
    - |C| that the importer disconnected as expected and the images were imported okay.
