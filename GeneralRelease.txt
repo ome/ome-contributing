@@ -212,11 +212,11 @@ Bio-Formats command-line tools
 
 #. Download and unzip the bftools.zip. 
 
-#. Cd into this folder.
+#. Move into this folder.
 
 #. Execute the ``showinf`` command on the cmd line::
 
-    $ showinf -version
+    $ ./showinf -version
 
    - |C| that the correct version, reversion and build date are returned
 
