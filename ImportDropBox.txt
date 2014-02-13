@@ -57,9 +57,9 @@ implemented.
 
 #. Inplace import via DropBox. To understand better, read the DropBox section at the bottom of :doc:`this doc </investigations/2014/01/InPlace>`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
 
-   - ``"--transfer=ln_rm"`` 
-   - ``"--transfer=ln_s"`` 
-   - ``"--transfer=ln"``
+   - ``--transfer=ln_rm`` 
+   - ``--transfer=ln_s`` 
+   - ``--transfer=ln``
 
      and import a plate/image via DropBox after each of the 3 resets above.
 
