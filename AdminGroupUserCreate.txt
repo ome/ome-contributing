@@ -10,7 +10,6 @@ Admin: Group/User Create
 #. Create new group 
 
    - using the icon above the tree [:ref:`AdminGrUsCr002`] (Insight only)
-   - using the right-click (Insight only)
    - using the button (called "Add new..." in Web, Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
    - Create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
