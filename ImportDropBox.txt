@@ -21,7 +21,7 @@ implemented.
 
 #. Open Terminal (command line)
 
-#. Create a DropBox.log. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to create a DropBox log.
+#. Get a ``DropBox.log`` file output. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to see the log output.
 
 #. Drag and Drop an image file which has a companion file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
 
