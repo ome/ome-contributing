@@ -21,7 +21,7 @@ User/Group Manipulation
 
 #. Browse the user's data - go to the tree in left-hand pane, expand projects and datasets, view images. Go to the Screens harmonica and browse screens.  [:ref:`UserGroupM005bi`].
 
-#. Remove/Refresh users from/on display.(Insight only) - use right-click (remomve & refresh) [:ref:`UserGroupM004`]
+#. Use ``Remove User`` command to remove users from display and ``Refresh User`` command to refresh the user on display.(Insight only) - use right-click [:ref:`UserGroupM004`]
 
 #. Remove groups from display.
 
