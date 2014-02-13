@@ -16,14 +16,14 @@ ROI Insight
    - from the icon on the top of the Full Viewer [:ref:`ROIInsight001`]
    - from the main menu go ``Controls > ROI Tool`` 
 
-#. Create ROIs (>3) of different types including Text (Text is one of Region types).[:ref:`ROIInsight002`]
+#. Create ROIs (more than 3) of different types including Text (Text is one of ROI types).[:ref:`ROIInsight002`]
 
 #. Add comment to the shape (double-click on the shape and write). Tick and untick the ``Show comment`` box
 
    - |C| that the comment appears and disappears.[:ref:`ROIInsight003`]
    - |C| that when the only action after the image was open was toggling the ``Show comment`` box, no dialog asking whether you want to save pops up
 
-#. Select and de-select the ROIs/shapes. Check that type corresponds with Viewer.
+#. Select and de-select the ROIs and shapes. Check that type is correct and it corresponds with the selection in Viewer.
 
 #. Move shapes and close the full viewer. 
 
