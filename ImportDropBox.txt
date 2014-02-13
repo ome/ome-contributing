@@ -61,7 +61,7 @@ implemented.
    - ``"--transfer=ln_s"`` 
    - ``"--transfer=ln"``
 
-     and import a plate/image via DroBox after each of the 3 resets above.
+     and import a plate/image via DropBox after each of the 3 resets above.
 
    - |C| that the plate/image has been imported successfully and the files stay in the DropBox folder (``ln`` and ``ln_s`` options) or are deleted from it (``ln_rm`` option)
 
