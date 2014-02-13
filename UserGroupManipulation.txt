@@ -40,9 +40,9 @@ User/Group Manipulation
 
 **Section 2: Group Display (Web, Insight)**
 
-**Note that at the moment, the ``Group Display`` menu is "old style" - new design implemented only to ``User Display`` by now.**
+Note that at the moment, the ``Group Display`` menu is "old style". The new design has been implemented only to ``User Display`` by now.
 
-#. Switch to "Group Display" in the main menu. Go to :menuselection:`View --> Group Display` [:ref:`UserGroupM001c`] (Insight). In Web, click on a group name in the top-left corner and choose "All members" [:ref:`UserGroupM006w`].
+#. Switch to ``Group Display`` in the main menu. Go ``View > Group Display`` [:ref:`UserGroupM001c`] (Insight). In Web, click on a group name in the top-left corner and choose ``All members`` [:ref:`UserGroupM006w`].
 
 #. Put several groups to display (Insight only) [:ref:`UserGroupM006i`].
 
