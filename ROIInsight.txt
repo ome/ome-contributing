@@ -38,7 +38,7 @@ ROI Insight
 
    - |C| the changes of the region display.
 
-#. In Results tab, add new Measurements/remove Measurements using Results wizard.
+#. In Results tab, add new Measurements and remove Measurements using Results wizard.
 
    - Click on a row, check that the chosen region/plane changes in the image.
    - Export to Excel.
