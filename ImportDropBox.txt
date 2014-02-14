@@ -61,7 +61,9 @@ implemented.
    - ``--transfer=ln_s`` 
    - ``--transfer=ln``
 
-     and restart the server after each change & import a plate/image via DropBox after each of the 3 resets (and server restarts) above.
+     and restart the server after each change to finalize the reset. 
+
+#. Import a plate/image via DropBox after each of the 3 resets (and server restarts) above.
 
    - |C| that the plate/image has been imported successfully and the files stay in the DropBox folder (``ln`` and ``ln_s`` options) or are deleted from it (``ln_rm`` option)
 
