@@ -40,15 +40,15 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 **Section 2: Work on other users' data**
 
 |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-|C| whether you CAN (=Y) or CANNOT (=N) create objects under other's data (= look for Mix data (formerly "Link") permissions) in the table `here <https://docs.google.com/spreadsheet/ccc?key=0AuqP9_Rq_HgldDNjT0ZIcHRSOUg1OFpjVUthdzM4cmc&usp=drive_web#gid=1>`_.
+|C| whether you CAN (=Y) or CANNOT (=N) create objects under other users' data (= look for Mix data (formerly "Link") permissions) in the table `here <https://docs.google.com/spreadsheet/ccc?key=0AuqP9_Rq_HgldDNjT0ZIcHRSOUg1OFpjVUthdzM4cmc&usp=drive_web#gid=1>`_.
 
 #. Switch to Group Display in Insight, put "All members" to display in Web.
 
-#. In Insight and Web try to create new P/D/S being under other users data (=selecting other users P/D/S/I) 
+#. In Insight and Web try to create new P/D/S being under other users' data (=selecting other users' P/D/S/I) 
 
    - |C| that you can/cannot create the new entities as appropriate to your permissions (= menu items in contextual menu, icons and main menu are enabled/disabled as appropriate) - both Web and Insight
-   - |C| in Insight that new Datasets are created under other users Projects when these Projects are selected and creation is permitted.
-   - |C| in Web that new Datasets are created outside of other users projects even when the Projects are selected
+   - |C| in Insight that new Datasets are created under other users' Projects when these Projects are selected and creation is permitted.
+   - |C| in Web that new Datasets are created outside of other users' Projects even when the Projects are selected
 
 
 
@@ -59,8 +59,9 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Switch to User View in Insight, put a particular user to display in Web and do steps 2 and 3 in Section 2.
 
-   - |C| that when you select other users data Projects and Screens are created under your name in the tree in Insight (when permitted), the Datasets are created under selected projects of other users (when permitted)
-   - |C| that when you select other users data P/D/S are created under the name of the other user in Web, but after the first change of display (put yourself to display) the newly created P/D/S are under your name
+   - |C| that when you select other users' data, Projects and Screens are created under your name in the tree in Insight (when permitted). 
+   - |C| that when you select Project(s) of other users, the Datasets are created under selected projects of other users (when permitted)
+   - |C| that when you select other users' data P/D/S are created under the name of the other user in Web, but after the first change of display (put yourself to display) the newly created P/D/S are under your name
 
 |
 |
