@@ -178,32 +178,64 @@ Bio-Formats MATLAB toolbox
 
    - |C| that the amount of logging increases in the MATLAB command prompt
 
-Bio-Formats loci_tools.jar
+Bio-Formats: bioformats_package.jar and loci_tools.jar
 ============================================================
 
-#. Remove any previous loci_tools.jar files out of your ImageJ Plugins folder. Put the freshly downloaded loci_tools.jar into a Plugins folder of ImageJ and start ImageJ.
+**bioformats_package.jar testing**
 
-   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files out of your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
-#. Go ``Plugins`` > ``LOCI`` > ``Bio-formats Importer`` and import a small image (any small image will do).
+   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu
+   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu
+
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Importer`` and import a small image (any small image will do).
 
    - |C| that the image imports successfully
 
-#. Leave the imported image open in ImageJ and go ``Plugins`` > ``LOCI`` > ``Bio-formats Exporter`` and export this image.
+#. Leave the imported image open in ImageJ and go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Exporter`` and export this image.
 
    - |C| that the image exports successfully
 
-#. Go ``Plugins`` > ``LOCI`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
 
    - |C| that the image imports successfully
 
-#. Go ``Help`` > ``About Plugins`` > ``LOCI Plugins...``
+#. Go ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
 
    - |C| that the urls shown in the popup link to existing and sensible pages.
 
-#. Go ``Plugins`` > ``LOCI`` > ``Update LOCI Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
 
    - |C| that the version number in the brackets shows the most recent stable release number.
+   - |C| that you can execute the updates
+
+**loci_tools.jar testing**
+
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files out of your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
+
+   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu
+   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu
+
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Importer`` and import a small image (any small image will do).
+
+   - |C| that the image imports successfully
+
+#. Leave the imported image open in ImageJ and go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Exporter`` and export this image.
+
+   - |C| that the image exports successfully
+
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+
+   - |C| that the image imports successfully
+
+#. Go ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
+
+   - |C| that the urls shown in the popup link to existing and sensible pages.
+
+#. Go ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+
+   - |C| that the version number in the brackets shows the most recent stable release number.
+   - |C| that you can execute the updates
 
 
 
