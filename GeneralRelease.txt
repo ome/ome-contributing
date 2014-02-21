@@ -47,7 +47,7 @@ OMERO.server
 Webstart
 ============================================================
 
-#. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart url (change the ``webclient`` to ``webstart`` at the end of the url).
+#. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart URL (change the ``webclient`` to ``webstart`` at the end of the URL).
 
    - |C| that the application starts (see examples below), 
    - |C| that you can connect and expand a dataset and open an image
@@ -130,16 +130,16 @@ OMERO.matlab toolbox
 
 #. After you have executed the above commands, 
 
-   - |C| that all 7 commands executed without errors
-   - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab
+   - |C| that all 7 commands executed without errors.
+   - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab.
 
 #. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
 
-   - |C| that a Dataset was created
+   - |C| that a Dataset was created.
 
 #. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Creating ROI`` under ``ROIs`` section. Follow the commands to create a ROI and link it to an Image.
 
-   - |C| that a ROI was created
+   - |C| that a ROI was created.
 
 #. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the section ``Deleting data``. Follow the commands to Delete an image, a Dataset and a Project.
 
@@ -153,8 +153,8 @@ OMERO Virtual Appliance
 
 #. Start OMERO.insight and OMERO.web as described in :omerodoc:`Virtual Appliance doc <users/virtual-appliance.html?highlight=virtual%20appliance>` and try to login.
 
-   - |C| that Insight and Web start okay and you can login successfully
-   - |C| that you can import and then open a small image (any small image will do)
+   - |C| that Insight and Web start okay and you can login successfully.
+   - |C| that you can import and then open a small image (any small image will do.)
 
 Bio-Formats MATLAB toolbox
 ============================================================
@@ -183,56 +183,56 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
 **bioformats_package.jar testing**
 
-#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files out of your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
-   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu
-   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu
+   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu.
+   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu.
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Importer`` and import a small image (any small image will do).
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Importer`` and import a small image (any small image will do).
 
-   - |C| that the image imports successfully
+   - |C| that the image imports successfully.
 
-#. Leave the imported image open in ImageJ and go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Exporter`` and export this image.
+#. Leave the imported image open in ImageJ and Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Exporter`` and export this image.
 
-   - |C| that the image exports successfully
+   - |C| that the image exports successfull.y
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog that pops up.
 
-   - |C| that the image imports successfully
+   - |C| that the image imports successfully.
 
-#. Go ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
+#. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
 
-   - |C| that the urls shown in the popup link to existing and sensible pages.
+   - |C| that the URLs shown in the popup link to existing and sensible pages.
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
 
    - |C| that the version number in the brackets shows the most recent stable release number.
-   - |C| that you can execute the updates
+   - |C| that you can execute the updates.
 
 **loci_tools.jar testing**
 
-#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files out of your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
-   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu
+   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use the ``Bio-Formats`` menu
    - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Importer`` and import a small image (any small image will do).
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Importer`` and import a small image (any small image will do).
 
    - |C| that the image imports successfully
 
-#. Leave the imported image open in ImageJ and go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Exporter`` and export this image.
+#. Leave the imported image open in ImageJ and select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Exporter`` and export this image.
 
    - |C| that the image exports successfully
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Bio-formats Remote Importer`` and  paste the url ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog which will pop up
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and  paste the URL ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog that pops up
 
    - |C| that the image imports successfully
 
-#. Go ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
+#. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
 
-   - |C| that the urls shown in the popup link to existing and sensible pages.
+   - |C| that the URLs shown in the popup link to existing and sensible pages.
 
-#. Go ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
 
    - |C| that the version number in the brackets shows the most recent stable release number.
    - |C| that you can execute the updates
