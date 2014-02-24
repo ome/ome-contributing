@@ -1,0 +1,84 @@
+OMERO.figure
+===============
+
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to check that the OMERO.figure as an OMERO.web application is functioning correctly.
+
+#. Go to http://webfigure.openmicroscopy.org/figure/ and connect to the appropriate server as indicated in the spreadsheet. Also, start an OMERO.web instance in another tab of your browser by pasting in http://webfigure.openmicroscopy.org/webclient. Login to the webclient in either OMERO.web or OMERO.figure tab.
+
+#. Note more than 3 IDs of images in OMERO.web or copy the link on the right-hand side of the OMERO.web whilst having more than 3 images selected.
+
+#. Go back to the OMERO.figure tab in your browser, answer "Create New Figure" in the popup and paste the URL or the IDs of the images you noted in previous step into the new window which pops up. 
+
+#. Confirm by pressing ``Add images`` button.
+
+   - |C| that the added images are fitting the canvas.
+
+#. Do not save the new figure, instead try to:
+
+   - use the Back button in your browser
+   - close the Tab with OMERO.figure in your browser
+   - change the URL in the browser
+
+   - |C| that after each of these action a popup appears asking you to save the figure.
+
+#. Select one of the ``Don't Save``, ``Save`` and ``Cancel`` buttons and 
+   
+   - |C| that ``Cancel`` will bring you back to the canvas with the images you pasted
+   - |C| that ``Don't Save`` proceeds with the action you intended to do (for example going back in browser history)
+   - |C| that ``Save`` gives you a dialog with an opportunity to select a name for the new Figure and saves it.
+
+#. Add new images to the canvas by using ``Add image`` button (paste IDs or URL from the webclient). 
+
+   - |C| that the newly added images fit the canvas.
+   - |C| that when you paste a non-existent ID or URL, you get a warning message
+
+#. Use the ``File > New`` button to create a new file.
+
+   - |C| that the new file is created even when your previous changes have not been saved, and that you get a prompt to save them.
+
+#. Select ``File > Delete a Figure``. 
+
+   - |C| that when you try to delete couple of figures in a row, the workflow makes sense.
+
+#. Select ``File > Open`` and open an existing figure.
+
+   - |C| that there is a name of the Figure which is on display above the canvas
+   - |C| that there is a link to the images in OMERO.web which comprise the figure
+   - |C| that you can sort the name list by name and date.
+
+#. Select more than one panels in the figure, go to Info tab in the white window in the top right-hand corner and
+
+   - |C| that the values under the ``Panel`` section are explained and when applicable, populated
+
+#. Select panels with different z/t section numbers and different channel numbers and Zoom and Pan.
+
+   - |C| that panning is happening in all the panels selected, and that you can see some Preview.
+   - |C| that you can reset the zooming and panning to the default value using the Reset button
+
+#. Go and adjust rendering settings by sliding the sliders in the ``Preview`` tab. 
+
+   - |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
+
+#. Create Labels on images. Try to copy and paste the whole row of images which are horizontally aligned by selecting them and pressing ``Ctrl & C``. 
+
+   - |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
+
+#. Try to rotate a panel.
+
+#. Export the figure as .pdf, using the button in the top right-hand corner.
+
+#. Go to the YouTube video http://www.youtube.com/watch?v=TNt821F-unE, watch it and submit feedback on possible improvements.
+
+
+
+
+
+
+
+
+
