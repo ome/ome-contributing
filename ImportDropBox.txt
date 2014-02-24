@@ -2,7 +2,7 @@ Import DropBox
 ==============
 
 
-**To test in**: Command line interface/Dropbox/Insight
+**To test in**: Command line interface/DropBox/Insight
 
 **Purpose of the test** is to check the import using DropBox
 
@@ -21,7 +21,7 @@ implemented.
 
 #. Open Terminal (command line)
 
-#. Create a DropBox.log. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to create a DropBox log.
+#. Get a ``DropBox.log`` file output. Get into your home directory (e.g. petr), then into ``/Work/openmicroscopy/`` folder and then use a line like: ``tail -f dist/var/log/DropBox.log`` to see the log output.
 
 #. Drag and Drop an image file which has a companion file (e.g. ``IAGFP-Noc01_R3D.dv``) into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``).
 
@@ -54,4 +54,18 @@ implemented.
 
    - Wait at least ~60sec - watch the progress of the import in the log
    - |C| they are all imported (using Insight UI)
+
+#. Inplace import via DropBox. To understand better, read the DropBox section at the bottom of :doc:`this doc </investigations/2014/01/InPlace>`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
+
+   - ``--transfer=ln_rm`` 
+   - ``--transfer=ln_s`` 
+   - ``--transfer=ln``
+
+     and restart the server after each change to finalize the reset. 
+
+#. Import a plate/image via DropBox after each of the 3 resets (and server restarts) above.
+
+   - |C| that the plate/image has been imported successfully and the files stay in the DropBox folder (``ln`` and ``ln_s`` options) or are deleted from it (``ln_rm`` option)
+
+
  
