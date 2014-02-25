@@ -250,8 +250,11 @@ Bio-Formats command-line tools
 #. Execute the ``showinf`` command on the cmd line::
 
     $ ./showinf -version
+    $ ./showinf <image_path>
 
-   - |C| that the correct version, reversion and build date are returned
+   - |C| that the correct version, revision and build date are returned after the first command.
+   - |C| that the image in the <image_path> in the second command opens.
+
 
 #. Execute the ``bfconvert`` command on the cmd line, for example::
 
@@ -260,9 +263,6 @@ Bio-Formats command-line tools
    
    - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created
 
-#. View the newly created image using ``bfview`` command, for example::
 
-    $ ./bfview test.ome.tiff
 
-   - |C| that the image opens
 
