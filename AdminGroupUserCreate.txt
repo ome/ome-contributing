@@ -5,7 +5,7 @@ Admin: Group/User Create
 
 **Purpose of the test** is to check the creation of new groups/users functionality when logged in as administrator
 
-#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCr001`]), 
+#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCr001`]). 
 
 #. Create new group 
 
@@ -29,7 +29,7 @@ Admin: Group/User Create
      [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
 
          - right-click on group and ``Edit group membershop...`` (Insight only)
-         - D & D (Insight only)
+         - Drag & Drop (Insight only)
          - Copy & Paste using icons (Insight only) [:ref:`AdminGrUsCr011`] 
          - Copy & Paste from right-click menu (Insight only) [:ref:`AdminGrUsCr012`]
 
