@@ -24,11 +24,11 @@ OMERO.figure
    - close the Tab with OMERO.figure in your browser
    - change the URL in the browser
 
-   - |C| that after each of these action a popup appears asking you to save the figure.
+   - |C| that after each of these action a popup appears asking you either to save the figure or to ``Stay on Page``.
 
-#. Select one of the ``Don't Save``, ``Save`` and ``Cancel`` buttons and 
+#. Select one of the ``Don't Save``, ``Save`` and  (not implemented yet) ``Cancel`` buttons and 
    
-   - |C| that ``Cancel`` will bring you back to the canvas with the images you pasted
+   - (not implemented yet) |C| that ``Cancel`` will bring you back to the canvas with the images you pasted
    - |C| that ``Don't Save`` proceeds with the action you intended to do (for example going back in browser history)
    - |C| that ``Save`` gives you a dialog with an opportunity to select a name for the new Figure and saves it.
 
@@ -40,6 +40,7 @@ OMERO.figure
 #. Use the ``File > New`` button to create a new file.
 
    - |C| that the new file is created even when your previous changes have not been saved, and that you get a prompt to save them.
+   - Create a NEW (not yet saved) file and do not save the changes. |C| that when you Select ``New``, you will get the prompt to Save.
 
 #. Select ``File > Delete a Figure``. 
 
@@ -47,28 +48,31 @@ OMERO.figure
 
 #. Select ``File > Open`` and open an existing figure.
 
-   - |C| that there is a name of the Figure which is on display above the canvas
-   - |C| that there is a link to the images in OMERO.web which comprise the figure
-   - |C| that you can sort the name list by name and date.
+   - |C| that in case you have unsaved changes on the previous figure, you get a dialog giving you the option to Save (or not to Save) the changes.
+   - (not implemented yet) |C| that there is a name of the Figure which is on display above the canvas
+   - (not implemented yet) |C| that there is a link to the images in OMERO.web which comprise the figure
+   - (not implemented yet) |C| that you can sort the name list by name and date.
 
 #. Select more than one panels in the figure, go to Info tab in the white window in the top right-hand corner and
 
-   - |C| that the values under the ``Panel`` section are explained and when applicable, populated
+   - |C| that the values under the ``Panel`` section are explained and when applicable, populated.
+   - |C| that the numerals are rounded 
+   - |C| that when you move a Panel to another location, the ``X`` and ``Y`` values change accordingly.
 
 #. Select panels with different z/t section numbers and different channel numbers and Zoom and Pan.
 
    - |C| that panning is happening in all the panels selected, and that you can see some Preview.
-   - |C| that you can reset the zooming and panning to the default value using the Reset button
+   - (not implemented yet) |C| that you can reset the zooming and panning to the default value using the Reset button
 
 #. Go and adjust rendering settings by sliding the sliders in the ``Preview`` tab. 
 
-   - |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
+   - (not implemented yet) |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
 
 #. Create Labels on images. Try to copy and paste the whole row of images which are horizontally aligned by selecting them and pressing ``Ctrl & C``. 
 
-   - |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
+   - (not implemented yet) |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
 
-#. Try to rotate a panel.
+#. Try to rotate a panel (use the slider bar on the bottom-left of the Preview tab).
 
 #. Export the figure as .pdf, using the button in the top right-hand corner.
 
