@@ -5,11 +5,11 @@ Admin: Group/User Create
 
 **Purpose of the test** is to check the creation of new groups/users functionality when logged in as administrator
 
-#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCr001`]). 
+#. Go to administration tab (left pane harmonica (Insight) or Admin tab (Web) [:ref:`AdminGrUsCr001`]) 
 
 #. Create new group 
 
-   - using the icon above the tree [:ref:`AdminGrUsCr002`] (Insight only)
+   - using the icon above the tree (Insight only) [:ref:`AdminGrUsCr002`] 
    - using the button "Add new..." (Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
    - Create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
