@@ -154,7 +154,7 @@ OMERO Virtual Appliance
 #. Start OMERO.insight and OMERO.web as described in :omerodoc:`Virtual Appliance doc <users/virtual-appliance.html?highlight=virtual%20appliance>` and try to login.
 
    - |C| that Insight and Web start okay and you can login successfully.
-   - |C| that you can import and then open a small image (any small image will do.)
+   - |C| that you can import and then open a small image (any small image will do).
 
 Bio-Formats MATLAB toolbox
 ============================================================
