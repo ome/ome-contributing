@@ -26,8 +26,9 @@ Admin: Group/User Edit
 
 #. Edit user [:ref:`AdminGrUsEd005`][:ref:`AdminGrUsEd006`][:ref:`AdminGrUsEd007`]
 
-    - change Login Name/Password/Status (Insight)
+    - change Name/Password/Status (Insight)
     - change Names/e-mail/Institution/Status (Web - at present no Group Owner option)
+    - |C| that you cannot change the login name (Insight - in Web you can)
     - Save changes
     - |C| the changes have been made appropriately
 
