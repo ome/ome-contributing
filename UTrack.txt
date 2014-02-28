@@ -26,8 +26,8 @@ signal-to-noise ratios.
    to test against using :jenkinsjob:`OMERO-4.4-merge-daily` or
    :jenkinsjob:`OMERO-5.0-merge-daily`.
 
-#. Download the latest build of U-Track from :jenkinsjob:`U-TRACK-build` and
-   unzip it.
+#. Download the latest build of U-Track from :jenkinsjob:`U-TRACK-latest` or
+   the release candidate from :jenkinsjob:`U-TRACK-release` and unzip it.
 
 #. Import test images onto the OMERO server using OMERO.insight.
 
@@ -71,7 +71,7 @@ signal-to-noise ratios.
    :guilabel:`Continue` at the bottom of the interface.
 
 #. If the image has never been analyzed by U-Track previously, a pop-up window
-   should open asking which objects should be tracked. Choose 
+   should open asking which objects should be tracked. Choose
    `Single particles` as the type of objects to track. The main analysis panel
    should open.
 
@@ -101,17 +101,17 @@ signal-to-noise ratios.
    window called ``Viewer`` allows to navigate through the time dimension via
    a scrollbar.
 
-   - |C| that the detection results are overlaid by default on top of the 
+   - |C| that the detection results are overlaid by default on top of the
      image plane as red circles.
-   - |C| that you can scroll through the frames of the movie and the plane and 
+   - |C| that you can scroll through the frames of the movie and the plane and
      detection results are updated.
-   - |C| that you can run the movie by clicking the :guilabel:`Run movie` 
+   - |C| that you can run the movie by clicking the :guilabel:`Run movie`
      button.
-   - |C| that closing the ``Viewer`` graphical interface closes all the 
+   - |C| that closing the ``Viewer`` graphical interface closes all the
      viewing windows.
 
-#. Set the tracking parameters by clicking on the :guilabel:`Setting` button 
-   next to ``Step 2: Tracking``. Click on :guilabel:`Apply` to accept the 
+#. Set the tracking parameters by clicking on the :guilabel:`Setting` button
+   next to ``Step 2: Tracking``. Click on :guilabel:`Apply` to accept the
    default tracking parameters.
 
    - |C| that **Step 2: Tracking** appears in bold, i.e. that the tracking
@@ -124,17 +124,17 @@ signal-to-noise ratios.
    - |C| that the software starts the tracking at the MATLAB command prompt.
    - |C| that a window pops up informing that the step has been completed
      successfully.
-   - |C| that a green icon appears next to the tracking step once it is run 
+   - |C| that a green icon appears next to the tracking step once it is run
      successfully.
 
 #. Click on the :guilabel:`Result` button next to **Step 2: Tracking**.
 
-   - |C| that the tracks are overlaid by default on top of the image plane as 
-     red paths. To check this, scroll through the frames of the movie and 
+   - |C| that the tracks are overlaid by default on top of the image plane as
+     red paths. To check this, scroll through the frames of the movie and
      make sure the tracks are updated.
 
-   - |C| that the track dragtail length can be controlled. Choose a frame in 
-     the middle of the movie. In the ``Movie options`` graphical interface, 
+   - |C| that the track dragtail length can be controlled. Choose a frame in
+     the middle of the movie. In the ``Movie options`` graphical interface,
      modify the ``Dragtail length`` edit box to different values in the range
      between 1 and the number of timepoints of the movie e.g. 1, 5, 10... and
      hit Enter. |C| that the tracks dragtail is updated.
