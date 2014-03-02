@@ -50,6 +50,7 @@ OMERO.figure
    - |C| that "Cancel" returns you to the figure.
    - |C| that "Don't Save" continues with the New File without saving.
    - |C| that "Save" continues with the New File and the unsaved changes are saved.
+   - |C| that saving the New figure creates a NEW figure and does not overwrite the previous figure.
 
 #. Again, open saved figure and make some unsaved changes.
 
