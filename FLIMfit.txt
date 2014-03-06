@@ -9,8 +9,9 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Make sure you have the Matlab Compiler Runtime installed - check the version number necessary.
 
-#. Download the latest build of FLIMfit from
-   :jenkinsjob:`FLIMFit-4.4-build` or :jenkinsjob:`FLIMFit-5.0-build`.
+#. Download the latest build of FLIMfit from :jenkinsjob:`FLIMFit-latest`.
+   Select the component matching the version of the OMERO server you want to
+   test FLIMFit against.
 
 #. Start the FLIMfit by clicking onto the application. Note that the errors are being recorded in the first window which pops up after you start the application.
 
@@ -50,13 +51,13 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
    - make sure that the number of exponentials fitted (drop-down menu next to ``No. Exp``) is set to 1
    - make sure that the ``Fit Contributions`` parameter is set to ``Fitted Locally``
    - Click ``Fit Dataset`` (bottom-left of the application)
-   - |C| that the "operation in progress" popup appears.   -  
+   - |C| that the "operation in progress" popup appears.   -
 
 #. Go to Images tab in the central pane of FLIMfit.
 
    - In the right-hand pane, tick the Display and Merge boxes in the tau-1, IO, I and ch2 rows.
    - |C| that for each of the box ticked, an image appears in the central pane.
- 
+
 
 #. Go ``OMERO > Export Fitting Results``.
 
@@ -80,7 +81,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
    - Go ``OMERO > Load IRF (Annotation)``
    - |C| that the pulse of the IRF is visible in the graphs in the central panel under ``Decay`` tab.
 
-#. Fit Multiple FOVs Globally with 2 exponentials 
+#. Fit Multiple FOVs Globally with 2 exponentials
 
    - Select ``2`` in the ``No. Exp`` menu.
    - Select ``Fitted Globally`` in the ``Fit Contributions`` menu.
@@ -101,7 +102,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 
 .. seealso::
-   
+
    `FLIMfit documentation <http://www.openmicroscopy.org/site/support/partner/flimfit>`_.
 
 
