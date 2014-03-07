@@ -1,0 +1,149 @@
+OMERO.figure
+===============
+
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to check that the OMERO.figure as an OMERO.web application is functioning correctly.
+
+#. Go to http://webfigure.openmicroscopy.org/figure/ and connect to the appropriate server as indicated in the spreadsheet. Also, start an OMERO.web instance in another tab of your browser by pasting in http://webfigure.openmicroscopy.org/webclient. Login to the webclient in either OMERO.web or OMERO.figure tab.
+
+#. This first series of tests checks that saved and unsaved changes are not lost inadvertantly. Creating unsaved figure can be easily done by adding a single image to a new figure (note an image ID from the webclient). If you need to make more changes, simply copy, paste and move or edit the panel.
+
+**Test that saved figures are not lost**
+
+#. Go back to the OMERO.figure tab in your browser, answer "Create New Figure" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
+
+#. Confirm by pressing ``Add images`` button.
+
+   - |C| that the 'Save' button becomes enabled, indicating you have an unsaved figure.
+
+#. Save the figure (click 'Save' button or Menu: File > Save) and choose a figure name. 'Figure1'
+
+   - |C| that the 'Save' button becomes disabled and the url updates with the figure ID. 
+   - |C| that you can refresh your browser without any message popup and the figure is refreshed (not lost)
+   - Copy the url, then navigate to the webclient and logout. Open new window and paste the url.
+   - |C| that after login, you are redirected to the saved figure.
+
+#. Make another change to 'Figure1' and Save.
+
+   - Goto File > New. Add an Image and Save 'Figure2'.
+   - |C| that no popup messages asked you to save.
+   - |C| that File > Open > Figure1 shows your latest changes to Figure1 (no 'save' popups)
+   - |C| that hitting the back button takes you to your saved Figure2 (no 'save' popups)
+
+**Test that unsaved changes are not lost on existing figures**
+
+#. Open a saved figure, make some changes without saving.
+
+   - Try to refresh the browser, navigate to webclient or close browser window.
+   - |C| that you get a "Leave Page" or "Stay on Page" alert (or equivalent).
+   - |C| that choosing "Stay on page" cancels & returns to page, allowing Save.
+   - |C| that choosing "Leave Page" results in losing of unsaved changes (when you return).
+
+#. Again, open saved figure and make some unsaved changes.
+
+   - Try to create new file: File > New
+   - |C| that you get a "Save", "Don't Save" or "Cancel" dialog.
+   - |C| that "Cancel" returns you to the figure.
+   - |C| that "Don't Save" continues with the New File without saving.
+   - |C| that "Save" continues with the New File and the unsaved changes are saved.
+   - |C| that saving the New figure creates a NEW figure and does not overwrite the previous figure.
+
+#. Again, open saved figure and make some unsaved changes.
+
+   - Try to open figure: File > Open
+   - |C| that you get a "Save", "Don't Save" or "Cancel" dialog before the 'Open Figure' list.
+   - |C| that these choices work as described above.
+
+#. Open a saved figure, then open another saved figure and make some unsaved changes.
+
+   - Now try hitting the browser 'Back' button.
+   - |C| that the url reverts to the first figure and you get a "Save" or "Don't Save" dialog.
+   - |C| that "Don't Save" results in the loss of your unsaved changes.
+   - |C| that "Save" does save the changes, when you return to the figure (using Forward button).
+
+**Test that unsaved changes on a NEW figure are not lost**
+
+#. Open a new figure, make some changes without saving.
+
+   - Try to refresh the browser, navigate to webclient or close browser window.
+   - |C| that you get a "Leave Page" or "Stay on Page" alert (or equivalent).
+   - |C| that choosing "Stay on page" cancels & returns to page, allowing Save.
+   - |C| that choosing "Leave Page" results in losing of unsaved changes.
+
+#. Again, open new figure and make some unsaved changes.
+
+   - Try to create new file: File > New
+   - |C| that you get a "Save", "Don't Save" or "Cancel" dialog.
+   - |C| that "Cancel" returns you to the figure.
+   - |C| that "Don't Save" continues with the New File without saving.
+   - |C| that "Save" opens a 'Enter Figure Name' dialog.
+   - |C| that a new figure is created with the chosen name and no changes are lost.
+
+#. Again, open new figure and make some unsaved changes.
+
+   - Try to open figure: File > Open
+   - |C| that you get a "Save", "Don't Save" or "Cancel" dialog before the new figure is started.
+   - |C| that these choices work as described above.
+
+#. Open a saved figure, then open a new figure and make some unsaved changes.
+
+   - Now try hitting the browser 'Back' button.
+   - |C| that the url reverts to the first figure and you get a "Save" or "Don't Save" dialog.
+   - |C| that "Don't Save" results in the loss of your unsaved changes.
+   - |C| that "Save" does save the changes, when you return to the new figure (using File > Open).
+
+
+**Additional tests below are for less critical features**
+
+#. Add new images to the canvas by using ``Add image`` button (paste IDs or URL from the webclient). 
+
+   - |C| that the newly added images fit the canvas.
+   - |C| that when you paste a non-existent ID or URL, you get a warning message
+
+#. Select ``File > Delete a Figure``. 
+
+   - |C| that when you try to delete couple of figures in a row, the workflow makes sense.
+
+#. Select ``File > Open`` and open an existing figure.
+
+   - |C| that there is a name of the Figure which is on display above the canvas
+   - |C| that you can sort the name list by name and date.
+   - (not implemented yet) |C| that there is a link to the images in OMERO.web which comprise the figure
+
+#. Select more than one panels in the figure, go to Info tab in the white window in the top right-hand corner and
+
+   - |C| that the values under the ``Panel`` section are explained and when applicable, populated.
+   - |C| that the numerals are rounded 
+   - |C| that when you drag a Panel to another location, the ``X`` and ``Y`` values change accordingly.
+
+#. Select panels with different z/t section numbers and different channel numbers and Zoom and Pan.
+
+   - |C| that panning is happening in all the panels selected, and that you can see some Preview.
+   - (not implemented yet) |C| that you can reset the zooming and panning to the default value using the Reset button
+
+#. Go and adjust rendering settings by sliding the sliders in the ``Preview`` tab. 
+
+   - |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
+
+#. Create Labels on images. Try to copy and paste the whole row of images which are horizontally aligned by selecting them and pressing ``Ctrl & C``. 
+
+   - (not implemented yet) |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
+
+#. Try to rotate a panel (use the slider bar on the bottom-left of the Preview tab).
+
+#. Export the figure as .pdf, using the button in the top right-hand corner.
+
+#. Go to the YouTube video http://www.youtube.com/watch?v=TNt821F-unE, watch it and submit feedback on possible improvements.
+
+
+
+
+
+
+
+
+
