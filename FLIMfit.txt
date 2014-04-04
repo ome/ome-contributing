@@ -19,11 +19,11 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Open Insight and login to the same server as in previous point.
 
-#. Create a new dataset named ``Single`` and import 2 files from ``test_images_good/sdt/instrument_response_function/convalaria ex 740nm 2 min.sdt`` and ``test_images_good/sdt/instrument_response_function/nanorods ex 740 nm 2 min.sdt`` into it.
+#. Create a new dataset named ``Single`` and import 2 files from ``test_images_good/sdt/IRF_in_file/convalaria ex 740nm 2 min.sdt`` and ``test_images_good/sdt/IRF_in_file/nanorods ex 740 nm 2 min.sdt`` into it.
 
-#. Create a new dataset named ``Multiple`` and import files from ``team/FLIM-Files/Instrument Response Function/MEF/*.sdt`` into it.
+#. Still in Insight, create a new dataset named ``Multiple`` and import files from ``data_repo/test_images_good/sdt/Instrument Response Function/*.sdt`` into it.
 
-#. Go to the dataset ``Multiple`` you just created and attach the file ``team/FLIM-Files/Instrument Response Function/MEF/IRF 2013-05-22-T-15-36-21.irf`` to it. Also, attach this file to one of the ``.sdt`` images inside the dataset.
+#. Still in Insight, go to the dataset ``Multiple`` you just created and attach the file ``data_repo/test_images_good/sdt/Instrument Response Function/IRF 2013-05-22-T-15-36-21.irf`` to this dataset. 
 
 #. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the ``Single`` dataset into which you created in Insight..
 
