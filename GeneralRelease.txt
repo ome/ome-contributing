@@ -236,7 +236,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
    - |C| that the version number in the brackets shows the most recent stable release number.
    - |C| that you can execute the updates
-   - |C| that after you have updated the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
+   - |C| that after you have updated, the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
 
 
 
