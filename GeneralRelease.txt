@@ -19,7 +19,7 @@ OMERO.clients:
 #. Download and open the application and login as any user
 
    - (all platforms) start with the Ice35-clients version (the one on the front Downloads page with nice icon to it)
-   - (all platforms) |C| the all Ice versions of OMERO.clients*.zip files in artifacts page
+   - (all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page
    - (all platforms) |C| one of the OMERO.insight*.zip files (non-openGL) on artifacts page
    - (all platforms) |C| one of the OMERO.insight*-openGL.zip files on artifacts page
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen
