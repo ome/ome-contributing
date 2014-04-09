@@ -73,7 +73,8 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 #. Load the data (multiple FOVs)
 
    - Go ``OMERO > Load FLIM Data: Multiple FOVs``. Select the ``Multiple`` dataset you have created in Insight.
-   - In the popup, tick the files to upload and click ``Load Selected``.
+   - If on a 5.x.x server then type #2 into ‘Filter by name’ window (NB # is alt 3 on OSX) & click deselect. This will load only the data from block 1.
+   - In the popup check the required files are ticked then click ``Load Selected``.
    - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot] and the list of uploaded files in the top-left corner of the application [screenshot].
 
 #. Load the IRF for the multiple FOVs from an attachment
