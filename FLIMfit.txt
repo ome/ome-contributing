@@ -9,7 +9,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Make sure you have the Matlab Compiler Runtime installed - check the version number necessary.
 
-#. Download the latest build of FLIMfit from :jenkinsjob:`FLIMFit-latest-mac` or `FLIMFit-latest-win`.
+#. Download the latest build of FLIMfit from :jenkinsjob:`FLIMFit-latest-mac` or :jenkinsjob:`FLIMFit-latest-win`.
    Select the component matching the version of the OMERO server you want to
    test FLIMFit against.
 
