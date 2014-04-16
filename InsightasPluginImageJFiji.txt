@@ -24,7 +24,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. (For the release-day testing only.) Click on the hyperlink in the popup and check it brings you to a sensible place, but do not download it. 
 
-#. (For the release-day testing only.) Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from the RC Download page which is being prepared for the release, e.g. ``https://downloads.openmicroscopy.org/Bio-Formats/<version>`` (find link in the Standup Notes) . 
+#. (For the release-day testing only.) Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from the RC Download page which is being prepared for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` (find link in the Standup Notes) . 
 
    - |C| that the ``bioformats_package.jar`` version (==the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 4 ``bioformats_package.jar`` with OMERO 4 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ (or ImageJ2), go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins``  [:ref:`InsightIJI004`].
 
