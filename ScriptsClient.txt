@@ -47,6 +47,11 @@ Scripts Client
 
 #. Select an image, create a rectangular ROI and repeat point 8. running Movie ROI Figure script from the Figure Scripts submenu
 
++#. Select 2 or more multi-t images and create a line region ROI in each one and propagate it over t. Run Kymograph script on all images at once. 
+
+    - |C| a new image named ...Kymograph was created for each of the multi-t images
+    - |C| that when you draw a line in each of the Kymographs and execute Kymograph Analysis script on all of the Kymographs at once, only one file will be created and attached to each of the ...Kymograph images.
+    - open the attached file and |C| that it contains stats for each drawn line sorted according to the Kymograph images, see [:ref:`ScriptClient001b`]. 
 
 #. Go to the right-hand pane in Insight and Web, General tab and run the following publishing options scripts [:ref:`ScriptClientN002`, :ref:`ScriptClient002b`]
 
@@ -87,6 +92,24 @@ Scripts Client
    :align: center
 
    ScriptClient001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+
+.. _ScriptClient001b:
+.. figure:: /images/testing_scenarios/ScriptsClient/001b.png
+   :align: center
+
+   ScriptClient001b: 
 
 
 |
