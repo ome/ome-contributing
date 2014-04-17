@@ -18,10 +18,15 @@ OMERO.clients:
 
 #. Download and open the application and login as any user
 
+   - (all platforms) start with the Ice35-clients version (the one on the front Downloads page with nice icon to it)
+   - (all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page
+   - (all platforms) |C| one of the OMERO.insight*.zip files (non-openGL) on artifacts page (**Note:** Linux OMERO.insight*.zip files do not have "linux" in the name, no platform is indicated in the name.)
+   - (Mac and Windows only) |C| one of the OMERO.insight*-openGL.zip files on artifacts page
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen
+   - (all platforms) |C| that the application starts and you can log in
+   - (all platforms) |C| that you can expand a dataset and open an image
    - (Windows only) |C| that there is only one executable in each of the ``*win-openGL.zip`` files, for example ``http://downloads.openmicroscopy.org/omero/4.4.10/artifacts/OMERO.insight-4.4.10-ice35-b112-win-openGL.zip`` will have just the 32-bit Insight executable and the corresponding ``*win64-openGL.zip`` will have just the 64-bit Insight executable
-   - |C| that the application starts and you can log in
-   - |C| that you can expand a dataset and open an image
+
 
 IJ/Fiji Plugin
 ============================================================
@@ -46,6 +51,8 @@ OMERO.server
 
 Webstart
 ============================================================
+
+#. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new java versions !
 
 #. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart URL (change the ``webclient`` to ``webstart`` at the end of the URL).
 
@@ -236,6 +243,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
    - |C| that the version number in the brackets shows the most recent stable release number.
    - |C| that you can execute the updates
+   - |C| that after you have updated, the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
 
 
 
