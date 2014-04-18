@@ -25,7 +25,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Still in Insight, go to the dataset ``Multiple`` you just created and attach the file ``data_repo/test_images_good/sdt/Instrument Response Function/IRF 2013-05-22-T-15-36-21.irf`` to this dataset. 
 
-#. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the ``Single`` dataset into which you created in Insight.
+#. In FLIMfit, go ``OMERO > Set working data > Dataset``. Choose the ``Single`` dataset you created in Insight.
 
 #. Load the data (single FOV).
 
