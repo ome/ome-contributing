@@ -19,7 +19,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Open Insight and login to the same server as in previous point.
 
-#. Create a new dataset named ``Single`` and import 2 files into it:   ``data_repo/test_images_good/sdt/IRF_in_file/convalaria ex 740nm 2 min.sdt`` and ``data_repo/test_images_good/sdt/IRF_in_file/nanorods ex 740 nm 2 min.sdt``.
+#. Create a new dataset named ``Single`` and import 2 files into it: ``data_repo/test_images_good/sdt/IRF_in_file/convalaria ex 740nm 2 min.sdt`` and ``data_repo/test_images_good/sdt/IRF_in_file/nanorods ex 740 nm 2 min.sdt``.
 
 #. Still in Insight, create a new dataset named ``Multiple`` and import files ``data_repo/test_images_good/sdt/Instrument Response Function/*.sdt`` into it.
 
