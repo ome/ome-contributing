@@ -24,7 +24,7 @@ For both sections below, you must have:
          - `ome/team/screenshots/Testing Setup/Bulk annotations/test_plate.csv`
          - `ome/team/screenshots/Testing Setup/Bulk annotations/test_screen.csv`
 
-#. Either in Insight UI or command line, create a Screen and note the Screen ID
+#. Either in Insight or Web, create a Screen and note the Screen ID
 
 #. Import `ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641` into the Screen created in step 2. 
 
