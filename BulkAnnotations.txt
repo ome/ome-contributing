@@ -14,7 +14,7 @@ Bulk Annotations
 For both sections below, you must have:
 
    - A working Python and Ice on the test machine (Python 2.7.2 and Ice 3.3 worked fine at the time this scenario was written) 
-   - Downloaded (and extracted) `OMERO.server*.zip` from Jenkins build (for example `OMERO.server-4.4.4-819-777c235-dirty-ice33-b115.zip`)
+   - Downloaded (and extracted) `OMERO.server*.zip` from Jenkins build (for example `OMERO.server-5.0.1-775-f0653ea-ice33-b225.zip`)
 
 
 **Section 1: populate_metadata.py**
