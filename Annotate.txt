@@ -17,45 +17,63 @@ Annotate
 
    - Tags (select the object(s) and right-click as well as use "+" sign in right-hand pane)
 
-Login in as user-5
 
-Select project-castor tagged with TagByUser3 (link owner user-3) and TagByUser5(link owneruser-5)
-Click on the button to bring the tagging dialog.
-TagByUser3 should appear under "Available" List
-TagByUser5 should appear under "Selected" List
-Select a tag and click add (>), check that the tag is added to the "Selected" area
-Select a Tag Set. Click add (>). All the tags in the tag set should be added to the "Selected" area
-Go to the selected area. Select a tag (contained in a tag set) and click remove (<). The tag should be displayed under the tag set in the available area
+#. Prepare If not prepared for you, create around 10 tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
 
-Check the tooltip of the tag. The tag set should be displayed in the tooltip if the tag is in a tag set. The owner of the tag should always be displayed.
 
-Add/Remove All
 
-Click on Add All button. Check that only tags are added to the selected area. No empty tag set.
-click on remove all Button. check that all tags are moved back.
+#. Begin Click on the ``+`` button to bring the tagging dialog.
+
+#. Add normally. Select a tag and click add (>), check that the tag is added to the "Selected" area
+
+#. Add/Remove All
+   - Select a Tag Set. Click add (>). All the tags in the tag set should be added to the "Selected" area
+   - Go to the selected area. Select a tag (contained in a tag set) and click remove (<). The tag should be displayed under the tag set in the available area
+
+
+   - Click on Add All button. Check that only tags are added to the selected area, not any empty tag set.
+   - Click into the filter box in Selected and type - |C| that no tags are appearing in ``Available`` after this. 
+   - click on remove all Button. check that all tags are moved back.
 Add new tag:
 
-Create a new tag (with new name). Click add. The tag should be added to the "Selected" area.
-Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up.
-Click Yes, if the existing tag is displayed on the "Available" list. The tag will be moved to the "Selected" section
-Click no a new tag will be added to the "Selected" section
-Create a new Tag using an existing tag name, or an existing tag name and description (rom the "Selected" List. A warning dialog indicating that such tag exists and is selected should pop up.
-Select for tag name, the name of tag in a tag set e.g. ACA and a tag not in a tag set e.g. Petr1.
-Filtering:
+#. Add new
+   - Create a new tag (with new name). Click add. The tag should be added to the "Selected" area.
+   - Create a new tag (with new name). Hit Enter. The tag should be added to the "Selected" area.
+   - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set and |C| that the new tag has been created as a part of this Tag Set
 
-Check that only tags are filtered. Tag set values should not be taken into account.
-The filtering default option should be "anywhere in the tag", i.e. any character in the tag is used.
-Switch to "Start of tag". Filter by the start of the tag only (similar to code completion)
-Enter some text you can find in the middle of tags e.g. ph in filtering box, with "anywhere in the tag" selected.
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up.
+   - Click Yes, if the existing tag is displayed on the "Available" list. The tag will be moved to the "Selected" section
+   - Click No - |C| that no tag was added to the "Selected" section
+   - repeat with tags within tag sets and outwith tag sets
+   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the "Selected List"
+
+#. Filtering:
+   Check that only tags are filtered. Tag set values should not be taken into account. The filtering default option should be "anywhere in the tag", i.e. any character in the tag is used.
+   Switch to "Start of tag". Filter by the start of the tag only (similar to code completion)
+   Enter some text you can find in the middle of tags e.g. ph in filtering box, with "anywhere in the tag" selected.
 now switch to "start of Tag", the list should be updated.
-Filter by owner: Default should be "all"
-Select "Owned by Me", the list should be updated even if there is no text in filter box.
-Select "Owned by Others", the list should be updated even if there is no text in filter box.
-Filter and Add new Tag
+   Filter by owner: Default should be "all"
+   - Write into the filtering textbox. Check that filtering works. Switch between the options in ``Filter by owner`` and ``Filter by`` menus. |C| if the tags selection shown in the ``Available`` window is changing accordingly.
 
-Filter the tags.
-Enter the name of a tag no longer displayed in the "Available" List.
-The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the "Selected List"
+   Select "Owned by Me", the list should be updated even if there is no text in filter box.
+   Select "Owned by Others", the list should be updated even if there is no text in filter box.
+   Write into filtering box name of existing tag. |C| that the existing tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
+   Filter the tags.
+
+#. Tooltip 
+   - on New
+   - on Added
+   - on Old
+   - on Tag Sets
+   - on Descriptions
+   - Check the tooltip of the tag. The tag set should be displayed in the tooltip if the tag is in a tag set. The owner of the tag should always be displayed.
+
+
+#. 
+
+
+
+
 #. Create a file of size 0 and add it as an attachment to P/D/I/S/P/PR.
 
 #. Repeat step 1., selecting each time more than 2 objects for annotation at one go [:ref:`AnnotateM001`].
