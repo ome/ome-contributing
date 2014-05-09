@@ -17,7 +17,12 @@ Annotate
 
    - Attachments (right-hand pane)
 
-   - Tags (select the object(s) and right-click as well as use "+" sign in right-hand pane)
+     - Attach local documents
+     - Attach uploaded documents. 
+      
+       - (Insight only) |C| that you can filter the ``Available`` documents [:ref:`Annotate021`]. 
+
+
 
 
 
@@ -49,17 +54,17 @@ Annotate
         - |C| that the link owner is indicated in brackets [:ref:`AnnotateM005`, :ref:`AnnotateM006`]
 
 
-**Section 2: Tagging dialog**
+**Section 2: Tagging**
 
 #. Prepare (if not prepared for you already) by creating around 10 tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
 
-#. Bring up the tagging dialog by clicking on  ``+`` button [:ref:`Annotate009`, :ref:`Annotate010`].
+#. Bring up the tagging dialog by clicking on  ``+`` button or (Insight only) by selecting ``Tag`` in the right-click menu [:ref:`Annotate009`, :ref:`Annotate010`].
 
 #. Select a tag and click add (``>``)
 
-   - |C| that the tag is added to the "Selected" area.
+   - |C| that the tag is added to the ``Selected`` area.
 
-   - |C| that when you select a Tag Set and. click add (``>``), all the tags in the Tag Set move to the "Selected" area.
+   - |C| that when you select a Tag Set and. click add (``>``), all the tags in the Tag Set move to the ``Selected`` area.
 
 
 #. (Insight only) Add/Remove All 
@@ -834,6 +839,31 @@ Annotate
    :align: center
 
    Annotate020
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate021:
+.. figure:: /images/testing_scenarios/Annotate/021.png
+   :align: center
+
+   Annotate021
 
 
 
