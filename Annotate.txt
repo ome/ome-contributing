@@ -51,13 +51,16 @@ Annotate
 
 #. Prepare (if not prepared for you already) by creating around 10 tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
 
-#. Bring up the tagging dialog by clicking on  ``+`` button.
+#. Bring up the tagging dialog by clicking on  ``+`` button [:ref:`Tagdialog-insight`, :ref:`Tagdialog-web`].
 
-#. Add normally. Select a tag and click add (>), check that the tag is added to the "Selected" area
+#. Select a tag and click add (``>``)
+
+   - |C| that the tag is added to the "Selected" area.
+
+   - |C| that when you select a Tag Set and. click add (``>``), all the tags in the Tag Set move to the "Selected" area.
+
 
 #. Add/Remove All (Insight only)
-
-   - Select a Tag Set. Click add (>). All the tags in the tag set should be added to the "Selected" area.
 
    - Go to the selected area. Select a tag (contained in a tag set) and click remove (<). The tag should be displayed under the tag set in the available area.
 
@@ -76,37 +79,52 @@ Annotate
 
    - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set and |C| that the new tag has been created as a part of this Tag Set
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up.
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up [:ref:`Tagdialog-warn-insight1`, :ref:`Tagdialog-warn-web1`] .
 
-   - Click Yes, if the existing tag is displayed on the "Available" list. The tag will be moved to the "Selected" section
+   - Click Yes. |C| that the existing tag will be moved to the "Selected" section.
 
-   - Click No - |C| that no tag was added to the "Selected" section
+   - Click No - |C| that no tag was added to the "Selected" section.
 
-   - Repeat with tags within Tag Sets and outwith Tag Sets
+   - Try to create new tags which match the names of existing tags within Tag Sets in ``Available``. - |C| that the Tag from the Tag Set was added after you clicked Yes and no Tag was added after you clicked No.
 
-   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the "Selected List"
+   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the "Selected List".
+
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Selected List".
+ 
+     - |C| that a warning dialog pops up [:ref:`Tagdialog-warn-insight2`, :ref:`Tagdialog-warn-web2`] . 
+     - |C| that after you confirmed the warning dialog, no new Tag was added to the ``Selected``.
 
 #. Filtering:
 
-   - Start typing into the filtering box above the ``Available`` window. |C| that only tags are filtered, this means tag set values should not be taken into account. |C| that the default option is ``anywhere in tag name``, i.e. any character in the tag is used.
-   - Switch to ``start of tag name``. |C| that filtering works taking in account only the start of the tag name (similar to code completion).
+   - Start typing into the filtering box above the ``Available`` window [:ref:`Tagdialog-filtering-insight`, :ref:`Tagdialog-filtering-web`]. 
+
+     - |C| that only tags are filtered, this means tag set values should not be taken into account. 
+     - |C| that the default option is ``anywhere in tag name``, i.e. any character in the tag is used [:ref:`Tagdialog-filterbyinsight`, :ref:`Tagdialog-filterbyweb`].
+
+   - Switch to ``start of tag name``. 
+
+     - |C| that filtering works taking in account only the start of the tag name (similar to code completion).
+
    - Enter some text you can find in the middle of tags e.g. ph in filtering box, with "anywhere in the tag" selected. Now switch to "start of Tag" and |C| that the list is updated.
-   - |C| that in ``Filter by owner`` menu the default is ``All``.
-   - Write into the filtering textbox. |C| that filtering works. Switch between the options in ``Filter by owner`` and ``Filter by`` menus. |C| that the tags selection shown in the ``Available`` window is changing accordingly.
+
+   - |C| that in ``Filter by owner`` menu the default is ``All`` [:ref:`Tagdialog-filterbyownerinsight`, :ref:`Tagdialog-filterbyownerweb`].
+
    - Select ``Owned by me``, the list should be updated even if there is no text in filter box.
    - Select ``Owned by others``, the list should be updated even if there is no text in filter box.
-   - Write into filtering box name of existing tag. |C| that the existing tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
+   - Write into filtering box name of existing tag. 
+
+     - |C| that the existing tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
 
 
 #. Both in the ``Available`` as well as in the ``Selected`` windows hover with the mouse over the Tags.
 
-   - |C| that you have a tooltip showing 
+   - |C| that tooltip shows 
 
      - Owner of the tag (in all cases)
      - Description (in case the Tag has a Description)
      - Tag Set (in case the Tag is in a Tag Set)
 
-   - |C| that the tooltip is coming up in ``Selected`` also in cases when the Tag is 
+   - |C| that the tooltip is displayed in ``Selected`` window also in cases when the Tag is 
 
      - newly added (i.e. addition of an existing Tag)
      - newly created and added
@@ -523,4 +541,308 @@ Annotate
    :align: center
 
    AnnotateM008
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate009:
+.. figure:: /images/testing_scenarios/Annotate/009.png
+   :align: center
+
+   Annotate009
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate010:
+.. figure:: /images/testing_scenarios/Annotate/010.png
+   :align: center
+
+   Annotate010
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate011:
+.. figure:: /images/testing_scenarios/Annotate/011.png
+   :align: center
+
+   Annotate011
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate012:
+.. figure:: /images/testing_scenarios/Annotate/012.png
+   :align: center
+
+   Annotate012
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate013:
+.. figure:: /images/testing_scenarios/Annotate/013.png
+   :align: center
+
+   Annotate013
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate014:
+.. figure:: /images/testing_scenarios/Annotate/014.png
+   :align: center
+
+   Annotate014
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate015:
+.. figure:: /images/testing_scenarios/Annotate/015.png
+   :align: center
+
+   Annotate015
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate016:
+.. figure:: /images/testing_scenarios/Annotate/016.png
+   :align: center
+
+   Annotate016
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate017:
+.. figure:: /images/testing_scenarios/Annotate/017.png
+   :align: center
+
+   Annotate017
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate018:
+.. figure:: /images/testing_scenarios/Annotate/018.png
+   :align: center
+
+   Annotate018
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate019:
+.. figure:: /images/testing_scenarios/Annotate/019.png
+   :align: center
+
+   Annotate019
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Annotate020:
+.. figure:: /images/testing_scenarios/Annotate/020.png
+   :align: center
+
+   Annotate020
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
