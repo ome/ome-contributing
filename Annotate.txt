@@ -7,6 +7,8 @@ Annotate
 
 **Purpose of the test** is to check the Annotate ability (creating as well as viewing) for P/D/I/S/Plates/Plate Acquisitions
 
+**Section 1: General Annotations**
+
 #. Annotate different type of objects i.e. Projects/Datasets/Images/Screens/Plates/Plate Acquisitions (=Plate Run)
 
    - Comments (right-hand pane [:ref:`Annotate001`])
@@ -60,36 +62,46 @@ Annotate
    - |C| that when you select a Tag Set and. click add (``>``), all the tags in the Tag Set move to the "Selected" area.
 
 
-#. Add/Remove All (Insight only)
+#. (Insight only) Add/Remove All 
 
    - Go to the selected area. Select a tag (contained in a tag set) and click remove (<). The tag should be displayed under the tag set in the available area.
 
    - Click on Add All button (``>>``). |C| that only tags are added to the selected area, not any empty tag set.
 
-   - Click into the filter box in Selected and type - |C| that no tags are appearing in ``Available`` after this.
+   - Click into the filter box above ``Selected`` window and type - |C| that no tags are appearing in ``Available`` after this.
 
    - Click on remove all Button (``<<``). check that all tags are moved back.
 
 
 #. Add new
 
-   - Create a new tag (with new name). Click add. The tag should be added to the "Selected" area.
+   - Create a new tag (with new name). Click add. 
 
-   - Create a new tag (with new name). Hit Enter. The tag should be added to the "Selected" area.
+     - |C| that the new tag is added to the ``Selected`` area.
 
-   - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set and |C| that the new tag has been created as a part of this Tag Set
+   - Create a new tag (with new name). Hit Enter. 
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up [:ref:`Annotate011`, :ref:`Annotate012`] .
+     - |C| that the tag is added to the ``Selected`` area.
 
-   - Click Yes. |C| that the existing tag will be moved to the "Selected" section.
+   - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set.
 
-   - Click No - |C| that no tag was added to the "Selected" section.
+     - |C| that the new tag has been created as a part of this Tag Set.
 
-   - Try to create new tags which match the names of existing tags within Tag Sets in ``Available``. - |C| that the Tag from the Tag Set was added after you clicked Yes and no Tag was added after you clicked No.
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the ``Available`` list. 
 
-   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the "Selected List".
+     - |C| that a warning dialog pops up [:ref:`Annotate011`, :ref:`Annotate012`].
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Selected List".
+     - Click ``Yes``. |C| that the existing tag will be moved to the ``Selected`` window.
+
+     - Click ``No``. |C| that no tag was added to the ``Selected`` section.
+
+   - Try to create new tags which match the names of existing tags within Tag Sets in ``Available``. 
+
+     - |C| that the Tag from the Tag Set was added after you clicked ``Yes`` and no Tag was added after you clicked ``No``.
+
+   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the ``Selected`` list.
+
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the ``Selected`` list.
  
      - |C| that a warning dialog pops up [:ref:`Annotate013`, :ref:`Annotate014`] . 
      - |C| that after you confirmed the warning dialog, no new Tag was added to the ``Selected``.
