@@ -51,7 +51,7 @@ Annotate
 
 #. Prepare (if not prepared for you already) by creating around 10 tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
 
-#. Bring up the tagging dialog by clicking on  ``+`` button [:ref:`Tagdialog-insight`, :ref:`Tagdialog-web`].
+#. Bring up the tagging dialog by clicking on  ``+`` button [:ref:`Annotate009`, :ref:`Annotate010`].
 
 #. Select a tag and click add (``>``)
 
@@ -79,7 +79,7 @@ Annotate
 
    - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set and |C| that the new tag has been created as a part of this Tag Set
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up [:ref:`Tagdialog-warn-insight1`, :ref:`Tagdialog-warn-web1`] .
+   - Create a new tag, using an existing tag name, or an existing tag name and description from the "Available List". A warning dialog should pop up [:ref:`Annotate011`, :ref:`Annotate012`] .
 
    - Click Yes. |C| that the existing tag will be moved to the "Selected" section.
 
@@ -91,15 +91,15 @@ Annotate
 
    - Create a new tag, using an existing tag name, or an existing tag name and description from the "Selected List".
  
-     - |C| that a warning dialog pops up [:ref:`Tagdialog-warn-insight2`, :ref:`Tagdialog-warn-web2`] . 
+     - |C| that a warning dialog pops up [:ref:`Annotate013`, :ref:`Annotate014`] . 
      - |C| that after you confirmed the warning dialog, no new Tag was added to the ``Selected``.
 
 #. Filtering:
 
-   - Start typing into the filtering box above the ``Available`` window [:ref:`Tagdialog-filtering-insight`, :ref:`Tagdialog-filtering-web`]. 
+   - Start typing into the filtering box above the ``Available`` window [:ref:`Annotate015`, :ref:`Annotate016`]. 
 
      - |C| that only tags are filtered, this means tag set values should not be taken into account. 
-     - |C| that the default option is ``anywhere in tag name``, i.e. any character in the tag is used [:ref:`Tagdialog-filterbyinsight`, :ref:`Tagdialog-filterbyweb`].
+     - |C| that the default option is ``anywhere in tag name``, i.e. any character in the tag is used [:ref:`Annotate017`, :ref:`Annotate018`].
 
    - Switch to ``start of tag name``. 
 
@@ -107,7 +107,7 @@ Annotate
 
    - Enter some text you can find in the middle of tags e.g. ph in filtering box, with "anywhere in the tag" selected. Now switch to "start of Tag" and |C| that the list is updated.
 
-   - |C| that in ``Filter by owner`` menu the default is ``All`` [:ref:`Tagdialog-filterbyownerinsight`, :ref:`Tagdialog-filterbyownerweb`].
+   - |C| that in ``Filter by owner`` menu the default is ``All`` [:ref:`Annotate019`, :ref:`Annotate020`].
 
    - Select ``Owned by me``, the list should be updated even if there is no text in filter box.
    - Select ``Owned by others``, the list should be updated even if there is no text in filter box.
@@ -776,6 +776,7 @@ Annotate
    :align: center
 
    Annotate018
+
 |
 |
 |
