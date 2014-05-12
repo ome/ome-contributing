@@ -33,11 +33,11 @@ Annotate
    - |C| that each of the selected object has been annotated, and you still see the annotation when selecting them one-by-one
    - |C| that when you select the annotated objects together with non-annotated objects, the annotation is still visible in right-hand pane [:ref:`AnnotateM002`]
    
-#. Select more than 2 objects and attach an existing tag. 
+#. Select more than 2 objects and attach an existing Tag. 
 
-#. Select again more than 2 objects, this time choose objects tagged in step 3. as well as untagged objects and try to add the tag from step 3
+#. Select again more than 2 objects, this time choose objects Tagged in step 3. as well as unTagged objects and try to add the Tag from step 3
    
-   - |C| that the tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateM007`,  :ref:`AnnotateM008`]
+   - |C| that the Tag is still available for further Tagging as long as unTagged objects are within your selection [:ref:`AnnotateM007`,  :ref:`AnnotateM008`]
 
 #. Mouse over the annotation name (right-hand pane)
 
@@ -56,99 +56,99 @@ Annotate
 
 **Section 2: Tagging**
 
-#. Prepare (if not prepared for you already) by creating around 10 tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
+#. Prepare (if not prepared for you already) by creating around 10 Tags belonging to you as well as to other users and at least 2 Tag Sets with Tags in them. 
 
-#. Bring up the tagging dialog by clicking on  ``+`` button or (Insight only) by selecting ``Tag`` in the right-click menu [:ref:`Annotate009`, :ref:`Annotate010`].
+#. Bring up the Tagging dialog by clicking on  ``+`` button or (Insight only) by selecting ``Tag`` in the right-click menu [:ref:`Annotate009`, :ref:`Annotate010`].
 
-#. Select a tag and click add (``>``)
+#. Select a Tag and click add (``>``)
 
-   - |C| that the tag is added to the ``Selected`` area.
+   - |C| that the Tag is added to the ``Selected`` area.
 
-   - |C| that when you select a Tag Set and. click add (``>``), all the tags in the Tag Set move to the ``Selected`` area.
+   - |C| that when you select a Tag Set and click add (``>``), all the Tags in the Tag Set move to the ``Selected`` area.
 
 
 #. (Insight only) Add/Remove All 
 
-   - Go to the selected area. Select a tag (contained in a tag set) and click remove (<). The tag should be displayed under the tag set in the available area.
+   - Go to the selected area. Select a Tag (contained in a Tag Set) and click remove (<). The Tag should be displayed under the Tag Set in the available area.
 
-   - Click on Add All button (``>>``). |C| that only tags are added to the selected area, not any empty tag set.
+   - Click on Add All button (``>>``). |C| that only Tags are added to the selected area, not any empty Tag Set.
 
-   - Click into the filter box above ``Selected`` window and type - |C| that no tags are appearing in ``Available`` after this.
+   - Click into the filter box above ``Selected`` list and type - |C| that no Tags are appearing in ``Available`` after this.
 
-   - Click on remove all Button (``<<``). check that all tags are moved back.
+   - Click on remove all Button (``<<``). |C| that all Tags are moved back.
 
 
 #. Add new
 
-   - Create a new tag (with new name). Click add. 
+   - Create a new Tag (with new name). Click add. 
 
-     - |C| that the new tag is added to the ``Selected`` area.
+     - |C| that the new Tag is added to the ``Selected`` list.
 
-   - Create a new tag (with new name). Hit Enter. 
+   - Create a new Tag (with new name). Hit Enter. 
 
-     - |C| that the tag is added to the ``Selected`` area.
+     - |C| that the Tag is added to the ``Selected`` list.
 
-   - Create a new tag whilst highlighting a Tag Set or a Tag in a Tag Set.
+   - Create a new Tag whilst highlighting a Tag Set or a Tag in a Tag Set.
 
-     - |C| that the new tag has been created as a part of this Tag Set.
+     - |C| that the new Tag has been created as a part of this Tag Set.
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the ``Available`` list. 
+   - Create a new Tag, using an existing Tag name, or an existing Tag name and description from the ``Available`` list. 
 
      - |C| that a warning dialog pops up [:ref:`Annotate011`, :ref:`Annotate012`].
 
-     - Click ``Yes``. |C| that the existing tag will be moved to the ``Selected`` window.
+     - Click ``Yes``. |C| that the existing Tag will be moved to the ``Selected`` list.
 
-     - Click ``No``. |C| that no tag was added to the ``Selected`` section.
+     - Click ``No``. |C| that no Tag was added to the ``Selected`` list.
 
-   - Try to create new tags which match the names of existing tags within Tag Sets in ``Available``. 
+   - Try to create new Tags which match the names of existing Tags within Tag Sets in ``Available`` list. 
 
      - |C| that the Tag from the Tag Set was added after you clicked ``Yes`` and no Tag was added after you clicked ``No``.
 
-   - Filter and into the new tag box enter the name of a tag no longer displayed in the "Available" List (i.e. which was filtered out, but not ``Selected``). The dialog indicating that the tag exists should pop up. Click "Yes". The tag should be added to the ``Selected`` list.
+   - Hide some Tags in the ``Available`` list by filtering these Tags out (i.e. type into the Filtering box above ``Available`` list a character NOT contained within the name of some Tags.) Now, go to the new Tag box under the ``Available`` list enter the name of a Tag no longer displayed in the ``Available`` list (i.e. one of those which you just filtered out). Hit ``Enter`` or ``Add`` Button. The dialog indicating that the Tag exists should pop up. Click ``Yes``. The Tag should be added to the ``Selected`` list.
 
-   - Create a new tag, using an existing tag name, or an existing tag name and description from the ``Selected`` list.
+   - Create a new Tag, using an existing Tag name, or an existing Tag name and description from the ``Selected`` list.
  
      - |C| that a warning dialog pops up [:ref:`Annotate013`, :ref:`Annotate014`] . 
-     - |C| that after you confirmed the warning dialog, no new Tag was added to the ``Selected``.
+     - |C| that after you confirmed the warning dialog, no new Tag was added to the ``Selected`` list.
 
 #. Filtering:
 
-   - Start typing into the filtering box above the ``Available`` window [:ref:`Annotate015`, :ref:`Annotate016`]. 
+   - Start typing into the filtering box above the ``Available`` list [:ref:`Annotate015`, :ref:`Annotate016`]. 
 
-     - |C| that only tags are filtered, this means tag set values should not be taken into account. 
-     - |C| that the default option is ``anywhere in tag name``, i.e. any character in the tag is used [:ref:`Annotate017`, :ref:`Annotate018`].
+     - |C| that only Tags are filtered, this means Tag Set values should not be taken into account. 
+     - |C| that the default option is ``anywhere in Tag name`` i.e. any character in the Tag is used [:ref:`Annotate017`, :ref:`Annotate018`].
 
-   - Switch to ``start of tag name``. 
+   - Switch to ``start of Tag name``. 
 
-     - |C| that filtering works taking in account only the start of the tag name (similar to code completion).
+     - |C| that filtering works taking in account only the start of the Tag name (similar to code completion).
 
-   - Enter some text you can find in the middle of tags e.g. ph in filtering box, with "anywhere in the tag" selected. Now switch to "start of Tag" and |C| that the list is updated.
+   - Enter some text you can find in the middle of Tags e.g. ph in filtering box, with ``anywhere in Tag name`` selected. Now switch to ``start of Tag name`` and |C| that the list is updated.
 
    - |C| that in ``Filter by owner`` menu the default is ``All`` [:ref:`Annotate019`, :ref:`Annotate020`].
 
    - Select ``Owned by me``, the list should be updated even if there is no text in filter box.
    - Select ``Owned by others``, the list should be updated even if there is no text in filter box.
-   - Write into filtering box name of existing tag. 
+   - Write into filtering box name of existing Tag. 
 
-     - |C| that the existing tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
+     - |C| that the existing Tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
 
 
-#. Both in the ``Available`` as well as in the ``Selected`` windows hover with the mouse over the Tags.
+#. Both in the ``Available`` as well as in the ``Selected`` area hover with the mouse over the Tags.
 
    - |C| that tooltip shows 
 
-     - Owner of the tag (in all cases)
+     - Owner of the Tag (in all cases)
      - Description (in case the Tag has a Description)
      - Tag Set (in case the Tag is in a Tag Set)
 
-   - |C| that the tooltip is displayed in ``Selected`` window also in cases when the Tag is 
+   - |C| that the tooltip is displayed in ``Selected`` list also in cases when the Tag is 
 
      - newly added (i.e. addition of an existing Tag)
      - newly created and added
 
 
 
-#. Click the ``Reset`` button and |C| that everything was reset into the state which it was in when you started the tagging dialog. 
+#. Click the ``Reset`` button and |C| that everything was reset into the state which it was in when you started the Tagging dialog. 
 
 
 
