@@ -77,6 +77,12 @@ Annotate
 
    - Click on Remove All Button (``<<``). |C| that all Tags are moved back.
 
+#. Make sure there are some Tags owned by other users in Raad-only and Private groups. If there are no such Tags there, logout and login as another user in Read-only group (and/or Private group as necessary) and create two or more Tags. 
+
+   - Login as any member of Read-only group (a member not owning the Tags you have just checked/prepared) and |C| that the ``Available`` list does NOT show the Tags of other users (only YOUR tags should be displayed).
+
+   - Login as an owner of Private group (e.g. user-1) and |C| that the ``Available`` list  does NOT show the Tags of other users (only YOUR tags should be displayed).
+
 
 #. Add new
 
@@ -130,7 +136,7 @@ Annotate
    - Select ``Owned by others``, the list should be updated even if there is no text in filter box.
    - Write into filtering box name of existing Tag. 
 
-     - |C| that the existing Tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``list.
+     - |C| that the existing Tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected`` list.
 
 
 #. Both in the ``Available`` as well as in the ``Selected`` lists hover with the mouse over the Tags.
