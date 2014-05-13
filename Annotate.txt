@@ -35,9 +35,9 @@ Annotate
    
 #. Select more than 2 objects and attach an existing Tag. 
 
-#. Select again more than 2 objects, this time choose objects Tagged in step 3. as well as unTagged objects and try to add the Tag from step 3
+#. Select again more than 2 objects, this time choose objects tagged in step 3. as well as untagged objects and try to add the Tag from step 3
    
-   - |C| that the Tag is still available for further Tagging as long as unTagged objects are within your selection [:ref:`AnnotateM007`,  :ref:`AnnotateM008`]
+   - |C| that the Tag is still available for further tagging as long as untagged objects are within your selection [:ref:`AnnotateM007`,  :ref:`AnnotateM008`]
 
 #. Mouse over the annotation name (right-hand pane)
 
