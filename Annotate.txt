@@ -62,20 +62,20 @@ Annotate
 
 #. Select a Tag and click add (``>``)
 
-   - |C| that the Tag is added to the ``Selected`` area.
+   - |C| that the Tag is added to the ``Selected`` list.
 
-   - |C| that when you select a Tag Set and click add (``>``), all the Tags in the Tag Set move to the ``Selected`` area.
+   - |C| that when you select a Tag Set and click add (``>``), all the Tags in the Tag Set move to the ``Selected`` list.
 
 
 #. (Insight only) Add/Remove All 
 
-   - Go to the selected area. Select a Tag (contained in a Tag Set) and click remove (<). The Tag should be displayed under the Tag Set in the available area.
+   - Go to the ``Selected`` list. Select a Tag (contained in a Tag Set) and click remove (<). The Tag should be displayed under the Tag Set in the ``Available`` list.
 
-   - Click on Add All button (``>>``). |C| that only Tags are added to the selected area, not any empty Tag Set.
+   - Click on Add All button (``>>``). |C| that only Tags are added to the ``Selected`` list, not any empty Tag Set.
 
-   - Click into the filter box above ``Selected`` list and type - |C| that no Tags are appearing in ``Available`` after this.
+   - Click into the filter box above ``Selected`` list and type - |C| that no Tags are appearing in ``Available`` list after this.
 
-   - Click on remove all Button (``<<``). |C| that all Tags are moved back.
+   - Click on Remove All Button (``<<``). |C| that all Tags are moved back.
 
 
 #. Add new
@@ -130,10 +130,10 @@ Annotate
    - Select ``Owned by others``, the list should be updated even if there is no text in filter box.
    - Write into filtering box name of existing Tag. 
 
-     - |C| that the existing Tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``.
+     - |C| that the existing Tag gets selected as you write. Hit Enter and |C| that it gets added to ``Selected``list.
 
 
-#. Both in the ``Available`` as well as in the ``Selected`` area hover with the mouse over the Tags.
+#. Both in the ``Available`` as well as in the ``Selected`` lists hover with the mouse over the Tags.
 
    - |C| that tooltip shows 
 
