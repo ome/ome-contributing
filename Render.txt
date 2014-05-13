@@ -74,12 +74,22 @@ Render
 
    - |C| that thumbnails in the central pane are updated.
 
-#. Set owner's settings [:ref:`Render004`]. (Insight only)
+#. Set owner's settings [:ref:`Render004`, :ref:`RenderWeb005`]. (Insight AND Web)
 
    - |C| that thumbnails in the central pane are updated.
 
-#. If applicable:
+#. Other user's data:
 
+   - Import at least 2 images as a user (e.g. user-4) in Read-only group
+   - Go to the imported images and modify the Rendering settings in such a way that you can recognize these settings easily later.
+   - Logout and login as an Owner of Read-only group (e.g. user-3) 
+   - View the images you just imported as another user (e.g. user-3 viewing user-4's images)
+     - |C| that, still as a default you can see the Rendering settings you just saved as the owner of the image (for example user-4), both in Insight and in Web.
+     - |C| that these
+     - |C| that in Insight, when you change Rendering settings and press ``Apply`` in Preview pane, your own settings appear in the list under ``Saved by``.
+     -   
+     
+     
    - Open an image belonging to another user.
    - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window (Insight). In Web, click ``Edit`` in Full Viewer to modify settings. Save your own setting using the "Apply" icon (Preview in Insight - NOT for Big images) or Save icon (icon in Viewer - Insight) or Save button (Web)[:ref:`Render007`].
    - |C| that thumbnails in the central pane are updated.
@@ -355,6 +365,51 @@ Render
 
 
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _RenderWeb005:
+	.. figure:: /images/testing_scenarios/Render/Web005.png
+	   :align: center
+
+	   RenderWeb005
+
+
 	|
 	|
 	|
