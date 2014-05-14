@@ -35,7 +35,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 
 #. Repeat steps 1 to 3 using icons (top of the Project harmonica pane in Insight)
 
-   - |C| the consistency of the main menu, icons and righi-click menu
+   - |C| the consistency of the main menu, icons and right-click menu
    - |C| the consistency between Insight and Web
 
 #. Repeat steps 1 to 3 using Drag & Drop (i.e. Move within group)
