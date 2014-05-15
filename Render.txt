@@ -95,7 +95,7 @@ Render
 
 #. Other user's data ``Owner's settings``:
 
-   - Import at least 2 images as a user (e.g. user-4) in Read-Only group
+   - Import at least 2 multi-t and multi-z images as a user (e.g. user-4) in Read-Only group
    - Go to the imported images and modify the Rendering settings in such a way that you can recognize these settings easily later.
    - Log out and Log in as an Owner of Read-Only group (e.g. user-3) 
    - View the images you just imported as another user (e.g. user-3 viewing user-4's images)
@@ -105,7 +105,17 @@ Render
      - Change Rendering settings in Insight and click ``Apply to All`` in Preview pane, forllowed by clicking ``Reset`` in Preview pane and again ``Apply to All`` 
        - |C| that the thumbnail, Preview and the Full Viewer still match 
 
-#. Repeat the steps in point 14, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+#. Repeat the step 14, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+
+#. Import images as a user (e.g. user-4) in Read-Only group and modify Rendering settings in easily recognizable manner. Log out, Log in to Web as an Administrator (e.g. user-6 on gretzky), which is NOT an Owner of Read-Only group and view the images you just imported. 
+
+     - |C| that you can see the Rendering settings you just saved as the owner of the image as a default
+     - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
+ 
+    
+
+
+
 
 
 	.. _Render001:
