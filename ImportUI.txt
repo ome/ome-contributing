@@ -35,10 +35,16 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. Repeat (1) this time not selecting "New From Folder" but creating a new Project and Dataset at the import stage [:ref:`ImportUI004c`, :ref:`ImportUI004d`].
 
+
 #. Import more than 2000 files (for example a whole folder containing 2001 files).
 
    - |C| that the import does not proceed.
    - |C| that you get a dialog [:ref:`ImportUI004e`]
+
+#. Start several parallel image imports, then randomly switch between the import tabs.
+
+   - |C| imports proceed smoothly to the end.
+
 
 #. De-duplication of import: Make sure you can import in 2 different groups. 
    Select any file, put it to the queue. 
