@@ -46,6 +46,15 @@ Import and Multigroups
 
      - |C| that the data are imported successfully and import finishes without error.
 
+#. Double import
+
+
+   - Import a plate (for example ``from_skyking/mias/frans/siRNA...``, but it could be any other plate type, too)
+   - While the previous import is still running, import another plate (for the same user, to the same group).
+   - Test this double import several times, as the relevant bug here occured randomly.
+
+     - |C| that each plate in each import has been imported exactly once and each import ends successfully, with no unexpected plate duplications.
+
 
 
 .. _ImportMultiGr000a:
