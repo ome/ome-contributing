@@ -37,6 +37,14 @@ Import and Multigroups
    - |C| that the image is in the correct locations.
 
 
+#. Remove group from display during import
+
+   - Add few groups to the display.
+   - Open the importer.
+   - Import data in one of the groups displayed.
+   - During the on-going import, remove the group you are importing to from the display.
+
+     - |C| that the data are imported successfully and import finishes without error.
 
 
 
