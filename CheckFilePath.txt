@@ -7,7 +7,7 @@ Check Filepath (FS)
 
 **Purpose of the test** is to check the filepath to the image which is shown in clients in FS
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab "General". Click onto the filepath icon [:ref:`CheckFilePath002w`] (images 002in, 002w). A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePath003w`](images 003in, 003w)
+#. Click on an image imported in FS. Go to the right-hand pane, tab ``General``. Click onto the filepath icon [:ref:`CheckFilePath002w`]. A table with the paths of the files associated with the chosen image will appear under the icon. [:ref:`CheckFilePath003w`]
 
 #. Go to the server and find the file according to the given filepath.
 
@@ -15,7 +15,15 @@ Check Filepath (FS)
    - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:download:`Path example </downloads/check_path.txt>`].
    - |C| that the path in the clients and the filepath on the server match 
 
-#. Repeat steps 1 and 2 with multi-image file, like `test_images_good/lei/050118.lei`.(images 004in, 004w)
+
+#. (Insight only) Select an in-place imported file and click on ``Show File paths...``. 
+
+   - |C| that the path to the original file is shown and not the path inside the data repository [:ref:`CheckFilePath004`]. 
+   - |C| that the file has an icon to the right of its ``Image ID`` number in the right-hand pane [:ref:`CheckFilePath005`].
+   - Move the mouse over this in-place import icon and |C| that the tooltip stays open long enough for a comfortable read [:ref:`CheckFilePath006`]. 
+   - |C| that clicking on ``Show file paths`` inside this tooltip will show the same as clicking on ``Show file paths...`` in the toolbar [:ref:`CheckFilePath004`].
+
+#. Repeat steps 1, 2 and 3 with multi-image file, like `test_images_good/lei/050118.lei`.
 
 
 
@@ -140,4 +148,117 @@ Check Filepath (FS)
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _CheckFilePath004:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/004.png
+	   :align: center
+
+	   CheckFilePath004
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _CheckFilePath005:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/005.png
+	   :align: center
+
+	   CheckFilePath005
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _CheckFilePath006:
+	.. figure:: /images/testing_scenarios/CheckFilePathFS/006.png
+	   :align: center
+
+	   CheckFilePath006
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
 
