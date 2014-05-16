@@ -99,7 +99,10 @@ Mixed FS & non-FS Download/Export images (this is to be performed on FS server w
 
 **To test in**: Web, Insight
 
-         - Choosing images imported using non-FS and skipping importing, go through the "18.2 non-FS-Download/Export images:" step. The images have to have been Archived during non-FS import, look for example for Datasets like ``archivedv``.
+         - Choosing images imported using non-FS and skipping importing, go through
+           the "18.2 non-FS-Download/Export images:" step. The images have to have
+           been Archived during non-FS import, look for example for Datasets like
+           ``archivedv``.
          - Go through the "18.3 FS-Download/Export images" step.
 
 
@@ -139,7 +142,7 @@ When performing the following steps, export both into your home directory as wel
 Command line download
 ============================================================
 
-#. Go to the command line, cd to your downloaded server and connect to the testing server (e.g. gretzky). and try to download files using following commands.
+#. Go to the command line, ``cd`` to your downloaded server and connect to the testing server (e.g. gretzky). and try to download files using following commands.
 
     - ``bin/omero download file_id target``
     - ``bin/omero download OriginalFile:file_id target``
