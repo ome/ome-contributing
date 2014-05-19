@@ -45,18 +45,14 @@ Import CLI
 
 #. Import a nested folder containing Screen/Plate/Well files
 
-#. Execute following commands replacing the ``<image_name>`` or ``<plate_name>`` with a valid image or plate name. 
+#. Execute each of these commands twice, once with an image and once with a plate, replacing the ``<image_or_plate>`` with the file name of a valid image or plate. 
 
-   - ``bin/omero import <image_name> -n cli_short``
-   - ``bin/omero import <image_name> --name cli_long``
-   - ``bin/omero import <plate_name> --plate_name cli_plate``
-   - ``bin/omero import <image_name> -x cli_short``
-   - ``bin/omero import <image_name> --description cli_long``
-   - ``bin/omero import <plate_name> --plate_description cli_plate``
+  - ``bin/omero import <image_or_plate> -n cli_short_name -x "cli short description"``
+  - ``bin/omero import <image_or_plate> --name cli_long_name --description "cli long description"``
 
   - |C| that all images & plates were imported.
-  - |C| that the names of the imported images/plates are as expected in first 3 cases
-  - |C| that the descriptions of the imported images/plates are as expected in the last 3 cases
+  - |C| that the names of the imported images/plates are as expected in each case
+  - |C| that the descriptions of the imported images/plates are as expected in each case
 
 #. **Note that the In-place import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
 
