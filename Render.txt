@@ -111,7 +111,7 @@ Render
 
      - |C| that you can see the Rendering settings you just saved as the owner of the image as a default
      - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
- 
+     - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings (under ``Preview > Saved by``) as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web, see example in [:ref:`Render008`]).
     
 
 
@@ -452,48 +452,76 @@ Render
 	|
 
 
-	.. _Render006:
-	.. figure:: /images/testing_scenarios/Render/006.png
-	   :align: center
-
-	   Render006: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
 	.. _Render007:
 	.. figure:: /images/testing_scenarios/Render/007.png
 	   :align: center
 
-	   Render007:
+	   Render007: 
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _Render008:
+	.. figure:: /images/testing_scenarios/Render/008.png
+	   :align: center
+
+	   Saved by menu Insight:
 	
 	
 	|
