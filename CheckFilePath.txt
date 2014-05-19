@@ -5,9 +5,9 @@ Check Filepath (FS)
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the filepath to the image which is shown in clients in FS
+**Purpose of the test** is to check the filepath to the image which is shown in clients in OMERO 5
 
-#. Click on an image imported in FS. Go to the right-hand pane, tab ``General``, (see [:ref:`CheckFilePath002ina`, :ref:`CheckFilePath002wa`]). Click onto the filepath icon, see ([:ref:`filepath icon`][:ref:`filepath icon web`]). 
+#. Click on an image imported in OMERO 5. Go to the right-hand pane, tab ``General``, (see [:ref:`CheckFilePath002ina`, :ref:`CheckFilePath002wa`]). Click onto the filepath icon, see ([:ref:`filepath icon`][:ref:`filepath icon web`]). 
 
 
    - |C| that in Insight, a new window pops up with the paths of the files associated with the chosen image will appear under the icon [:ref:`CheckFilePath004`].
@@ -32,10 +32,10 @@ Check Filepath (FS)
 
 
 
-#. For the mixed FS & non-FS database:
+#. For the mixed OMERO 5-imported & OMERO 4-imported database:
 
-   - Import an image in FS and do steps 1, 2 and 3.
-   - Click on a non-FS image.
+   - Import an image in OMERO 5 and do steps 1, 2 and 3.
+   - Click on an image imported in OMERO 4.
    - |C| that you cannot see the icon described in step 1
 
 
