@@ -43,7 +43,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. Start several parallel image imports, then randomly switch between the import tabs.
 
-   - |C| imports proceed smoothly to the end.
+   - |C| that imports proceed smoothly to the end.
 
 
 #. De-duplication of import: Make sure you can import in 2 different groups. 
@@ -71,7 +71,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      - |C| that the first harmonica tab is ``Companion files`` (NOT ``Original Metadata``)
      - Expand the ``Companion file`` harmonica tab and check the file is there
 
-#. (FS only) Upload.
+#. (OMERO 5 only) Upload.
 
    - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``data_repo/test_images_good/leica-lif/free edge 6.lif`` or other ``.lif`` files
    - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
@@ -81,7 +81,7 @@ NB: **Data Manager** == **The main window of Insight UI**
    
    - Cancel a single running import using the ``Cancel`` button.
    - |C| that only this particular import has been cancelled
-   - (FS only) Cancel all imports using the ``Cancel All`` button
+   - (OMERO 5 only) Cancel all imports using the ``Cancel All`` button
    - |C| that all the imports where the upload did not start yet are cancelled
    - |C| that after everything is imported or cancelled the spinners stop both 
      in Importer and Data Manager.
@@ -127,8 +127,8 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. After each import, when the import is done, check in the Importer Window:
 
-   - |C| that thumbnail(s) is(are) created - should always be the case in FS. (non-FS only) Note that for this the box in the Importer prior to Import must have been ticked [:ref:`ImportUI012`].
-   - (non-FS only) |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
+   - |C| that thumbnail(s) is(are) created - should always be the case in OMERO 5. (OMERO 4 only) Note that for this the box in the Importer prior to Import must have been ticked [:ref:`ImportUI012`].
+   - (OMERO 4 only) |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
    - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`ImportUI013c`].
 
@@ -139,11 +139,11 @@ NB: **Data Manager** == **The main window of Insight UI**
        - |C| that the Log file is not truncated, i.e. it ends with line like ``2014-05-05 08:55:07,349 INFO o.s.blitz.repo.ManagedImportRequestI Finalizing log file.``
 
      - Import the folder ``data_repo/test_images_broken/broken_images_scenario/`` into a non-default group (you have to switch the group actively) and after it failed, go Failed > View Exception. |C| that the exception window appears.
-     - (FS only) |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`] 
+     - (OMERO 5 only) |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`] 
 
 
 
-#. (FS only) Error reporting in all import stages.
+#. (OMERO 5 only) Error reporting in all import stages.
 
    - Failure at scanning stage: Import ``test_images_bad/Mike.dv`` and 
 
