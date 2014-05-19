@@ -99,8 +99,11 @@ Mixed FS & non-FS Download/Export images (this is to be performed on FS server w
 
 **To test in**: Web, Insight
 
-         - Choosing images imported using non-FS and skipping importing, go through the "18.2 non-FS-Download/Export images:" step
-         - Go through the "18.3 FS-Download/Export images" step
+         - Choosing images imported using non-FS and skipping importing, go through
+           the "18.2 non-FS-Download/Export images:" step. The images have to have
+           been Archived during non-FS import, look for example for Datasets like
+           ``archivedv``.
+         - Go through the "18.3 FS-Download/Export images" step.
 
 
 
@@ -133,6 +136,29 @@ When performing the following steps, export both into your home directory as wel
          - |C| the XML section, the schema version should match the selected schema.[:ref:`DownloadED021`] - Check from command line using tiffinfo
     - Re-Import the exported files
     - (OME-TIFF only) |C| that the re-import does not take longer than the import of the original file from which the ome-tiff was generated.
+
+
+
+Command line download
+============================================================
+
+#. Go to the command line, ``cd`` to your downloaded server and connect to the testing server (e.g. gretzky). and try to download files using following commands.
+
+    - ``bin/omero download file_id target``
+    - ``bin/omero download OriginalFile:file_id target``
+    - ``bin/omero download FileAnnotation:fa_id target``
+    - ``bin/omero download Image:image_id target``
+
+  - Using these commands, download
+
+    - Multi-image filesets (MIFs), for example ``lei``
+    - Archived pre-FS images (look for example for Datasets like ``archivedv``).
+    - FS images
+    - Original files/Companion files (of for example ``.dv`` files)
+    - File annotations 
+    - |C| that the files are downloaded in the ``target`` file after each command.
+
+
 
 	.. _DownloadED001:
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
