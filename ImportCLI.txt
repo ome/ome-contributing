@@ -14,6 +14,8 @@ Import CLI
 
 **Note that you do not have to do CLI import on the OMERO server system you are importing into (no need to ssh into the server), as long as you do not do In-place import (steps 10 - 13 below).**
 
+**Section 1: CLI Import**
+
 #. Open Insight (UI), create a Dataset, note the Dataset ID
 
 #. Go to Terminal. cd into the directory where your server runs. From there:
@@ -53,6 +55,31 @@ Import CLI
   - |C| that all images & plates were imported.
   - |C| that the names of the imported images/plates are as expected in each case
   - |C| that the descriptions of the imported images/plates are as expected in each case
+
+**Section 2: Import As**
+
+#. Import As. Log in ``As`` admin but for another user, executing the command, replacing ``<admin>`` with a valid Administrator name and ``<user>`` with a valid username (this will be the user for which the Administrator will be importing for).
+
+   - ``bin/omero login --sudo=<admin> <user>@localhost``
+
+   - |C| that you are really logged in as ``<user>`` by executing
+
+     - ``bin/omero sessions file``
+     - |C| that the output is
+
+       - ``...``
+       - ``omero.user=<user>``
+       - ``omero.host=localhost``
+       - ``omero.sudo=<admin>``
+
+#. Execute following line to import images as the ``<user>`` several times, varying the ``<group>`` in such a manner, that you will impott into all 4 types of groups (Private, Read-Only, Read-Annotate, Read-Write). Note that the ``<user>`` has to be a member of all the groups into which the import is attempted and you have to be using the session you just created in previous step (if the session expires, repeat the step 1 in Seciton 2).
+
+  - ``bin/omero import -g <group> <path/to/images>``
+  - |C| that the images were imported successfully, except the Private group, where the import should not be allowed.
+  - |C| that the images are displayed as owned by ``<user>`` in both Insight and Web. 
+
+
+**Section 3: In-place import**
 
 #. **Note that the In-place import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
 
