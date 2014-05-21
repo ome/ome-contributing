@@ -10,9 +10,6 @@ Admin: Group/User Create
 #. Create new group 
 
    - using the icon above the tree (Insight only) [:ref:`AdminGrUsCr002`] 
-     - |C| that you can see the list of users in the lower part of the dialog [:ref:`AdminGrUsCr002b`] 
-     - |C| that you can filter the users in [:ref:`AdminGrUsCr002b`]
-
    - using the button "Add new..." (Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
    - Create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
@@ -24,6 +21,8 @@ Admin: Group/User Create
 
 #. Create new user [:ref:`AdminGrUsCr005`][:ref:`AdminGrUsCr006`][:ref:`AdminGrUsCr007`]
 
+   - |C| that you can see the list of groups in the lower part of the [:ref:`AdminGrUsCr002b`]. 
+   - |C| that you can filter the groups in [:ref:`AdminGrUsCr002b`].
    - Tick/do not tick the Administrator box in the creation window
    - |C| that when you use an existing login name for a new user, the action    
      does not proceed and a popup appears [:ref:`AdminGrUsCr010`]. The login  
@@ -119,7 +118,7 @@ Admin: Group/User Create
 	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002b.png
 	   :align: center
 
-	   New Group dialog:
+	   New User dialog:
 
 
 	|
