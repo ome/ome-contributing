@@ -36,7 +36,7 @@ Admin: Group/User Create
    - Add the new user to one or more existing groups (see screenshot for Web) 
      [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
 
-         - right-click on group and ``Edit group membershop...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
+         - right-click on group and ``Edit group membership...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
 
            - |C| that you can see and filter the users in the dialog [:ref:`AdminGrUsCr011b`].
            
