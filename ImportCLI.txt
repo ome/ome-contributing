@@ -64,7 +64,7 @@ Import CLI
 
    - |C| that you are really logged in as ``<user>`` by executing
 
-     - ``bin/omero sessions file``
+     - ``cat `bin/omero sessions file```
      - |C| that the output is
 
        - ``...``
