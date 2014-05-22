@@ -44,7 +44,10 @@ Import and Multigroups
    - Import data in one of the groups displayed.
    - During the on-going import, remove the group you are importing to from the display.
 
-     - |C| that the data are imported successfully and import finishes without error (other than black thumbs in the Importer, which is a known limitation, see [:ref:`ImportMultiGr003`] ).
+     - |C| that the data are imported successfully and import finishes 
+       without error. The only known limitation here is that 
+       ocassionally (but not necessarily) there are black thumbs in 
+       the Importer after this workflow, see [:ref:`ImportMultiGr003`].
 
 #. Double import
 
