@@ -72,10 +72,10 @@ Import CLI
        - ``omero.host=localhost``
        - ``omero.sudo=<admin>``
 
-#. Execute following line to import images as the ``<user>`` several times, varying the ``<group>`` in such a manner, that you will impott into all 4 types of groups (Private, Read-Only, Read-Annotate, Read-Write). Note that the ``<user>`` has to be a member of all the groups into which the import is attempted and you have to be using the session you just created in previous step (if the session expires, repeat the step 1 in Seciton 2).
+#. Execute following lines to import images as the ``<user>`` several times, varying the ``<group_name>`` in such a manner, that you will impott into all 4 types of groups (Private, Read-Only, Read-Annotate, Read-Write). Note that the ``<user>`` has to be a member of all the groups into which the import is attempted and you have to be using the session you just created in previous step (if the session expires, repeat the step 1 in Seciton 2).
 
-  - ``bin/omero import -g <group> <path/to/images>``
-  - |C| that the images were imported successfully, except the Private group, where the import should not be allowed.
+  - ``bin/omero sessions group <group_name>`` - the output of which should be like in [:download:`example for private-1 to read-only-1 switch </downloads/ImportCLI_001.txt>`]
+  - ``bin/omero import <path/to/images>``
   - |C| that the images are displayed as owned by ``<user>`` in both Insight and Web. 
 
 
