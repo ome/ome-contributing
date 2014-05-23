@@ -12,6 +12,10 @@ Admin: Group/User Edit
 #. Change name/description/permissions and Save
 
     - |C| the parameters have been changed correctly 
+    - |C| that when you have a Read-Annotate or Read-Write group, you can change the permissions to Read-Only or Private group if there are no annotations of objects by other users
+    - Have a Read-Annotate and Read-Write group. Make sure one user in these groups annotates objects of another user (none of the users is Admin or Group Owner). 
+
+      - |C| that when you try to downgrade the permissions to Read-Only or Private, the action will not proceed, and in both Web and Insight you get a informative warning message
 
 #. Add and remove users (=members)
 

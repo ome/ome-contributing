@@ -14,8 +14,15 @@ Admin: Group/User Create
    - Create private/read-only/read-annotate group
    - |C| new group was created with permissions as chosen at creation
 
+
+#. (Insight only) - create a new user/group and 
+
+   - |C| that when you try to delete the user/group immediately after creation via ``Delete`` key or via context menu, the action is not allowed/does not proceed.
+
 #. Create new user [:ref:`AdminGrUsCr005`][:ref:`AdminGrUsCr006`][:ref:`AdminGrUsCr007`]
 
+   - |C| that you can see the list of groups in the lower part of the [:ref:`AdminGrUsCr002b`]. 
+   - |C| that you can filter the groups in [:ref:`AdminGrUsCr002b`].
    - Tick/do not tick the Administrator box in the creation window
    - |C| that when you use an existing login name for a new user, the action    
      does not proceed and a popup appears [:ref:`AdminGrUsCr010`]. The login  
@@ -28,7 +35,10 @@ Admin: Group/User Create
    - Add the new user to one or more existing groups (see screenshot for Web) 
      [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
 
-         - right-click on group and ``Edit group membershop...`` (Insight only)
+         - right-click on group and ``Edit group membership...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
+
+           - |C| that you can see and filter the users in the dialog [:ref:`AdminGrUsCr011b`].
+           
          - Drag & Drop (Insight only)
          - Copy & Paste using icons (Insight only) [:ref:`AdminGrUsCr011`] 
          - Copy & Paste from right-click menu (Insight only) [:ref:`AdminGrUsCr012`]
@@ -79,6 +89,36 @@ Admin: Group/User Create
 	   :align: center
 
 	   AdminGrUsCr002:
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr002b:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002b.png
+	   :align: center
+
+	   New User dialog:
 
 
 	|
@@ -433,6 +473,38 @@ Admin: Group/User Create
 	   :align: center
 
 	   AdminGrUsCr011: 
+
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsCr011b:
+	.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/011b.png
+	   :align: center
+
+	   Edit Users dialog: 
 
 
 
