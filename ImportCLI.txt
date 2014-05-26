@@ -80,7 +80,13 @@ Import CLI
    the session you just created in previous step (if the session 
    expires, repeat the step 1 in Seciton 2).
 
-  - ``bin/omero sessions group <group_name>`` - the output of which should be like in [:download:`example for private-1 to read-only-1 switch </downloads/ImportCLI_001.txt>`]
+  - ``bin/omero sessions group <group_name>`` - the output of which should be analogical to:
+
+  ::
+
+      Using session 5d7d8cd2-13e7-4a1d-988b-e65b02cf7f2f (user-8@localhost:4064). Current group: private-1
+      Group 'private-1' (id=7) switched to 'read-only-1' (id=8)
+
   - ``bin/omero import <path/to/images>``
   - |C| that the images are displayed as owned by ``<user>`` in both Insight and Web. 
 
