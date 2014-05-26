@@ -46,7 +46,7 @@ Import and Multigroups
 
      - |C| that the data are imported successfully and import finishes 
        without error. The only known limitation here is that 
-       ocassionally (but not necessarily) there are black thumbs in 
+       ocassionally (but not necessarily) there are black thumbnails in 
        the Importer after this workflow, see [:ref:`ImportMultiGr003`].
 
 #. Double import
