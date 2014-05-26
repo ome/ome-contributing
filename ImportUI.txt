@@ -29,7 +29,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. After any finished import in this scenario, in the Importer Window (perform these checks briefly for each import but for one import of your choice thoroughly):
 
-   - |C| that thumbnail(s) is(are) created - should always be the case in OMERO 5. Note that in OMERO 4 the thumbs show in Importer only if the [:ref:`ImportUI012`] have been ticked.
+   - |C| that thumbnail(s) is(are) created - should always be the case in OMERO 5. Note that in OMERO 4 the thumbs show in Importer only if the [:ref:`ImportUI012`] has been ticked.
    - (OMERO 4 only) |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
    - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`ImportUI013c`].
