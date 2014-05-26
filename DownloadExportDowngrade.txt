@@ -11,13 +11,13 @@ Download/Export/Downgrade
 
 **To test in**: Web, Insight
 
-**Purpose of the test** is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import and whether this was an FS import or not.
+**Purpose of the test** is to check the Download, Export and Downgrade features and the downloaded files - depending on whether archived image was created at import and whether this was an OMERO 5 import or OMERO 4 import.
 
 Note: if several images have to be downloaded a zip will be created (Web and Insight) - this might take couple of seconds with no warning.
 
 
 
-Download non-image files (both FS and non-FS)
+Download non-image files (both in OMERO 5 and OMERO 4)
 ============================================================
 
 **To test in**: Web, Insight
@@ -40,7 +40,7 @@ Download non-image files (both FS and non-FS)
     - Download the companion files as well as original metadata both into your home directory as well as to your Desktop.
 
 
-non-FS-Download/Export images
+OMERO 4 Download/Export images
 ============================================================
 
 **To test in**: Web, Insight
@@ -74,12 +74,12 @@ non-FS-Download/Export images
          - |C| that the Download option is not available neither in Insight (greyed out) [:ref:`DownloadED013e`] nor Web (menu item missing) [:ref:`DownloadED013f`].
 
 
-FS-Download/Export images (perform on FS server with FS-data-only database)
+OMERO 5 Download/Export images (perform on OMERO 5 server with OMERO 5 imported data only database)
 ========================================================================================================================
 
 **To test in**: Web, Insight
 
-    - FS-Single image
+    - OMERO 5-Single image
 
          - Import an image
          - Select the download option on the right-hand side [:ref:`DownloadED010b`, :ref:`FSDownloadED011`]
@@ -88,22 +88,22 @@ FS-Download/Export images (perform on FS server with FS-data-only database)
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
-    - FS-multi-image - repeat the "FS-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`). 
+    - OMERO 5-multi-image - repeat the "OMERO 5-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`). 
         
          - |C| that the whole multi-image fileset (MIF) has been downloaded. See [:ref:`DownloadED013p`]. 
 
 
 
-Mixed FS & non-FS Download/Export images (this is to be performed on FS server with a database consisting of non-FS as well as FS images)
-=================================================================================================================================================
+Mixed OMERO 5 imported & OMERO 4 imported images Download/Export (this is to be performed on OMERO 5 server with a database consisting of OMERO 5 as well as OMERO 4 imported images)
+===============================================================================================================================================================================================================
 
 **To test in**: Web, Insight
 
-         - Choosing images imported using non-FS and skipping importing, go through
-           the "18.2 non-FS-Download/Export images:" step. The images have to have
-           been Archived during non-FS import, look for example for Datasets like
+         - Choosing images imported using OMERO 4 and skipping importing, go through
+           the "18.2 OMERO 4 Download/Export images:" step. The images have to have
+           been Archived during OMERO 4 import, look for example for Datasets like
            ``archivedv``.
-         - Go through the "18.3 FS-Download/Export images" step.
+         - Go through the "18.3 OMERO 5 Download/Export images" step.
 
 
 
@@ -152,8 +152,8 @@ Command line download
   - Using these commands, download
 
     - Multi-image filesets (MIFs), for example ``lei``
-    - Archived pre-FS images (look for example for Datasets like ``archivedv``).
-    - FS images
+    - Archived pre-OMERO 5 images (look for example for Datasets like ``archivedv``).
+    - OMERO 5 imported images
     - Original files/Companion files (of for example ``.dv`` files)
     - File annotations 
     - |C| that the files are downloaded in the ``target`` file after each command.
