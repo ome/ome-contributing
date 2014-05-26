@@ -18,7 +18,8 @@ View Big Image
 
    - |C| the tile loading.
 
-#. Modify the resolution level using mousewheel (both Web and Insight)
+#. Modify the resolution level using mousewheel (both Web and Insight). 
+   Note that at the moment, the behaviour is as expected only for Firefox on Mac OS X, in Safari and Chrome the mousewheel just scrolls the image up and down.
 
 #. Modify rendering settings [:ref:`ViewBig006`].
 
