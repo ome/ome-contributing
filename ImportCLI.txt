@@ -80,7 +80,7 @@ Import CLI
    the session you just created in previous step (if the session 
    expires, repeat the step 1 in Seciton 2).
 
-  - ``bin/omero sessions group <group_name>`` - the output of which should be analogical to:
+  - ``bin/omero sessions group <group_name>`` - the output of which should be similar to:
 
   ::
 
