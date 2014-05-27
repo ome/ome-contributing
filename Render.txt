@@ -103,7 +103,9 @@ Render
      - |C| that, still as a default you can see the Rendering settings you just saved as the owner of the image (for example user-4), both in Insight and in Web.
      - |C| that in Insight, when you change Rendering settings and click ``Apply`` in Preview pane, your own settings appear in the list under ``Saved by``.
      - Change Rendering settings in Insight and click ``Apply to All`` in Preview pane, followed by clicking ``Reset`` in Preview pane and again ``Apply to All`` 
-       - |C| that the thumbnail, Preview and the Full Viewer still match 
+       
+       - |C| that the thumbnail, the image in Preview and the image in 
+         the Full Viewer still match. 
 
 #. Repeat the step 14, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
