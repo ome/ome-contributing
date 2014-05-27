@@ -54,8 +54,10 @@ Webstart
 
 #. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new java versions !
 
-#. Download and deploy the release server and start OMERO.web - start Webstart both via webclient (login to OMERO.web) as well as via webstart URL (change the ``webclient`` to ``webstart`` at the end of the URL).
+#. Download and deploy the release server or use one which was deployed for you and start OMERO.web.
 
+   - |C| that Webstart works from webclient (login to OMERO.web) 
+   - |C| that Webstart works also via webstart URL (change the ``webclient`` to ``webstart`` at the end of the URL).
    - |C| that the application starts (see examples below), 
    - |C| that you can connect and expand a dataset and open an image
 
