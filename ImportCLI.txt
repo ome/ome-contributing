@@ -58,7 +58,7 @@ Import CLI
 
 **Section 2: Import As**
 
-#. Import As. Log in "as Administrator" but for another user, executing following command and replacing ``<admin>`` with a valid Administrator name and ``<user>`` with a valid username (this will be the user for which the Administrator will be importing for).
+#. Import As. Log in "as Administrator" but for another user, executing the following command and replacing ``<admin>`` with a valid Administrator name and ``<user>`` with a valid username (this will be the user for which the Administrator will be importing for).
 
    - ``bin/omero login --sudo=<admin> <user>@localhost``
 
