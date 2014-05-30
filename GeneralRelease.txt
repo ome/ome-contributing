@@ -54,10 +54,11 @@ Webstart
 
 #. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new java versions !
 
-#. Download and deploy the release server or use one which was deployed for you and start OMERO.web.
+#. Download and deploy the release server or use one which was deployed for you and start OMERO.web. **Note that the setups of servers for this purpose is under construction, you have to check what is deployed for you on the day of testing.**
 
+  
+   - Choice of browser is prescribed in the Trello card, but be sure to have checked Firefox on Windows on the client side (once for any server is enough).
    - |C| that Webstart works from webclient (login to OMERO.web). 
-   - |C| that Webstart works also via webstart URL (change the ``webclient`` to ``webstart`` at the end of the URL).
    - |C| that the application starts (see examples below), 
    - |C| that you can connect and expand a dataset and open an image.
 
@@ -88,6 +89,14 @@ Chrome 31.0, java "1.7.0_45"
 
 **Mac OS X**
 
+Any browser on any Mac OS X system with any java:
+
+   - If under  ``Preferences > Security and Privacy > General (tab)``
+     the option ``App store and identified developers`` is selected, you 
+     will not be able to start webstart because of security blockage by 
+     Mac OS X. In order to perform the tests, you have to select 
+     ``Anywhere`` . Alternatively, you can launch the .jnlp file from your Donwloads folder using right-click. (This alternative does not work for Firefox.)
+
 Safari 6.0.5 and 6.1.1, OS X 10.8.5, java "1.7.0_21" and "1.7.0_45"
 
    - OMERO webstart window appears: click on Webstart logo.
@@ -116,6 +125,8 @@ Firefox 27.0, OS X 10.6.8, java "1.6.0_26"
 Chrome 31.0.1650.63, OS X 10.8.5, java "1.7.0_21":
 
    - Webstart does not work: redirection to a java update information website with info about updates happens instead. When these updates are applied, it does not help.
+
+
 
 
 OMERO.matlab toolbox
