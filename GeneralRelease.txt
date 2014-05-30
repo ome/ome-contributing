@@ -89,13 +89,13 @@ Chrome 31.0, java "1.7.0_45"
 
 **Mac OS X**
 
-Any browser on any Mac OS X system with any java:
+Any browser on any Mac OS X system with any Java:
 
-   - If under  ``Preferences > Security and Privacy > General (tab)``
+   - If under ``Preferences > Security and Privacy > General (tab)``
      the option ``App store and identified developers`` is selected, you 
      will not be able to start webstart because of security blockage by 
      Mac OS X. In order to perform the tests, you have to select 
-     ``Anywhere`` . Alternatively, you can launch the .jnlp file from your Donwloads folder using right-click. (This alternative does not work for Firefox.)
+     ``Anywhere`` . Alternatively, you can launch the .jnlp file from your Downloads folder using right-click. (This alternative does not work for Firefox.)
 
 Safari 6.0.5 and 6.1.1, OS X 10.8.5, java "1.7.0_21" and "1.7.0_45"
 
