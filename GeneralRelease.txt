@@ -24,7 +24,7 @@ OMERO.clients:
    - (Mac and Windows only) |C| one of the OMERO.insight*-openGL.zip files on artifacts page.
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
    - (all platforms) |C| that the application starts and you can log in.
-   - (all platforms) |C| that you can expand a dataset and open an image.
+   - (all platforms, Insight only) |C| that you can expand a dataset and open an image.
    - (Windows only) |C| that there is only one executable in each of the ``*win-openGL.zip`` files, for example ``http://downloads.openmicroscopy.org/omero/<release version>/artifacts/OMERO.insight-5.1.10-ice35-b112-win-openGL.zip`` will have just the 32-bit Insight executable and the corresponding ``*win64-openGL.zip`` will have just the 64-bit Insight executable.
 
 
@@ -80,9 +80,9 @@ Firefox 26.0, java "1.7.0_45"
 Chrome 31.0, java "1.7.0_45"
 
    - OMERO webstart window appears: click on Webstart logo.
-   - an arrow indicating Download of the ``.jnlp`` file appears shortly, then click ``Show all downloads`` link which appears in the bottom-left corner of the OMERO webstart window.
-   - select the .jnlp file from the appearing list and confirm that you want to ``Keep`` and ``Keep anyway`` in two consecutive popups.
-   - after this, you can click on the ``.jnlp`` file
+   - An arrow indicating Download of the ``.jnlp`` file appears shortly, then click ``Show all downloads`` link which appears in the bottom-left corner of the OMERO webstart window.
+   - Select the .jnlp file from the appearing list and confirm that you want to ``Keep`` and ``Keep anyway`` in two consecutive popups.
+   - After this, you can click on the ``.jnlp`` file.
    - Downloading window appears shortly.
    - Security Warning popup appears: popup: click ``I accept...`` and then click ``Run``.
    - Webstart splashscreen appears.
@@ -95,7 +95,7 @@ Any browser on any Mac OS X system with any Java:
      the option ``App store and identified developers`` is selected, you 
      will not be able to start webstart because of security blockage by 
      Mac OS X. In order to perform the tests, you have to select 
-     ``Anywhere`` . Alternatively, you can launch the .jnlp file from your Downloads folder using right-click. (This alternative does not work for Firefox.)
+     ``Anywhere``. Alternatively, you can launch the .jnlp file from your Downloads folder using right-click. (This alternative does not work for Firefox.)
 
 Safari 6.0.5 and 6.1.1, OS X 10.8.5, java "1.7.0_21" and "1.7.0_45"
 
