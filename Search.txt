@@ -3,427 +3,105 @@ Search
 
 
 
-**To test in**: Web, Insight
+**New UI in 5.0.3 in**: Web, Insight
 
-**Purpose of the test** is to validate the Search engine of Insight and Web.
-Within this, the "empty To date option" in the search From - To Dates must be checked thoroughly as well as the reaction of the engine to single special/non-special characters
+**Purpose of the test** is to check that Insight and Web have the same Search UI and
+return valid results with each query.
+All searches below should be performed at the same time in Insight and Web and the
+displayed results should be identical in both clients.
 
-#. |C| the available strings of names/tags/comments/attachments/URL/description in the group
 
-#. Put a valid string into the Search box [:ref:`Search001`] - try single letters and numerals as well, To get to Search in Web, press to the right of the Search icon. [:ref:`Search002`].
+**Test defualt search**
 
-#. Choose a group in which to search (Insight only)
+#. Start by entering a search query in the tool-bar search box in the main client window. Type query and hit Enter or click search button.
 
-#. Choose an item (or more items) to search for the string in - Names/Comments/URL/Description/Tags/Comments/Attachments/URL/Description (Insight only)
+   - |C| that you are taken to the search 'page'/UI with your search query entered into the search field, and that the search has been performed with the results appearing in the center panel.
+   - |C| that the web and Insight search forms have all the same fields and that the defaults are the same.
+   - |C| that the objects searched for are 'Projects', 'Datasets', 'Images', 'Screens', 'Plates' (all checkboxes selected by default).
+   - |C| that no fields are chosen by default: Checkboxes for 'Name', 'Description', 'Annotations' are all unchecked.
+   - |C| that the default 'Scope' for the search is "All Groups", with user "Me".
+   - |C| that no date range has been chosen by default.
 
-#. Choose an object to look for Images/Datasets/Projects/Plates/Screens (Web only) [:ref:`Search003`]
 
-#. Choose a date/timespan to search in. Toggle between Created and Updated options in time search (Insight only).
+**Test various search queries**
 
-#. Choose a "Specify date range…" option (Insight) or go to Date (Web) and put only From date in, no To date [:ref:`Search004`]
+#. Test single keywords by entering one word into the search field.
+   - |C| that searching with a single keyword returns results where every result contains the keyword in Name, Description or Annotation.
+   - |C| that same results returned by web and Insight.
 
-   - |C| that the images are found which are created/updated after the From date.
+#. Select to search for Name only by checking the Name checkbox. Search for single keyword.
+   - |C| that all results have the keyword in their name.
 
-#. Search for images trying the options/combinations specified above
+#. Search for two or more keywords, separated by spaces, with Name field checked.
+   - |C| that all results have one or more of the keywords in their name.
+   - |C| that results with most keywords in their name are ordered first.
 
-   - |C| the validity of the Search result
-   - |C| that you can view the thumbnails and metadata of images in Search result [:ref:`Search005`]
+#. Search for two or more keywords, separated by AND, with Name field checked.
+   - |C| that all results have ALL keywords in their name.
 
-#. Repeat steps 1 - 8 with a non-existent string. Try special signs as well. Try single special signs. [:ref:`Search004`]
+#. Search for multiple words within double quotes.
+   - |C| that only results containing the quoted words are returned ** TODO: Need to clarify behviour here **
 
-   - |C| no images were found and that any warning message about wildcard search makes sense considering the character you put into the Search.
+#. Use wildcards in searches, with ? replacing a single character and * replacing 1 or more characters.
+   - |C| that results are consistent with this wildcard behaviour.
+   - |C| that leading wildcards, where the search starts with ? or * also work.
+   - |C| that wildcards work in both keywords of a 2-keyword search.
 
-#. Put a single character (numeral, letter, and special signs) in the Search window on the top right (Web only) and search.[:ref:`Search006`]
+#. Try searches including various non-alphanumeric characters, including wildcards, AND and OR.
+   - |C| that no exceptions are thrown.
+   - |C| also test with single characters or wildcards.
 
-   - |C| that no error occurs and that any warning message about wildcard search makes sense considering the character you put into the Search.
+#. Try search by ID: Enter a valid ID for Project, Dataset or Image, with all datatypes checked.
+   - |C| that the object is returned regardless of current group or group search options.
+   - |C| that if the search query matches other objects by other fields, they are also returned.
+   - |C| that objects returned by ID appear at the top of search results.
 
-#. Try steps 1 - 8 using Wildcard search (see the icon with question mark).[:ref:`Search007`][:ref:`Search008`]
 
-   - |C| the validity of search result.
+**Test object types and fields**
 
-#. Try steps 1 -8 using Advanced search (Insight only) (yellow right arrow icon).
+#. Restrict the types of object you are searching for by unchecking Image, Dataset etc
+   - |C| that you only get the specified object types returned.
 
-   - |C| the validity of search result.
+#. Add a description to an Image, including various keywords that also exist in other Image names.
+   Select Description field only. Search for keywords within the description you added.
+   - |C| that the Image is returned - NB: this also confirms that the index was updated.
+   - |C| that no objects are returned that don't have the search terms in their description.
+   - |C| 
 
-#. Filter: Do steps 1 - 8 and filter by Tags (icon showing the Tag - Insight only [:ref:`Search009`])/Write into "Filter results" box additional strings to filter for (Web only) [:ref:`Search010`]
 
-   - |C| the validity of the filtered result.
+**Test Scope**
 
-#. Try batch searching (i.e. well-searching within a screen - Web only)
+#. You need to be a member of several groups with a number of users in each. Each
+   group needs to have some data owned by different users.
+   Search with 'All Groups' chosen, and 'Me'.
+   - |C| that Group for each search result is shown in results table
+   - |C| that all data returned belongs to you, and is not restricted by group.
 
-   - |C| that the feature is self-explaining and easy to follow
+#. Search with 'All Groups' and 'All Members'.
+   - |C| that data returned is not restricted by user or group.
 
+#. Search within a specific group and 'Me'.
+   - |C| that data returned belongs to you, and only comes from the specified group.
 
-	.. _Search001:
-	.. figure:: /images/testing_scenarios/Search/001.png
-	   :align: center
-
-	   Search001:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search002:
-	.. figure:: /images/testing_scenarios/Search/002.png
-	   :align: center
-
-	   Search002:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search003:
-	.. figure:: /images/testing_scenarios/Search/003.png
-	   :align: center
-
-	   Search003
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search004:
-	.. figure:: /images/testing_scenarios/Search/004.png
-	   :align: center
-
-	   Search004
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search005:
-	.. figure:: /images/testing_scenarios/Search/005.png
-	   :align: center
-	   :width: 100%
-
-	   Search005
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search006:
-	.. figure:: /images/testing_scenarios/Search/006.png
-	   :align: center
-
-	   Search006:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search007:
-	.. figure:: /images/testing_scenarios/Search/007.png
-	   :align: center
-	   :width: 100%
-
-	   Search007:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search008:
-	.. figure:: /images/testing_scenarios/Search/008.png
-	   :align: center
-
-	   Search008
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search009:
-	.. figure:: /images/testing_scenarios/Search/009.png
-	   :align: center
-
-	   Search009:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Search010:
-	.. figure:: /images/testing_scenarios/Search/010.png
-	   :align: center
-
-	   Search010:
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+#. Search within a specified group and 'All Members'.
+   - |C| that results are from the specified group and not restricted by owner.
 
+#. Search within a specified group and user.
+   - |C| that all results come from the specified group and belong to correct user.
 
+
+**Test date range**
+
+#. Enter a single 'From' date and search.
+   - |C| that you cannot pick a date in the future (Web only?)
+   - |C| that search results are all created after picked date.
+   - |C| that you cannot search with a 'To' date before the 'From' date.
+   - |C| that the 'From' date can be cleared and search is not now restricted by date
+
+#. Enter a 'To' date only.
+   - |C| that you cannot pick a date in the future (Web only?)
+   - |C| that you cannot perform the search without also picking a 'From' date
+
+#. Enter a 'From' and 'To' date.
+   - |C| that all results are created between the picked dates.
 
