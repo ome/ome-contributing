@@ -29,6 +29,9 @@ displayed results should be identical in both clients.
    - |C| that searching with a single keyword returns results where every result contains the keyword in Name, Description or Annotation.
    - |C| that same results returned by web and Insight.
 
+#. Search for multiple keywords separated by spaces. 
+   - |C| that they are taken in in a OR logic, but that the Results list is sorted in such a manner that the results which contain most keywords are on the top of the list. Refer to Tokenizing.
+
 #. Select to search for Name only by checking the Name checkbox. Search for single keyword.
    - |C| that all results have the keyword in their name.
 
@@ -40,16 +43,24 @@ displayed results should be identical in both clients.
    - |C| that all results have ALL keywords in their name.
 
 #. Search for multiple words within double quotes.
-   - |C| that only results containing the quoted words are returned ** TODO: Need to clarify behviour here **
+   - |C| that only results containing the quoted words are returned ** TODO: Need to clarify behviour here ** Refer to Quotes.
 
 #. Use wildcards in searches, with ? replacing a single character and * replacing 1 or more characters.
    - |C| that results are consistent with this wildcard behaviour.
    - |C| that leading wildcards, where the search starts with ? or * also work.
    - |C| that wildcards work in both keywords of a 2-keyword search.
+   - Refer Wildcards
+   - Refer Advanced Search
 
 #. Try searches including various non-alphanumeric characters, including wildcards, AND and OR.
    - |C| that no exceptions are thrown.
    - |C| also test with single characters or wildcards.
+   - Refer Wildcars
+
+#. |C| that Search for two terms with ``AND`` in between with fields ticked will return the result if the two terms are:
+   
+   - in the same ticked field (e.g. ``weird AND bla`` will return a   result if ``Name`` is ticked and both ``weird`` and ``bla`` are in the ``Name``)
+   - one term in one ticked field and another term in another ticked field (e.g. ``weird AND bla`` will return result when the ``weird`` is in a ``Name`` and ``bla`` is in ``Description`` as long as both ``Name`` and ``Description`` are ticked) 
 
 #. Try search by ID: Enter a valid ID for Project, Dataset or Image, with all datatypes checked.
    - |C| that the object is returned regardless of current group or group search options.
@@ -80,7 +91,7 @@ displayed results should be identical in both clients.
 #. Search with 'All Groups' and 'All Members'.
    - |C| that data returned is not restricted by user or group.
 
-#. Search within a specific group and 'Me'.
+#. Search within a specific group and 'Me' -> needs to be corrected.
    - |C| that data returned belongs to you, and only comes from the specified group.
 
 #. Search within a specified group and 'All Members'.
@@ -93,15 +104,49 @@ displayed results should be identical in both clients.
 **Test date range**
 
 #. Enter a single 'From' date and search.
+   
    - |C| that you cannot pick a date in the future (Web only?)
    - |C| that search results are all created after picked date.
    - |C| that you cannot search with a 'To' date before the 'From' date.
    - |C| that the 'From' date can be cleared and search is not now restricted by date
 
 #. Enter a 'To' date only.
+   
    - |C| that you cannot pick a date in the future (Web only?)
    - |C| that you cannot perform the search without also picking a 'From' date
 
 #. Enter a 'From' and 'To' date.
+   
    - |C| that all results are created between the picked dates.
+
+#. Search for ``imported`` or ``acquisition`` date should be implemented.
+   
+   - |C| that you can always search for ``imported`` and ``acquisition`` date.
+   - |C| that you can always see in the UI what date is shown (also in Results table).
+   - Note that only some image formats have reliable Acquisition dates in OMERO, e.g. ``svs``
+
+**Search Results**
+Go to the Search Results and select one. 
+
+   - (Web only) |C| that you can navigate to the result in the data tree by clicking on the link in the rightmost column of the central pane.
+   - |C| that the right-hand pane is visible for P/D/S/I search results
+   - |C| that in Insight, in case of Images, you can navigate to the containing dataset using right-hand pane.
+
+**Known Limitations**
+
+.. glossary::
+
+   :Limitations-Tokenizing
+
+
+      The search queries are tokenized at the non-alphanumeric characters and then passed to Lucene. The OR logic between multiple tokens is implemented. The non-alphanumeric characters are ignored. 
+
+#. Wildcards: The combination of a wildcard with any non-alphanumeric character search is not allowed and will be caught out with a warning message, e.g. ``(*`` but also ``?*`` or ``**`` and ``*.*`` will give no results. Search for ``*.svs`` defaults to ``svs``. The search for parts of alphanumerics groups must be done using wildcards, parts of alphanumeric groups only will return nothing, e.g. search for ``we`` will NOT return ``weird_image.svs``, but search for ``we*`` will.
+
+#. Quotes: The Quoted search will not keep everything as it is in quotes, instead it will tokenize at the non-alphanumeric signs and throw these away. Nevertheless, the order of the terms in the quotes is of importance and will be respected. For example ``"weird_tag"`` and  ``"weird-tag"`` queries will have the same Result, like ``weird tag``, ``weird_tag`` and ``weird-tag`` but not ``weirdtag`` and not ``tag weird`` or ``weird spacer tag``.
+
+#. Advanced search: Search for ``nd2 weird AND attachment`` completely ignores the ``nd2`` part of the query, and returns just the results which have both ``weird`` and ``attachment``.
+
+
+
 
