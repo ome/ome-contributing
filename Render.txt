@@ -114,7 +114,7 @@ Render
      - |C| that you can see the Rendering settings you just saved as the owner of the image as a default
      - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
      - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings (under ``Preview > Saved by``) as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web, see example in [:ref:`Render008`]).
-     - (Isight only) |C| that under ``Preview > Saved`` by the settings of the owner are hightlighted blue. 
+     - (Isight only) |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
     
 
 
