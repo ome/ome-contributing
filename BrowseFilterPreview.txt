@@ -27,12 +27,10 @@ Browse/Filter/Preview
 
 #. |C| multi-selection i.e. shift - key down.
 
-#. |C| that DataManager and right-hand panel are correctly synchronized and updated.
+   - |C| that DataManager and right-hand panel are correctly synchronized and updated.
+   - |C| that when selecting images inside a Dataset and then clicking on the Dataset in the tree, the selection of the images goes away (i.e. concurrent Image + Dataset selection should not be possible)
 
-#. In Preview (right-hand of the window, "Preview" tab) [:ref:`BrowseFP005`]: if applicable
 
-   - Modify the settings of the selected image.
-   - Apply the settings to the selection.
 
 |
 |
