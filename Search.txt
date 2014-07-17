@@ -105,7 +105,7 @@ displayed results should be identical in both clients.
    - |C| that Group for each search result is shown in results table
    - |C| that all data returned belongs to you, and is not restricted by group.
 
-#. Search with 'All Groups' and 'All Members'.
+#. Search with 'All Groups' and 'All Users'.
 
    - |C| that data returned is not restricted by user or group.
 
@@ -113,7 +113,7 @@ displayed results should be identical in both clients.
 
    - |C| that data returned belongs to you, and only comes from the specified group.
 
-#. Search within a specified group and 'All Members'.
+#. Search within a specified group and 'All Users'.
 
    - |C| that results are from the specified group and not restricted by owner.
 
