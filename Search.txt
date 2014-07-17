@@ -89,9 +89,10 @@ displayed results should be identical in both clients.
    - |C| that the Image is returned - NB: this also confirms that the index was updated.
    - |C| that no objects are returned that don't have the search terms in their description.
 
-#. Add a textfile attachment to an Image, a Plate and a Screen, do not select any fields. Search for keywords within the attachment you added. 
+#. Add a textfile attachment to an Image, a Plate and a Screen, do not select any fields. Search for keywords within the content and name of the attachment you added. 
 
    - |C| that the Image, Plate and Screen are returned - NB: this also confirms that the index was updated.
+   - |C| that when you select the field ``Annotation`` and search again, the Image, Plate and Screen with the attachment are returned again.
 
 
 
@@ -139,11 +140,14 @@ displayed results should be identical in both clients.
    
    - |C| that all results are created between the picked dates.
 
-#. Search for ``imported`` or ``acquisition`` date should be implemented.
+#. Search for ``Import date`` or ``Acquisition date`` should be implemented.
    
-   - |C| that you can always search for ``imported`` and ``acquisition`` date.
-   - |C| that you can always see in the UI what date is shown (also in Results table).
+   - |C| that hte ``Import date`` is the Default.
+   - |C| that you can always search for ``Iimport Date`` and ``Acquisition Date`` date.
+   - |C| that you can always see in the UI what date is shown (also in Results table) - there should be 2 separate columns.
+   - |C| that you can sort these columns by clicking on the bar above them.
    - Note that only some image formats have reliable Acquisition dates in OMERO, e.g. ``svs``
+   - Note that only images have Acquisition dates, P/D/S/Ps have only Imported date. 
 
 **Search Results**
 Go to the Search Results and select one. 
@@ -152,7 +156,7 @@ Go to the Search Results and select one.
    - |C| that the right-hand pane is visible for P/D/S/P/I search results
    - |C| that in Insight, in case of Images, you can navigate to the containing dataset using right-hand pane, and ``Located in``.
    - |C| that in Insight, in case of P/D/S/P you can get to the result in tree by clicking onto the ``Browse`` button in the rightmost column of the central pane.
-   - Note that in Insight the ``Browse`` button and ``Located in`` link will lead you to the right result only when the group the result is located is on display (under ``Projects`` harmonica). |C| that in case the group is not on display the links will lead you to a reasonable info message.
+   - |C| that in Insight the ``Browse`` button and ``Located in`` link will lead you to the right result only when the group the result is located is on display (under ``Projects`` harmonica). |C| that in case the group is not on display the links will lead you to Project tab. Click back to Search tab and select another image in the Reaults list and |C| that there are no  Insight errors when doing so.
 
 **Known Limitations**
 
