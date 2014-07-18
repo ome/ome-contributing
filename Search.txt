@@ -11,6 +11,12 @@ All searches below should be performed at the same time in Insight and Web and t
 displayed results should be identical in both clients.
 
 
+
+**Test links and tools**
+
+   - |C| that the Hints butoon (under ``?`` sign in Insigth and ``Show Search hints`` in Web opens and the message makes sense.
+   - |C| that the link to the Help webpage inside the Hints button works.
+
 **Test defualt search**
 
 #. Start by entering a search query in the tool-bar search box in the main client window. Type query and hit Enter or click search button.
@@ -148,6 +154,7 @@ displayed results should be identical in both clients.
    - |C| that you can sort these columns by clicking on the bar above them.
    - Note that only some image formats have reliable Acquisition dates in OMERO, e.g. ``svs``
    - Note that only images have Acquisition dates, P/D/S/Ps have only Imported date. 
+   - (Insight only) |C| that you can search with an empty query but a valid dates returns results as expected.
 
 **Search Results**
 Go to the Search Results and select one. 
