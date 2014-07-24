@@ -129,7 +129,7 @@ NB: **Data Manager** == **The main window of Insight UI**
    - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
    - |C| and the tag is created once. [:ref:`ImportUI008`]
 
-#. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
+#. Repeat (13) and this time (for permissions testing, tag with tags belonging to other users)
 
    - create a new tag and add an existing tag.[:ref:`ImportUI009`]
    - Import the images
