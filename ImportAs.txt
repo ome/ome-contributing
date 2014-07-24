@@ -31,8 +31,7 @@ imported ( = the owner of the data).
 
 
 #. Make sure you have images ready on your local hierarchy. Use small images
-   which you can pull
-   from `here <https://github.com/ome/omero-setup>`_, and some multi-well 
+   like ``data_repo/public/images/PNG/`` and some multi-well 
    plate, 
    like ``test_images_good/bd-pathway/2009-05-01_000/``. You will need to have 
    well-named images and plates within well-named folders.
