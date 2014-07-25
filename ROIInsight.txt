@@ -102,7 +102,12 @@ A line plot should be displayed.
 
    Test1
 
-   - reduce the default memory allocated to insight (64M)
+   - reduce the default memory allocated to insight (64M) 
+
+     - right-click on Insight and click on ``Show package contents``
+     - edit the ``info.plist`` file
+     - change the setting around Line 110 of this file to ``<string>-Xms64M -Xmx64M</string>``
+     
    - Draw a rectangle and propagate the shape across few z or t
    - Select the shape
    - Go to "Intensity Results Tab" and add the selected shape
