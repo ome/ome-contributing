@@ -30,9 +30,9 @@ ROI Insight
 
 #. Draw a line and "break" into segments and Save
 
-    - Go to the Results tab.
-    - The length should display length per segment and the total. Same for angle.
-    - Export to Excel. The value displayed in table should be exported as such in Excel.
+   - Go to the Results tab.
+   - The length should display length per segment and the total. Same for angle.
+   - Export to Excel. The value displayed in table should be exported as such in Excel.
 
 #. Add comment to the shape (double-click on the shape and write). Tick and untick the ``Show comment`` box
 
