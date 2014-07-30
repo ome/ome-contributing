@@ -70,7 +70,7 @@ ROI Insight
    - |C| that both Line profile and Histogram are shown. 
    - Export the graph as JPEG or PNG. Only the line plot should be exported.
    - |C| that when you hover over the line in the Graph, in case the pixelsizes of the image is known, it shows the tooltip with current position in microns.
-   
+
 #. Repeat the step 2 but this time with a rectangle. Note that no Line profile will be shown in this case.
 
 
@@ -102,7 +102,7 @@ ROI Insight
 
    Test1
 
-   - reduce the default memory allocated to insight (64M) 
+   - Reduce the default memory allocated to insight (64M) 
 
      - right-click on Insight and click on ``Show package contents``
      - edit the ``info.plist`` file
