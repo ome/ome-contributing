@@ -100,7 +100,7 @@ ROI Insight
 
 #. Intensity Results View tab.
 
-   Test1
+#. Check freeze at low memory does not occur.
 
    - Reduce the default memory allocated to insight 
 
@@ -118,7 +118,18 @@ ROI Insight
    - Click OK and check that all the controls do not stay greyed out.
    - Set the default memory allocated to Insight back to the same value as it was at the start of Test1
 
-   Test2
+#. Multi-t/z addition behaviour check
+
+   - Draw a line and propagate it across z or t.
+   - Select the shape
+   - Go to "Intensity Results Tab" and add the selected shape
+   - When the results of the shapes composing the ROI are displayed in the table
+   - Scroll to a new plane where the shape has been propagated. Check
+     that the results of the shapes composing the ROI are not added again to the table.
+   - Draw another line. Save. Select and Add it. Make sure that only 
+     rows corresponding to the new line are added.
+
+#. ``Add selected`` test1
 
    - Go away from Intensity Results View tab (i.e. select Manager tab). 
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself)
@@ -130,19 +141,8 @@ ROI Insight
    - Try ``Remove`` and ``Remove All`` buttons.
    - Add data again and Export to Excel
    - |C| the file. [:ref:`ROIInsight011`]
-
-   Test3 
-
-   - Draw a line and propagate it across z or t.
-   - Select the shape
-   - Go to "Intensity Results Tab" and add the selected shape
-   - When the results of the shapes composing the ROI are displayed in the table
-   - Scroll to a new plane where the shape has been propagated. Check
-     that the results of the shapes composing the ROI are not added again to the table.
-   - Draw another line. Save. Select and Add it. Make sure that only 
-     rows corresponding to the new line are added.
-
-   Test4
+   
+#. ``Add selected`` test2
 
    - Draw a rectangle for example.
    - Go the Intensity View Tab. When the results are displayed
