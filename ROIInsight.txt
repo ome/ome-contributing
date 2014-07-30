@@ -102,7 +102,7 @@ ROI Insight
 
    Test1
 
-   - Reduce the default memory allocated to insight (64M) 
+   - Reduce the default memory allocated to insight 
 
      - right-click on Insight and click on ``Show package contents``
      - edit the ``info.plist`` file
@@ -118,8 +118,6 @@ ROI Insight
    - Click OK and check that all the controls do not stay greyed out.
    - Set the default memory allocated to Insight back to the same value as it was at the start of Test1
 
-   
-
    Test2
 
    - Go away from Intensity Results View tab (i.e. select Manager tab). 
@@ -133,7 +131,6 @@ ROI Insight
    - Add data again and Export to Excel
    - |C| the file. [:ref:`ROIInsight011`]
 
-
    Test3 
 
    - Draw a line and propagate it across z or t.
@@ -144,7 +141,6 @@ ROI Insight
      that the results of the shapes composing the ROI are not added again to the table.
    - Draw another line. Save. Select and Add it. Make sure that only 
      rows corresponding to the new line are added.
-
 
    Test4
 
