@@ -123,8 +123,14 @@ NB: **Data Manager** == **The main window of Insight UI**
 
    - Select at least 2 images.
    - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
-   - Create a new tag and add an existing tag.[:ref:`ImportUI009`]
-   - Import the images.
+   - Create one new tag and add it 
+   - Select other images.
+   - Add one existing tag.[:ref:`ImportUI009`]
+   - Select other images.
+   - Create 2 or more tags and add them
+   - Select other images.
+   - Add 2 or more existing tags.
+   - Import all the images you tagged.
    - Go to the DataManager (left-hand side). Refresh
    - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
    - |C| and the tag is created once. [:ref:`ImportUI008`]
