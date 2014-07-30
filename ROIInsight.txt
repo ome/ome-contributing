@@ -106,13 +106,17 @@ ROI Insight
 
      - right-click on Insight and click on ``Show package contents``
      - edit the ``info.plist`` file
-     - change the setting around Line 110 of this file to ``<string>-Xms64M -Xmx64M</string>``
+     - note down what are the settings in around Line 110 of this file
+       of ``<string>-Xms&&M -Xmx&&M</string>`` (note down the numbers 
+       replaced here by ``&&``)
+     - change these setting to ``<string>-Xms64M -Xmx64M</string>``
      
    - Draw a rectangle and propagate the shape across few z or t
    - Select the shape
    - Go to "Intensity Results Tab" and add the selected shape
    - After a while, a dialog indicating than an error occurred will pop up.
    - Click OK and check that all the controls do not stay greyed out.
+   - Set the default memory allocated to Insight back to the same value as it was at the start of Test1
 
    
 
