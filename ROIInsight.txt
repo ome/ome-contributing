@@ -67,12 +67,12 @@ ROI Insight
 
 #. Choose a Line-type of region.
 
-   - |C| that both Line profile and Histogram are shown. Export the 
-     graph as JPEG or PNG. Only the line plot should be exported.
-     Repeat the previous steps but this time with a rectangle.
+   - |C| that both Line profile and Histogram are shown. 
+   - Export the graph as JPEG or PNG. Only the line plot should be exported.
    - |C| that when you hover over the line in the Graph, in case the pixelsizes of the image is known, it shows the tooltip with current position in microns.
+   
+#. Repeat the step 2 but this time with a rectangle. Note that no Line profile will be shown in this case.
 
-A line plot should be displayed. 
 
 #. Try to create new regions when on Graph pane and to propagate them
 
