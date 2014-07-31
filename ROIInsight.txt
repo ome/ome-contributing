@@ -106,10 +106,10 @@ ROI Insight
 
      - right-click on Insight and click on ``Show package contents``
      - edit the ``info.plist`` file
-     - note down what are the settings in around Line 110 of this file
+     - note down what are the settings from around Line 110 of this file
        of ``<string>-Xms&&M -Xmx&&M</string>`` (note down the numbers 
        replaced here by ``&&``)
-     - change these setting to ``<string>-Xms64M -Xmx64M</string>``
+     - change these settings to ``<string>-Xms64M -Xmx64M</string>``
      
    - Draw a rectangle and propagate the shape across few z or t
    - Select the shape
