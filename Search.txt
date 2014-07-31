@@ -14,10 +14,10 @@ displayed results should be identical in both clients.
 
 **Test links and tools**
 
-   - |C| that the Hints butoon (under ``?`` sign in Insigth and ``Show Search hints`` in Web opens and the message makes sense.
+   - |C| that the Hints button (under ``?`` sign in Insigth and ``Show Search hints`` in Web opens and the message makes sense.
    - |C| that the link to the Help webpage inside the Hints button works.
 
-**Test defualt search**
+**Test default search**
 
 #. Start by entering a search query in the tool-bar search box in the main client window. Type query and hit Enter or click search button.
 
@@ -148,7 +148,7 @@ displayed results should be identical in both clients.
 
 #. Search for ``Import date`` or ``Acquisition date`` should be implemented.
    
-   - |C| that hte ``Import date`` is the Default.
+   - |C| that the ``Import date`` is the Default.
    - |C| that you can always search for ``Iimport Date`` and ``Acquisition Date`` date.
    - |C| that you can always see in the UI what date is shown (also in Results table) - there should be 2 separate columns.
    - |C| that you can sort these columns by clicking on the bar above them.
