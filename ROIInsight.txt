@@ -18,11 +18,11 @@ ROI Insight
 
 #. Create ROIs (more than 3) of different types including Text (Text is one of ROI types).[:ref:`ROIInsight002`]
 
-#. Have a multi-t image. 
+#. Use a multi-t image. 
    
    - Create ROI and project it across all time points
    - Delete the ROI
-   - Creates new ROI, project across all time points
+   - Create new ROI, project across all time points
    - Close Viewer
    - Save changes when prompted
    - |C| that the new ROI IS saved
@@ -69,7 +69,7 @@ ROI Insight
 
    - |C| that both Line profile and Histogram are shown. 
    - Export the graph as JPEG or PNG. Only the line plot should be exported.
-   - |C| that when you hover over the line in the Graph, in case the pixelsizes of the image is known, it shows the tooltip with current position in microns.
+   - |C| that when you hover over the line in the Graph, in case the pixel size of the image is known, it shows the tooltip with current position in microns.
 
 #. Repeat the step 2 but this time with a rectangle. Note that no Line profile will be shown in this case.
 
@@ -114,16 +114,16 @@ ROI Insight
    - Draw a rectangle and propagate the shape across few z or t
    - Select the shape
    - Go to "Intensity Results Tab" and add the selected shape
-   - After a while, a dialog indicating than an error occurred will pop up.
+   - After a while, a dialog indicating that an error occurred will pop up.
    - Click OK and check that all the controls do not stay greyed out.
-   - Set the default memory allocated to Insight back to the same value as it was at the start of Test1
+   - Set the default memory allocated to Insight back to the same value as it was before you reduced it.
 
 #. Multi-t/z addition behaviour check
 
    - Draw a line and propagate it across z or t.
    - Select the shape
    - Go to "Intensity Results Tab" and add the selected shape
-   - When the results of the shapes composing the ROI are displayed in the table
+   - Wait till the results of the shapes composing the ROI are displayed in the table.
    - Scroll to a new plane where the shape has been propagated. Check
      that the results of the shapes composing the ROI are not added again to the table.
    - Draw another line. Save. Select and Add it. Make sure that only 
@@ -145,7 +145,7 @@ ROI Insight
 #. ``Add selected`` test2
 
    - Draw a rectangle for example.
-   - Go the Intensity View Tab. When the results are displayed
+   - Go the Intensity View Tab. Wait till the results are displayed.
    - Go the Intensity Results View Tab, Click Add selected. the results should be displayed.
 
 
