@@ -121,16 +121,34 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
-   - Select at least 2 images.
-   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
-   - Create one new tag and add it 
-   - Select other images.
-   - Add one existing tag.[:ref:`ImportUI009`]
-   - Select other images.
-   - Create 2 or more tags and add them
-   - Select other images.
-   - Add 2 or more existing tags.
-   - Import all the images you tagged.
+   - One new tag addition:
+
+     - Select at least 2 images.
+     - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
+     - Create one new tag and add it 
+     - Import images.
+
+   - One existing tag addition
+
+     - Select at least 2 images.
+     - Go to the "options" tab. 
+     - Add one existing tag.[:ref:`ImportUI009`]
+     - Import images.
+
+   - 2 new tags addition:
+
+     - Select at least 2 images.
+     - Go to the "options" tab. 
+     - Create 2 or more tags and add them
+     - Import images.
+
+   - 2 existing tags addition:
+
+     - Select at least 2 images.
+     - Go to the "options" tab. 
+     - Add 2 or more existing tags.
+     - Import all the images you tagged.
+
    - Go to the DataManager (left-hand side). Refresh
    - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
    - |C| and the tag is created once. [:ref:`ImportUI008`]
