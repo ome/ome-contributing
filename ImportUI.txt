@@ -135,14 +135,14 @@ NB: **Data Manager** == **The main window of Insight UI**
      - Add one existing tag.[:ref:`ImportUI009`]
      - Import images.
 
-   - 2 new tags addition:
+   - Two new tags addition:
 
      - Select at least 2 images.
      - Go to the "options" tab. 
      - Create 2 or more tags and add them
      - Import images.
 
-   - 2 existing tags addition:
+   - Two existing tags addition:
 
      - Select at least 2 images.
      - Go to the "options" tab. 
