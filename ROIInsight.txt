@@ -18,6 +18,22 @@ ROI Insight
 
 #. Create ROIs (more than 3) of different types including Text (Text is one of ROI types).[:ref:`ROIInsight002`]
 
+#. Use a multi-t image. 
+   
+   - Create ROI and project it across all time points
+   - Delete the ROI
+   - Create new ROI, project across all time points
+   - Close Viewer
+   - Save changes when prompted
+   - |C| that the new ROI IS saved
+
+
+#. Draw a line and "break" into segments and Save
+
+   - Go to the Results tab.
+   - The length should display length per segment and the total. Same for angle.
+   - Export to Excel. The value displayed in table should be exported as such in Excel.
+
 #. Add comment to the shape (double-click on the shape and write). Tick and untick the ``Show comment`` box
 
    - |C| that the comment appears and disappears.[:ref:`ROIInsight003`]
@@ -51,7 +67,12 @@ ROI Insight
 
 #. Choose a Line-type of region.
 
-   - |C| that both Line profile and Histogram are shown.
+   - |C| that both Line profile and Histogram are shown. 
+   - Export the graph as JPEG or PNG. Only the line plot should be exported.
+   - |C| that when you hover over the line in the Graph, in case the pixel size of the image is known, it shows the tooltip with current position in microns.
+
+#. Repeat the step 2 but this time with a rectangle. Note that no Line profile will be shown in this case.
+
 
 #. Try to create new regions when on Graph pane and to propagate them
 
@@ -79,6 +100,37 @@ ROI Insight
 
 #. Intensity Results View tab.
 
+#. Check freeze at low memory does not occur.
+
+   - Reduce the default memory allocated to insight 
+
+     - right-click on Insight and click on ``Show package contents``
+     - edit the ``info.plist`` file
+     - note down what are the settings from around Line 110 of this file
+       of ``<string>-Xms&&M -Xmx&&M</string>`` (note down the numbers 
+       replaced here by ``&&``)
+     - change these settings to ``<string>-Xms64M -Xmx64M</string>``
+     
+   - Draw a rectangle and propagate the shape across few z or t
+   - Select the shape
+   - Go to "Intensity Results Tab" and add the selected shape
+   - After a while, a dialog indicating that an error occurred will pop up.
+   - Click OK and check that all the controls do not stay greyed out.
+   - Set the default memory allocated to Insight back to the same value as it was before you reduced it.
+
+#. Multi-t/z addition behaviour check
+
+   - Draw a line and propagate it across z or t.
+   - Select the shape
+   - Go to "Intensity Results Tab" and add the selected shape
+   - Wait till the results of the shapes composing the ROI are displayed in the table.
+   - Scroll to a new plane where the shape has been propagated. Check
+     that the results of the shapes composing the ROI are not added again to the table.
+   - Draw another line. Save. Select and Add it. Make sure that only 
+     rows corresponding to the new line are added.
+
+#. ``Add selected`` test1
+
    - Go away from Intensity Results View tab (i.e. select Manager tab). 
    - Still NOT being on Intensity Results View tab, select one region to add (in Results/Manager tabs or in the image itself)
    - NOW Select Intensity Results View tab (the region is still selected - do not change your selection now)
@@ -89,7 +141,12 @@ ROI Insight
    - Try ``Remove`` and ``Remove All`` buttons.
    - Add data again and Export to Excel
    - |C| the file. [:ref:`ROIInsight011`]
+   
+#. ``Add selected`` test2
 
+   - Draw a rectangle for example.
+   - Go the Intensity View Tab. Wait till the results are displayed.
+   - Go the Intensity Results View Tab, Click Add selected. the results should be displayed.
 
 
 	.. _ROIInsight001:
