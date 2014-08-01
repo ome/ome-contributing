@@ -1,0 +1,19 @@
+Memo file
+======================
+
+
+
+**To test in**: Insight, Server logs
+
+**Purpose of the test** is to check the creation of the memo file is being created and revisited when images are imported/viewed.
+
+#. Import a file, e.g ``.nd2``
+
+   - |C| that the import log in the managed repository and the Blitz log 
+     there is a line such as ``saving memo file ...`` which appears the 
+     first time the server calls the setID method
+
+#. Try to open the file you imported in the viewer.
+
+   - |C| that the import log in the managed repository and the Blitz log
+     show ``loading memo file...`` every time you open the image. 
