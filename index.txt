@@ -50,6 +50,7 @@ Testing scenarios
    OmeroDataDirFiles
    OMEROfigure
    OMEROsearcher
+   Qa
    Render
    ROIInsight
    ROIWeb

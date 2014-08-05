@@ -1,0 +1,37 @@
+QA web application testing
+=============================
+
+
+**To test in**: QA application, Web, Insight, Importer, Editor
+
+**Purpose of the test** is to check the QA Web application functionality.
+
+#. Go to https://qa.staging.openmicroscopy.org/, login and remove the date in the top row of boxes. 
+
+#. Click ``Filter`` and select one QA feedback.
+
+#. |C| that all data are displayed correctly.
+
+#. |C| that you can create a ticket on trac by clicking on ``New ticket``.
+
+#. |C| that the new ticket form shows:
+
+   - Component
+   - Milestone
+   - Keywords
+   - Version
+   - |C| that you are the pre-selected owner of the ticket, but still you can change this by using the dropdown menu
+
+#. Add existing ticket
+
+#. Upload files.
+
+#. Send feedback from 
+ 
+
+   - Web
+   - Insight
+   - Importer
+   - Editor
+   - |C| the feedbacks arrived in QA system as expected.
+
