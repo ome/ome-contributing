@@ -45,6 +45,7 @@ Testing scenarios
    ImportUI
    InsightasPluginImageJFiji
    LdapTesting
+   MemoFile
    MetadataDisplay
    MoveDataBetwGroups
    OmeroDataDirFiles
