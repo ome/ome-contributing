@@ -79,7 +79,7 @@ displayed results should be identical in both clients.
 
 #. Try search by ID: Enter a valid ID for Project, Dataset or Image, with all datatypes checked.
 
-   - |C| that the object is returned regardless of current group or group search options.
+   - |C| that the object is returned regardless of current group or group search, or ``Data owned by`` options.
    - |C| that if the search query matches other objects by other fields, they are also returned.
    - |C| that objects returned by ID appear at the top of search results.
 
