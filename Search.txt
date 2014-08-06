@@ -153,7 +153,7 @@ displayed results should be identical in both clients.
    - |C| that you can always see in the UI what date is shown (also in Results table) - there should be 2 separate columns.
    - |C| that you can sort these columns by clicking on the bar above them.
    - Note that only some image formats have reliable Acquisition dates in OMERO, e.g. ``svs``
-   - Note that only images have Acquisition dates, P/D/S/Ps have only Imported date. 
+   - Note that only images have Acquisition dates, P/D/S/Ps have only Imported date. Nevertheless, P/D/S/Ps will be found even when Acquisition date is specified only, which is a bit counter-intuitive, but expected.
    - (Insight only) |C| that you can search with an empty query but a valid dates returns results as expected.
 
 **Search Results**
