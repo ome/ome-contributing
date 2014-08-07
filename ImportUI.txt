@@ -69,7 +69,7 @@ NB: **Data Manager** == **The main window of Insight UI**
    - |C| that imports proceed smoothly to the end.
 
 
-#. De-duplication of import: Make sure you can import in 2 different groups. 
+#. De-duplication of import: Make sure you can import in two different groups. 
    Select any file, put it to the queue. 
 
    - |C| that if you select the same file again, and add it to the queue (in 
@@ -123,30 +123,30 @@ NB: **Data Manager** == **The main window of Insight UI**
 
    - One new tag addition:
 
-     - Select at least 2 images.
+     - Select at least two images.
      - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
      - Create one new tag and add it 
      - Import images.
 
    - One existing tag addition
 
-     - Select at least 2 images.
+     - Select at least two images.
      - Go to the "options" tab. 
      - Add one existing tag.[:ref:`ImportUI009`]
      - Import images.
 
    - Two new tags addition:
 
-     - Select at least 2 images.
+     - Select at least two images.
      - Go to the "options" tab. 
-     - Create 2 or more tags and add them
+     - Create two or more tags and add them
      - Import images.
 
    - Two existing tags addition:
 
-     - Select at least 2 images.
+     - Select at least two images.
      - Go to the "options" tab. 
-     - Add 2 or more existing tags.
+     - Add two or more existing tags.
      - Import all the images you tagged.
 
    - Go to the DataManager (left-hand side). Refresh
