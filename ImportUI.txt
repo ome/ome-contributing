@@ -69,7 +69,7 @@ NB: **Data Manager** == **The main window of Insight UI**
    - |C| that imports proceed smoothly to the end.
 
 
-#. De-duplication of import: Make sure you can import in 2 different groups. 
+#. De-duplication of import: Make sure you can import in two different groups. 
    Select any file, put it to the queue. 
 
    - |C| that if you select the same file again, and add it to the queue (in 
@@ -121,22 +121,39 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
 
-   - Select at least 2 images.
-   - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
-   - Create a new tag
-   - Import the images.
+   - One new tag addition:
+
+     - Select at least two images.
+     - Go to the "options" tab. The second tab when selecting the import location.[:ref:`ImportUI005`]
+     - Create one new tag and add it 
+     - Import images.
+
+   - One existing tag addition
+
+     - Select at least two images.
+     - Go to the "options" tab. 
+     - Add one existing tag.[:ref:`ImportUI009`]
+     - Import images.
+
+   - Two new tags addition:
+
+     - Select at least two images.
+     - Go to the "options" tab. 
+     - Create two or more tags and add them
+     - Import images.
+
+   - Two existing tags addition:
+
+     - Select at least two images.
+     - Go to the "options" tab. 
+     - Add two or more existing tags.
+     - Import all the images you tagged.
+
    - Go to the DataManager (left-hand side). Refresh
    - |C| that the images are tagged and the tag is shown on thumbnails [:ref:`ImportUI006`][:ref:`ImportUI007`]
    - |C| and the tag is created once. [:ref:`ImportUI008`]
-
-#. Repeat (3) and this time (for permissions testing, tag with tags belonging to other users)
-
-   - create a new tag and add an existing tag.[:ref:`ImportUI009`]
-   - Import the images
-   - Go to the DataManager (left-hand side). Refresh,
-   - |C| that the images are tagged and the tag is shown on thumbnails
-   - |C| that the tag is created once
    - |C| that no new tag is created with the name of an existing tag.
+
 
 #. In the Location dialog, press the Screen button [:ref:`ImportUI011`]
 
