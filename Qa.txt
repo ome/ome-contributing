@@ -35,8 +35,8 @@ QA web application testing
 #. Send feedback from Insight
  
 
-   - open the file ``config/container.xml`` of your Insight and, in case this is not done already (it might have been preset automatically), exchange the url on line 170 to ``https://qa.staging.openmicroscopy.org.uk/qa/initial/``
-   - in the same file and, in case this is not done already (it might have been preset automatically), exchange the url on line 171 to ``https://qa.staging.openmicroscopy.org.uk/qa/upload_processing/``
+   - open the file ``config/container.xml`` of your Insight and, in case this is not done already (it might have been preset automatically), exchange the url on line 170 to ``https://qa.staging.openmicroscopy.org/qa/initial/``
+   - in the same file and, in case this is not done already (it might have been preset automatically), exchange the url on line 171 to ``https://qa.staging.openmicroscopy.org/qa/upload_processing/``
    - Save the changes in ``config/container.xml`` and start Insigh
    - Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
    - Submit the error to the QA system using "Submit All" button in the right bottom corner [:ref:`ImportUI015b`]. 
@@ -62,6 +62,7 @@ QA web application testing
    - Go to ``Help > Send feedback``, enter a valid email address and a test message and click ``Send``
    - |C| that the feedback has arrived in the QA system
    - Add to it the ticket your created in step 4 clicking on ``Add ticket``
+   - Cause an error in Insight and submit the error to QA and |C| that the error is in the QA
 
    
 #. Send feedback from Web
@@ -70,5 +71,7 @@ QA web application testing
    - Select ``Help``
    - Dialog will open. Input a valid email and message and click ``Send``.
    - |C| that the feedback arrived in QA system. 
+   - Cause an error in Web (for example annotate an image in Web and delete it in Insight before you Save)
+   - Submit the error and |C| that you can see it in the QA
 
 
