@@ -14,8 +14,8 @@ displayed results should be identical in both clients.
 
 **Test links and tools**
 
-   - |C| that the Hints button (under ``?`` sign in Insigth and ``Show Search hints`` in Web opens and the message makes sense.
-   - |C| that the link to the Help webpage inside the Hints button works.
+#. |C| that the Hints button (under ``?`` sign in Insigth and ``Show Search hints`` in Web opens and the message makes sense.
+#. |C| that the link to the Help webpage inside the Hints button works.
 
 **Test default search**
 
@@ -157,7 +157,8 @@ displayed results should be identical in both clients.
    - (Insight only) |C| that you can search with an empty query but a valid dates returns results as expected.
 
 **Search Results**
-Go to the Search Results and select one. 
+
+#. Go to the Search Results and select one. 
 
    - (Web only) |C| that you can navigate to the result in the data tree by clicking on the link in the rightmost column of the central pane.
    - |C| that the right-hand pane is visible for P/D/S/P/I search results
