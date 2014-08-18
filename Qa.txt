@@ -37,7 +37,7 @@ QA web application testing
 
    - open the file ``config/container.xml`` of your Insight and, in case this is not done already (it might have been preset automatically), exchange the url on line 170 to ``https://qa.staging.openmicroscopy.org/qa/initial/``
    - in the same file and, in case this is not done already (it might have been preset automatically), exchange the url on line 171 to ``https://qa.staging.openmicroscopy.org/qa/upload_processing/``
-   - Save the changes in ``config/container.xml`` and start Insigh
+   - Save the changes in ``config/container.xml`` and start Insight
    - Import an image that will fail to import e.g. ``data_repo/test_images_bad/mike1_R3D.dv`` [:ref:`ImportUI014`]
    - Submit the error to the QA system using "Submit All" button in the right bottom corner [:ref:`ImportUI015b`]. 
    - Enter a valid e-mail address [:ref:`ImportUI016`]
