@@ -73,7 +73,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 #. Load the data (multiple FOVs)
 
    - Go ``OMERO > Load FLIM Data: Multiple FOVs``. Select the ``Multiple`` dataset you have created in Insight.
-   - If on a 5.x.x server then type #2 into ‘Filter by name’ window (NB # is alt 3 on OSX) & click deselect. This will load only the data from block 1.
+   - If on a 5.x.x server then type ``#2`` (or other characters which you can find in the filenames in case ``#2`` is not a part of a filename you work with) into ‘Filter by name’ window & click deselect. This will load only the data from block 1 (or other subset of data according to your selection filter).
    - In the popup check the required files are ticked then click ``Load Selected``.
    - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot] and the list of uploaded files in the top-left corner of the application [screenshot].
 
@@ -88,7 +88,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
    - Select ``Fitted Globally`` in the ``Fit Contributions`` menu.
    - Click ``Fit Dataset``.
    - After fitting is finished, go to ``Gallery`` tab in the main pane and in the ``Image`` dropdown on the bottom of the middle pane select ``tau-1``, ``tau-2``, ``beta-1``, ``beta-2``
-   - |C| that 30 images in the main pane appear each time when you change the parameter selection
+   - |C| that images in the main pane appear each time when you change the parameter selection
 
 
 
