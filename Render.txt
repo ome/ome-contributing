@@ -25,13 +25,33 @@ Render
 
    - |C| that the images in the wells update
 
-#. (Web only) Copy settings in Preview pane (right-hand side) [:ref:`RenderWeb004`] ) and paste them 
+#. (Web only)  In Preview [:ref:`RenderWeb004`], change the settings using 
 
-   - in Full Viewer of another image 
-   - in tree, using right-click menu [:ref:`RenderWeb003`].
-   - in Preview pane of another image
-   - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview)
-   - |C| that the Rendering settings were updated after Paste in all cases
+   - Sliders
+   - Color picker [:ref:`RenderWeb004b`]
+   - Switching a channel on and off
+   - In Preview, Copy one settings which were not saved do NOT paste, then 
+   - Navigate to another image, copy settings from it (settings which were saved, e.g. using right-click on the image in the tree) then
+   - Paste in Preview of a third image and |C| that the second (most recently copied) settings were pasted.
+   
+   
+   
+  
+   - Open the Full Viewer from the Preview tab using ``Launch Full Viewer`` button
+   - |C| that the Full Viewer shows the same Rnd settings as the Preview
+   - |C| that the size of the image in Full Viewer is such that it fits into the window, not smaller.
+   - Paste something into the Full Viewer and |C| that Preview updates
+   - Change the Rendering settings in Preview and press ``Save``. |C| that Full Viewer updates.
+   
+   - Copy the unsaved Rendering settings from the Preview pane of an image and Paste them
+     
+     - in Full Viewer of another image 
+     - in tree, using right-click menu [:ref:`RenderWeb003`].
+     - in Preview pane of another image
+     - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview)
+     - |C| that the Rendering settings were updated after Paste in all cases
+
+#. In context (right-click) menu, execute the ``Reset and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
 
 
 
@@ -69,6 +89,7 @@ Render
 #. Reset default settings.[:ref:`Render003`] (Web - in Full Viewer only, for one image)
 
    - |C| that thumbnails in the central pane are updated.
+   - Put here the test in Web on Plate Run
 
 #. Set min/max settings. (Insight only)
 
@@ -345,6 +366,52 @@ Render
 	   :align: center
 
 	   RenderWeb004
+
+
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _RenderWeb004b:
+	.. figure:: /images/testing_scenarios/Render/Web004b.png
+	   :align: center
+
+	   RenderWeb004b
 
 
 	|
