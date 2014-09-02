@@ -59,25 +59,13 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. Start Fiji
 
-   - |C| whether the Bio-Formats version you have in your Fiji matches the version of the ``OMERO.insight-ij*`` plugin (for example Bio-Formats 4 with OMERO 4 ``OMERO.insight-ij*`` plugin). To check the Bio-Formats version, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`].
-
 #. Go ``Help`` > ``Update Fiji`` -> the update process will start.
 
-#. When update is finished, press ``Manage Update Sites`` button [:ref:`InsightIJI008`, :ref:`InsightIJI008b`]
+   - |C| whether the Bio-Formats version you have in your Fiji matches the version of the ``OMERO.insight-ij*`` plugin (for example Bio-Formats 5 with OMERO 5``OMERO.insight-ij*`` plugin). To check the Bio-Formats version, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that Fiji no longer supports Bio-Formats 4 and thus the ``OMERO.insight-ij*`` must be OMERO 5 to work with Fiji.
 
-   - note that a freshly downloaded Fiji or a never-updated Fiji will not have the Bio-Formats box ticked
-   - select the Bio-Formats box (or Bio-Formats 5 box in older Fiji versions)
-   - close the ``Manage Update Sites`` window
+#. Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji - on Mac, use rigth-click on Fiji icon & ``Show package content`` [:ref:`InsightIJI003`] to get to ``Plugins`` 
 
-#. Bio-Formats 4 -> Bio-Formats 5 switch workflow and Bio-Formats 5 upgrades (e.g. BF 5.0.0 -> BF 5.0.1) workflow
-
-   - a list of jars to update will be displayed in the Fiji updater window after you ticked Bio-Formats box (or Bio-Formats 5 box in older Fiji versions) and closed the ``Manage Update Sites`` window [:ref:`InsightIJI009`] . 
-   - click ``Apply changes``
-   - Quit Fiji
-   - Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji - on Mac, use rigth-click on Fiji icon & ``Show package content`` [:ref:`InsightIJI003`] to get to ``Plugins`` 
-   - Start Fiji
-
-
+#. Restart Fiji
 
 #. Go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
 
@@ -91,8 +79,6 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 #. Double-click on the image and then click ``OK`` in the ``Bio-Formats Import Options`` window [:ref:`InsightIJI006`].
 
    - |C| that the image opens in Fiji.
-
-**Note** that trying to go from Bio-Formats 5 -> Bio-Formats 4 in Bio-Formats version in Fiji will not work.
 
 
 **Note**  that during the update, there might be a problem with the class ``org.joda.time.Instant`` which can be found here:
