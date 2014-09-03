@@ -12,9 +12,11 @@ QA web application testing
 
 #. |C| that all data are displayed correctly.
 
-#. Click on ``New ticket`` and select ``Fake trac`` in the ``System`` menu. 
+#. Click on ``New ticket`` and select ``Trac`` in the ``System`` menu. 
+
+   - |C| that the trac domain (the top item on the list) points to the test trac.
    
-   - |C| that you can create a ticket on the ``Fake trac``.
+   - |C| that you can create a ticket on the ``Trac``.
 
 #. |C| that the new ticket form shows:
 
@@ -22,6 +24,8 @@ QA web application testing
    - Milestone
    - Keywords
    - Version
+   - Priority
+   - CC
    - |C| that you are the pre-selected owner of the ticket, but still you can change this by using the dropdown menu
 
 #. Upload files.
@@ -29,7 +33,7 @@ QA web application testing
    - log out
    - click send files
    - add your email address and select few files, click send
-   - go to the newly created feedback and check if all data is displayed correctly, also go to squig and check if files are saved in /Volumes/ome/apache_repo/FEEDBACK_ID/
+   - go to the newly created feedback and check if all data is displayed correctly, also ssh to ``yourldapname@pqa.staging.openmicroscopy.org`` and cd into ``/opt/qa-filestore`` - |C| if files are saved in subfolders with names matching the feedback numbers.
    - log in, check if all are displayed on the feedback page
 
 #. Send feedback from Insight
