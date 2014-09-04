@@ -7,7 +7,7 @@ General Release
 ##############################################
 
 
-**Purpose of the test** is to make sure the particular application on the release day is built correctly and starts and connects and opens an image as expected (when applicable).
+**Purpose of the test** is to make sure the particular application on the release day is built correctly, starts, connects and opens an image as expected (when applicable).
 
 **Click onto the application you are assigned to test in the Contents above**
 
@@ -41,7 +41,7 @@ OMERO.server
 #. Configure the server.
 #. Start the server and the web server.
 
-   - |C| that the server starts as expected
+   - |C| that the server starts as expected.
 
 #. Download and open OMERO.insight and go to the appropriate port address in your web browser to login to OMERO.web.
 #. Login in OMERO.insight and OMERO.web connecting to the server you just started.
@@ -52,14 +52,14 @@ OMERO.server
 Webstart
 ============================================================
 
-#. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new java versions !
+#. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new java versions!
 
 #. Download and deploy the release server or use one which was deployed for you and start OMERO.web. **Note that the setups of servers for this purpose is under construction, you have to check what is deployed for you on the day of testing.**
 
   
    - Choice of browser is prescribed in the Trello card, but be sure to have checked Firefox on Windows on the client side (once for any server is enough).
    - |C| that Webstart works from webclient (login to OMERO.web). 
-   - |C| that the application starts (see examples below), 
+   - |C| that the application starts (see examples below).
    - |C| that you can connect and expand a dataset and open an image.
 
 Examples of expected events:
@@ -81,7 +81,7 @@ Chrome 31.0, java "1.7.0_45"
 
    - OMERO webstart window appears: click on Webstart logo.
    - An arrow indicating Download of the ``.jnlp`` file appears shortly, then click ``Show all downloads`` link which appears in the bottom-left corner of the OMERO webstart window.
-   - Select the .jnlp file from the appearing list and confirm that you want to ``Keep`` and ``Keep anyway`` in two consecutive popups.
+   - Select the ``.jnlp`` file from the appearing list and confirm that you want to ``Keep`` and ``Keep anyway`` in two consecutive popups.
    - After this, you can click on the ``.jnlp`` file.
    - Downloading window appears shortly.
    - Security Warning popup appears: popup: click ``I accept...`` and then click ``Run``.
@@ -95,7 +95,7 @@ Any browser on any Mac OS X system with any Java:
      the option ``App store and identified developers`` is selected, you 
      will not be able to start webstart because of security blockage by 
      Mac OS X. In order to perform the tests, you have to select 
-     ``Anywhere``. Alternatively, you can launch the .jnlp file from your Downloads folder using right-click. (This alternative does not work for Firefox.)
+     ``Anywhere``. Alternatively, you can launch the ``.jnlp`` file from your Downloads folder using right-click. (This alternative does not work for Firefox.)
 
 Safari 6.0.5 and 6.1.1, OS X 10.8.5, java "1.7.0_21" and "1.7.0_45"
 
@@ -120,11 +120,11 @@ Firefox 21.0, OS X 10.8.5, java "1.7.0_21":
 
 Firefox 27.0, OS X 10.6.8, java "1.6.0_26"
 
-   - Webstart does not work: redirection to a java update information website with info about updates happens instead. When these updates are applied, it does not help.
+   - Webstart does not work: redirection to a Java update information website with info about updates happens instead. When these updates are applied, it does not help.
 
 Chrome 31.0.1650.63, OS X 10.8.5, java "1.7.0_21":
 
-   - Webstart does not work: redirection to a java update information website with info about updates happens instead. When these updates are applied, it does not help.
+   - Webstart does not work: redirection to a Java update information website with info about updates happens instead. When these updates are applied, it does not help.
 
 
 
@@ -155,7 +155,7 @@ OMERO.matlab toolbox
    - |C| that all 7 commands executed without errors.
    - |C| that after ``figure; imshow(plane, []);`` the image is displayed in Matlab.
 
-#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to an Project.
+#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the paragraph ``Create a Dataset...`` under ``Writing`` section. Follow the commands to create a Dataset and link it to a Project.
 
    - |C| that a Dataset was created.
 
@@ -163,7 +163,7 @@ OMERO.matlab toolbox
 
    - |C| that a ROI was created.
 
-#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the section ``Deleting data``. Follow the commands to Delete an image, a Dataset and a Project.
+#. Go to :omerodoc:`Matlab docs <developers/Matlab.html>` and find the section ``Deleting data``. Follow the commands to Delete an Image, a Dataset and a Project.
 
    - |C| that the I/D/P was deleted.
 
@@ -208,7 +208,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 #. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
    - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu.
-   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu.
+   - |C| that there is a ``Bio-Formats`` menu item under the ``Plugins`` menu.
 
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Importer`` and import a small image (any small image will do).
 
@@ -216,7 +216,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
 #. Leave the imported image open in ImageJ and Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Exporter`` and export this image.
 
-   - |C| that the image exports successfull.y
+   - |C| that the image exports successfully.
 
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog that pops up.
 
@@ -236,19 +236,19 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 #. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
    - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use the ``Bio-Formats`` menu
-   - |C| that there is ``Bio-Formats`` menu item under the ``Plugins`` menu
+   - |C| that there is a ``Bio-Formats`` menu item under the ``Plugins`` menu
 
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Importer`` and import a small image (any small image will do).
 
-   - |C| that the image imports successfully
+   - |C| that the image imports successfully.
 
 #. Leave the imported image open in ImageJ and select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Exporter`` and export this image.
 
-   - |C| that the image exports successfully
+   - |C| that the image exports successfully.
 
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and  paste the URL ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog that pops up
 
-   - |C| that the image imports successfully
+   - |C| that the image imports successfully.
 
 #. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
 
@@ -257,7 +257,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
 
    - |C| that the version number in the brackets shows the most recent stable release number.
-   - |C| that you can execute the updates
+   - |C| that you can execute the updates.
    - |C| that after you have updated, the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
 
 
@@ -284,7 +284,7 @@ Bio-Formats command-line tools
     $ touch test.fake
     $ ./bfconvert test.fake test.ome.tiff
    
-   - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created
+   - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created.
 
 
 
