@@ -141,6 +141,8 @@ OMERO.matlab toolbox
 ::
 
     client = loadOmero(hostname);
+    % to use a different port than the default one.
+    % client = loadOmero(hostname, port);
     session = client.createSession(username, password);
     image = getImages(session, imageID);
     plane = getPlane(session, image, 0, 0, 0);
