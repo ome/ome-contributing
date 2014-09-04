@@ -33,7 +33,7 @@ QA web application testing
    - log out
    - click send files
    - add your email address and select few files, click send
-   - go to the newly created feedback and check if all data is displayed correctly, also ssh to ``yourldapname@pqa.staging.openmicroscopy.org`` and cd into ``/opt/qa-filestore`` - |C| if files are saved in subfolders with names matching the feedback numbers.
+   - go to the newly created feedback and check if all data is displayed correctly, also ssh to ``yourldapname@qa.staging.openmicroscopy.org`` and cd into ``/opt/qa-filestore`` - |C| if files are saved in subfolders with names matching the feedback numbers.
    - log in, check if all are displayed on the feedback page
 
 #. Send feedback from Insight
