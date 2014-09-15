@@ -25,7 +25,7 @@ Render
 
    - |C| that the images in the wells update
 
-#. (Web only)  In Preview [:ref:`RenderWeb004`], change the settings using 
+#. In Preview [:ref:`RenderWeb004`], change the settings using 
 
    - Sliders
    - Color picker [:ref:`RenderWeb004b`]
@@ -52,6 +52,16 @@ Render
      - |C| that the Rendering settings were updated after Paste in all cases
 
 #. In context (right-click) menu, execute the ``Reset and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
+
+
+#. Min Max
+
+   - Import few images
+   - |C| that for each channel the start-end is set to the min-max
+   - Select images imported previously (not the newly imported ones)
+   - Click ``Imported`` (Insight) or 
+   - |C| that for each channel start-end = min-max
+
 
 
 
@@ -86,7 +96,7 @@ Render
    - re-open ``image-1``
    - |C| that the rendering settings are as saved last time and the Full Viewer and thumb correspond
 
-#. Reset default settings.[:ref:`Render003`] (Web - in Full Viewer only, for one image)
+#. Reset imported settings.[:ref:`Render003`] (Web - in Full Viewer only, for one image)
 
    - |C| that thumbnails in the central pane are updated.
    - |C| that when you select Plate Run in Web and ``Reset Default Settings``, no error occurs.
