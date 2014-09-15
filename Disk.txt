@@ -1,0 +1,38 @@
+Disk usage report
+==============================
+
+
+
+**To test in**: Command line interface
+
+**Purpose of the test** is to check that the disk usage reporting on cmd line works as expected.
+
+#. Download cmd line interface (for example a server from CI). Login and connect to the CI server mentioned in the testing setup (e.g. trout) as user prescribed for you in the testing setup (e.g. user-2). 
+
+#. Execute ``bin/omero user list`` to find out which ``Experimenter`` corresponds to your username.
+
+#. Execute following command: ``bin/omero fs usage Experimenter:X --report`` replacing the ``X`` accordingly so that it corresponds to "you".
+
+#. |C| that the output looks similar to
+
+
+::
+
+
+   Using session dc81f7a7-9df2-4a4c-914f-67a9303bbd0b (root@localhost:4064). Idle timeout: 10.0 min. Current group: system
+   Total disk usage: 77381259 bytes in 99 files
+   component    | size (bytes) | files 
+   --------------+--------------+-------
+   Thumbnail    | 19923        | 16    
+   Job          | 238338       | 5     
+   Annotation   | 36083        | 2     
+   FilesetEntry | 76817458     | 60    
+   OriginalFile | 305540       | 18    
+
+
+#. |C| that in case your user has Big images and/or OMERO 4 images, there is also the entry ``Pixeldata`` in the output table.
+
+#. Execute the command ``bin/omero fs usage Experimenter:X --report`` replacing the ``X`` accordingly so that it corresponds to a user of a private group which is not "you". 
+
+   - |C| that the output of the command is zero this time.
+

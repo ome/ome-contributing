@@ -29,6 +29,7 @@ Testing scenarios
    DeleteWithPerm
    DeleteImageBinaryDataServer
    DeleteROI
+   Disk
    DownloadExportDowngrade
    Edit
    EditorfromInsight
