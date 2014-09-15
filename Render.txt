@@ -41,7 +41,7 @@ Render
    - |C| that the Full Viewer shows the same Rnd settings as the Preview
    - |C| that the size of the image in Full Viewer is such that it fits into the window, not smaller.
    - Paste something into the Full Viewer and |C| that Preview updates
-   - Change the Rendering settings in Preview and press ``Save``. |C| that Full Viewer updates.
+   - Change the Rendering settings in Full Viewer and press ``Save``. |C| that Preview updates.
    
    - Copy the unsaved Rendering settings from the Preview pane of an image and Paste them
      
@@ -89,7 +89,7 @@ Render
 #. Reset default settings.[:ref:`Render003`] (Web - in Full Viewer only, for one image)
 
    - |C| that thumbnails in the central pane are updated.
-   - Put here the test in Web on Plate Run
+   - |C| that when you select Plate Run in Web and ``Reset Default Settings``, no error occurs.
 
 #. Set min/max settings. (Insight only)
 
