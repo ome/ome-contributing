@@ -51,6 +51,7 @@ Testing scenarios
    OmeroDataDirFiles
    OMEROfigure
    OMEROsearcher
+   Pixelservice
    Qa
    Render
    ROIInsight
