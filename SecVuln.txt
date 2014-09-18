@@ -17,16 +17,16 @@ Security Vulnerability
       $ bin/omero user add secvuln_empty secvuln_empty secvuln_empty secvuln_test
 
    - Enter `ome` when prompted for the password.
-   - |C| ``$ bin/omero login -u secvuln_empty -w anypassword`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_empty -w anypassword`` creates a session
 
 #. Create a user via the CLI with a full unicode password::
 
       $ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -P ążćę
 
-   - |C| ``$ bin/omero login -u secvuln_unicode`` creates a session after entering `żćąę` in the interactive password prompt
-   - |C| ``$ bin/omero login -u secvuln_unicode -w żćąę`` creates a session
-   - |C| ``$ bin/omero login -u secvuln_unicode -w ążćę`` creates a session
-   - |C| ``$ bin/omero login -u secvuln_unicode -w ???`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode`` creates a session after entering `żćąę` in the interactive password prompt
+   - |C| ``$ bin/omero login -C -u secvuln_unicode -w żćąę`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode -w ążćę`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode -w ???`` creates a session
 
 #. Upgrade the server with a version containing the security vulnerability
    patch
@@ -36,14 +36,14 @@ Security Vulnerability
       $ bin/omero user add secvuln_empty_fix secvuln_empty_fix secvuln_empty_fix secvuln_test
 
    - Enter `ome` when prompted for the password.
-   - |C| ``$ bin/omero login -u secvuln_empty_fix -w anypassword`` fails to create a session
-   - |C| ``$ bin/omero login -u secvuln_empty_fix -w ome`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_empty_fix -w anypassword`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_empty_fix -w ome`` creates a session
 
 #. Create a user via the CLI with a full unicode password::
 
       $ bin/omero user add secvuln_unicode_fix secvuln_unicode_fix secvuln_unicode_fix secvuln_test -P ążćę
 
-   - |C| ``$ bin/omero login -u secvuln_unicode -w ążćę`` creates a session
-   - |C| ``$ bin/omero login -u secvuln_unicode_fix`` fails to create a session  after entering `żćąę` in the interactive password prompt
-   - |C| ``$ bin/omero login -u secvuln_unicode_fix -w żćąę`` fails to create a session
-   - |C| ``$ bin/omero login -u secvuln_unicode_fix -w ???`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode -w ążćę`` creates a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix`` fails to create a session  after entering `żćąę` in the interactive password prompt
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w żćąę`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ???`` fails to create a session
