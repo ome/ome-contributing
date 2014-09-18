@@ -57,6 +57,7 @@ Testing scenarios
    ROIWeb
    ScriptsClient
    Search
+   SecVuln
    Share
    ScreenPlateWell
    StressPerformance

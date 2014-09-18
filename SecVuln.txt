@@ -1,0 +1,29 @@
+Security Vulnerability
+======================
+
+
+**To test in**: CLI
+
+**Purpose of the test** is to check the security vulnerability
+
+#. Setup a 4.4.11/5.0.4 server
+
+#. Create a group for testing the user creation::
+ 
+     $ bin/omero group add secvuln_test
+
+#. Create an user via the CLI with interactive password prompt
+  
+   - ``$ bin/omero user add secvuln_empty secvuln_empty secvuln_empty secvuln_test``
+   - Enter `ome` when prompted for the password.
+   - |C| ``$ bin/omero login -u secvuln_empty -w anypassword`` creates a session
+
+#. Create an user via the CLI with a full unicode password
+
+   - ``$ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -W ążćę``
+   - |C| ``$ bin/omero login -u secvuln_unicode`` works with `żćąę`
+   - |C| ``$ bin/omero login -u secvuln_unicode -w żćąę`` works
+
+#. Upgrade the server with a version containing the patch
+
+
