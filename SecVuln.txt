@@ -26,7 +26,9 @@ Security Vulnerability
    - |C| ``$ bin/omero login -C -u secvuln_unicode`` creates a session after entering `żćąę` in the interactive password prompt
    - |C| ``$ bin/omero login -C -u secvuln_unicode -w żćąę`` creates a session
    - |C| ``$ bin/omero login -C -u secvuln_unicode -w ążćę`` creates a session
-   - |C| ``$ bin/omero login -C -u secvuln_unicode -w ???`` creates a session
+   - |C| ``$ bin/omero login -C g-u secvuln_unicode -w '????'`` creates a session
+   - |C| ``$ bin/omero login -C g-u secvuln_unicode -w '??'`` fails to create a session
+   - |C| ``$ bin/omero login -C g-u secvuln_unicode -w '?'`` fails to create a session
 
 #. Upgrade the server with a version containing the security vulnerability
    patch
@@ -46,4 +48,6 @@ Security Vulnerability
    - |C| ``$ bin/omero login -C -u secvuln_unicode -w ążćę`` creates a session
    - |C| ``$ bin/omero login -C -u secvuln_unicode_fix`` fails to create a session  after entering `żćąę` in the interactive password prompt
    - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w żćąę`` fails to create a session
-   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ???`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ????`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ??`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ?`` fails to create a session
