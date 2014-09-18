@@ -51,3 +51,8 @@ Security Vulnerability
    - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ????`` fails to create a session
    - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ??`` fails to create a session
    - |C| ``$ bin/omero login -C -u secvuln_unicode_fix -w ?`` fails to create a session
+
+#. Run the SQL script allowing to disable users with empty password
+
+   - |C| ``$ bin/omero login -C -u secvuln_empty -w anypassword`` fails to create a session
+   - |C| ``$ bin/omero login -C -u secvuln_empty -w ome`` fails to create a session
