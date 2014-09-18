@@ -21,7 +21,7 @@ Security Vulnerability
 
 #. Create a user via the CLI with a full unicode password::
 
-      $ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -w ążćę
+      $ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -P ążćę
 
    - |C| ``$ bin/omero login -u secvuln_unicode`` creates a session after entering `żćąę` in the interactive password prompt
    - |C| ``$ bin/omero login -u secvuln_unicode -w żćąę`` creates a session
@@ -41,7 +41,7 @@ Security Vulnerability
 
 #. Create a user via the CLI with a full unicode password::
 
-      $ bin/omero user add secvuln_unicode_fix secvuln_unicode_fix secvuln_unicode_fix secvuln_test -w ążćę
+      $ bin/omero user add secvuln_unicode_fix secvuln_unicode_fix secvuln_unicode_fix secvuln_test -P ążćę
 
    - |C| ``$ bin/omero login -u secvuln_unicode -w ążćę`` creates a session
    - |C| ``$ bin/omero login -u secvuln_unicode_fix`` fails to create a session  after entering `żćąę` in the interactive password prompt
