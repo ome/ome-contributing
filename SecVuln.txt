@@ -12,14 +12,14 @@ Security Vulnerability
 
      $ bin/omero group add secvuln_test
 
-#. Create an user via the CLI with interactive password prompt::
+#. Create a user via the CLI with interactive password prompt::
 
       $ bin/omero user add secvuln_empty secvuln_empty secvuln_empty secvuln_test
 
    - Enter `ome` when prompted for the password.
    - |C| ``$ bin/omero login -u secvuln_empty -w anypassword`` creates a session
 
-#. Create an user via the CLI with a full unicode password::
+#. Create a user via the CLI with a full unicode password::
 
       $ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -w ążćę
 
@@ -30,7 +30,7 @@ Security Vulnerability
 #. Upgrade the server with a version containing the security vulnerability
    patch
 
-#. Create an user via the CLI with interactive password prompt::
+#. Create a user via the CLI with interactive password prompt::
 
       $ bin/omero user add secvuln_empty_fix secvuln_empty_fix secvuln_empty_fix secvuln_test
 
@@ -38,7 +38,7 @@ Security Vulnerability
    - |C| ``$ bin/omero login -u secvuln_empty_fix -w anypassword`` fails to create a session
    - |C| ``$ bin/omero login -u secvuln_empty_fix -w ome`` creates a session
 
-#. Create an user via the CLI with a full unicode password::
+#. Create a user via the CLI with a full unicode password::
 
       $ bin/omero user add secvuln_unicode_fix secvuln_unicode_fix secvuln_unicode_fix secvuln_test -w ążćę
 
