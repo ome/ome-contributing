@@ -91,7 +91,18 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode_fix -w '?'``
    - |C| the CLI fails to create a session
 
-#. Run the SQL script allowing to disable users with empty password
+#. Run the SQL script allowing the sysadmin to list users with empty
+   password::
+
+        $  psql omero -f sql/psql/OMERO5.0__0/list-empty-permission.sql
+
+   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the 
+     output of the SQL script
+
+#. Run the SQL script allowing the sysadmin to disable users with empty
+   password::
+
+        $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permission.sql
 
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w anypassword``
    - |C| the CLI fails to create a session
