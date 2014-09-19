@@ -91,6 +91,12 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode_fix -w '?'``
    - |C| the CLI fails to create a session
 
+#. Create a user with no password via the CLI::
+
+      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+
+   - |C| the CLI throws an exception at creation time
+
 #. Run the SQL script allowing the sysadmin to list users with empty
    password::
 
@@ -110,12 +116,6 @@ Security Vulnerability
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
    - |C| the CLI fails to create a session
-
-#. Create a user with no password via the CLI::
-
-      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
-
-   - |C| the CLI throws an exception at creation time
 
 #. Optionally, test the `omero.security.password_required` configuration
    property
