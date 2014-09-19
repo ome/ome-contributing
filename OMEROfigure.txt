@@ -1,5 +1,10 @@
+.. contents::
+   :depth: 2
+
+
+##############################################
 OMERO.figure
-===============
+##############################################
 
 
 
@@ -11,6 +16,10 @@ OMERO.figure
 #. Go to http://webfigure.openmicroscopy.org/omero/figure/ and connect to the appropriate server as indicated in the spreadsheet. Also, start an OMERO.web instance in another tab of your browser by pasting in http://webfigure.openmicroscopy.org/omero/webclient. Login to the webclient in either OMERO.web or OMERO.figure tab.
 
 #. This first series of tests checks that saved and unsaved changes are not lost inadvertantly. Creating unsaved figure can be easily done by adding a single image to a new figure (note an image ID from the webclient). If you need to make more changes, simply copy, paste and move or edit the panel.
+
+
+Saving files to OMERO
+============================================================
 
 **Test that saved figures are not lost**
 
@@ -138,6 +147,109 @@ OMERO.figure
 #. Export the figure as .pdf, using the button in the top right-hand corner.
 
 #. Go to the YouTube video http://www.youtube.com/watch?v=TNt821F-unE, watch it and submit feedback on possible improvements.
+
+
+Layout of image panels, paper setup
+============================================================
+
+#. Add several images (all same width & height) to a new Figure.
+
+   - |C| that they are laid out as a grid that fills the width of the paper and all are selected.
+   - |C| that delete key removes selected panels.
+   - |C| that delete button in top toolbar removes selected panels.
+   - |C| that delete button is only enabled when one or more panels are selected.
+
+#. De-select panels by clicking on empty canvas space. Select by clicking/dragging on panels:
+
+   - |C| that single click on a panel selects only that panel (other de-selected).
+   - |C| that shift-click adds panel to selection (others not de-selected).
+   - |C| that dragging-selection, starting on empty space, selects all panels covered by selection.
+   - |C| that shift dragging adds selected panels to selection (others not de-selected).
+
+#. Move & resize panels by dragging & keys:
+
+   - |C| that click -> drag on unselected panel selects it and starts drag.
+   - |C| that click -> drag on selected panel / panels moves them without changing selection.
+   - |C| that up, down, left, right keys nudge all selected panels in the correct direction.
+   - |C| that dragging on corner handles resizes all selected panels, maintaining width/height ratio.
+   - |C| that dragging on side handle stretches width or height alone.
+
+#. Align & resize selected images with toolbar buttons:
+
+   - |C| that alignment buttons are only enabled when more than one panel is selected.
+   - |C| that 'align left' aligns all selected panels to the left-most selected panel.
+   - |C| that 'align to grid' snaps all selected panels to grid, starting at top-left panel.
+   - |C| that 'align top' aligns all selected panels to the top-most selected panel.
+   - |C| that 'align sizes' (width, height and width & height) resize all panels to match the dimensions of top-left selected panel.
+
+#. Copy and Paste duplicate panels into grid layout:
+
+   - |C| that copy & paste works with keyboard short-cuts.
+   - |C| that copy & paste works with Menu items: Edit -> Copy/Paste.
+   - |C| that copy & paste of a 'column' of panels duplicates it to the right.
+   - |C| that copy & paste of a 'row' of panels duplicates it to the bottom.
+
+#. Finally, export to PDF
+   - |C| that layout corresponds to web UI.
+
+
+Preview Tab
+============================================================
+
+#. Add image with multiple Z sections. Select panel and 'Preview' tab:
+
+   - |C| that Z slider is shown beside viewer in Preview tab.
+   - |C| that current Z / total Z numbers are shown at bottom of slider.
+   - |C| that sliding Z updates Z number while sliding.
+   - |C| that when sliding stops, Preview viewer and selected panel update.
+   - |C| that Undo/Redo toggles to the previous Z-section.
+   - |C| that clicking the ^ and v buttons increment Z by 1, but stops at 1 or sizeZ.
+
+#. Copy and paste to duplicate image with multiple Z sections. Adjust Z on ONE of them, then select both:
+
+   - |C| that Z slider is shown and is enabled.
+   - |C| that current Z is - / total Z at bottom of slider.
+   - |C| that clicking the ^ and v buttons increment Z by 1 (Z still different between panels)
+   - |C| that sliding Z updates Z number while sliding.
+   - |C| that when sliding stops, Preview viewer and selected panel update.
+   - |C| that current Z number is now shown (both panels same Z)
+
+#. Check behaviour of T-slider is same as Z-slider for all tests above.
+
+   - |C| that for images that have timestamp data, time in hrs:mins:secs is shown while sliding.
+
+#. Select 2 images with different number of Z-sections.
+
+   - |C| that Z-slider is disabled.
+
+#. Select 2 images with different number of T-sections.
+
+   - |C| that T-slider is not disabled, but T-section is restricted to smaller sizeT.
+
+#. Select a panel with multiple Z, note Z-section, turn on Z-projection:
+
+   - |C| that Z slider has 2 handles, +/- 2 from previous Z-section.
+   - |C| that Preview viewer and selected panel show Z-projected images.
+   - |C| that current Z-range is shown: start-end / total Z at bottom of slider.
+   - |C| that clicking the ^ and v buttons increment Z-start and stop by 1.
+   - |C| that dragging each slider updates start or end of Z-range.
+   - |C| that turning Z-projection off returns to single Z-selection.
+   - |C| that single Z-selection is mid-way between Z-start & end when projection is toggled.
+   - |C| that range of Z-start to Z-end is maintained when projection is toggled.
+
+#. Finally, export to PDF to check that it looks same
+
+
+Labels Tab
+============================================================
+
+#. Finally, export to PDF to check that it looks same
+
+
+Info Tab
+============================================================
+
+#. Finally, export to PDF to check that it looks same
 
 
 
