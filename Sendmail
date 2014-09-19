@@ -7,4 +7,7 @@ Send e-mail
 
 **Purpose of the test** is to check that the email sending by admin functionality works fine.
 
-Login as an owner, 
+#. Login as an owner, normal user, admin.
+#. Login as LDAP user, pick a user from a list here.
+#. Use the ``Forgotten password`` link in Web and 
+#. Go to the admin tab and send email ? Or login to the server and do it via python somehow ?
