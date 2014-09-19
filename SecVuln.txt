@@ -14,6 +14,13 @@ Security Vulnerability
 
      $ bin/omero group add secvuln_test
 
+#. Create a user with no password via the CLI with interactive password prompt::
+
+      $ bin/omero user add secvuln_no_password secvuln_no_password secvuln_no_password secvuln_test --no-password
+
+   - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
+   - |C| a session is created
+
 #. Create a user via the CLI with interactive password prompt::
 
       $ bin/omero user add secvuln_empty secvuln_empty secvuln_empty secvuln_test
@@ -90,3 +97,26 @@ Security Vulnerability
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w ome``
    - |C| the CLI fails to create a session
+   - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
+   - |C| the CLI fails to create a session
+
+#. Create a user with no password via the CLI::
+
+      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+
+   - |C| the CLI throws an exception at creation time
+
+#. Optionally, test the `omero.security.password_required` configuration
+   property
+
+   - Stop the server
+   - Allow empty password when creating users::
+
+      $ bin/omero config set omero.security.password_required false
+
+   - Restart the server
+   - Create a user with no password via the CLI::
+
+      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+   - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
+   - |C| a session created
