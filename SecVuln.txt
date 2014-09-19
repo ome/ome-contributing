@@ -97,16 +97,15 @@ Security Vulnerability
 
    - |C| the CLI throws an exception at creation time
 
-#. Run the SQL script allowing the sysadmin to list users with empty
-   password::
+#. Run the SQL script as a sysadmin which lists users with empty passwords::
 
         $  psql omero -f sql/psql/OMERO5.0__0/list-empty-permission.sql
 
    - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the 
      output of the SQL script
 
-#. Run the SQL script allowing the sysadmin to disable users with empty
-   password::
+#. Run the SQL script as a sysadmin which disables users with empty
+   passwords::
 
         $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permission.sql
 
