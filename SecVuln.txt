@@ -8,6 +8,8 @@ Security Vulnerability
 
 #. Setup a 4.4.11/5.0.4 server
 
+#. Download the 4.4.11/5.0.4 CLI or use the one with the server
+
 #. Create a group for testing the user creation::
 
      $ bin/omero group add secvuln_test
@@ -30,8 +32,10 @@ Security Vulnerability
    - |C| ``$ bin/omero login -C g-u secvuln_unicode -w '??'`` fails to create a session
    - |C| ``$ bin/omero login -C g-u secvuln_unicode -w '?'`` fails to create a session
 
-#. Upgrade the server with a version containing the security vulnerability
-   patch
+#. Upgrade the server to 4.4.12/5.0.5
+
+#. Download the 4.4.12/5.0.5 CLI or use the one with the server. Use this new
+   CLI for the following tests.
 
 #. Create a user via the CLI with interactive password prompt::
 
