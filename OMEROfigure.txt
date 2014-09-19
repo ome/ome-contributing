@@ -237,6 +237,55 @@ Preview Tab
    - |C| that single Z-selection is mid-way between Z-start & end when projection is toggled.
    - |C| that range of Z-start to Z-end is maintained when projection is toggled.
 
+#. Select a multi-channel image:
+
+   - |C| that the channels are shown as 'toggle' buttons beside Preview viewer.
+   - |C| that channels can be turned on and off by clicking toggle buttons.
+   - |C| that Preview viewer and selected panel images are updated.
+   - |C| that Channel color can be changed via drop-down button beside toggle buttons.
+   - |C| that Channel sliders behave as expected & update viewer and panel on stop.
+
+#. Select multiple images with the same channel count.
+
+   - |C| that channel ON/OFF & colour changes are applied to all selected images.
+   - Turn a channel ON in one panel and OFF in another. Select both.
+   - |C| that if toggling the channel turns it ON in all selected panels.
+   - Change channel color in one panel and select both.
+   - |C| that a 'null' grey color is shown on the toggle button.
+   - |C| that picking a new color is applied to all selected panels.
+   - Change channel sliders start/end to different values in different panels. Select both.
+   - |C| that start/end numbers are replaced by - where values are not same in all panels.
+   - |C| that changing start/end values applies to all panels & value replaces -.
+
+#. Select multiple images with different channel counts.
+
+   - |C| that channel toggle buttons and channel sliders are not shown.
+
+#. Test behaviour of Zoom and Pan. Select a panel.
+
+   - |C| that changing Zoom slider updates viewer while sliding.
+   - |C| that stop of Zoom slider updates selected panel too.
+   - |C| that dragging the viewer image pans the viewer.
+   - |C| that when dragging ends, the selected panel updates too.
+   - |C| that Zooming back out to 100% resets the panning to zero offset.
+
+#. Test rotation of panels.
+
+   - |C| that rotation slider is shown when rotation icon clicked.
+   - |C| that while sliding rotation, viewer is updated.
+   - |C| that when rotation sliding stops, selected panel updates too.
+   - |C| that rotation of the image is centered on the centre of the viewer.
+   - Zoom and drag to pan the rotated image in the viewer.
+   - |C| that the zooming and panning behaves correctly.
+   - |C| that additional rotation is centered on the new centre.
+
+#. Select multiple panels.
+
+   - |C| that rotation and zoom sliders show average values.
+   - |C| that update to zoom syncronises zoom but not panning in selected panels.
+   - |C| that update to rotation syncronises rotation in selected panels.
+   - |C| that dragging on viewer image pans to same spot for all selected panels.
+
 #. Finally, export to PDF to check that it looks same
 
 
