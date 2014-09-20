@@ -12,10 +12,12 @@ Security Vulnerability
 
 #. Create a group for testing the user creation::
 
+     $ bin/omero login -u root -w root_password
      $ bin/omero group add secvuln_test
 
 #. Create a user with no password via the CLI with interactive password prompt::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_no_password secvuln_no_password secvuln_no_password secvuln_test --no-password
 
    - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
@@ -23,9 +25,10 @@ Security Vulnerability
 
 #. Create a user via the CLI with interactive password prompt::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_empty secvuln_empty secvuln_empty secvuln_test
 
-   Enter `ome` when prompted for the password.
+   Enter ``ome`` when prompted for the password and confirm it.
 
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w anypassword``
    - |C| a session is created
@@ -34,6 +37,7 @@ Security Vulnerability
 
 #. Create a user via the CLI with a full unicode password::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_unicode secvuln_unicode secvuln_unicode secvuln_test -P ążćę
 
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode``
@@ -46,11 +50,11 @@ Security Vulnerability
    - |C| a session is created
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w żćąę``
    - |C| a session is created
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode -w '????'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w '????'``
    - |C| a session is created
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode -w '??'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w '??'``
    - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode -w '?'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w '?'``
    - |C| the CLI fails to create a session
 
 #. Upgrade the server to 4.4.12/5.0.5
@@ -60,6 +64,7 @@ Security Vulnerability
 
 #. Create a user via the CLI with interactive password prompt::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_empty_fix secvuln_empty_fix secvuln_empty_fix secvuln_test
 
    Enter `ome` when prompted for the password.
@@ -69,9 +74,9 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty_fix -w ome``
    - |C| a session is created
 
-
 #. Create a user via the CLI with a full unicode password::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_unicode_fix secvuln_unicode_fix secvuln_unicode_fix secvuln_test -P ążćę
 
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix``
@@ -84,11 +89,11 @@ Security Vulnerability
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w żćąę``
    - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode_fix -w '????'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w '????'``
    - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode_fix -w '??'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w '??'``
    - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C g-u secvuln_unicode_fix -w '?'``
+   - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w '?'``
    - |C| the CLI fails to create a session
 
 #. Create a user with no password via the CLI::
