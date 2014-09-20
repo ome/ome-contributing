@@ -98,6 +98,7 @@ Security Vulnerability
 
 #. Create a user with no password via the CLI::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
 
    - |C| the CLI throws an exception at creation time
@@ -114,6 +115,8 @@ Security Vulnerability
 
         $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permission.sql
 
+   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the 
+	 output of the SQL script and that COMMIT appears in the output
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w anypassword``
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w ome``
@@ -124,14 +127,14 @@ Security Vulnerability
 #. Optionally, test the `omero.security.password_required` configuration
    property
 
-   - Stop the server
-   - Allow empty password when creating users::
+   - Modify the configuration and restart the server::
 
       $ bin/omero config set omero.security.password_required false
+      $ bin/omero admin restart
 
-   - Restart the server
    - Create a user with no password via the CLI::
 
+      $ bin/omero login -u root -w root_password
       $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
    - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
    - |C| a session created
