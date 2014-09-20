@@ -1,6 +1,9 @@
 Security Vulnerability
 ======================
 
+.. contents::
+   :local:
+   :depth: 1
 
 **To test in**: CLI
 
@@ -13,9 +16,18 @@ Security Vulnerability
 
       $ bin/omero login root@hostname:port -w root_password
 
-#. Setup a 4.4.11/5.0.4 server
+.. note::
+    This scenario assumes an OMERO 5.0.x server but can be adapted to 4.4.x
+    by replacing 5.0.4 by 4.4.11 and 5.0.5 by 4.4.12.
 
-#. Download the 4.4.11/5.0.4 CLI or use the one with the server
+.. _504secvuln:
+
+5.0.4 Security vulnerability
+----------------------------
+
+#. Setup and start a 5.0.4 server
+
+#. Download the 5.0.4 CLI or use the one with the server
 
 #. Create a group for testing the user creation::
 
@@ -64,7 +76,12 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w '?'``
    - |C| the CLI fails to create a session
 
-#. Download the 4.4.12/5.0.5 CLI or use the one with the server. Use this new
+.. _505clifix:
+
+5.0.5 CLI vs 5.0.4 server
+-------------------------
+
+#. Download the 5.0.5 CLI or use the one with the server. Use this new
    CLI for the following tests.
 
 #. Create a user with no password via the CLI::
@@ -86,14 +103,41 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty_fix -w ome``
    - |C| a session is created
 
-#. Upgrade the server to 4.4.12/5.0.5
+#. Reproduce the step 6 of :ref:`504secvuln` with a new user and check the
+   outcome of the login commands are the same (the fix requires a server
+   upgrade).
 
-#. Create a user with no password via the CLI::
+Server upgrade
+--------------
 
-      $ bin/omero login root@localhost:4064 -w omero
-      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+#. Upgrade the server to 5.0.5
 
-   - |C| the CLI throws an exception at creation time
+#. Run the SQL script as a sysadmin which lists users with empty passwords::
+
+        $  psql omero -f sql/psql/OMERO5.0__0/list-empty-permission.sql
+
+   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
+     output of the SQL script
+
+#. Run the SQL script as a sysadmin which disables users with empty
+   passwords::
+
+        $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permission.sql
+
+   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
+	 output of the SQL script and that COMMIT appears in the output
+   - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w anypassword``
+   - |C| the CLI fails to create a session
+   - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w ome``
+   - |C| the CLI fails to create a session
+   - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
+   - |C| the CLI fails to create a session
+
+5.0.5 CLI vs 5.0.5 server
+-------------------------
+
+#. Reproduce steps 2 and 3 of :ref:`505clifix` with new users and make sure
+   the outcome is the same.
 
 #. Create a user via the CLI with a full unicode password::
 
@@ -117,29 +161,10 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w '?'``
    - |C| the CLI fails to create a session
 
-#. Run the SQL script as a sysadmin which lists users with empty passwords::
+5.0.5 server configuration (Optional)
+-------------------------------------
 
-        $  psql omero -f sql/psql/OMERO5.0__0/list-empty-permission.sql
-
-   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
-     output of the SQL script
-
-#. Run the SQL script as a sysadmin which disables users with empty
-   passwords::
-
-        $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permission.sql
-
-   - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
-	 output of the SQL script and that COMMIT appears in the output
-   - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w anypassword``
-   - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C -u secvuln_empty -w ome``
-   - |C| the CLI fails to create a session
-   - Try logging in with ``$ bin/omero login -C -u secvuln_no_password -w anypassword``
-   - |C| the CLI fails to create a session
-
-#. Optionally, test the `omero.security.password_required` configuration
-   property
+#. Test the `omero.security.password_required` configuration property
 
    - Modify the configuration and restart the server::
 
