@@ -64,10 +64,15 @@ Security Vulnerability
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode -w '?'``
    - |C| the CLI fails to create a session
 
-#. Upgrade the server to 4.4.12/5.0.5
-
 #. Download the 4.4.12/5.0.5 CLI or use the one with the server. Use this new
    CLI for the following tests.
+
+#. Create a user with no password via the CLI::
+
+      $ bin/omero login root@localhost:4064 -w omero
+      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+
+   - |C| the CLI throws an exception at creation time
 
 #. Create a user via the CLI with interactive password prompt::
 
@@ -80,6 +85,15 @@ Security Vulnerability
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_empty_fix -w ome``
    - |C| a session is created
+
+#. Upgrade the server to 4.4.12/5.0.5
+
+#. Create a user with no password via the CLI::
+
+      $ bin/omero login root@localhost:4064 -w omero
+      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
+
+   - |C| the CLI throws an exception at creation time
 
 #. Create a user via the CLI with a full unicode password::
 
@@ -102,13 +116,6 @@ Security Vulnerability
    - |C| the CLI fails to create a session
    - Try logging in with ``$ bin/omero login -C -u secvuln_unicode_fix -w '?'``
    - |C| the CLI fails to create a session
-
-#. Create a user with no password via the CLI::
-
-      $ bin/omero login root@localhost:4064 -w omero
-      $ bin/omero user add secvuln_no_password_fix secvuln_no_password_fix secvuln_no_password_fix secvuln_test --no-password
-
-   - |C| the CLI throws an exception at creation time
 
 #. Run the SQL script as a sysadmin which lists users with empty passwords::
 
