@@ -16,6 +16,10 @@ Security Vulnerability
 
       $ bin/omero login root@hostname:port -w root_password
 
+   and all the login commands may require a :option:`-p PORT` option, e.g.::
+
+      $ bin/omero login -C -p 14064 -u secvuln_empty -w ome
+
 .. note::
     This scenario assumes an OMERO 5.0.x server but can be adapted to 4.4.x
     by replacing 5.0.4 by 4.4.11 and 5.0.5 by 4.4.12.
