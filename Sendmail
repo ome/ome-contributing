@@ -7,7 +7,34 @@ Send e-mail
 
 **Purpose of the test** is to check that the email sending by admin functionality works fine.
 
+#. Go to the admin tab and send email (after Douglas's PR has been opened)
 #. Login as an owner, normal user, admin.
-#. Login as LDAP user, pick a user from a list here.
+#. Login as LDAP user, pick a user from a list here. 
+
+Pwd Big_chris1
+
+Usernames
+cxallan  
+wmoore	
+dzmacdonald	
+jburel	
+bwzloranger		
+mlinkert-x	
+jrswedlow	
+ezmurray	
+cblackburn  
+
+
+#. Go to the icon with your login name on it and expand the menu and choose ``User settings``.
+#. |C| that the LDAP user has a valid email address set - take a note of it.
 #. Use the ``Forgotten password`` link in Web and 
-#. Go to the admin tab and send email ? Or login to the server and do it via python somehow ?
+#. Try to insert the username of your LDAP user into the first line and his valid email address into the second line. 
+
+   - |C| that the message will show ``User is authenticated by LDAP server you cannot reset this password.``
+   - |C| that the password has not been changed.
+
+#. Try not to put into the lines anything
+   
+   - |C| that you will be returned with a message ``this line is compulsory``
+
+#. 
