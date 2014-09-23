@@ -279,7 +279,7 @@ Preview Tab
    - |C| that the zooming and panning behaves correctly.
    - |C| that additional rotation is centered on the new centre.
 
-#. Select multiple panels.
+#. Test rotation with multiple panels selected.
 
    - |C| that rotation and zoom sliders show average values.
    - |C| that update to zoom syncronises zoom but not panning in selected panels.
@@ -292,13 +292,80 @@ Preview Tab
 Labels Tab
 ============================================================
 
-#. Finally, export to PDF to check that it looks same
+#. Test adding a scalebar. Add an image that does NOT have pixel size metadata.
+
+   - Select the image and the Labels tab.
+   - |C| that pixel size is 'NOT SET'.
+   - |C| that pixel size can be edited by clicking on it, editing & 'Enter'.
+   - |C| that clicking 'Show' adds a scalebar to selected panel.
+   - |C| that editing the Size, position $ color of the scalebar update scalebar on selected panel.
+   - |C| that clicking 'Hide' hides the scalebar and 'Show' shows it again.
+
+#. Test manual adding labels to one or more panels.
+
+   - Select an image & enter some text in the 'Add Labels' form. Hit Enter.
+   - |C| that label is added to the selected image with default parameters.
+   - |C| that choosing different font-sizes / color / position are shown in new labels.
+   - |C| that adding a white label outside the panel creates a Black label.
+   - |C| that multiple labels added to a single position are stacked in rows.
+
+#. Test creating labels from metadata to one or more panels.
+
+   - Select 'Image Name' from the drop-down option under 'Label' field.
+   - |C| that new label is created with Image name.
+   - |C| that new label can also be created with 'Dataset Name'.
+   - Create new labels from 'Channels' option.
+   - |C| that labels are only created from active channels.
+   - |C| that labels are colored according to channel color.
+   - Add a time-lapse image with time-stamp info, E.g. DV movie.
+   - |C| that 'Time' drop-down options are only enabled if timestamp info exists.
+   - |C| new labels created with 'Time' add correctly formatted time label to each panel.
+   - |C| that scrolling through time (in Prevew tab) updates timestamp labels on each panel.
+
+#. Test editing existing labels on multiple panels.
+
+   - |C| that identical labels on multiple panels are combined under 'Edit Labels' (no duplicates).
+   - |C| that editing all labels update labels on selected panels.
+   - |C| that Time-stamp labels can be updated for Size, Color & Position without affecting time shown.
+
+#. Finally, export to PDF to check that all labels and scalebars looks same as in web.
 
 
 Info Tab
 ============================================================
 
-#. Finally, export to PDF to check that it looks same
+#. Test Info for a single panel. Select panel and click the 'Info' tab.
+
+   - |C| that Image Name is shown at the top of Info tab.
+   - |C| that other metadata (sizes & channels) are shown and correct.
+   - |C| that clicking 'Show in webclient' shows image in new tab.
+   - |C| that resizing or moving panel updates x, y, width, height while dragging.
+   - |C| that DPI value is updated while resizing.
+
+#. Test Info for a multiple panels.
+
+   - |C| that number of panels selected is shown in place of Name.
+   - |C| that clicking 'Show in webclient' shows images in new tab.
+   - |C| that metadata is shown only if it is same in all panels.
+   - |C| that x, y, width, height are shown only if same in all panels.
+   - |C| that DPI is shown only if same in all panels.
+
+#. Test Editing the ID for multiple panels.
+
+   - Copy & paste panels to create multiple panels from the same Image.
+   - |C| that 'Edit ID' button is only enabled if all selected panels are same ID.
+   - Click "Show in webclient" and pick another similar image in webclient. Note ID.
+   - Select multiple panels with same ID and click 'Edit ID'.
+   - Enter new image ID.
+   - |C| that 'Preview' is only enabled when valid ID is entered.
+   - |C| that clicking 'Preview' displays new image thumbnail and other metadata.
+   - |C| that Green/Red flags are shown where x, y, z, c, t matches.
+   - |C| that warning are shown below in Red if new image has fewer timepoints / channels than selected panels.
+   - |C| that other mismatches are shown as Green messages.
+   - Click 'Update' to replace selected panels with new image.
+   - |C| that Time-points and Channels are preserved but Z-indecies are not.
+
+#. Finally, export to PDF to check that it looks same as web UI.
 
 
 
