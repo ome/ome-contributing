@@ -118,7 +118,7 @@ Server upgrade
 
 #. Run the SQL script as a sysadmin which lists users with empty passwords::
 
-        $  psql omero -f sql/psql/OMERO5.0__0/list-empty-permissions.sql
+        $  psql omero -f sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-list.sql
 
    - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
      output of the SQL script
@@ -126,7 +126,7 @@ Server upgrade
 #. Run the SQL script as a sysadmin which disables users with empty
    passwords::
 
-        $  psql omero -f sql/psql/OMERO5.0__0/fix-empty-permissions.sql
+        $  psql omero -f sql/psql/OMERO5.0__0/2014-SV2-empty-passwords-fix.sql
 
    - |C| that ``secvuln_empty`` and ``secvuln_no_password`` are listed in the
 	 output of the SQL script and that COMMIT appears in the output
