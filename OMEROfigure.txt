@@ -297,9 +297,15 @@ Labels Tab
    - Select the image and the Labels tab.
    - |C| that pixel size is 'NOT SET'.
    - |C| that pixel size can be edited by clicking on it, editing & 'Enter'.
+   - |C| that selecting an image WITH pixel size metadata, it is shown correctly.
    - |C| that clicking 'Show' adds a scalebar to selected panel.
-   - |C| that editing the Size, position $ color of the scalebar update scalebar on selected panel.
+   - |C| that editing the length, position $ color of the scalebar update scalebar on selected panel.
    - |C| that clicking 'Hide' hides the scalebar and 'Show' shows it again.
+   - Select multiple panels, with some showing, some NOT showing scalebars.
+   - |C| that clicking "Show" adds scalebar to all panels.
+   - Select multiple panels, with scalebars of different lengths / location / color
+   - |C| that editing scalebar length / location / color applies change to all selected panels.
+   - |C| that zooming of the image (in Preview tab) updates scalebar size accoringly.
 
 #. Test manual adding labels to one or more panels.
 
