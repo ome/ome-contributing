@@ -108,45 +108,34 @@ Saving files to OMERO
 
 **Additional tests below are for less critical features**
 
-#. Add new images to the canvas by using ``Add image`` button (paste IDs or URL from the webclient). 
-
-   - |C| that the newly added images fit the canvas.
-   - |C| that when you paste a non-existent ID or URL, you get a warning message
-
 #. Select ``File > Delete a Figure``. 
 
    - |C| that when you try to delete couple of figures in a row, the workflow makes sense.
 
-#. Select ``File > Open`` and open an existing figure.
+#. Select ``File > Open`` to open an existing figure.
 
-   - |C| that there is a name of the Figure which is on display above the canvas
-   - |C| that you can sort the name list by name and date.
+   - |C| that you can sort the file list by name and date.
+   - |C| that files can be filtered by name.
+   - |C| that only files you own are shown by default.
+   - |C| that you can choose to show other users' files or 'All files'.
+   - |C| that clicking on a Figure name opens the figure.
+   - |C| that there is a name of the Figure which is on display above the canvas.
    - (not implemented yet) |C| that there is a link to the images in OMERO.web which comprise the figure
 
-#. Select more than one panels in the figure, go to Info tab in the white window in the top right-hand corner and
+#. Check that saved figures are linked to the images they contain.
 
-   - |C| that the values under the ``Panel`` section are explained and when applicable, populated.
-   - |C| that the numerals are rounded 
-   - |C| that when you drag a Panel to another location, the ``X`` and ``Y`` values change accordingly.
+   - Pick a figure saved previously, click 'Show in webclient' for several images.
+   - |C| that images in webclient/insight are annotated with the Figure as a file annotation.
+   - Add and remove images to the figure and save.
+   - |C| that removed images no-longer are annotated with the figure.
+   - |C| that newly added images are now annotated with the figure.
 
-#. Select panels with different z/t section numbers and different channel numbers and Zoom and Pan.
+#. Check that exported PDFs are also linked to images they contain.
 
-   - |C| that panning is happening in all the panels selected, and that you can see some Preview.
-   - (not implemented yet) |C| that you can reset the zooming and panning to the default value using the Reset button
-
-#. Go and adjust rendering settings by sliding the sliders in the ``Preview`` tab. 
-
-   - |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
-
-#. Create Labels on images. Try to copy and paste the whole row of images which are horizontally aligned by selecting them and pressing ``Ctrl & C``. 
-
-   - (not implemented yet) |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
-
-#. Try to rotate a panel (use the slider bar on the bottom-left of the Preview tab).
-
-#. Export the figure as .pdf, using the button in the top right-hand corner.
-
-#. Go to the YouTube video http://www.youtube.com/watch?v=TNt821F-unE, watch it and submit feedback on possible improvements.
+   - Export a PDF of a figure.
+   - Click image urls in the PDF to open in webclient.
+   - |C| that these images are annotated with the PDF.
+   - |C| that the PDF also contains a link to the figure url itself.
 
 
 Layout of image panels, paper setup
@@ -154,7 +143,8 @@ Layout of image panels, paper setup
 
 #. Add several images (all same width & height) to a new Figure.
 
-   - |C| that they are laid out as a grid that fills the width of the paper and all are selected.
+   - |C| that when you paste a non-existent ID or URL, you get a warning message
+   - |C| that added panels are laid out as a grid that fills the width of the paper and all are selected.
    - |C| that delete key removes selected panels.
    - |C| that delete button in top toolbar removes selected panels.
    - |C| that delete button is only enabled when one or more panels are selected.
@@ -336,6 +326,8 @@ Labels Tab
 
 #. Finally, export to PDF to check that all labels and scalebars looks same as in web.
 
+   - |C| that the PDF includes a note about the length of scalebars in the figure.
+
 
 Info Tab
 ============================================================
@@ -372,12 +364,4 @@ Info Tab
    - |C| that Time-points and Channels are preserved but Z-indecies are not.
 
 #. Finally, export to PDF to check that it looks same as web UI.
-
-
-
-
-
-
-
-
 
