@@ -10,6 +10,12 @@ return valid results with each query.
 All searches below should be performed at the same time in Insight and Web and the
 displayed results should be identical in both clients.
 
+.. seealso::
+   
+    `Query Parser Syntax <http://lucene.apache.org/core/3_6_0/queryparsersyntax.html>`_,
+
+    ` Luke <https://code.google.com/p/luke/>`_
+        a Java application which you can download and point at your ``/OMERO/FullText`` directory to get a better feeling for Lucene queries.
 
 
 **Test links and tools**
