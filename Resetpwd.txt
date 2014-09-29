@@ -3,7 +3,7 @@ Reset password
 
 
 
-**To test in**: Web and 
+**To test in**: Web 
 
 **Purpose of the test** is to check that the ``Forgotten password`` functionality works fine.
 
@@ -23,28 +23,25 @@ Reset password
    - reset the password once logged in back (using ``User settings``)
    - Log out and |C| that password was reset successfully.
 
-#. Log in as an LDAP user choosing from the usernames in the table at the end of the scenario.
+#. Log in as an LDAP-TEST user choosing from the fake usernames (set up on the LDAP-TEST server) in the table at the end of the scenario into one of our CI servers - |C| the testing setup for which server is deployed.
 #. Go to the icon with your login name on it and expand the menu and choose ``User settings``.
 #. |C| that the LDAP user has a valid email address set - take a note of it.
 #. Use the ``Forgotten password`` link in Web and 
-#. Try to insert the username of your LDAP user into the first line and his valid email address into the second line. 
+#. Try to insert the username of your LDAP-TEST user into the first line and his valid email address into the second line. 
 
 
    - |C| that the message will show ``User is authenticated by LDAP server you cannot reset this password.``
    - |C| that the password has not been changed.
 
+
 ::
 
-  Pwd Big_chris1
+    List of available fake usernames on LDAP-TEST server:
 
-  Usernames
-  cxallan  
-  wmoore	
-  dzmacdonald	
-  jburel	
-  mlinkert-x	
-  jrswedlow	
-  ezmurray	
-  cblackburn
+    - dzmacdonald  
+    - ezmurray 
+    - mlinkert-x 
+    - jrswedlow  
 
-
+    One common password for all user is set: Big_chris1
+  
