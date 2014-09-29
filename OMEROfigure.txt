@@ -23,7 +23,7 @@ Saving files to OMERO
 
 **Test that saved figures are not lost**
 
-#. Go back to the OMERO.figure tab in your browser, answer "Create New Figure" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
+#. Go back to the OMERO.figure tab in your browser, answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
 
 #. Confirm by pressing ``Add images`` button.
 
@@ -33,7 +33,9 @@ Saving files to OMERO
 
    - |C| that the 'Save' button becomes disabled and the url updates with the figure ID. 
    - |C| that you can refresh your browser without any message popup and the figure is refreshed (not lost)
-   - Copy the url, then navigate to the webclient and logout. Open new window and paste the url.
+
+#. Copy the url, then navigate to the webclient and logout. Open new window and paste the url.
+
    - |C| that after login, you are redirected to the saved figure.
 
 #. Make another change to 'Figure1' and Save.
