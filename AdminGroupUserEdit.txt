@@ -51,6 +51,18 @@ Admin: Group/User Edit
     - |C| that when a user is a member of only one group, you cannot remove him/her from this group
     - (Insight only) |C| that you can Edit only the Default group of other users, but not their credentials, login names or anything else.
 
+#. (Web only) Checking disk usage.
+
+   - login as admin and go to the ``Admin`` tab.
+   - Select the ``Statistics`` tab.
+   - |C| that you can see a pie chart with the breakdown of the usage of the disk by groups and also the usage in tabular form below it [:ref:`AdminGrUsEd008`]
+   - |C| that you can click onto the pie chart which brings you to a similar breakdown of usage for the particular entity you clicked onto.
+   - logout
+   - login as a group owner of multiple groups
+   - click onto your name in top right corner of the Web UI and select ``User settings``
+   - click onto the ``Statistics`` tab.
+   - |C| that you can see a pie chart with the breakdown of the usage of the disk by groups and also the usage in tabular form below it [:ref:`AdminGrUsEd008`]
+   - |C| that you can click onto the pie chart which brings you to a similar breakdown of usage for the particular entity you clicked onto.
 
 
 	.. _AdminGrUsEd001:
@@ -310,4 +322,41 @@ Admin: Group/User Edit
 	|
 	|
 	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+	.. _AdminGrUsEd008:
+	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/008Web.png
+	   :align: center
+
+	   AdminGrUsEd008:
+	
+	
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+	|
+
+
+
 
