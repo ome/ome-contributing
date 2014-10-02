@@ -32,9 +32,14 @@ Disk usage report
 
 
 
-3. Execute ``bin/omero user list`` to find out which ``Experimenter`` corresponds to your username.
+3. Execute ``bin/omero user list`` to find out which ``Experimenter`` 
+   corresponds to your username.
 
-4. Execute the command ``bin/omero fs usage Experimenter:X --report`` replacing the ``X`` accordingly so that it corresponds to a user ID of a user which does not share any common group with ``you``, i.e. the user logged in. This could be for example user-1 logged in, user-10 (ID 13, i.e. X = 13) on any CI server (please double check this is true in case you should not get the expected result).
+4. Execute the command ``bin/omero fs usage Experimenter:X --report`` 
+   replacing the ``X`` accordingly so that it corresponds to a user ID 
+   of a user which does not share any common group with ``you``, i.e. 
+   the user logged in. This could be for example user-1 logged in, user-
+   10 (ID 13, i.e. X = 13) on any CI server (please double check this is true if you did not get the expected result).
 
    - |C| that the output of the command is zero, similar to following
 
