@@ -40,7 +40,7 @@ Render
    - Open the Full Viewer from the Preview tab using ``Launch Full Viewer`` button
    - |C| that the Full Viewer shows the same Rendering settings as the Preview
    - |C| that the size of the image in Full Viewer is such that it fits into the window, not smaller.
-   - Paste something into the Full Viewer and |C| that Preview updates
+   - Paste something into the Full Viewer and |C| that Full Viewer updates.
    - Change the Rendering settings in Full Viewer and press ``Save``. |C| that Preview updates.
    
    - Copy the unsaved Rendering settings from the Preview pane of an image and Paste them
