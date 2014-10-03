@@ -48,7 +48,7 @@ Render
      - in Full Viewer of another image 
      - in tree, using right-click menu [:ref:`RenderWeb003`].
      - in Preview pane of another image
-     - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview)
+     - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview). **Note** that in Web the ``Save to All`` button is disabled for Plates when single wells are selected.
      - |C| that the Rendering settings were updated after Paste in all cases
 
 #. In context (right-click) menu, execute the ``Reset and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
