@@ -122,17 +122,8 @@ Saving files to OMERO
    - |C| that you can choose to show other users' files or 'All files'.
    - |C| that clicking on a Figure name opens the figure.
    - |C| that there is a name of the Figure which is on display above the canvas.
-   - (not implemented yet) |C| that there is a link to the images in OMERO.web which comprise the figure
 
-#. Check that saved figures are linked to the images they contain.
-
-   - Pick a figure saved previously, click 'Show in webclient' for several images.
-   - |C| that images in webclient/insight are annotated with the Figure as a file annotation.
-   - Add and remove images to the figure and save.
-   - |C| that removed images no-longer are annotated with the figure.
-   - |C| that newly added images are now annotated with the figure.
-
-#. Check that exported PDFs are also linked to images they contain.
+#. Check that exported PDFs are linked to images they contain.
 
    - Export a PDF of a figure.
    - Click image urls in the PDF to open in webclient.
