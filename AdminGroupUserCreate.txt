@@ -32,18 +32,14 @@ Admin: Group/User Create
    - |C| that the new user is (or is not) an Administrator as appropriate
    - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
-   - Add the new user to one or more existing groups (see screenshot for Web) 
-     [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
 
-         - right-click on group and ``Edit group membership...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
+#. Add the new user to one or more existing groups (see screenshot for Web) [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
 
-           - |C| that you can see and filter the users in the dialog [:ref:`AdminGrUsCr011b`].
-           
-         - Drag & Drop (Insight only)
-         - Copy & Paste using icons (Insight only) [:ref:`AdminGrUsCr011`] 
-         - Copy & Paste from right-click menu (Insight only) [:ref:`AdminGrUsCr012`]
-
-
+   - right-click on group and ``Edit group membership...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
+   - |C| that you can see and filter the users in the dialog [:ref:`AdminGrUsCr011b`].           
+   - Drag & Drop (Insight only)
+   - Copy & Paste using icons (Insight only) [:ref:`AdminGrUsCr011`] 
+   - Copy & Paste from right-click menu (Insight only) [:ref:`AdminGrUsCr012`]
    - |C| that the user has been added to the groups correctly
 
 
