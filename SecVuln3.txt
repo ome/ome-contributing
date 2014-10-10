@@ -1,0 +1,51 @@
+Security Vulnerability 3
+========================
+
+.. contents::
+   :local:
+   :depth: 1
+
+**To test in**: OMERO.web
+
+Django provides easy-to-use protection against Cross Site Request Forgeries. This type of attack occurs when a malicious Web site contains a link, a form button or some javascript that is intended to perform some action on your Web site, using the credentials of a logged-in user who visits the malicious site in their browser.
+
+.. note::
+    This scenario assumes an OMERO 5.0.x server.
+
+.. _506secvuln:
+
+5.0.6 Security vulnerability
+----------------------------
+
+#. Check if settings.py MIDDLEWARE_CLASSES contains 'django.middleware.csrf.CsrfViewMiddleware'
+
+#. Feedback
+
+   - Send comment
+   - Send feedback
+
+#. Webadmin
+
+   - Create new Group
+   - Create new User
+   - Assign user to the Group
+   - Add group to the User
+   - Upload avatar
+   - Crop avatar
+   - Update MyAccount
+
+#. Webclient
+
+   Import few images
+    
+   - Add new Project/Dataset/Screen
+   - Edit name and/or description of Project/Dataset/Image/Screen/Plate
+   - Comment Project/Dataset/Image/Screen/Plate
+   - Tag Project/Dataset/Image/Screen/Plate
+   - Attach file to Project/Dataset/Image/Screen/Plate
+   - Batch Comment Project/Dataset/Image/Screen/Plate
+   - Batch Tag Project/Dataset/Image/Screen/Plate
+   - Batch Attach file to Project/Dataset/Image/Screen/Plate
+   - Edit Tag name and/or description
+   - Search from the top main input field
+   - Search using advance search. Try various combinations
