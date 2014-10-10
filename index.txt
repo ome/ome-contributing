@@ -55,6 +55,7 @@ Testing scenarios
    Pixelservice
    Qa
    Render
+   Resetpwd
    ROIInsight
    ROIWeb
    ScriptsClient
