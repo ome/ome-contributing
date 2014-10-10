@@ -260,7 +260,9 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
 
    - |C| that the version number in the brackets shows the most recent stable release number.
-   - |C| that you can execute the updates.
+  
+#. (**post-release step**) |C| that you can execute the updates (Note that the release page has not been made public prior to the later release steps. This is why this step would cause an error when executed prior to Release Acceptance.)
+
    - |C| that after you have updated, the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
 
 
