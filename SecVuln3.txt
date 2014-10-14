@@ -49,3 +49,5 @@ Django provides easy-to-use protection against Cross Site Request Forgeries. Thi
    - Edit Tag name and/or description
    - Search from the top main input field
    - Search using advance search. Try various combinations
+   - Share through basket
+   - Create discussion through basket
