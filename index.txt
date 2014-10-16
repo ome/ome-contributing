@@ -61,6 +61,7 @@ Testing scenarios
    ScriptsClient
    Search
    SecVuln
+   SecVuln3
    Share
    ScreenPlateWell
    StressPerformance
