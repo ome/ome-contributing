@@ -47,7 +47,7 @@ OMERO.server
 #. Login in OMERO.insight and OMERO.web connecting to the server you just started.
 
    - |C| that the clients connect to the server and login is successful.
-   - |C| that DropBox import a file successfully
+   - |C| that DropBox imports a file successfully
    - |C| that you can execute (any) script using (any) client
 
 
