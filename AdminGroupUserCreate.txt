@@ -12,7 +12,7 @@ Admin: Group/User Create
    - using the icon above the tree (Insight only) [:ref:`AdminGrUsCr002`] 
    - using the button "Add new..." (Web only) [:ref:`AdminGrUsCr003`][:ref:`AdminGrUsCr004`]  
    - Create private/read-only/read-annotate group
-   - |C| new group was created with permissions as chosen at creation
+   - |C| that a new group was created with permissions as chosen at creation
 
 
 #. (Insight only) - create a new user/group and 
@@ -33,7 +33,7 @@ Admin: Group/User Create
    - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
 
-#. Add the new user to one or more existing groups (see screenshot for Web) [:ref:`AdminGrUsCr009`]. In Insight, use following 4 methods:
+#. Add the new user to one or more existing groups (see screenshot for Web) [:ref:`AdminGrUsCr009`]. In Insight, use the following 4 methods:
 
    - right-click on group and ``Edit group membership...`` (Insight only), see [:ref:`AdminGrUsCr011b`]
    - |C| that you can see and filter the users in the dialog [:ref:`AdminGrUsCr011b`].           
