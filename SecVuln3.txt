@@ -40,6 +40,8 @@ Django provides easy-to-use protection against Cross Site Request Forgeries. Thi
     
    - Add new Project/Dataset/Screen
    - Edit name and/or description of Project/Dataset/Image/Screen/Plate
+   - Change channel name
+   - Copy and past rendering settings including apply to all
    - Comment Project/Dataset/Image/Screen/Plate
    - Tag Project/Dataset/Image/Screen/Plate
    - Attach file to Project/Dataset/Image/Screen/Plate
@@ -51,3 +53,6 @@ Django provides easy-to-use protection against Cross Site Request Forgeries. Thi
    - Search using advance search. Try various combinations
    - Share through basket
    - Create discussion through basket
+   - Move data between groups
+   - Run script
+   - Su to the user
