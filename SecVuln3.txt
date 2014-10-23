@@ -14,15 +14,10 @@ Django provides easy-to-use protection against Cross Site Request Forgeries. Thi
 
 .. _506secvuln:
 
-5.0.6 Security vulnerability
+Security vulnerability
 ----------------------------
 
-#. Check if settings.py MIDDLEWARE_CLASSES contains 'django.middleware.csrf.CsrfViewMiddleware'
-
-#. Feedback
-
-   - Send comment
-   - Send feedback
+The tests below should be performed only on 5.0.6 and 5.1.x servers
 
 #. Webadmin
 
