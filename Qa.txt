@@ -1,5 +1,5 @@
 QA web application testing
-=============================
+==========================
 
 
 **To test in**: QA application, Web, Insight, Importer
@@ -51,7 +51,7 @@ QA web application testing
    - Log into the QA system as an administrator and confirm the comment was received.
    - Reply to the QA message, the message should appear in your email.
    - Finally, set the QA message status to "Closed" and save.
-   - Import ``test_images_bad/Mike.dv`` and 
+   - Import ``test_images_bad/mike1_R3D.dv`` and 
 
      - There will be no log, but you should be able to submit the files (as .zip) and exceptions. 
      - |C| that your submissions have arrived in the QA system
