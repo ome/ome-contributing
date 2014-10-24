@@ -7,7 +7,7 @@ Render
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
-#. Use right-clcik to copy settings from an image (both Insight and Web).
+#. Use right-click to copy settings from an image (both Insight and Web).
 
    - |C| that in Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane [:ref:`RenderWeb003`].
    - |C| that in Insight: both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
