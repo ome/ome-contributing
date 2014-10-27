@@ -76,7 +76,7 @@ IE 9.0, Java "1.7.0_45"
 
 Firefox 26.0, Java "1.7.0_45"
 
-   - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ``This plugin has security vulnerabilities. Activate Java Deployment Toolkit``. Activate the Toolkit as indicated. The window with Webstart logo appears. Click onto the logo. Choose ``Open`` in following dialog.
+   - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ``This plugin has security vulnerabilities. Activate Java Deployment Toolkit``. Activate the Toolkit as indicated. The window with Webstart logo appears. Click on the logo. Choose ``Open`` in following dialog.
    - Webstart splashscreen appears after a while.
 
 Chrome 31.0, Java "1.7.0_45"
