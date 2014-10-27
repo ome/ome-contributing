@@ -76,8 +76,8 @@ IE 9.0, Java "1.7.0_45"
 
 Firefox 26.0, Java "1.7.0_45"
 
-   - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ignore it and click the Webstart logo.
-   - Webstart splashscreen appears immediately.
+   - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ``This plugin has security vulnerabilities. Activate Java Deployment Toolkit``. Activate the Toolkit as indicated. The window with Webstart logo appears. Click on the logo. Choose ``Open`` in following dialog.
+   - Webstart splashscreen appears after a while.
 
 Chrome 31.0, Java "1.7.0_45"
 
@@ -111,13 +111,15 @@ Safari 5.1.1, OS X 10.6.8, Java "1.6.0_26"
    - OMERO webstart window appears: click on Webstart logo.
    - Webstart splashscreen appears immediately.
 
-Firefox 21.0, OS X 10.8.5, Java "1.7.0_21":
+Firefox 21.0, OS X 10.8.5, Java "1.7.0_21" and "1.7.0_51":
 
    - OMERO webstart window appears - click on Webstart logo.
    - "Opening Insight.jnlp" window appears - keep the default and click OK.
-   - First Security warning popup from the OS X - click ``Open``.
+   - First popup from the OS X - select ``Open``.
+   - Security warning saying that ``Insightxxx.jnlp`` is downloaded from Internet. Click Open.
    - Short flash of "Java 7" window starting.
-   - Second security warning: click ``I accept...`` and then click ``Run``.
+   - Second security warning: click ``Run``.
+   - **Note** that the icon in your dock is just a Java icon, not Insight.
    - OMERO webstart splashscreen opens.
 
 Firefox 27.0, OS X 10.6.8, Java "1.6.0_26"
@@ -126,7 +128,7 @@ Firefox 27.0, OS X 10.6.8, Java "1.6.0_26"
 
 Chrome 31.0.1650.63, OS X 10.8.5, Java "1.7.0_21":
 
-   - Webstart does not work: redirection to a Java update information website with info about updates happens instead. When these updates are applied, it does not help.
+   - Webstart does not work: redirection to a Java update information website with info about updates happens instead. There is a mention about the fact that 32-bit Chrome browser does not support Java 7. Java runs only on 64-bit browsers on Mac OS. When the updates are applied, it does not help.
 
 
 
