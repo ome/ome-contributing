@@ -32,8 +32,6 @@ Testing scenarios
    Disk
    DownloadExportDowngrade
    Edit
-   EditorfromInsight
-   EditorStandalone
    FileFormatMetadataValidation
    FLIMfit
    GeneralRelease
