@@ -39,6 +39,10 @@ ROI Insight
    - |C| that the comment appears and disappears.[:ref:`ROIInsight003`]
    - |C| that when the only action after the image was open was toggling the ``Show comment`` box, no dialog asking whether you want to save pops up
 
+#. Create a Text ROI (the ``A`` icon in ROI manager).
+
+   - |C| that changes in the color of the text are shown immediately, not just after you saved the text.
+
 #. Select and de-select the ROIs and shapes. Check that type is correct and it corresponds with the selection in Viewer.
 
 #. Move shapes and close the full viewer. 
@@ -61,6 +65,13 @@ ROI Insight
    - |C| the file was created.
 
 
+#. Select a Big image
+
+   - |C| that only Manager, Inspector and Results tabs are displayed in the ROI Tool and columns are populated.
+   - |C| that the area is now displayed when drawing a rectangle for example.
+   - |C| that the font size changes according to the resolution level.
+   
+
 **Section 2: Graph, Intensity View and Intensity Results View tabs:**
 
 #. Choose a region propagated on more than 2 z and 2 t planes & scroll through the histograms
@@ -72,6 +83,13 @@ ROI Insight
    - |C| that when you hover over the line in the Graph, in case the pixel size of the image is known, it shows the tooltip with current position in microns.
 
 #. Repeat the step 2 but this time with a rectangle. Note that no Line profile will be shown in this case.
+
+#. In Graph Tab, progress through T using both the slider in the ROI tool and in the Full Viewer of the image. 
+    - Close the ROI tool. 
+    - Go through T in the Full Viewer of the image.
+    - |C| that the ROI tool window does not reopen.
+    - |C| that no other inexpected windows pop up (such as magnifying tool).
+    - |C| that the ``Help`` menu of the image is not empty.
 
 
 #. Try to create new regions when on Graph pane and to propagate them
