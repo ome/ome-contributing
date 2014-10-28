@@ -28,7 +28,7 @@ Admin: Group/User Create
      does not proceed and a popup appears [:ref:`AdminGrUsCr010`]. The login  
      name must be unique for the whole database, not just for the group the 
      new user is a member of.
-   - |C| that the term in the Insight popup is ``User``, not ``Experimenter`` (in Web, there is no popup, and ``username`` is mentioned)
+   - |C| in Insight - the pop-up warning refers to “User” not “Experimenter” and in Web - warning above Username label (in red) refers to “username”.
    - |C| that the new user is (or is not) an Administrator as appropriate
    - tick/do not tick the Group owner box (Insight only) [:ref:`AdminGrUsCr008`]
    - |C| that the new user is (or is not) Group owner as appropriate
