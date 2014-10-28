@@ -88,7 +88,7 @@ ROI Insight
     - Close the ROI tool. 
     - Go through T in the Full Viewer of the image.
     - |C| that the ROI tool window does not reopen.
-    - |C| that no other inexpected windows pop up (such as magnifying tool).
+    - |C| that no other unexpected windows pop up (such as magnifying tool).
     - |C| that the ``Help`` menu of the image is not empty.
 
 
