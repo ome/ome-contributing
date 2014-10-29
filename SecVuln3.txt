@@ -36,7 +36,7 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Add new Project/Dataset/Screen
    - Edit name and/or description of Project/Dataset/Image/Screen/Plate
    - Change channel name
-   - Copy and past rendering settings including apply to all
+   - Copy, past, reset and revert to owners rendering settings, follow scenario :doc:`/testing_scenarios/Render`
    - Comment Project/Dataset/Image/Screen/Plate
    - Tag Project/Dataset/Image/Screen/Plate
    - Attach file to Project/Dataset/Image/Screen/Plate
@@ -49,5 +49,5 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Share through basket
    - Create discussion through basket
    - Move data between groups
-   - Run script
-   - Su to the user
+   - Run `export_script/batch_image_export` script
+   - Su to the user, follow scenario :doc:`/testing_scenarios/SwitchUser`
