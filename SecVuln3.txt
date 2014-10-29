@@ -24,9 +24,9 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Log in
    - Logout using button
    - Log in again
-   - Use link http://HOST_NAME/webclient/logout/.
+   - Use link ``http://HOST_NAME/webclient/logout/``.
    - Click on the link "Do you want to logout"
-   - Go to http://HOST_NAME/webclient/. You shoudl see login page.
+   - Go to ``http://HOST_NAME/webclient/``. You shoudl see login page.
 
 #. Webadmin
 
