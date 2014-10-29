@@ -55,7 +55,7 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Batch Attach file to Project/Dataset/Image/Screen/Plate
    - Edit Tag name and/or description
    - Search from the top main input field
-   - Search using advance search. Try various combinations
+   - Search using advanced search. Try various combinations
    - Share through basket
    - Create discussion through basket
    - Move data between groups
