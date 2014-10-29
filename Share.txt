@@ -18,6 +18,20 @@ Share
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
    - |C| that users on the share get e-mail with link
 
+To test use users: share1 and share2 (make sure they do not belong to the same group):
+
+Log in as share1
+Select images add to basket
+Create a share with at least one user (user MUST NOT belong to the group where that image was imported): In the central window, click on the basket icon, choose Manage basket, choose images to share and use the Globe icon to create a share.
+Go to Public tab (left-hand Panel). Select the share. Check that the number of images in the share is correct i.e. Share Count
+Check than images in the share can be viewed using the Preview. Double click on the image and open the Full viewer
+Check also if you can browse through the data in Data tab (if you don't see anything different or any shares in the tree and if center panel works ok, including double clicking on thumbnails)
+Check if you can comment on share
+Log in as share2
+Go to Public tab (left-hand Panel). Select the share. Check that the number of images in the share is correct i.e. Share Count
+Check than images in the share can be viewed using the Preview. Double click on the image and open the Full viewer
+Check also if you can browse through the data in Data tab (if you don't see anything different or any shares in the tree and if center panel works ok, including double clicking on thumbnails)
+Check if you can comment on share
 
 	.. _Share001:
 	.. figure:: /images/testing_scenarios/Share/001.png
