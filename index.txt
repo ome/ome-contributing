@@ -62,6 +62,7 @@ Testing scenarios
    Search
    SecVuln
    SecVuln3
+   SwitchUser
    Share
    ScreenPlateWell
    StressPerformance
