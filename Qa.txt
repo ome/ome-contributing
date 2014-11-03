@@ -77,5 +77,6 @@ QA web application testing
    - |C| that the feedback arrived in QA system. 
    - Cause an error in Web (for example annotate an image in Web and delete it in Insight before you Save)
    - Submit the error and |C| that you can see it in the QA
+   - Submit a comment from Web and |C| that you can see it in the QA
 
 
