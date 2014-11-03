@@ -18,6 +18,10 @@ Share
 
    - |C| that users on the share get e-mail with link
 
+#. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
+
+   - |C| that you can edit the share and save the changes.
+
 #. Remove one image from the share using
 
    - Delete Key on keyboard
@@ -26,8 +30,10 @@ Share
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
    - Load the share in Public tab, a broken link icon should be displayed instead of a webclient crash.
 
-#. Log out and log in as user ``share-2``. Go Public tab (left-hand Panel). Select the share. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
+#. Log out and log in as user ``share-2``. Go Public tab (left-hand Panel). Select the share. 
 
+
+   - |C| that you CANNOT edit the share - the pencil symbol is not present.
    - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share008`]
    - |C| than images in the share can be viewed using the Preview
    - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share009`].
