@@ -45,7 +45,8 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Add new Project/Dataset/Screen
    - Edit name and/or description of Project/Dataset/Image/Screen/Plate
    - Change channel name
-   - Copy, past, reset and revert to owners rendering settings, follow scenario :doc:`/testing_scenarios/Render`
+   - Copy, past, reset and revert to owners rendering settings, follow scenario
+     :doc:`/testing_scenarios/Render`
    - Export as OME-TIFF
    - Comment Project/Dataset/Image/Screen/Plate
    - Tag Project/Dataset/Image/Screen/Plate
@@ -61,3 +62,39 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Move data between groups
    - Run `export_script/batch_image_export` script
    - Su to the user, follow scenario :doc:`/testing_scenarios/SwitchUser`
+
+#. Escaping HTML
+
+   Test if HTML code is correctly escaped on the display. Use
+   ``<script>alert("helo OBJECT");</script>`` to see if allert pops up.
+   Replace OBJECT word by unique identifier such as Image1, etc. to make sure
+   you will be able to identify bug. If your webbrowser support (like Firefox)
+   prevention from multiple Alert/Dialog at a time make sure you DO NOT click
+   it!
+
+   - Change name of: Project, Dataset, Screen, Plate, Well, WellSample to
+   ``<script>...</script>``. Refersh your webbrowser and browse to that
+   object, click to load metadata on right hand side.
+   - Change description of: Project, Dataset, Screen, Plate, Well, WellSample
+   to ``<script>...</script>``. Refersh your webbrowser and browse
+   to that object, click to load metadata on right hand side.
+   - Change name and/or description of: Image, Channel to
+   ``<script>...</script>``. Refersh your webbrowser and browse to that
+   object, click to load metadata, check all available tabs on right hand
+   side. Go to Image viewer.
+   - |C| one or more of the changed object on History and Search pages.
+   - Tag one of Project/Dataset/Image/Screen/Plate with tag name
+   ``<script>...</script>``. Refersh your webbrowser and browse to that
+   object, click to load metadata, check all available tabs on right hand
+   side.
+   - Go to Tags Tab, click on the tag to load metadata and check all available
+   tabs on right hand side.
+   - Change descrition of that Tag to ``<script>...</script>``.
+   Refersh your webbrowser and browse to that object, click to load metadata.
+   - Comment Project/Dataset/Image/Screen/Plate. Refersh your webbrowser and
+   browse to that object, click to load metadata.
+   - Go to Public tab. Create share with image that contains
+   ``<script>...</script>``. Comment on share. Refersh your webbrowser and
+   browse to that object, click to load metadata. Click on image to load
+   metadata, check all available tabs on right hand side. Repet viewing
+   share as a member.
