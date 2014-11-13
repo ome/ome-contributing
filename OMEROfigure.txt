@@ -1,5 +1,10 @@
+.. contents::
+   :depth: 2
+
+
+##############################################
 OMERO.figure
-===============
+##############################################
 
 
 
@@ -12,9 +17,13 @@ OMERO.figure
 
 #. This first series of tests checks that saved and unsaved changes are not lost inadvertantly. Creating unsaved figure can be easily done by adding a single image to a new figure (note an image ID from the webclient). If you need to make more changes, simply copy, paste and move or edit the panel.
 
+
+Saving files to OMERO
+============================================================
+
 **Test that saved figures are not lost**
 
-#. Go back to the OMERO.figure tab in your browser, answer "Create New Figure" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
+#. Go back to the OMERO.figure tab in your browser, answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
 
 #. Confirm by pressing ``Add images`` button.
 
@@ -24,37 +33,35 @@ OMERO.figure
 
    - |C| that the 'Save' button becomes disabled and the url updates with the figure ID. 
    - |C| that you can refresh your browser without any message popup and the figure is refreshed (not lost)
-   - Copy the url, then navigate to the webclient and logout. Open new window and paste the url.
+
+#. Copy the url, then navigate to the webclient and logout. Open new window and paste the url.
+
    - |C| that after login, you are redirected to the saved figure.
 
-#. Make another change to 'Figure1' and Save.
+#. Make another change to 'Figure1' and Save. Goto File > New. Add an Image and Save 'Figure2'.
 
-   - Goto File > New. Add an Image and Save 'Figure2'.
    - |C| that no popup messages asked you to save.
    - |C| that File > Open > Figure1 shows your latest changes to Figure1 (no 'save' popups)
    - |C| that hitting the back button takes you to your saved Figure2 (no 'save' popups)
 
 **Test that unsaved changes are not lost on existing figures**
 
-#. Open a saved figure, make some changes without saving.
+#. Open a saved figure, make some changes without saving. Try to refresh the browser, navigate to webclient or close browser window.
 
-   - Try to refresh the browser, navigate to webclient or close browser window.
    - |C| that you get a "Leave Page" or "Stay on Page" alert (or equivalent).
    - |C| that choosing "Stay on page" cancels & returns to page, allowing Save.
    - |C| that choosing "Leave Page" results in losing of unsaved changes (when you return).
 
-#. Again, open saved figure and make some unsaved changes.
+#. Again, open saved figure and make some unsaved changes. Try to create new file: File > New.
 
-   - Try to create new file: File > New
    - |C| that you get a "Save", "Don't Save" or "Cancel" dialog.
    - |C| that "Cancel" returns you to the figure.
    - |C| that "Don't Save" continues with the New File without saving.
    - |C| that "Save" continues with the New File and the unsaved changes are saved.
    - |C| that saving the New figure creates a NEW figure and does not overwrite the previous figure.
 
-#. Again, open saved figure and make some unsaved changes.
+#. Again, open saved figure and make some unsaved changes. Try to open figure: File > Open.
 
-   - Try to open figure: File > Open
    - |C| that you get a "Save", "Don't Save" or "Cancel" dialog before the 'Open Figure' list.
    - |C| that these choices work as described above.
 
@@ -89,9 +96,8 @@ OMERO.figure
    - |C| that you get a "Save", "Don't Save" or "Cancel" dialog before the new figure is started.
    - |C| that these choices work as described above.
 
-#. Open a saved figure, then open a new figure and make some unsaved changes.
+#. Open a saved figure, then open a new figure and make some unsaved changes. Now try hitting the browser 'Back' button.
 
-   - Now try hitting the browser 'Back' button.
    - |C| that the url reverts to the first figure and you get a "Save" or "Don't Save" dialog.
    - |C| that "Don't Save" results in the loss of your unsaved changes.
    - |C| that "Save" does save the changes, when you return to the new figure (using File > Open).
@@ -99,51 +105,263 @@ OMERO.figure
 
 **Additional tests below are for less critical features**
 
-#. Add new images to the canvas by using ``Add image`` button (paste IDs or URL from the webclient). 
-
-   - |C| that the newly added images fit the canvas.
-   - |C| that when you paste a non-existent ID or URL, you get a warning message
-
 #. Select ``File > Delete a Figure``. 
 
    - |C| that when you try to delete couple of figures in a row, the workflow makes sense.
 
-#. Select ``File > Open`` and open an existing figure.
+#. Select ``File > Open`` to open an existing figure.
 
-   - |C| that there is a name of the Figure which is on display above the canvas
-   - |C| that you can sort the name list by name and date.
-   - (not implemented yet) |C| that there is a link to the images in OMERO.web which comprise the figure
+   - |C| that you can sort the file list by name and date.
+   - |C| that files can be filtered by name.
+   - |C| that only files you own are shown by default.
+   - |C| that you can choose to show other users' files or 'All files'.
+   - |C| that clicking on a Figure name opens the figure.
+   - |C| that there is a name of the Figure which is on display above the canvas.
 
-#. Select more than one panels in the figure, go to Info tab in the white window in the top right-hand corner and
+#. Check that exported PDFs are linked to images they contain. Export a PDF of a figure. Click image urls in the PDF to open in webclient.
 
-   - |C| that the values under the ``Panel`` section are explained and when applicable, populated.
-   - |C| that the numerals are rounded 
-   - |C| that when you drag a Panel to another location, the ``X`` and ``Y`` values change accordingly.
-
-#. Select panels with different z/t section numbers and different channel numbers and Zoom and Pan.
-
-   - |C| that panning is happening in all the panels selected, and that you can see some Preview.
-   - (not implemented yet) |C| that you can reset the zooming and panning to the default value using the Reset button
-
-#. Go and adjust rendering settings by sliding the sliders in the ``Preview`` tab. 
-
-   - |C| that you cannot slide the Max bar over the Min bar, and the image does not vanish from display at any Min and Max position.
-
-#. Create Labels on images. Try to copy and paste the whole row of images which are horizontally aligned by selecting them and pressing ``Ctrl & C``. 
-
-   - (not implemented yet) |C| that when the new row is pasted, the Labels you just created are not covered by the newly pasted images.
-
-#. Try to rotate a panel (use the slider bar on the bottom-left of the Preview tab).
-
-#. Export the figure as .pdf, using the button in the top right-hand corner.
-
-#. Go to the YouTube video http://www.youtube.com/watch?v=TNt821F-unE, watch it and submit feedback on possible improvements.
+   - |C| that these images are annotated with the PDF.
+   - |C| that the PDF also contains a link to the figure url itself.
 
 
+Layout of image panels, paper setup
+============================================================
+
+#. Add several images (all same width & height) to a new Figure.
+
+   - |C| that when you paste a non-existent ID or URL, you get a warning message
+   - |C| that added panels are laid out as a grid that fills the width of the paper and all are selected.
+   - |C| that delete key removes selected panels.
+   - |C| that delete button in top toolbar removes selected panels.
+   - |C| that delete button is only enabled when one or more panels are selected.
+
+#. De-select panels by clicking on empty canvas space. Select by clicking/dragging on panels:
+
+   - |C| that single click on a panel selects only that panel (other de-selected).
+   - |C| that shift-click adds panel to selection (others not de-selected).
+   - |C| that dragging-selection, starting on empty space, selects all panels covered by selection.
+   - |C| that shift dragging adds selected panels to selection (others not de-selected).
+
+#. Move & resize panels by dragging & keys:
+
+   - |C| that click -> drag on unselected panel selects it and starts drag.
+   - |C| that click -> drag on selected panel / panels moves them without changing selection.
+   - |C| that up, down, left, right keys nudge all selected panels in the correct direction.
+   - |C| that dragging on corner handles resizes all selected panels, maintaining width/height ratio.
+   - |C| that dragging on side handle stretches width or height alone.
+
+#. Align & resize selected images with toolbar buttons:
+
+   - |C| that alignment buttons are only enabled when more than one panel is selected.
+   - |C| that 'align left' aligns all selected panels to the left-most selected panel.
+   - |C| that 'align to grid' snaps all selected panels to grid, starting at top-left panel.
+   - |C| that 'align top' aligns all selected panels to the top-most selected panel.
+   - |C| that 'align sizes' (width, height and width & height) resize all panels to match the dimensions of top-left selected panel.
+
+#. Copy and Paste duplicate panels into grid layout:
+
+   - |C| that copy & paste works with keyboard short-cuts.
+   - |C| that copy & paste works with Menu items: Edit -> Copy/Paste.
+   - |C| that copy & paste of a 'column' of panels duplicates it to the right.
+   - |C| that copy & paste of a 'row' of panels duplicates it to the bottom.
+
+#. Finally, export to PDF
+   - |C| that layout corresponds to web UI.
 
 
+Preview Tab
+============================================================
+
+#. Add image with multiple Z sections. Select panel and 'Preview' tab:
+
+   - |C| that Z slider is shown beside viewer in Preview tab.
+   - |C| that current Z / total Z numbers are shown at bottom of slider.
+   - |C| that sliding Z updates Z number while sliding.
+   - |C| that when sliding stops, Preview viewer and selected panel update.
+   - |C| that Undo/Redo toggles to the previous Z-section.
+   - |C| that clicking the ^ and v buttons increment Z by 1, but stops at 1 or sizeZ.
+
+#. Copy and paste to duplicate image with multiple Z sections. Adjust Z on ONE of them, then select both:
+
+   - |C| that Z slider is shown and is enabled.
+   - |C| that current Z is - / total Z at bottom of slider.
+   - |C| that clicking the ^ and v buttons increment Z by 1 (Z still different between panels)
+   - |C| that sliding Z updates Z number while sliding.
+   - |C| that when sliding stops, Preview viewer and selected panel update.
+   - |C| that current Z number is now shown (both panels same Z)
+
+#. Check behaviour of T-slider is same as Z-slider for all tests above.
+
+   - |C| that for images that have timestamp data, time in hrs:mins:secs is shown while sliding.
+
+#. Select 2 images with different number of Z-sections.
+
+   - |C| that Z-slider is disabled.
+
+#. Select 2 images with different number of T-sections.
+
+   - |C| that T-slider is not disabled, but T-section is restricted to smaller sizeT.
+
+#. Select a panel with multiple Z, note Z-section, turn on Z-projection:
+
+   - |C| that Z slider has 2 handles, +/- 2 from previous Z-section.
+   - |C| that Preview viewer and selected panel show Z-projected images.
+   - |C| that current Z-range is shown: start-end / total Z at bottom of slider.
+   - |C| that clicking the ^ and v buttons increment Z-start and stop by 1.
+   - |C| that dragging each slider updates start or end of Z-range.
+   - |C| that turning Z-projection off returns to single Z-selection.
+   - |C| that single Z-selection is mid-way between Z-start & end when projection is toggled.
+   - |C| that range of Z-start to Z-end is maintained when projection is toggled.
+
+#. Select a multi-channel image:
+
+   - |C| that the channels are shown as 'toggle' buttons beside Preview viewer.
+   - |C| that channels can be turned on and off by clicking toggle buttons.
+   - |C| that Preview viewer and selected panel images are updated.
+   - |C| that Channel color can be changed via drop-down button beside toggle buttons.
+   - |C| that Channel sliders behave as expected & update viewer and panel on stop.
+
+#. Select multiple images with the same channel count.
+
+   - |C| that channel ON/OFF & colour changes are applied to all selected images.
+
+#. Turn a channel ON in one panel and OFF in another. Select both.
+
+   - |C| that if toggling the channel turns it ON in all selected panels.
+
+#. Change channel color in one panel and select both.
+
+   - |C| that a 'null' grey color is shown on the toggle button.
+   - |C| that picking a new color is applied to all selected panels.
+
+#. Change channel sliders start/end to different values in different panels. Select both.
+
+   - |C| that start/end numbers are replaced by - where values are not same in all panels.
+   - |C| that changing start/end values applies to all panels & value replaces -.
+
+#. Select multiple images with different channel counts.
+
+   - |C| that channel toggle buttons and channel sliders are not shown.
+
+#. Test behaviour of Zoom and Pan. Select a panel.
+
+   - |C| that changing Zoom slider updates viewer while sliding.
+   - |C| that stop of Zoom slider updates selected panel too.
+   - |C| that dragging the viewer image pans the viewer.
+   - |C| that when dragging ends, the selected panel updates too.
+   - |C| that Zooming back out to 100% resets the panning to zero offset.
+
+#. Test rotation of panels.
+
+   - |C| that rotation slider is shown when rotation icon clicked.
+   - |C| that while sliding rotation, viewer is updated.
+   - |C| that when rotation sliding stops, selected panel updates too.
+   - |C| that rotation of the image is centered on the centre of the viewer.
+
+#. Zoom and drag to pan the rotated image in the viewer.
+
+   - |C| that the zooming and panning behaves correctly.
+   - |C| that additional rotation is centered on the new centre.
+
+#. Test rotation with multiple panels selected.
+
+   - |C| that rotation and zoom sliders show average values.
+   - |C| that update to zoom syncronises zoom but not panning in selected panels.
+   - |C| that update to rotation syncronises rotation in selected panels.
+   - |C| that dragging on viewer image pans to same spot for all selected panels.
+
+#. Finally, export to PDF to check that it looks same
 
 
+Labels Tab
+============================================================
+
+#. Test adding a scalebar. Add an image that does NOT have pixel size metadata. Select the image and the Labels tab.
+
+   - |C| that pixel size is 'NOT SET'.
+   - |C| that pixel size can be edited by clicking on it, editing & 'Enter'.
+   - |C| that selecting an image WITH pixel size metadata, it is shown correctly.
+   - |C| that clicking 'Show' adds a scalebar to selected panel.
+   - |C| that editing the length, position $ color of the scalebar update scalebar on selected panel.
+
+#. Select multiple panels, with some showing, some NOT showing scalebars.
+
+   - |C| that clicking "Show" adds scalebar to all panels.
+
+#. Select multiple panels, with scalebars of different lengths / location / color
+
+   - |C| that editing scalebar length / location / color applies change to all selected panels.
+   - |C| that zooming of the image (in Preview tab) updates scalebar size accoringly.
+
+#. Test manual adding labels to one or more panels.
+
+   - Select an image & enter some text in the 'Add Labels' form. Hit Enter.
+   - |C| that label is added to the selected image with default parameters.
+   - |C| that choosing different font-sizes / color / position are shown in new labels.
+   - |C| that adding a white label outside the panel creates a Black label.
+   - |C| that multiple labels added to a single position are stacked in rows.
+
+#. Test creating labels from metadata to one or more panels. Select 'Image Name' from the drop-down option under 'Label' field.
+
+   - |C| that new label is created with Image name.
+   - |C| that new label can also be created with 'Dataset Name'.
+
+#. Create new labels from 'Channels' option.
+
+   - |C| that labels are only created from active channels.
+   - |C| that labels are colored according to channel color.
+
+#. Add a time-lapse image with time-stamp info, E.g. DV movie.
+
+   - |C| that 'Time' drop-down options are only enabled if timestamp info exists.
+   - |C| new labels created with 'Time' add correctly formatted time label to each panel.
+   - |C| that scrolling through time (in Prevew tab) updates timestamp labels on each panel.
+
+#. Test editing existing labels on multiple panels.
+
+   - |C| that identical labels on multiple panels are combined under 'Edit Labels' (no duplicates).
+   - |C| that editing all labels update labels on selected panels.
+   - |C| that Time-stamp labels can be updated for Size, Color & Position without affecting time shown.
+
+#. Finally, export to PDF to check that all labels and scalebars looks same as in web.
+
+   - |C| that the PDF includes a note about the length of scalebars in the figure.
 
 
+Info Tab
+============================================================
+
+#. Test Info for a single panel. Select panel and click the 'Info' tab.
+
+   - |C| that Image Name is shown at the top of Info tab.
+   - |C| that other metadata (sizes & channels) are shown and correct.
+   - |C| that clicking 'Show in webclient' shows image in new tab.
+   - |C| that resizing or moving panel updates x, y, width, height while dragging.
+   - |C| that DPI value is updated while resizing.
+
+#. Test Info for a multiple panels.
+
+   - |C| that number of panels selected is shown in place of Name.
+   - |C| that clicking 'Show in webclient' shows images in new tab.
+   - |C| that metadata is shown only if it is same in all panels.
+   - |C| that x, y, width, height are shown only if same in all panels.
+   - |C| that DPI is shown only if same in all panels.
+
+#. Test Editing the ID for multiple panels. Copy & paste panels to create multiple panels from the same Image.
+
+   - |C| that 'Edit ID' button is only enabled if all selected panels are same ID.
+
+#. Click "Show in webclient" and pick another similar image in webclient. Note ID. Select multiple panels with same ID and click 'Edit ID'. Enter new image ID.
+
+   - |C| that 'Preview' is only enabled when valid ID is entered.
+   - |C| that clicking 'Preview' displays new image thumbnail and other metadata.
+   - |C| that Green/Red flags are shown where x, y, z, c, t matches.
+   - |C| that warning are shown below in Red if new image has fewer timepoints / channels than selected panels.
+   - |C| that other mismatches are shown as Green messages.
+
+#. Click 'Update' to replace selected panels with new image.
+
+   - |C| that Time-points and Channels are preserved but Z-indecies are not.
+
+#. Finally, export to PDF to check that it looks same as web UI.
 
