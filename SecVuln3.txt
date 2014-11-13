@@ -73,29 +73,30 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    it!
 
    - Change name of: Project, Dataset, Screen, Plate, Well, WellSample to
-   ``<script>...</script>``. Refersh your webbrowser and browse to that
-   object, click to load metadata on right hand side.
+     ``<script>...</script>``. Refersh your webbrowser and browse to that
+     object, click to load metadata on right hand side.
    - Change description of: Project, Dataset, Screen, Plate, Well, WellSample
-   to ``<script>...</script>``. Refersh your webbrowser and browse
-   to that object, click to load metadata on right hand side.
+     to ``<script>...</script>``. Refersh your webbrowser and browse
+     to that object, click to load metadata on right hand side.
    - Change name and/or description of: Image, Channel to
-   ``<script>...</script>``. Refersh your webbrowser and browse to that
-   object, click to load metadata, check all available tabs on right hand
-   side. Go to Image viewer.
+     ``<script>...</script>``. Refersh your webbrowser and browse to that
+     object, click to load metadata, check all available tabs on right hand
+     side. Go to Image viewer.
    - |C| one or more of the changed object on History and Search pages.
    - Tag one of Project/Dataset/Image/Screen/Plate with tag name
-   ``<script>...</script>``. Refersh your webbrowser and browse to that
-   object, click to load metadata, check all available tabs on right hand
-   side.
+     ``<script>...</script>``. Refersh your webbrowser and browse to that
+     object, click to load metadata, check all available tabs on right hand
+     side.
    - Go to Tags Tab, click on the tag to load metadata and check all available
-   tabs on right hand side.
+     tabs on right hand side.
    - Change descrition of that Tag to ``<script>...</script>``.
-   Refersh your webbrowser and browse to that object, click to load metadata.
+     Refresh your web browser and browse to that object, click to load   
+     metadata.
    - Comment Project/Dataset/Image/Screen/Plate. Refersh your webbrowser and
-   browse to that object, click to load metadata.
+     browse to that object, click to load metadata.
    - Go to Public tab. Create share with image that contains
-   ``<script>...</script>``. Comment on share. Refersh your webbrowser and
-   browse to that object, click to load metadata. Click on image to load
-   metadata, check all available tabs on right hand side. Repet viewing
-   share as a member.
+     ``<script>...</script>``. Comment on share. Refersh your webbrowser and
+     browse to that object, click to load metadata. Click on image to load
+     metadata, check all available tabs on right hand side. Repet viewing
+     share as a member.
 
