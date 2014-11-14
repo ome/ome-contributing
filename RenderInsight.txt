@@ -1,5 +1,11 @@
+
+.. contents::
+   :depth: 2
+
+
+##############################################
 Render - Insight
-=================
+##############################################
 
 
 
@@ -7,14 +13,14 @@ Render - Insight
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
+
+Render - basic
+================
+
 #. Use right-click to copy settings from an image.
 
-   - |C| that in Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane.
-   - |C| that in Insight: both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
-
-
-
-
+   
+   - |C| that both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
 
 
 #. Select a collection of images and paste the settings.[:ref:`Render002`] 
@@ -33,10 +39,6 @@ Render - Insight
    - Copy one settings which were not saved do **NOT** paste, then 
    - Navigate to another image, copy settings from it (settings which were saved, e.g. using right-click on the image in the tree) then
    - Paste in Preview of a third image and |C| that the second (most recently copied) settings were pasted.
-   
-   
-   
-  
    - Open the Full Viewer from the Preview tab using ``Launch Full Viewer`` button.
    - |C| that the Full Viewer shows the same Rendering settings as the Preview.
    - |C| that the size of the image in the Full Viewer is such that it fits into the window, not smaller.
@@ -62,11 +64,17 @@ Render - Insight
    - Click ``Imported`` (Insight) or 
    - |C| that for each channel start-end = min-max.
 
+#. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command).
+
+#. Repeat steps 1. - 6. working on orphaned images. 
+
+#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
+
+Render - copying / resetting
+===================================
 
 
-
-
-#. (Insight only) Paste settings when the Full viewer open.
+#. Paste settings when the Full viewer open.
 
    - Make sure you have 2 identical images next to each other (you can quickly import the ``test_images_good/dv/CFPNEAT01_R3D.dv`` image 2x).
    - Let us call the images ``image-1`` and ``image-2``.
@@ -101,7 +109,8 @@ Render - Insight
    - |C| that thumbnails in the central pane are updated.
 
  
-#. Other user's data.
+Other user's data.
+=========================
 
    - Open an image belonging to another user.
    - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window (Insight). Save your own setting using the "Apply" icon (Preview in Insight - **NOT** for Big images) or Save icon (icon in Viewer).
@@ -109,11 +118,7 @@ Render - Insight
    - (Insight only) use ``Apply to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
 
-#. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command).
 
-#. Repeat steps 1. - 6. working on orphaned images. 
-
-#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
 
 #. Other user's data ``Owner's settings``.
 
@@ -128,7 +133,7 @@ Render - Insight
      - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
      - |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
 
-#. Repeat the step 14, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+#. Repeat the step 1 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
 #. Import images as a user (e.g. user-4) in Read-Only group and modify Rendering settings in easily recognizable manner. Log out, Log in to Web as an Administrator (e.g. user-6), which is **NOT** an Owner of Read-Only group and view the images you just imported. 
 
