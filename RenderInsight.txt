@@ -113,9 +113,9 @@ Other user's data.
 =========================
 
    - Open an image belonging to another user.
-   - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window (Insight). Save your own setting using the "Apply" icon (Preview in Insight - **NOT** for Big images) or Save icon (icon in Viewer).
+   - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own setting using the ``Apply`` icon (Preview is **NOT** for Big images) or ``Save`` icon (icon in ``Full Viewer``).
    - |C| that thumbnails in the central pane are updated.
-   - (Insight only) use ``Apply to all`` button.
+   - Use ``Apply to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
 
 
@@ -131,15 +131,11 @@ Other user's data.
      - |C| that in Insight, when you change Rendering settings and click ``Apply`` in Preview pane, your own settings appear in the list under ``Saved by``.
      - Change Rendering settings in Insight and click ``Apply to All`` in Preview pane, followed by clicking ``Reset`` in Preview pane and again ``Apply to All``.
      - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
-     - |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
+     - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
 
 #. Repeat the step 1 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
-#. Import images as a user (e.g. user-4) in Read-Only group and modify Rendering settings in easily recognizable manner. Log out, Log in to Web as an Administrator (e.g. user-6), which is **NOT** an Owner of Read-Only group and view the images you just imported. 
 
-   - |C| that you can see the Rendering settings you just saved as the owner of the image as a default.
-   - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
-   - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings (under ``Preview > Saved by``) as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web, see example in [:ref:`Render008`]).
    
     
 
@@ -290,56 +286,3 @@ Other user's data.
 |
 |
 |
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _Render008:
-.. figure:: /images/testing_scenarios/Render/008.png
-   :align: center
-
-   Saved by menu Insight:
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
