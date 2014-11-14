@@ -46,7 +46,7 @@ The tests below should be performed only on 5.0.6 and 5.1.x servers
    - Edit name and/or description of Project/Dataset/Image/Screen/Plate
    - Change channel name
    - Copy, past, reset and revert to owners rendering settings, follow scenario
-     :doc:`/testing_scenarios/Render`
+     :doc:`/testing_scenarios/RenderWeb`
    - Export as OME-TIFF
    - Comment Project/Dataset/Image/Screen/Plate
    - Tag Project/Dataset/Image/Screen/Plate

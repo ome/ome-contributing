@@ -1,23 +1,23 @@
-Render
-=======
+Render - Web
+=============
 
 
 
-**To test in**: Web, Insight
+**To test in**: Web
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
-#. Use right-click to copy settings from an image (both Insight and Web).
+#. Use right-click to copy settings from an image.
 
    - |C| that in Web: the right-click menu comes up only when selecting in the left-hand pane tree, not in central pane [:ref:`RenderWeb003`].
-   - |C| that in Insight: both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
+   - |C| that in Insight: both left-hand pane tree and central pane have the appropriate right-click menu.
 
 
 
 
 
 
-#. Select a collection of images and paste the settings.[:ref:`Render002`] (both Insight and Web)
+#. Select a collection of images and paste the settings.
 
    - |C| that the thumbnails in the central pane are updated.
 
@@ -96,7 +96,7 @@ Render
    - Re-open ``image-1``.
    - |C| that the rendering settings are as saved last time and the Full Viewer and thumb correspond.
 
-#. Reset imported settings.[:ref:`Render003`] (Web - in the Full Viewer only, for one image).
+#. Reset imported settings - in the Full Viewer only, for one image.
 
    - |C| that thumbnails in the central pane are updated.
    - |C| that when you select Plate Run in Web and ``Reset Default Settings``, no error occurs.
@@ -105,7 +105,7 @@ Render
 
    - |C| that thumbnails in the central pane are updated.
 
-#. Set owner's settings [:ref:`Render004`, :ref:`RenderWeb005`]. (Insight AND Web)
+#. Set owner's settings [:ref:`RenderWeb005`]. (Insight AND Web)
 
    - |C| that thumbnails in the central pane are updated.
 
@@ -142,61 +142,13 @@ Render
 
    - |C| that you can see the Rendering settings you just saved as the owner of the image as a default.
    - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
-   - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings (under ``Preview > Saved by``) as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web, see example in [:ref:`Render008`]).
-   - (Insight only) |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
+   - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web.
+   - |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
     
 
 
 
 
-
-.. _Render001:
-.. figure:: /images/testing_scenarios/Render/001.png
-   :align: center
-
-   Render001: 
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _Render002:
-.. figure:: /images/testing_scenarios/Render/002.png
-   :align: center
-
-   Render002:
-
-
-|
-|
-|
 |
 |
 |
@@ -260,71 +212,6 @@ Render
    RenderWeb003:
 
 
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _Render003:
-.. figure:: /images/testing_scenarios/Render/003.png
-   :align: center
-
-   Render003
-
-
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _Render004:
-.. figure:: /images/testing_scenarios/Render/004.png
-   :align: center
-
-   Render004
-
-
-|
 |
 |
 |
@@ -574,34 +461,6 @@ Render
 |
 |
 |
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-|
-
-
-.. _Render008:
-.. figure:: /images/testing_scenarios/Render/008.png
-   :align: center
-
-   Saved by menu Insight:
-
-
 |
 |
 |
