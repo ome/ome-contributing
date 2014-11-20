@@ -126,9 +126,9 @@ Other user's data.
 =========================
 
    - Open an image belonging to another user.
-   - Modify the settings in the "Preview" pane on the right [:ref:`Render005`] or use the icon on the top left in the Full Viewer window (Insight). Click ``Edit`` in the Full Viewer to modify settings. Save your own setting using the `Save`` button (Web)[:ref:`Render007`].
+   - Modify the settings in the “Preview” pane or click ``Edit`` in the Full Viewer to modify settings. Save your own setting using the `Save`` button [:ref:`Render007`].
    - |C| that thumbnails in the central pane are updated.
-   - (Insight only) use ``Save to all`` button.
+   - Use ``Save to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
 
 
@@ -144,7 +144,7 @@ Other user's data.
      - Change Rendering settings in Insight and click ``Save to All`` in Preview pane, followed by clicking ``Reset`` in Preview pane and again ``Save to All``.
      - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
 
-#. Repeat the step 14, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+#. Repeat step 1, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
 #. Import images as a user (e.g. user-4) in Read-Only group and modify Rendering settings in easily recognizable manner. Log out, Log in to Web as an Administrator (e.g. user-6), which is **NOT** an Owner of Read-Only group and view the images you just imported. 
 
