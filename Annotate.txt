@@ -66,6 +66,11 @@ Annotate
 
    - |C| that when you select a Tag Set and click add (``>``), all the Tags in the Tag Set move to the ``Selected`` list.
 
+#. (Web and Insight) Make sure you have tagged Project/Dataset/Image/Screen/Plate/Plate Run/Well with at least 1 tag on each of them.
+
+   - Bring up the tagging dialog by clicking on ``+``
+   - |C| that the tags available for further tagging in the left-hand pane load as expected.
+   - |C| that when you select a tag, transfer it into the right-hand pane and click ``Save``, the tag you selected will be added to the existing one.
 
 #. (Insight only) Add/Remove All 
 
