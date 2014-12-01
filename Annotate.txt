@@ -70,7 +70,7 @@ Annotate
 
    - Bring up the tagging dialog by clicking on ``+``
    - |C| that the tags available for further tagging in the left-hand pane load as expected.
-   - |C| that when you select a tag, transfer it into the right-hand pane and click ``Save``, the tag you selected will be added to the existing one.
+   - |C| that when you select a tag, transfer it into the right-hand pane and click ``Save``, the tag you selected is added to the existing ones.
 
 #. (Insight only) Add/Remove All 
 
