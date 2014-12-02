@@ -2,9 +2,9 @@
    :depth: 2
 
 
-##############################################
+##############
 Render - Web
-##############################################
+##############
 
 
 
@@ -14,7 +14,7 @@ Render - Web
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
 Render - basic
-================
+===============
 
 #. Use right-click to copy settings from an image.
 
@@ -122,18 +122,18 @@ Render - copying / resetting
 #. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
  
  
-Other user's data.
-=========================
+Other users' data
+==================
 
    - Open an image belonging to another user.
-   - Modify the settings in the “Preview” pane or click ``Edit`` in the Full Viewer to modify settings. Save your own setting using the `Save`` button [:ref:`Render007`].
+   - Modify the settings in the “Preview” pane or click ``Edit`` in the Full Viewer to modify settings. Save your own setting using the ``Save`` button [:ref:`Render007`].
    - |C| that thumbnails in the central pane are updated.
    - Use ``Save to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
 
 
 
-#. Other user's data ``Owner's settings``.
+#. Other users' data ``Owner's settings``.
 
    - Import at least 2 multi-t and multi-z images as a user (e.g. user-4) in Read-Only group.
    - Go to the imported images and modify the Rendering settings in such a way that you can recognize these settings easily later.
