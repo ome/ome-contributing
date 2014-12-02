@@ -3,9 +3,9 @@
    :depth: 2
 
 
-#################
+################
 Render - Insight
-#################
+################
 
 
 
@@ -15,7 +15,7 @@ Render - Insight
 
 
 Render - basic
-===============
+==============
 
 #. Use right-click to copy settings from an image.
 
@@ -71,7 +71,7 @@ Render - basic
 #. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
 
 Render - copying / resetting
-=============================
+============================
 
 
 #. Paste settings with the Full viewer open.
@@ -110,7 +110,7 @@ Render - copying / resetting
 
  
 Other users' data
-==================
+=================
 
    - Open an image belonging to another user.
    - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own setting using the ``Apply`` icon (Preview is **NOT** for Big images) or ``Save`` icon (icon in ``Full Viewer``).

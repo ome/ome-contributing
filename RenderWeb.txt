@@ -2,9 +2,9 @@
    :depth: 2
 
 
-##############
+############
 Render - Web
-##############
+############
 
 
 
@@ -14,7 +14,7 @@ Render - Web
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
 Render - basic
-===============
+==============
 
 #. Use right-click to copy settings from an image.
 
@@ -79,7 +79,7 @@ Render - basic
    - |C| that the Rendering settings were updated after Paste in all cases.
 
 Render - copying / resetting
-===================================
+============================
 
 #. Reset imported settings - use the ``Set Imported and Save`` button in the right-clcik context menu, Full Viewer (click on ``Edit`` link first) and Preview.
 
@@ -102,7 +102,7 @@ Render - copying / resetting
  
  
 Other users' data
-==================
+=================
 
    - Open an image belonging to another user.
    - Modify the settings in the “Preview” pane or click ``Edit`` in the Full Viewer to modify settings. Save your own setting using the ``Save`` button [:ref:`Render007`].
