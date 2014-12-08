@@ -114,6 +114,8 @@ Render - copying / resetting
 Other users' data
 =================
 
+#. Other users' data - basic.
+
    - Open an image belonging to another user.
    - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own setting using the ``Apply`` icon (Preview is **NOT** for Big images) or ``Save`` icon (icon in ``Full Viewer``).
    - |C| that thumbnails in the central pane are updated.
@@ -135,7 +137,7 @@ Other users' data
      - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
      - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
 
-#. Repeat the step 1 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+#. Repeat the step 2 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
 
    
