@@ -64,7 +64,7 @@ Render - basic
 
 #. Min Max.
 
-   - Import few images. Go to Preview.
+   - Import a few images. Go to Preview.
    - |C| that for each channel the start-end is set to the min-max.
    - Select images imported previously (not the newly imported ones).
    - Click ``Imported``  button.
