@@ -37,15 +37,15 @@ Render - basic
 
    - Sliders.
    - Color picker.
-   - Switching a channel on and off.
-   - Copy one settings which were not saved, do **NOT** paste, then 
+   - Toggling a channel on and off.
+   - Copy settings which were not saved, do NOT paste, then
    - Navigate to another image, copy settings from it (settings which were saved, e.g. using right-click on the image in the tree) then
    - Paste in Preview of a third image and |C| that the second (most recently copied) settings were pasted.
    - Open the Full Viewer from the Preview tab using ``Launch Full Viewer`` button.
    - |C| that the Full Viewer shows the same Rendering settings as the Preview.
    - |C| that the size of the image in the Full Viewer is such that it fits into the window, not smaller.
    - Paste something into the Full Viewer and |C| that the Full Viewer updates.
-   - Change the Rendering settings in the Full Viewer and press ``Save``. |C| that Preview updates.
+   - Change the Rendering settings in the Full Viewer and press Save. |C| that Preview viewer and User Settings thumbnail updates.
    
    - Copy the unsaved Rendering settings from the Preview pane of an image and Paste them
      
