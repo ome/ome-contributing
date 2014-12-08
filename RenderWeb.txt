@@ -70,8 +70,15 @@ Render - basic
    - Click ``Imported``  button.
    - |C| that for each channel start-end = min-max.
 
+#. Repeat steps 1. - 6. working on orphaned images. 
+
+#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
 
 
+
+
+Render - copying / resetting
+============================
 
 #. Copy settings in the Full Viewer [:ref:`RenderWeb002`] ) and paste them. 
 
@@ -80,9 +87,6 @@ Render - basic
    - in Preview pane of another image.
    - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview).
    - |C| that the Rendering settings were updated after Paste in all cases.
-
-Render - copying / resetting
-============================
 
 #. Reset imported settings - use the ``Set Imported and Save`` button in the right-clcik context menu, Full Viewer (click on ``Edit`` link first) and Preview.
 
@@ -99,9 +103,7 @@ Render - copying / resetting
 
 #. Make sure you have images in "Orphaned Images" folder (get them via CLI import or do Cut command).
 
-#. Repeat steps 1. - 6. working on orphaned images. 
 
-#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
  
  
 Other users' data
