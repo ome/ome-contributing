@@ -24,9 +24,9 @@ Render - basic
    - |C| that both left-hand pane tree and central pane have the appropriate right-click menu [:ref:`Render001`].
 
 
-#. Select a collection of images and paste the settings.[:ref:`Render002`] 
+#. Select a collection of images and use right-click to Paste and Save the settings [:ref:`Render002`]. 
 
-   - |C| that the thumbnails in the central pane are updated.
+   - |C| that the thumbnails in the centre pane and the Preview viewer and User Settings thumbnail update. 
 
 #. Select a plate and paste the settings.
 

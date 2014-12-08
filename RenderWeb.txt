@@ -24,9 +24,9 @@ Render - basic
   
 
 
-#. Select a collection of images and paste the settings.
+#. Select a collection of images and use right-click to Paste and Save the settings. 
 
-   - |C| that the thumbnails in the central pane are updated.
+   - |C| that the thumbnails in the centre pane and the Preview viewer and User Settings thumbnail update. 
 
 #. Select a plate and paste the settings.
 
