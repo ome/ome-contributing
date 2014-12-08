@@ -70,7 +70,7 @@ Render - basic
 
 #. Repeat steps 1. - 6. working on orphaned images. 
 
-#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]).
+#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]). Preview is **NOT** available for Big images. 
 
 Render - copying / resetting
 ============================
@@ -93,9 +93,9 @@ Render - copying / resetting
    - Close the Full Viewer of ``image-1``.
    - |C| that the ``Save`` dialog appears.
    - Select ``Yes`` to save the new rendering settings.
-   - |C| that the thumbnail of ``image-1`` has updated.
+   - |C| that the thumbnail of image-1 has updated in the centre pane and in the viewer and User Settings in Preview.
    - Re-open ``image-1``.
-   - |C| that the rendering settings are as saved last time and the Full Viewer and thumbnail correspond.
+   - |C| that the rendering settings are as saved last time and the Full Viewer and thumbnail in the centre pane and in the viewer and User Settings in Preview correspond.
 
 #. Reset imported settings [:ref:`Render003`]. 
 
@@ -117,7 +117,7 @@ Other users' data
 #. Other users' data - basic.
 
    - Open an image belonging to another user.
-   - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own setting using the ``Apply`` icon (Preview is **NOT** for Big images) or ``Save`` icon (icon in ``Full Viewer``).
+   - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own settings using the ``Save`` icon in Preview or ``Save`` icon in ``Full Viewer`` (top row of ``Full Viewer``).
    - |C| that thumbnails in the central pane are updated.
    - Use ``Apply to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
