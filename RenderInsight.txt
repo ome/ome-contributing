@@ -28,9 +28,10 @@ Render - basic
 
    - |C| that the thumbnails in the centre pane and the Preview viewer and User Settings thumbnail update. 
 
-#. Select a plate and paste the settings.
+#. Select a well in a plate and change the settings then use right-click to ``Copy`` and then ``Paste and Save`` the settings to the whole plate using right-click.
 
-   - |C| that the images in the wells update.
+   - |C| that the images in the wells in the centre pane and the Preview viewer and User Settings thumbnail update.
+
 
 #. In Preview, change the settings using 
 
