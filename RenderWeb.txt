@@ -59,7 +59,7 @@ Render - basic
      - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview). **Note** that the ``Save to All`` button is disabled for Plates when single wells are selected.
      - |C| that the Rendering settings were updated after Paste in all cases.
 
-#. In context (right-click) menu, execute the ``Reset and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
+#. In context (right-click) menu, execute the ``Set Imported and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
 
 
 #. Min Max.
@@ -127,8 +127,10 @@ Other users' data
    - View the images you just imported as another user (e.g. user-3 viewing user-4's images).
 
      - |C| that, still as a default you can see the Rendering settings you just saved as the owner of the image (for example user-4).
-     - Change Rendering settings in Insight and click ``Save to All`` in Preview pane, followed by clicking ``Reset`` in Preview pane and again ``Save to All``.
-     - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
+     - |C| that when you change Rendering settings and click ``Save`` in Preview pane, your own settings appear in the list under ``User Srttings``.
+     - Change Rendering settings and click ``Save to All`` in Preview pane, followed by clicking ``Imported`` in Preview pane and again ``Save to All``.
+     - |C| that the thumbnail in the centre pane, the viewer in Preview, the thumbnail in User Settings and the image in the Full Viewer still match. 
+     - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
 
 #. Repeat step 2, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
 
@@ -136,8 +138,8 @@ Other users' data
 
    - |C| that you can see the Rendering settings you just saved as the owner of the image as a default.
    - |C| that when you can change the settings (still in Web) and Save the new settings, the thumbnail, the Preview and the Full Viewer match and they have the newly created and saved settings. 
-   - Click ``Reset`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web.
-   - |C| that under ``Preview > Saved by`` the settings of the owner are hightlighted blue. 
+   - Click ``Set Imported and Save`` in Web and go to Insight, logging in as the owner of the image - |C| that you have your settings as well as the Admins settings (= the Rendering settings of the image owner have not been deleted or overwritten by the actions of the Admin in Web.
+   - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
     
 
 

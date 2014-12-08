@@ -55,7 +55,7 @@ Render - basic
      - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview).
      - |C| that the Rendering settings were updated after Paste in all cases.
 
-#. In context (right-click) menu, execute the ``Reset and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
+#. In context (right-click) menu, execute the ``Imported and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
 
 
 #. Min Max.
@@ -100,7 +100,7 @@ Render - copying / resetting
 #. Reset imported settings [:ref:`Render003`]. 
 
    - |C| that thumbnails in the central pane are updated.
-   - |C| that when you select Plate Run in Web and ``Reset Default Settings``, no error occurs.
+   - |C| that when you select Plate Run in Web and ``Set Imported and Save``, no error occurs.
 
 #. Set min/max settings. 
 
@@ -119,7 +119,7 @@ Other users' data
    - Open an image belonging to another user.
    - Modify the settings in the ``Preview`` pane on the right [:ref:`Render005`] or use the icon on the top left in the ``Full Viewer`` window (Insight). Save your own settings using the ``Save`` icon in Preview or ``Save`` icon in ``Full Viewer`` (top row of ``Full Viewer``).
    - |C| that thumbnails in the central pane are updated.
-   - Use ``Apply to all`` button.
+   - Use ``Save to all`` button.
    - |C| that all thumbnails in a Dataset or all wells in a Plate Run are updated.
 
 
@@ -132,9 +132,9 @@ Other users' data
    - View the images you just imported as another user (e.g. user-3 viewing user-4's images).
 
      - |C| that, still as a default you can see the Rendering settings you just saved as the owner of the image (for example user-4).
-     - |C| that in Insight, when you change Rendering settings and click ``Apply`` in Preview pane, your own settings appear in the list under ``Saved by``.
-     - Change Rendering settings in Insight and click ``Apply to All`` in Preview pane, followed by clicking ``Reset`` in Preview pane and again ``Apply to All``.
-     - |C| that the thumbnail, the image in Preview and the image in the Full Viewer still match. 
+     - |C| that when you change Rendering settings and click ``Save`` in Preview pane, your own settings appear in the list under ``User Srttings``.
+     - Change Rendering settings and click ``Save to All`` in Preview pane, followed by clicking ``Imported`` in Preview pane and again ``Save to All``.
+     - |C| that the thumbnail in the centre pane, the viewer in Preview, the thumbnail in User Settings and the image in the Full Viewer still match. 
      - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
 
 #. Repeat the step 2 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
