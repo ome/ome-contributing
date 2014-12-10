@@ -137,7 +137,7 @@ Other users' data
      - |C| that the thumbnail in the centre pane, the viewer in Preview, the thumbnail in User Settings and the image in the Full Viewer still match. 
      - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
 
-#. Repeat the step 2 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Owner in these groups to save your own settings on other's images). 
+#. Repeat step 2 of the present section, this time in Read-Annotate and Read-Write groups (note that you do not have to be Group Owner in these groups to save your own settings on other's images). 
 
 
    

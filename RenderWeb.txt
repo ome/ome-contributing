@@ -13,7 +13,7 @@ Render - Web
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
-**Note**: For all copy and paste tests, the copied settings must be pasted to an data set of images/image or plate/well that has the same pixel type and number of channels as the image the settings were copied from. It is suggested that changes made to settings for test purposes are obvious and easily recognisable.
+**Note**: For all copy and paste tests, the copied settings must be pasted to a data set of images/image or plate/well that has the same pixel type and number of channels as the image the settings were copied from. It is suggested that changes made to settings for test purposes are obvious and easily recognisable.
 
 Render - basic
 ==============
@@ -59,7 +59,7 @@ Render - basic
      - do all 3 Paste actions also on Plate (in tree) and on single Wells in Plate (Full Viewer & Preview). **Note** that the ``Save to All`` button is disabled for Plates when single wells are selected.
      - |C| that the Rendering settings were updated after Paste in all cases.
 
-#. In context (right-click) menu, execute the ``Set Imported and Save`` on a Plate Run and |C| this does revert the Rendering settings to its original state at import.
+#. In context (right-click) menu, execute the ``Set Imported and Save`` on a Plate Run and |C| that this does revert the Rendering settings to its original state at import.
 
 
 #. Min Max.
@@ -127,7 +127,7 @@ Other users' data
    - View the images you just imported as another user (e.g. user-3 viewing user-4's images).
 
      - |C| that, still as a default you can see the Rendering settings you just saved as the owner of the image (for example user-4).
-     - |C| that when you change Rendering settings and click ``Save`` in Preview pane, your own settings appear in the list under ``User Srttings``.
+     - |C| that when you change Rendering settings and click ``Save`` in Preview pane, your own settings appear in the list under ``User Settings``.
      - Change Rendering settings and click ``Save to All`` in Preview pane, followed by clicking ``Imported`` in Preview pane and again ``Save to All``.
      - |C| that the thumbnail in the centre pane, the viewer in Preview, the thumbnail in User Settings and the image in the Full Viewer still match. 
      - |C| that under ``Preview > User Settings`` the settings of the owner are hightlighted blue. 
