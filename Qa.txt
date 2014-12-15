@@ -75,8 +75,45 @@ QA web application testing
    - Select ``Help``
    - Dialog will open. Input a valid email and message and click ``Send``.
    - |C| that the feedback arrived in QA system. 
-   - Cause an error in Web (for example annotate an image in Web and delete it in Insight before you Save)
+   - Cause an error in Web
+     - Tag a dataset in Web
+     - Delete the dataset in Insihgt
+     - Remove the tag in Web (click on the tag in right-hand pane and confirm yes in the dialog)
+     - In Web, click onto the ``+`` sign to add new tag 
+     - Submittable error appears
    - Submit the error and |C| that you can see it in the QA
    - Submit a comment from Web and |C| that you can see it in the QA
+
+
+#. Send feedback from CLI
+
+   - donwload a server from the CI and unzip
+   - download files which will break on import from ``data_repo/test_images_broken/fails_at_processing``
+   - try to import these files into a CI server (e.g. trout) with following three options, replacing EMAIL with a valid email address.
+
+
+
+
+         ::
+
+          bin/omero import PATH_TO_FILE/FILENAME  --report  --email EMAIL
+          bin/omero import PATH_TO_FILE/FILENAME  --upload  --email EMAIL
+          bin/omero import PATH_TO_FILE/FILENAME  --logs    --email EMAIL
+          
+
+   - |C| that the feedback arrived in QA system (qa-staging)
+   - |C| that you received an email for every submission
+   - |C| that for ``--report`` option, the error was submitted
+   - |C| that for ``--upload`` option, the file itself was uploaded
+   - |C| that for ``--logs`` option, the logs were submitted
+ 
+
+#. Older versions
+
+   
+   - repeat the point 6 sending feedback from older version of Insight (4.4 and 5.0 version)
+   - repeat the point 7 sending feedback from older version of Web (4.4 and 5.0 version)
+   - repeat the point 8 sending feedback from older version of CLI (4.4 and 5.0 version)
+   - send feedback using http (additionally to the use of https)
 
 
