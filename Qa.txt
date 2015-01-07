@@ -88,25 +88,29 @@ QA web application testing
 #. Send feedback from CLI
 
    - donwload a server from the CI and unzip
-   - download files which will break on import from ``data_repo/test_images_broken/fails_at_processing``
-   - try to import these files into a CI server (e.g. trout) with following three options, replacing EMAIL with a valid email address.
+   - download files from ``data_repo/test_images_broken/``
+   - try to import these files into a CI server (e.g. trout) with following three options, replacing EMAIL with a valid email address. Use ``test_images_broken/volocity/3 Colour.acff`` for this:
+
+
 
 
 
 
          ::
 
-          bin/omero import PATH_TO_FILE/FILENAME  --report  --email EMAIL
-          bin/omero import PATH_TO_FILE/FILENAME  --upload  --email EMAIL
-          bin/omero import PATH_TO_FILE/FILENAME  --logs    --email EMAIL
+          bin/omero import PATH_TO_FILE/FILENAME  --report  --email EMAIL --qa_baseurl=https://qa.staging.openmicroscopy.org/qa
+          bin/omero import PATH_TO_FILE/FILENAME  --report --upload  --email EMAIL --qa_baseurl=https://qa.staging.openmicroscopy.org/qa
+          bin/omero import PATH_TO_FILE/FILENAME  --report --logs    --email EMAIL --qa_baseurl=https://qa.staging.openmicroscopy.org/qa
           
-
+ 
    - |C| that the feedback arrived in QA system (qa-staging)
    - |C| that you received an email for every submission
    - |C| that for ``--report`` option, the error was submitted
-   - |C| that for ``--upload`` option, the file itself was uploaded
-   - |C| that for ``--logs`` option, the logs were submitted
- 
+   - |C| that for ``--report --upload`` option, the file itself and the log were uploaded as a .zip
+   - |C| that for ``--report --logs`` option, the logs were submitted, not a .zip
+   - |C| that when you import ``squig/data_repo/test_images_broken/broken_images_scenario/fails_at_processing/wrong-light-source-mk3.ome`` with 
+      - ``--report --logs`` option, you have no log (none is available) in the qa feedback, but you also have no NPE on the console output
+      - ``--report --upload`` option, you have just the file uploaded (again, no log is available)
 
 #. Older versions
 
