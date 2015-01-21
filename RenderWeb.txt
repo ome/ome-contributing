@@ -119,7 +119,7 @@ Other users' data
 
 
 
-#. Other users' data ``Owner's settings``.
+#. Other users' data - Owner's settings.
 
    - Import at least 2 multi-t and multi-z images as a user (e.g. user-4) in Read-Only group.
    - Go to the imported images and modify the Rendering settings in such a way that you can recognize these settings easily later.
