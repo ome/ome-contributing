@@ -13,7 +13,7 @@ Render - Insight
 
 **Purpose of the test** is to make sure rendering is smooth and changes are applied consistently to all visualisations of the images and all the options of rendering are functional.
 
-**Note**: For all copy and paste tests, the copied settings must be pasted to an data set of images/image or plate/well that has the same pixel type and number of channels as the image the settings were copied from. It is suggested that changes made to settings for test purposes are obvious and easily recognisable.
+**Note**: For all copy and paste tests, the copied settings must be pasted to a Dataset of Images/Image or Plate/Well that has the same pixel type and number of channels as the image the settings were copied from. It is suggested that changes made to settings for test purposes are obvious and easily recognisable.
 
 Render - basic
 ==============
