@@ -284,13 +284,20 @@ Labels Tab
    - |C| that clicking 'Show' adds a scalebar to selected panel.
    - |C| that editing the length, position $ color of the scalebar update scalebar on selected panel.
 
+#. Test scalebar label.
+
+   - |C| that clicking 'Label' on the scalebar form adds a label above / below scalebar on the figure panel.
+   - |C| that a font-size widget appears in the scalebar form.
+   - |C| that choosing a different font-size for the label updates the label in the selected panel.
+   - |C| that unchecking / rechecking 'Label' checkbox hides and shows the label.
+
 #. Select multiple panels, with some showing, some NOT showing scalebars.
 
    - |C| that clicking "Show" adds scalebar to all panels.
 
-#. Select multiple panels, with scalebars of different lengths / location / color
+#. Select multiple panels, with scalebars of different lengths / location / color / label / font-size
 
-   - |C| that editing scalebar length / location / color applies change to all selected panels.
+   - |C| that editing scalebar length / location / color / label / font-size applies change to all selected panels.
    - |C| that zooming of the image (in Preview tab) updates scalebar size accoringly.
 
 #. Test manual adding labels to one or more panels.
@@ -326,6 +333,7 @@ Labels Tab
 #. Finally, export to PDF to check that all labels and scalebars looks same as in web.
 
    - |C| that the PDF includes a note about the length of scalebars in the figure.
+   - |C| that scalebar labels appear the same in the PDF as in the web figure.
 
 
 Info Tab
