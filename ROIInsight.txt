@@ -59,7 +59,7 @@ ROI Insight
    - right-click menu on the region in the image
    - right-click menu on the ROI in the list in Measurement Tools window
 
-#. Edit: change Fill and Line color [:ref:`ROIInsight009`]. Change width and height of a shape (Inspector tab).
+#. Change Fill and Line color [:ref:`ROIInsight009`]. Change width and height of a shape (Inspector tab).
 
    - |C| the changes of the region display.
 
