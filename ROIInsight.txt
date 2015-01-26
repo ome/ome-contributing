@@ -73,8 +73,8 @@ ROI Insight
 
    - Import ``test_images_good/EM-data/`` 
    - Draw a line region
-   - |C| that the units and values in the Results tab are correctly displayed (this is an image with non-default calibration).
-
+   - |C| that the units and values in the Results tab are correctly displayed. This means checking in the General Tab the size of the pixel and judge from it how long approximately your line should be and compare it with what is displayed.
+   
 
 #. Select a Big image
 
