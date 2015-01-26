@@ -184,10 +184,12 @@ ROI Insight
 #. 3rd Party ROIs: 
 
    - Download zip from QA 10343 or 10344
-   - Import some of .lsm NOT the .mdb files
-   - If ROI count (right-hand pane) is not zero then
-   - Open the image. 
-   - |C| that the ROIs are displayed. They have neither multiple z nor t.
+   - DO NOT import any of the *.mdb files
+   - Import all the *.lsm files except ``2014.10.30/CTR_1.lsm```
+   - Import all the files from ``data_repo/test_images_roi/zvi/``
+   - All the images thus imported should have ROIs on them.
+   - Open all the images.
+   - |C| that the ROIs are displayed. 
 
 #. Shapes without linkage to a plane
 
