@@ -185,7 +185,7 @@ ROI Insight
 
    - Download zip from QA 10343 or 10344
    - DO NOT import any of the *.mdb files
-   - Import all the *.lsm files except ``2014.10.30/CTR_1.lsm```
+   - Import all the *.lsm files except ``2014.10.30/CTR_1.lsm``
    - Import all the files from ``data_repo/test_images_roi/zvi/``
    - All the images thus imported should have ROIs on them.
    - Open all the images.
