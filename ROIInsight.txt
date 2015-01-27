@@ -192,7 +192,8 @@ ROI Insight
 
 #. Shapes without linkage to a plane
 
-   - Create a shape (a ROI) not linked to any plane, for example in ImageJ and import the image into OMERO.
+   - Create a shape (a ROI) not linked to any plane, for example in ImageJ (see :doc:`InsightasPluginImageJFiji` , Section **ImageJ - ROI and OMERO upload**, step 1 for instructions).
+   - Import the image into OMERO using OMERO.insight, NOT the IJ-plugin.
    - Open the image in Insight, open the Measurement Tool, do not save the ROI
    - Go to the Graph, Intensity View, Intensity Result View.
    - |C| that the shape is analysed.
