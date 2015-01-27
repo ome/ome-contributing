@@ -75,7 +75,6 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
 
-   - 
 
 
 
