@@ -59,13 +59,13 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 **ImageJ - ROI and OMERO upload**
 (5.1.x only. This section is just pre-release testing scenario, do not do on release day, on release day go to section **Fiji**)
 
-#. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager``.
+#. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
-   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked
+   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT.
    - close the image
    - close the ``ROI Manager``
-   - reimport the saved image using ``Plugins > Bio-formats > Bio-formats Importer``
+   - reimport the saved image using ``Plugins > Bio-formats > Bio-formats Importer``, selecting the checkboxes ``Display ROIs``, ``Display OME-XML metadata`` and ``Display Metadata`` in the ``Bio-formats importer`` options)
    - |C| that the ``ROI Manager`` dialog pops up and lists all the regions you saved previously
    - |C| that when you tick the ``Show all`` tickbox in ``ROI Manager`` you see the regions just as you saved them on the image
    - Import the image you created into OMERO (using OMERO.insight).
