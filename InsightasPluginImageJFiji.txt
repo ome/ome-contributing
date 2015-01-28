@@ -57,7 +57,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 
 **ImageJ - ROI and OMERO upload**
-(5.1.x only. This section is just pre-release testing scenario, do not do on release day, on release day go to section **Fiji**)
+(This section is just pre-release testing scenario, do not do on release day, on release day go to section **Fiji**)
 
 #. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
 
@@ -71,7 +71,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-#. Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+#. (5.1 only) Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
 
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
 
