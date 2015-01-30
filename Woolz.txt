@@ -19,17 +19,28 @@ command-line.
    testing directly on the CI nodes where the Woolz libraries are built.
 
 
-#. Go to Terminal. cd into the directory where your server runs. From there:
+#. Go to Terminal. . From there:
 
 #. Make sure the Woolz library is in the dynamic library path::
   
      $ export LD_LIBRARY_PATH=/opt/MouseAtlas/lib
 
-#. Untar the WoolzTestData tarball and import its content into the server::
+#. Untar the WoolzTestData tarball under :file:`~/WoolzTestData`
+
+#. Download the Bio-Formats command-line tools and unextract them.
+
+#. Try to run Bio-Formats on the Woolz images, e.g.::
+
+     $ ./showinf -nopix ~/WoolzTestData/artic_02_06_05.wlz
+
+   - |C| that the images are correctly read by Bio-Formats
+
+#. cd into the directory where your server runs. Import its content into the 
+   server::
 
      $ bin/omero import ~/WoolzTestData
 
-  - |C| that the images are correctly imported (except for those not read by Bio-Formats) 
+   - |C| that the images are correctly imported (except for those not read by Bio-Formats) 
 
 #. Open a graphical OMERO client and check the images on the server
 
