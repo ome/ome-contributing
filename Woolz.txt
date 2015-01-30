@@ -1,0 +1,35 @@
+Woolz format
+============
+
+
+
+**To test in**: Command line interface 
+
+**Purpose of the test** is to check the import of Woolz images from 
+command-line.
+
+
+**Find suitable images here** http://www.emouseatlas.org/emap/analysis_tools_resources/software/woolz.html
+
+
+.. warning::
+   You need the Woolz library compiled with the Java bindings and properly 
+   configured in the environment both client-side (import) and server-side.
+   Because this may require additional work, it is recommended to perform this
+   testing directly on the CI nodes where the Woolz libraries are built.
+
+
+#. Go to Terminal. cd into the directory where your server runs. From there:
+
+#. Make sure the Woolz library is in the dynamic library path::
+  
+     $ export LD_LIBRARY_PATH=/opt/MouseAtlas/lib
+
+#. Untar the WoolzTestData tarball and import its content into the server::
+
+     $ bin/omero import ~/WoolzTestData
+
+  - |C| that the images are correctly imported (except for those not read by Bio-Formats) 
+
+#. Open a graphical OMERO client and check the images on the server
+
