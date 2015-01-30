@@ -1,0 +1,17 @@
+Virtual Microscope Testing
+==========================
+
+
+**Produciton server**: <https://learning.openmicroscopy.org/dundee/>
+
+**Purpose of the test** is to check the functioning of the Virtual Microscope.
+
+
+#. General testing
+
+   -  Log in using your UoD LDAP credentials. Now, it's case insensitive, try various combinations of upper and lower case.
+   -  Choose one of the courses from the list. Check if you ended up vieweing data belonging to the user named as a course.
+   -  Browse thoguth each catalogs and see if slides' thumbnails loads.
+   -  Click on each slide and see if metadata panels loads. Please note that preview is turned off.
+   -  Double click on each slide and open full viewer. Zoom in and out.
+
