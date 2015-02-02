@@ -3,44 +3,62 @@ Woolz format
 
 
 
-**To test in**: Command line interface 
+**To test in**: Command line interface
 
-**Purpose of the test** is to check the import of Woolz images from 
+**Purpose of the test** is to check the import of Woolz images from
 command-line.
 
 
-**Find suitable images here** http://www.emouseatlas.org/emap/analysis_tools_resources/software/woolz.html
+Prerequisites
+-------------
 
+- You need sample Woolz images. Sample files are available at
+  http://www.emouseatlas.org/emap/analysis_tools_resources/software/woolz.html
 
-.. warning::
-   You need the Woolz library compiled with the Java bindings and properly 
-   configured in the environment both client-side (import) and server-side.
-   Because this may require additional work, it is recommended to perform this
-   testing directly on the CI nodes where the Woolz libraries are built.
+- The environment used for deploying the testing OMERO.server needs to include
+  the Woolz dynamic library. Ideally this step should be performed by the
+  Continuous Integration deployment job.
 
+- The Woolz library needs to be compiled with the Java bindings client-side
+  and configured during client-side. To simplify matters, it is possible to
+  download the clients and do the import on the same CI node as the server to
+  re-use the compiled library
 
-#. Go to Terminal. . From there:
+Woolz testing
+-------------
+
+#. Open a Terminal.
 
 #. Make sure the Woolz library is in the dynamic library path::
-  
+
      $ export LD_LIBRARY_PATH=/opt/MouseAtlas/lib
 
-#. Untar the WoolzTestData tarball under :file:`~/WoolzTestData`
+#. Untar the WoolzTestData tarball, e.g.::
 
-#. Download the Bio-Formats command-line tools and unextract them.
+     $ tar -xvf WoolzTestData.20120224.tgz
 
-#. Try to run Bio-Formats on the Woolz images, e.g.::
+#. Download the Bio-Formats command-line tools and extract them.
+
+#. Run Bio-Formats information command on the Woolz images, e.g.::
 
      $ ./showinf -nopix ~/WoolzTestData/artic_02_06_05.wlz
 
    - |C| that the images are correctly read by Bio-Formats
 
-#. cd into the directory where your server runs. Import its content into the 
-   server::
+#. Download the OMERO.server which will be used to perform the client-side
+   import, e.g.::
 
+     $ omego download server --branch OMERO-5.1-latest --labels ICE=3.5
+
+#. cd into the server directory
+
+#. Import its content into the server using the CLI import::
+
+     $ bin/omero login username@hostname:port
      $ bin/omero import ~/WoolzTestData
 
-   - |C| that the images are correctly imported (except for those not read by Bio-Formats) 
+   - |C| that the import log does not throw any error
+   - |C| that the images are correctly imported (except for those not read by Bio-Formats)
 
 #. Open a graphical OMERO client and check the images on the server
 
