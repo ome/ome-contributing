@@ -70,6 +70,7 @@ Testing scenarios
    ViewImageWithPerm
    ViewBigImage
    VirtualMachineTesting
+   VirtualMicroscope
    WebOpenAstexViewer
 
 
