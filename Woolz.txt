@@ -47,7 +47,12 @@ Woolz testing
 
      $ ./showinf -nopix ~/WoolzTestData/artic_02_06_05.wlz
 
-   - |C| that the images are correctly read by Bio-Formats
+   - |C| that most Woolz images are correctly read by Bio-Formats
+   - |C| that the :file:`EMA53_TS17_mesh.wlz` and :file:`ts14-cpd.wlz`
+     currently fail to open with an error ot type::
+
+       loci.formats.FormatException: Unable to determine Woolz object value type (uk.ac.mrc.hgu.Wlz.WlzException: WLZ_ERR_OBJECT_TYPE)
+
 
 #. Download the OMERO.server which will be used to perform the client-side
    import, e.g.::
@@ -62,7 +67,7 @@ Woolz testing
      $ bin/omero import ~/WoolzTestData
 
    - |C| that the import log does not throw any error
-   - |C| that the images are correctly imported (except for those not read by Bio-Formats)
+   - |C| that the images are correctly imported (except for the two files mentioned previously)
 
 #. Open a graphical OMERO client and check the images on the server
 
