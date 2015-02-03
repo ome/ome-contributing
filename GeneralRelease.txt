@@ -19,6 +19,7 @@ OMERO.clients:
 #. Download and open the application and login as any user
 
    - (all platforms) start with the Ice35-clients version (the one on the front Downloads page with nice icon to it).
+   - (Mac only) |C| both the Java6 and Java 7+ versions from the Downloads page, using Java 1.6 for the Java6 version.
    - (all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page.
    - (all platforms) |C| one of the OMERO.insight*.zip files (non-openGL) on artifacts page
    - (Mac and Windows only) |C| one of the OMERO.insight*-openGL.zip files on artifacts page.
