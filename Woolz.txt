@@ -20,14 +20,18 @@ Prerequisites
   Continuous Integration deployment job.
 
 - The Woolz library needs to be compiled with the Java bindings client-side
-  and configured during client-side. To simplify matters, it is possible to
-  download the clients and do the import on the same CI node as the server to
-  re-use the compiled library
+  and enable for the client-side session. If testing locally, you may need to
+  build the library and set up your environment accordingly.
+  Our preferred workflow at the moment is to use one of the CI nodes where the
+  Woolz library has been compiled and use the library in the Terminal window.
 
 Woolz testing
 -------------
 
-#. Open a Terminal.
+#. Open a Terminal and log into the CI node using your LDAP credentials,
+   e.g.::
+
+	$ ssh seabass.openmicroscopy.org
 
 #. Make sure the Woolz library is in the dynamic library path::
 
