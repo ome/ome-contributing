@@ -278,7 +278,15 @@ Bio-Formats command-line tools
 
 #. Move into this folder.
 
-#. Execute the ``showinf`` command on the cmd line::
+
+#. Execute the ``bfconvert`` command on the cmd line, for example::
+
+    $ touch test.fake
+    $ ./bfconvert test.fake test.ome.tiff
+   
+   - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created.
+
+#. Execute the ``showinf`` command on the cmd line, using the ``.ome.tiff`` image created in previous step ::
 
     $ ./showinf -version
     $ ./showinf <image_path>
@@ -287,12 +295,7 @@ Bio-Formats command-line tools
    - |C| that the image in the <image_path> in the second command opens.
 
 
-#. Execute the ``bfconvert`` command on the cmd line, for example::
 
-    $ touch test.fake
-    $ ./bfconvert test.fake test.ome.tiff
-   
-   - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created.
 
 
 
