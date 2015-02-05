@@ -74,6 +74,11 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 #. (5.1 only) Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
 
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
+   
+   - create a region in the cropped image and go ``Plugins > OMERO > Upload and Save to OMERO``
+   - |C| that the Data Manager of Insight opens followed immmediately by Importer
+   - |C| that the radio button option in the Importer is ``Current image....``
+   - |C| that when you click ``Add to Queue`` the 
 
 
 
