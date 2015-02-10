@@ -317,10 +317,18 @@ Labels Tab
 
 #. Test scalebar label.
 
-   - |C| that clicking 'Label' on the scalebar form adds a label above / below scalebar on the figure panel.
+   - |C| that clicking 'Label' on the scalebar form adds a label above scalebar on the figure panel.
    - |C| that a font-size widget appears in the scalebar form.
    - |C| that choosing a different font-size for the label updates the label in the selected panel.
    - |C| that unchecking / rechecking 'Label' checkbox hides and shows the label.
+   - |C| that moving scalebar to top left or right of panel shifts label below the scalebar.
+
+#. Test units display & conversion. You need an image that has different units for pixel size. See https://github.com/will-moore/figure/pull/50 how to edit this.
+
+   - |C| that the unit of pixel size is shown in the scalebar form.
+   - |C| that the unit is also shown on scalebar labels.
+   - |C| that saving figure and refreshing the page preserves units display.
+   - |C| that 'Align magnification' conversion works correctly when images with different units are chosen.
 
 #. Select multiple panels, with some showing, some NOT showing scalebars.
 
