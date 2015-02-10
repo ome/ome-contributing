@@ -49,7 +49,7 @@ Woolz testing
 
    - |C| that most Woolz images are correctly read by Bio-Formats
    - |C| that the :file:`EMA53_TS17_mesh.wlz` and :file:`ts14-cpd.wlz`
-     currently fail to open with an error ot type::
+     currently fail to open with an error of type::
 
        loci.formats.FormatException: Unable to determine Woolz object value type (uk.ac.mrc.hgu.Wlz.WlzException: WLZ_ERR_OBJECT_TYPE)
 
