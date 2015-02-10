@@ -169,11 +169,19 @@ Layout of image panels, paper setup
    - |C| that copy & paste of a 'column' of panels duplicates it to the right.
    - |C| that copy & paste of a 'row' of panels duplicates it to the bottom.
 
+#. Test paper setup. Click File -> Paper Setup:
+
+   - |C| that Number of Pages, Size and Orientation are shown correctly.
+   - |C| that changing the number of pages updates the figure.
+   - |C| that changing the page size updates pages in the figure.
+   - |C| that changing Orientation swithces the width and height corretly.
+
 #. Finally, export to PDF
    - |C| that layout corresponds to web UI.
+   - |C| that each page of multi-page figure has correct panels, labels & scalebars.
 
 
-Preview Tab
+Preview Tab - Z/T and rendering
 ============================================================
 
 #. Add image with multiple Z sections. Select panel and 'Preview' tab:
