@@ -255,6 +255,10 @@ Preview Tab - Z/T and rendering
 
    - |C| that channel toggle buttons and channel sliders are not shown.
 
+
+Preview Tab - Zoom, pan & rotation
+============================================================
+
 #. Test behaviour of Zoom and Pan. Select a panel.
 
    - |C| that changing Zoom slider updates viewer while sliding.
@@ -262,6 +266,21 @@ Preview Tab - Z/T and rendering
    - |C| that dragging the viewer image pans the viewer.
    - |C| that when dragging ends, the selected panel updates too.
    - |C| that Zooming back out to 100% resets the panning to zero offset.
+
+#. Test cropping to region. Select one or more panels and click the crop icon beside zoom slider.
+
+   - |C| that a dialog opens showing image at current Z/T.
+   - |C| that a region can be drawn on the image by click & drag.
+   - |C| that the region can be manipulated by dragging corner or side handles or the whole region.
+   - |C| that clicking 'OK' crops the selected panels to the chosen region, keeping within existing boundaries.
+   - |C| that clicking 'Reset Zoom and Shape' button (to the right of 'crop' button) restores the shape of the panel to the shape of the image and sets Zoom at 100%.
+
+#. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
+
+   - |C| that the crop dialog shows Rectangle ROIs with Z & T indecies.
+   - |C| that clicking ROIs shows them in the dialog viewer, updating to the correct Z/T plane.
+   - |C| that choosing a single-Rectangle ROI updates all seleced panels to that shape and Z & T.
+   - |C| that if panels with a range of Timepoints are selected, theT is not changed.
 
 #. Test rotation of panels.
 
