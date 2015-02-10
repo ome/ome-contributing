@@ -150,13 +150,17 @@ Layout of image panels, paper setup
    - |C| that dragging on corner handles resizes all selected panels, maintaining width/height ratio.
    - |C| that dragging on side handle stretches width or height alone.
 
-#. Align & resize selected images with toolbar buttons:
+#. Align selected images with toolbar buttons:
 
    - |C| that alignment buttons are only enabled when more than one panel is selected.
    - |C| that 'align left' aligns all selected panels to the left-most selected panel.
    - |C| that 'align to grid' snaps all selected panels to grid, starting at top-left panel.
    - |C| that 'align top' aligns all selected panels to the top-most selected panel.
+
+#. Resize selected images with toolbar buttons:
+
    - |C| that 'align sizes' (width, height and width & height) resize all panels to match the dimensions of top-left selected panel.
+   - |C| that 'Align Magnification' resizes selected panels so that similar sized scalebars are equal length to match the top-left panel.
 
 #. Copy and Paste duplicate panels into grid layout:
 
