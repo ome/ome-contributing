@@ -49,6 +49,7 @@ Testing scenarios
    MoveDataBetwGroups
    OmeroDataDirFiles
    OMEROfigure
+   OMEROmtools
    OMEROsearcher
    Pixelservice
    Qa
