@@ -12,33 +12,33 @@ OMERO.mtools
 Installation
 ============
 
-#.	Grab the appropriate installer (Mac/Windows) from “squig:\team\mporter\mtools testing versions”. The Mac installer contains the MCR so it will be a very large file.
-#.	Execute the installer and follow on-screen prompts, accepting the default locations and settings
-	- Windows: The installer will check for the presence of the correct MCR. If not found it will download and install this for you. Please accept the default locations and settings.
-	- Mac: The installer will install the MCR. If you know it is already installed then this step can be cancelled. If you are unsure then please allow this process to continue, accepting the default locations and settings
-#.	After the installer has completed, OMERO.mtools will be listed in your Start menu (Win) or Applications folder (Mac).
-#.	Launch the application and type in the username, password and server name. It will attempt to log in when you press the button of the tool you wish to run.
+#.  Grab the appropriate installer (Mac/Windows) from “squig:\team\mporter\mtools testing versions”. The Mac installer contains the MCR so it will be a very large file.
+#.  Execute the installer and follow on-screen prompts, accepting the default locations and settings
+    - Windows: The installer will check for the presence of the correct MCR. If not found it will download and install this for you. Please accept the default locations and settings.
+    - Mac: The installer will install the MCR. If you know it is already installed then this step can be cancelled. If you are unsure then please allow this process to continue, accepting the default locations and settings
+#.  After the installer has completed, OMERO.mtools will be listed in your Start menu (Win) or Applications folder (Mac).
+#.  Launch the application and type in the username, password and server name. It will attempt to log in when you press the button of the tool you wish to run.
 
 
 BoxIt Feature
 =============
 
-#.	Import images from “squig:\team\pwalczysko\mtools testing data” into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY).
+#.  Import images from “squig:\team\pwalczysko\mtools testing data” into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
 
        090829_HeLa_siCTL_coilin_ATUB01_01_R3D_D3D
        090829_HeLa_siCTL_coilin_ATUB01_02_R3D_D3D
        090829_HeLa_siCTL_coilin_ATUB01_03_R3D_D3D
 
-#.	Ensure the username, password and server address are entered into the text boxes
-#.	Click on the “Box It” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
-#.	The main application window should now be displayed. From the file menu choose “Open Image…” or press ctrl+O/cmd+O
-#.	In the drop-down boxes, select the project and dataset used in step 1 and open the first image. An image of DAPI stained nuclei should be visible. The “Next Image” button should be enabled and the “Previous Image” button should be disabled.
-#.	Click the ‘create ROI’ button (white box on a red background) and click/drag to select a region around one of the nuclei. The application will now download the z-stack.
-#.	If multiple objects were detected a dialogue will appear asking you to choose an object. In this window click on the cell that you intended to capture in the ROI.
-#.	Repeat steps 6 and 7 for a few more cells.
-#.	From the File menu click “Save ROIs” or press ctrl+S/cmd+S.
-#.	Click on the “Next Image” button. Verify that image 2 loads.
-#.	Repeat steps 6 to 9 for this image.
-#.	Click on the “Next Image” button. Image 3 should load and the “Next Image” button should now be disabled.
-#.	Exit the application by closing the window. You should be returned to the main menu window.
-#.	Open these images in Insight and verify that the ROIs exist.
+#.  Ensure the username, password and server address are entered into the text boxes
+#.  Click on the “Box It” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
+#.  The main application window should now be displayed. From the file menu choose “Open Image…” or press ctrl+O/cmd+O
+#.  In the drop-down boxes, select the project and dataset used in step 1 and open the first image. An image of DAPI stained nuclei should be visible. The “Next Image” button should be enabled and the “Previous Image” button should be disabled.
+#.  Click the ‘create ROI’ button (white box on a red background) and click/drag to select a region around one of the nuclei. The application will now download the z-stack.
+#.  If multiple objects were detected a dialogue will appear asking you to choose an object. In this window click on the cell that you intended to capture in the ROI.
+#.  Repeat steps 6 and 7 for a few more cells.
+#.  From the File menu click “Save ROIs” or press ctrl+S/cmd+S.
+#.  Click on the “Next Image” button. Verify that image 2 loads.
+#.  Repeat steps 6 to 9 for this image.
+#.  Click on the “Next Image” button. Image 3 should load and the “Next Image” button should now be disabled.
+#.  Exit the application by closing the window. You should be returned to the main menu window.
+#.  Open these images in Insight and verify that the ROIs exist.
