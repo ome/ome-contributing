@@ -44,6 +44,7 @@ Testing scenarios
    ImportUI
    InsightasPluginImageJFiji
    LdapTesting
+   MapAnnotations
    MemoFile
    MetadataDisplay
    MoveDataBetwGroups
