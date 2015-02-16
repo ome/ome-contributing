@@ -60,7 +60,11 @@ Map Annotaions - permissions
    - edit fields of MAnnotations (not yours), write new text into them, (Insight only) hit Save and Check the Save action proceeded.
    - delete (not too much, you will  still need plenty of data !) rows in MAnnotations (not yours - be wise, do not delete too much, leave plenty MAnnotations for next steps !)
 
-#. AFTER Edit actions:
+#. Create
+
+   - paste line(s) from one Map Annotation to create a new Map Annotation on an object which has no Map Annotations of yours yet (no lines are pre-populated on the object with no Map Annotation, just the line ``Add Key`` and ``Add Value`` is present.)
+
+#. AFTER Edit & Create actions:
 
    - Delete (do not delete everything, one or two tests  are enough !) some MAnnotations (meaning all rows) from NOT YOURs Map Annotations.
    - Delete (do not delete everything, one or two tests  are enough !) some MAnnotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
