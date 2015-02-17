@@ -39,6 +39,11 @@ Map Annotaions - basic
     - Click Tab
     - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before Tab click) and you are editing the field in the first column of the newly created row.
 
+#. Select by 
+
+    - Find the ``Show All`` menu in the right-hand pane next to (Web) or just under (Insight) the label ``Annotations``.
+    - Select ``Show added by others`` and ``Show added by me`` and
+    - |C| that the Map Annotations are filtered accordingly.
 
 
 Map Annotaions - permissions
