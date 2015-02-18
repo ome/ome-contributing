@@ -36,7 +36,7 @@ Map Annotaions - basic
 
     - Click (once) into a field (e.g. the Key field in the first row)
     - |C| that you can start writing
-    - Click Tab
+    - Press Tab key.
     - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before Tab click) and you are editing the field in the first column of the newly created row.
 
 #. Select by 
