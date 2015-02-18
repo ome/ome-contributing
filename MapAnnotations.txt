@@ -50,7 +50,7 @@ Map Annotaions - permissions
 ============================
 
 
-**Note** that the setup is ususally done in such a manner, that you DO NOT HAVE TO LOGOUT and LOGIN as some other user. You should be able to do all the work sticking to the user prescribed for you in the testing sheet. The Map Annotations of other users on your data will be pre-prepared for you to work on.
+**Note** that the setup is usually done in such a manner, that you DO NOT HAVE TO LOGOUT and LOGIN as some other user. You should be able to do all the work sticking to the user prescribed for you in the testing sheet. The Map Annotations of other users on your data will be pre-prepared for you to work on.
 
 
 #. |C| the testing sheet for the user you should log in as and the groups you should work on!
