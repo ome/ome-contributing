@@ -59,11 +59,11 @@ Map Annotaions - permissions
 
 #. Edit
 
-   - copy line(s) from one MAnnotation and paste them to another (not yours) MAnnotation
-   - copy and cut line(s) from one MAnnotation and paste them to another (yours) MAnnotation
-   - add lines to MAnnotation (not yours)
-   - edit fields of MAnnotations (not yours), write new text into them, (Insight only) hit Save and Check the Save action proceeded.
-   - delete (not too much, you will  still need plenty of data !) rows in MAnnotations (not yours - be wise, do not delete too much, leave plenty MAnnotations for next steps !)
+   - copy line(s) from one Map Annotation and paste them to another (not yours) Map Annotation
+   - copy and cut line(s) from one Map Annotation and paste them to another (yours) Map Annotation
+   - add lines to Map Annotation (not yours)
+   - edit fields of Map Annotations (not yours), write new text into them, (Insight only) hit Save and Check the Save action proceeded.
+   - delete (not too much, you will  still need plenty of data !) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps !)
 
 #. Create
 
@@ -71,8 +71,8 @@ Map Annotaions - permissions
 
 #. AFTER Edit & Create actions:
 
-   - Delete (do not delete everything, one or two tests  are enough !) some MAnnotations (meaning all rows) from NOT YOURs Map Annotations.
-   - Delete (do not delete everything, one or two tests  are enough !) some MAnnotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
+   - Delete (do not delete everything, one or two tests  are enough !) some Map Annotations (meaning all rows) from NOT YOURs Map Annotations.
+   - Delete (do not delete everything, one or two tests  are enough !) some Map Annotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
 
 #. AFTER Delete actions:
   
