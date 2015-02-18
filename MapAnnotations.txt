@@ -14,7 +14,7 @@ Map Annotations
 **Purpose of the test** is to make sure the Map Annotations functionality is owrking okay for both annotations on your images as well as on other users' images (permissions permitting).
 
 
-**Note**: Although you can copy and paste lines from a Map Annotation to create a new Map Annotation, this newly created Map Annotation is not the same as the one from which you copied the lines from, you are creating a completely new object with such an action. 
+**Note**: Although you can copy and paste lines from a Map Annotation to create a new Map Annotation, this newly created Map Annotation is not the same as the one from which you copied the lines from, you are creating a completely new object with such action. 
 
 Map Annotaions - basic
 ======================
