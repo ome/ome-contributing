@@ -12,7 +12,7 @@ OMERO.mtools
 Installation
 ============
 
-#.  Grab the appropriate installer (Mac/Windows) from “squig:\team\mporter\mtools testing versions”. The Mac installer contains the MCR so it will be a very large file.
+#.  Copy the appropriate installer (Mac/Windows) from ``squig:\team\mporter\mtools testing versions``. The Mac installer contains the Matlab Compiler Runtime (MCR) so it will be a very large file.
 #.  Execute the installer and follow on-screen prompts, accepting the default locations and settings
     - Windows: The installer will check for the presence of the correct MCR. If not found it will download and install this for you. Please accept the default locations and settings.
     - Mac: The installer will install the MCR. If you know it is already installed then this step can be cancelled. If you are unsure then please allow this process to continue, accepting the default locations and settings
@@ -23,7 +23,7 @@ Installation
 BoxIt Feature
 =============
 
-#.  Import images from “squig:\team\pwalczysko\mtools testing data” into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
+#.  Import images from ``squig:\team\pwalczysko\mtools testing data`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
 
        090829_HeLa_siCTL_coilin_ATUB01_01_R3D_D3D
        090829_HeLa_siCTL_coilin_ATUB01_02_R3D_D3D
