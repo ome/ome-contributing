@@ -53,9 +53,9 @@ Map Annotaions - permissions
 **Note** that the setup is ususally done in such a manner, that you DO NOT HAVE TO LOGOUT and LOGIN as some other user. You should be able to do all the work sticking to the user prescribed for you in the testing sheet. The Map Annotations of other users on your data will be pre-prepared for you to work on.
 
 
-#. |C| the testing sheet for the user you should log in as and the groups you should work on !
+#. |C| the testing sheet for the user you should log in as and the groups you should work on!
 
-#. |C| the testing sheet for the data (belonging to which user) you should be working on !
+#. |C| the testing sheet for the data (belonging to which user) you should be working on!
 
 #. Edit
 
@@ -63,7 +63,7 @@ Map Annotaions - permissions
    - copy and cut line(s) from one Map Annotation and paste them to another (yours) Map Annotation
    - add lines to Map Annotation (not yours)
    - edit fields of Map Annotations (not yours), write new text into them, (Insight only) hit Save and Check the Save action proceeded.
-   - delete (not too much, you will  still need plenty of data !) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps !)
+   - delete (not too much, you will  still need plenty of data!) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps!)
 
 #. Create
 
@@ -71,8 +71,8 @@ Map Annotaions - permissions
 
 #. AFTER Edit & Create actions:
 
-   - Delete (do not delete everything, one or two tests  are enough !) some Map Annotations (meaning all rows) from NOT YOURs Map Annotations.
-   - Delete (do not delete everything, one or two tests  are enough !) some Map Annotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
+   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from NOT YOURs Map Annotations.
+   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
 
 #. AFTER Delete actions:
   
