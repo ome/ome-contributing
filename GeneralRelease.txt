@@ -306,7 +306,7 @@ Downloads page
 #. Go to the downloads page and 
 
    - |C| the general layout (no gross misformattings or similar)
-   - |C| that click on all links in the text everywhere (e.g. like to the docs in the first paragraph, in the explanatory texts under the download blocks) will bring you to the advertised place.
+   - |C| that clicking on all links in the text everywhere (e.g. like to the docs in the first paragraph, in the explanatory texts under the download blocks) will bring you to the advertised place.
    - NO NEED to download the clients or servers
    - |C| that you can download the ``Source code``, ``OMERO API documentation``, ``OMERO Java Downloads``, ``OMERO Python Downloads``
    - |C| ``Source code links``
