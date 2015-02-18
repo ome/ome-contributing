@@ -23,9 +23,9 @@ Map Annotaions - basic
 #. Adding new rows
     
     - Select the last row
-    - click Plus
+    - Click Plus
     - |C| that row at the bottom of the table is added.
-    - click Plus again
+    - Click Plus again
     - |C| that another row at the bottom of the table is added.
     - Select a middle row
     - Click Plus
@@ -37,7 +37,7 @@ Map Annotaions - basic
     - Click (once) into a field (e.g. the Key field in the first row)
     - |C| that you can start writing
     - Press Tab key.
-    - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before Tab click) and you are editing the field in the first column of the newly created row.
+    - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before pressing Tab) and you are editing the field in the first column of the newly created row.
 
 #. Select by 
 
