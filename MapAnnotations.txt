@@ -72,10 +72,14 @@ Map Annotations - permissions
 
 #. Create
 
-   - paste line(s) from one Map Annotation to create a new Map Annotation on an object which has no Map Annotations of yours yet (no lines are pre-populated on the object with no Map Annotation, just the line ``Add Key`` and ``Add Value`` is present.)
+   - |C| the testing spreadsheet for information whether you can create a new Map Annotation in the particular group type.
+   - Try to create new Map Annotations in both allowed and non-allowed situations, checking that the allowed situations work, whereas the non-allowed do not. 
+   - Paste line(s) from one Map Annotation to create a new Map Annotation on an object which has no Map Annotations of yours yet (no lines are pre-populated on the object with no Map Annotation, just the line ``Add Key`` and ``Add Value`` is present.)
 
 #. AFTER Edit & Create actions:
 
+   - |C| the testing spreadsheet for information whether you can delete a new Map Annotation in the particular group type.
+   - Try to delete new Map Annotations in both allowed and non-allowed situations, checking that the allowed situations work, whereas the non-allowed do not. 
    - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from NOT YOURs Map Annotations.
    - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
 
