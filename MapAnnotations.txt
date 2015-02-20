@@ -43,6 +43,7 @@ Map Annotations - basic
    - |C| that you can start writing
    - Press Tab key.
    - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before pressing Tab) and you are editing the field in the first column of the newly created row.
+   - edit fields again, do not hit Enter, Tab or Save but navigate to another object and back and |C| that the editing changes in the field have been saved.
 
 #. Select by 
 
@@ -67,7 +68,8 @@ Map Annotations - permissions
    - copy line(s) from one Map Annotation and paste them to another (not yours) Map Annotation
    - copy and cut line(s) from one Map Annotation and paste them to another (yours) Map Annotation
    - add lines to Map Annotation (not yours)
-   - edit fields of Map Annotations (not yours), write new text into them, (Insight only) hit Save and Check the Save action proceeded.
+   - edit fields of Map Annotations (not yours), write new text into them, (Insight only) hit Save (in the row of icons on top of left-hand pane) and |C| the Save action proceeded.
+   - edit fields again, do not hit Enter, Tab or Save but navigate to another object and back and |C| that the editing changes in the field have been saved.
    - delete (not too much, you will  still need plenty of data!) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps!)
 
 #. Create
