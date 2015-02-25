@@ -72,7 +72,7 @@ Map Annotations - permissions
    - |C| that the Save action proceeded.
    - edit fields again, do not hit Enter, Tab or Save but navigate to another object and back and
    - |C| that the editing changes in the field have been saved.
-   - delete (not too much, you will  still need plenty of data!) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps!)
+   - delete (not too much, you will still need plenty of data!) rows in Map Annotations (not yours - be wise, do not delete too much, leave plenty Map Annotations for next steps!)
 
 #. Create
 
