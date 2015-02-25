@@ -84,8 +84,8 @@ Map Annotations - permissions
 
    - |C| the testing spreadsheet for information whether you can delete a new Map Annotation in the particular group type.
    - Try to delete new Map Annotations in both allowed and non-allowed situations, checking that the allowed situations work, whereas the non-allowed do not. 
-   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from NOT YOURs Map Annotations.
-   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from YOURs Map Annotations which are on the same object as some other (not yours) annotations.
+   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from Map Annotations **not belonging to you**.
+   - Delete (do not delete everything, one or two tests  are enough!) some Map Annotations (meaning all rows) from **your** Map Annotations which are on the same object as some other Map Annotations **not belonging to you**.
 
 #. AFTER Delete actions:
   
