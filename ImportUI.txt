@@ -112,7 +112,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
    - |C| that after you Cancel and Cancel All successfully during ``scanning`` 
      phase when importing a whole folder (for example 
-     ``data_repo/public/images/HCS/INCELL2000/``) spinners have stopped & 
+     ``data_repo/public/HCS/INCELL2000/``) spinners have stopped & 
      Insight can Quit normally.
 
    - |C| that when importing multi-images-fileset (MIF) 
