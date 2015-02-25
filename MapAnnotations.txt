@@ -59,9 +59,9 @@ Map Annotations - permissions
 **Note** that the setup is usually done in such a manner that you DO NOT HAVE TO LOGOUT and LOGIN as some other user. You should be able to do all the work sticking to the user prescribed for you in the testing sheet. The Map Annotations of other users on your data will be prepared for you to work on.
 
 
-#. |C| the testing sheet for the user you should log in as and the groups you should work on!
+#. |C| the testing sheet to find which user you should log in as and which groups you should work on!
 
-#. |C| the testing sheet for the data you should be working on! The data will be denoted by their ownership, e.g. ``Work on data of user-x.`` 
+#. |C| the testing sheet to find which user's data you should work on! This will be indicated by sentences like ``Work on data of user-x.`` 
 
 #. Edit
 
