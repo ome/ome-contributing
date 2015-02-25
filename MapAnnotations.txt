@@ -40,7 +40,7 @@ Map Annotations - basic
 #. Editing fields
 
    - Click (once) into a field (e.g. the Key field in the first row)
-   - |C| that you can start writing
+   - |C| that you can start typing
    - Press Tab key.
    - |C| that you are now editing a next field (e.g. the Value field in the first row) or that a new row was created (when in the second column before pressing Tab) and you are editing the field in the first column of the newly created row.
    - edit fields again, do not hit Enter, Tab or Save but navigate to another object and back and |C| that the editing changes in the field have been saved.
