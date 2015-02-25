@@ -61,7 +61,7 @@ Map Annotations - permissions
 
 #. |C| the testing sheet for the user you should log in as and the groups you should work on!
 
-#. |C| the testing sheet for the data (belonging to which user) you should be working on!
+#. |C| the testing sheet for the data you should be working on! The data will be denoted by their ownership, e.g. ``Work on data of user-x.`` 
 
 #. Edit
 
