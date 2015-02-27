@@ -184,9 +184,9 @@ displayed results should be identical in both clients.
 
 
       The search queries are tokenized at the non-alphanumeric 
-      characters and then passed to Lucene. The OR logic between 
+      characters (except dash, underscore and colon), and then passed to Lucene. The OR logic between 
       multiple tokens is implemented. The non-alphanumeric characters 
-      are ignored. 
+      are ignored (except dash and underscore, which are accepted at face value).  For the behaviour of colon see :term:`Map Annotations Search`
 
 
 
@@ -220,9 +220,18 @@ displayed results should be identical in both clients.
    **Advanced Search**
 
 
-      Search for ``nd2 weird AND attachment`` completely ignores the 
-      ``nd2`` part of the query, and returns just the results which have 
-      both ``weird`` and ``attachment``.
+      Search for ``nd2 weird AND attachment`` takes the space betwee ``nd2`` and ``weird`` as OR and returns the results which have 
+      both ``weird`` and ``attachment`` OR ``nd2`` in them.
+
+
+
+   **Map Annotations Search**
+
+
+      Additionally to the possiblity of searching single or multiple strings of Key:Value pairs in the Map Annotations, there is following logic implemented. ``Temperature:37`` will find only Map Annotations (i.e. NOT OTHER types of Annotations) with Key ``Temperature`` AND Value ``37``. Key ``Temperature`` with Value ``40``, as well as Key ``37`` with Value ``Temperature`` will both be ignored.
+      A further possibility is to search for ``has_key:Temperature`` which will return solely Map Annotations with this specific Key.
+   
+
 
 
 
