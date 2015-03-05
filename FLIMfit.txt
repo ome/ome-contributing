@@ -29,7 +29,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Still in Insight, go to the dataset ``Plate`` you just created and attach the file ``central irf.xml`` to this dataset. 
 
-#. In FLIMfit, go ``OMERO > Load Data``. Choose the ``Single`` dataset that you created in Insight and select the file ``convalaria ex 740nm 2 min.sdt``.
+#. In FLIMfit, go ``OMERO > Load FLIM Data``. Choose the ``Single`` dataset that you created in Insight and select the file ``convalaria ex 740nm 2 min.sdt``.
 
    - |C| that the data have been loaded as expected - you should see the preview of the integrated intensity [screenshot].
    - |C| that when you click into the integrated intensity preview, you get fluorescence decay graphs in the middle pane of FLIMfit.
