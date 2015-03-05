@@ -62,7 +62,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 #. Go ``OMERO > Export Fitting Results``.
 
    - |C| that a popup appears indicating that a new dataset was created in OMERO with the exported results.
-   - |C| in OMERO.insight that the dataset was indeed created with a 4-channel image (channels: tau_1, IO, I, ch2) in it.
+   - |C| in OMERO.insight that the dataset was indeed created with a 4-channel image (channels: tau_1, IO, I, chi2) in it.
    - |C| that there are 3 attachments on the created dataset -> ``Fit Results Table``, ``data settings`` and ``fitting settings``.
    - |C| that you can open the image and download and view the 3 attachments.
 
