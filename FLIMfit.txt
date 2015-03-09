@@ -97,7 +97,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
    - After fitting is finished, go to ``Gallery`` tab in the main pane and in the ``Image`` dropdown on the bottom of the middle pane select ``tau-1``, ``tau-2``, ``beta-1``, ``beta-2``
    - |C| that images in the main pane appear each time when you change the parameter selection
    - Go to ``Plotter`` tab in the main pane and in the ``Parameter`` dropdown select ``mean-tau``.
-   - Ensure that you a plot across all the images with error bars
+   - Ensure that you see a plot across all the images with error bars
 
 
 
