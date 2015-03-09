@@ -19,13 +19,15 @@ OMERO.clients:
 #. Download and open the application and login as any user
 
    - (all platforms) start with the Ice35-clients version (the one on the front Downloads page with nice icon to it).
-   - (all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page.
-   - (all platforms) |C| one of the OMERO.insight*.zip files (non-openGL) on artifacts page
-   - (Mac and Windows only) |C| one of the OMERO.insight*-openGL.zip files on artifacts page.
+   - (Mac only) |C| both the Java6 and Java 7+ versions from the Downloads page, using Java 1.6 for the Java6 version.
+   - (all platforms) |C| all Ice versions of OMERO.insight*.zip files in artifacts page.
+   - (all platforms) |C| one of the OMERO.importer*.zip files on artifacts page
+   - (5.0.x releases only, all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page. 
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
    - (all platforms) |C| that the application starts and you can log in.
-   - (all platforms, Insight only) |C| that you can expand a dataset and open an image.
-   - (Windows only) |C| that there is only one executable in each of the ``*win-openGL.zip`` files, for example ``http://downloads.openmicroscopy.org/omero/<release version>/artifacts/OMERO.insight-5.1.10-ice35-b112-win-openGL.zip`` will have just the 32-bit Insight executable and the corresponding ``*win64-openGL.zip`` will have just the 64-bit Insight executable.
+   - (all platforms, Insight only) |C| that you can expand a dataset and open an image with multi-z (Choose one of the ``.dv`` images in datasets named like ``archived dv`` or ``non-archived dv`` - present in almost every user/group.)
+   - (all platforms, Insight only) |C| that you can click onto the Projection tab in the opened image.
+   
 
 
 IJ/Fiji Plugin
@@ -129,7 +131,6 @@ Firefox 27.0, OS X 10.6.8, Java "1.6.0_26"
 Chrome 31.0.1650.63, OS X 10.8.5, Java "1.7.0_21":
 
    - Webstart does not work: redirection to a Java update information website with info about updates happens instead. There is a mention about the fact that 32-bit Chrome browser does not support Java 7. Java runs only on 64-bit browsers on Mac OS. When the updates are applied, it does not help.
-
 
 
 
@@ -277,14 +278,6 @@ Bio-Formats command-line tools
 
 #. Move into this folder.
 
-#. Execute the ``showinf`` command on the cmd line::
-
-    $ ./showinf -version
-    $ ./showinf <image_path>
-
-   - |C| that the correct version, revision and build date are returned after the first command.
-   - |C| that the image in the <image_path> in the second command opens.
-
 
 #. Execute the ``bfconvert`` command on the cmd line, for example::
 
@@ -293,6 +286,29 @@ Bio-Formats command-line tools
    
    - |C| that a new image with the name you chose and the chosen extension (for example ``.ome.tiff``) was created.
 
+#. Execute the ``showinf`` command on the cmd line, using the ``.ome.tiff`` image created in previous step ::
 
+    $ ./showinf -version
+    $ ./showinf <image_path>
+
+   - |C| that the correct version, revision and build date are returned after the first command.
+   - |C| that the image in the <image_path> in the second command opens.
+
+
+
+
+
+
+
+Downloads page
+==============
+
+#. Go to the downloads page and 
+
+   - |C| the general layout (no gross misformattings or similar)
+   - |C| that clicking on all links in the text everywhere (e.g. like to the docs in the first paragraph, in the explanatory texts under the download blocks) will bring you to the advertised place.
+   - NO NEED to download the clients or servers
+   - |C| that you can download the ``Source code``, ``OMERO API documentation``, ``OMERO Java Downloads``, ``OMERO Python Downloads``
+   - |C| ``Source code links``
 
 
