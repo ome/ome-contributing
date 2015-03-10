@@ -127,7 +127,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
    - After fitting is finished, go to ``Plate`` tab in the main pane and in the ``Parameter`` dropdown on the bottom of the middle pane select ``mean-tau``.
    - |C| that you can see a variation in colour across the displayed plate (N.B. Row A is unpopulated).
    - Change the ``Mode`` parameter to ``First Image``
-   - |C| that you can see the central circle in each well. (Note rows 11 and 12 are dim)
+   - |C| that you can see the central circle in each well. (Note columns 11 and 12 are dim)
 
 
 
