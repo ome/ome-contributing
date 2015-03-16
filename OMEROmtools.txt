@@ -14,8 +14,9 @@ Installation
 
 #.  Copy the appropriate installer (Mac/Windows) from ``squig:\team\mporter\mtools testing versions``. The Mac installer contains the Matlab Compiler Runtime (MCR) so it will be a very large file.
 #.  Execute the installer and follow on-screen prompts, accepting the default locations and settings
+
     - Windows: The installer will check for the presence of the correct MCR. If not found it will download and install this for you. Please accept the default locations and settings.
-    - Mac: The installer will install the MCR. If you know it is already installed then this step can be cancelled. If you are unsure then please allow this process to continue, accepting the default locations and settings
+    - Mac: The installer will install the MCR. If you know it is already installed then this step can be cancelled. If you are unsure then please allow this process to continue, accepting the default locations and settings.
 #.  After the installer has completed, OMERO.mtools will be listed in your Start menu (Win) or Applications folder (Mac).
 #.  Launch the application and type in the username, password and server name. It will attempt to log in when you press the button of the tool you wish to run.
 
@@ -30,7 +31,7 @@ BoxIt Feature
        090829_HeLa_siCTL_coilin_ATUB01_03_R3D_D3D
 
 #.  Ensure the username, password and server address are entered into the text boxes
-#.  Click on the “Box It” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
+#.  Click on the “Box It” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step 1.
 #.  The main application window should now be displayed. From the file menu choose “Open Image…” or press ctrl+O/cmd+O
 #.  In the drop-down boxes, select the project and dataset used in step 1 and open the first image. An image of DAPI stained nuclei should be visible. The “Next Image” button should be enabled and the “Previous Image” button should be disabled.
 #.  Click the ‘create ROI’ button (white box on a red background) and click/drag to select a region around one of the nuclei. The application will now download the z-stack.
