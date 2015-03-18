@@ -20,9 +20,9 @@ Setup
 
    - (if available) Download page
 
-   http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER
+   \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER
 
-   For MacOS 10.10: http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER/artifacts/xxx.Debug-MacOSX10.10.tar.xz
+   For MacOS 10.10: \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER/artifacts/xxx.Debug-MacOSX10.10.tar.xz
 
    - (if you are supposed to test tip of the branch) Jenkins job
 
@@ -46,24 +46,23 @@ Setup
 Tests
 =====
 
-#. Run "bf" to test main wrapper:
+#. Run "bf-test" to test main wrapper:
 
-  a. `bf --version` (should show version)
-  b. `bf --usage` (should show basic usage summary)
-  c. `bf --help` (should show bf(1) manual page)
+  a. `bf-test --version` (should show version)
+  b. `bf-test --usage` (should show basic usage summary)
+  c. `bf-test --help` (should show bf-test(1) manual page)
 
-#. Run "bf info" to test metadata display
+#. Run "bf-test info" to test metadata display
 
-  a. `bf info --version` (should show version)
-  b. `bf info --usage` (should show basic usage summary)
-  c. `bf info --help` (should show bf-info(1) manual page)
+  a. `bf-test info --version` (should show version)
+  b. `bf-test info --usage` (should show basic usage summary)
+  c. `bf-test info --help` (should show bf-info manual page)
+  d. `bf-test info /path/to/test-image.ome.tiff` (should show core and original metadata)
+  e. `bf-test info --omexml /path/to/test-image.ome.tiff` (should show and validate OME-XML metadata in addition)
 
-  d. `bf info /path/to/test-image.ome.tiff` (should show core and original metadata)
-  d. `bf info --omexml /path/to/test-image.ome.tiff` (should show and validate OME-XML metadata in addition)
+#. Run "bf-test view" to view pixel data
 
-#. Run "bf view" to view pixel data
-
- a. Run `bf view`; a window should appear.  [MacOS X: Press Cmd-Tab
+ a. Run `bf-test view`; a window should appear.  [MacOS X: Press Cmd-Tab
  twice to get menus to display]
 
  b. Choose :menuselection:`File --> Open` (or Ctrl-O/Cmd-O) to open an
