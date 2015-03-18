@@ -48,21 +48,21 @@ Tests
 
 #. Run "bf-test" to test main wrapper:
 
-   a. `bf-test --version` (should show version)
-   b. `bf-test --usage` (should show basic usage summary)
-   c. `bf-test --help` (should show bf-test(1) manual page)
+   a. ``bf-test --version`` (should show version)
+   b. ``bf-test --usage`` (should show basic usage summary)
+   c. ``bf-test --help`` (should show bf-test(1) manual page)
 
 #. Run "bf-test info" to test metadata display
 
-   a. `bf-test info --version` (should show version)
-   b. `bf-test info --usage` (should show basic usage summary)
-   c. `bf-test info --help` (should show bf-info manual page)
-   d. `bf-test info /path/to/test-image.ome.tiff` (should show core and original metadata)
-   e. `bf-test info --omexml /path/to/test-image.ome.tiff` (should show and validate OME-XML metadata in addition)
+   a. ``bf-test info --version`` (should show version)
+   b. ``bf-test info --usage`` (should show basic usage summary)
+   c. ``bf-test info --help`` (should show bf-info manual page)
+   d. ``bf-test info /path/to/test-image.ome.tiff`` (should show core and original metadata)
+   e. ``bf-test info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
 
 #. Run "bf-test view" to view pixel data
 
-   a. Run `bf-test view`; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
+   a. Run ``bf-test view``; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
 
    b. Choose :menuselection:`File --> Open` (or Ctrl-O/Cmd-O) to open an OME-TIFF image; the image should be displayed.
 
