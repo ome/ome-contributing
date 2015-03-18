@@ -25,7 +25,7 @@ Purpose of the test is to check the functionality of the standalone FLIMfit appl
 
 #. Still in Insight, go to the dataset ``Multiple`` you just created and attach the file ``data_repo/test_images_good/sdt/Instrument Response Function/IRF 2013-05-22-T-15-36-21.irf`` to this dataset. 
 
-#. Still in Insight, create a new dataset named ``Plate`` and import all ome.tiff files from ``team/pwalczysko/plate_from_Imperial_Ian`` into it.
+#. Still in Insight, create a new dataset named ``Plate`` and import all ome.tiff files from ``data_repo/test_images_good/ome-tiff/plate_from_Imperial`` into it.
 
 #. Still in Insight, go to the dataset ``Plate`` you just created and attach the file ``central irf.xml`` to this dataset. 
 
