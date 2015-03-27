@@ -81,6 +81,15 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that when you click ``Add to Queue`` the 
 
 
+#. Open an image stored in OMERO in ImageJ using the imageJ plugin
+    
+   - draw a ROI and add it to the ROI Manager in ImageJ
+   - crop the image (draw a rectangle encompassing the region you have just drawn and select ``Image > Crop``)
+   - select "Save ROIs to OMERO" item in ``Plugins > OMERO``
+   - |C| that the image is imported as ome-tiff WITH the region you have drawn on it.
+
+#. 
+
 
 
 
