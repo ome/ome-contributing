@@ -160,7 +160,7 @@ Layout of image panels, paper setup
 #. Resize selected images with toolbar buttons:
 
    - |C| that 'align sizes' (width, height and width & height) resize all panels to match the dimensions of top-left selected panel.
-   - |C| that 'Align Magnification' resizes selected panels so that similar sized scalebars are equal length to match the top-left panel.
+   - |C| that 'Align Magnification' resizes selected panels so that the scalebars in the all the selected panels have either equal, or proportional apparent length to the scalebar in the top-left panel. For example if top-left panel displays a scalebar representing 10 microns, all the selected images with scalebars representing 10 microns should have the same apparent length as the one in top-left panel after the alignment of magnification. The scalebars representing 100 microns in the other images should appear as being 10 times longer than the top-left image scalebar and so on.
 
 #. Copy and Paste duplicate panels into grid layout:
 
@@ -174,7 +174,7 @@ Layout of image panels, paper setup
    - |C| that Number of Pages, Size and Orientation are shown correctly.
    - |C| that changing the number of pages updates the figure.
    - |C| that changing the page size updates pages in the figure.
-   - |C| that changing Orientation swithces the width and height corretly.
+   - |C| that changing Orientation switches the width and height corretly.
 
 #. Finally, export to PDF
    - |C| that layout corresponds to web UI.
@@ -278,10 +278,11 @@ Preview Tab - Zoom, pan & rotation
 
 #. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
 
-   - |C| that the crop dialog shows Rectangle ROIs with Z & T indecies.
+   - |C| that the crop dialog shows Rectangle ROIs with Z & T indices.
    - |C| that clicking ROIs shows them in the dialog viewer, updating to the correct Z/T plane.
-   - |C| that choosing a single-Rectangle ROI updates all seleced panels to that shape and Z & T.
-   - |C| that if panels with a range of Timepoints are selected, theT is not changed.
+   - |C| that choosing a single-Rectangle ROI updates all seleced panels to the shape of the selected ROI
+     and to the Z & T indices on which this ROI is drawn.
+   - |C| that if panels with a range of Timepoints are selected, the T value is not changed.
 
 #. Test rotation of panels.
 
@@ -318,15 +319,15 @@ Labels Tab
 
 #. Test scalebar label.
 
-   - |C| that clicking 'Label' on the scalebar form adds a label above scalebar on the figure panel.
+   - |C| that clicking 'Label' on the scalebar dialog adds a label above scalebar on the figure panel.
    - |C| that a font-size widget appears in the scalebar form.
    - |C| that choosing a different font-size for the label updates the label in the selected panel.
    - |C| that unchecking / rechecking 'Label' checkbox hides and shows the label.
    - |C| that moving scalebar to top left or right of panel shifts label below the scalebar.
 
-#. Test units display & conversion. You need an image that has different units for pixel size. See https://github.com/will-moore/figure/pull/50 how to edit this.
+#. Test units display & conversion. You need an image that has different units for pixel size. See https://www.openmicroscopy.org/site/support/omero5.1/developers/Python.html#create-image and look for "Set the pixel size using units" for how to edit this.
 
-   - |C| that the unit of pixel size is shown in the scalebar form.
+   - |C| that the unit of pixel size is shown in the scalebar dialog.
    - |C| that the unit is also shown on scalebar labels.
    - |C| that saving figure and refreshing the page preserves units display.
    - |C| that 'Align magnification' conversion works correctly when images with different units are chosen.
