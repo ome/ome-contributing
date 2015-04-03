@@ -98,8 +98,8 @@ Confirmation of the technical setup
 
 .. seealso::
 
-   :omerodoc:`User documentation for the Command Line Interface <users/command-line-interface.html>`
+   :omerodoc:`User documentation for the Command Line Interface <users/cli/index.html>`
 
-   :omerodoc:`Sysadmin documentation for the Command Line Interface	<sysadmins/command-line-interface.html>`
+   :omerodoc:`Sysadmin documentation for the Command Line Interface	<sysadmins/cli/index.html>`
 
-   :omerodoc:`Developer documentation for the Command Line Interface <developers/command-line-interface.html>`
+   :omerodoc:`Developer documentation for the Command Line Interface <developers/cli/index.html>`
