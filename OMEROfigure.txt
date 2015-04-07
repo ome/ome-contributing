@@ -150,13 +150,17 @@ Layout of image panels, paper setup
    - |C| that dragging on corner handles resizes all selected panels, maintaining width/height ratio.
    - |C| that dragging on side handle stretches width or height alone.
 
-#. Align & resize selected images with toolbar buttons:
+#. Align selected images with toolbar buttons:
 
    - |C| that alignment buttons are only enabled when more than one panel is selected.
    - |C| that 'align left' aligns all selected panels to the left-most selected panel.
    - |C| that 'align to grid' snaps all selected panels to grid, starting at top-left panel.
    - |C| that 'align top' aligns all selected panels to the top-most selected panel.
+
+#. Resize selected images with toolbar buttons:
+
    - |C| that 'align sizes' (width, height and width & height) resize all panels to match the dimensions of top-left selected panel.
+   - |C| that 'Align Magnification' resizes selected panels so that the scalebars in the all the selected panels have either equal, or proportional apparent length to the scalebar in the top-left panel. For example if top-left panel displays a scalebar representing 10 microns, all the selected images with scalebars representing 10 microns should have the same apparent length as the one in top-left panel after the alignment of magnification. The scalebars representing 100 microns in the other images should appear as being 10 times longer than the top-left image scalebar and so on.
 
 #. Copy and Paste duplicate panels into grid layout:
 
@@ -165,11 +169,19 @@ Layout of image panels, paper setup
    - |C| that copy & paste of a 'column' of panels duplicates it to the right.
    - |C| that copy & paste of a 'row' of panels duplicates it to the bottom.
 
+#. Test paper setup. Click File -> Paper Setup:
+
+   - |C| that Number of Pages, Size and Orientation are shown correctly.
+   - |C| that changing the number of pages updates the figure.
+   - |C| that changing the page size updates pages in the figure.
+   - |C| that changing Orientation switches the width and height corretly.
+
 #. Finally, export to PDF
    - |C| that layout corresponds to web UI.
+   - |C| that each page of multi-page figure has correct panels, labels & scalebars.
 
 
-Preview Tab
+Preview Tab - Z/T and rendering
 ============================================================
 
 #. Add image with multiple Z sections. Select panel and 'Preview' tab:
@@ -219,11 +231,12 @@ Preview Tab
    - |C| that channels can be turned on and off by clicking toggle buttons.
    - |C| that Preview viewer and selected panel images are updated.
    - |C| that Channel color can be changed via drop-down button beside toggle buttons.
+   - |C| that Color-picker option launches color-picker and this works OK.
    - |C| that Channel sliders behave as expected & update viewer and panel on stop.
 
 #. Select multiple images with the same channel count.
 
-   - |C| that channel ON/OFF & colour changes are applied to all selected images.
+   - |C| that channel ON/OFF & color changes are applied to all selected images.
 
 #. Turn a channel ON in one panel and OFF in another. Select both.
 
@@ -243,6 +256,10 @@ Preview Tab
 
    - |C| that channel toggle buttons and channel sliders are not shown.
 
+
+Preview Tab - Zoom, pan & rotation
+============================================================
+
 #. Test behaviour of Zoom and Pan. Select a panel.
 
    - |C| that changing Zoom slider updates viewer while sliding.
@@ -250,6 +267,22 @@ Preview Tab
    - |C| that dragging the viewer image pans the viewer.
    - |C| that when dragging ends, the selected panel updates too.
    - |C| that Zooming back out to 100% resets the panning to zero offset.
+
+#. Test cropping to region. Select one or more panels and click the crop icon beside zoom slider.
+
+   - |C| that a dialog opens showing image at current Z/T.
+   - |C| that a region can be drawn on the image by click & drag.
+   - |C| that the region can be manipulated by dragging corner or side handles or the whole region.
+   - |C| that clicking 'OK' crops the selected panels to the chosen region, keeping within existing boundaries.
+   - |C| that clicking 'Reset Zoom and Shape' button (to the right of 'crop' button) restores the shape of the panel to the shape of the image and sets Zoom at 100%.
+
+#. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
+
+   - |C| that the crop dialog shows Rectangle ROIs with Z & T indices.
+   - |C| that clicking ROIs shows them in the dialog viewer, updating to the correct Z/T plane.
+   - |C| that choosing a single-Rectangle ROI updates all seleced panels to the shape of the selected ROI
+     and to the Z & T indices on which this ROI is drawn.
+   - |C| that if panels with a range of Timepoints are selected, the T value is not changed.
 
 #. Test rotation of panels.
 
@@ -284,20 +317,36 @@ Labels Tab
    - |C| that clicking 'Show' adds a scalebar to selected panel.
    - |C| that editing the length, position $ color of the scalebar update scalebar on selected panel.
 
+#. Test scalebar label.
+
+   - |C| that clicking 'Label' on the scalebar dialog adds a label above scalebar on the figure panel.
+   - |C| that a font-size widget appears in the scalebar form.
+   - |C| that choosing a different font-size for the label updates the label in the selected panel.
+   - |C| that unchecking / rechecking 'Label' checkbox hides and shows the label.
+   - |C| that moving scalebar to top left or right of panel shifts label below the scalebar.
+
+#. Test units display & conversion. You need an image that has different units for pixel size. See https://www.openmicroscopy.org/site/support/omero5.1/developers/Python.html#create-image and look for "Set the pixel size using units" for how to edit this.
+
+   - |C| that the unit of pixel size is shown in the scalebar dialog.
+   - |C| that the unit is also shown on scalebar labels.
+   - |C| that saving figure and refreshing the page preserves units display.
+   - |C| that 'Align magnification' conversion works correctly when images with different units are chosen.
+
 #. Select multiple panels, with some showing, some NOT showing scalebars.
 
    - |C| that clicking "Show" adds scalebar to all panels.
 
-#. Select multiple panels, with scalebars of different lengths / location / color
+#. Select multiple panels, with scalebars of different lengths / location / color / label / font-size
 
-   - |C| that editing scalebar length / location / color applies change to all selected panels.
+   - |C| that editing scalebar length / location / color / label / font-size applies change to all selected panels.
    - |C| that zooming of the image (in Preview tab) updates scalebar size accoringly.
 
 #. Test manual adding labels to one or more panels.
 
    - Select an image & enter some text in the 'Add Labels' form. Hit Enter.
    - |C| that label is added to the selected image with default parameters.
-   - |C| that choosing different font-sizes / color / position are shown in new labels.
+   - |C| that choosing different font-sizes / position are shown in new labels.
+   - |C| that color-picker works for picking label color.
    - |C| that adding a white label outside the panel creates a Black label.
    - |C| that multiple labels added to a single position are stacked in rows.
 
@@ -326,6 +375,7 @@ Labels Tab
 #. Finally, export to PDF to check that all labels and scalebars looks same as in web.
 
    - |C| that the PDF includes a note about the length of scalebars in the figure.
+   - |C| that scalebar labels appear the same in the PDF as in the web figure.
 
 
 Info Tab
@@ -363,5 +413,24 @@ Info Tab
 
    - |C| that Time-points and Channels are preserved but Z-indecies are not.
 
+#. Test the display and update of panel resolution (dpi).
+
+   - |C| that the 'dpi' is displayed for each panel and updates when zoomed or resized.
+   - |C| that the "Set dpi" button allows you to choose a dpi for export in the pop-up and that this is displayed.
+   - |C| that you can remove the export dpi with the X button.
+
 #. Finally, export to PDF to check that it looks same as web UI.
+
+   - |C| that the panels with a 300 dpi resolution set for them appear less pixelated than equivalent panels.
+
+
+Export Options
+============================================================
+
+#. There are 4 export options: PDF, PDF with Images, TIFF and TIFF with images. Choose each in turn and export:
+
+   - |C| that the TIFFs or PDF figures look the same as they do in the web.
+   - |C| that when 'with Images' option is chosen, the export should produce a zip containing 3 directories of images (original, pre-resampled and final). Images named the same in each directory should show progression of processing.
+   - |C| that single page figures produce a single TIFF image download when 'TIFF' (no images) is chosen.
+   - |C| that multi-page figures produce a zip of TIFFs (one per page) with a PDF 'info' page.
 
