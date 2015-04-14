@@ -59,7 +59,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 **ImageJ - ROI and OMERO upload**
 (This section is just pre-release testing scenario, do not do on release day, on release day go to section **Fiji**)
 
-#. (5.1 only) Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
+#. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
    - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT.
@@ -71,14 +71,17 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-#. (5.1 only) Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+#. Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
 
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
    - create a region in the cropped image and go ``Plugins > OMERO > Upload and Save to OMERO``
    - |C| that the Data Manager of Insight opens followed immmediately by Importer
-   - |C| that the radio button option in the Importer is ``Current image....``
-   - |C| that when you click ``Add to Queue`` the 
+   - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows`` and
+   - |C| that when you click ``Add to Queue`` the image(s) gets added to the right-hand pane of importer according to the option of the radio button which you selected.
+   - Do not create a new project nor select an existing one, and |C| that after you imported, you have the image in Orphaned folder.
+   - Create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
+   - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image from users/your_name/localimages/ on your machine, the name of the Dataset should be ``localimages``)
 
 
 #. Open an image stored in OMERO in ImageJ using the imageJ plugin
@@ -88,7 +91,19 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - select "Save ROIs to OMERO" item in ``Plugins > OMERO``
    - |C| that the image is imported as ome-tiff WITH the region you have drawn on it.
 
-#. 
+#. Draw a ROI specifically on a z or t plane.
+
+   - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugind
+   - draw a ROI in ImageJ on a particular plane(s)
+   - save the ROI using ``Save ROIs to OMERO``
+   - |C| that the ROI in OMERO is associated with the correct plane(s)
+   - do a round-trip, 
+   - open the tool ``Associate Show All ROIs with slices`` under ``ROI Manager > More > Options`` and 
+   - |C| that the default is chosen, i.e. the ``Associate Show All...`` box is NOT ticked
+   - draw a ROI on an image in OMERO and open it in ImageJ |C| that the ROI is NOT associated with a particular plane in ImageJ
+   - go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
+   - restart ImageJ
+   - reopen the image and |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
 
 
 
