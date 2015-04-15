@@ -103,24 +103,22 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that another dialog pops up asking you whether you want to also upload images not yet stored in OMERO
    - select ``Yes`` and |C| that an ``Import Location...`` dialog pops up for selection of P/D to import the image to
    - select an existing P/D or create a new P/D and click ``Add to the Queue``
-   - |C| that import immediately starts and that the new image(s) are imported with the associated regions
+   - |C| that import immediately starts. 
    - |C| that the ``Results saved`` item in Activities pops up
+   - |C| that the new image(s) are imported with the associated regions to the chosen location.
    - |C| that also the other image which was already stored in OMERO has the new regions now associated to it in OMERO.
 
 
 #. Draw a ROI specifically on a z or t plane.
 
    - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugind
-   - draw a ROI in ImageJ on a particular plane(s)
+   - draw a ROI in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
    - save the ROI using ``Save ROIs to OMERO``
-   - |C| that the ROI in OMERO is associated with the correct plane(s)
-   - do a round-trip, 
-   - open the tool ``Associate Show All ROIs with slices`` under ``ROI Manager > More > Options`` and 
-   - |C| that the default is chosen, i.e. the ``Associate Show All...`` box is NOT ticked
-   - draw a ROI on an image in OMERO and open it in ImageJ |C| that the ROI is NOT associated with a particular plane in ImageJ
-   - go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
+   - |C| that the ROI in OMERO is associated with the correct z/t plane(s)
+   - in ImageJ, go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
    - restart ImageJ
-   - reopen the image and |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
+   - in OMERO, prepare another image with ROIs associated to different z/t planes 
+   - open the image you prepared from OMERO in ImageJ using the plugin and |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
 
 
 
