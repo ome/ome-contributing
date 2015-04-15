@@ -84,12 +84,29 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image in ImageJ from ``users/your_name/localimages/`` on your machine, the name of the Dataset should be ``localimages``)
 
 
-#. Open an image stored in OMERO in ImageJ using the imageJ plugin
+#. Open at least two images stored in OMERO in ImageJ using the imageJ plugin
     
-   - draw a ROI and add it to the ROI Manager in ImageJ
+   - draw ROIs on both images and add them to Overlay (use ``Alt + B``)
+   - select ``Plugins > Save ROIs to OMERO``
+   - |C| that a dialog ``Save ImageJ Results`` pops up
+   - select in a row both ``Save image from current window`` and ``Save image from all open windows`` radio button options
+   - select ``Save`` in the dialog and |C| that the regions are now saved in OMERO as chosen in the dialog
+   - Draw a ROI and add it to the ROI Manager in ImageJ
    - crop the image (draw a rectangle encompassing the region you have just drawn and select ``Image > Crop``)
    - select "Save ROIs to OMERO" item in ``Plugins > OMERO``
    - |C| that the image is imported as ome-tiff WITH the region you have drawn on it.
+   - close all images and ROI Manager in ImageJ
+   - open an image from OMERO in ImageJ and also
+   - open another image, this time from your local disk (not from OMERO)
+   - draw ROIs on both images, add them to Overlay and select ``Save ROIs to OMERO`` 
+   - in the first dialog select ``Save image from all open windows`` option and click ``Save``
+   - |C| that another dialog pops up asking you whether you want to also upload images not yet stored in OMERO
+   - select ``Yes`` and |C| that an ``Import Location...`` dialog pops up for selection of P/D to import the image to
+   - select an existing P/D or create a new P/D and click ``Add to the Queue``
+   - |C| that import immediately starts and that the new image(s) are imported with the associated regions
+   - |C| that the ``Results saved`` item in Activities pops up
+   - |C| that also the other image which was already stored in OMERO has the new regions now associated to it in OMERO.
+
 
 #. Draw a ROI specifically on a z or t plane.
 
