@@ -80,8 +80,8 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows`` and
    - |C| that when you click ``Add to Queue`` the image(s) gets added to the right-hand pane of importer according to the option of the radio button which you selected.
    - Do not create a new project nor select an existing one, and |C| that after you imported, you have the image in Orphaned folder.
-   - Create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
-   - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image from users/your_name/localimages/ on your machine, the name of the Dataset should be ``localimages``)
+   - Now create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
+   - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image in ImageJ from ``users/your_name/localimages/`` on your machine, the name of the Dataset should be ``localimages``)
 
 
 #. Open an image stored in OMERO in ImageJ using the imageJ plugin
