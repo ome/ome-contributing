@@ -76,7 +76,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
    - create a region in the cropped image and go ``Plugins > OMERO > Upload and Save to OMERO``
-   - |C| that the Data Manager of Insight opens followed immmediately by Importer
+   - |C| that the Data Manager of Insight opens followed immmediately by Importer  [:ref:`InsightIJI007c`]
    - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows`` and
    - |C| that when you click ``Add to Queue`` the image(s) gets added to the right-hand pane of importer according to the option of the radio button which you selected.
    - Do not create a new project nor select an existing one, and |C| that after you imported, you have the image in Orphaned folder.
@@ -88,7 +88,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
     
    - draw ROIs on both images and add them to Overlay (use ``Alt + B``)
    - select ``Plugins > Save ROIs to OMERO``
-   - |C| that a dialog ``Save ImageJ Results`` pops up
+   - |C| that a dialog ``Save ImageJ Results`` pops up  [:ref:`InsightIJI007d`]
    - select in a row both ``Save image from current window`` and ``Save image from all open windows`` radio button options
    - select ``Save`` in the dialog and |C| that the regions are now saved in OMERO as chosen in the dialog
    - Draw a ROI and add it to the ROI Manager in ImageJ
@@ -100,8 +100,8 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - open another image, this time from your local disk (not from OMERO)
    - draw ROIs on both images, add them to Overlay and select ``Save ROIs to OMERO`` 
    - in the first dialog select ``Save image from all open windows`` option and click ``Save``
-   - |C| that another dialog pops up asking you whether you want to also upload images not yet stored in OMERO
-   - select ``Yes`` and |C| that an ``Import Location...`` dialog pops up for selection of P/D to import the image to
+   - |C| that another dialog pops up  [:ref:`InsightIJI007e`] asking you whether you want to also upload images not yet stored in OMERO
+   - select ``Yes`` and |C| that an ``Import Location...`` dialog  [:ref:`InsightIJI007f`] pops up for selection of P/D to import the image to
    - select an existing P/D or create a new P/D and click ``Add to the Queue``
    - |C| that import immediately starts. 
    - |C| that the ``Results saved`` item in Activities pops up
@@ -444,7 +444,174 @@ The warning looks as follows:
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
+
+.. _InsightIJI007c:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007c.png
+   :align: center
+
+   InsightIJI007c
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007d:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007d.png
+   :align: center
+
+   InsightIJI007d
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007e:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007e.png
+   :align: center
+
+   InsightIJI007e
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007f:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007f.png
+   :align: center
+
+   InsightIJI007f
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 |
 |
 |
