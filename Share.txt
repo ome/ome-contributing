@@ -22,6 +22,25 @@ Share
 
    - |C| that you can edit the share and save the changes.
 
+
+#. Try to delete using Delete Key on keyboard.
+
+#. Check the email sending.
+
+
+   - Check that email is sent to all Share members with valid emails
+
+#. Logged in as Share member which cannot otherwise see the images, 
+
+   - Check that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
+   - Checkd that you cannot edit images
+   - Check that you cannot run script on the images
+   - Check opening of Full Viewer in tree, central pane, right-hand pane
+   - Check you can do rendering in Full Viewer but no Save
+   - Check that you can Comment and that this triggers an email to all Share members.
+
+
+
 #. Remove one image from the share using
 
    - Delete Key on keyboard
