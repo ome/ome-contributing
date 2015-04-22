@@ -22,28 +22,9 @@ Share
 
    - |C| that you can edit the share and save the changes.
 
-
-#. Try to delete using Delete Key on keyboard.
-
-#. Check the email sending.
-
-
-   - Check that email is sent to all Share members with valid emails
-
-#. Logged in as Share member which cannot otherwise see the images, 
-
-   - Check that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
-   - Checkd that you cannot edit images
-   - Check that you cannot run script on the images
-   - Check opening of Full Viewer in tree, central pane, right-hand pane
-   - Check you can do rendering in Full Viewer but no Save
-   - Check that you can Comment and that this triggers an email to all Share members.
-
-
-
 #. Remove one image from the share using
 
-   - Delete Key on keyboard
+   - Delete Key on keyboard.
    - Dustbin icon above left-hand pane
    - |C| that the tree and the middle pane updates
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
@@ -53,12 +34,17 @@ Share
 
 
    - |C| that you CANNOT edit the share - the pencil symbol is not present.
+   - |C| that you cannot remove images from the Share.
    - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share008`]
-   - |C| than images in the share can be viewed using the Preview
+   - |C| that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
+   - |C| that you cannot run any scripts on the images (scripts menu is disabled)
    - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share009`].
    - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share009`].
+   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens
+   - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
    - |C| that you can comment on the share (right-hand pane).
+   - |C| that all members of the share get an email with your comment
 
 
 
