@@ -40,7 +40,7 @@ Share
    - |C| that you cannot run any scripts on the images (scripts menu is disabled)
    - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share009`].
    - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share009`].
-   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens
+   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share009`]
    - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
    - |C| that you can comment on the share (right-hand pane).
