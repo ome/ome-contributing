@@ -26,8 +26,8 @@ Setup
 
    - (if you are supposed to test tip of the branch) Jenkins job
 
-   https://ci.openmicroscopy.org/job/BIOFORMATS-5.1-merge-cpp/ or
-   https://ci.openmicroscopy.org/job/BIOFORMATS-5.1-latest-cpp/
+  :jenkinsjob:`BIOFORMATS-5.1-merge-cpp` or 
+  :jenkinsjob:`BIOFORMATS-5.1-latest-cpp`
 
    For MacOS 10.10: pick the node ``mackerel``. You can also use the table of nodes on https://ci.openmicroscopy.org/computer/  to help you to find the right node.
 
