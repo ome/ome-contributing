@@ -43,3 +43,32 @@ BoxIt Feature
 #.  Click on the “Next Image” button. Image 3 should load and the “Next Image” button should now be disabled.
 #.  Exit the application by closing the window. You should be returned to the main menu window.
 #.  Open these images in Insight and verify that the ROIs exist.
+
+Testing EventTimer
+==================
+
+#.  Import images from ``squig:\team\pwalczysko\mtools testing data`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
+
+       RPE1-CAG_Trans_01_01_R3D
+       RPE1-CAG_Trans_01_02_R3D
+       
+
+#.	In insight open each of the new images and create some rectangular ROIs that are propagated over some time points. The time points for an ROI should be consecutive, without gaps.
+#.	Open mtools and ensure the username, password and server address are entered into the text boxes.
+#.	Click on the “Event Timer” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
+#.	The main application window should now be displayed. Press the “Add/Remove Datasets” button and in the dialogue that appears select the project and dataset containing the images from step 1. Press the “+” button to add this dataset to the analysis queue and press “ok” to return to the main window.
+#.	Check the box to “Save masks” and accept the warning about the time it takes to process.
+#.	Add a number of frames to the start and end of each ROI by entering a number in the related text boxes.
+#.	Press “Begin Analysis” and look for the progress bar moving as the mask images are uploaded to the server.
+#.	Once analysis is complete a save file dialogue will appear. Save the results spreadsheet/.csv to a convenient location.
+#.	The application can now be closed.
+
+
+#.  In insight, check for the masks images::
+
+       RPE1-CAG_Trans_01_01_R3D_masks
+       RPE1-CAG_Trans_01_02_R3D_masks
+
+
+#.	In these images, |C| that the numbered ROIs display the correct number of planes before/after the original ROI specification as changed in step 7.
+
