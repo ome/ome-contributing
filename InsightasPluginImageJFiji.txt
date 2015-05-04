@@ -118,14 +118,28 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. Draw a ROI specifically on a z or t plane.
 
-   - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugind
+   - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugin
    - draw a ROI in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
    - save the ROI using ``Save ROIs to OMERO``
    - |C| that the ROI in OMERO is associated with the correct z/t plane(s)
    - in ImageJ, go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
    - restart ImageJ
    - in OMERO, prepare another image with ROIs associated to different z/t planes 
-   - open the image you prepared from OMERO in ImageJ using the plugin and |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
+   - open the image you prepared from OMERO in ImageJ using the plugin, ticking the options ``Display Metadata``, ``Display OME-XML Metadata`` and ``Display ROIs`` options in the ``Bio-formats import options`` dialog and 
+   - |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
+   - |C| the OME-XML to see if the newly added ROI's have the correct Z,C and T information.
+
+ex:
+
+<ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+<Union>
+<Shape ID="Shape:0:0" StrokeColor="-1" Text="0611-0860" TheC="1" TheT="1" TheZ="1">
+<Rectangle Height="390.0" Width="780.0" X="470.0" Y="416.0"/>
+<ROI ID="ROI:1:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+<Union>
+<Shape ID="Shape:1:0" Text="1162-2035" TheC="1" TheT="1" TheZ="1">
+<Rectangle Height="584.0" Width="250.0" X="1910.0" Y="870.0"/>
+
 
 
 
