@@ -132,31 +132,38 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
    - |C| the OME-XML to see if the newly added ROI's have the correct Z,C and T information.   
 
-ex:
+example of OME-XML::
 
-<ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
-<Union>
-<Shape ID="Shape:0:0" StrokeColor="-1" Text="0611-0860" TheC="1" TheT="1" TheZ="1">
-<Rectangle Height="390.0" Width="780.0" X="470.0" Y="416.0"/>
-<ROI ID="ROI:1:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
-<Union>
-<Shape ID="Shape:1:0" Text="1162-2035" TheC="1" TheT="1" TheZ="1">
-<Rectangle Height="584.0" Width="250.0" X="1910.0" Y="870.0"/>
+      <ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape ID="Shape:0:0" StrokeColor="-1" Text="0611-0860" TheC="1" TheT="1" TheZ="1">
+      <Rectangle Height="390.0" Width="780.0" X="470.0" Y="416.0"/>
+      <ROI ID="ROI:1:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape ID="Shape:1:0" Text="1162-2035" TheC="1" TheT="1" TheZ="1">
+      <Rectangle Height="584.0" Width="250.0" X="1910.0" Y="870.0"/>
 
-#. Testing ``Save Results to OMERO`` feature
+8. Testing ``Save Results to OMERO`` feature
 
-   - open an image from OMERO in ImageJ
+   - open an image from OMERO in ImageJ, draw an ROI and add to ROI Manager of IJ
    - go to ``Analyze > Measure``
    - select ``Plugins > Save Results to OMERO``
    - |C| that a dialog ``Save ImageJ Results`` pops up  [:ref:`InsightIJI007d`]
    - |C| that the ``Results saved`` item in Activities pops up
    - |C| that an csv file is attached to the image in OMERO
 
-#  Using ``Save Results to OMERO`` to upload non-saved images as well.
+9. Using ``Save Results to OMERO`` to upload non-saved images as well.
+
    - Repeat the steps above with an image opened from your local disk
-   - |C| that the image is imported and the measurements saved as cvs file.
+   - |C| that the image is imported and the measurements saved as ``.csv`` file.
 
+10. Open and save workflows for images
 
+   - open a z-stack image from OMERO in ImageJ
+   - open another z-stack image from OMERO in ImageJ
+   - go in IJ ``Image > Stacks > Tools > Concatenate...``
+   - ``Upload and Save to OMERO`` the resulting image
+   - |C| that the concatenated image has been imported successfully
 
 
 **Fiji**
