@@ -75,9 +75,9 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
-   - create a region in the cropped image and go ``Plugins > OMERO > Upload and Save to OMERO``
+   - create a region in the cropped image and go ``Plugins > OMERO > Save Image(s) to OMERO``
    - |C| that the Data Manager of Insight opens followed immmediately by Importer  [:ref:`InsightIJI007c`]
-   - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows`` and
+   - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows``
    - |C| that when you click ``Add to Queue`` the image(s) gets added to the right-hand pane of importer according to the option of the radio button which you selected.
    - Do not create a new project nor select an existing one, and |C| that after you imported, you have the image in Orphaned folder.
    - Now create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
