@@ -62,7 +62,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 #. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
-   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT.
+   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT
    - close the image
    - close the ``ROI Manager``
    - reimport the saved image using ``Plugins > Bio-formats > Bio-formats Importer``, selecting the checkboxes ``Display ROIs``, ``Display OME-XML metadata`` and ``Display Metadata`` in the ``Bio-formats importer`` options)
