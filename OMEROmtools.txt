@@ -70,5 +70,11 @@ Testing EventTimer
        RPE1-CAG_Trans_01_02_R3D_masks
 
 
-#.	In these images, |C| that the numbered ROIs display the correct number of planes before/after the original ROI specification as changed in step 7.
+#.	|C| that these images are mostly black, except for the areas enclosed by the ROIs in the corresponding original images (= event areas). 
+#.  Scroll through t and watch for these events appearing in the mask images and 
+
+    - |C| that each event will display the event number in the top left corner of the event area. 
+    - |C| that the number is present in the time points that match those of the ROIs in the original image. 
+    - |C| that the numbers are not present in time points before/after the ROI. 
+    - |C| that the correct number of frames have been added to the start/end of the events, as specified in step 7.
 
