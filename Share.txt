@@ -24,11 +24,12 @@ Share
 
 #. Remove one image from the share using
 
-   - Delete Key on keyboard.
    - Dustbin icon above left-hand pane
    - |C| that the tree and the middle pane updates
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
    - Load the share in Public tab, a broken link icon should be displayed instead of a webclient crash.
+
+#. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
 
 #. Log out and log in as user ``share-2``. Go Public tab (left-hand Panel). Select the share. 
 
@@ -46,7 +47,7 @@ Share
    - |C| that you can comment on the share (right-hand pane).
    - |C| that all members of the share get an email with your comment
 
-
+#. Create a Discussion. 
 
 
 
