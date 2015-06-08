@@ -21,6 +21,7 @@ Share
 #. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
 
    - |C| that you can edit the share and save the changes.
+   - |C| that when you add a new member to the share, only this new member will get an email, not the other members.
 
 #. Remove one image from the share using
 
@@ -52,6 +53,9 @@ Share
    - having the images in the Basket just like you had for the Share creation, click onto the ``speech bubble`` icon (to the left of the Share creating ``globus`` icon) and create Discussion
    - |C| that the members of the Discussion get an email 
    - |C| that when you login as the member of the Discussion who did not create it, you still can make comments and save them.
+   - |C| that the members of the discussion will get an email with your comment.
+   - login again as the author of the Discussion.
+   - |C| that when you add a new member to the discussion, only this new member will get an email, not the other members.
 
 
 
