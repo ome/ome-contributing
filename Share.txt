@@ -49,6 +49,10 @@ Share
 
 #. Create a Discussion. 
 
+   - having the images in the Basket just like you had for the Share creation, click onto the ``speech bubble`` icon (to the left of the Share creating ``globus`` icon) and create Discussion
+   - |C| that the members of the Discussion get an email 
+   - |C| that when you login as the member of the Discussion who did not create it, you still can make comments and save them.
+
 
 
 	.. _Share001:
