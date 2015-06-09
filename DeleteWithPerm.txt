@@ -8,7 +8,7 @@ Delete
 **Purpose of the test** is to check the Delete function on all entities (except ROI)
 
 
-If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others data <label-Delete>`
+If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others' data <label-Delete>`
 
 **Section 1: Work on your own data**
 
@@ -50,7 +50,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 2: Work on other users' data**
 
-- |C| whether you CAN (=Y) or CANNOT (=N) delete other's data in the testing spreadsheet or if not present there, then in the table below (alternatively see all permissions :omerodoc:`here <sysadmins/server-permissions.html>`)
+- |C| whether you CAN (=Y) or CANNOT (=N) delete others' data in the testing spreadsheet or if not present there, then in the table below (alternatively see all permissions :omerodoc:`here <sysadmins/server-permissions.html>`)
 
 
 
