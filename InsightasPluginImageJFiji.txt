@@ -159,11 +159,11 @@ example of OME-XML::
 
 10. Open and save workflows for images
 
-   - open a z-stack image from OMERO in ImageJ
-   - open another z-stack image from OMERO in ImageJ
-   - go in IJ ``Image > Stacks > Tools > Concatenate...``
-   - ``Upload and Save to OMERO`` the resulting image
-   - |C| that the concatenated image has been imported successfully
+    - open a z-stack image from OMERO in ImageJ
+    - open another z-stack image from OMERO in ImageJ
+    - go in IJ ``Image > Stacks > Tools > Concatenate...``
+    - ``Upload and Save to OMERO`` the resulting image
+    - |C| that the concatenated image has been imported successfully
 
 
 **Fiji**
