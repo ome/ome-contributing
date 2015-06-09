@@ -76,5 +76,5 @@ Testing EventTimer
     - |C| that each event will display the event number in the top left corner of the event area. 
     - |C| that the number is present in the time points that match those of the ROIs in the original image. 
     - |C| that the numbers are not present in time points before/after the ROI. 
-    - |C| that the correct number of frames have been added to the start/end of the events, as specified in step 7.
+    - |C| that the correct number of frames has been added to the start/end of the events, as specified in step 7.
 
