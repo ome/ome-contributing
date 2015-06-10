@@ -8,7 +8,7 @@ Delete
 **Purpose of the test** is to check the Delete function on all entities (except ROI)
 
 
-If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others data <label-Delete>`
+If you test work on others' data (permissions) go first to :ref:`Section 2: Work on others' data <label-Delete>`
 
 **Section 1: Work on your own data**
 
@@ -16,28 +16,29 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. In the DataManager:
 
-   - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`Delete001`, :ref:`Delete002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete Ratings, Delete Comments (right-hand pane)
+   - Delete attachments [:ref:`Delete001`] in left-hand pane in Insight (``Attachments`` tab)
+   - Delete attachments in right hand pane in Insight and Web (``General`` pane). In Insight, click ``Remove`` on a file attachment which is not linked to anything else and |C| that a warning popup appears. The deletion will be executed only in case the attachment is not linked to anything else. For Web, use the cross symbol [:ref:`Delete002`] to Delete.
    - Delete tags [:ref:`Delete003`, :ref:`Delete004`] (left-hand pane)
 
 #. Delete P/D/I/Screen/Plate. [:ref:`Delete005`, :ref:`Delete006`, :ref:`Delete007`, :ref:`Delete008`]
 
-#. Import an image rich in metadata e.g. ``data_repo/test_images_metadata/zeiss-zvi/6ch-Z-stack_deconvolved.zvi`` and delete it.
+#. Find or import an image rich in metadata e.g. ``data_repo/test_images_metadata/zeiss-zvi/6ch-Z-stack_deconvolved.zvi`` and delete it.
 
-#. (FS only) Import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
+#. Find or import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
    
    - |C| that the action does not proceed [:ref:`Delete009`, :ref:`Delete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.
 
-#. (FS only) Choose all the images in the MIF and try to Delete them.
+#. Choose all the images in the MIF and try to Delete them.
 
    - |C| that this time the Delete action proceeds successfully [:ref:`Delete011`, :ref:`Delete012`].
 
-#. (FS only) Create a new dataset, cut one of the images of the MIF and paste it into the newly created dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
+#. Create a new dataset or use an existing one, cut one of the images of the MIF and paste it into the newly created (or existing old) dataset. Select the original dataset (with all the MIF images minus one). Try to delete it.
 
    - |C| that the action does not proceed [:ref:`Delete013`, :ref:`Delete014`].
 
-#. (FS only) Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
+#. Cut and paste the image you manipulated in the last step back into the original dataset -> the MIF should now be complete. Select the dataset with the complete MIF and try to delete it.
    
    - |C| that this time the Delete action proceeds successfully [:ref:`Delete015`, :ref:`Delete016`].
 
@@ -50,9 +51,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 **Section 2: Work on other users' data**
 
-
-- |C| the permissions of the user you have been assigned to use here: :ref:`Table of permissions-users <Table-of-permissions-users>`
-- |C| whether you CAN (=Y) or CANNOT (=N) delete other's data in the table below (alternatively see all permissions :omerodoc:`here <sysadmins/server-permissions.html>`)
+- |C| whether you CAN (=Y) or CANNOT (=N) delete others' data in the testing spreadsheet or if not present there, then in the table below (alternatively see all permissions :omerodoc:`here <sysadmins/server-permissions.html>`)
 
 
 
@@ -70,14 +69,7 @@ Group Administrator    Y        Y           Y
 
 |
 
-#. Go through the steps 1.- 3. :ref:`in Section 1 <delete-work-own>` and
-   
-   - |C| that you CAN/CANNOT (as appropriate) delete (but DO NOT DELETE them!) other's data named in this scenario (images..., ratings, attachments, tags)
-
-  
-#. Go through the steps 1.- 3. :ref:`in Section 1 <delete-work-own>` and
-
-   - |C| you can delete YOUR OWN object (P/D/I/S/Plate/Plate Run) annotated by other users or with ROIs added by other users (this should be always possible)
+#. Follow the instruction in the testing sheet for the actions in permissions testing.
   
 
 |
