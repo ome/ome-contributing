@@ -16,8 +16,9 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. In the DataManager:
 
-   - Delete Ratings (Insight only), Delete Comments (right-hand pane)
-   - Delete attachments [:ref:`Delete001`, :ref:`Delete002`] (left-hand pane in Insight, right hand pane in Web)
+   - Delete Ratings, Delete Comments (right-hand pane)
+   - Delete attachments [:ref:`Delete001`] in left-hand pane in Insight (``Attachments`` tab)
+   - Delete attachments in right hand pane in Insight and Web (``General`` pane). In Insight, click ``Remove`` on a file attachment which is not linked to anything else and |C| that a warning popup appears. The deletion will be executed only in case the attachment is not linked to anything else. For Web, use the cross symbol [:ref:`Delete002`] to Delete.
    - Delete tags [:ref:`Delete003`, :ref:`Delete004`] (left-hand pane)
 
 #. Delete P/D/I/Screen/Plate. [:ref:`Delete005`, :ref:`Delete006`, :ref:`Delete007`, :ref:`Delete008`]
