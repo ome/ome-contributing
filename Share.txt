@@ -21,27 +21,41 @@ Share
 #. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
 
    - |C| that you can edit the share and save the changes.
+   - |C| that when you add a new member to the share, only this new member will get an email, not the other members.
 
 #. Remove one image from the share using
 
-   - Delete Key on keyboard
    - Dustbin icon above left-hand pane
    - |C| that the tree and the middle pane updates
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
    - Load the share in Public tab, a broken link icon should be displayed instead of a webclient crash.
 
+#. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
+
 #. Log out and log in as user ``share-2``. Go Public tab (left-hand Panel). Select the share. 
 
 
    - |C| that you CANNOT edit the share - the pencil symbol is not present.
+   - |C| that you cannot remove images from the Share.
    - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share008`]
-   - |C| than images in the share can be viewed using the Preview
+   - |C| that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
+   - |C| that you cannot run any scripts on the images (scripts menu is disabled)
    - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share009`].
    - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share009`].
+   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share009`]
+   - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
    - |C| that you can comment on the share (right-hand pane).
+   - |C| that all members of the share get an email with your comment
 
+#. Create a Discussion. 
 
+   - having the images in the Basket just like you had for the Share creation, click onto the ``speech bubble`` icon (to the left of the Share creating ``globus`` icon) and create Discussion
+   - |C| that the members of the Discussion get an email 
+   - |C| that when you login as the member of the Discussion who did not create it, you still can make comments and save them.
+   - |C| that the members of the discussion will get an email with your comment.
+   - login again as the author of the Discussion.
+   - |C| that when you add a new member to the discussion, only this new member will get an email, not the other members.
 
 
 
