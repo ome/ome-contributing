@@ -66,14 +66,27 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - close the image
    - close the ``ROI Manager``
    - reimport the saved image using ``Plugins > Bio-formats > Bio-formats Importer``, selecting the checkboxes ``Display ROIs``, ``Display OME-XML metadata`` and ``Display Metadata`` in the ``Bio-formats importer`` options)
-   - |C| that the ``ROI Manager`` dialog pops up and lists all the regions you saved previously
+   - |C| that the OME-XML has all the saved ROIs listed as shown in example below
+   - |C| that also the Shape Properties are listed in the OME-XML, for example StrokeColor and StrokeWidth. (See example below. Note: Shape FillColor is not being saved.)
    - |C| that when you tick the ``Show all`` tickbox in ``ROI Manager`` you see the regions just as you saved them on the image
-   - Import the image you created into OMERO (using OMERO.insight).
+
+example of OME-XML with Shape Properties::
+
+      <ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape FillColor="-16776961" ID="Shape:0:0" StrokeColor="65535" StrokeWidth="13.0" StrokeWidthUnit="pixel" Text="0001-0052-0076" TheC="0" TheT="0" TheZ="0">
+      <Rectangle Height="49.0" Width="91.0" X="31.0" Y="28.0"/>
+
+  
+
+
+ 
+2. Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-#. Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
 
-#. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
+4. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
    - create a region in the cropped image and go ``Plugins > OMERO > Save Image(s) to OMERO``
    - |C| that the Data Manager of Insight opens followed immmediately by Importer  [:ref:`InsightIJI007c`]
@@ -143,7 +156,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
    - |C| the OME-XML to see if the newly added ROI's have the correct Z,C and T information.   
 
-example of OME-XML::
+example of OME-XML with Z, C and T information::
 
       <ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
       <Union>
@@ -154,7 +167,7 @@ example of OME-XML::
       <Shape ID="Shape:1:0" Text="1162-2035" TheC="1" TheT="1" TheZ="1">
       <Rectangle Height="584.0" Width="250.0" X="1910.0" Y="870.0"/>
 
-8. Testing ``Save Results to OMERO`` feature
+10. Testing ``Save Results to OMERO`` feature
 
    - open an image from OMERO in ImageJ, draw an ROI and add to ROI Manager of IJ
    - go to ``Analyze > Measure``
@@ -163,12 +176,12 @@ example of OME-XML::
    - |C| that the ``Results saved`` item in Activities pops up
    - |C| that an csv file is attached to the image in OMERO
 
-9. Using ``Save Results to OMERO`` to upload non-saved images as well.
+11. Using ``Save Results to OMERO`` to upload non-saved images as well.
 
    - Repeat the steps above with an image opened from your local disk
    - |C| that the image is imported and the measurements saved as ``.csv`` file.
 
-10. Open and save workflows for images
+12. Open and save workflows for images
 
     - open a z-stack image from OMERO in ImageJ
     - open another z-stack image from OMERO in ImageJ
