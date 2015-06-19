@@ -83,9 +83,10 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - Now create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
    - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image in ImageJ from ``users/your_name/localimages/`` on your machine, the name of the Dataset should be ``localimages``)
 
-#. Open 2 images in ImageJ and combine the 2 images (``Image > Stacks > Tools > Combine``).
+#. Open 2 images in ImageJ from your local drive and combine the 2 images (``Image > Stacks > Tools > Combine``).
    - go ``Plugins > OMERO > Save Image(s) to OMERO``
    - |C| that the generated image can be added to the queue and imported.
+
 
 #. Testing ``Save ROIs to OMERO`` feature
 
@@ -101,6 +102,16 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
    - |C| that the new image(s) are imported with the associated regions to the chosen location.
    - |C| that also the other image which was already stored in OMERO has the new regions now associated to it in OMERO.
    - close all images and ROI Manager in ImageJ
+
+
+#.  Recognizing the image which was freshly uploaded to OMERO.
+ 
+    - Open an image from your local drive in imageJ
+    - Use``Save Image(s) to OMERO``  to save the image into OMERO.
+    - Draw a ROI on the image and add it to ROI Manager in ImageJ.
+    - Click ``Save ROIs to OMERO``.
+    - |C| that the dialog indicating that the image is not imported does not pop up. 
+    - |C| that the ROI you just drawn is added to the previously imported image.
 
 #. Using ``Save ROIs to OMERO`` to upload non-saved images as well.
 
