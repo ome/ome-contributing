@@ -35,6 +35,7 @@ Testing scenarios
    Edit
    FileFormatMetadataValidation
    FLIMfit
+   FLIMfit4.9+
    GeneralRelease
    ImportAs
    ImportCLI

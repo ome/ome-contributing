@@ -30,7 +30,7 @@ N.B. This scenario is for v4.9.0 onwards of FLIMfit (i.e. OMERO 5.1 onwards)
 
 #. Still in Insight, go to the dataset ``Plate`` you just created and attach the file ``central irf.xml`` to this dataset. 
 
-#. Still in Insight, create a dataset ``Results`. 
+#. Still in Insight, create a dataset ``Results``. 
 
 #. In FLIMfit, go ``OMERO > Load FLIM Data``. Choose the ``Single`` dataset that you created in Insight and select the file ``convalaria ex 740nm 2 min.sdt``.
 
