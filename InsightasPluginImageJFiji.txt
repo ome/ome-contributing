@@ -24,13 +24,13 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 #. (For the release-day testing only.) Click on the hyperlink in the popup and check it brings you to a sensible place, but do not download it. 
 
-#. (For the release-day testing only.) Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from the RC Download page which is being prepared for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` (find link in the Standup Notes) . 
+#. (For the release-day testing only.) Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from the RC Download page which is being prepared for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` (find link in the Standup Notes). 
 
-   - |C| that the ``bioformats_package.jar`` version (==the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ (or ImageJ2), go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins``  [:ref:`InsightIJI004`].
+   - |C| that the ``bioformats_package.jar`` version (i.e. the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ (or ImageJ2), go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins``  [:ref:`InsightIJI004`].
 
 #. (For non-release-day testing only.) Download both ``bioformats_package.jar`` and ``loci_tools.jar`` that are mentioned in the popup.
 
-   - |C| that the ``bioformats_package.jar`` version (==the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ, go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that when testing OMERO 5, the link in the popup will point to a wrong place - you might need to download the corresponding ``bioformats_package.jar`` from OMERO 5 Bio-Formats download page (e.g. ``http://downloads.openmicroscopy.org/bio-formats/5.0.0-xxx/``).
+   - |C| that the ``bioformats_package.jar`` version (i.e. the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ, go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that when testing OMERO 5, the link in the popup will point to a wrong place - you might need to download the corresponding ``bioformats_package.jar`` from OMERO 5 Bio-Formats download page (e.g. ``http://downloads.openmicroscopy.org/bio-formats/5.0.0-xxx/``).
 
 #. Quit ImageJ. Copy ``bioformats_package.jar`` into ``Plugins`` folder of ImageJ [:ref:`InsightIJI001`].
 
@@ -57,27 +57,138 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
 
 **ImageJ - ROI and OMERO upload**
-(This section is just pre-release testing scenario, do not do on release day, on release day go to section **Fiji**)
+(This section is just pre-release testing scenario (unless stated otherwise), do not do on release day, on release day go to section **Fiji**)
 
 #. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
-   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT.
+   - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT
    - close the image
    - close the ``ROI Manager``
    - reimport the saved image using ``Plugins > Bio-formats > Bio-formats Importer``, selecting the checkboxes ``Display ROIs``, ``Display OME-XML metadata`` and ``Display Metadata`` in the ``Bio-formats importer`` options)
-   - |C| that the ``ROI Manager`` dialog pops up and lists all the regions you saved previously
+   - |C| that the OME-XML has all the saved ROIs listed as shown in example below
+   - |C| that also the Shape Properties are listed in the OME-XML, for example StrokeColor and StrokeWidth. (See example below. Note: Shape FillColor is not being saved.)
    - |C| that when you tick the ``Show all`` tickbox in ``ROI Manager`` you see the regions just as you saved them on the image
-   - Import the image you created into OMERO (using OMERO.insight).
+
+example of OME-XML with Shape Properties::
+
+      <ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape FillColor="-16776961" ID="Shape:0:0" StrokeColor="65535" StrokeWidth="13.0" StrokeWidthUnit="pixel" Text="0001-0052-0076" TheC="0" TheT="0" TheZ="0">
+      <Rectangle Height="49.0" Width="91.0" X="31.0" Y="28.0"/>
+
+  
+
+
+ 
+2. Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-#. (5.1 only) Repeat step 1., this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
 
-#. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
+4. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
+   
+   - create a region in the cropped image and go ``Plugins > OMERO > Save Image(s) to OMERO``
+   - |C| that the Data Manager of Insight opens followed immmediately by Importer  [:ref:`InsightIJI007c`]
+   - Select in a row both the radio button options in the Importer ``Add image from current window`` and ``Add image from all image windows``
+   - |C| that when you click ``Add to Queue`` the image(s) gets added to the right-hand pane of importer according to the option of the radio button which you selected.
+   - Do not create a new project nor select an existing one, and |C| that after you imported, you have the image in Orphaned folder.
+   - Now create a new Project or select an existing project and use the default ``New From Folder`` option for Dataset and 
+   - |C| that after import, a new Dataset has been created under the Project you selected/created with the name identical to the folder containing the image opened in ImageJ (e.g. if you opened the image in ImageJ from ``users/your_name/localimages/`` on your machine, the name of the Dataset should be ``localimages``)
+
+#. Open 2 images in ImageJ from your local drive and combine the 2 images (``Image > Stacks > Tools > Combine``).
+   - go ``Plugins > OMERO > Save Image(s) to OMERO``
+   - |C| that the generated image can be added to the queue and imported.
+
+
+#. Testing ``Save ROIs to OMERO`` feature
+
+   - open an image from OMERO in ImageJ and also
+   - open another image, this time from your local disk (not from OMERO)
+   - draw ROIs on both images, add them to Overlay and select ``Save ROIs to OMERO`` 
+   - in the first dialog select ``Save image from all open windows`` option and click ``Save``
+   - |C| that another dialog pops up  [:ref:`InsightIJI007e`] asking you whether you want to also upload images not yet stored in OMERO
+   - select ``Yes`` and |C| that an ``Import Location...`` dialog  [:ref:`InsightIJI007f`] pops up for selection of P/D to import the image to
+   - select an existing P/D or create a new P/D and click ``Add to the Queue``
+   - |C| that import immediately starts. 
+   - |C| that the ``Results saved`` item in Activities pops up
+   - |C| that the new image(s) are imported with the associated regions to the chosen location.
+   - |C| that also the other image which was already stored in OMERO has the new regions now associated to it in OMERO.
+   - close all images and ROI Manager in ImageJ
+
+
+#.  Recognizing the image which was freshly uploaded to OMERO.
+ 
+    - Open an image from your local drive in imageJ
+    - Use``Save Image(s) to OMERO``  to save the image into OMERO.
+    - Draw a ROI on the image and add it to ROI Manager in ImageJ.
+    - Click ``Save ROIs to OMERO``.
+    - |C| that the dialog indicating that the image is not imported does not pop up. 
+    - |C| that the ROI you just drawn is added to the previously imported image.
+
+#. Using ``Save ROIs to OMERO`` to upload non-saved images as well.
+
+
+   - Open at least two images stored in OMERO in ImageJ using the imageJ plugin
+   - draw ROIs on both images and add them to Overlay (use ``Alt + B``)
+   - select ``Plugins > Save ROIs to OMERO``
+   - |C| that a dialog ``Save ImageJ Results`` pops up  [:ref:`InsightIJI007d`]
+   - select in a row both ``Save image from current window`` and ``Save image from all open windows`` radio button options
+   - select ``Save`` in the dialog and |C| that the regions are now saved in OMERO as chosen in the dialog
+   - Draw a ROI and add it to the ROI Manager in ImageJ
+   - crop the image (draw a rectangle encompassing the region you have just drawn and select ``Image > Crop``)
+   - select "Save ROIs to OMERO" item in ``Plugins > OMERO``
+   - |C| that the image is imported as ome-tiff WITH the region you have drawn on it.
+   - close all images and ROI Manager in ImageJ
 
 
 
+#. Draw a ROI specifically on a z or t plane.
 
+   - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugin
+   - draw a ROI in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
+   - save the ROI using ``Save ROIs to OMERO``
+   - |C| that the ROI in OMERO is associated with the correct z/t plane(s)
+   - in ImageJ, go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
+   - restart ImageJ
+   - in OMERO, prepare another image with ROIs associated to different z/t planes 
+   - open the image you prepared from OMERO in ImageJ using the plugin, ticking the options ``Display Metadata``, ``Display OME-XML Metadata`` and ``Display ROIs`` options in the ``Bio-formats import options`` dialog and 
+   - |C| that now the ROI is associated to a particular z and t plane(s) in ImageJ and these plane(s) correspond with the plane(s) in OMERO
+   - |C| the OME-XML to see if the newly added ROI's have the correct Z,C and T information.   
+
+example of OME-XML with Z, C and T information::
+
+      <ROI ID="ROI:0:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape ID="Shape:0:0" StrokeColor="-1" Text="0611-0860" TheC="1" TheT="1" TheZ="1">
+      <Rectangle Height="390.0" Width="780.0" X="470.0" Y="416.0"/>
+      <ROI ID="ROI:1:0" xmlns="http://www.openmicroscopy.org/Schemas/ROI/2015-01">
+      <Union>
+      <Shape ID="Shape:1:0" Text="1162-2035" TheC="1" TheT="1" TheZ="1">
+      <Rectangle Height="584.0" Width="250.0" X="1910.0" Y="870.0"/>
+
+
+10. Testing ``Save Results to OMERO`` feature
+
+    - open an image from OMERO in ImageJ, draw an ROI and add to ROI Manager of IJ
+    - go to ``Analyze > Measure``
+    - select ``Plugins > Save Results to OMERO``
+    - |C| that a dialog ``Save ImageJ Results`` pops up  [:ref:`InsightIJI007d`]
+    - |C| that the ``Results saved`` item in Activities pops up
+    - |C| that an csv file is attached to the image in OMERO
+
+11. Using ``Save Results to OMERO`` to upload non-saved images as well.
+
+    - Repeat the steps above with an image opened from your local disk
+    - |C| that the image is imported and the measurements saved as ``.csv`` file.
+
+12. Open and save workflows for images
+
+    - open a z-stack image from OMERO in ImageJ
+    - open another z-stack image from OMERO in ImageJ
+    - go in IJ ``Image > Stacks > Tools > Concatenate...``
+    - ``Upload and Save to OMERO`` the resulting image
+    - |C| that the concatenated image has been imported successfully
 
 
 **Fiji**
@@ -400,7 +511,174 @@ The warning looks as follows:
 |
 |
 |
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 
+
+.. _InsightIJI007c:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007c.png
+   :align: center
+
+   InsightIJI007c
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007d:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007d.png
+   :align: center
+
+   InsightIJI007d
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007e:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007e.png
+   :align: center
+
+   InsightIJI007e
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _InsightIJI007f:
+.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007f.png
+   :align: center
+
+   InsightIJI007f
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
 |
 |
 |
