@@ -12,16 +12,22 @@ Share
    - User ``share-1`` has images in ``group-1``. 
    - User ``share-2`` is not a member of ``group-1`` and cannot see the images of ``share-1`` in ``group-1``. 
 
-#. Log in as ``share-1`` and in ``group-1`` select images and add to basket [:ref:`Share001`].
+#. Log in as ``share-1`` and in ``group-1`` select 2 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
 
-#. Create a share sharing your images with ``share-2``. In the central window, click on the basket icon, choose "Manage basket"[:ref:`Share002`], choose images to share and use the "Globe" icon to create a share [:ref:`Share003`]. Choose an expiry date one day after creation [:ref:`Share004`][:ref:`Share005`]
+#. |C| that a dialog appears [:ref:`Share002`]. Use the right-click context menu and click on the same "Globe" icon. |C| that the same dialog appears [:ref:`Share002`]. Enter the Message. Choose an expiry date one day after creation [:ref:`Share003`]. Start typing ``sha...`` into the "Members" box and |C| that the filter function offers you sub-selection of users starting with ``sha``. Create a share sharing your images with ``share-2``. 
 
-   - |C| that users on the share get e-mail with link
+   - |C| that users on the share (``share-2`` and any other users you have chosen as members of the share) get e-mail with the share Message and link bringing them to the Public tab
 
-#. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share006`][:ref:`Share007`]
+#. Immediately after this, create andother Share with different images with ``share-2``. |C| that the share creation dialog is behaving exactly as when creating the first share. 
+
+
+#. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share004`][:ref:`Share005`]
 
    - |C| that you can edit the share and save the changes.
    - |C| that when you add a new member to the share, only this new member will get an email, not the other members.
+   - |C| that you can disable a Share by ticking off the ``Enable`` box and that after this the share is listed in the tree as light grey.
+   - |C| that you can change the expiry date.
+   - |C| that when you edit one Share, save the changes and immediately try to edit another share, the changes get updated immediately and the share dialogs change the share you ARE just editing, not the one you HAVE just edited.
 
 #. Remove one image from the share using
 
@@ -37,25 +43,18 @@ Share
 
    - |C| that you CANNOT edit the share - the pencil symbol is not present.
    - |C| that you cannot remove images from the Share.
-   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share008`]
+   - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share006`]
    - |C| that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
    - |C| that you cannot run any scripts on the images (scripts menu is disabled)
-   - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share009`].
-   - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share009`].
-   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share009`]
+   - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share007`].
+   - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share007`].
+   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share007`]
    - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
-   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share010`]
+   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share008`]
    - |C| that you can comment on the share (right-hand pane).
    - |C| that all members of the share get an email with your comment
 
-#. Create a Discussion. 
 
-   - having the images in the Basket just like you had for the Share creation, click onto the ``speech bubble`` icon (to the left of the Share creating ``globus`` icon) and create Discussion
-   - |C| that the members of the Discussion get an email 
-   - |C| that when you login as the member of the Discussion who did not create it, you still can make comments and save them.
-   - |C| that the members of the discussion will get an email with your comment.
-   - login again as the author of the Discussion.
-   - |C| that when you add a new member to the discussion, only this new member will get an email, not the other members.
 
 
 
@@ -161,21 +160,15 @@ Share
 	|
 	|
 	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
+	
 
 
 	.. _Share004:
 	.. figure:: /images/testing_scenarios/Share/004.png
 	   :align: center
+	   :width: 100%
 
-	   Share004
+	   Share004: 
 
 
 	|
@@ -212,7 +205,7 @@ Share
 	.. figure:: /images/testing_scenarios/Share/005.png
 	   :align: center
 
-	   Share005
+	   Share005:
 
 
 	|
@@ -248,9 +241,8 @@ Share
 	.. _Share006:
 	.. figure:: /images/testing_scenarios/Share/006.png
 	   :align: center
-	   :width: 100%
 
-	   Share006: 
+	   Share006
 
 
 	|
@@ -287,7 +279,7 @@ Share
 	.. figure:: /images/testing_scenarios/Share/007.png
 	   :align: center
 
-	   Share007:
+	   Share007: 
 
 
 	|
@@ -324,81 +316,7 @@ Share
 	.. figure:: /images/testing_scenarios/Share/008.png
 	   :align: center
 
-	   Share008
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Share009:
-	.. figure:: /images/testing_scenarios/Share/009.png
-	   :align: center
-
-	   Share009: 
-
-
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-	|
-
-
-	.. _Share010:
-	.. figure:: /images/testing_scenarios/Share/010.png
-	   :align: center
-
-	   Share010:
+	   Share008:
 	
 	
 	|
