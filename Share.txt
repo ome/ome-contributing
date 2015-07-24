@@ -50,7 +50,7 @@ Share
    - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share007`].
    - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share007`]
    - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
-   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) = the General tab has no choices in its lower part.[:ref:`Share008`]
+   - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) i.e. the General tab has no choices in its lower part.[:ref:`Share008`]
    - |C| that you can comment on the share (right-hand pane).
    - |C| that all members of the share get an email with your comment
 
@@ -135,7 +135,7 @@ Share
 	.. _Share003:
 	.. figure:: /images/testing_scenarios/Share/003.png
 	   :align: center
-	   :width: 100%
+	 
 
 	   Share003
 
@@ -166,7 +166,6 @@ Share
 	.. _Share004:
 	.. figure:: /images/testing_scenarios/Share/004.png
 	   :align: center
-	   :width: 100%
 
 	   Share004: 
 
