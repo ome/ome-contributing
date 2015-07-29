@@ -31,10 +31,10 @@ Share
 
 #. Remove one image from the share using
 
-   - Dustbin icon above left-hand pane
+   - Scissors icon above left-hand pane
    - |C| that the tree and the middle pane updates
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
-   - Load the share in Public tab, a broken link icon should be displayed instead of a webclient crash.
+   - Load the share in Public tab, a ``No image`` icon should be displayed instead of a webclient crash.
 
 #. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
 
@@ -52,7 +52,7 @@ Share
    - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) i.e. the General tab has no choices in its lower part.[:ref:`Share008`]
    - |C| that you can comment on the share (right-hand pane).
-   - |C| that all members of the share get an email with your comment
+   - |C| that all members of the share get an email with your comment except yourself (i.e. the author of the comment will not get any email)
 
 
 
