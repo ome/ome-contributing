@@ -18,7 +18,7 @@ Share
 
    - |C| that users on the share (``share-2`` and any other users you have chosen as members of the share) get e-mail with the share Message and link bringing them to the Public tab
 
-#. Immediately after this, create andther Share with different images with ``share-2``. |C| that the share creation dialog is behaving exactly as when creating the first share. 
+#. Immediately after this, create another Share with different images with ``share-2``. |C| that the share creation dialog is behaving exactly as when creating the first share. 
 
 
 #. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share004`][:ref:`Share005`]
