@@ -70,13 +70,13 @@ Examples of expected events:
 
 **Win 7**
 
-IE 9.0, Java "1.7.0_45"
+IE 9.0, Java "1.7.0_45" through to "1.8.0_51"
 
    - OMERO webstart window appears: click on Webstart logo.
    - Security Warning popup appears: popup: click ``I accept...`` and then click ``Run``.
    - Webstart splashscreen appears.
 
-Firefox 26.0, Java "1.7.0_45"
+Firefox 26.0, Java "1.7.0_45" through to "1.8.0_51"
 
    - OMERO webstart window appears: click on Webstart logo, although note that you might have in this window a warning about an unsafe plugin: ``This plugin has security vulnerabilities. Activate Java Deployment Toolkit``. Activate the Toolkit as indicated. The window with Webstart logo appears. Click on the logo. Choose ``Open`` in following dialog.
    - Webstart splashscreen appears after a while.
@@ -128,9 +128,13 @@ Firefox 27.0, OS X 10.6.8, Java "1.6.0_26"
 
    - Webstart does not work: redirection to a Java update information website with info about updates happens instead. When these updates are applied, it does not help.
 
-Chrome 31.0.1650.63, OS X 10.8.5, Java "1.7.0_21":
+Chrome 31.0.1650.63, OS X 10.8.5, Java "1.7.0_21" through to "1.8.0_51"
 
-   - Webstart does not work: redirection to a Java update information website with info about updates happens instead. There is a mention about the fact that 32-bit Chrome browser does not support Java 7. Java runs only on 64-bit browsers on Mac OS. When the updates are applied, it does not help.
+   - Webstart does not work unless a trick is applied (see below): redirection to a Java update information website with info about updates happens instead. There is a mention about the fact that 32-bit Chrome browser does not support Java 7. Java runs only on 64-bit browsers on Mac OS. When the updates are applied, it does not help.
+   - Make sure you have Chrome Version 39 or newer as a 64-bit browser (Safari, Firefox, or Chrome for example) is required to run Oracle Java on Mac OS X
+    Enable NPAPI chrome://flags/#enable-npapi, click Enable and Relaunch Now (more details in https://support.google.com/chrome/answer/6213033)
+
+You can test by going to https://java.com/en/download/installed.jsp?detect=jre and right click on puzzle Run Plugin to give permissions 
 
 
 
