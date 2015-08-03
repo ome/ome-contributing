@@ -3,8 +3,18 @@ Virtual Microscope Testing
 
 
 **Production server**: <https://learning.openmicroscopy.org/dundee/>
+**Staging server**: <https://ray.openmicroscopy.org/dundee/>
+
+**Public Gallery on production server**: <https://learning.openmicroscopy.org/dundee/gallery/>
+**Public Gallery on staging server**: <https://ray.openmicroscopy.org/dundee/gallery/>
+
 
 **Purpose of the test** is to check the functioning of the Virtual Microscope.
+
+#. Public gallery testing
+    -  |C| if public user name appeared on top menu bar. Otherwise Logut.
+    -  |C| you see only 4 images in public examples.
+    -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
 
 #. General testing
@@ -13,5 +23,7 @@ Virtual Microscope Testing
    -  Choose one of the courses from the list. Check if you ended up viewing data belonging to the user named as a course.
    -  Browse through each catalog and see if the slides' thumbnails load.
    -  Click on each slide and see if the metadata panels load. Please note that preview is turned off.
-   -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible
+   -  |C| if download button is restricted to Render as JPEG/PNG/TIFF only. Download raw data should be disabled.
+   -  |C| if you cannot delete tags.
+   -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
