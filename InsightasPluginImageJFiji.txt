@@ -22,21 +22,22 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
    - |C| that a popup appears indicating that ``bioformats_package.jar`` or ``loci_tools.jar`` is missing.[:ref:`InsightIJI002`]
 
-#. (For the release-day testing only.) Click on the hyperlink in the popup and check it brings you to a sensible place, but do not download it. 
+#. (For the release-day testing only.) Click on the hyperlink in the popup and |C| it brings you to the last release version of Bio-formats. Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from this Bio-formats release Download page which is being coupled with the OMERO for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` . Note that this **does not have to be matching** version with the OMERO version, as Bio-formats are decoupled from OMERO. 
 
-#. (For the release-day testing only.) Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from the Bio-formats release Download page which is being coupled with the OMERO for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` . 
+   
 
-   - |C| that the ``bioformats_package.jar`` version (i.e. the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ (or ImageJ2), go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins``  [:ref:`InsightIJI004`].
+#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from CI (https://ci.openmicroscopy.org/job/BIOFORMATS-5.1-merge-build/) in case you are testing a Bio-formats PR.
 
-
-#. (For non-release-day testing only.) Download both ``bioformats_package.jar`` and ``loci_tools.jar`` that are mentioned in the popup.
-
-   - |C| that the ``bioformats_package.jar`` version (i.e. the Bio-Formats version) you are downloading matches the version of the ``OMERO.insight-ij*`` plugin (for example OMERO 5 ``bioformats_package.jar`` with OMERO 5 ``OMERO.insight-ij*`` plugin). To check the ``bioformats_package.jar`` version, open ImageJ, go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that when testing OMERO 5, the link in the popup will point to a wrong place - you might need to download the corresponding ``bioformats_package.jar`` from OMERO 5 Bio-Formats download page (e.g. ``http://downloads.openmicroscopy.org/bio-formats/5.0.0-xxx/``).
+   
 
 #. Quit ImageJ. Copy ``bioformats_package.jar`` into ``Plugins`` folder of ImageJ [:ref:`InsightIJI001`].
 
+
+
 #. Restart ImageJ (or ImageJ2), and go ``Plugins`` > ``OMERO`` > ``Connect to OMERO``
 
+
+   - |C| the ``bioformats_package.jar`` version. To check the ``bioformats_package.jar`` version, open ImageJ (or ImageJ2), go ``Help > About Plugins > Bio-Formats Plugins`` or ``Help > About Plugins > LOCI Plugins``  [:ref:`InsightIJI004`].
    - |C| that Insight splashscreen is displayed.
    - |C| that if you rename the ``bioformats_package.jar`` to ``bioformats_package<substitute-any-string>.jar`` and restart ImageJ, and ``Connnect to OMERO``` again, the Insight plugin still starts and no warning is being displayed.
 
@@ -48,7 +49,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
    - |C| that the image opens in ImageJ [:ref:`InsightIJI007`].
 
-#. Replace the ``bioformats_package.jar`` with ``loci_tools.jar`` and repeat the steps 4 (on release day only) or 5 (non-release day only) and 6, 7, 8, 9 and 10 (on both release and non-release days). 
+#. Replace the ``bioformats_package.jar`` with ``loci_tools.jar`` and repeat the steps 3 (on release day only) or 4 (non-release day only) and 5, 6, 7, 8 and 9 (on both release and non-release days). 
 
 #. Put both ``bioformats_package.jar`` and ``loci_tools.jar`` into Plugins folder and restart ImageJ (or ImageJ2). 
 
@@ -197,9 +198,10 @@ example of OME-XML with Z, C and T information::
 
 #. Start Fiji
 
-#. Go ``Help`` > ``Update Fiji`` -> the update process will start.
+#. Go ``Help`` > ``Update Fiji`` -> the update process will start. Restart Fiji and
 
-   - |C| whether the Bio-Formats version you have in your Fiji matches the version of the ``OMERO.insight-ij*`` plugin (for example Bio-Formats 5 with OMERO 5``OMERO.insight-ij*`` plugin). To check the Bio-Formats version, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. **Note** that Fiji no longer supports Bio-Formats 4 and thus the ``OMERO.insight-ij*`` must be OMERO 5 to work with Fiji.
+   - |C| that you have the last release version of Bio-formats. To check the Bio-Formats version, go ``Help > About Plugins > LOCI Plugins`` [:ref:`InsightIJI004`]. Note that this **does not have to be matching** version with the OMERO version, as Bio-formats are decoupled from OMERO. 
+
 
 #. Add the ``OMERO.insight-ij*`` plugin to the ``Plugins`` folder of Fiji - on Mac, use rigth-click on Fiji icon & ``Show package content`` [:ref:`InsightIJI003`] to get to ``Plugins`` 
 
