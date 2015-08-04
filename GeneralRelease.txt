@@ -22,7 +22,6 @@ OMERO.clients:
    - (5.1.x Mac only) |C| both the Java6 and Java 7+ versions from the Downloads page, using Java 1.6 for the Java6 version.
    - (all platforms) |C| all Ice versions of OMERO.insight*.zip files in artifacts page.
    - (all platforms) |C| one of the OMERO.importer*.zip files on artifacts page
-   - (5.0.x releases only, all platforms) |C| all Ice versions of OMERO.clients*.zip files in artifacts page. 
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
    - (all platforms) |C| that the application starts and you can log in.
    - (all platforms, Insight only) |C| that you can expand a dataset and open an image with multi-z (Choose one of the ``.dv`` images in datasets named like ``archived dv`` or ``non-archived dv`` - present in almost every user/group.)
