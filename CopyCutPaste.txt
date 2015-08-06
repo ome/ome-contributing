@@ -25,7 +25,7 @@ Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTab
 #. Copy/Cut & Paste Images from ``Orphaned Images`` folder by selecting & using right-click menu
 
 
-#. Select images in a dataset and do Cut without Paste (Insight only)
+#. Select images in a dataset and do Cut without Paste 
 
    - |C| that the images are in "Orphaned images" folder
 
