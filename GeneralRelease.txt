@@ -135,7 +135,7 @@ Chrome 31.0.1650.63, OS X 10.8.5, Java "1.7.0_21" through to "1.8.0_51"
    - Webstart does not work unless a trick is applied (see below): redirection to a Java update information website with info about updates happens instead. There is a mention about the fact that 32-bit Chrome browser does not support Java 7. Java runs only on 64-bit browsers on Mac OS. When the updates are applied, it does not help. Following trick can be applied (but it will not work after version 45 of Chrome).  
    - Make sure you have Chrome Version 39 or newer. A 64-bit browser is required to run Oracle Java on Mac OS X
    - Enable NPAPI chrome://flags/#enable-npapi, click Enable and Relaunch Now (more details in https://support.google.com/chrome/answer/6213033)
-   - You can test the effectivity of your fix by going to https://java.com/en/download/installed.jsp?detect=jre and right click on puzzle Run Plugin to give permissions 
+   - You can test the effectiveness of your fix by going to https://java.com/en/download/installed.jsp?detect=jre and right click on puzzle Run Plugin to give permissions 
 
 
 
