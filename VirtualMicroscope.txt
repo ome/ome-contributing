@@ -12,8 +12,8 @@ Virtual Microscope Testing
 **Purpose of the test** is to check the functioning of the Virtual Microscope.
 
 #. Public gallery testing
-    -  |C| if public user name appeared on top menu bar. Otherwise Logut.
-    -  |C| you see only 4 images in public examples.
+    -  |C| in the top menu bar that you are not logged in as a Public User (in case you are logged in as yourself or other user, then just logout and navigate to the page again). Note that this is a known unrelated problem, just make sure you are logged in as Public User (see ticket <https://trac.openmicroscopy.org/ome/ticket/12991>).
+    -  |C| if you see only 4 images in public examples.
     -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
 
@@ -25,5 +25,7 @@ Virtual Microscope Testing
    -  Click on each slide and see if the metadata panels load. Please note that preview is turned off.
    -  |C| if download button is restricted to Render as JPEG/PNG/TIFF only. Download raw data should be disabled.
    -  |C| if you cannot delete tags.
+   -  |C| if you cannot download original data.
+   -  |C| if scripts are disabled and there is no script listed in Script menu. Note that Script button is still available in Metadata Panel but it should throw an exception.
    -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
