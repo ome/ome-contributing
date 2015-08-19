@@ -63,9 +63,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Switch to User View in Insight, put a particular user to display in Web and do steps 2 and 3 in Section 2.
 
-   - |C| that when you select other users' data, Projects and Screens are created under your name in the tree in Insight (when permitted). 
-   - |C| that when you select Project(s) of other users, the Datasets are created under selected projects of other users (when permitted)
-   - |C| that when you select other users' data P/D/S are created under the name of the other user in Web, but after the first change of display (put yourself to display) the newly created P/D/S are under your name
+   - |C| in Insight that when you select other users' data, Projects and Screens are created under your name in the tree in Insight (when permitted). 
+   - |C| in Web that the icons for creation are disabled in all cases
+   - |C| in Web that when you select Project(s) of other users, ONLY Dataset creation is enabled in both icon and context menu (and this only if permmissions allow you to link your Datasets to this Project) , and the Datasets are created under the selected Project 
+   - |C| in Web that when you select a Dataset of another user, no creation menu (both icons and context) is ever enabled.
+   - |C| in Web that when you select other users' images P/D/S creation in context menu (but not icons) is enabled. Further if selected images of other user are in Orphaned folder and you have the permissions to link the images to your Dataset,the selected images are in the newly created dataset. Further |C| that after you put yourself to display in the tree, this newly created Dataset of yours appears under your tree, and is not available anymore under the tree of the user whose images you used to populate this Dataset from Orphaned folder.
 
 |
 |
