@@ -46,8 +46,11 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. In Insight and Web try to create new P/D/S being under other users' data (=selecting other users' P/D/S/I) 
 
-   - Note that there is a known discrepancy in Web in icons enabling (not enabled when other user is on display) and right-click menu enabling (enabled creation of P/D/S when other user is on display)
-   - |C| that you can/cannot create the new entities as appropriate to your permissions (= menu items in contextual menu, icons and main menu are enabled/disabled as appropriate) - both Web (cnotextual menu only) and Insight
+   - Note that there is a known discrepancy in Web in icons enabling (not enabled when other user is on display) and right-click menu 
+   - |C| that all the three icons for creating P/D/S in Web are enabled and working when you select the group name, Project(s), Dataset(s) or Image(s) in the tree
+   - |C| in Web that the right-click contextual menu is enabled when you select the group name and Image(s) and disabled when you select Dataset. 
+   - |C| in Web that the right-click contextual menu is enabled only for Dataset creation when you select a Project which is either yours or other users' but such that you have permissions for to create your Dataset under it, and that the resulting Dataset is linked to the selected Project
+   - |C| in Insight that you can/cannot create the new entities as appropriate to your permissions (= menu items in contextual menu, icons and main menu are enabled/disabled as appropriate) 
    - |C| in Insight and Web that new Datasets are created under other users' Projects when these Projects are selected and creation is permitted.
  
 
