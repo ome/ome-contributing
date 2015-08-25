@@ -20,6 +20,7 @@ Virtual Microscope Testing
 #. General testing
 
    -  Log in using your UoD LDAP credentials. The login name should be case insensitive. |C| that when you try various combinations of upper and lower case, you can still log in.
+   -  |C| if group/user menu dosplay All courses and name of courses only.
    -  Choose one of the courses from the list. Check if you ended up viewing data belonging to the user named as a course.
    -  Browse through each catalog and see if the slides' thumbnails load.
    -  Click on each slide and see if the metadata panels load. Please note that preview is turned off.
