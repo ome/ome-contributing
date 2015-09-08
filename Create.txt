@@ -61,7 +61,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
    - |C| that when creation permitted, the newly created Dataset belongs to you and contains the selected images of the other user(s)
 
 
-#. Switch to User View in Insight, put a particular user to display in Web and do steps 2 and 3 in Section 2.
+#. Switch to User View in Insight, put a particular user to display in Web and
 
    - |C| in Insight that when you select other users' data, Projects and Screens are created under your name in the tree in Insight (when permitted). 
    - |C| in Web that the icons for creation are disabled in all cases
