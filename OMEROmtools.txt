@@ -86,7 +86,7 @@ Testing Label Images
 #.  Click on the “Label Images” button to log in to the server and open the tool. In the dialogue that pops up choose a group that contains images of various sizes.
 #.  In the main application window, select File -> Open Image and browse to an image up to 1024 x 1024 in size that has multiple z-sections and/or time points.
 #.  Click ‘Add label’ and enter some text for the new label. Choose a colour from the drop-down list. Click ‘Ok’.
-#.  Repeat step 4 a few times, varying the text and colour chosen.
+#.  Repeat step for a few times, varying the text and colour chosen.
 #.  Inspect the drop-down list of labels you have created. Delete one of the labels and check that the drop-down list updated correctly.
 #.  Click the ‘Create point’ button (cross-hairs) and place a few points on the image. 
 #.  Click the ‘Select point’ button (arrow) and select a point. The point should turn white.
@@ -112,6 +112,6 @@ Testing Label Images
 
    - A large image that has been imported but not yet viewed in insight/web (i.e. no render settings exist yet)
    - A pyramidal image that will take a long time to download.
-   
+
 Please investigate whether these scenarios play out correctly. Note that it may take a LONG time for a very large image to appear, so don’t assume it has crashed too quickly.
 
