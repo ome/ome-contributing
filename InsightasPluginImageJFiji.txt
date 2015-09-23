@@ -150,7 +150,8 @@ example of OME-XML with Shape Properties::
 
    - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugin
    - draw several ROIs (including an ellipse) in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
-   - save the ROI using ``Save ROIs to OMERO``
+   - also open ``test_images_good/tiff/QA images/Artificial_xyt_8bit.tif`` and draw several ROIs (including ellipse) in IJ on a particular plane and add them to Overlay (``Ctrl + B``)
+   - save the ROI using ``Save ROIs to OMERO`` on both images
    - |C| that the ROI in OMERO is associated with the correct z/t plane(s)
    - in ImageJ, go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
    - restart ImageJ
