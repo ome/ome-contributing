@@ -62,7 +62,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 **ImageJ - ROI and OMERO upload**
 (This section is just pre-release testing scenario (unless stated otherwise), do not do on release day, on release day go to section **Fiji**)
 
-#. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (The key ``t`` can be used as keyboard shortcut).
+#. Open an image in ImageJ, draw regions using IJ toolbar on a particular z, t and c plane and click ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (The key ``t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
    - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT
@@ -87,7 +87,7 @@ example of OME-XML with Shape Properties::
 2. Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. Do this workflow also for a stack (not hyperstack) image, e.g. ``test_images_good/tiff/QA images/Artificial_xyt_8bit.tif`` and for a hyperstack image (e.g. a multi z, c, t ``dv``).
 
 4. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
@@ -196,6 +196,7 @@ example of OME-XML with Z, C and T information::
     - ``Upload and Save to OMERO`` the resulting image
     - |C| that the concatenated image has been imported successfully
 
+13. MIF workflows
 
 **Fiji**
 
