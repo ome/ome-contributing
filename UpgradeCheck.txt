@@ -1,0 +1,84 @@
+UpgradeCheck
+============
+
+
+**To test in**: Web, Insight, IJ plugin, Importer, MatLab, Bio-Format 
+
+**Purpose of the test** is to check if UpgradeCheck hit is registered.
+
+#. Write down your IP address 
+
+  .. note::
+    Do not use any website to check you IP address as this may give you incorect result.
+
+  - Unix use: ``$ /sbin/ifconfig``
+  - Mac alternatively go to ``Apple / System Preferences / Network`` and find active connection
+  - Windows open ``CMD (Command Prompt)``
+
+    ::
+
+       C:\>ipconfig
+
+#. Go to http://downloads.openmicroscopy.org/omero/, choose appropriate version and download the packages. 
+
+#. Connect to Feedback Database ``psql -h pg-slave.openmicroscopy.org -U feedback feedback``
+
+   .. note::
+     This is replicated production database in read-only mode. You have only permission to read from the database.
+
+#. Test client:
+
+  - Insight/Importer/Web: Open client and log in to the given server.
+  - Server: Start up OMERO.server
+  - CMD: Log in using command line
+
+    ::
+
+       $ bin/omero login
+
+  - Diagnostics:
+
+    ::
+
+       $ bin/omero admin diagnostics
+
+  - Insight.IJ:
+
+    - Copy appropriate plugins
+    - Open ImageJ
+    - Connect to OMERO and log in
+    - Make sure there were **only ONE** hit recorded
+    - Close Insight
+    - Connect to OMERO (you will be automaticly connected)
+    - Close Insight and ImageJ
+    - Make sure there were **only ONE** hit recorded
+
+  - MatLab is not supported
+
+#. |C| if start up was registered in Feedback Database using the following query:
+
+  **Repet the following steps for each client**
+
+  .. note::
+      replace YOUR_IP with the correct value
+
+  ::
+
+     SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
+     FROM registry_hit 
+     LEFT OUTER JOIN registry_ip ON ( registry_hit.ip_id = registry_ip.id )
+     LEFT OUTER JOIN registry_agent ON ( registry_hit.agent_id = registry_agent.id )
+     WHERE registry_ip.ip = 'YOUR_IP'
+     ORDER BY registry_hit.id DESC LIMIT 5;
+
+  You should see results like:
+
+  ::
+
+           ip       |         creation_date         |   agent_name   | id 
+     ---------------+-------------------------------+----------------+----
+      134.36.162.28 | 2015-09-24 09:45:14.112992+01 | OMERO.ij       | 10
+      134.36.162.28 | 2015-09-23 11:05:35.554009+01 | OMERO.importer |  1
+      134.36.162.28 | 2015-09-23 11:03:10.234792+01 | OMERO.insight  |  2
+      134.36.162.28 | 2015-09-23 09:52:05.933021+01 | OMERO.web      |  5
+
