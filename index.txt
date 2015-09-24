@@ -69,6 +69,7 @@ Testing scenarios
    ScreenPlateWell
    StressPerformance
    UserGroupManipulation
+   UpgradeCheck
    UTrack
    ViewImageWithPerm
    ViewBigImage
