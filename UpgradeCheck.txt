@@ -2,7 +2,7 @@ UpgradeCheck
 ============
 
 
-**To test in**: Web, Insight, IJ plugin, Importer, MatLab, Bio-Format 
+**To test in**: Web, Insight, IJ plugin, Importer, MatLab, Bio-Formats
 
 **Purpose of the test** is to check if UpgradeCheck hit is registered.
 
@@ -47,11 +47,11 @@ UpgradeCheck
     - Copy appropriate plugins
     - Open ImageJ
     - Connect to OMERO and log in
-    - Make sure there were **only ONE** hit recorded
+    - Make sure there was **only ONE** hit recorded
     - Close Insight
-    - Connect to OMERO (you will be automaticly connected)
+    - Connect to OMERO (you will be connected automatically)
     - Close Insight and ImageJ
-    - Make sure there were **only ONE** hit recorded
+    - Make sure there was **only ONE** hit recorded
 
   - MatLab is not supported
 
