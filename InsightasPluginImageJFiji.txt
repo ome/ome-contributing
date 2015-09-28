@@ -198,6 +198,14 @@ example of OME-XML with Z, C and T information::
 
 13. MIF workflows
 
+    - in ImageJ, using Bio-Formats Importer, open ``test_images_good/leica-liff/Beta Catenin.lif``
+    - select ``Select All`` in the popup window and click OK
+    - 5 images should be open
+    - draw a region on 3 of the images, adding it to Overlay every time
+    - use ``Save image(s) to OMERO`` to upload the MIF and ROIs to OMERO
+    - select in a row ``Add images from current window`` and ``Add images from All open window`` to test both workflows
+    - |C| that in both cases, you have the whole MIF imported 1x with each ROI associated with the image you have drawn it on in ImageJ
+
 **Fiji**
 
 #. Start Fiji
