@@ -32,20 +32,19 @@ Setup
 
     tar xfv bioformats-cpp-5.1.0-m5-Debug-MacOSX10.10.tar.xz
 
-#. Add the bioformats C++ bin directory to your PATH. For example, on Linux and
-   OS X platforms::
+#. Add the Bio-Formats C++ :file:`bin` directory to your :envvar:`PATH`. For
+   example, on Linux and OS X platforms::
 
-    PATH="/tmp/bioformats-cpp-5.1.0-m5-195-gbbe8f1e-Release-MacOSX10.10/bin:$PATH"
+     PATH="/path/to/bioformats-cpp/bin:$PATH"
 
-   or on Windows, using the PowerShell::
+   or on Windows, using the Command Prompt (note the quoting)::
 
-   $env:Path += ";C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64\bin"
+     set "PATH=\path\to\bioformats-cpp\bin;%PATH$"
 
 #. On Windows you also need to set the :envvar:`BIOFORMATS_HOME` environment
    variable::
 
-     $BIOFORMATS_HOME = "C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64"
-     [Environment]::SetEnvironmentVariable("BIOFORMATS_HOME", $BIOFORMATS_HOME, "Process")
+     set "BIOFORMATS_HOME=\path\to\bioformats-cpp"
 
 Tests
 =====
