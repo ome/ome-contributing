@@ -1,12 +1,9 @@
 .. contents::
    :depth: 2
 
-
 ###
 C++
 ###
-
-
 
 
 **To test in**: command line
@@ -19,32 +16,45 @@ Setup
 #. Download C++ build from:
 
    - (if available) Download page
-
-   \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER
+     \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER
 
    For MacOS 10.10: \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER/artifacts/xxx.Debug-MacOSX10.10.tar.xz
 
    - (if you are supposed to test tip of the branch) Jenkins job
+     :jenkinsjob:`BIOFORMATS-CPP-5.1-merge` or
+     :jenkinsjob:`BIOFORMATS-CPP-5.1-latest`
 
-  :jenkinsjob:`BIOFORMATS-5.1-merge-cpp` or 
-  :jenkinsjob:`BIOFORMATS-5.1-latest-cpp`
-
-   For MacOS 10.10: pick the node ``mackerel``. You can also use the table of nodes on https://ci.openmicroscopy.org/computer/  to help you to find the right node.
+     For MacOS 10.10: pick the node ``mackerel``. You can also use the table
+     of nodes on https://ci.openmicroscopy.org/computer/  to help you to find
+     the right node.
 
 #. Unpack the tar file (for example)::
 
     tar xfv bioformats-cpp-5.1.0-m5-Debug-MacOSX10.10.tar.xz
 
-#. Add the bioformats C++ bin directory to your PATH::
-
-    PATH="/path/to/bioformats/bin:$PATH"
-
-   for example::
+#. Add the bioformats C++ bin directory to your PATH. For example, on Linux and
+   OS X platforms::
 
     PATH="/tmp/bioformats-cpp-5.1.0-m5-195-gbbe8f1e-Release-MacOSX10.10/bin:$PATH"
 
+   or on Windows, using the PowerShell::
+
+   $env:Path += ";C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64\bin"
+
+#. On Windows you also need to set the :envvar:`BIOFORMATS_HOME` environment
+   variable::
+
+     $BIOFORMATS_HOME = "C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64"
+     [Environment]::SetEnvironmentVariable("BIOFORMATS_HOME", $BIOFORMATS_HOME, "Process")
+
 Tests
 =====
+
+#. On Windows, :command:`bf-test.bat` currently does not work. Assuming the
+   environment variables have been set as described above, the file reading
+   can be tested directly using :command:`info.exe`::
+
+     C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64\libexec\ome\bioformats\info.exe path\to\test-image.ome.tiff
 
 #. Run "bf-test" to test main wrapper:
 
