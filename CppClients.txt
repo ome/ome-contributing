@@ -77,7 +77,7 @@ Tests
 
    c. Test each of the Zoom, Pan and Rotate view options; click and drag to change each.
 
-   d. Test the plane navigation using the nagivation sliders; the number of dimension sliders visible will depend upon the number of dimensions in the image metadata.
+   d. Test the plane navigation using the navigation sliders; the number of dimension sliders visible will depend upon the number of dimensions in the image metadata.
 
    e. Test the rendering by changing the Min/Max sliders
 
