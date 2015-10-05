@@ -39,7 +39,7 @@ Setup
 
    or on Windows, using the Command Prompt (note the quoting)::
 
-     set "PATH=\path\to\bioformats-cpp\bin;%PATH$"
+     set "PATH=\path\to\bioformats-cpp\bin;%PATH%"
 
 #. On Windows you also need to set the :envvar:`BIOFORMATS_HOME` environment
    variable::
