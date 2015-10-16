@@ -74,6 +74,7 @@ Testing scenarios
    ViewBigImage
    VirtualMachineTesting
    VirtualMicroscope
+   WebLightTesting
    WebOpenAstexViewer
    Woolz
 
