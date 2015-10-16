@@ -1,0 +1,43 @@
+Web - light testing
+===================
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to have a lightweight scenario covering all OMERO.web in case PRs testing such as Django upgrade or similar where the whole UI has to be tested, but not too deeply.
+
+
+#. Feedback: send comment and error
+
+   - Go to the appropriate server and add to the url ``/feedback/comment/`` and send comment.  (e.g. ``https://eel/merge/feedback/comment/`` and filling in your email address, send comment.
+   - Go to the appropriate server and add to the url ``/weberror/error_500/`` (e.g. ``https://eel/merge/weberror/error_500/`` and filling in your email address, submit error.
+   - |C| that the comment and error were sent (you should get corresponding emails)
+
+#. Login:
+
+   - Replacing the ``eel/merge`` part in the following example, navigate in your browser to the url ``https://eel/merge/webclient/login/?url=%2Fmerge%2Fwebclient%2Fuserdata%2F%3Fexperimenter%3D-1``, and log in as a user who can view data of user-1 in default group, you should be redirected to ``https://eel/merge/webclient/userdata/?experimenter=-1`` and be able to view data of user-1.
+
+#. Webadmin:
+
+   - :doc:`Resetpwd`
+   - :doc:`AdminGroupUserCreate` (handled by robot test - just concentrate on tasks highlighted in testing sheet and take scenario as guidance)
+   - :doc:`AdminGroupUserEdit` (handled by robot test - just concentrate on tasks highlighted in testing sheet and take scenario as guidance)
+   - edit my account (handled by robot test)
+   - crop avatar
+
+#. Webclient:
+        check direct link takes to the image webclient/userdata/?show=image-123
+        search using global searching as well as advance searching
+        annotation (test with multiple selected images) https://www.openmicroscopy.org/private/ome-internal/testing_scenarios/Annotate.html
+        create Project, Dataset, Screen
+        create and edit Share https://www.openmicroscopy.org/private/ome-internal/testing_scenarios/Share.html
+        edit channel name
+        rendering settings: copy, paste, save, apply to all
+        download:
+        attachement
+        original file
+        export to
+
+#. Scripts https://www.openmicroscopy.org/private/ome-internal/testing_scenarios/ScriptsClient.html
+
