@@ -62,7 +62,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 **ImageJ - ROI and OMERO upload**
 (This section is just pre-release testing scenario (unless stated otherwise), do not do on release day, on release day go to section **Fiji**)
 
-#. Open an image in ImageJ, draw regions using IJ toolbar and ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (``Ctrl + t`` can be used as keyboard shortcut).
+#. Open an image in ImageJ, draw regions using IJ toolbar on a particular z, t and c plane and click ``Analyze > Tools > ROI Manager``. Each time you draw a new region click ``Add`` in the ``ROI Manager`` (The key ``t`` can be used as keyboard shortcut).
 
    - export the image using ``Plugins > Bio-formats > Bio-formats Exporter`` to the local drive on your machine
    - make sure the ``Export ROIs`` tickbox in the second dialog (``Bio-Formats Exporter Options``) is ticked BY DEFAULT
@@ -87,7 +87,7 @@ example of OME-XML with Shape Properties::
 2. Import the image you created into OMERO (using OMERO.insight).
    - |C| that the image has regions as you have drawn them in ImageJ and the regions are correctly displayed in Insight and Web.
 
-3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. 
+3. Repeat steps 1., 2. this time draw regions using IJ toolbar and ``Image > Overlay > Add selection`` or use the shortcut ``cmd B``. Note that any regions in ``ROI Manager`` will be ignored in case the image has an ``Overlay`` to it. Do this workflow also for a stack (not hyperstack) image, e.g. ``test_images_good/tiff/QA images/Artificial_xyt_8bit.tif`` and for a hyperstack image (e.g. a multi z, c, t ``dv``).
 
 4. Open an image in ImageJ, create a rectangular region, and make a crop (``Image > Crop``). 
    
@@ -149,8 +149,9 @@ example of OME-XML with Shape Properties::
 #. Draw a ROI specifically on a z or t plane.
 
    - open a multi-z and multi-t image stored in OMERO in ImageJ using the ImageJ plugin
-   - draw a ROI in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
-   - save the ROI using ``Save ROIs to OMERO``
+   - draw several ROIs (including an ellipse) in ImageJ on a particular z/t plane(s) and add them to ROI Manager in ImageJ (**Note that Overlay in ImageJ does not support t information, but does support the z information.**)
+   - also open ``test_images_good/tiff/QA images/Artificial_xyt_8bit.tif`` and draw several ROIs (including ellipse) in IJ on a particular plane and add them to Overlay (``Ctrl + B``)
+   - save the ROI using ``Save ROIs to OMERO`` on both images
    - |C| that the ROI in OMERO is associated with the correct z/t plane(s)
    - in ImageJ, go to ``ROI Manager > More > Options`` and tick the ``Associate Show All...`` box
    - restart ImageJ
@@ -177,13 +178,15 @@ example of OME-XML with Z, C and T information::
     - go to ``Analyze > Measure``
     - select ``Plugins > Save Results to OMERO``
     - |C| that a dialog ``Save ImageJ Results`` pops up  [:ref:`InsightIJI007d`]
+    - input a ``<name>`` for the .csv file to save (do not use periods in the name)
     - |C| that the ``Results saved`` item in Activities pops up
-    - |C| that an csv file is attached to the image in OMERO
+    - |C| that the csv file with the name ``<name>.csv`` is attached to the image in OMERO
+    - |C| that when you leave the box for the name empty, the file is named ``ImageJ-<NameOfImage>-Results-<Date>.csv``
 
 11. Using ``Save Results to OMERO`` to upload non-saved images as well.
 
     - Repeat the steps above with an image opened from your local disk
-    - |C| that the image is imported and the measurements saved as ``.csv`` file.
+    - |C| that the image is imported and the measurements saved as ``<name>.csv`` file.
 
 12. Open and save workflows for images
 
@@ -193,6 +196,15 @@ example of OME-XML with Z, C and T information::
     - ``Upload and Save to OMERO`` the resulting image
     - |C| that the concatenated image has been imported successfully
 
+13. MIF workflows
+
+    - in ImageJ, using Bio-Formats Importer, open ``test_images_good/leica-liff/Beta Catenin.lif``
+    - select ``Select All`` in the popup window and click OK
+    - 5 images should be open
+    - draw a region on 3 of the images, adding it to Overlay every time
+    - use ``Save image(s) to OMERO`` to upload the MIF and ROIs to OMERO
+    - select in a row ``Add images from current window`` and ``Add images from All open window`` to test both workflows
+    - |C| that in both cases, you have the whole MIF imported 1x with each ROI associated with the image you have drawn it on in ImageJ
 
 **Fiji**
 
