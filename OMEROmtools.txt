@@ -100,7 +100,7 @@ Testing Label Images
 #. From the File menu, select to save the label definitions to a location on your computer.
 #. Add some more labels to your drop-down list (step 4).
 #. From the File menu, choose to Open Label Definitions. Observe the question dialogue that appears, and select to continue. Browse to and select the labels definition file saved in step 16.
-#. Inspect the labels drop-down to confirm that the labels are as they were when you saved them in step16.
+#. Inspect the labels drop-down to confirm that the labels are as they were when you saved them in step 16.
 
 #. Choose three more images to open, creating points on them and saving the points on your computer.
 #. From the Analysis menu, choose ‘Batch analysis’. In the text box make up a name for an experimental condition (e.g. siCtrl). Click ‘Add Points Files’ and browse to and select two of the points files saved earlier. See this condition appear in the list box.
