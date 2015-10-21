@@ -96,7 +96,7 @@ Testing Label Images
 #. Click the ‘Zoom in’ button (+ magnifying glass) and click on the image to zoom in to that region. Do this again to zoom in further.
 #. Click the ‘Zoom out’ button (- magnifying glass) to zoom right out to see the whole image again.
 #. Play with adding/selecting/deleting points whilst zoomed in at the two zoom levels on various z-sections/time points.
-#. From the File menu, select to save the points to a location on your computer. Note the image name should be automatically filled out as the name of the file.
+#. From the File menu, select ``Save Points` to save the points to a location on your computer. Note the image name should be automatically filled out as the name of the file.
 #. From the File menu, select to save the label definitions to a location on your computer.
 #. Add some more labels to your drop-down list (step 4).
 #. From the File menu, choose to Open Label Definitions. Observe the question dialogue that appears, and select to continue. Browse to and select the labels definition file saved in step 16.
