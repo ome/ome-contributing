@@ -113,5 +113,5 @@ Testing Label Images
    - A large image that has been imported but not yet viewed in Insight/web (i.e. no render settings exist yet)
    - A pyramidal image that will take a long time to download.
 
-Please investigate whether these scenarios play out correctly. Note that it may take a LONG time for a very large image to appear, so don’t assume it has crashed too quickly.
+Please investigate whether these scenarios play out correctly. Note that it may take a LONG time for a very large image to appear, so don’t assume too quickly that it has crashed.
 
