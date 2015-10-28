@@ -55,6 +55,8 @@ OMERO.server
 Webstart
 ============================================================
 
+#. This section is only valid for 5.1.x testing.
+
 #. Upgrade your Java to at least "1.7.0_51" - this is important for the security problems appearing in new Java versions!
 
 #. Download and deploy the release server or use one which was deployed for you and start OMERO.web. **Note that the setups of servers for this purpose is under construction, you have to check what is deployed for you on the day of testing.**
