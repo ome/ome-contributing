@@ -50,7 +50,7 @@ Web - light testing
    - Create Project, Dataset, Screen (from icon and right-click, one execution per object means 6 executions in total - again, no granularity needed)
    - Create and Edit Share :doc:`Share` (scenario just to give you a rough lead, see further) - just confirm that you can Creat and Edit, do not go into detail, email sending, multiselections, deletions etc.
    - Edit channel name and save the change
-   - |C| that rendering settings work in most general cases: ``Copy``, ``Paste``, ``Save``, ``Save to all`` in Preview, ``Copy`` and ``Paste`` in Full Viewer, ``Copy``, ``Paste and Save`` , ``Set Imported and Save`` and ``Set Owners and Save`` in the tree. Try just once per command and |C| that action proceeds. Do not go into details, permissions and synchronization checks.
+   - |C| that rendering settings work in most general cases: ``Copy``, ``Paste``, ``Save``, ``Save to all`` in Preview, ``Copy`` and ``Paste`` in Full Viewer, ``Copy``, ``Paste and Save`` , ``Set Imported and Save`` and ``Set Owners and Save`` in the tree. Try just once per command and |C| that action proceeds, adn |C| that the thumbnails in central pane update accordingly. Do not go into details, permissions and synchronization checks.
    - Download a file attachment and |C| that the action proceeds.
    - Download an original file and |C| that the action proceeds.
    - Save an image using ``Save as jpeg`` and |C| that the action proceeds.
