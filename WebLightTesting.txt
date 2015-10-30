@@ -20,6 +20,7 @@ Web - light testing
    - Log in as a user who can view data of user-1.
    - |C| that you were redirected to ``https://eel/merge/webclient/userdata/?experimenter=-1``
    - |C| that you can view data of user-1.
+   - Click on random P/D/I and |C| that you are not logged out automatically.
 
 #. Webadmin:
 
@@ -43,6 +44,8 @@ Web - light testing
 
       - singly-selected images
       - multiselections of images
+      - attaching files from local harddrive
+      - attaching existing files
 
    - Create Project, Dataset, Screen (from icon and right-click, one execution per object means 6 executions in total - again, no granularity needed)
    - Create and Edit Share :doc:`Share` (scenario just to give you a rough lead, see further) - just confirm that you can Creat and Edit, do not go into detail, email sending, multiselections, deletions etc.
