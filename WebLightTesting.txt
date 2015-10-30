@@ -38,7 +38,7 @@ Web - light testing
    
    - Copy the link to an image from  the ``chain-link`` icon in top right of the Web UI and logout.
    - |C| that this link when pasted to your browser in a new tab takes to the image (after you logged in again)
-   - Briefly search using global searching (from the small dialog in top right) as well as advance searching (from the Search interface, which you get to after you used the small dialog in top right). Just |C| that you get ANY results, selecting search terms which you know you should get some results for (Compare with Insight in doubt, no need to go into granularities like date, targetting, advanced search for P/D/I and similar).
+   - Briefly search using global searching (from the small dialog in top right) as well as advance searching (from the Search interface, which you get to after you used the small dialog in top right). Just |C| that you get ANY results, selecting search terms which you know you should get some results for (Compare with Insight in doubt, no need to go into granularities like date, targeting, advanced search for P/D/I and similar).
    - Annotation :doc:`Annotate` (just try to annotate the image with Tags, Ratings, Key-Value pairs, Comments, Description - do not go into details and edge cases, simple execution of single annotations is enough. Take the scenario just as a rough lead.) Test annotating with
 
       - singly-selected images
