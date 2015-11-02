@@ -34,7 +34,7 @@ Share
    - Scissors icon above left-hand pane
    - |C| that the tree and the middle pane updates
    - Delete one of the images in the share (going back to Data pane and using Delete icon)
-   - Load the share in ``Shares`` tab, a ``No image`` icon should be displayed instead of a webclient crash.
+   - Load the share in ``Shares`` tab, a ``Object deleted`` item should be displayed in the tree.
 
 #. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
 
