@@ -105,7 +105,7 @@ Testing Label Images
 #. Repeat the opening and creation of points with three more images, one image at a time, and each time save the points to your computer. 
 #. From the Analysis menu, choose ‘Batch analysis’. In the text box make up a name for an experimental condition (e.g. siCtrl). Click ‘Add Points Files’ and browse to and select two of the points files saved earlier. |C| that this condition appears in the list box.
 #. Enter a second experimental condition (e.g. siRNA), click ‘Add Points Files’ and browse to and select the other two points files created earlier. |C| that this condition appears in the list box.
-#. Click ‘Analyse’ and in the dialogue that appears select a location to save it to. Creating a new directory is recomended for this analysis. Specify a name for the save file and click ‘save’
+#. Click ‘Analyse’ and in the dialogue that appears select a location to save it to. Creating a new directory is recommended for this analysis. Specify a name for the save file and click ‘save’.
 #. As the progress bar moves, the data is being written out to .xls (Windows) or .csv (Mac). When this is complete, open these files in Excel to inspect them. Note that there will be files for each image analysed plus the summary file that you named in step 23.
 #. Draw a pretty graph with the data. This is very satisfying.
 #. Try to open one of the very large images. It should handle two different scenarios here:
