@@ -12,12 +12,13 @@ UpgradeCheck
      Do not use any website to check you IP address as this may give you
      incorrect result.
 
-   - Unix use: ``$ /sbin/ifconfig``
-   - Mac alternatively go to ``Apple / System Preferences / Network`` and find 
+   - on UNIX, use: ``$ /sbin/ifconfig``
+   - on Mac OS X, alternatively go to
+     :menuselection:`Apple -> System Preferences -> Network` and find the
      active connection
-   - Windows open ``CMD (Command Prompt)``::
+   - on Windows, open the ``CMD (Command Prompt)`` and type::
 
-       C:\>ipconfig
+       C:\> ipconfig
 
 #. Go to http://downloads.openmicroscopy.org/omero/, choose appropriate version and download the packages. 
 
@@ -53,9 +54,7 @@ UpgradeCheck
 
 #. |C| if start up was registered in Feedback Database using the following query:
 
-   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value
-
-   ::
+   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value::
 
      SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
      FROM registry_hit 
