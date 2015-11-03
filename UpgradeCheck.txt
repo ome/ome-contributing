@@ -8,14 +8,14 @@ UpgradeCheck
 
 #. Write down your IP address 
 
-  .. note::
-    Do not use any website to check you IP address as this may give you incorect result.
+   .. note::
+     Do not use any website to check you IP address as this may give you
+     incorrect result.
 
-  - Unix use: ``$ /sbin/ifconfig``
-  - Mac alternatively go to ``Apple / System Preferences / Network`` and find active connection
-  - Windows open ``CMD (Command Prompt)``
-
-    ::
+   - Unix use: ``$ /sbin/ifconfig``
+   - Mac alternatively go to ``Apple / System Preferences / Network`` and find 
+     active connection
+   - Windows open ``CMD (Command Prompt)``::
 
        C:\>ipconfig
 
@@ -24,45 +24,38 @@ UpgradeCheck
 #. Connect to Feedback Database ``psql -h pg-slave.openmicroscopy.org -U feedback feedback``
 
    .. note::
-     This is replicated production database in read-only mode. You have only permission to read from the database.
+     This is a replicated production database in read-only mode. You have only permission to read from the database.
 
 #. Test client:
 
-  - Insight/Importer/Web: Open client and log in to the given server.
-  - Server: Start up OMERO.server
-  - CMD: Log in using command line
-
-    ::
+   - Insight/Importer/Web: Open client and log in to the given server.
+   - Server: Start up OMERO.server
+   - CMD: Log in using command line::
 
        $ bin/omero login
 
-  - Diagnostics:
-
-    ::
+   - Diagnostics::
 
        $ bin/omero admin diagnostics
 
-  - Insight.IJ:
+   - Insight.IJ:
 
-    - Copy appropriate plugins
-    - Open ImageJ
-    - Connect to OMERO and log in
-    - Make sure there was **only ONE** hit recorded
-    - Close Insight
-    - Connect to OMERO (you will be connected automatically)
-    - Close Insight and ImageJ
-    - Make sure there was **only ONE** hit recorded
+     - Copy appropriate plugins
+     - Open ImageJ
+     - Connect to OMERO and log in
+     - Make sure there was **only ONE** hit recorded
+     - Close Insight
+     - Connect to OMERO (you will be connected automatically)
+     - Close Insight and ImageJ
+     - Make sure there was **only ONE** hit recorded
 
-  - MatLab is not supported
+   - MatLab is not supported
 
 #. |C| if start up was registered in Feedback Database using the following query:
 
-  **Repet the following steps for each client**
+   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value
 
-  .. note::
-      replace YOUR_IP with the correct value
-
-  ::
+   ::
 
      SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
      FROM registry_hit 
@@ -71,9 +64,7 @@ UpgradeCheck
      WHERE registry_ip.ip = 'YOUR_IP'
      ORDER BY registry_hit.id DESC LIMIT 5;
 
-  You should see results like:
-
-  ::
+   You should see results like::
 
            ip       |         creation_date         |   agent_name   | id 
      ---------------+-------------------------------+----------------+----
