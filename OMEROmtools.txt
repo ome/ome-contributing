@@ -31,16 +31,16 @@ BoxIt Feature
        090829_HeLa_siCTL_coilin_ATUB01_03_R3D_D3D
 
 #.  Ensure the username, password and server address are entered into the text boxes
-#.  Click on the “Box It” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step 1.
-#.  The main application window should now be displayed. From the file menu choose “Open Image…” or press ctrl+O/cmd+O
-#.  In the drop-down boxes, select the project and dataset used in step 1 and open the first image. An image of DAPI stained nuclei should be visible. The “Next Image” button should be enabled and the “Previous Image” button should be disabled.
-#.  Click the ‘create ROI’ button (white box on a red background) and click/drag to select a region around one of the nuclei. The application will now download the z-stack.
+#.  Click on the `Box It` button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step 1.
+#.  The main application window should now be displayed. From the file menu choose `Open Image…` or press ctrl+O/cmd+O
+#.  In the drop-down boxes, select the project and dataset used in step 1 and open the first image. An image of DAPI stained nuclei should be visible. The `Next Image` button should be enabled and the `Previous Image` button should be disabled.
+#.  Click the `create ROI` button (white box on a red background) and click/drag to select a region around one of the nuclei. The application will now download the z-stack.
 #.  If multiple objects were detected a dialogue will appear asking you to choose an object. In this window click on the cell that you intended to capture in the ROI.
 #.  Repeat steps 6 and 7 for a few more cells.
-#.  From the File menu click “Save ROIs” or press ctrl+S/cmd+S.
-#.  Click on the “Next Image” button. Verify that image 2 loads.
+#.  From the `File` menu click `Save ROIs` or press ctrl+S/cmd+S.
+#.  Click on the `Next Image` button. Verify that image 2 loads.
 #.  Repeat steps 6 to 9 for this image.
-#.  Click on the “Next Image” button. Image 3 should load and the “Next Image” button should now be disabled.
+#.  Click on the `Next Image` button. Image 3 should load and the `Next Image` button should now be disabled.
 #.  Exit the application by closing the window. You should be returned to the main menu window.
 #.  Open these images in Insight and verify that the ROIs exist.
 
@@ -53,18 +53,18 @@ Testing EventTimer
        RPE1-CAG_Trans_01_02_R3D
        
 
-#.	In insight open each of the new images and create some rectangular ROIs that are propagated over some time points. The time points for an ROI should be consecutive, without gaps.
+#.	In Insight open each of the new images and create some rectangular ROIs that are propagated over some time points. The time points for an ROI should be consecutive, without gaps.
 #.	Open mtools and ensure the username, password and server address are entered into the text boxes.
-#.	Click on the “Event Timer” button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
-#.	The main application window should now be displayed. Press the “Add/Remove Datasets” button and in the dialogue that appears select the project and dataset containing the images from step 1. Press the “+” button to add this dataset to the analysis queue and press “ok” to return to the main window.
-#.	Check the box to “Save masks” and accept the warning about the time it takes to process.
+#.	Click on the `Event Timer` button to log in to the server and open the tool. In the dialogue that pops up choose the group that contains the images imported in step1.
+#.	The main application window should now be displayed. Press the `Add/Remove Datasets` button and in the dialogue that appears select the project and dataset containing the images from step 1. Press the `+` button to add this dataset to the analysis queue and press `OK` to return to the main window.
+#.	Check the box to `Save masks` and accept the warning about the time it takes to process.
 #.	Add a number of frames to the start and end of each ROI by entering a number in the related text boxes.
-#.	Press “Begin Analysis” and look for the progress bar moving as the mask images are uploaded to the server.
+#.	Press `Begin Analysis` and look for the progress bar moving as the mask images are uploaded to the server.
 #.	Once analysis is complete a save file dialogue will appear. Save the results spreadsheet/.csv to a convenient location.
 #.	The application can now be closed.
 
 
-#.  In insight, check for the masks images::
+#.  In Insight, check for the masks images::
 
        RPE1-CAG_Trans_01_01_R3D_masks
        RPE1-CAG_Trans_01_02_R3D_masks
@@ -77,4 +77,41 @@ Testing EventTimer
     - |C| that the number is present in the time points that match those of the ROIs in the original image. 
     - |C| that the numbers are not present in time points before/after the ROI. 
     - |C| that the correct number of frames has been added to the start/end of the events, as specified in step 7.
+
+
+Testing Label Images 
+====================
+
+#.  Open mtools and ensure the username, password and server address are entered into the text boxes.
+#.  Click on the `Label Images` button to log in to the server and open the tool. In the dialogue that pops up choose a group that contains images of various sizes.
+#.  In the main application window, select `File` -> `Open Image` and browse to an image up to 1024 x 1024 in size that has multiple z-sections and/or time points.
+#.  Click `Add label` and enter some text for the new label. Choose a colour from the drop-down list. Click `OK`.
+#.  Repeat step for a few times, varying the text and colour chosen.
+#.  Inspect the drop-down list of labels you have created. Delete one of the labels and check that the drop-down list updated correctly.
+#.  Click the `Create point` button (cross-hairs) and place a few points on the image. 
+#.  Click the `Select point` button (arrow) and select a point. The point should turn white.
+#.  Select a few more points and check only the selected point is white.
+#.  Delete some of the points: select one and hit the `Delete selected point` button, or press `Del` on the keyboard.
+#.  Add points from the various labels you have created to various z-sections/time points of the image. From the View menu test the `Flatten points in Z/T` options.
+#.  Click the `Zoom in` button (+ magnifying glass) and click on the image to zoom in to that region. Do this again to zoom in further.
+#.  Click the `Zoom out` button (- magnifying glass) to zoom right out to see the whole image again.
+#.  Play with adding/selecting/deleting points whilst zoomed in at the two zoom levels on various z-sections/time points.
+#.  From the `File` menu, select `Save Points` to save the points to a location on your computer. Note the image name should be automatically filled out as the name of the file.
+#.  From the `File` menu, select `Save Label Definitions` to save the label definitions to a location on your computer.
+#.  Add some more labels to your drop-down list (step 4).
+#.  From the `File` menu, choose to `Open Label Definitions`. Observe the question dialogue that appears, and select to continue. Browse to and select the labels definition file saved in step 16.
+#. Inspect the labels drop-down to confirm that the labels are as they were when you saved them in step 16.
+
+#.  Repeat the opening and creation of points with three more images, one image at a time, and each time save the points to your computer. 
+#.  From the `Analysis` menu, choose `Batch analysis`. In the text box make up a name for an experimental condition (e.g. siCtrl). Click `Add Points Files` and browse to and select two of the points files saved earlier. |C| that this condition appears in the list box.
+#.  Enter a second experimental condition (e.g. siRNA), click `Add Points Files` and browse to and select the other two points files created earlier. |C| that this condition appears in the list box.
+#.  Click `Analyse` and in the dialogue that appears select a location to save it to. Creating a new directory is recommended for this analysis. Specify a name for the save file and click `Save`.
+#.  As the progress bar moves, the data is being written out to .xls (Windows) or .csv (Mac). When this is complete, open these files in Excel to inspect them. Note that there will be files for each image analysed plus the summary file that you named in step 23.
+#.  Draw a pretty graph with the data. This is very satisfying.
+#.  Try to open one of the very large images. It should handle two different scenarios here:
+
+    - A large image that has been imported but not yet viewed in Insight/web (i.e. no rendering settings exist yet)
+    - A pyramidal image that will take a long time to download.
+
+Please investigate whether these scenarios play out correctly. Note that it may take a LONG time for a very large image to appear, so don’t assume too quickly that it has crashed.
 
