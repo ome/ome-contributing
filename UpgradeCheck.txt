@@ -27,30 +27,85 @@ UpgradeCheck
    .. note::
      This is a replicated production database in read-only mode. You have only permission to read from the database.
 
-#. Test client:
+#. Test the various clients:
 
-   - Insight/Importer/Web: Open client and log in to the given server.
-   - Server: Start up OMERO.server
-   - CMD: Log in using command line::
+   .. list-table::
+     :widths: 10,90
 
-       $ bin/omero login
+     *
+       - Agent
+       - Testing scenario
 
-   - Diagnostics::
+     *
+       - OMERO.importer
+       - Open the OMERO.importer client and log in to the given server
 
-       $ bin/omero admin diagnostics
+     *
+       - OMERO.insight
+       - Open the OMERO.insight client and log in to the given server
 
-   - Insight.IJ:
+     *
+       - OMERO.editor
+       - Open the OMERO.editor client and log in to the given server
 
-     - Copy appropriate plugins
-     - Open ImageJ
-     - Connect to OMERO and log in
-     - Make sure there was **only ONE** hit recorded
-     - Close Insight
-     - Connect to OMERO (you will be connected automatically)
-     - Close Insight and ImageJ
-     - Make sure there was **only ONE** hit recorded
+     *
+       - OMERO.fs
+       -
 
-   - MatLab is not supported
+     *
+       - OMERO.web
+       - Open the OMERO.web client and log in to the given server
+
+     *
+       - OMERO.server
+       - Start the OMERO.server ``bin/omero admin start``
+
+     *
+       - OMERO.ij
+       -
+
+     *
+       - OMERO.diagnostics
+       - Run ``bin/omero admin diagnostics``
+
+     *
+       - OMERO.shell
+       - Run ``bin/omero shell``
+
+     *
+       - OMERO.importer-cli
+       -
+
+     *
+       - OMERO.imagej
+       -
+
+         - Copy appropriate plugins
+         - Open ImageJ
+         - Connect to OMERO and log in
+         - Make sure there was **only ONE** hit recorded
+         - Close Insight
+         - Connect to OMERO (you will be connected automatically)
+         - Close Insight and ImageJ
+         - Make sure there was **only ONE** hit recorded
+
+     *
+       - OMERO.dropbox
+       -
+
+     *
+       - OMERO.bioformats
+       - Downloads the Bio-Formats command-line tools and run
+         ``showinf -nopix test.fake``
+
+     *
+       - OMERO.test
+       - Run ``bin/omero admin checkupgrade`` (5.2.0 and above)
+
+     *
+       - OMERO.matlab
+       - N/A
+
 
 #. |C| if start up was registered in Feedback Database using the following query:
 
