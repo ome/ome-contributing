@@ -14,7 +14,7 @@ Share
 
 #. Log in as ``share-1`` and in ``group-1`` select 2 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
 
-#. |C| that a dialog appears [:ref:`Share002`]. Again, select some images in the tree and use the right-clcik context menu and choose the ``Create share`` menu item. |C| that the same dialog appears as when you used the "Globe" icon [:ref:`Share002`]. Enter the Message. Choose an expiry date one day after creation [:ref:`Share003`]. Start typing ``sha...`` into the "Members" box and |C| that the filter function offers you sub-selection of users starting with ``sha``. Create a share sharing your images with ``share-2``. 
+#. |C| that a dialog appears [:ref:`Share002`]. Again, select some images in the tree and use the right-click context menu and choose the ``Create share`` menu item. |C| that the same dialog appears as when you used the "Globe" icon [:ref:`Share002`]. Enter the Message. Choose an expiry date one day after creation [:ref:`Share003`]. Start typing ``sha...`` into the "Members" box and |C| that the filter function offers you sub-selection of users starting with ``sha``. Create a share sharing your images with ``share-2``. 
 
    - |C| that users on the share (``share-2`` and any other users you have chosen as members of the share) get e-mail with the share Message and link bringing them to the ``Shares`` tab
 
