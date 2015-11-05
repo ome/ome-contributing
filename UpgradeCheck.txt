@@ -6,6 +6,53 @@ UpgradeCheck
 
 **Purpose of the test** is to check if UpgradeCheck hit is registered.
 
+#. For client upgrade tests, write down your IP address 
+
+   .. note::
+     Do not use any website to check you IP address as this may give you
+     incorrect result.
+
+   - on UNIX, use: ``$ /sbin/ifconfig``
+   - on Mac OS X, alternatively go to
+     :menuselection:`Apple -> System Preferences -> Network` and find the
+     active connection
+   - on Windows, open the ``CMD (Command Prompt)`` and type::
+
+       C:\> ipconfig
+
+#. For OMERO.server and OMERO.web tests, use the IP address of the node where 
+   the server or the Web is deployed.
+
+#. To check the hits, first connect to feedback database
+
+    - if you are testing the production registry, use the replica of the
+      feedback database which is in read-only mode::
+
+      psql -h pg-slave.openmicroscopy.org -U feedback feedback
+
+    - if you are testing the staging registry database::
+ 
+      psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
+
+#. |C| if the hit was registered in the database using the following query:
+
+   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value::
+
+     SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
+     FROM registry_hit 
+     LEFT OUTER JOIN registry_ip ON ( registry_hit.ip_id = registry_ip.id )
+     LEFT OUTER JOIN registry_agent ON ( registry_hit.agent_id = registry_agent.id )
+     WHERE registry_ip.ip = 'YOUR_IP'
+     ORDER BY registry_hit.id DESC LIMIT 5;
+
+   You should see results like::
+
+           ip       |         creation_date         |   agent_name   | id 
+     ---------------+-------------------------------+----------------+----
+      134.36.162.28 | 2015-09-24 09:45:14.112992+01 | OMERO.ij       | 10
+      134.36.162.28 | 2015-09-23 11:05:35.554009+01 | OMERO.importer |  1
+      134.36.162.28 | 2015-09-23 11:03:10.234792+01 | OMERO.insight  |  2
+      134.36.162.28 | 2015-09-23 09:52:05.933021+01 | OMERO.web      |  5
 
 #. Download the appropriate clients:
 
@@ -97,53 +144,4 @@ UpgradeCheck
      *
        - OMERO.matlab
        - N/A
-
-#. Connect to feedback database
-
-   - if you are testing the production registry, use the replica of the
-     feedback database which is in read-only mode::
-
-       psql -h pg-slave.openmicroscopy.org -U feedback feedback
-
-   - if you are testing the staging registry database::
-
-      psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
-
-
-#. For client upgrade tests, write down your IP address 
-
-   .. note::
-     Do not use any website to check you IP address as this may give you
-     incorrect result.
-
-   - on UNIX, use: ``$ /sbin/ifconfig``
-   - on Mac OS X, alternatively go to
-     :menuselection:`Apple -> System Preferences -> Network` and find the
-     active connection
-   - on Windows, open the ``CMD (Command Prompt)`` and type::
-
-       C:\> ipconfig
-
-#. For OMERO.server and OMERO.web tests, use the IP address of the node where 
-   the server or the Web is deployed.
-
-#. |C| if start up was registered in Feedback Database using the following query:
-
-   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value::
-
-     SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
-     FROM registry_hit 
-     LEFT OUTER JOIN registry_ip ON ( registry_hit.ip_id = registry_ip.id )
-     LEFT OUTER JOIN registry_agent ON ( registry_hit.agent_id = registry_agent.id )
-     WHERE registry_ip.ip = 'YOUR_IP'
-     ORDER BY registry_hit.id DESC LIMIT 5;
-
-   You should see results like::
-
-           ip       |         creation_date         |   agent_name   | id 
-     ---------------+-------------------------------+----------------+----
-      134.36.162.28 | 2015-09-24 09:45:14.112992+01 | OMERO.ij       | 10
-      134.36.162.28 | 2015-09-23 11:05:35.554009+01 | OMERO.importer |  1
-      134.36.162.28 | 2015-09-23 11:03:10.234792+01 | OMERO.insight  |  2
-      134.36.162.28 | 2015-09-23 09:52:05.933021+01 | OMERO.web      |  5
 
