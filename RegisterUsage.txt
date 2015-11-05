@@ -1,10 +1,10 @@
-UpgradeCheck
-============
+Registering the usage
+=====================
 
 
 **To test in**: Web, Insight, IJ plugin, Importer, MatLab, Bio-Formats
 
-**Purpose of the test** is to check if UpgradeCheck hit is registered.
+**Purpose of the test** is to check if ``UpgradeCheck`` hit is registered, this means the usage monitoring of our products is working as expected.
 
 #. For client upgrade tests, write down your IP address 
 

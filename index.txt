@@ -55,6 +55,7 @@ Testing scenarios
    OMEROsearcher
    Pixelservice
    Qa
+   RegisterUsage
    RenderInsight
    RenderWeb
    Resetpwd
@@ -69,7 +70,6 @@ Testing scenarios
    ScreenPlateWell
    StressPerformance
    UserGroupManipulation
-   UpgradeCheck
    UTrack
    ViewImageWithPerm
    ViewBigImage
