@@ -26,7 +26,7 @@ Registering the usage
 #. To check the hits, first connect to feedback database
 
    - if you are testing the production registry, use the replica of the
-     feedback database which is in read-only model::
+     feedback database which is in read-only mode::
 
        psql -h pg-slave.openmicroscopy.org -U feedback feedback
 
@@ -36,7 +36,7 @@ Registering the usage
 
 #. |C| if the hit was registered in the database using the following query:
 
-   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value::
+   **Repeat the following steps for each client** (see step 6. for the precise list of clients and workflows specifying how to score a hit in the registry), replacing `YOUR_IP` with the correct value::
 
      SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
      FROM registry_hit 
