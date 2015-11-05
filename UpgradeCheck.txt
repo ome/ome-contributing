@@ -6,26 +6,18 @@ UpgradeCheck
 
 **Purpose of the test** is to check if UpgradeCheck hit is registered.
 
-#. Write down your IP address 
 
-   .. note::
-     Do not use any website to check you IP address as this may give you
-     incorrect result.
+#. Download the appropriate clients:
 
-   - on UNIX, use: ``$ /sbin/ifconfig``
-   - on Mac OS X, alternatively go to
-     :menuselection:`Apple -> System Preferences -> Network` and find the
-     active connection
-   - on Windows, open the ``CMD (Command Prompt)`` and type::
+   - to test the production registry application, go to
+     http://downloads.openmicroscopy.org/omero/, choose appropriate version
+     and download the packages.
 
-       C:\> ipconfig
-
-#. Go to http://downloads.openmicroscopy.org/omero/, choose appropriate version and download the packages. 
-
-#. Connect to Feedback Database ``psql -h pg-slave.openmicroscopy.org -U feedback feedback``
-
-   .. note::
-     This is a replicated production database in read-only mode. You have only permission to read from the database.
+   - to test the staging registry application, download the merge clients from
+     :jenkinsjob:`OMERO-DEV-merge-build` or
+     :jenkinsjob:`BIOFORMATS-DEV-merge-build`.
+     The CI :jenkinsjob:`OMERO-DEV-merge-deploy` server should also be
+     configured to point the staging registry.
 
 #. Test the various clients:
 
@@ -106,6 +98,34 @@ UpgradeCheck
        - OMERO.matlab
        - N/A
 
+#. Connect to feedback database
+
+   - if you are testing the production registry, use the replica of the
+     feedback database which is in read-only mode::
+
+       psql -h pg-slave.openmicroscopy.org -U feedback feedback
+
+   - if you are testing the staging registry database::
+
+      psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
+
+
+#. For client upgrade tests, write down your IP address 
+
+   .. note::
+     Do not use any website to check you IP address as this may give you
+     incorrect result.
+
+   - on UNIX, use: ``$ /sbin/ifconfig``
+   - on Mac OS X, alternatively go to
+     :menuselection:`Apple -> System Preferences -> Network` and find the
+     active connection
+   - on Windows, open the ``CMD (Command Prompt)`` and type::
+
+       C:\> ipconfig
+
+#. For OMERO.server and OMERO.web tests, use the IP address of the node where 
+   the server or the Web is deployed.
 
 #. |C| if start up was registered in Feedback Database using the following query:
 
