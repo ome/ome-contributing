@@ -119,14 +119,19 @@ UpgradeCheck
        - OMERO.imagej
        -
 
-         - Copy appropriate plugins
+         - Copy the appropriate :file:`insight-ij` plugin and the appropriate
+           :file:`bioformats_package.jar` into the Plugins folder of your
+           ImageJ
          - Open ImageJ
          - Connect to OMERO and log in
-         - Make sure there was **only ONE** hit recorded
-         - Close Insight
+         - Make sure there was **only ONE** hit recorded (see the steps 1. -
+           2. above for how to do it)
+         - Close the :file:`insight-ij` plugin interface running under the
+           ImageJ, but do not close ImageJ itself
          - Connect to OMERO (you will be connected automatically)
-         - Close Insight and ImageJ
-         - Make sure there was **only ONE** hit recorded
+         - Close the :file:`insight-ij` plugin and ImageJ
+         - Make sure there was **only ONE** hit recorded (see the steps 1. -
+           2. above for how to do it)
 
      *
        - OMERO.dropbox
