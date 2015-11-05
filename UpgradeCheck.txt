@@ -26,13 +26,13 @@ UpgradeCheck
 #. To check the hits, first connect to feedback database
 
     - if you are testing the production registry, use the replica of the
-      feedback database which is in read-only mode::
+      feedback database which is in read-only model:
 
-      psql -h pg-slave.openmicroscopy.org -U feedback feedback
+        psql -h pg-slave.openmicroscopy.org -U feedback feedback
 
     - if you are testing the staging registry database::
  
-      psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
+        psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
 
 #. |C| if the hit was registered in the database using the following query:
 
