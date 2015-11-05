@@ -6,63 +6,37 @@ UpgradeCheck
 
 **Purpose of the test** is to check if UpgradeCheck hit is registered.
 
-#. Write down your IP address 
-
-  .. note::
-    Do not use any website to check you IP address as this may give you incorect result.
-
-  - Unix use: ``$ /sbin/ifconfig``
-  - Mac alternatively go to ``Apple / System Preferences / Network`` and find active connection
-  - Windows open ``CMD (Command Prompt)``
-
-    ::
-
-       C:\>ipconfig
-
-#. Go to http://downloads.openmicroscopy.org/omero/, choose appropriate version and download the packages. 
-
-#. Connect to Feedback Database ``psql -h pg-slave.openmicroscopy.org -U feedback feedback``
+#. For client upgrade tests, write down your IP address 
 
    .. note::
-     This is replicated production database in read-only mode. You have only permission to read from the database.
+     Do not use any website to check you IP address as this may give you
+     incorrect result.
 
-#. Test client:
+   - on UNIX, use: ``$ /sbin/ifconfig``
+   - on Mac OS X, alternatively go to
+     :menuselection:`Apple -> System Preferences -> Network` and find the
+     active connection
+   - on Windows, open the ``CMD (Command Prompt)`` and type::
 
-  - Insight/Importer/Web: Open client and log in to the given server.
-  - Server: Start up OMERO.server
-  - CMD: Log in using command line
+       C:\> ipconfig
 
-    ::
+#. For OMERO.server and OMERO.web tests, use the IP address of the node where 
+   the server or the Web is deployed.
 
-       $ bin/omero login
+#. To check the hits, first connect to feedback database
 
-  - Diagnostics:
+   - if you are testing the production registry, use the replica of the
+     feedback database which is in read-only model::
 
-    ::
+       psql -h pg-slave.openmicroscopy.org -U feedback feedback
 
-       $ bin/omero admin diagnostics
+   - if you are testing the staging registry database::
+ 
+       psql -h ome-web-staging.openmicroscopy.org -U feedback feedback
 
-  - Insight.IJ:
+#. |C| if the hit was registered in the database using the following query:
 
-    - Copy appropriate plugins
-    - Open ImageJ
-    - Connect to OMERO and log in
-    - Make sure there was **only ONE** hit recorded
-    - Close Insight
-    - Connect to OMERO (you will be connected automatically)
-    - Close Insight and ImageJ
-    - Make sure there was **only ONE** hit recorded
-
-  - MatLab is not supported
-
-#. |C| if start up was registered in Feedback Database using the following query:
-
-  **Repet the following steps for each client**
-
-  .. note::
-      replace YOUR_IP with the correct value
-
-  ::
+   **Repeat the following steps for each client**, replacing `YOUR_IP` with the correct value::
 
      SELECT registry_ip.ip, registry_hit.creation_date, registry_agent.agent_name, registry_agent.id
      FROM registry_hit 
@@ -71,9 +45,7 @@ UpgradeCheck
      WHERE registry_ip.ip = 'YOUR_IP'
      ORDER BY registry_hit.id DESC LIMIT 5;
 
-  You should see results like:
-
-  ::
+   You should see results like::
 
            ip       |         creation_date         |   agent_name   | id 
      ---------------+-------------------------------+----------------+----
@@ -81,4 +53,100 @@ UpgradeCheck
       134.36.162.28 | 2015-09-23 11:05:35.554009+01 | OMERO.importer |  1
       134.36.162.28 | 2015-09-23 11:03:10.234792+01 | OMERO.insight  |  2
       134.36.162.28 | 2015-09-23 09:52:05.933021+01 | OMERO.web      |  5
+
+#. Download the appropriate clients:
+
+   - to test the production registry application, go to
+     http://downloads.openmicroscopy.org/omero/, choose appropriate version
+     and download the packages.
+
+   - to test the staging registry application, download the merge clients from
+     :jenkinsjob:`OMERO-DEV-merge-build` or
+     :jenkinsjob:`BIOFORMATS-DEV-merge-build`.
+     The CI :jenkinsjob:`OMERO-DEV-merge-deploy` server should also be
+     configured to point the staging registry.
+
+#. Test the various clients:
+
+   .. list-table::
+     :widths: 10,90
+
+     *
+       - Agent
+       - Testing scenario
+
+     *
+       - OMERO.importer
+       - Open the OMERO.importer client and log in to the given server
+
+     *
+       - OMERO.insight
+       - Open the OMERO.insight client and log in to the given server
+
+     *
+       - OMERO.editor
+       - Open the OMERO.editor client and log in to the given server
+
+     *
+       - OMERO.fs
+       -
+
+     *
+       - OMERO.web
+       - Open the OMERO.web client and log in to the given server
+
+     *
+       - OMERO.server
+       - Start the OMERO.server ``bin/omero admin start``
+
+     *
+       - OMERO.ij
+       -
+
+     *
+       - OMERO.diagnostics
+       - Run ``bin/omero admin diagnostics``
+
+     *
+       - OMERO.shell
+       - Run ``bin/omero shell``
+
+     *
+       - OMERO.importer-cli
+       -
+
+     *
+       - OMERO.imagej
+       -
+
+         - Copy the appropriate :file:`insight-ij` plugin and the appropriate
+           :file:`bioformats_package.jar` into the Plugins folder of your
+           ImageJ
+         - Open ImageJ
+         - Connect to OMERO and log in
+         - Make sure there was **only ONE** hit recorded (see the steps 1. -
+           2. above for how to do it)
+         - Close the :file:`insight-ij` plugin interface running under the
+           ImageJ, but do not close ImageJ itself
+         - Connect to OMERO (you will be connected automatically)
+         - Close the :file:`insight-ij` plugin and ImageJ
+         - Make sure there was **only ONE** hit recorded (see the steps 1. -
+           2. above for how to do it)
+
+     *
+       - OMERO.dropbox
+       -
+
+     *
+       - OMERO.bioformats
+       - Downloads the Bio-Formats command-line tools and run
+         ``showinf -nopix test.fake``
+
+     *
+       - OMERO.test
+       - Run ``bin/omero admin checkupgrade`` (5.2.0 and above)
+
+     *
+       - OMERO.matlab
+       - N/A
 
