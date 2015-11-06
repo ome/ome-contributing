@@ -113,7 +113,7 @@ Registering the usage
 
      *
        - OMERO.importer-cli
-       -
+       - Run ``bin/omero import`` 
 
      *
        - OMERO.imagej
@@ -135,11 +135,11 @@ Registering the usage
 
      *
        - OMERO.dropbox
-       -
+       - Go to the server and copy file to Dropbox folder ``path/OMERO/DropBox/user/``. Once the file is imported and appear in OMERO there should be hit. 
 
      *
        - OMERO.bioformats
-       - Downloads the Bio-Formats command-line tools and run
+       - Download the Bio-Formats command-line tools and run
          ``showinf -nopix test.fake``
 
      *
