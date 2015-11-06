@@ -68,6 +68,8 @@ Registering the usage
 
 #. Test the various clients:
 
+   Note: If asked ot ssh into a server, you might encounter a ``(No module named Ice)`` problem when executing the commands. To alleviate this, run ``eval $(bash /home/hudson/ice/ice-multi-config.sh ice35)`` first.
+
    .. list-table::
      :widths: 10,90
 
