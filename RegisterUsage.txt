@@ -113,7 +113,7 @@ Registering the usage
 
      *
        - OMERO.importer-cli
-       - Run ``bin/omero import`` 
+       - Run ``bin/omero import`` on the server and import a file.  Once the file is imported and appear in OMERO there should be hit. 
 
      *
        - OMERO.imagej
