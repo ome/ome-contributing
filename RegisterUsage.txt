@@ -132,8 +132,8 @@ Registering the usage
            ImageJ, but do not close ImageJ itself
          - Connect to OMERO (you will be connected automatically)
          - Close the :file:`insight-ij` plugin and ImageJ
-         - Make sure there was **only ONE** hit recorded (see the steps 1. -
-           2. above for how to do it)
+         - Make sure there was **only ONE more hit** recorded (see the steps 1. -
+           2. above for how to do it). Summed up, from the OMERO.imagej testing you should score 2 hits.
 
      *
        - OMERO.dropbox
