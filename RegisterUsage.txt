@@ -12,7 +12,7 @@ Registering usage
      Do not use any website to check you IP address as this may give you
      incorrect result.
 
-   - on UNIX, use: ``$ /sbin/ifconfig``
+   - on UNIX, use: ``$ /sbin/ifconfig`` (Look for ``inet addr`` in the output, in case there are two addresses in the output, like on CI nodes, |C| BOTH, expecting the hits to come just from one of them)
    - on Mac OS X, alternatively go to
      :menuselection:`Apple -> System Preferences -> Network` and find the
      active connection
