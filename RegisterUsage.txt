@@ -1,5 +1,5 @@
 Registering usage
-=====================
+=================
 
 
 **To test in**: Web, Insight, IJ plugin, Importer, MatLab, Bio-Formats
@@ -115,7 +115,7 @@ Registering usage
 
      *
        - OMERO.importer-cli
-       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero import`` on the server and import a file.  Once the file is imported and appears in OMERO there should be hit. 
+       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero import`` on the server and import a file.  Once the file is imported and appears in OMERO there should be a hit. 
 
      *
        - OMERO.imagej
@@ -137,7 +137,7 @@ Registering usage
 
      *
        - OMERO.dropbox
-       - Go to the server and copy file to Dropbox folder ``/repositories/<server-name>/DropBox/user``. Once the file is imported and appears in OMERO there should be hit. 
+       - Go to the server and copy file to Dropbox folder ``/repositories/<server-name>/DropBox/user``. Once the file is imported and appears in OMERO there should be a hit. 
 
      *
        - OMERO.bioformats
