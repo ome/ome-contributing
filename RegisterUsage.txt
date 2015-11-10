@@ -1,4 +1,4 @@
-Registering the usage
+Registering usage
 =====================
 
 
@@ -99,7 +99,7 @@ Registering the usage
 
      *
        - OMERO.server
-       - ssh to the server. Got to ``/home/hudson/<server-name>/`` Start the OMERO.server ``bin/omero admin start``
+       - ssh to the server. Go to ``/home/hudson/<server-name>/`` Start the OMERO.server ``bin/omero admin start``
 
      *
        - OMERO.ij
@@ -107,15 +107,15 @@ Registering the usage
 
      *
        - OMERO.diagnostics
-       - ssh to the server. Got to ``/home/hudson/<server-name>/``. Run ``bin/omero admin diagnostics``
+       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero admin diagnostics``
 
      *
        - OMERO.shell
-       - ssh to the server. Got to ``/home/hudson/<server-name>/``. Run ``bin/omero shell``
+       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero shell``
 
      *
        - OMERO.importer-cli
-       - ssh to the server. Got to ``/home/hudson/<server-name>/``. Run ``bin/omero import`` on the server and import a file.  Once the file is imported and appear in OMERO there should be hit. 
+       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero import`` on the server and import a file.  Once the file is imported and appears in OMERO there should be hit. 
 
      *
        - OMERO.imagej
@@ -137,7 +137,7 @@ Registering the usage
 
      *
        - OMERO.dropbox
-       - Go to the server and copy file to Dropbox folder ``/repositories/<server-name>/DropBox/user``. Once the file is imported and appear in OMERO there should be hit. 
+       - Go to the server and copy file to Dropbox folder ``/repositories/<server-name>/DropBox/user``. Once the file is imported and appears in OMERO there should be hit. 
 
      *
        - OMERO.bioformats
@@ -146,7 +146,7 @@ Registering the usage
 
      *
        - OMERO.test
-       - ssh to the server. Got to ``/home/hudson/<server-name>/``. Run ``bin/omero admin checkupgrade`` (5.2.0 and above)
+       - ssh to the server. Go to ``/home/hudson/<server-name>/``. Run ``bin/omero admin checkupgrade`` (5.2.0 and above)
 
      *
        - OMERO.matlab
