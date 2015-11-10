@@ -137,7 +137,7 @@ Registering the usage
 
      *
        - OMERO.dropbox
-       - Go to the server and copy file to Dropbox folder ``path/OMERO/DropBox/user/``. Once the file is imported and appear in OMERO there should be hit. 
+       - Go to the server and copy file to Dropbox folder ``/repositories/<server-name>/DropBox/user``. Once the file is imported and appear in OMERO there should be hit. 
 
      *
        - OMERO.bioformats
