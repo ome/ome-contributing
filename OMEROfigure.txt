@@ -23,7 +23,7 @@ Saving files to OMERO
 
 **Test that saved figures are not lost**
 
-#. Go back to the OMERO.figure tab in your browser, answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
+#. Go to the OMERO.figure tab in your browser, answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up.
 
 #. Confirm by pressing ``Add images`` button.
 
@@ -268,13 +268,13 @@ Preview Tab - Zoom, pan & rotation
    - |C| that when dragging ends, the selected panel updates too.
    - |C| that Zooming back out to 100% resets the panning to zero offset.
 
-#. Test cropping to region. Select one or more panels and click the crop icon beside zoom slider.
+#. Test cropping to region. Select one or more panels and click the crop button below zoom slider.
 
    - |C| that a dialog opens showing image at current Z/T.
    - |C| that a region can be drawn on the image by click & drag.
    - |C| that the region can be manipulated by dragging corner or side handles or the whole region.
-   - |C| that clicking 'OK' crops the selected panels to the chosen region, keeping within existing boundaries.
-   - |C| that clicking 'Reset Zoom and Shape' button (to the right of 'crop' button) restores the shape of the panel to the shape of the image and sets Zoom at 100%.
+   - |C| that clicking OK crops the selected panels to the chosen region, keeping within existing boundaries.
+   - |C| that clicking Reset button restores the shape of the panel to the shape of the image and sets Zoom at 100%.
 
 #. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
 
