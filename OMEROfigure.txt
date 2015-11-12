@@ -29,11 +29,7 @@ OMERO.figure
            Table of the contributing documentation listing the servers and
            their corresponding deployment job.
 
-#. Go to \https://<servername>.openmicroscopy.org/merge/figure/ and connect to
-the appropriate server as indicated in the spreadsheet. Also, start an
-OMERO.web instance in another tab of your browser by pasting in
-\https://<servername>.openmicroscopy.org/merge/webclient. Login to the
-webclient in either OMERO.web or the OMERO.figure tab.
+#. Go to \https://<servername>.openmicroscopy.org/merge/webclient/,login to the webclient then click on Figure in top toolbar to open OMERO.figure in another tab.
 
 #. This first series of tests checks that saved and unsaved changes are not lost inadvertantly. Creating unsaved figure can be easily done by adding a single image to a new figure (note an image ID from the webclient). If you need to make more changes, simply copy, paste and move or edit the panel.
 
