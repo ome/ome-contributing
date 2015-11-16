@@ -107,11 +107,11 @@ Testing Label Images
 #.  Enter a second experimental condition (e.g. siRNA), click `Add Points Files` and browse to and select the other two points files created earlier. |C| that this condition appears in the list box.
 #.  Click `Analyse` and in the dialogue that appears select a location to save it to. Creating a new directory is recommended for this analysis. Specify a name for the save file and click `Save`.
 #.  As the progress bar moves, the data is being written out to .xls (Windows) or .csv (Mac). When this is complete, open these files in Excel to inspect them. Note that there will be files for each image analysed plus the summary file that you named in step 23.
-#.  Draw a pretty graph with the data. This is very satisfying.
+#.  Select the ``Analyse the points on current image`` menu item under ``Analysis``. |C| that the output is one (csv or xls) file corresponding to the image which was at display at the time of execution of the command.
 #.  Try to open one of the very large images. It should handle two different scenarios here:
 
     - A large image that has been imported but not yet viewed in Insight/web (i.e. no rendering settings exist yet)
     - A pyramidal image that will take a long time to download.
 
-Please investigate whether these scenarios play out correctly. Note that it may take a LONG time for a very large image to appear, so don’t assume too quickly that it has crashed.
+Please investigate whether these scenarios play out correctly (i.e. there is a warning asking you to open the non-renedered image in Insight or Web first). Note that it may take a LONG time for a very large image to appear, so don’t assume too quickly that it has crashed.
 
