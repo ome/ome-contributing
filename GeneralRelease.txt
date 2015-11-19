@@ -145,11 +145,7 @@ OMERO.matlab toolbox
 
 #. Install Matlab (development).
 
-#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  :omerodoc:`Matlab docs <developers/Matlab.html>` using the build indicated in the Standup Notes. Then, execute in Matlab:
-
-(``hostname``, ``username``, ``password`` and ``imageID`` needs to be substituted by valid values):
-
-::
+#. In order to be able to execute the testing commands in Matlab, perform the necessary steps in the workflow described in  :omerodoc:`Matlab docs <developers/Matlab.html>` using the build indicated in the Standup Notes. Then, execute in Matlab (``hostname``, ``username``, ``password`` and ``imageID`` needs to be substituted by valid values)::
 
     client = loadOmero(hostname);
     % to use a different port than the default one.
@@ -203,10 +199,11 @@ Bio-Formats MATLAB toolbox
 
    - |C| that the image opens as expected.
 
-#. Increase the logging level by opening :file:`bfopen` and replacing
-   ``loci.common.DebugTools.enableLogging('INFO');`` by
-   ``loci.common.DebugTools.enableLogging('DEBUG');``.
+#. Increase the logging level by opening :file:`bfopen` , find the following lines and replace the "INFO" with "DEBUG"::
 
+    % initialize logging
+    javaMethod('enableLogging', 'loci.common.DebugTools', 'INFO');
+   
 #. Reopen the image using the same commands as previously.
 
    - |C| that the amount of logging increases in the MATLAB command prompt.
