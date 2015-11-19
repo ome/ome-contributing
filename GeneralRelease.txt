@@ -203,9 +203,15 @@ Bio-Formats MATLAB toolbox
 
    - |C| that the image opens as expected.
 
-#. Increase the logging level by opening :file:`bfopen` and replacing
-   ``% initialize logging javaMethod('enableLogging', 'loci.common.DebugTools', 'INFO');`` by
-   ``% initialize logging javaMethod('enableLogging', 'loci.common.DebugTools', 'DEBUG');``.
+#. Increase the logging level by opening :file:`bfopen` , find the following lines and replace the "INFO" with "DEBUG"
+
+::
+
+   % initialize logging
+   javaMethod('enableLogging', 'loci.common.DebugTools', 'INFO');
+   
+  
+
 
 #. Reopen the image using the same commands as previously.
 
