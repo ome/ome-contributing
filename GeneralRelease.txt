@@ -26,6 +26,8 @@ OMERO.clients:
    - (all platforms) |C| that the application starts and you can log in.
    - (all platforms, Insight only) |C| that you can expand a dataset and open an image with multi-z (Choose one of the ``.dv`` images in datasets named like ``archived dv`` or ``non-archived dv`` - present in almost every user/group.)
    - (all platforms, Insight only) |C| that you can click onto the Projection tab in the opened image.
+   - (all platforms) |C| that you can execute any script.
+   - (all platforms) |C| that you can delete the image.
    
 
 
