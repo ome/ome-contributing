@@ -34,10 +34,14 @@ Virtual Microscope Testing
        ``Cache-Control: max-age=2592000``
 
     -  ``X-Proxy-Cache`` can show various status:
-        -  HIT = data loaded from cache
-        -  MISS = no data in cache, reload url
-        -  BYPASS = this url bypass cache
-        -  EXPIRED = cache expired, reload url
+
+        -  MISS – The response was not found in the cache and so was fetched from an origin server. The response might then have been cached.
+        -  BYPASS – The response was fetched from the origin server instead of served from the cache because the request matched a proxy_cache_bypass directive (see Can I Punch a Hole Through My Cache? below.) The response might then have been cached.
+        -  EXPIRED – The entry in the cache has expired. The response contains fresh content from the origin server.
+        -  STALE – The content is stale because the origin server is not responding correctly, and proxy_cache_use_stale was configured.
+        -  UPDATING – The content is stale because the entry is currently being updated in response to a previous request, and proxy_cache_use_stale updating is configured.
+        -  REVALIDATED – The proxy_cache_revalidate directive was enabled and NGINX verified that the current cached content was still valid (If-Modified-Since or If-None-Match).
+        -  HIT – The response contains valid, fresh content direct from the cache.
 
 #. Public gallery testing
     -  |C| in the top menu bar that you are not logged in as a Public User (in case you are logged in as yourself or other user, then just logout and navigate to the page again). Note that this is a known unrelated problem, just make sure you are logged in as Public User (see ticket <https://trac.openmicroscopy.org/ome/ticket/12991>).
