@@ -75,21 +75,22 @@ Virtual Microscope Testing
 
      
 
-#. Public gallery testing
+2. Public gallery testing
+
    - |C| in the top menu bar that you are not logged in as a Public User (in case you are logged in as yourself or other user, then just logout and navigate to the page again). Note that this is a known unrelated problem, just make sure you are logged in as Public User (see ticket <https://trac.openmicroscopy.org/ome/ticket/12991>).
-   - |C| if you see only 4 images in public examples.
+   - |C| that you see only 4 images in public examples.
    - Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
-#. General testing
+3. General testing
 
    -  Log in using your UoD LDAP credentials. The login name should be case insensitive. |C| that when you try various combinations of upper and lower case, you can still log in.
-   -  |C| if group/user menu display "All courses" and name of courses only.
+   -  |C| that group/user menu display "All courses" and name of courses only.
    -  Choose one of the courses from the list. Check if you ended up viewing data belonging to the user named as a course.
    -  Browse through each catalog and see if the slides' thumbnails load.
    -  Click on each slide and see if the metadata panels load. Please note that preview is turned off.
-   -  |C| if download button is restricted to Render as JPEG/PNG/TIFF only. Download raw data should be disabled.
-   -  |C| if you cannot delete tags.
-   -  |C| if you cannot download original data.
-   -  |C| if scripts are disabled and there is no script listed in Script menu. Note that Script button is still available in Metadata Panel but it should throw an exception.
+   -  |C| that download button is restricted to Render as JPEG/PNG/TIFF only. Download raw data should be disabled.
+   -  |C| that you cannot delete tags.
+   -  |C| that you cannot download original data.
+   -  |C| that scripts are disabled and there is no script listed in Script menu. Note that Script button is still available in Metadata Panel but it should throw an exception.
    -  Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
