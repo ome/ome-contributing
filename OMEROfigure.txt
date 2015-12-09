@@ -39,7 +39,9 @@ Saving files to OMERO
 
 **Test that saved figures are not lost**
 
-#. Go back to the OMERO.figure tab in your browser, answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up. 
+#. Copy some image URLs or the IDs in the webclient, then click onto Figure link. This will open OMERO.figure in a new tab.
+
+#. Answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up.
 
 #. Confirm by pressing ``Add images`` button.
 
@@ -284,13 +286,13 @@ Preview Tab - Zoom, pan & rotation
    - |C| that when dragging ends, the selected panel updates too.
    - |C| that Zooming back out to 100% resets the panning to zero offset.
 
-#. Test cropping to region. Select one or more panels and click the crop icon beside zoom slider.
+#. Test cropping to region. Select one or more panels and click the crop button below zoom slider.
 
    - |C| that a dialog opens showing image at current Z/T.
    - |C| that a region can be drawn on the image by click & drag.
    - |C| that the region can be manipulated by dragging corner or side handles or the whole region.
-   - |C| that clicking 'OK' crops the selected panels to the chosen region, keeping within existing boundaries.
-   - |C| that clicking 'Reset Zoom and Shape' button (to the right of 'crop' button) restores the shape of the panel to the shape of the image and sets Zoom at 100%.
+   - |C| that clicking OK crops the selected panels to the chosen region, keeping within existing boundaries.
+   - |C| that clicking Reset button restores the shape of the panel to the shape of the image and sets Zoom at 100%.
 
 #. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
 
@@ -392,6 +394,56 @@ Labels Tab
 
    - |C| that the PDF includes a note about the length of scalebars in the figure.
    - |C| that scalebar labels appear the same in the PDF as in the web figure.
+
+
+ROIs
+============================================================
+
+#. Test drawing of ROIs.
+
+   - |C| that ROI viewer is launched when the 'Draw' button is clicked.
+   - |C| that you can choose shape type with the toolbar buttons.
+   - |C| that you can draw a Rectangle, Ellipse, Line & Arrow.
+   - |C| that holding down Shift key while creating/updating shapes constrains shape to cicle, rectangle, or horizontal/vertical line.
+   - |C| that you can tweak the last-drawn shape while still adding more shapes (without switching to select mode).
+   - |C| that Select mode allows you to select single shapes with click, multiple shapes with drag.
+   - |C| that currently selected shape(s) color and line width are shown in toolbar (or defaults are chosen if not the same in all shapes).
+   - |C| that changing the color and line width updates the currently selected shapes.
+   - |C| that selected shapes can be copied, pasted & deleted using Edit menu or keyboard shortcuts.
+   - |C| that clicking OK closes the dialog and updates the figure with shapes.
+
+#. Copy & Paste ROIs.
+   - Draw some ROIs in the ROI dialog, OK to close.
+   - |C| that the number of ROIs in selected panels is shown at top of Labels tab.
+   - |C| that you can now copy all the ROIs on the panel with the Copy button.
+   - |C| that you can paste ROIs onto another panel (or panels).
+   - |C| that you can also Delete all ROIs on selected panels with the Delete button.
+   - |C| that you can use the Colour and Line width choosers on the ROI controls on the Labels tab to apply chosen colour or line width to all shapes in selected panels.
+
+#. Copy & Paste crop region.
+   - |C| that the View x, y, width height update in the Preview tab when you zoom and pan the viewport.
+   - |C| that you can copy the crop region and paste onto another panel / panels.
+   - |C| that multiple selected panels with different view regions show '-' for x, y, width, height.
+   - |C| that the "Crop" button launches the crop dialog and the "Reset" button reverts to uncropped panel.
+
+#. Copy ROIs Rectangle -> Crop region.
+   - Duplicate a panel by copying and pasting the panel
+   - Copy a single Rectangle on the first panel by opening the ROI viewer, selecting/drawing a rectangle and 'Copy'.
+   - |C| that clicking Paste in the Preview tab crops the other panel.
+   - |C| that crop region matches the region highlighted by the rectangle in first panel.
+
+#. Copy Crop region -> Rectangle.
+   - Again, copy and paste a panel to duplicate and zoom and pan one panel to chosen viewport.
+   - Copy the view region by clicking Copy in the View section of the Preview tab, select the other panel and click Paste under the ROI header of Labels tab.
+   - |C| that a new Rectangle ROI is created and this corresponds to the viewport region of the other panel.
+   - |C| that you can then update the colour / line width of this rectangle using the ROI color & line width controls.
+
+#. Crop dialog using regions from Clipboard or ROIs on the image
+   - Copy some ROIs (including Rectangle(s)) to the clipboard.
+   - Open the Crop dialog (green button) on an image that has some Rectangular ROIs drawn on it.
+   - |C| that you can pick regions from the clipboard or from ROIs on the image and use these to crop the image.
+   - |C| that if you are cropping an image that has ROIs on it, you are asked if you want to remove these ROIs when you crop it.
+   - |C| that clicking Yes, No or Cancel on this dialog has the expected effect.
 
 
 Info Tab
