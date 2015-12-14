@@ -52,7 +52,7 @@ Import and Multigroups
 #. Double import
 
 
-   - Import a plate (for example ``from_skyking/mias/frans/siRNA...``, but it could be any other plate type, too)
+   - Import a plate (for example ``curated/mias/frans/siRNA...``, but it could be any other plate type, too)
    - While the previous import is still running, import another plate (for the same user, to the same group).
    - Test this double import several times, as the relevant bug here occurred randomly.
 

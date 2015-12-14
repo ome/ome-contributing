@@ -26,9 +26,9 @@ For both sections below, you must have:
 
 #. Either in Insight or Web, create a Screen and note the Screen ID
 
-#. Import `ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641` into the Screen created in step 2. 
+#. Import `ome/data_repo/curated/mias/frans/siRNA_PRIM1_03102008/001-365700055641` into the Screen created in step 2. 
 
-#. Import `ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641` **again**, this time not into a Screen and note the Plate ID
+#. Import `ome/data_repo/curated/mias/frans/siRNA_PRIM1_03102008/001-365700055641` **again**, this time not into a Screen and note the Plate ID
 
 #. Open a terminal and go to `OMERO.server-*/lib/python/` (for example `OMERO.server-4.4.4-819-777c235-dirty-ice33-b115/lib/python/`)
 
@@ -87,7 +87,7 @@ For both sections below, you must have:
 
 #. In case you are due to test just this section (= **Section 2**) note the prerequisites in the header of this scenario (above the **Section 1**).
 
-#. Use the same plate as for ``populate_matadata.py`` testing, (i.e. ``ome/data_repo/from_skyking/mias/frans/siRNA_PRIM1_03102008/001-365700055641``). Both of the plates used for ``populate_metadata.py`` should work (i.e. the Plate in the Screen and the orphaned Plate). Note or make sure you still have the ID of the PLate.
+#. Use the same plate as for ``populate_matadata.py`` testing, (i.e. ``ome/data_repo/curated/mias/frans/siRNA_PRIM1_03102008/001-365700055641``). Both of the plates used for ``populate_metadata.py`` should work (i.e. the Plate in the Screen and the orphaned Plate). Note or make sure you still have the ID of the PLate.
 
 #. In Insight, open the first well (`A1`) of the Plate and open ROI manager - you will see ROIs with yellow description fields to them. Delete couple of ROIs, for example in top-left corner (note that because of the amount of ROIs present, ``Delete All ROIs`` command might not work). After this, you should have a defined space cleaned from ROIs, see screenshot for example  [:ref:`BulkAnnot006`]. Close the image and click ``Yes`` in the upcoming dialog to save changes.
 
