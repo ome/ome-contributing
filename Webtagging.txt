@@ -1,0 +1,27 @@
+Webtagging
+==========
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to check the Auto Tag and Tag Search Web applications.
+
+**Section 1: Auto Tag
+
+#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores. Underscores/spaces are the characters on which the tokenizing of the names in Auto Tag happens. Select the Dataset or any image inside the Dataset and
+
+   - On the right-hand side above the central pane, find the Dropdown menu saying ``Thumbnails`` 
+
+   - Change the selection in this menu to ``Auto Tag``
+
+   - You will see either no lines in the central pane [:ref:`AnnotateM003`, :ref:`AnnotateM004`] or lines with image names and columns headed by a blue, existing Tags [:ref:`AnnotateM003`, :ref:`AnnotateM004`]. 
+
+   - If you see no lines in the central pane, then tick the box ``Show unmapped``
+
+   - |C| that you can now see a slider which is by default at the value ``2`` in the top right corner of the central pane.
+
+   - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases (Note that this might not be the case if you have too little tokens inside your image names or the images are named very similarly in all tokens.)
+
+   - select the arrow on the right-hand side of the pink bubble and 
+   
