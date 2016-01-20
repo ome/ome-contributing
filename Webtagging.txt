@@ -41,7 +41,18 @@ Webtagging
    - Change selection in the central pane to ``Auto Tag``
    - |C| that now you can see the tag suggestions which you created previously during the work on the first batch of images [:ref:`Screenshot002`].  Click on Apply and |C| that the ticked boxes in the sheet went green and the tags were applied to the images accordingly.
 
+**Section 2: Tag Search**
 
+#. In the top bar on the left-hand side [:ref:`Screenshot005`] select the Tag Search tab. 
+
+#. Tick the ``Preview`` tickbox in the left-hand pane.
+
+#. Click into the ``Selected Tags`` field and |C| that you can see the list of available tags [:ref:`Screenshot006`].
+
+   - Select one of the tags, and |C| that at least one item appears in the central pane, also |C| that the selected tag is now highlighted in teh ``Selected Tags`` field.
+   - Click again into the ``Selected Tags`` field (next to the highlighted tag) and select a tag from the menu again.
+   - |C| that this new tag appears in the field ``Selected Tags`` next to the previously selected one.
+   - |C| that when you select an item (e.g. Image/Dataset...) in the central pane and expand the ``Tags`` harmonica in the right-hand pane, you can see that the item is tagged with both the tags highlighted in the ``Selected Tags`` field. 
 
 |
 |
@@ -107,3 +118,34 @@ Webtagging
 |
 |
 |
+|
+|
+|
+|
+
+.. _Screenshot005:
+.. figure:: /images/testing_scenarios/Webtagging/005.png
+   :align: center
+
+   Screenshot005: 
+
+
+|
+|
+|
+|
+|
+|
+|
+
+.. _Screenshot006:
+.. figure:: /images/testing_scenarios/Webtagging/006.png
+   :align: center
+
+   Screenshot006: 
+
+|
+|
+|
+|
+
