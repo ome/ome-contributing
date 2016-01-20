@@ -76,6 +76,7 @@ Testing scenarios
    VirtualMachineTesting
    VirtualMicroscope
    WebLightTesting
+   Webtagging
    WebOpenAstexViewer
    Woolz
 

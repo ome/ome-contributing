@@ -7,21 +7,103 @@ Webtagging
 
 **Purpose of the test** is to check the Auto Tag and Tag Search Web applications.
 
-**Section 1: Auto Tag
+**Section 1: Auto Tag**
 
-#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores. Underscores/spaces are the characters on which the tokenizing of the names in Auto Tag happens. Select the Dataset or any image inside the Dataset and
+#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores such as ``my_file_foo_numberx.dv`` where x is 1, 2 and 3 consecutively. Note that for the purposes of this test you cannnot perform renaming of the images in OMERO, you have to have the images either pre-imported or rename them locally, then import. Underscores/spaces are the characters on which the tokenizing of the names in Auto Tag happens. 
 
+#. Select the Dataset or any image inside the Dataset and
+
+   - Select one of the images you just imported/found and
    - On the right-hand side above the central pane, find the Dropdown menu saying ``Thumbnails`` 
 
-   - Change the selection in this menu to ``Auto Tag``
+#. Change the selection in this menu to ``Auto Tag``
 
-   - You will see either no lines in the central pane [:ref:`AnnotateM003`, :ref:`AnnotateM004`] or lines with image names and columns headed by a blue, existing Tags [:ref:`AnnotateM003`, :ref:`AnnotateM004`]. 
+   - You will see either no columns/tag suggestions in the central pane [:ref:`Screenshot001`] or, in case tags were created for these images in previous sessions already, lines with image names and columns headed by a blue, existing Tags [:ref:`Screenshot002`] 
 
-   - If you see no lines in the central pane, then tick the box ``Show unmapped``
+   - If you see no columns in the central pane, then tick the box ``Show unmapped``
 
    - |C| that you can now see a slider which is by default at the value ``2`` in the top right corner of the central pane.
 
-   - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases (Note that this might not be the case if you have too little tokens inside your image names or the images are named very similarly in all tokens.)
+   - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases If you for example used the image names as suggested above, you should see the ``numberx`` columns only when you slide the slider to position ``1`` (i.e. to the extreme left).
 
-   - select the arrow on the right-hand side of the pink bubble and 
+#. Select the arrow on the right-hand side of the pink bubble above a column and from the menu select ``New/Existing Tag``
+
+   - In the dialog [:ref:`Screenshot003`], leave the default values and click ``Map``
+   - |C| that now the pink bubble went blue, and has the suggestion of the tag name inside it. Also, the tickboxes in the appropriate rows (for the images which do have the corresponding token in their name) are ticked.
+   - |C| that when you now click onto the ``Apply`` button, the fields with ticked tickboxes become green [:ref:`Screenshot004`]
+ 
+#. Repeat step 4 for at least 2 or 3 columns.
+
+   - |C| that when you select an image in left-hand pane, for each green field located next to its name in the central pane there is a corresponding tag (displayed in right-hand pane).
+
+#. Import images again, with similar but different names, such as ``my_file_foo_numberx.dv`` where x is bigger than 3 into another Dataset and select one of the images.
    
+   - Change selection in the central pane to ``Auto Tag``
+   - |C| that now you can see the tag suggestions which you created previously during the work on the first batch of images [:ref:`Screenshot002`].  Click on Apply and |C| that the ticked boxes in the sheet went green and the tags were applied to the images accordingly.
+
+
+
+|
+|
+|
+
+.. _Screenshot001:
+.. figure:: /images/testing_scenarios/Webtagging/001.png
+   :align: center
+
+   Screenshot001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Screenshot002:
+.. figure:: /images/testing_scenarios/Webtagging/002.png
+   :align: center
+
+   Screenshot002: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Screenshot003:
+.. figure:: /images/testing_scenarios/Webtagging/003.png
+   :align: center
+
+   Screenshot003: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Screenshot004:
+.. figure:: /images/testing_scenarios/Webtagging/004.png
+   :align: center
+
+   Screenshot004: 
+
+
+|
+|
+|
+|
