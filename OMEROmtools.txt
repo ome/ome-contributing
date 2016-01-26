@@ -24,7 +24,7 @@ Installation
 BoxIt Feature
 =============
 
-#.  Import images from ``squig:\team\pwalczysko\mtools testing data`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
+#.  Import following images from ``squig:\ome\data_repo\curated\deltavision\michael\mtools`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
 
        090829_HeLa_siCTL_coilin_ATUB01_01_R3D_D3D
        090829_HeLa_siCTL_coilin_ATUB01_02_R3D_D3D
@@ -47,7 +47,7 @@ BoxIt Feature
 Testing EventTimer
 ==================
 
-#.  Import images from ``squig:\team\pwalczysko\mtools testing data`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
+#.  Import images from ``squig:\ome\data_repo\curated\deltavision\michael\mtools`` into a suitable project/dataset (ALL mtools WORKFLOWS REQUIRE FULL PROJECT/DATASET HIERARCHY)::
 
        RPE1-CAG_Trans_01_01_R3D
        RPE1-CAG_Trans_01_02_R3D
