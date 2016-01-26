@@ -9,7 +9,7 @@ Webtagging
 
 **Section 1: Auto Tag**
 
-#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores such as ``my_file_foo_numberx.dv`` where x is 1, 2 and 3 consecutively. Note that for the purposes of this test you cannnot perform renaming of the images in OMERO, you have to have the images either pre-imported or rename them locally, then import. Underscores and slashes are the characters on which the tokenizing of the names in Auto Tag happens. 
+#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores such as ``my_file_foo_numberx.dv`` where x is 1, 2 and 3 consecutively. Note that for the purposes of this test you cannot perform renaming of the images in OMERO, you have to have the images either pre-imported or rename them locally, then import. Underscores and slashes are the characters on which the tokenizing of the names in Auto Tag happens. 
 
 #. Select the Dataset or any image inside the Dataset and
 
@@ -32,7 +32,7 @@ Webtagging
 
    - |C| that you can now see a slider which is by default at the value ``2`` in the top right corner of the central pane.
 
-   - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases If you for example used the image names as suggested above, you should see the ``numberx`` columns only when you slide the slider to position ``1`` (i.e. to the extreme left).
+   - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases. If you for example used the image names as suggested above, you should see the ``numberx`` columns only when you slide the slider to position ``1`` (i.e. to the extreme left).
 
 #. If no columns headed by pink buttons are visible, make sure ``Show unmapped`` is checked, move the slider to position ``1`` . Select the arrow on the right-hand side of the pink button above a column and from the menu select ``New/Existing Tag``
 
