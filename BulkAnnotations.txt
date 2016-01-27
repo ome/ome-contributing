@@ -28,6 +28,8 @@ For both sections below, you must have:
 
 #. Import `ome/data_repo/curated/mias/frans/siRNA_PRIM1_03102008/001-365700055641` into the Screen created in step 2. 
 
+#. Rename the just imported Plate in Insight or Web to ``365700055641``.
+
 #. Import `ome/data_repo/curated/mias/frans/siRNA_PRIM1_03102008/001-365700055641` **again**, this time not into a Screen and note the Plate ID
 
 #. Open a terminal and go to `OMERO.server-*/lib/python/` (for example `OMERO.server-4.4.4-819-777c235-dirty-ice33-b115/lib/python/`)
