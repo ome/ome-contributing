@@ -24,7 +24,7 @@ Webtagging
      - or any combination of:
 
        - columns headed by pink buttons for tokens not mapped to any existing tags, and thus Autotag suggests new tags for these tokens, or for tokens which match more than one existing tag (i.e. Autotag does not know which of the existing tags to pick)
-       - columns headed by blue buttons for tokens mapped to tags that already exist on the server (Note: the suggestion of an existiong tag can be created also manually, by expanding the menu under a pink button and seelcting an existing tag -> the button becomes blue)
+       - columns headed by blue buttons for tokens mapped to tags that already exist on the server (Note: the suggestion of an existing tag can be created also manually, by expanding the menu under a pink button and selecting an existing tag -> the button becomes blue)
        - columns headed by a green, existing Tags buttons that indicate tags already attached to an image (but not matched by any token in this dataset)
        - and a column of image names on the right [:ref:`Screenshot002`] 
 
