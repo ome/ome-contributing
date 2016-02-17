@@ -69,7 +69,7 @@ Tests
    d. ``bf-test info /path/to/test-image.ome.tiff`` (should show core and original metadata)
    e. ``bf-test info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
 
-#. Run "bf-test view" to view pixel data
+#. For platform builds **only**, run "bf-test view" to view pixel data
 
    a. Run ``bf-test view``; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
 
