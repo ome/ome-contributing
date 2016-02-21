@@ -9,7 +9,7 @@ Webtagging
 
 **Section 1: Auto Tag**
 
-#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores such as ``my_file_foo_numberx.dv`` where x is 1, 2 and 3 consecutively. Note that for the purposes of this test you cannot perform renaming of the images in OMERO, you have to have the images either pre-imported or rename them locally, then import. Underscores and slashes are the characters on which the tokenizing of the names in Auto Tag happens. 
+#. Have some images imported to a Dataset. The names of the images should contain spaces and/or underscores such as ``my_file_foo_numberx.dv`` where x is 1, 2 and 3 consecutively. Note that for the purposes of this test you cannot perform renaming of the images in OMERO, you have to have the images either pre-imported or rename them locally, then import. Backslash, forward slash, period and underscore are the characters on which the tokenizing of the names in Auto Tag happens. 
 
 #. Select the Dataset or any image inside the Dataset and
 
@@ -23,14 +23,14 @@ Webtagging
      - no columns with tag suggestions in the central pane [:ref:`Screenshot001`]
      - or any combination of:
 
-       - columns headed by pink buttons for new tags associated with parsed tokens
-       - columns headed by blue buttons for suggested tags that already exist on the server 
-       - columns headed by a green, existing Tags buttons that indicate tags already attached to an image
+       - columns headed by pink buttons for tokens not mapped to any existing tags, and thus Autotag suggests new tags for these tokens, or for tokens which match more than one existing tag (i.e. Autotag does not know which of the existing tags to pick)
+       - columns headed by blue buttons for tokens mapped to tags that already exist on the server (Note: the suggestion of an existing tag can be created also manually, by expanding the menu under a pink button and selecting an existing tag -> the button becomes blue)
+       - columns headed by a green, existing Tags buttons that indicate tags already attached to an image (but not matched by any token in this dataset)
        - and a column of image names on the right [:ref:`Screenshot002`] 
 
    - If you see no columns in the central pane, then select the ``Show unmapped`` checkbox.
 
-   - |C| that you can now see a slider which is by default at the value ``2`` in the top right corner of the central pane.
+   - |C| that you can now see a slider which is by default at the value ``2`` (or ``1`` in case there is just one image in the Dataset) in the top right corner of the central pane.
 
    - |C| that when you slide the slider to the right, the number of columns in the central pane decreases, if you slide to the left, it increases. If you for example used the image names as suggested above, you should see the ``numberx`` columns only when you slide the slider to position ``1`` (i.e. to the extreme left).
 
