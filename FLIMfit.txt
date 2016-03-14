@@ -195,7 +195,8 @@ N.B.: This scenario is for version 4.9 onwards of FLIMfit (i.e. OMERO 5.1 onward
 
 #. Load the Instrument Response Function (IRF) for this data from an image file
 
-   - Go ``OMERO > Load IRF (Single FOV)`` and select the file ``nanorods ex 740 nm 2 min.sdt``.
+   - Go ``OMERO > Load IRF`` and select the image ``nanorods
+ ex 740 nm 2 min.sdt`` from the tree on the Left of the popup.
    - |C| that you can now see additionally a pulse of the IRF in the fluorescence decay graphs in the main pane [screenshot]
 
 #. Fit a single (selected) pixel.
@@ -264,7 +265,8 @@ N.B.: This scenario is for version 4.9 onwards of FLIMfit (i.e. OMERO 5.1 onward
 
 #. Load the IRF for the multiple FOVs from an attachment
 
-   - Go ``OMERO > Load IRF (Annotation)``
+   - Go ``OMERO > Load IRF`` and select the IRF from the Attachments
+ pane on the right of the popup.
    - |C| that the pulse of the IRF is visible in the graphs in the central panel under ``Decay`` tab.
 
 #. Adjust the Integrated Min. parameter
@@ -304,7 +306,8 @@ N.B.: This scenario is for version 4.9 onwards of FLIMfit (i.e. OMERO 5.1 onward
 
 #. Load the IRF for Plate from an attachment
 
-   - Go ``OMERO > Load IRF (Annotation)``
+   - Go ``OMERO > Load IRF`` and select the IRF from the Attachments
+ pane on the right of the popup.
    - Select ``central irf.xml``
    - |C| that the pulse of the IRF is visible in the graphs in the central panel under ``Decay`` tab.
 
