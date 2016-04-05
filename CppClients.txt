@@ -16,35 +16,31 @@ Setup
 #. Download C++ build from:
 
    - (if available) Download page
-     \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER
-
-   For MacOS 10.10: \http://downloads.openmicroscopy.org/bio-formats-cpp/RELEASE_VERSION_NUMBER/artifacts/xxx.Debug-MacOSX10.10.tar.xz
+     \http://downloads.openmicroscopy.org/ome-files-cpp/RELEASE_VERSION/artifacts/BUILD_NUMBER/
 
    - (if you are supposed to test tip of the branch) Jenkins job
-     :jenkinsjob:`BIOFORMATS-CPP-5.1-merge` or
-     :jenkinsjob:`BIOFORMATS-CPP-5.1-latest`
-
-     For MacOS 10.10: pick the node ``mackerel``. You can also use the table
-     of nodes on https://ci.openmicroscopy.org/computer/  to help you to find
-     the right node.
+     :jenkinsjob:`OME-FILES-CPP-DEV-merge` or
+     :jenkinsjob:`OME-FILES-CPP-DEV-latest`
 
 #. Unpack the tar file (for example)::
 
-    tar xfv bioformats-cpp-5.1.0-m5-Debug-MacOSX10.10.tar.xz
+    tar xfv ome-files-platform-bundle-VERSION-Release-PLATFORM-bBUILD.tar.xz
 
-#. Add the Bio-Formats C++ :file:`bin` directory to your :envvar:`PATH`. For
+    tar xfv ome-files-standalone-bundle-VERSION-Debug-PLATFORM-bBUILD.tar.xz
+
+#. Add the OME Files C++ :file:`bin` directory to your :envvar:`PATH`. For
    example, on Linux and OS X platforms::
 
-     PATH="/path/to/bioformats-cpp/bin:$PATH"
+     PATH="/path/to/ome-files-cpp/bin:$PATH"
 
    or on Windows, using the Command Prompt (note the quoting)::
 
-     set "PATH=\path\to\bioformats-cpp\bin;%PATH%"
+     set "PATH=\path\to\ome-files-cpp\bin;%PATH%"
 
-#. On Windows you also need to set the :envvar:`BIOFORMATS_HOME` environment
+#. On Windows you also need to set the :envvar:`OME_HOME` environment
    variable::
 
-     set "BIOFORMATS_HOME=\path\to\bioformats-cpp"
+     set "OME_HOME=\path\to\ome-files-cpp"
 
 #. For platform builds **only**, you will need to have the C++ prerequisites
    installed on your system in order to do the testing - see the
@@ -54,29 +50,29 @@ Setup
 Tests
 =====
 
-#. On Windows, :command:`bf-test.bat` currently does not work. Assuming the
+#. On Windows, :command:`ome-files.bat` currently does not work. Assuming the
    environment variables have been set as described above, the file reading
    can be tested directly using :command:`info.exe`::
 
-     C:\Users\<username>\Downloads\bioformats-cpp-5.1.4-ReleaseWindowsVC12-x64\libexec\ome\bioformats\info.exe path\to\test-image.ome.tiff
+     C:\Users\<username>\Downloads\ome-files-bundle-VERSION-PLATFORM-bBUILD\libexec\ome\files\info.exe path\to\test-image.ome.tiff
 
-#. Run "bf-test" to test main wrapper:
+#. Run "ome-files" to test main wrapper:
 
-   a. ``bf-test --version`` (should show version)
-   b. ``bf-test --usage`` (should show basic usage summary)
-   c. ``bf-test --help`` (should show bf-test(1) manual page)
+   a. ``ome-files --version`` (should show version)
+   b. ``ome-files --usage`` (should show basic usage summary)
+   c. ``ome-files --help`` (should show ome-files(1) manual page)
 
-#. Run "bf-test info" to test metadata display
+#. Run "ome-files info" to test metadata display
 
-   a. ``bf-test info --version`` (should show version)
-   b. ``bf-test info --usage`` (should show basic usage summary)
-   c. ``bf-test info --help`` (should show bf-info manual page)
-   d. ``bf-test info /path/to/test-image.ome.tiff`` (should show core and original metadata)
-   e. ``bf-test info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
+   a. ``ome-files info --version`` (should show version)
+   b. ``ome-files info --usage`` (should show basic usage summary)
+   c. ``ome-files info --help`` (should show bf-info manual page)
+   d. ``ome-files info /path/to/test-image.ome.tiff`` (should show core and original metadata)
+   e. ``ome-files info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
 
-#. For platform builds **only**, run "bf-test view" to view pixel data
+#. For platform builds **only**, run "ome-files view" to view pixel data
 
-   a. Run ``bf-test view``; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
+   a. Run ``ome-files view``; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
 
    b. Choose :menuselection:`File --> Open` (or Ctrl-O/Cmd-O) to open an OME-TIFF image; the image should be displayed.
 
