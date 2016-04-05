@@ -18,9 +18,12 @@ Setup
    - (if available) Download page
      \http://downloads.openmicroscopy.org/ome-files-cpp/RELEASE_VERSION/artifacts/BUILD_NUMBER/
 
-   - (if you are supposed to test tip of the branch) Jenkins job
-     :jenkinsjob:`OME-FILES-CPP-DEV-merge` or
-     :jenkinsjob:`OME-FILES-CPP-DEV-latest`
+   - (if you are supposed to test tip of the branch) Jenkins job e.g.
+     :jenkinsjob:`OME-FILES-CPP-DEV-merge`,
+     :jenkinsjob:`OME-FILES-CPP-DEV-merge-superbuild`,
+     :jenkinsjob:`OME-FILES-CPP-DEV-merge-win-superbuild`,
+     :jenkinsjob:`OME-FILES-CPP-DEV-latest-superbuild` or
+     :jenkinsjob:`OME-FILES-CPP-DEV-latest-win-superbuild`
 
 #. Unpack the tar file (for example)::
 
