@@ -16,7 +16,9 @@ N.B.: This scenario is for version 4.9 onwards of FLIMfit (i.e. OMERO 5.1 onward
 
 #. On a mac make sure you have the Matlab Compiler Runtime installed - check the version number necessary. The MCR will install automatically on Windows.
 
-#. Download the latest build of FLIMfit from :jenkinsjob:`FLIMFit-latest-mac` or :jenkinsjob:`FLIMFit-latest-win`.
+#. Download the latest build of FLIMfit from
+   \http://ci.flimfit.org/job/flimfit-merge-mac/ or
+   \http://ci.flimfit.org/job/flimfit-merge-win/.
    Select the component matching the version of the OMERO server you want to
    test FLIMFit against.
 
