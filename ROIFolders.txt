@@ -1,0 +1,37 @@
+ROI Folders
+===========
+
+
+
+**To test in**: Insight
+
+**Purpose of the test** is to check the ROI folders functionality in the ROI Tool of Insight
+
+#. Open an image, open the ROI Tool.
+#. Default loading into the ROI Tool is just for the folders containing ROIs.
+
+   - in case there are no ROIs on the image at all, create some ROIs and add some to some folders, create also some empty folders
+   - close the image and reopen it again, now the default loading of the folders should become obvious
+
+#. Check that you can add/hide any Folders you like to display using the dropdown checkbox menu in top left corner.
+#. Deletion of a parent folder is not propagated to the children
+
+#. Check the filtering (also for children folders, parent folder should be still visible)#. Check the ``Show all ROI folders`` checkbox next to the filtering box.
+
+   - write a string into the filtering line so that you have some hits but also some folders get filtered out
+   - check the ``Show all ROI folders`` checkbox, all the folders which you have on display (i.e. all folders shown by default, if not hidden by you explicitly in step 4., and all folders you have added in step 4.) are visible in the table
+   - uncheck the box, the filtering should come back as it was before you checked the checkbox
+
+#. Check multiselection and right-click (i.e. that you can multiselect and get the right-click context menu to display with the multiselection still respected). 
+#. Drag and Drop Folders and ROIs to and out of other folders. 
+#. Check that the selected folder(s) are in a newly created folder in case ``Create folder`` was executed
+#. Check that the number in the bracket behind the folder name is showing the number of children, be it ROIs or Folders
+#. Check that you can add ROIs to folders imported in an xml header of an ome-tiff
+#. Check visibility-non-visiblity behaviour for the folders
+
+   - have some ROIs in one folder only, then deselect the checkbox ``Visible`` next to the folder (right hand side of the table) and |C| that the ROIs disappear from the image
+   - have some ROIs in two or more folders (i.e. some ROIs having 2 or more parents) and |C| that when you deselect the checkbox ``Visible`` on only one parent folder, the ROIs are still visible in the image. Only when you deselect the checkbox on all the parent folders, the contained ROIs become invisible.
+
+#. Check you can Create, Delete, Edit and Move folder (right-click menu)
+#. Check you can draw new ROIs and add to Folder, Remove from Folder, Delete, Propagate, Duplicate, Merge, Split and Tag them to the folders (existing and new)
+#. Check that you have folder ID, Name and Description in the Inspector tab of the ROI Tool.
