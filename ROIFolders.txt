@@ -8,29 +8,28 @@ ROI Folders
 **Purpose of the test** is to check the ROI folders functionality in the ROI Tool of Insight
 
 #. Open an image, open the ROI Tool.
-#. |C| that just the folders containing ROIs are loaded into the ROI Tool Manager table.
+#. |C| that just the folders containing ROIs are loaded into the ROI Tool Manager table by default.
 
    - in case there are no folders containing ROIs on the image at all, create some ROIs and add some to some folders, create also some empty folders
    - close the image and reopen it again, now the default loading of the folders should become obvious (i.e. only the folders containing ROIs on this particular image are loaded)
 
-#. |C| that you can add/hide Folders to/from display using the dropdown menu ``Display ROI folders`` in top left corner (screenshot).
+#. |C| that you can add/hide Folders to/from display using the dropdown menu ``Display ROI folders`` in top left corner (see screenshot [:ref:`ROIFolders001`]).
 
-#. |C| the filtering, writing into the line to the right of the ``Display ROI folders`` menu (screenshot). When filtering query matches 
+#. |C| the filtering, writing into the line to the right of the ``Display ROI folders`` menu (see screenshot [:ref:`ROIFolders002`]). When filtering query matches 
 
-   - children folders, parent folder should be still visible, although the query does not match them, but sibling folders should be invisible if not matching the query.
-   - parent folders, then children should be visible too although the query does not match them.
+   - a child folder, its parent folder should be still visible, although the query might not match the parent. Its sibling folders should be invisible if not matching the query.
+   - a parent folder, its children should be visible too even if the children do not match the query.
 
-#. Verify the ``Show all ROI folders`` checkbox functionality next to the filtering line (screenshot).
+#. Verify the ``Show all ROI folders`` checkbox functionality next to the filtering line (see screenshot [:ref:`ROIFolders002`]).
 
    - write a string into the filtering line so that you have some hits but also some folders get filtered out
    - select the ``Show all ROI folders`` checkbox, all the folders which you have on display (i.e. all folders shown by default, if not hidden by you explicitly in step 3., and all folders you have added in step 3.) are visible in the table
    - deselect the checkbox, the filtering should come back as it was before you selected the checkbox
 
-#. |C| that you can Create, Delete, Edit and Move folder (right-click menu)(screenshot)
-#. |C| that the selected folder(s) and/or ROIs are in a newly created folder in case ``Create folder`` was executed
+#. |C| that you can Create, Delete, Edit and Move folder (right-click menu)(see screenshot [:ref:`ROIFolders003`])
 #. |C| multiselection and right-click (i.e. that you can multiselect and get the right-click context menu to display with the multiselection still respected). 
 #. Drag and Drop Folders and ROIs to and out of other folders. 
-#. |C| that the number in the bracket behind the folder name (screenshot) is showing the number of children, be it ROIs or Folders
+#. |C| that the number in the bracket behind the folder name (see screenshot [:ref:`ROIFolders004`]) is showing the number of children, be it ROIs or Folders
 #. |C| that you can add ROIs to folders imported in an xml header of an ome-tiff
 #. |C| visibility-non-visiblity behaviour for the folders:
 
@@ -39,6 +38,146 @@ ROI Folders
 
 
 #. Delete a folder with subfolders and ROIs. |C| that the subfolders and the ROIs are orphaned, not deleted.
-#. |C| that you can draw new ROIs and add to Folder, Remove from Folder, Delete, Propagate, Duplicate, Merge, Split and Tag (screenshot).
+#. |C| that on newly drawn or orphaned ROIs you can using the right-click menu Add to Folder, Delete, Propagate, Duplicate, Merge, Split, Tag and Create Folder (see screenshot [:ref:`ROIFolders005`]).
+#. |C| that on ROIs which are already in one or more folders you can Remove from Folder as well as Add to Folder, Delete, Propagate, Duplicate, Merge, Split, Tag and Create Folder (see screenshot [:ref:`ROIFolders006`]).
+#. |C| that the selected folder(s) and/or ROIs are in a newly created folder in case ``Create folder`` was executed
 #. |C| that when you select a Shape, you can see in the Inspector tab the containing folder.
-#. (|C| that you have folder ID, Name and Description in the Inspector tab of the ROI Tool. - probably impossible to implement)
+
+
+
+.. _ROIFolders001:
+.. figure:: /images/testing_scenarios/ROIFolders/001.png
+   :align: center
+
+   ROIFolders001: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ROIFolders002:
+.. figure:: /images/testing_scenarios/ROIFolders/002.png
+   :align: center
+
+   ROIFolders002: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ROIFolders003:
+.. figure:: /images/testing_scenarios/ROIFolders/003.png
+   :align: center
+
+   ROIFolders003: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ROIFolders004:
+.. figure:: /images/testing_scenarios/ROIFolders/004.png
+   :align: center
+
+   ROIFolders004: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ROIFolders005:
+.. figure:: /images/testing_scenarios/ROIFolders/005.png
+   :align: center
+
+   ROIFolders005: 
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+
+.. _ROIFolders006:
+.. figure:: /images/testing_scenarios/ROIFolders/006.png
+   :align: center
+
+   ROIFolders006: 
+
+
+|
+|
+|
+|
+|
+|
+
