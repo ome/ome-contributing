@@ -40,7 +40,8 @@ ROI Folders
 #. Delete a folder with subfolders and ROIs. |C| that the subfolders and the ROIs are orphaned, not deleted.
 #. |C| that on newly drawn or orphaned ROIs you can using the right-click menu Add to Folder, Delete, Propagate, Duplicate, Merge, Split, Tag and Create Folder (see screenshot [:ref:`ROIFolders005`]).
 #. |C| that on ROIs which are already in one or more folders you can Remove from Folder as well as Add to Folder, Delete, Propagate, Duplicate, Merge, Split, Tag and Create Folder (see screenshot [:ref:`ROIFolders006`]).
-#. |C| that the selected folder(s) and/or ROIs are in a newly created folder in case ``Create folder`` was executed
+#. |C| that the selected ROI(s) is/are in a newly created folder in case ``Create folder`` was executed.
+#. |C| that a folder created by ``Create folder`` command is a child of the folder which was selected when the command was executed, and the command is disabled when multiple folders are selected.
 #. |C| that when you select a Shape, you can see in the Inspector tab the containing folder.
 
 
