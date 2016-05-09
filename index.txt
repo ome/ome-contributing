@@ -60,6 +60,7 @@ Testing scenarios
    RenderWeb
    Resetpwd
    ROIInsight
+   ROIFolders
    ROIWeb
    ScriptsClient
    Search
