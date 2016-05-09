@@ -24,8 +24,9 @@ ROI Folders
 
 #. |C| the ``Show all ROI folders`` checkbox next to the filtering line (see screenshot [:ref:`ROIFolders002`]).
 
-   - Type a string into the filtering line that will give you some hits but also filters out some folders
+   - Type a string into the ``Filter ROI folders…`` text box that will give you some hits but also filter out some folders
    - Select the ``Show all ROI folders`` checkbox
+   - The filtering will be disabled
    - |C| that all the folders which you have on display (i.e. all folders shown by default, if not hidden by you explicitly in step 3., and all folders you have added in step 3.) are visible in the table
    - Deselect the checkbox, the filtering should return to the state before the checkbox was selected
 
