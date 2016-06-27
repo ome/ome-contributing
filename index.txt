@@ -11,7 +11,6 @@ Testing scenarios
    :maxdepth: 2
    :numbered: 2
 
-
    TablePermissionsUsers
    AdminGroupUserCreate
    AdminGroupUserEdit
@@ -64,8 +63,8 @@ Testing scenarios
    ROIWeb
    ScriptsClient
    Search
-   SecVuln
-   SecVuln3
+   2014-SV2
+   2014-SV3
    SwitchUser
    Share
    ScreenPlateWell
