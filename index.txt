@@ -68,6 +68,7 @@ Testing scenarios
    SecVuln3
    SwitchUser
    Share
+   ShareSecurityTesting
    ScreenPlateWell
    StressPerformance
    UserGroupManipulation
