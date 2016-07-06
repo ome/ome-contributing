@@ -40,11 +40,6 @@ Setup
 
      set "PATH=\path\to\ome-files-cpp\bin;%PATH%"
 
-#. On Windows you also need to set the :envvar:`OME_HOME` environment
-   variable::
-
-     set "OME_HOME=\path\to\ome-files-cpp"
-
 #. For platform builds **only**, you will need to have the C++ prerequisites
    installed on your system in order to do the testing - see the
    :bf_doc:`C++ overview <developers/cpp/overview.html>` page for more
@@ -53,23 +48,17 @@ Setup
 Tests
 =====
 
-#. On Windows, :command:`ome-files.bat` currently does not work. Assuming the
-   environment variables have been set as described above, the file reading
-   can be tested directly using :command:`info.exe`::
-
-     C:\Users\<username>\Downloads\ome-files-bundle-VERSION-PLATFORM-bBUILD\libexec\ome\files\info.exe path\to\test-image.ome.tiff
-
 #. Run "ome-files" to test main wrapper:
 
    a. ``ome-files --version`` (should show version)
    b. ``ome-files --usage`` (should show basic usage summary)
-   c. ``ome-files --help`` (should show ome-files(1) manual page)
+   c. ``ome-files --help`` (should show ome-files(1) manual page, or HTML page on Windows)
 
 #. Run "ome-files info" to test metadata display
 
    a. ``ome-files info --version`` (should show version)
    b. ``ome-files info --usage`` (should show basic usage summary)
-   c. ``ome-files info --help`` (should show bf-info manual page)
+   c. ``ome-files info --help`` (should show bf-info manual page, or HTML page on Windows)
    d. ``ome-files info /path/to/test-image.ome.tiff`` (should show core and original metadata)
    e. ``ome-files info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
 
@@ -84,4 +73,3 @@ Tests
    d. Test the plane navigation using the navigation sliders; the number of dimension sliders visible will depend upon the number of dimensions in the image metadata.
 
    e. Test the rendering by changing the Min/Max sliders
-
