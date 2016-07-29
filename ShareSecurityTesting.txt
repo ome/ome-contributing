@@ -9,6 +9,9 @@ Share security testing
 
 #. Edit the first three lines of the following python script to point to your server and port and the password of the newly created user "test_share_owner"::
 
+    import omero
+    from omero.rtypes import unwrap
+
     host = "eel.openmicroscopy.org" 
     port = 14064 
     password = "ome"
