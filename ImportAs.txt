@@ -82,7 +82,7 @@ imported ( = the owner of the data).
    - Switch groups in the Import Location window (selecting the other group 
      user-CM is a member of)
    - |C| that the selection of P/Ds in the other group makes sense = the 
-     P/Ds to which user-CM is allowed to put his data into are black, the 
+     P/Ds to which user-CM is allowed to put their data into are black, the 
      other P/Ds are greyed out and that you can import an image and put 
      it into one of the black P/Ds
    - Switch group back to the original one and again |C| that the  P/Ds in 
@@ -100,7 +100,7 @@ imported ( = the owner of the data).
    - Switch groups in the Import Location window (selecting the other group 
      user-NM is a member of)
    - |C| that the selection of P/Ds in the other group makes sense = the 
-     P/Ds to which user-NM is allowed to put his data into are black, the 
+     P/Ds to which user-NM is allowed to put their data into are black, the 
      other P/Ds are greyed out and that you can import an image and put 
      it into one of the black P/Ds
    - Switch group back to the original one and again |C| that the  P/Ds in 

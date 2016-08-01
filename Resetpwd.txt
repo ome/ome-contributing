@@ -27,7 +27,7 @@ Reset password
 #. Go to the icon with your login name on it and expand the menu and choose ``User settings``.
 #. |C| that the LDAP user has a valid email address set - take a note of it.
 #. Use the ``Forgotten password`` link in Web and 
-#. Try to insert the username of your LDAP-TEST user into the first line and his valid email address into the second line. 
+#. Try to insert the username of your LDAP-TEST user into the first line and a valid email address into the second line. 
 
 
    - |C| that the message will show ``User is authenticated by LDAP server you cannot reset this password.``
