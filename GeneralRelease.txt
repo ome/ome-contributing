@@ -201,7 +201,7 @@ Bio-Formats MATLAB toolbox
 
    - |C| that the image opens as expected.
 
-#. Set the root logger level to `DEBUG` level::
+#. Set the root logger to `DEBUG` level::
 
     loci.common.DebugTools.setRootLevel('DEBUG');
    
