@@ -45,7 +45,7 @@ Share security testing
 
 
 
-#. |C| that the output of the script run is just two lines, e.g::
+#. |C| that the output of the script run is just two lines, e.g.::
 
     res: 0
     total images on the server: [[0L]]
