@@ -228,7 +228,7 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
    - |C| that the image exports successfully.
 
-#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``http://imagej.nih.gov/ij/images/mri.gif`` into the first dialog that pops up.
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``http://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up.
 
    - |C| that the image imports successfully.
 
