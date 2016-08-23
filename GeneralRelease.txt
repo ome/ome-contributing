@@ -201,10 +201,9 @@ Bio-Formats MATLAB toolbox
 
    - |C| that the image opens as expected.
 
-#. Increase the logging level by opening :file:`bfopen` , find the following lines and replace the "INFO" with "DEBUG"::
+#. Set the root logger to `DEBUG` level::
 
-    % initialize logging
-    javaMethod('enableLogging', 'loci.common.DebugTools', 'INFO');
+    loci.common.DebugTools.setRootLevel('DEBUG');
    
 #. Reopen the image using the same commands as previously.
 
@@ -294,11 +293,21 @@ Bio-Formats command-line tools
 #. Execute the ``showinf`` command on the cmd line, using the ``.ome.tiff`` image created in previous step ::
 
     $ ./showinf -version
-    $ ./showinf <image_path>
 
    - |C| that the correct version, revision and build date are returned after the first command.
+
+   ::
+
+    $ ./showinf <image_path>
+
    - |C| that the image in the <image_path> in the second command opens.
 
+   ::
+
+    $ ./showinf -omexml <image_path>
+
+   - |C| that the image in the <image_path> in the second command opens, the
+     OME-XML is validated and displayed
 
 
 
