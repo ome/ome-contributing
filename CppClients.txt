@@ -62,6 +62,14 @@ Tests
    d. ``ome-files info /path/to/test-image.ome.tiff`` (should show core and original metadata)
    e. ``ome-files info --omexml /path/to/test-image.ome.tiff`` (should show and validate OME-XML metadata in addition)
 
+#. Run the following script to test that all sample data can be read::
+
+    (for pat in "*.tif" "*.tiff" "*.tf2" "*.tf8" "*.btf" "*.companion.ome"; do find /ome/data_repo/curated/ome-tiff/ome-schemas/ -name "$pat"; done) | while read f; do echo "TEST READ: $f"; if ome-files info "$f" ; then echo "**SUCCESS** $f" ; else echo "**FAIL**: $f" ; fi ; done
+
+   Check that all files are successfully read.  No failures should be
+   found; the exception is currently a single 2003-FC sample
+   (:file:`2003-FC/single-channel.ome.tif`).
+
 #. For platform builds **only**, run "ome-files view" to view pixel data
 
    a. Run ``ome-files view``; a window should appear.  [MacOS X: Press Cmd-Tab twice to get menus to display]
