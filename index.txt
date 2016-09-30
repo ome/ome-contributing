@@ -71,7 +71,6 @@ Testing scenarios
    ScreenPlateWell
    StressPerformance
    UserGroupManipulation
-   UTrack
    ViewImageWithPerm
    ViewBigImage
    VirtualMachineTesting
