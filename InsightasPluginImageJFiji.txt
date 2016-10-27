@@ -22,8 +22,11 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
    - |C| that a popup appears indicating that ``bioformats_package.jar`` or ``loci_tools.jar`` is missing.[:ref:`InsightIJI002`]
 
-#. Click on the hyperlink in the popup and |C| it brings you to the last release version of Bio-formats. Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from this Bio-formats release Download page which is being coupled with the OMERO for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` . Note that this **does not have to be matching** version with the OMERO version, as Bio-formats is decoupled from OMERO. 
+#. (For the release-day testing only.) Click on the hyperlink in the popup and |C| it brings you to the last release version of Bio-formats. Download ``bioformats_package.jar`` [:ref:`InsightIJI005`] from this Bio-formats release Download page which is being coupled with the OMERO for the release, e.g. ``https://downloads.openmicroscopy.org/bio-formats/<version>`` . Note that this **does not have to be matching** version with the OMERO version, as Bio-formats is decoupled from OMERO. 
 
+   
+
+#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from CI (https://ci.openmicroscopy.org/job/BIOFORMATS-5.1-merge-build/) in case you are testing a Bio-formats PR.
 
    
 
