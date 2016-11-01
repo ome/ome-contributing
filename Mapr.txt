@@ -1,0 +1,137 @@
+Mapr (web extension for IDR)
+============================
+
+
+
+**To test in**: Web
+
+**Purpose of the test** is to check the so called Mapr, this means the additional metadata
+navigation tabs, metadata display and tree autocomplete search extending the OMERO.web UI.
+
+**Section 1: UI layout testing and queries**
+
+#. |C| that the multiple words of Key-Value pair tables do not occur. For example Compound should not be split into Compound Name and Compound Name Url, see [:ref:`compound_not_expected`] for a negative example. Instead, the url should be indicated by a clickable icon in the Compound Name row, see [:ref:`compound_expected`] for an expected layout example. Also other rows like Compound Source and Compound Group should be missing, just as indicated in the expected layout example. Analogically check the layout of Gene, Organism and other mapr objects.
+
+#. Gene should be divided into Gene and Supplementary. 
+   
+  - go to ``Studies`` tab and open a study
+  - navigate in the tree down to wells
+  - select a well in central pane
+  - expand the "Gene" harmonica in right-hand pane
+  - |C| that the ``Gene`` tab has two tables for Gene, ``Gene`` and ``Gene Supplementary``, see [:ref:`gene_supplementary`]
+  - ask Ola if solely http://10.0.51.150/web/webclient/?show=well-67070 works or what
+
+#. Check pagination in central pane http://10.0.51.193/webclient/?show=organism-Homo%20sapiens
+
+  - click onto the "Organism" tab and type "h" in the filter box above the left-hand tree
+  - find and confirm "Homo sapiens" in the dropdown menu
+  - wait till the UI refreshes
+  - click onto Next in the centre of the central panel to load the second page
+  - being with the cursor on the left-hand pane tree, use the down arrow key on keyboard to switch between screens and plates and check that the central pane and right-hand pane update correspondingly
+  - check the correspondence precisely in the region of the end of the first page and beginning of the second page
+
+#. Check gene across multiple studies http://10.0.51.193/webclient/?show=gene-CDC2
+
+  - click on ``Studies`` tab
+  - in your browser line, replace the url ``.../webclient/....`` with  ``.../webclient/?show=gene-CDC2``
+  - (ask Ola if this above url can be navigated via UI)
+  - click onto the "Gene" tab and type "cdc" in the filter box above the left-hand tree
+  - find and confirm "cdc2" in the dropdown menu
+  - wait till the UI refreshes
+  - |C| on the right-hand pane that it looks good (need to ask Ola what to check here for)
+
+#. Check Extra: http://10.0.51.193/mapr/phenotype/?value=elongated%20cells&query=true (edited)
+
+  - in your browser line, replace the url ``.../mapr/....`` with  ``.../mapr/phenotype/?value=elongated%20cells&query=true``
+  - |C| that you have more results with the &query=true ending of the url than without it (ask Ola)
+  - |C| that the query retrieves all the values which contain "elongated cells" string
+
+#. Pagination on query. Go to http://10.0.51.193/mapr/gene/?value=ab&query=true and go through the
+   pagination of the left-hand panel.
+
+  - in your browser line, replace the url ``.../mapr/....`` with ``.../mapr/gene/?value=ab&query=true``
+  - click onto Next in the centre of the central panel to load the second page
+  - click onto "2" in the centre of the central panel to load the second page
+  - |C| that the elements of the lef-hand side tree in the second page work as expected (tree expands, thumbs appear in central and RHP gets populated as expected.)
+
+#. |C| that when you multiselect Screens, the tab order in RHP is the same for single [:ref:`Mapr001`] as well as 
+    multiselections. Also check that all the annotations on the single screens are visible in the multiselection mode right-hand pane. 
+
+
+**Section 2: Performance test**
+
+#. Performance test will need to concentrate on the caching (going to the same page several times when cached and not cached, playing with 2 different browsers and trying to "put the UI off" by making actions in one browser and trying to catch up in another browser with the action.
+
+|
+|
+|
+|
+
+.. _Mapr001:
+.. figure:: /images/testing_scenarios/Mapr/001.png
+   :align: center
+
+   Mapr001
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
+.. _Mapr002:
+.. figure:: /images/testing_scenarios/Mapr/002.png
+   :align: center
+
+   Mapr002
+
+
+.. _compound_not_expected:
+.. figure:: /images/testing_scenarios/Mapr/compound_not_expected.png
+   :align: center
+
+   compound_not_expected
+
+
+.. _compound_expected:
+.. figure:: /images/testing_scenarios/Mapr/compound_expected.png
+   :align: center
+
+   compound_expected
+
+
+.. _gene_supplementary:
+.. figure:: /images/testing_scenarios/Mapr/gene_supplementary.png
+   :align: center
+
+   gene_supplementary
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
