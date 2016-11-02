@@ -77,7 +77,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 
 **Section 2: Performance test**
 
-#. Performance test will need to concentrate on the caching (going to the same page several times when cached and not cached, playing with 2 different browsers and trying to "put the UI off" by making actions in one browser and trying to catch up in another browser with the action.
+#. Performance test will need to concentrate on the caching (going to the same page several times when cached and not cached, playing with 2 different tabs (in your browser) and trying to "put the UI off" by making actions in one tab and trying to catch up in another tab with the action.
 
 
 |
