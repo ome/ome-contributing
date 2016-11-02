@@ -21,8 +21,6 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
   - select a well in central pane
   - expand the "Gene" harmonica in right-hand pane
   - |C| that the ``Gene`` tab has two tables for Gene, ``Gene`` and ``Gene Supplementary``, see [:ref:`gene_supplementary`]
-  - ask Ola if solely idr-demo-test-server/webclient/?show=well-67070 works or what
-  - idr-demo-test-server/webclient/?show=image-2865237 works too
 
 #. Check pagination in central pane 
 
