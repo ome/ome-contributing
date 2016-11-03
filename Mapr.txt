@@ -71,10 +71,12 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 
 #. Pagination on query. Checking the pagination of the left-hand panel.
 
+  - note that it is fairly unprobable that you will find a paginated left-hand panel just by randomly browsing through the screens/plates, use the example below or adjust this example
   - in your browser line go to ``idr-demo-test-server/mapr/gene/?value=ab&query=true``
+  - |C| that the top node in the tree ("Gene") is selected as shown in [:ref:`pagination_left-hand_tree`]
   - click onto Next in the centre of the central panel to load the second page
   - click onto "2" in the centre of the central panel to load the second page
-  - |C| that the elements of the lef-hand side tree in the second page work as expected (tree expands, thumbs appear in central and RHP gets populated as expected.)
+  - |C| that the elements of the lef-hand side tree in the second page work as expected (tree expands, thumbs appear in central and right-hand pane gets populated as expected.)
 
 #. |C| that when you multiselect Screens, the harmonica tab order in right-hand pane is the same for single [:ref:`Mapr002`] as well as multiselections [:ref:`Mapr001`]. Also check that all the annotations on the single screens are visible in the multiselection mode in the right-hand pane. 
 
@@ -230,6 +232,35 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 |
 |
+|
+|
+|
+|
+
+.. _pagination_left-hand_tree:
+.. figure:: /images/testing_scenarios/Mapr/pagination_left-hand_tree.png
+   :align: center
+
+   pagination_left-hand_tree
+
+
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+
 
 
 
