@@ -19,36 +19,40 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
   - go to ``Studies`` tab and open a study
   - navigate in the tree down to wells
   - select a well in central pane
-  - expand the "Gene" harmonica in right-hand pane
-  - |C| that the ``Gene`` tab has two tables for Gene, ``Gene`` and ``Gene Supplementary``, see [:ref:`gene_supplementary`]
+  - expand the "Attributes" harmonica in right-hand pane
+  - |C| that there are two MapAnnotations for ``Gene`` topic, ``Gene`` and ``Gene Supplementary``, see [:ref:`gene_supplementary`]
 
 #. Check pagination in central pane 
 
   - click onto the "Organism" tab and type "h" in the filter box above the left-hand tree
+  - wait, this can take a few seconds before the dropdown menu appears
   - find and confirm "Homo sapiens" in the dropdown menu
   - wait till the UI refreshes
-  - you should be at ``idr-demo-test-server/webclient/?show=organism-Homo%20sapiens`` url
+  - expand any, but not the first Screen
+  - expand any, but not the first Plate in the Screen
+  - wait till central pane is populated with images thumbnails
   - click onto Next in the centre of the central panel to load the second page
   - being with the cursor on the left-hand pane tree, use the down arrow key on keyboard to switch between screens and plates and |C| that the central pane and right-hand pane update correspondingly
-  - |C| the correspondence precisely in the region of the end of the first page and beginning of the second page
+  - try also multiselections in central pane and left-hand tree
+  - |C| that the selections and multi-selections in central and left-hand panes select the corresponding objects in left-hand tree and central pane. Also keep checking the right-hand pane loading and synchronicity with your actions in the left/central panes. Concentrate especially to the region of the end of the first page and beginning of the second page.
 
 #. Check type across multiple studies
 
-  - use alternatively one of the two methonds to find a Gene
+  - Use both of the two following methods to find a Gene:
 
     - go to Genes tab and filter and choose a gene 
-    - navigate to a plate (not first plate of first screen) and well (not first well) and click into the Gene symbol in right-hand pane
+    - navigate to a plate (not first plate or first screen) and well (not first well) and click into the Gene symbol in right-hand pane
 
-  - once you select the Gene
+  - once you select the Gene you should see something similar to this example [:ref:`tree_numbers`]
   - |C| that gene is loaded in right hand panel (appropriate MapAnnotation(s) will appear)
-  - |C| that the first number in the Gene name in the tree signifies the number of images(23 in the screenshot), the second number is the number of screens/projects which contain images with this gene (4 in the screenshot) [:ref:`tree_numbers`].
+  - |C| that the first number in the Gene name in the tree signifies the number of images (23 in the example screenshot [:ref:`tree_numbers`]), the second number is the number of screens/projects which contain images with this gene (4 in the example screenshot [:ref:`tree_numbers`]).
   - |C| that there are no two MapAnnotations containing exactly the samee values in right-hand pane. 
   - |C| that all the displayed MapAnnotations in the right-hand pane are unique, by hovering over them and checking their ID in the tooltip.
   - Repeat search for different genes and checks of the numbers in the tree and the MapAnnotations in RHP as indicated, until you have found and checked three cases
 
-      - Gene with Screens only
-      - Gene with Projects only
-      - Gene with both Screens and Projects
+    - Gene with Screens only
+    - Gene with Projects only
+    - Gene with both Screens and Projects
   
   - Repeat the "Check type accross multiple studies" steps for types: Phenotype, siRNA, Compound, Organism instead of Gene
 
@@ -72,7 +76,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
   - click onto "2" in the centre of the central panel to load the second page
   - |C| that the elements of the lef-hand side tree in the second page work as expected (tree expands, thumbs appear in central and RHP gets populated as expected.)
 
-#. |C| that when you multiselect Screens, the tab order in right-hand pane is the same for single [:ref:`Mapr001`] as well as multiselections. Also check that all the annotations on the single screens are visible in the multiselection mode in the right-hand pane. 
+#. |C| that when you multiselect Screens, the harmonica tab order in right-hand pane is the same for single [:ref:`Mapr002`] as well as multiselections [:ref:`Mapr001`]. Also check that all the annotations on the single screens are visible in the multiselection mode in the right-hand pane. 
 
 
 **Section 2: Performance test**
