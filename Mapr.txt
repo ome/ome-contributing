@@ -25,8 +25,9 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 #. Check pagination in central pane 
 
    - click onto the "Organism" tab and type "h" in the filter box above the left-hand tree
+   - |C| that spinning wheel is present (It can happen though that the dropdown menu shows immediately, with no spinning wheel appearing.)
    - wait, this can take a few seconds before the dropdown menu appears
-   - find and confirm "Homo sapiens" in the dropdown menu
+   - find and click "Homo sapiens" in the dropdown menu
    - wait till the UI refreshes
    - expand any, but not the first Screen
    - expand any, but not the first Plate in the Screen
