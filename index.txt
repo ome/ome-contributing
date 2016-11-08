@@ -45,6 +45,7 @@ Testing scenarios
    InsightasPluginImageJFiji
    LdapTesting
    MapAnnotations
+   Mapr
    MemoFile
    MetadataDisplay
    MoveDataBetwGroups
