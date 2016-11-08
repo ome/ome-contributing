@@ -115,3 +115,34 @@ Testing Label Images
 
 Please investigate whether these scenarios play out correctly (i.e. there is a warning asking you to open the non-rendered image in Insight or Web first). Note that it may take a LONG time for a very large image to appear, so don’t assume too quickly that it has crashed.
 
+
+Testing Intensity Measurement tool
+==================================
+
+Prerequisites:
+    - Some small number of images (multi-Z, multi-C, not ‘large images’) across some number of datasets/projects
+    - Rectangular, multi-Z ROIs encompassing some object in the images (e.g. a cell)
+    
+      - ROIs can be produced via BoxIt or the measurement tool in Insight
+      - ROIs can be distributed as single ROI or multiple ROIs per image
+
+#.  Launch mtools and enter the user credentials. Click on ‘Intensity Measure’ and select the correct working group when the dialogue appears. The main programme window will appear. 
+#.  From the ‘File’ menu click ‘Choose Datasets’
+#.  In the Dataset Chooser dialogue use the drop-down control to select a project. The datasets will be listed in the left-hand ‘Datasets:’ list. Select a dataset and click the ‘+’ button to add it to the ‘Datasets to analyse:’ list on the right-hand side.
+#.  Repeat step 3 to add all of the desired datasets, from whichever projects are necessary, containing the images from the ‘Prerequisites’ section.
+#.  Incorrect datasets can be removed from the analysis list by highlighting and clicking the ‘-‘ button. The whole list can be cleared by clicking the ‘x’ button.
+#.  Once all of the datasets have been selected, click the ‘ok’ button. The programme will now go through each selected dataset and find all of the images containing rectangular ROIs.
+#.  Focus will now return to the main programme window. After a few seconds a thumbnail of the first image will appear in the left-hand viewer with the first ROI drawn in green. After a few more seconds the right-hand viewer will display an example of the default ‘Otsu’ segmentation of the first channel in the image.
+#.  The channel for segmentation can be changed in the drop-down box in the top-centre panel. The right-hand viewer will update with the new segmentation. Choosing ‘Separate Objects’ and clicking ‘Preview Segmentation’ will update the image again, with a different grey-scale representation of each object.
+#.  The segmentation algorithm used can be changed in the bottom-middle panel. ‘Otsu’ is the default. Other methods can be chosen here and you must click the ‘Preview Segmentation’ button the see the results of this. For ‘Absolute threshold’ you can use the horizontal slider under the right-hand viewer to adjust the threshold value or enter a value in the text box between the viewers. Again, click ‘Preview Segmentation’ to see the results. An adaptive threshold of ‘ROI mean + x * standard dev.’ can be adjusted by entering a number in the text box.
+#. Small objects can be filtered out by specifying a ‘Min object size’ in the text box between the viewers, and the mask can be expanded in the same way. Click ‘Preview Segmentation’ to see the results of this.
+#. Choose one or more channels to measure by ticking the boxes in the bottom-left panel. There are two columns for each channel in the image: ‘Measure directly’ takes intensity values directly under the segmentation mask for the chosen channels. ‘Measure around’ takes intensity values that are not under the mask. There is an optional tick box, ‘Use x pixels annulus with y pixel gap’, for constraining the ‘around’ measurement to only x pixels in width close to the mask with a y pixel gap.
+#. Once segmentation parameters have been chosen, the effect on another image from the selected datasets can be assessed. Use the ‘Select Image:’ drop-down at the top-left of the programme window. This will load the image chosen and perform the segmentation.
+#. The ‘Verify Z-sections’ tick box will generate a potentially time-consuming workflow, depending on the number of images/ROIs chosen for analysis. Leave this unticked for now, we can cover it later.
+#. The ‘Save masks to server’ tick box will save a new mask image for each intensity image back into the relevant datasets.
+#. Once all settings have been chosen, click the ‘ok’ button. A progress bar window will appear and increment as the programme analyses each of the images in the queue.
+#. When the analysis has completed you will be prompted to save a local copy of the spreadsheets/csv files. Choose a location and change the name of the file if desired.
+#. After several seconds the ‘attachResults’ dialogue will appear. Select one or more projects/datasets and click ‘Attach to Selected’. This will upload a copy of the data files to the server and link them to the selected objects. Success can be confirmed in insight. This will end the workflow and return you to the initial menu window.
+
+If attaching the results to projects/datasets is not required, click the ‘Cancel’ button. A confirmation dialogue will appear. Clicking ‘No’ will allow you to select projects/datasets again. Clicking ‘Yes’ will end the workflow and return you to the initial menu window
+
