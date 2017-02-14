@@ -2,6 +2,11 @@ Insight as Plugin ImageJ/Fiji
 ==============================
 
 
+.. note::
+  This scenario is for OMERO 5.3.x. If you want to test against OMERO
+  5.2.x, use the last released Bio-Formats 5.1 artifacts from
+  http://downloads.openmicroscopy.org/latest/bio-formats5.1/.
+
 
 **To test in**: ImageJ, Fiji
 
@@ -26,7 +31,7 @@ Note: You can download ImageJ2 from http://developer.imagej.net/downloads.
 
    
 
-#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from CI (https://ci.openmicroscopy.org/job/BIOFORMATS-5.1-merge-build/) in case you are testing a Bio-formats PR.
+#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from CI (https://ci.openmicroscopy.org/job/BIOFORMATS-DEV-merge-build/) in case you are testing a Bio-formats PR.
 
    
 
