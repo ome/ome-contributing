@@ -1,6 +1,7 @@
 Virtual Machine Testing
 =============================
 
+**No longer supported - OMERO 5.2.1 is the last version released**
 
 **To test in**: Virtual Box - OVA, Insight
 
@@ -8,7 +9,7 @@ Virtual Machine Testing
 
 
 **Documentation for working with the Virtual Appliance is to be found
-:omerodoc:`here <users/virtual-appliance.html>`:**
+in the** `OMERO 5.2 docs <https://www.openmicroscopy.org/site/support/omero5.2/users/virtual-appliance.html>`_:
 
 **You should also be aware that the OVA is ~1.1GB so if you are testing from home it might be worth downloading the OVA from the office before heading out, (up to 2 hours if less than 200Kb/sec)**
 
