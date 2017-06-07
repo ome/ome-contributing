@@ -16,7 +16,7 @@
 
       $ bin/omero login root@hostname:port -w root_password
 
-   and all the login commands may require a :option:`-p PORT` option, e.g.::
+   and all the login commands may require a ``-p PORT`` option, e.g.::
 
       $ bin/omero login -C -p 14064 -u secvuln_empty -w ome
 
