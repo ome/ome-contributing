@@ -189,11 +189,17 @@ OMERO Virtual Appliance
    - |C| that Insight and Web start okay and you can login successfully.
    - |C| that you can import and then open a small image (any small image will do).
 
-Bio-Formats MATLAB toolbox
-============================================================
+Bio-Formats MATLAB/Octave
+=========================
 
-#. Install the Bio-Formats MATLAB toolbox following the instructions
-   :bf_doc:`here <users/matlab>`.
+.. warning::
+  Milestone or SNAPSHOT versions cannot be tested using the version of GNU
+  Octave installed by the Ubuntu 16.04 package manager (4.0.x).
+
+**MATLAB**
+
+#. Install the Bio-Formats MATLAB toolbox following
+   the instructions :bf_doc:`here <users/matlab>`.
 
 #. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
    Alternatively, use any small image on your local disk or on squig.
@@ -210,6 +216,23 @@ Bio-Formats MATLAB toolbox
 #. Reopen the image using the same commands as previously.
 
    - |C| that the amount of logging increases in the MATLAB command prompt.
+
+**GNU Octave (Docker)**
+
+#. Clone https://github.com/openmicroscopy/bio-formats-octave-docker, update
+   the ``VERSION`` argument and build the Docker image::
+
+     $ docker build -t bio-formats-octave  .
+
+#. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
+   Alternatively, use any small image on your local disk or on squig.
+
+#. Run the :file:`travis_test.m` on the image e.g.::
+
+     $ docker run -ti -v /data/:/data/ bio-formats-octave travis_test.m /data/tubhiswt-2D/tubhiswt_C0.ome.tif
+
+   - |C| that the image opens as expected.
+   - |C| that the amount of logging increases in the second execution
 
 Bio-Formats: bioformats_package.jar and loci_tools.jar
 ============================================================
