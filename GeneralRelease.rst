@@ -194,12 +194,18 @@ Bio-Formats MATLAB/Octave
 
 .. warning::
   Milestone or SNAPSHOT versions cannot be tested using the version of GNU
-  Octave installed by the Ubuntu 16.04 package manager (4.0.x).
+  Octave installed by the Ubuntu 16.04 package manager (4.0.x) as only versions
+  of the format x.y.z are accepted by the implementation
+  (https://wiki.octave.org/OEP:pkg#version_definition).
 
-**MATLAB**
+**System installation**
 
-#. Install the Bio-Formats MATLAB toolbox following
-   the instructions :bf_doc:`here <users/matlab>`.
+#. Install MATLAB or GNU Octave on your operating system using the appropriate
+   downloads or package manager.
+
+#. Install the Bio-Formats MATLAB toolbox or the GNU Octave package following
+   the instructions :bf_doc:`here <users/matlab>` or
+   :bf_doc:`here <users/octave>`.
 
 #. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
    Alternatively, use any small image on your local disk or on squig.
@@ -217,7 +223,7 @@ Bio-Formats MATLAB/Octave
 
    - |C| that the amount of logging increases in the MATLAB command prompt.
 
-**GNU Octave (Docker)**
+**Docker (GNU Octave only)**
 
 #. Clone https://github.com/openmicroscopy/bio-formats-octave-docker, update
    the ``VERSION`` argument and build the Docker image::
