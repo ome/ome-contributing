@@ -203,9 +203,8 @@ Bio-Formats MATLAB/Octave
 #. Install MATLAB or GNU Octave on your operating system using the appropriate
    downloads or package manager.
 
-#. Install the Bio-Formats MATLAB toolbox or the GNU Octave package following
-   the instructions :bf_doc:`here <users/matlab>` or
-   :bf_doc:`here <users/octave>`.
+#. Install the :bf_doc:`Bio-Formats MATLAB toolbox <users/matlab>` or the
+   :bf_doc:`Bio-Formats Octave package <users/octave>`.
 
 #. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
    Alternatively, use any small image on your local disk or on squig.
@@ -238,7 +237,7 @@ Bio-Formats MATLAB/Octave
      $ docker run -ti -v /data/:/data/ bio-formats-octave travis_test.m /data/tubhiswt-2D/tubhiswt_C0.ome.tif
 
    - |C| that the image opens as expected.
-   - |C| that the amount of logging increases in the second execution
+   - |C| that the amount of logging increases in the second execution.
 
 Bio-Formats: bioformats_package.jar and loci_tools.jar
 ============================================================
