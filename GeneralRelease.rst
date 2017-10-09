@@ -13,7 +13,7 @@ General Release
 
 
 
-OMERO.clients:
+OMERO.clients
 ============================================================
 
 #. Download and open the application and login as any user
