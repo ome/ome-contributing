@@ -18,9 +18,8 @@ OMERO.clients:
 
 #. Download and open the application and login as any user
 
-   - (all platforms) start with the Ice35-clients version (the one on the front Downloads page with nice icon to it).
-   - (5.1.x Mac only) |C| both the Java6 and Java 7+ versions from the Downloads page, using Java 1.6 for the Java6 version.
-   - (all platforms) |C| all Ice versions of OMERO.insight*.zip files in artifacts page.
+   - (all platforms) |C| a version with nice icon from the front Downloads page.
+   - (all platforms) |C| other Ice versions of OMERO.insight*.zip files on artifacts page.
    - (all platforms) |C| one of the OMERO.importer*.zip files on artifacts page
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
    - (all platforms) |C| that the application starts and you can log in.
