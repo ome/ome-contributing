@@ -17,7 +17,7 @@ displayed results should be identical in both clients.
  
 .. seealso::
 
-     `Luke <https://code.google.com/p/luke/>`_
+     `Luke <https://code.google.com/archive/p/luke/>`_
         a Java application which you can download and point at your ``/OMERO/FullText`` directory to get a better feeling for Lucene queries. Download ``lukeall-3.5.0.jar`` and do ``java -jar lukeall-3.5.0.jar -ro -index /OMERO/FullText/``.
 
 
