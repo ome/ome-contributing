@@ -41,10 +41,6 @@ Import CLI
    
    - |C| the image has been imported into the right dataset
 
-#. (non-FS only) Try archiving images at import (use -a) - e.g. ``import -a ~/Desktop/dv/CFPNEAT01_R3D.dv``
-
-   - |C| the image has been imported and archived.
-
 #. Import a nested folder containing Screen/Plate/Well files
 
 #. Execute each of these commands twice, once with an image and once with a plate, replacing the ``<image_or_plate>`` with the file name of a valid image or plate. 
