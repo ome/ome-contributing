@@ -120,6 +120,13 @@ Saving files to OMERO
    - |C| that "Don't Save" results in the loss of your unsaved changes.
    - |C| that "Save" does save the changes, when you return to the new figure (using File > Open).
 
+#. Test renaming figures in the top toolbar.
+
+   - Open a new figure, add a panel and edit the figure name by clicking where name usually appears.
+   - |C| that name is displayed when Enter is pressed or field loses focus.
+   - |C| that when figure is saved, suggested name is already filled in "Enter Figure Name" dialog.
+   - |C| that File > Open shows correct name in files list.
+   - |C| that renaming figure again & Save updates the name in the File > Open list
 
 **Additional tests below are for less critical features**
 
@@ -136,10 +143,11 @@ Saving files to OMERO
    - |C| that clicking on a Figure name opens the figure.
    - |C| that there is a name of the Figure which is on display above the canvas.
 
-#. Check that exported PDFs are linked to images they contain. Export a PDF of a figure. Click image urls in the PDF to open in webclient.
+#. Check that exported figures are linked to images they contain. Export a PDF or TIFF of a figure. Click image urls in the PDF to open in webclient.
 
    - |C| that these images are annotated with the PDF.
    - |C| that the PDF also contains a link to the figure url itself.
+   - |C| that export to New OMERO Image creates a new image, and link appears when export is done.
 
 
 Layout of image panels, paper setup
@@ -193,10 +201,12 @@ Layout of image panels, paper setup
    - |C| that changing the number of pages updates the figure.
    - |C| that changing the page size updates pages in the figure.
    - |C| that changing Orientation switches the width and height corretly.
+   - |C| that choosing Size > crop page... crops page to fit panels and will reduce multi-page figures to single page. 
+   - |C| that setting the page color works as expected.
 
-#. Finally, export to PDF
+#. Finally, export to PDF & TIFF
    - |C| that layout corresponds to web UI.
-   - |C| that each page of multi-page figure has correct panels, labels & scalebars.
+   - |C| that each page of multi-page figure has correct panels, page color, labels & scalebars.
 
 
 Preview Tab - Z/T and rendering
@@ -249,8 +259,11 @@ Preview Tab - Z/T and rendering
    - |C| that channels can be turned on and off by clicking toggle buttons.
    - |C| that Preview viewer and selected panel images are updated.
    - |C| that Channel color can be changed via drop-down button beside toggle buttons.
+   - |C| that *Invert* option works in the channel color drop-down.
    - |C| that Color-picker option launches color-picker and this works OK.
+   - |C| that Lookup tables work as expected.
    - |C| that Channel sliders behave as expected & update viewer and panel on stop.
+   - |C| that you can enter numbers into the Channel start/end fields and slider updates accoringly.
 
 #. Select multiple images with the same channel count.
 
@@ -273,6 +286,10 @@ Preview Tab - Z/T and rendering
 #. Select multiple images with different channel counts.
 
    - |C| that channel toggle buttons and channel sliders are not shown.
+
+#. Finally, export to PDF & TIFF
+   - |C| that layout corresponds to web UI, rendering settings, LUTs, Invert etc look right.
+   - |C| that each page of multi-page figure has correct panels, labels & scalebars.
 
 
 Preview Tab - Zoom, pan & rotation
@@ -321,7 +338,7 @@ Preview Tab - Zoom, pan & rotation
    - |C| that update to rotation syncronises rotation in selected panels.
    - |C| that dragging on viewer image pans to same spot for all selected panels.
 
-#. Finally, export to PDF to check that it looks same
+#. Finally, export to PDF & TIFF to check that it looks same
 
 
 Labels Tab
@@ -367,11 +384,13 @@ Labels Tab
    - |C| that color-picker works for picking label color.
    - |C| that adding a white label outside the panel creates a Black label.
    - |C| that multiple labels added to a single position are stacked in rows.
+   - |C| that markdown syntax works for italic and bold fonts in labels.
 
 #. Test creating labels from metadata to one or more panels. Select 'Image Name' from the drop-down option under 'Label' field.
 
    - |C| that new label is created with Image name.
    - |C| that new label can also be created with 'Dataset Name'.
+   - |C| that 'Tags' option creates new labels from Tags on each selected image.
 
 #. Create new labels from 'Channels' option.
 
@@ -390,7 +409,7 @@ Labels Tab
    - |C| that editing all labels update labels on selected panels.
    - |C| that Time-stamp labels can be updated for Size, Color & Position without affecting time shown.
 
-#. Finally, export to PDF to check that all labels and scalebars looks same as in web.
+#. Finally, export to PDF & TIFF to check that all labels and scalebars looks same as in web.
 
    - |C| that the PDF includes a note about the length of scalebars in the figure.
    - |C| that scalebar labels appear the same in the PDF as in the web figure.
@@ -412,7 +431,17 @@ ROIs
    - |C| that selected shapes can be copied, pasted & deleted using Edit menu or keyboard shortcuts.
    - |C| that clicking OK closes the dialog and updates the figure with shapes.
 
+#. Test loading ROIs from OMERO by clicking *Load ROIs* in ROIs dialog, using a multi-plane image with a number of different ROI shapes on it (Ellipse, Rectangle, Line, Arrow, Polyline, Polygon).
+
+   - |C| that *Load ROIs* button is disabled if image has no ROIs in OMERO.
+   - |C| that clicking buttong loads and displays ROIs from OMERO.
+   - |C| that hovering over each Shape shows it temporarily on the image.
+   - |C| that clicking on a Shape in the list moves the image to the corresponding Z/T index.
+   - |C| that clicking Add adds the shape to the image and selects it.
+   - |C| that saving figure and refreshing correctly reloads all shapes.
+
 #. Copy & Paste ROIs.
+
    - Draw some ROIs in the ROI dialog, OK to close.
    - |C| that the number of ROIs in selected panels is shown at top of Labels tab.
    - |C| that you can now copy all the ROIs on the panel with the Copy button.
@@ -421,24 +450,28 @@ ROIs
    - |C| that you can use the Colour and Line width choosers on the ROI controls on the Labels tab to apply chosen colour or line width to all shapes in selected panels.
 
 #. Copy & Paste crop region.
+
    - |C| that the View x, y, width height update in the Preview tab when you zoom and pan the viewport.
    - |C| that you can copy the crop region and paste onto another panel / panels.
    - |C| that multiple selected panels with different view regions show '-' for x, y, width, height.
    - |C| that the "Crop" button launches the crop dialog and the "Reset" button reverts to uncropped panel.
 
 #. Copy ROIs Rectangle -> Crop region.
+
    - Duplicate a panel by copying and pasting the panel
    - Copy a single Rectangle on the first panel by opening the ROI viewer, selecting/drawing a rectangle and 'Copy'.
    - |C| that clicking Paste in the Preview tab crops the other panel.
    - |C| that crop region matches the region highlighted by the rectangle in first panel.
 
 #. Copy Crop region -> Rectangle.
+
    - Again, copy and paste a panel to duplicate and zoom and pan one panel to chosen viewport.
    - Copy the view region by clicking Copy in the View section of the Preview tab, select the other panel and click Paste under the ROI header of Labels tab.
    - |C| that a new Rectangle ROI is created and this corresponds to the viewport region of the other panel.
    - |C| that you can then update the colour / line width of this rectangle using the ROI color & line width controls.
 
 #. Crop dialog using regions from Clipboard or ROIs on the image
+
    - Copy some ROIs (including Rectangle(s)) to the clipboard.
    - Open the Crop dialog (green button) on an image that has some Rectangular ROIs drawn on it.
    - |C| that you can pick regions from the clipboard or from ROIs on the image and use these to crop the image.
@@ -465,21 +498,27 @@ Info Tab
    - |C| that x, y, width, height are shown only if same in all panels.
    - |C| that DPI is shown only if same in all panels.
 
+#. Test Open-with with one or more images selected.
+   - |C| that single image can be opened in Webclient and Image viewer (and iviewer if installed).
+   - |C| that multiple selected images can be opened in Webclient (both selected if in same Dataset) and iviewer.
+
 #. Test Editing the ID for multiple panels. Copy & paste panels to create multiple panels from the same Image.
 
    - |C| that 'Edit ID' button is only enabled if all selected panels are same ID.
-
-#. Click "Show in webclient" and pick another similar image in webclient. Note ID. Select multiple panels with same ID and click 'Edit ID'. Enter new image ID.
-
+   - Pick another similar image in webclient. Note ID. Select multiple panels with same ID and click 'Edit ID'. Enter new image ID.
    - |C| that 'Preview' is only enabled when valid ID is entered.
    - |C| that clicking 'Preview' displays new image thumbnail and other metadata.
    - |C| that Green/Red flags are shown where x, y, z, c, t matches.
    - |C| that warning are shown below in Red if new image has fewer timepoints / channels than selected panels.
    - |C| that other mismatches are shown as Green messages.
-
-#. Click 'Update' to replace selected panels with new image.
-
+   - Click 'Update' to replace selected panels with new image.
    - |C| that Time-points and Channels are preserved but Z-indecies are not.
+
+#. Test setting the panel x, y, width & height on a multi-page figure.
+   - |C| that x and y coordinates apply to the page that the panel is on.
+   - |C| that setting x & y for muliple panels on different pages works as expected.
+   - |C| that setting width and height of panels works.
+   - |C| that the aspect ratio can be preserved by clicking to link width & height.
 
 #. Test the display and update of panel resolution (dpi).
 
@@ -487,7 +526,7 @@ Info Tab
    - |C| that the "Set dpi" button allows you to choose a dpi for export in the pop-up and that this is displayed.
    - |C| that you can remove the export dpi with the X button.
 
-#. Finally, export to PDF to check that it looks same as web UI.
+#. Finally, export to PDF & TIFF to check that it looks same as web UI.
 
    - |C| that the panels with a 300 dpi resolution set for them appear less pixelated than equivalent panels.
 
