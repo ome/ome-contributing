@@ -39,11 +39,7 @@ Saving files to OMERO
 
 **Test that saved figures are not lost**
 
-#. Copy some image URLs or the IDs in the webclient, then click onto Figure link. This will open OMERO.figure in a new tab.
-
-#. Answer "Create New File" in the popup and paste the URL or the ID of the image you noted in previous step into the new window which pops up.
-
-#. Confirm by pressing ``Add images`` button.
+#. Select images in the webclient -> Open with (in tree OR right panel) -> OMERO.figure. This will open OMERO.figure in a new tab, adding the images to the figure. Try to include big images in the various testing scenarios.
 
    - |C| that the 'Save' button becomes enabled, indicating you have an unsaved figure.
 
@@ -56,7 +52,7 @@ Saving files to OMERO
 
    - |C| that after login, you are redirected to the saved figure.
 
-#. Make another change to 'Figure1' and Save. Goto File > New. Add an Image and Save 'Figure2'.
+#. Make another change to 'Figure1' and Save. Goto File > New. Add an Image (copy image URL from webclient and paste into the Add Images dialog) and Save 'Figure2'.
 
    - |C| that no popup messages asked you to save.
    - |C| that File > Open > Figure1 shows your latest changes to Figure1 (no 'save' popups)
@@ -288,12 +284,15 @@ Preview Tab - Z/T and rendering
    - |C| that channel toggle buttons and channel sliders are not shown.
 
 #. Finally, export to PDF & TIFF
+
    - |C| that layout corresponds to web UI, rendering settings, LUTs, Invert etc look right.
    - |C| that each page of multi-page figure has correct panels, labels & scalebars.
 
 
 Preview Tab - Zoom, pan & rotation
 ============================================================
+
+#. All behaviours below need to be tested on Big (tiled) images and small images.
 
 #. Test behaviour of Zoom and Pan. Select a panel.
 
@@ -302,18 +301,19 @@ Preview Tab - Zoom, pan & rotation
    - |C| that dragging the viewer image pans the viewer.
    - |C| that when dragging ends, the selected panel updates too.
    - |C| that Zooming back out to 100% resets the panning to zero offset.
+   - |C| that max zoom level is appropriate for images of different sizes.
 
 #. Test cropping to region. Select one or more panels and click the crop button below zoom slider.
 
-   - |C| that a dialog opens showing image at current Z/T.
+   - |C| that a dialog opens showing image at current Z/T with the current crop region shown.
    - |C| that a region can be drawn on the image by click & drag.
    - |C| that the region can be manipulated by dragging corner or side handles or the whole region.
    - |C| that clicking OK crops the selected panels to the chosen region, keeping within existing boundaries.
    - |C| that clicking Reset button restores the shape of the panel to the shape of the image and sets Zoom at 100%.
 
-#. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs. Select several panels from the same Timepoint. Click crop button.
+#. Test crop to ROI. Choose a timelapse image that has multiple Rectangular ROIs in OMERO. Select several panels from the same Timepoint. Click crop button.
 
-   - |C| that the crop dialog shows Rectangle ROIs with Z & T indices.
+   - |C| that the crop dialog loads and shows Rectangle ROIs from OMERO with Z & T indices.
    - |C| that clicking ROIs shows them in the dialog viewer, updating to the correct Z/T plane.
    - |C| that choosing a single-Rectangle ROI updates all seleced panels to the shape of the selected ROI
      and to the Z & T indices on which this ROI is drawn.
@@ -438,6 +438,7 @@ ROIs
    - |C| that hovering over each Shape shows it temporarily on the image.
    - |C| that clicking on a Shape in the list moves the image to the corresponding Z/T index.
    - |C| that clicking Add adds the shape to the image and selects it.
+   - |C| that added shapes can be edited (drag, resize, color, line-width) including Polyline & Polygon.
    - |C| that saving figure and refreshing correctly reloads all shapes.
 
 #. Copy & Paste ROIs.
@@ -478,6 +479,11 @@ ROIs
    - |C| that if you are cropping an image that has ROIs on it, you are asked if you want to remove these ROIs when you crop it.
    - |C| that clicking Yes, No or Cancel on this dialog has the expected effect.
 
+#. Finally, export to PDF & TIFF to check that ROIs look same as in web UI.
+
+   - |C| that rotated images have ROIs showing in correct location on export.
+   - |C| that multi-page figures have ROIs in correct location on all pages.
+
 
 Info Tab
 ============================================================
@@ -499,6 +505,7 @@ Info Tab
    - |C| that DPI is shown only if same in all panels.
 
 #. Test Open-with with one or more images selected.
+
    - |C| that single image can be opened in Webclient and Image viewer (and iviewer if installed).
    - |C| that multiple selected images can be opened in Webclient (both selected if in same Dataset) and iviewer.
 
@@ -515,6 +522,7 @@ Info Tab
    - |C| that Time-points and Channels are preserved but Z-indecies are not.
 
 #. Test setting the panel x, y, width & height on a multi-page figure.
+
    - |C| that x and y coordinates apply to the page that the panel is on.
    - |C| that setting x & y for muliple panels on different pages works as expected.
    - |C| that setting width and height of panels works.
@@ -523,12 +531,16 @@ Info Tab
 #. Test the display and update of panel resolution (dpi).
 
    - |C| that the 'dpi' is displayed for each panel and updates when zoomed or resized.
-   - |C| that the "Set dpi" button allows you to choose a dpi for export in the pop-up and that this is displayed.
-   - |C| that you can remove the export dpi with the X button.
+   - |C| that the "Set dpi" button allows you to choose a min and max dpi for export in the pop-up.
+   - |C| that you can change the max dpi (a valid number is required) but setting min dpi is optional.
+   - |C| that if the export dpi is shown in the Info tab if different from the default dpi.
+   - |C| that you can remove the minimum export dpi with the X button.
+   - |C| that if the export dpi is expected to be > 300 that the image appears interpolated, not pixelated.
 
 #. Finally, export to PDF & TIFF to check that it looks same as web UI.
 
-   - |C| that the panels with a 300 dpi resolution set for them appear less pixelated than equivalent panels.
+   - |C| that dpi is as expected in exported PDFs using Adobe Illustrator and http://swainhart.org/how-to-check-the-dpi-of-an-image-in-adobe-illustrator-cs5/.
+   - |C| that export 'with images' includes extra folders with images that have been interpolated (this will be all images for TIFF export)
 
 
 Export Options
