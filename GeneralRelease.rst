@@ -93,7 +93,7 @@ OMERO Virtual Appliance
 
 #. This section is only valid for testing versions prior to 5.2.2.
 
-#. Follow the `Virtual Appliance docs <https://www.openmicroscopy.org/site/support/omero5.2/users/virtual-appliance.html>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box.
+#. Follow the `Virtual Appliance docs <https://docs.openmicroscopy.org/latest/omero5.2/users/virtual-appliance.html>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box.
 
 #. Start OMERO.insight and OMERO.web as described in the docs and try to login.
 
