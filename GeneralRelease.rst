@@ -18,7 +18,6 @@ OMERO.clients
 
 #. Download and open the application and login as any user
 
-   - (all platforms) |C| a version with nice icon from the front Downloads page.
    - (all platforms) |C| other Ice versions of OMERO.insight*.zip files on artifacts page.
    - (all platforms) |C| one of the OMERO.importer*.zip files on artifacts page
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
