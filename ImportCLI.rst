@@ -121,7 +121,23 @@ Import CLI
 
 
 
+**Section 4: Bulk import**
 
+#. Prepare a .tsv file. This should be at least two columns where the first column is the name of the target Dataset and the second is the path to the file to import, such as https://github.com/IDR/idr-metadata/blob/master/idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA-filePaths.tsv. 
+
+#. Prepare an experiment-specific xxx-experimentZ-bulk.yml file. This file should specify the columns in the .tsv file and have the path to the overall bulk file. The xxx-experimentZ-bulk.yml file example see https://github.com/IDR/idr-metadata/blob/master/idr0021-lawo-pericentriolarmaterial/experimentA/idr0021-experimentA-bulk.yml. 
+
+#. Prepare an overall bulk file. This file should specify among others whether or not this is an in-place import, exclusion of already imported files, and the columns in the .tsv. The columns in the .tsv will be overridden by the experiment-specific xxx-experimentZ-bulk.yml file. The example can be https://github.com/IDR/idr-metadata/blob/master/bulk.yml.
+
+#. Prepare the data on the server you are testing so that they can be imported in-place. The path to the data must correspond with the paths stated in the .tsv file.
+
+#. Run bulk import "omero import --bulk idr0032-experimentA-bulk.yml"
+
+#. |C| that the newly created Datasets or Plates in OMERO and their content correspond to the specification in the .tsv file.
+
+#. |C| that the import finished successfully.
+
+#. Repeat the workflow for a .tsv specifying Plates, such as https://github.com/IDR/idr-metadata/blob/master/idr0020-barr-chtog/screenA/idr0020-screenA-plates.tsv.
 
 
 
