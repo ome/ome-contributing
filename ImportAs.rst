@@ -9,8 +9,7 @@ only)
 **Purpose of the test** is to check the import of data for other users.
 
 
-NB: Only Administrators can import data for other users (**NO Import As** is 
-permitted in **private** group though). When importing the data for another 
+NB: Only Administrators can import data for other users. When importing the data for another
 user, permission to put these data into a **third party** P/D/S depends on the permission levels of the user for whom the data is being 
 imported ( = the owner of the data).
 
@@ -132,7 +131,7 @@ imported ( = the owner of the data).
 
    - Switch to private group in Import Location window and |C| that you can 
      put your data to your own P/Ds on import.
-   - Switch to all other groups (read-only, read-annotate, read-write) and |C| 
+   - Switch to all other groups (private, read-only, read-annotate, read-write) and |C|
      that you can put your data to other users P/Ds according to 
      permissions (see the ``Mix data`` row in :omerodoc:`here 
      <sysadmins/server-permissions.html>`.)
