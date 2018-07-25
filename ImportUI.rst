@@ -29,8 +29,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 #. After any finished import in this scenario, in the Importer Window (perform these checks briefly for each import but for one import of your choice thoroughly):
 
-   - |C| that thumbnail(s) is(are) created - should always be the case in OMERO 5. Note that in OMERO 4 the thumbs show in Importer only if the [:ref:`ImportUI012`] has been ticked.
-   - (OMERO 4 only) |C| that when you hover over thumbnail(s), a larger thumbnail view pops up [:ref:`ImportUI012b`].
+   - |C| that thumbnail(s) is(are) created.
    - |C| that clicking on the thumbnail(s) opens the image in Viewer. In case of a multi-image file [:ref:`ImportUI013b`], click on every thumbnail in the row.
    - |C| the ``View`` menu: [:ref:`ImportUI013c`].
 
@@ -40,7 +39,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      
        - |C| that the Log file is not truncated, i.e. it ends with line like ``2014-05-05 08:55:07,349 INFO o.s.blitz.repo.ManagedImportRequestI Finalizing log file.``
 
-     - (OMERO 5 only) |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`] 
+     - |C| that the ``Checksum`` item opens the checksum popup [:ref:`ImportUI013d`, :ref:`ImportUI013e`]
 
 #. Import the folder 
    ``data_repo/test_images_broken/broken_images_scenario/`` into a non-
@@ -93,7 +92,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      - |C| that the first harmonica tab is ``Companion files`` (NOT ``Original Metadata``)
      - Expand the ``Companion file`` harmonica tab and check the file is there
 
-#. (OMERO 5 only) Upload.
+#. Upload.
 
    - import several images in one transaction, making sure you have images with long ``processing`` times, for example ``data_repo/test_images_good/leica-lif/free edge 6.lif`` or other ``.lif`` files
    - |C| that the import of the files in the queue starts immediately after the upload of the previous file is finished
@@ -103,7 +102,7 @@ NB: **Data Manager** == **The main window of Insight UI**
    
    - Cancel a single running import using the ``Cancel`` button.
    - |C| that only this particular import has been cancelled
-   - (OMERO 5 only) Cancel all imports using the ``Cancel All`` button
+   - Cancel all imports using the ``Cancel All`` button
    - |C| that all the imports where the upload did not start yet are cancelled
    - |C| that after everything is imported or cancelled the spinners stop both 
      in Importer and Data Manager.
@@ -165,7 +164,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 
-#. (OMERO 5 only) Error reporting in all import stages.
+#. Error reporting in all import stages.
 
    - Failure at scanning stage: Import ``test_images_bad/Mike.dv`` and 
 
