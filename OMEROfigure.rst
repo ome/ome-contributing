@@ -139,7 +139,7 @@ Saving files to OMERO
    - |C| that clicking on a Figure name opens the figure.
    - |C| that there is a name of the Figure which is on display above the canvas.
 
-#. Check that exported figures are linked to images they contain. Export a PDF or TIFF of a figure. Click image urls in the PDF to open in webclient.
+#. Check that exported PDF or TIFFs are linked to images they contain. Export a PDF or TIFF of a figure. Click image urls in the PDF to open in webclient.
 
    - |C| that these images are annotated with the PDF.
    - |C| that the PDF also contains a link to the figure url itself.
@@ -434,7 +434,7 @@ ROIs
 #. Test loading ROIs from OMERO by clicking *Load ROIs* in ROIs dialog, using a multi-plane image with a number of different ROI shapes on it (Ellipse, Rectangle, Line, Arrow, Polyline, Polygon).
 
    - |C| that *Load ROIs* button is disabled if image has no ROIs in OMERO.
-   - |C| that clicking buttong loads and displays ROIs from OMERO.
+   - |C| that clicking button loads and displays ROIs from OMERO.
    - |C| that hovering over each Shape shows it temporarily on the image.
    - |C| that clicking on a Shape in the list moves the image to the corresponding Z/T index.
    - |C| that clicking Add adds the shape to the image and selects it.
@@ -540,7 +540,7 @@ Info Tab
 #. Finally, export to PDF & TIFF to check that it looks same as web UI.
 
    - |C| that dpi is as expected in exported PDFs using Adobe Illustrator and http://swainhart.org/how-to-check-the-dpi-of-an-image-in-adobe-illustrator-cs5/.
-   - |C| that export 'with images' includes extra folders with images that have been interpolated (this will be all images for TIFF export)
+   - |C| that export 'with images' includes extra folders with images that have been interpolated (this will be all images for TIFF export).
 
 
 Export Options
