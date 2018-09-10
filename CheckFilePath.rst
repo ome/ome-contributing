@@ -28,7 +28,7 @@ Check Filepath (FS)
    - Move the mouse over this in-place import icon and |C| that the tooltip stays open long enough for a comfortable read [:ref:`CheckFilePath006`]. 
    - |C| that clicking on ``Show file paths`` inside this tooltip will show the same as clicking on ``Show file paths...`` in the toolbar [:ref:`CheckFilePath004`].
 
-#. Repeat steps 1, 2 and 3 with multi-image file, like `test_images_good/lei/050118.lei`.
+#. Repeat steps 1, 2 and 3 with multi-image file, like `test_images_good/lei/leica-original/050118.lei`.
 
 
 

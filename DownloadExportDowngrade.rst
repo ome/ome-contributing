@@ -59,7 +59,7 @@ OMERO 4 Download/Export images
          - Re-import the image: import in Insight, but check in Web as well.
          - |C| Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
-    - Import an image composed of several files, e.g. `test_images_good/lei/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only).
+    - Import an image composed of several files, e.g. `test_images_good/lei/leica-original/050118.lei` - tick the "Archive" option after putting it into the Queue [:ref:`DownloadED009`] (Insight only).
 
          - Select the download option on the right-hand side.
          - Download the image - a zip will be created [:ref:`DownloadED013b`].
@@ -88,7 +88,7 @@ OMERO 5 Download/Export images (perform on OMERO 5 server with OMERO 5 imported 
          - Re-import the image.(import in Insight, but check in Web as well)
          - Compare the image originally imported and the re-imported image (check also the metadata) [:ref:`DownloadED013`].
 
-    - OMERO 5-multi-image - repeat the "OMERO 5-Single image" step importing a multi-image file (e.g. `test_images_good/lei/050118.lei`). 
+    - OMERO 5-multi-image - repeat the "OMERO 5-Single image" step importing a multi-image file (e.g. `test_images_good/lei/leica-original/050118.lei`).
         
          - |C| that the whole multi-image fileset (MIF) has been downloaded. See [:ref:`DownloadED013p`]. 
 
@@ -932,7 +932,7 @@ Command line download
 	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013p.png
 	   :align: center
 
-	   example of `test_images_good/lei/050118.lei` when 1st image only was selected.
+	   example of `test_images_good/lei/leica-original/050118.lei` when 1st image only was selected.
 
 
 	|

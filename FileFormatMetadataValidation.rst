@@ -9,7 +9,7 @@ File Format Metadata Validation
 **Prerequisites** open the following metadata excel spreadsheets:
 
    ``test_images_good/leica-lif/Original Metadata - free edge 6.xls``
-   ``test_images_good/lei/Original Metadata - 050118_07-01-a_ch00.xls``
+   ``test_images_good/lei/leica-original/Original Metadata - 050118_07-01-a_ch00.xls``
    ``test_images_good/zeiss-lsm/Original Metadata - 2chZT.xls``
    ``test_images_good/sis/glen/Original Metadata - CG 3.31 10K.xls``
 

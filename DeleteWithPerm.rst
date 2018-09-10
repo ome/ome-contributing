@@ -25,7 +25,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 #. Find or import an image rich in metadata e.g. ``data_repo/test_images_metadata/zeiss-zvi/6ch-Z-stack_deconvolved.zvi`` and delete it.
 
-#. Find or import a multi-image fileset (= MIF, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete. 
+#. Find or import a multi-image fileset (= MIF, for example ``test_images_good/lei/leica-original/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and press Delete.
    
    - |C| that the action does not proceed [:ref:`Delete009`, :ref:`Delete010`].
    - NB: You cannot delete just a part of a MIF, you have to select the whole MIF in order for the action to go through.

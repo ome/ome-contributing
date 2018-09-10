@@ -115,7 +115,7 @@ NB: **Data Manager** == **The main window of Insight UI**
      Insight can Quit normally.
 
    - |C| that when importing multi-images-fileset (MIF) 
-     ``test_images_good/lei/050118.lei`` you can Cancel both during   
+     ``test_images_good/lei/leica-original/050118.lei`` you can Cancel both during
      ``scanning`` and ``preparing upload`` phases
 
 #. Tag at import (for permissions testing, tag with tags belonging to other users)
