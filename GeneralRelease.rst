@@ -18,7 +18,6 @@ OMERO.clients
 
 #. Download and open the application and login as any user
 
-   - (all platforms) |C| a version with nice icon from the front Downloads page.
    - (all platforms) |C| other Ice versions of OMERO.insight*.zip files on artifacts page.
    - (all platforms) |C| one of the OMERO.importer*.zip files on artifacts page
    - (Windows only) |C| that there is no "exe4j" popup prior to Insight splashscreen.
@@ -93,7 +92,7 @@ OMERO Virtual Appliance
 
 #. This section is only valid for testing versions prior to 5.2.2.
 
-#. Follow the `Virtual Appliance docs <https://www.openmicroscopy.org/site/support/omero5.2/users/virtual-appliance.html>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box.
+#. Follow the `Virtual Appliance docs <https://docs.openmicroscopy.org/latest/omero5.2/users/virtual-appliance.html>`_ to get the Virtual Appliance started - skip the steps as appropriate in case you have already installed Virtual Box.
 
 #. Start OMERO.insight and OMERO.web as described in the docs and try to login.
 

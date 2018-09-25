@@ -360,7 +360,7 @@ Labels Tab
    - |C| that unchecking / rechecking 'Label' checkbox hides and shows the label.
    - |C| that moving scalebar to top left or right of panel shifts label below the scalebar.
 
-#. Test units display and conversion. You need an image that has different units for pixel size. See https://www.openmicroscopy.org/site/support/omero5.1/developers/Python.html#create-image and look for "Set the pixel size using units" for how to edit this.
+#. Test units display and conversion. You need an image that has different units for pixel size. See https://docs.openmicroscopy.org/latest/omero/developers/Python.html#create-image and look for "Set the pixel size using units" for how to edit this.
 
    - |C| that the unit of pixel size is shown in the scalebar dialog.
    - |C| that the unit is also shown on scalebar labels.

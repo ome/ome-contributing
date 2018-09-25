@@ -42,7 +42,7 @@ Setup
 
 #. For platform builds **only**, you will need to have the C++ prerequisites
    installed on your system in order to do the testing - see the
-   `OME Files documentation <https://www.openmicroscopy.org/site/support/ome-files-cpp/ome-cmake-superbuild/manual/html/prerequisites.html>`_ for more
+   `OME Files documentation <https://docs.openmicroscopy.org/latest/ome-files-cpp/ome-cmake-superbuild/manual/html/prerequisites.html>`_ for more
    information.
 
 Tests

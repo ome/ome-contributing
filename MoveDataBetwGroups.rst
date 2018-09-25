@@ -53,7 +53,7 @@ Move Data between Groups
 
 
 
-#. Find a multi-image fileset (= MIF, should be imported for you, but if not, for example ``test_images_good/lei/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and try to Move it. 
+#. Find a multi-image fileset (= MIF, should be imported for you, but if not, for example ``test_images_good/lei/leica-original/050118.lei`` or ``data_repo/test_images_metadata/leica-lif/Rosier.lif``). Choose one image of the MIF only and try to Move it.
 
    - NB: You cannot Move just a part of a MIF, you have to select the whole MIF or use "Move All" buton in order for the action to go through.
    - |C| that the action does not proceed and a warning popup appears [:ref:`MoveData007`, :ref:`MoveData008`]
