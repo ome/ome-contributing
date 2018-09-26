@@ -285,7 +285,7 @@ Preview Tab - Z/T and rendering
 
 #. Finally, export to PDF and TIFF
 
-   - |C| that layout corresponds to web UI, rendering settings, LUTs, Invert etc. look right.
+   - |C| that layout corresponds to web UI and check that rendering settings, LUTs, Invert etc. look right.
    - |C| that each page of multi-page figure has correct panels, labels and scalebars.
 
 
