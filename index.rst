@@ -50,6 +50,7 @@ Testing scenarios
    MetadataDisplay
    MoveDataBetwGroups
    OmeroDataDirFiles
+   OMEROdownloader
    OMEROfigure
    OMEROmtools
    OMEROsearcher
