@@ -4,8 +4,7 @@ OMERO.downloader
 Preparation
 -----------
 
-To minimize typing
-make a helpful alias like::
+To minimize typing make a helpful alias like::
 
   $ cd omero-downloader/
   $ mvn package
