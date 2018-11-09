@@ -56,6 +56,18 @@ This scenario assumes that typing :command:`omero` without any prefix
 suffices for your shell to locate the OMERO.cli Python executable.
 
 
+Follow symbolic links
+^^^^^^^^^^^^^^^^^^^^^
+
+Some test steps use :command:`ls -l` for exploring symbolic links. You
+may find :command:`realpath` helpful for checking to where a symbolic
+link (symlink) ultimately links. This command is provided as part of GNU
+coreutils. BSD users may prefer to use :command:`readlink` but the
+analogous command-line option depends on the BSD variant. Mac users may
+find it easiest to simply install coreutils, e.g., :command:`brew
+install coreutils` then use :command:`grealpath`.
+
+
 Working directory
 ^^^^^^^^^^^^^^^^^
 
