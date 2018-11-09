@@ -524,8 +524,8 @@ OMERO.downloader should be able fetch from outside the current group.
 For example, try adding a `-g <group-name>` option to the `login` in
 some of the above workflows. One could even adjust the `-u` and `-w`
 options in the "download" shell alias, and adjust the options given to
-:command:`omero login`, to have an administrator try to download
-data that a normal user has in a private group. Try a couple of
-different types of download with the various `-f` options from the
-workflows to |c| that any kind of data can be fetched from any group
-that the download user can read.
+:command:`omero login`, to have an administrator try to download data
+that a normal user has in a private group. Try a couple of different
+types of download with the various `-f` options from the workflows to
+|c| that any kind of data can be fetched from any group that the
+download user can read.
