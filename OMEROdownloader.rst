@@ -283,6 +283,9 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     download -f ome-xml $JPEG_IMAGE
 
+   For the `-f` option `ome-xml` is simply shorthand for
+   `ome-xml-parts,ome-xml-whole`, options you used above.
+
 #. |c| that the XML fragments are again just as before after running the
    `ome-xml-parts` download.
 
