@@ -4,6 +4,9 @@ OMERO.downloader
 Preparation
 -----------
 
+Downloader
+^^^^^^^^^^
+
 To minimize typing make a helpful alias like::
 
   $ cd omero-downloader/
@@ -22,14 +25,26 @@ test steps assume that something like that shell alias has been set.
 options in the alias definition according to how you log in to your
 OMERO server.
 
+
+Bio-Formats
+^^^^^^^^^^^
+
 This scenario assumes that the `Bio-Formats command-line tools
 <https://downloads.openmicroscopy.org/latest/bio-formats/artifacts/bftools.zip>`_
 are available locally.
+
+
+XML formatter
+^^^^^^^^^^^^^
 
 It helps for some optional steps to have a reasonable OME-XML formatter
 or editor. Here I shall assume that :command:`xmllint` is available: it
 is easily installed as part of ``libxml2``. Feel free to substitute for
 any other such tool.
+
+
+OMERO.cli
+^^^^^^^^^
 
 For using the :command:`omero` executable you may find it convenient to
 add its ``bin`` directory to your search :envvar:`PATH`. Alternatively,
@@ -40,8 +55,14 @@ from your OMERO directory you could set another alias::
 This scenario assumes that typing :command:`omero` without any prefix
 suffices for your shell to locate the OMERO.cli Python executable.
 
+
+Working directory
+^^^^^^^^^^^^^^^^^
+
 With the environment variables and aliases set as above you can follow
-this scenario from any convenient working directory.
+this scenario from any convenient working directory. This flexibility
+may be helpful as you investigate the outcome of any particular step of
+the scenario.
 
 
 File downloads
