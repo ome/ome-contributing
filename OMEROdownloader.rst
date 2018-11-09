@@ -88,9 +88,10 @@ File downloads
 #. Download the image's binary file::
 
     download -f binary $DV_IMAGE
-    find "$TARGET_DIR" -name IAGFP-Noc01_R3D.dv -print
 
-#. |C| that three files are listed: for fileset, image and repository.
+#. |C| that three files are listed: for fileset, image and repository::
+
+    find "$TARGET_DIR" -name IAGFP-Noc01_R3D.dv -print
 
 #. |C| with :command:`ls -l` that the image file is a symlink to the
    fileset file.
