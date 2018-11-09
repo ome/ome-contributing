@@ -32,9 +32,16 @@ is easily installed as part of `libxml2`. Feel free to substitute for
 any other such tool.
 
 For using the :command:`omero` executable you may find it convenient to
-add its `bin` directory to your search :envvar:`PATH` or to run
-OMERO.cli commands from one terminal and explore the downloaded files
-from another.
+add its `bin` directory to your search :envvar:`PATH`. Alternatively,
+from your OMERO directory you could set another alias::
+
+  alias omero="`pwd`/bin/omero"
+
+This scenario assumes that typing :command:`omero` without any prefix
+suffices for your shell to locate the OMERO.cli Python executable.
+
+With the environment variables and aliases set as above you can follow
+this scenario from any convenient working directory.
 
 
 File downloads
@@ -42,8 +49,8 @@ File downloads
 
 #. Get the ID of an image that has a companion file::
 
-    bin/omero login
-    DV_IMAGE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/dv/IAGFP-Noc01_R3D.dv)
+    omero login
+    DV_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/dv/IAGFP-Noc01_R3D.dv)
 
 #. Download the image's binary file::
 
@@ -85,8 +92,8 @@ File downloads
 
 #. Get the ID of an image whose file is large::
 
-    bin/omero login
-    SCN_IMAGE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/leica-scn/mihaela/UCLAD_0000000280_2011-02-10\ 13_32_55Z.scn)
+    omero login
+    SCN_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/leica-scn/mihaela/UCLAD_0000000280_2011-02-10\ 13_32_55Z.scn)
 
    That import may take a few minutes so perhaps take a short break.
 
@@ -124,8 +131,8 @@ File exports
 
 #. Import a big image, e.g.::
 
-    bin/omero login
-    JPEG_IMAGE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/jpeg/4kx4k.jpg)
+    omero login
+    JPEG_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/jpeg/4kx4k.jpg)
 
 #. In a graphical client wait for the image's thumbnail to become available.
 
@@ -134,7 +141,7 @@ File exports
 
 #. Annotate one of the ROIs, e.g.::
 
-    bin/omero obj new RoiAnnotationLink parent=Roi:1234 child=TagAnnotation:567
+    omero obj new RoiAnnotationLink parent=Roi:1234 child=TagAnnotation:567
 
    to add tag ID 567 to ROI ID 1234.
 
@@ -298,8 +305,8 @@ Whole fileset
 
 #. Import a plate::
 
-    bin/omero login
-    INCELL_PLATE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/incell/Single\ plane\ no\ flatfield\ corr/)
+    omero login
+    INCELL_PLATE=$(omero import "$OME_DIR"/data_repo/test_images_good/incell/Single\ plane\ no\ flatfield\ corr/)
 
 #. Download its binary files::
 
@@ -351,8 +358,8 @@ Limit symbolic links
 
 #. Import a simple image::
 
-    bin/omero login
-    PNM_IMAGE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/pgm/pigfoot.pgm)
+    omero login
+    PNM_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/pgm/pigfoot.pgm)
 
 #. Download its binary files::
 
@@ -489,12 +496,12 @@ to supply a username and password. A session key should suffice:
 
 #. Obtain an OMERO session key::
 
-    bin/omero login
-    KEY=`bin/omero sessions key`
+    omero login
+    KEY=`omero sessions key`
 
 #. Import a simple image::
 
-    DICOM_IMAGE=$(bin/omero import "$OME_DIR"/data_repo/test_images_good/dicom/ankle.dcm)
+    DICOM_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/dicom/ankle.dcm)
 
 #. Download the image file using the session key::
 
@@ -517,7 +524,7 @@ OMERO.downloader should be able fetch from outside the current group.
 For example, try adding a `-g <group-name>` option to the `login` in
 some of the above workflows. One could even adjust the `-u` and `-w`
 options in the "download" shell alias, and adjust the options given to
-:command:`bin/omero login`, to have an administrator try to download
+:command:`omero login`, to have an administrator try to download
 data that a normal user has in a private group. Try a couple of
 different types of download with the various `-f` options from the
 workflows to |c| that any kind of data can be fetched from any group
