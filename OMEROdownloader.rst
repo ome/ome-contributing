@@ -28,11 +28,11 @@ are available locally.
 
 It helps for some optional steps to have a reasonable OME-XML formatter
 or editor. Here I shall assume that :command:`xmllint` is available: it
-is easily installed as part of `libxml2`. Feel free to substitute for
+is easily installed as part of ``libxml2``. Feel free to substitute for
 any other such tool.
 
 For using the :command:`omero` executable you may find it convenient to
-add its `bin` directory to your search :envvar:`PATH`. Alternatively,
+add its ``bin`` directory to your search :envvar:`PATH`. Alternatively,
 from your OMERO directory you could set another alias::
 
   alias omero="`pwd`/bin/omero"
@@ -74,7 +74,7 @@ File downloads
     find "$TARGET_DIR" -name IAGFP-Noc01_R3D.dv\* -print
 
 #. |C| that for the fileset and image directories, the binary file is in
-   a `Binary` directory and the log file in a `Companion` directory.
+   a ``Binary`` directory and the log file in a ``Companion`` directory.
 
 #. |C| that within the repository directory both files are in the same
    directory.
@@ -191,9 +191,9 @@ File exports
 
     tiffcomment 4kx4k.jpg.ome.tiff | xmllint -format -
 
-   #. |c| that at the top level is an `OME` element.
+   #. |c| that at the top level is an ``OME`` element.
 
-   #. |c| that the `Pixels` element contains `TiffData` elements.
+   #. |c| that the ``Pixels`` element contains ``TiffData`` elements.
 
    #. |c| that the image has annotation and ROI reference elements.
 
@@ -227,9 +227,10 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     xmllint -format `echo $JPEG_IMAGE | tr I: i-`.ome.xml
 
-   #. |c| that at the top level is an `Image` element.
+   #. |c| that at the top level is an ``Image`` element.
 
-   #. |c| that the `Pixels` element contains a `MetadataOnly` element.
+   #. |c| that the ``Pixels`` element contains a ``MetadataOnly``
+      element.
 
    #. |c| that the image has no annotation or ROI reference elements.
 
@@ -240,7 +241,8 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 #. |c| that these annotations and ROIs are the ones you expected.
    :command:`xmllint -format ...` can be used to inspect each.
 
-   #. |c| that their top-level element is `ROI` or some kind of annotation.
+   #. |c| that their top-level element is ``ROI`` or some kind of
+      annotation.
 
    #. |c| that their XML contains no reference elements.
 
@@ -262,9 +264,10 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     xmllint -format ../Export/`echo $JPEG_IMAGE | tr I: i-`.ome.xml
 
-   #. |c| that at the top level is an `OME` element.
+   #. |c| that at the top level is an ``OME`` element.
 
-   #. |c| that the `Pixels` element contains a `MetadataOnly` element.
+   #. |c| that the ``Pixels`` element contains a ``MetadataOnly``
+      element.
 
    #. |c| that the image has annotation and ROI reference elements.
 
@@ -276,21 +279,21 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     find "$TARGET_DIR" -name \*.xml -print -exec rm {} +
 
-   You may wish to first omit everything after the `-print` to check
+   You may wish to first omit everything after the ``-print`` to check
    what would be deleted.
 
 #. Run the combined parts-and-whole metadata export::
 
     download -f ome-xml $JPEG_IMAGE
 
-   For the `-f` option `ome-xml` is simply shorthand for
-   `ome-xml-parts,ome-xml-whole`, options you used above.
+   For the ``-f`` option ``ome-xml`` is simply shorthand for
+   ``ome-xml-parts,ome-xml-whole``, options you used above.
 
 #. |c| that the XML fragments are again just as before after running the
-   `ome-xml-parts` download.
+   ``ome-xml-parts`` download.
 
 #. |c| that the assembled OME-XML document is again just as before after
-   running the `ome-xml-whole` download.
+   running the ``ome-xml-whole`` download.
 
 #. Optionally, try deleting some subset of XML files and repeating the
    export to ensure that the download messages are as you would expect,
@@ -343,7 +346,7 @@ Whole fileset
 #. |c| that you see an "already assembled metadata for image" message
    for the image that you chose above.
 
-#. |c| that referencing the plate directly works the same as `-a`::
+#. |c| that referencing the plate directly works the same as ``-a``::
 
     download -f ome-xml $INCELL_PLATE
 
@@ -428,7 +431,7 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     find "$TARGET_DIR" -name \*.xml -print -exec rm {} +
 
-   You may wish to first omit everything after the `-print` to check
+   You may wish to first omit everything after the ``-print`` to check
    what would be deleted.
 
 #. Run the normal XML fragment download::
@@ -439,7 +442,8 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     find "$TARGET_DIR" -name \*.xml -print
 
-#. Assemble the XML document for that image, both with and without pixel data::
+#. Assemble the XML document for that image, both with and without pixel
+   data::
 
     download -f ome-tiff,ome-xml $JPEG_IMAGE
 
@@ -456,32 +460,32 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     rm -f *.ome.tiff *.ome.xml
 
-   This step is important because any change in the `-x` option will not
-   overwrite previous exports.
+   This step is important because any change in the ``-x`` option will
+   not overwrite previous exports.
 
-#. Repeat the above steps using fewer kinds of model object for the `-x`
-   option in the :command:`download`:
+#. Repeat the above steps using fewer kinds of model object for the
+   ``-x`` option in the :command:`download`:
 
-   * `-x image,roi`
-   * `-x image,annotation`
-   * `-x image`
+   * ``-x image,roi``
+   * ``-x image,annotation``
+   * ``-x image``
 
    #. |c| that ROIs and annotations are omitted from the XML accordingly.
 
    #. |c| that omission from assembled XML is regardless of if extra XML
-      fragments were downloaded in a previous `ome-xml-parts` step.
+      fragments were downloaded in a previous ``ome-xml-parts`` step.
 
-#. Repeat the above step using even fewer kinds of model object for the `-x`
-   option in the :command:`download`:
+#. Repeat the above step using even fewer kinds of model object for the
+   ``-x`` option in the :command:`download`:
 
-   * `-x roi,annotation`
-   * `-x roi`
+   * ``-x roi,annotation``
+   * ``-x roi``
 
    Note that the exported file for :command:`xmllint` will be found among::
 
     ls "$TARGET_DIR"/`echo $JPEG_IMAGE | tr : /`/Roi/*/Export/roi-*.ome.xml
 
-#. Do one more repetition for `-x annotation`.
+#. Do one more repetition for ``-x annotation``.
 
    Note that the exported files for :command:`xmllint` will be found among::
 
@@ -494,8 +498,8 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 Session login
 -------------
 
-The above suggested "download" shell alias uses the `-u`, `-w` options
-to supply a username and password. A session key should suffice:
+The above suggested "download" shell alias uses the ``-u``, ``-w``
+options to supply a username and password. A session key should suffice:
 
 #. Obtain an OMERO session key::
 
@@ -524,11 +528,11 @@ Other groups
 The above tests pay no mind to which images are in which groups:
 probably everything was done as the current user in their default group.
 OMERO.downloader should be able fetch from outside the current group.
-For example, try adding a `-g <group-name>` option to the `login` in
-some of the above workflows. One could even adjust the `-u` and `-w`
+For example, try adding a ``-g <group-name>`` option to the ``login`` in
+some of the above workflows. One could even adjust the ``-u`` and ``-w``
 options in the "download" shell alias, and adjust the options given to
 :command:`omero login`, to have an administrator try to download data
 that a normal user has in a private group. Try a couple of different
-types of download with the various `-f` options from the workflows to
+types of download with the various ``-f`` options from the workflows to
 |c| that any kind of data can be fetched from any group that the
 download user can read.
