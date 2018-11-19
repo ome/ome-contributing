@@ -142,7 +142,7 @@ File downloads
 #. Retry the download, |c| that the message is now "resuming download".
    Allow it to complete.
 
-#. Retry the download, |c| that the message is now "already download".
+#. Retry the download, |c| that the message is now "already downloaded".
    (If you used the above Leica file then you should have already seen
    this as its second image uses the same file.)
 
@@ -288,7 +288,7 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
 
     download -f ome-xml-whole $JPEG_IMAGE
 
-#. |c| that nothing mentioned writing anything as XML
+#. |c| that nothing mentioned writing anything as XML.
 
 #. |c| that the export directory now has an XML file in it::
 
