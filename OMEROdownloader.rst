@@ -333,7 +333,7 @@ prefer then you can use :file:`2kx2k.jpg` instead of the larger.
    export to ensure that the download messages are as you would expect,
    e.g.::
 
-    writing annotations as XML, need 3, already have 2... done
+    writing annotations as XML, need up to 3, already have 2... done
 
 
 Whole fileset
