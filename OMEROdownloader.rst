@@ -15,7 +15,7 @@ To minimize typing make a helpful alias like::
   $ export SOURCE_DIR="`pwd`" TARGET_DIR="/tmp/repo" OME_DIR="/ome"
   $ rm -fr "$TARGET_DIR"
   $ mkdir "$TARGET_DIR"
-  $ alias download="\"$SOURCE_DIR\"/download.sh -d \"$TARGET_DIR\" -s eel.openmicroscopy.org -u user-3 -w ome"
+  $ alias download="\"$SOURCE_DIR\"/download.sh -b \"$TARGET_DIR\" -s eel.openmicroscopy.org -u user-3 -w ome"
   $ cd
 
 :envvar:`SOURCE_DIR` is where your sources for OMERO.downloader are and
@@ -546,7 +546,7 @@ options to supply a username and password. A session key should suffice:
 
 #. Download the image file using the session key::
 
-    "$SOURCE_DIR"/download.sh -d "$TARGET_DIR" -s eel.openmicroscopy.org -k $KEY -f binary $DICOM_IMAGE
+    "$SOURCE_DIR"/download.sh -b "$TARGET_DIR" -s eel.openmicroscopy.org -k $KEY -f binary $DICOM_IMAGE
 
    As when you set the "download" shell alias adjust the server name for
    your OMERO server.
