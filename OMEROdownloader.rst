@@ -10,7 +10,7 @@ Downloader
 To minimize typing make a helpful alias like::
 
   $ cd omero-downloader/
-  $ mvn package
+  $ mvn
   ...
   $ export SOURCE_DIR="`pwd`" TARGET_DIR="/tmp/repo" OME_DIR="/ome"
   $ rm -fr "$TARGET_DIR"
