@@ -52,6 +52,7 @@ Testing scenarios
    OmeroDataDirFiles
    OMEROdownloader
    OMEROfigure
+   OMEROiviewer
    OMEROmtools
    OMEROsearcher
    Pixelservice
