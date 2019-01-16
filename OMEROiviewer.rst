@@ -5,7 +5,7 @@ OMERO.iviewer
 
 #. In the left hand column, note the images thumbnails.
 
-    - |C| that clicking on the arrows on the bottom of the column loads more images from the same dataset
+    - |C| that scrolling to the bottom of the column loads more images from the same dataset
     - |C| that the thumbs refresh correctly when changes to the dataset have been made
 
 #. In the settings pane, adjust the rendering settings and save them. Use histogram and LUTs. Scroll through Z or T on the image.
