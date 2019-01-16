@@ -37,9 +37,15 @@ OMERO.iviewer
 
     - |C| that after rotating the image, the arrow icon on top right of the central pane resets the image back to the 0 degree rotation
 
-#. Click on a ROI in the right-hand pane table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
+#. Click on a ROI in the right-hand pane ROI table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
 
-#. Select several ROIs from different Z planes. You can select in the table (Shift-click to select a range) but also in the image itself using Cmd-drag to select multiple ROIs.
+#. Select several ROIs from different Z planes in the ROI table. Shift-click to select a range, Cmd-click to select several ROIs.
+
+    - |C| that the selected ROIs are highlighted blue in the image and the ROI table.
+
+#. Select multiple ROIs in the image using Cmd-drag.
+
+    - |C| that the selected ROIs are highlighted blue in the image and the ROI table.
 
 #. Save the ROIs. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ROIs > Export (Excel). This will export the values from the selected ROIs.
 
