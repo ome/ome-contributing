@@ -16,7 +16,18 @@ OMERO.iviewer
 
 #. Click the Crosshairs icon  at the top-right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on. 
 
-#. |C| that the X, Y position of the mouse is indicated in the top right corner. Select the arrow tool in the right-hand pane  and draw an arrow on the Image, using Click-Move-Click (not drag), pointing to a feature in the Image and save it using the Save button located in the upper part of the right-hand pane. Draw also a couple of other ROIs on different Z planes.
+#. |C| that the X, Y position of the mouse is indicated in the top right corner.
+
+#. Select sequentially all the ROI tools (Ellipse, Line, Arrow, Polygon, Polyline, Point, Label) in the right-hand pane and draw each ROI on the Image, using Click-Move-Click (not drag) and Save them using Save button.
+
+#. Draw again all the ROI types but do not save them.
+
+#. Go back to each ROI you have drawn (both saved and unsaved) and try to Edit them by
+
+    - moving the ROI around
+    - changing the shape of the ROI (re-shaping it)
+
+#. Draw also a couple of other ROIs on different Z planes.
 
 #. Draw ROIs which are associated with a concrete z,t as well as ROIs which are "floating". To draw "floating" ROIs, unlock the lock to the right of the "Z" and "T" boxes above the toolbar of the ROI tab.
 
