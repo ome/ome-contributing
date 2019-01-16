@@ -42,7 +42,11 @@ OMERO.iviewer
 
 #. |C| the "fit to size" and "1:1" resizing buttons on the top left of central pane.
 
-#. Open a large image and |C| the birds eye view functionality.
+#. Test the birds eye view functionality and panning and zooming on
+
+    - Big, tiled image
+    - Large image (tiled in iviewer, but not in OMERO)
+    - Small image (not tiled in iviewer)
 
 #. Using Shift-drag, rotate the image (using selection tool) or draw “freehand” (polygon, polyline, rectangle and ellipse).
 
