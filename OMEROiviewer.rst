@@ -51,16 +51,16 @@ OMERO.iviewer
 
 #. Delete some ROIs. Note that the deletion of saved ROIs just highlights these as red in the ROI table. The deletion is executed only after the Save button has been clicked. The unsaved ROIs should disappear immediately from image and table after deletion. Try deleting using
 
-   - Delete key on keyboard
-   - Delete button in iviewer
-   - Main menu (ROIs > Delete)
+    - Delete key on keyboard
+    - Delete button in iviewer
+    - Main menu (ROIs > Delete)
 
 #. Save the viewport by selecting in the top-left corner File > Save Viewport as PNG.
 
 #. Compare the two channels of one of the Images in multi-image view:
 
-   - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
-   - Select sequentially both of the windows and in the right-hand pane in the Settings tab switch all channels except one (e.g. the green for one window, blue for the other window) off.
+    - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
+    - Select sequentially both of the windows and in the right-hand pane in the Settings tab switch all channels except one (e.g. the green for one window, blue for the other window) off.
 
 #. Synchronize the viewport windows by adding them both to the same sync Group. Select one window, click the sync icon in the top-left corner and select the first option (lock with number 1) in the dropdown menu. Repeat for the other window.
 
