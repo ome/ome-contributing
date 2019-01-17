@@ -102,10 +102,8 @@ OMERO.iviewer
     - ID of Shape
     - owner (first and last name)
 
-#. Masks can be created using script https://github.com/openmicroscopy/openmicroscopy/blob/142840f5e47720a7d46b84e5f06a5600496f5345/examples/Training/python/ROIs.py#L120.
+#. Masks can be created using `script <https://github.com/openmicroscopy/openmicroscopy/blob/142840f5e47720a7d46b84e5f06a5600496f5345/examples/Training/python/ROIs.py#L120>`_ or you can find a link to image with a mask in the testing sheet
 
-    - Find in the testing sheet the link to an image with a mask or
-    - Create a new mask on any image
-    - Open that image in iviewer and
+    - Open an image with a mask in iviewer and
     - |C| that you can see the mask in the ROI table (cannot be edited)
     - |C| that you can see the mask in the viewer on the image as red object (hide and show it alternately in the ROI table to be sure that you are viewing the mask)
