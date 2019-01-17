@@ -42,7 +42,7 @@ OMERO.iviewer
 
 #. |C| the "fit to size" and "1:1" resizing buttons on the top left of central pane.
 
-#. Test the birds eye view functionality and panning and zooming on
+#. Test the birds eye view functionality and panning and zooming on. Find links to images in the testing sheet or import them or similar images from indicated locations.
 
     - Big, tiled image, e.g. the ``[Series 1]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (sizes over 4000 x 4000 pixels, but can be configured, so choose a much larger image than the limit)
     - Large image (tiled in iviewer, but not in OMERO) (between 4000 x 4000 and 2000 x 2000 pixel size, e.g. 2477 x 3498 pixels)
@@ -101,3 +101,11 @@ OMERO.iviewer
     - ID of ROI
     - ID of Shape
     - owner (first and last name)
+
+#. Masks can be created using script https://github.com/openmicroscopy/openmicroscopy/blob/142840f5e47720a7d46b84e5f06a5600496f5345/examples/Training/python/ROIs.py#L120.
+
+    - Find in the testing sheet the link to an image with a mask or
+    - Create a new mask on any image
+    - Open that image in iviewer and
+    - |C| that you can see the mask in the ROI table (cannot be edited)
+    - |C| that you can see the mask in the viewer on the image as red object (hide and show it alternately in the ROI table to be sure that you are viewing the mask)
