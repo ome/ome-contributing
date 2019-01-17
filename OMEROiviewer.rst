@@ -44,9 +44,9 @@ OMERO.iviewer
 
 #. Test the birds eye view functionality and panning and zooming on
 
-    - Big, tiled image
-    - Large image (tiled in iviewer, but not in OMERO)
-    - Small image (not tiled in iviewer)
+    - Big, tiled image, e.g. the ``[Series 1]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (ca 17000 x 11000 pixels)
+    - Large image (tiled in iviewer, but not in OMERO) (ca 2477 x 3498 pixels)
+    - Small image (not tiled in iviewer), e.g. the ``[Series 2]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (ca 400 x 400 pixels)
 
 #. Using Shift-drag, rotate the image (using selection tool) or draw “freehand” (polygon, polyline, rectangle and ellipse).
 
