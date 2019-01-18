@@ -18,7 +18,7 @@ OMERO.iviewer
 
 #. |C| that the X, Y position of the mouse is indicated in the top right corner.
 
-#. Select sequentially all the ROI tools (Ellipse, Line, Arrow, Polygon, Polyline, Point, Label) in the right-hand pane and draw each ROI on the Image, using Click-Move-Click (not drag) and Save them using Save button.
+#. Select sequentially all the ROI tools (Rectangle, Ellipse, Line, Arrow, Polygon, Polyline, Point, Label) in the right-hand pane and draw each ROI on the Image, using Click-Move-Click (not drag) and Save them using Save button.
 
 #. Draw again all the ROI types but do not save them.
 
@@ -39,6 +39,7 @@ OMERO.iviewer
 
     - scrolling the mousewheel
     - using the controls on the top left of central pane
+    - using trackpad
 
 #. |C| the "fit to size" and "1:1" resizing buttons on the top left of central pane.
 
@@ -46,7 +47,7 @@ OMERO.iviewer
 
     - Big, tiled image, e.g. the ``[Series 1]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (sizes over 4000 x 4000 pixels, but can be configured, so choose a much larger image than the limit)
     - Large image (tiled in iviewer, but not in OMERO) (between 4000 x 4000 and 2000 x 2000 pixel size, e.g. 2477 x 3498 pixels)
-    - Small image (not tiled in iviewer), e.g. the ``[Series 2]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (less than 2000 x 2000 pixels)
+    - Small image (not tiled in iviewer), e.g. the ``[Series 2]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (less than 2000 x 2000 pixels). Note that you have to expand the birds eye first as it is collapsed by default for small images.
 
 #. Using Shift-drag, rotate the image (using selection tool) or draw “freehand” (polygon, polyline, rectangle and ellipse).
 
@@ -67,6 +68,7 @@ OMERO.iviewer
 #. Delete some ROIs. Note that the deletion of saved ROIs just highlights these as red in the ROI table. The deletion is executed only after the Save button has been clicked. The unsaved ROIs should disappear immediately from image and table after deletion. Try deleting using
 
     - Delete key on keyboard
+    - Backspace key on keyboard
     - Delete button in iviewer
     - Main menu (ROIs > Delete)
 
