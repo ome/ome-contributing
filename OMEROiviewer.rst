@@ -74,7 +74,7 @@ OMERO.iviewer
 
 #. Save the viewport by selecting in the top-left corner File > Save Viewport as PNG.
 
-#. Compare the two channels of one of the Images in multi-image view:
+#. Use a multi-z image for the two following steps. Compare the two channels of one of the Images in multi-image view:
 
     - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
     - Select sequentially both of the windows and in the right-hand pane in the Settings tab switch all channels except one (e.g. the green for one window, blue for the other window) off.
