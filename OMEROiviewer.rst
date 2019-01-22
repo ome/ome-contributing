@@ -6,15 +6,16 @@ OMERO.iviewer
 #. In the left hand column, note the images thumbnails.
 
     - |C| that scrolling to the bottom of the column loads more images from the same dataset or selection
-    - |C| that the thumbs refresh correctly when changes to the dataset have been made to the dataset or selection
+    - |C| that the thumbs refresh correctly when changes to the dataset or selection have been made
+
 
 #. In the settings pane, adjust the rendering settings and save them. Use histogram and LUTs. Scroll through Z or T on the image.
 
-#. |C| that the scalebar in the bottom left of the image, try to move it.
+#. |C| that the scalebar is in the bottom left of the image, try to move it.
 
-#. |C| that the full-screen button on the very top right of the central pane.
+#. |C| that the full-screen button is on the very top right of the central pane.
 
-#. Click the Crosshairs icon  at the top right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on.
+#. Click the Crosshairs icon at the top right of the viewer to enable the pixel intensity display for the mouse pointer. Then mouse over the Image to see the pixel intensities for the channels turned on.
 
 #. |C| that the X, Y position of the mouse is indicated in the top right corner.
 
