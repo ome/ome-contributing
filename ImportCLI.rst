@@ -167,7 +167,10 @@ Import CLI
 
 #. Repeat the last import again, and |C| that only the images which were deleted in OMERO in the previous step were imported. This means, you should have no duplicate imports in your datasets now. Also |C| that all the images specified in the ``filePaths.tsv`` are imported now.
 
-#. Repeat the workflow for a .tsv specifying Plates, such as https://github.com/IDR/idr-metadata/blob/master/idr0020-barr-chtog/screenA/idr0020-screenA-plates.tsv.
+#. Repeat the workflow for a .tsv specifying Plates, see such as in this IDR `example <https://github.com/IDR/idr-metadata/blob/master/idr0020-barr-chtog/screenA/idr0020-screenA-plates.tsv>`_
+
+#. Repeat the workflow for a .tsv specifying whole folders, instead of pointing to single images or Plates.
+
 
 
 
