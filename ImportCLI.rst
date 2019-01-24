@@ -121,6 +121,55 @@ Import CLI
 
 
 
+**Section 4: Bulk import**
+
+#. Prepare a ``filePaths.tsv`` file. This should be at least two columns where the first column can be the name of the target Dataset and the second is the path to the file to import. The columns are separated by Tab. For example:
+
+  ::
+
+      Dataset:name:Dataset-1  /Users/pwalczysko/Desktop/image1.png
+      Dataset:name:Dataset-1  /Users/pwalczysko/Desktop/iviewer.png
+      Dataset:name:Dataset-2  /Users/pwalczysko/Desktop/old_Full_viewer.png
+      Dataset:name:Dataset-2  /Users/pwalczysko/Desktop/image2.png
+
+#. Prepare a ``bulk.yml`` file. This file should specify whether or not this is an in-place import, exclusion of already imported files, and the columns in the .tsv. The example can be
+
+  ::
+
+      ---
+      continue: "true"
+      transfer: "ln_s"
+      exclude: "clientpath"
+      path: "filePaths.tsv"
+      checksum_algorithm: "File-Size-64"
+      logprefix: "logs/"
+      output: "yaml"
+      columns:
+          - target
+          - path
+
+
+
+
+#. Prepare the data on the server you are testing so that they can be imported in-place. The path to the data must correspond with the paths stated in the filePaths.tsv file.
+
+#. Run bulk import ``bin/omero import --bulk bulk.yml``
+
+#. |C| that the newly created Datasets in OMERO and their content correspond to the specification in the ``filePaths.tsv`` file.
+
+#. |C| that the import finished successfully and the images are imported in-place. This means the images have the ``Imported with --transfer=ln_s`` remark under the ``Show file paths on server`` icon in the clients.
+
+#. Comment out the ``transfer: "ln_s"`` line from your bulk.yml file and repeat the import.
+
+#. |C| that this time the images are not imported in-place. This means the images do not have the ``Imported with --transfer=ln_s`` remark under the ``Show file paths on server`` icon in the clients.
+
+#. In OMERO client, delete some (not all) of the imported images.
+
+#. Repeat the last import again, and |C| that only the images which were deleted in OMERO in the previous step were imported. This means, you should have no duplicate imports in your datasets now. Also |C| that all the images specified in the ``filePaths.tsv`` are imported now.
+
+#. Repeat the workflow for a .tsv specifying Plates, see such as in this IDR `example <https://github.com/IDR/idr-metadata/blob/master/idr0020-barr-chtog/screenA/idr0020-screenA-plates.tsv>`_
+
+#. Repeat the workflow for a .tsv specifying whole folders, instead of pointing to single images or Plates.
 
 
 
