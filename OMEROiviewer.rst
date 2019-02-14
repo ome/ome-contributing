@@ -89,6 +89,11 @@ OMERO.iviewer
 
 #. Save the viewport by selecting in the top left corner File > Save Viewport as PNG.
 
+#. Open multiple viewers by double-clicking on thumbnails or dragging them to centre panel
+
+    - |C| double-clicking opens the first 4 images in 2x2 grid, then randomly places others.
+    - |C| dragging a thumbnail to the centre opens in a new viewer (same as for double-clicking), unless dragged into an existing viewer window when it should replace the image.
+
 #. Use a multi-z image for the two following steps. Compare the two channels of one of the Images in multi-image view:
 
     - Double-click on the thumbnail of the already opened Image in the left-hand pane of the viewer. This will open the Image again in a new window.
