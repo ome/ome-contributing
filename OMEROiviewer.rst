@@ -3,6 +3,13 @@ OMERO.iviewer
 
 **To test in**: OMERO.iviewer
 
+#. With the OMERO.iviewer configured as the default viewer in webclient, adjust settings in Preview panel and then click "Full Viewer" to open iviewer.
+
+    - |C| that the rendering settings are in the URL and are respected (channels on/off, levels etc.).
+    - |C| that adding Zoom, X, Y, Z & T to URL are respected in big / multi-plane image as appropriate: e.g. ?zm=50&x=300&y=500&z=10&t=5
+
+#. In webclient, select multiple Images or a Dataset or Well and test "Open with > OMERO.iviewer".
+
 #. In the left hand column, note the images thumbnails.
 
     - |C| that scrolling to the bottom of the column loads more images from the same dataset or selection
@@ -54,17 +61,24 @@ OMERO.iviewer
 
     - |C| that after rotating the image, the arrow icon on top right of the central pane resets the image back to the 0 degree rotation.
 
-#. Click on a ROI in the right-hand pane ROI table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
+#. Click on each type of ROI in the right-hand pane ROI table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
 
 #. Select several ROIs from different Z planes in the ROI table. Shift-click to select a range, Cmd-click to select several ROIs.
 
     - |C| that the selected ROIs are highlighted in blue in the image and the ROI table.
+    - |C| that the table scrolls to show selected row.
 
 #. Select multiple ROIs in the image using Cmd-drag.
 
     - |C| that the selected ROIs are highlighted in blue in the image and the ROI table.
 
 #. Save the ROIs. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ROIs > Export (CSV). This will export the values from the selected ROIs.
+
+#. If possible, open a Big image and a multi-Z/T image with as many ROIs as possible.
+
+    - |C| that ROIs are paginated if more than 500 on any plane.
+    - |C| that ROIs are loaded for each plane viewed.
+    - |C| that new or edited ROIs are not lost when moving between Z/T/page: "Save first" dialog is shown.
 
 #. Delete some ROIs. Note that the deletion of saved ROIs just highlights these as red in the ROI table. The deletion is executed only after the Save button has been clicked. The unsaved ROIs should disappear immediately from image and table after deletion. Try deleting using
 
