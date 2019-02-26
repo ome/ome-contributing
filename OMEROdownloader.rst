@@ -235,6 +235,35 @@ File exports
 
    #. |c| that the referenced elements are present.
 
+#. Import a multi-Z,C,T image, e.g.::
+
+    omero login
+    LSM_IMAGE=$(omero import "$OME_DIR"/data_repo/test_images_good/zeiss-lsm/2chZT.lsm)
+
+#. Export both the TIFF and OME-TIFF versions of the image::
+
+    download -f tiff,ome-tiff $LSM_IMAGE
+
+#. Import both the exported images::
+
+    omero import "$TARGET_DIR"/`echo $LSM_IMAGE | tr : /`/Export/*.tiff
+
+#. |c| that ``2chZT.lsm``, ``2chZT.lsm.tiff``, ``2chZT.lsm.ome.tiff``
+   look the same in OMERO:
+
+   #. |c| that the three images' thumbnails look identical.
+
+   #. |c| by scrolling in Z and T that their plane order matches.
+
+#. |c| the channel names and exposure times from ``2chZT.lsm`` using
+   the 'Acquisition' tab:
+
+   #. |c| that they match those from ``2chZT.lsm.ome.tiff`` though
+      other metadata may be missing.
+
+   #. |c| that they are missing from ``2chZT.lsm.tiff`` which should
+      include little metadata overall.
+
 
 Fetching metadata
 -----------------
