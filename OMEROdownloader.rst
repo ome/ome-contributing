@@ -163,15 +163,6 @@ File downloads
 File exports
 ------------
 
-.. warning::
-
-    There is a bug with encoding the exported pixel data. The following
-    test steps pass *but* in general do not expect the exported images
-    to be readable. Exported OME-TIFF may seem to import correctly into
-    OMERO though pixel data may be available only if fully zoomed in.
-    The ``-f tiff,ome-tiff`` options are thus *not* reported among the
-    ``-h`` help text and this test scenario may be skipped.
-
 #. Import a big image, e.g.::
 
     omero login
