@@ -18,7 +18,7 @@ Insight as Plugin ImageJ/Fiji
 
 **ImageJ and ImageJ2**
 
-Note: You can download ImageJ2 from http://imagej.net/Downloads.
+Note: You can download ImageJ2 from https://imagej.net/Downloads.
 
 #. Add neither ``bioformats_package.jar`` nor ``loci_tools.jar`` to the Plugins folder of ImageJ (or ImageJ2). If it is there, remove it.
 
