@@ -149,14 +149,15 @@ Bio-Formats MATLAB/Octave
    - |C| that the image opens as expected.
    - |C| that the amount of logging increases in the second execution.
 
-Bio-Formats: bioformats_package.jar and loci_tools.jar
-============================================================
+Bio-Formats: ImageJ/Fiji testing
+================================
 
-**bioformats_package.jar testing**
+ImageJ
+------
 
-#. Use ImageJ for this ``bioformats_package.jar testing`` section, not Fiji.
+#. Use ImageJ for this section, not Fiji.
 
-#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
    - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu.
    - |C| that there is a ``Bio-Formats`` menu item under the ``Plugins`` menu.
@@ -183,13 +184,16 @@ Bio-Formats: bioformats_package.jar and loci_tools.jar
 
 #. (**post-release step**) |C| that you can execute the updates (Note that the release page has not been made public prior to the later release steps. This is why this step would cause an error when executed prior to Release Acceptance.)
 
-**loci_tools.jar testing**
+Fiji
+----
 
-#. Use Fiji for this ``loci_tools.jar testing`` section, not ImageJ.
+This testing assumes the release artifacts have been deployed to the
+`Bio-Formats update site <https://sites.imagej.net/Bio-Formats/>`_. If not,
 
-#. Go to the ``jars`` folder of your Fiji and delete ``jars/bio-formats/*`` (all jars under the ``bio-formats`` subfolder of the ``jars`` folder).
 
-#. Go to the ``plugins`` folder of your Fiji and delete ``bio-formats_plugins*.jar``. 
+#. Use Fiji for this section, not ImageJ.
+
+#. Activate the Bio-Formats update site :menuselection:`Help -> Update... -> Manage update sites` in addition to the Java-8 update site.
 
 #. Put the freshly downloaded ``loci_tools.jar`` into the plugins folder of Fiji and start Fiji.
 
