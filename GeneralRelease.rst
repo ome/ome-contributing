@@ -188,7 +188,7 @@ Fiji
 ----
 
 This testing assumes the release artifacts have been deployed to the
-`Bio-Formats update site <https://sites.imagej.net/Bio-Formats/>`_. If not,
+`Bio-Formats update site <https://sites.imagej.net/Bio-Formats/>`_.
 
 
 #. Use Fiji for this section, not ImageJ.
