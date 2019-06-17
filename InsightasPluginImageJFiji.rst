@@ -31,7 +31,7 @@ Note: You can download ImageJ2 from https://imagej.net/Downloads.
 
    
 
-#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from CI (https://ci.openmicroscopy.org/job/BIOFORMATS-DEV-merge-build/) in case you are testing a Bio-formats PR.
+#. (For non-release-day testing only.) Download ``bioformats_package.jar`` from :mergecijob:`CI <BIOFORMATS-build>` in case you are testing a Bio-formats PR.
 
    
 
