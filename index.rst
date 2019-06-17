@@ -23,7 +23,6 @@ Testing scenarios
    CommandLineInterfaceTesting
    ConnectionErrorHandling
    CopyCutPaste
-   CppClients
    Create
    DeAnnotateUnlink
    DeleteWithPerm
