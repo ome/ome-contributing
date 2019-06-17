@@ -61,9 +61,9 @@ Registering usage
      and download the packages.
 
    - to test the staging registry application, download the merge clients from
-     :jenkinsjob:`OMERO-DEV-merge-build` or
-     :jenkinsjob:`BIOFORMATS-DEV-merge-build`.
-     The CI :jenkinsjob:`OMERO-DEV-merge-deploy` server should also be
+     :mergecijob:`OMERO-build` or
+     :mergecijob:`BIOFORMATS-build`.
+     The CI :mergecijob:`OMERO-server` server should also be
      configured to point the staging registry.
 
 #. Test the various clients:
