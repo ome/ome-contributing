@@ -2,12 +2,6 @@ Insight as Plugin ImageJ/Fiji
 ==============================
 
 
-.. note::
-  This scenario is for OMERO 5.3.x. If you want to test against OMERO
-  5.2.x, use the last released Bio-Formats 5.1 artifacts from
-  http://downloads.openmicroscopy.org/latest/bio-formats5.1/.
-
-
 **To test in**: ImageJ, Fiji
 
 **Purpose of the test** is to check that the OMERO insight works as plugin for ImageJ/Fiji and the ``bioformats_package.jar`` or ``loci_tools.jar`` missing is not causing a crash.
