@@ -3,7 +3,7 @@ OMERO.iviewer
 
 **To test in**: OMERO.iviewer
 
-#. With the OMERO.iviewer configured as the default viewer in webclient, adjust settings in Preview panel and then click "Full Viewer" to open iviewer.
+#. With the OMERO.iviewer configured as the default viewer in webclient, adjust settings in Preview panel and then click "Full Viewer" to open iviewer. This should work the same both when you saved the settings in the Preview and when you did not save.
 
     - |C| that the rendering settings are in the URL and are respected (channels on/off, levels etc.).
     - |C| that adding Zoom, X, Y, Z & T to URL are respected in big / multi-plane image as appropriate: e.g. ?zm=50&x=300&y=500&z=10&t=5
