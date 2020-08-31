@@ -73,9 +73,9 @@ Scripts Client
 
 .. seealso::
 
-   :help:`User documentation for Running Export scripts <export.html>`
+   :help:`User documentation for Running Export scripts <download/en/latest/download.html>`
 
-   :help:`User documentation for Running utility scripts <scripts.html#utility>`
+   :help:`User documentation for Running utility scripts <scripts/en/latest/index.html>`
 
    :omerodoc:`Developer documentation for Scripts <developers/scripts/user-guide.html>`
 
