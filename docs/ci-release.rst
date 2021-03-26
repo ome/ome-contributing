@@ -39,7 +39,7 @@ Bio-Formats
 
         This job builds the Java downloads artifacts of Bio-Formats
 
-        #. Checks out the v:envvar:`RELEASE` tag of
+        #. Checks out the :envvar:`RELEASE` tag of
            https://github.com/ome/bioformats
         #. |buildBF|
         #. Downloads the documentation artifacts from OME artifactory
