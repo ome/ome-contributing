@@ -198,7 +198,7 @@ rst_epilog += """
 .. _scripts.git: https://github.com/ome/scripts
 .. _Sonatype: https://www.sonatype.com/
 ..  |merge| replace:: Merges PRs using :ref:`scc merge`
-..  |buildOMERO| replace:: Builds the OMERO.server and the clients using `OMERO.sh <docs/hudson/OMERO.sh>`
+..  |buildOMERO| replace:: Builds the OMERO.server and the clients using :omero_source: `OMERO.sh <docs/hudson/OMERO.sh>`
 ..  |archiveOMEROartifacts| replace:: Archives the build artifacts
 ..  |copyreleaseartifacts| replace:: Copies the build artifacts to a LDAP-protected folder under downloads.openmicroscopy.org
 ..  |promoteOMERO| replace:: copies the artifacts to necromancer
