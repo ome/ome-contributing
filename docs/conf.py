@@ -16,17 +16,31 @@
 import sys
 import os
 
+linkcheck_ignore = []
+extensions = ['sphinx.ext.extlinks']
 # Append the top level directory of the docs, so we can import from the
 # config dir.
-sys.path.insert(0, os.path.abspath('../common'))
-from conf import *
 
+# Variables used to define Github extlinks
+if "SOURCE_BRANCH" in os.environ and len(os.environ.get('SOURCE_BRANCH')) > 0:
+    branch = os.environ.get('SOURCE_BRANCH')
+else:
+    branch = 'develop'
+
+if "SOURCE_USER" in os.environ and len(os.environ.get('SOURCE_USER')) > 0:
+    user = os.environ.get('SOURCE_USER')
+else:
+    user = 'ome'
 
 # -- General configuration ----------------------------------------------------
 
 # General information about the project.
 project = u'OME Contributing Developer'
 title = project + u' Documentation'
+
+github_root = 'https://github.com/'
+omero_github_root = github_root + user + '/openmicroscopy/'
+bf_github_root = github_root + user + '/bioformats/'
 
 main_github_root = github_root + 'openmicroscopy'
 scc_github_root = github_root + 'snoopycrimecop'
@@ -37,8 +51,66 @@ bf_main_github_root = main_github_root + '/bioformats/'
 
 omero_subs_github_root = github_root + 'ome/omero-{}/{}/{}/%s'
 
-# OME contributing-specific extlinks
-contributing_extlinks = {
+# Variables used to define Jenkins extlinks (ci-master)
+jenkins_root = 'https://ci.openmicroscopy.org'
+jenkins_job_root = jenkins_root + '/job'
+jenkins_view_root = jenkins_root + '/view'
+
+# Variables used to define Jenkins extlinks (merge-ci)
+mergeci_root = 'https://merge-ci.openmicroscopy.org/jenkins'
+mergeci_job_root = mergeci_root + '/job'
+mergeci_view_root = mergeci_root + '/view'
+
+# Variables used to define other extlinks
+cvs_root = 'http://cvs.openmicroscopy.org.uk'
+trac_root = 'https://trac.openmicroscopy.org/ome'
+oo_root = 'https://www.openmicroscopy.org'
+oo_site_root = oo_root + '/site'
+lists_root = 'http://lists.openmicroscopy.org.uk'
+downloads_root = 'https://downloads.openmicroscopy.org'
+help_root = 'https://help.openmicroscopy.org'
+docs_root = 'https://docs.openmicroscopy.org'
+imagesc_root = 'https://forum.image.sc'
+
+extlinks = {
+    # image.sc
+    'imagesc': (imagesc_root + '/%s', '#'),
+    # Trac links
+    'ticket': (trac_root + '/ticket/%s', '#'),
+    'milestone': (trac_root + '/milestone/%s', ''),
+    'report': (trac_root + '/report/%s', ''),
+    # Jenkins links (ci-master)
+    'jenkins': (jenkins_root + '/%s', ''),
+    'jenkinsjob': (jenkins_job_root + '/%s', ''),
+    'jenkinsview': (jenkins_view_root + '/%s', ''),
+    # Jenkins links (merge-ci)
+    'mergeci': (mergeci_root + '/%s', ''),
+    'mergecijob': (mergeci_job_root + '/%s', ''),
+    # Mailing list/forum links
+    'ome-users': (lists_root + '/pipermail/ome-users/%s', ''),
+    'ome-devel': (lists_root + '/pipermail/ome-devel/%s', ''),
+    'forum': (oo_root + '/community/%s', ''),
+    # Website links
+    'community': (oo_root + '/support/%s', ''),
+    'omero': (oo_root + '/omero/%s', ''),
+    'bf': (oo_root + '/bio-formats/%s', ''),
+    'secvuln': (oo_root + '/security/advisories/%s', ''),
+    'security': (oo_root + '/security/%s', ''),
+    'presentations': (downloads_root + '/presentations/%s', ''),
+    # Doc links
+    'model_doc': (docs_root + '/latest/ome-model/%s', ''),
+    'devs_doc': (docs_root + '/contributing/%s', ''),
+    'schema': (oo_root + '/Schemas/%s', ''),
+    # Help links
+    'help': (help_root + '/%s', ''),
+    # Miscellaneous links
+    'snapshot': (cvs_root + '/snapshots/%s', ''),
+    'zeroc': ('https://zeroc.com/%s', ''),
+    'zerocforum': ('https://forums.zeroc.com/discussion/%s', ''),
+    'zerocdoc': ('https://doc.zeroc.com/%s', ''),
+    'djangodoc': ('https://docs.djangoproject.com/en/1.11/%s', ''),
+    'doi': ('https://dx.doi.org/%s', ''),
+    'pypi': ('https://pypi.org/project/%s', ''),
     # Github links
     'omero_subs_github_repo_root': (github_root + 'ome/%s', ''),
     'omero_source': (omero_github_root + 'blob/' + branch + '/%s', ''),
@@ -67,7 +139,7 @@ contributing_extlinks = {
     'bf_doc': (docs_root + '/latest/bio-formats/%s', ''),
     'ansible_docs': ('https://docs.ansible.com/ansible/2.6/%s', ''),
     }
-extlinks.update(contributing_extlinks)
+
 
 extensions += ['sphinx.ext.graphviz']
 graphviz_dot_args = [
@@ -76,6 +148,42 @@ graphviz_dot_args = [
     '-Nshape=box',
     '-Gfixedsize=true']
 graphviz_output_format = 'svg'
+
+rst_epilog = """
+.. _Hibernate: http://www.hibernate.org
+.. _ZeroC: https://zeroc.com
+.. _Ice: https://zeroc.com
+.. _Jenkins: https://jenkins.io
+.. _roadmap: https://trac.openmicroscopy.org/ome/roadmap
+.. _OME artifactory: https://artifacts.openmicroscopy.org
+.. _Open Microscopy Environment: https://www.openmicroscopy.org
+.. _Glencoe Software, Inc.: https://www.glencoesoftware.com/
+.. _Pillow: https://pillow.readthedocs.org
+.. _Matplotlib: https://matplotlib.org/
+.. _Django 1.8: https://docs.djangoproject.com/en/1.8/releases/1.8/
+.. _Django 1.6: https://docs.djangoproject.com/en/1.6/releases/1.6/
+.. _Python: https://www.python.org
+.. _Libjpeg: http://libjpeg.sourceforge.net/
+.. _Django: https://www.djangoproject.com/
+.. _PyPI: https://pypi.org
+.. _Conda: https://docs.conda.io/en/latest/
+.. _PyTables: http://pytables.org
+
+.. |SSH| replace:: :abbr:`SSH (Secure Shell)`
+.. |VM| replace:: :abbr:`VM (Virtual Machine)`
+.. |OS| replace:: :abbr:`OS (Operating System)`
+.. |SSL| replace:: :abbr:`SSL (Secure Socket Layer)`
+.. |JDK| replace:: :abbr:`JDK (Java Development Kit)`
+.. |JMX| replace:: :abbr:`JMX (Java Management Extensions)`
+.. |JRE| replace:: :abbr:`JRE (Java Runtime Environment)`
+.. |JVM| replace:: :abbr:`JVM (Java Virtual Machine)`
+.. |PID| replace:: :abbr:`PID (process ID)`
+.. |HDD| replace:: :abbr:`HDD (Hard Disk Drive)`
+.. |CLI| replace:: :abbr:`CLI (Command Line Interface)`
+
+.. |OME| replace:: `Open Microscopy Environment`_
+.. |Glencoe| replace:: `Glencoe Software, Inc.`_
+"""
 
 rst_epilog += """
 .. _GitHub: https://github.com
@@ -90,7 +198,7 @@ rst_epilog += """
 .. _scripts.git: https://github.com/ome/scripts
 .. _Sonatype: https://www.sonatype.com/
 ..  |merge| replace:: Merges PRs using :ref:`scc merge`
-..  |buildOMERO| replace:: Builds the OMERO.server and the clients using :omero_source:`OMERO.sh <docs/hudson/OMERO.sh>`
+..  |buildOMERO| replace:: Builds the OMERO.server and the clients using `OMERO.sh <docs/hudson/OMERO.sh>`
 ..  |archiveOMEROartifacts| replace:: Archives the build artifacts
 ..  |copyreleaseartifacts| replace:: Copies the build artifacts to a LDAP-protected folder under downloads.openmicroscopy.org
 ..  |promoteOMERO| replace:: copies the artifacts to necromancer
@@ -104,9 +212,6 @@ rst_epilog += """
 ..  |ssh-doc| replace:: Copies the HTML documentation over SSH to
 ..  |deploy-doc| replace:: Runs :ref:`scc deploy` to update
 """
-
-# Edit on GitHub prefix
-edit_on_github_prefix = 'contributing'
 
 # -- Options for LaTeX output -------------------------------------------------
 
