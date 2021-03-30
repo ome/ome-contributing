@@ -129,30 +129,26 @@ See :doc:`ci-docs`.
 Source
 ^^^^^^
 
-The source files are at `<https://github.com/ome/ome-documentation>`_, in the
-``/contributing`` folder.
+The source files are at `<https://github.com/ome/ome-contributing>`_.
 
 Building locally
 ^^^^^^^^^^^^^^^^
 
-The build uses Sphinx via ``ant``. You can build locally using ``make clean
-html`` provided you have Sphinx and ant installed. There is further
-information on getting these set up and on build targets in the README.
+The build uses Sphinx. You can build locally using ``make clean
+html`` provided you have Sphinx. There is further
+information on getting these set up in the README.
 
-Building/reviewing PRs via the CI
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Building/reviewing PRs
+^^^^^^^^^^^^^^^^^^^^^^
 
-Once a PR is open, you can build it for review using the
-:jenkinsjob:`CONTRIBUTING-merge-docs` job on the Jenkins CI. Staging
-documentation is no longer deployed at a URL but you can download it as a
-zip for review with the correct styling by going to the workspace folder in
-the job.
+Once a PR is open, a build on Read the docs will be triggered. Staging
+documentation will be available at a given URL linked to the PR.
+See `<https://docs.readthedocs.io/en/stable/pull-requests.html>`_ for more details.
 
 Publishing
 ^^^^^^^^^^
 
-The live webpages are updated by running the
-:jenkinsjob:`CONTRIBUTING-latest-docs` build.
+The live webpages are updated when a PR is merged.
 
 OME Data Model and File Formats documentation
 ---------------------------------------------

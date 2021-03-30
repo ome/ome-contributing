@@ -23,20 +23,8 @@ More detail on how and where to edit OME documentation is available on the
 The Bio-Formats documentation jobs are described in the :doc:`ci-bio-formats`
 section.
 
-The OME Model and OME Contributing documentation sets are
+The OME Model set is
 independent of the current OMERO/Bio-Formats version.
-
-.. list-table::
-	:header-rows: 1
-
-	-	* Job task
-		*
-
-	-	* Publish OME Contributing documentation
-		* :term:`CONTRIBUTING-latest-docs`
-
-	-	* Review OME Contributing documentation PRs
-		* :term:`CONTRIBUTING-merge-docs`
 
 
 .. list-table::
@@ -89,31 +77,6 @@ The branch for the 5.x series of the OMERO documentation is develop.
 		#. |sphinxbuild|
 		#. |linkcheck|
 
-OME Contributing
-^^^^^^^^^^^^^^^^
-
-The OME Contributing documentation is located in the ome-documentation
-repository and is built from the develop branch.
-
-.. glossary::
-
-
-	:jenkinsjob:`CONTRIBUTING-merge-docs`
-
-		This job is used to review the PRs opened against the develop branch
-		of the OME Contributing documentation
-
-		#. |merge|
-		#. |sphinxbuild|
-		#. |linkcheck|
-
-	:jenkinsjob:`CONTRIBUTING-latest-docs`
-
-		This job is used to build the develop branch of the OME Contributing
-		documentation and publish the official documentation
-
-		#. |sphinxbuild|
-		#. |linkcheck|
 
 Jekyll websites
 ^^^^^^^^^^^^^^^
