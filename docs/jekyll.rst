@@ -72,11 +72,12 @@ static website and then deploying it on the web server:
 
 - to release the Jekyll source code, a signed Git tag needs to be created from
   the master branch of the source code. Website tags must follow the
-  [Calendar Versioning](https://calver.org/#youtube-dl) scheme using the tag
+  `Calendar Versioning <https://calver.org/#youtube-dl>`_ scheme using the tag
   date
 - after pushing the tag, an artifact of the static website will be built by
-  [GitHub Actions](https://github.com/ome/www.openmicroscopy.org/actions) and 
-  deployed as an asset of the associated `GitHub release <https://github.com/ome/www.openmicroscopy.org/releases>`_
+  `GitHub Actions <https://github.com/ome/www.openmicroscopy.org/actions>`_
+  and deployed as an asset of the associated
+  `GitHub release <https://github.com/ome/www.openmicroscopy.org/releases>`_
 - on the server hosting the website, a cron job will update the website hourly
   if a new release has been created on GitHub
 - if needed, the static website can also be updated manually by executing the
