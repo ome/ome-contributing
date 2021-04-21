@@ -77,10 +77,10 @@ static website and then deploying it on the web server:
 - after pushing the tag, an artifact of the static website will be built by
   [GitHub Actions](https://github.com/ome/www.openmicroscopy.org/actions) and 
   deployed as an asset of the associated `GitHub release <https://github.com/ome/www.openmicroscopy.org/releases>`_
-- to update the static website, either the :command:`sudo deploy -f` command
-  should be executed from the OME website server or the full
-  `www Ansible playbook <https://github.com/ome/prod-playbooks/blob/master/www/playbook.yml>`_
-  can be executed.
+- on the server hosting the website, a cron job will update the website hourly
+  if a new release has been created on GitHub
+- if needed, the static website can also be updated manually by executing the
+  :command:`sudo deploy -f` command from the OME website server.
 
 OME Blog
 ^^^^^^^^
