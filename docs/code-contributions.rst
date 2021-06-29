@@ -78,17 +78,19 @@ submitters to use one of the above methods.
 Procedure for accepting code contributions
 ------------------------------------------
 
-Pull requests submitted from outside OME will get an initial review to
-identify if they are suitable to pass into our
+External contributors will need to sign our
+:doc:`Contributor License Agreement <cla>` in order to get their pull requests
+reviewed.
+
+External pull requests will get an initial review to identify if they are suitable to pass into our
 :doc:`continuous integration system <continuous-integration>` for building and
 testing. We try to do this within 2 days of submission but please be patient
 if we are busy and it takes longer.
 
 If there are any obvious issues, we will comment and wait for you to fix
-them. You can help this process by ensuring that the Travis build is passing
-when you first submit the PR. Once we are confident the PR contains no obvious
-errors, an "include" label will be added which means the PR will be included
-in the merge build jobs for the appropriate branch.
+them. Once we are confident the PR contains no obvious errors, an "include"
+label will be added which means the PR will be included in the merge build
+jobs for the appropriate branch.
 
 Build failures will then be noted on the PR and we will either submit a
 patch or provide sufficient information for you to fix the problem yourself.
