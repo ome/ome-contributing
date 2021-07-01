@@ -13,6 +13,7 @@ be valuable to a wider audience.
     source-code
     using-git
     code-contributions
+    cla
     team-communication
     team-workflow
     ansible-development
