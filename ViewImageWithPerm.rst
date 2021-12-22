@@ -19,7 +19,7 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 #. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
 
-#. Find a ``FLIM-modulo-sample.ome.tiff`` image (either it was pre-imported for you under ``FLIM`` Project or Dataset or import it from `here <https://downloads.openmicroscopy.org/images/OME-TIFF/2016-06/modulo/>'_.
+#. Find a ``FLIM-modulo-sample.ome.tiff`` image (either it was pre-imported for you under ``FLIM`` Project or Dataset or import it from `here <https://downloads.openmicroscopy.org/images/OME-TIFF/2016-06/modulo/>`_.
 
    - |C| that when you move either the ``T`` or the ``t`` slider, the ``True-T`` (for ``T``) and ``Sub-T`` (for ``t``) changes accordingly (=the correct ``T`` and ``t`` planes are shown)
    - |C| that when you play ``T`` or ``t`` movie, again, the planes display changes accordingly and the movie stops as expected at the last plane.
