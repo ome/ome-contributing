@@ -77,7 +77,7 @@ Virtual Microscope Testing
 
 2. Public gallery testing
 
-   - |C| in the top menu bar that you are logged in as "Public User". If you are logged in as yourself or other user, then just logout and navigate to the page again and |C| that you are now logged in as "Public User". Note that this is a known unrelated problem (see ticket https://trac.openmicroscopy.org/ome/ticket/12991)."
+   - |C| in the top menu bar that you are logged in as "Public User". If you are logged in as yourself or other user, then just logout and navigate to the page again and |C| that you are now logged in as "Public User". Note that this is a known unrelated problem (see ticket :ticket:`12991`)."
    - |C| that you see only 4 images in public examples.
    - Double click on each slide and open full viewer. Zoom in and out. Load ROIs if possible.
 
