@@ -539,7 +539,7 @@ Info Tab
 
 #. Finally, export to PDF and TIFF to check that it looks the same as the web UI.
 
-   - |C| that dpi is as expected in exported PDFs using Adobe Illustrator and http://swainhart.org/how-to-check-the-dpi-of-an-image-in-adobe-illustrator-cs5/.
+   - |C| that dpi is as expected in exported PDFs using Adobe Illustrator and https://web.archive.org/web/20200223222335/http://swainhart.org/how-to-check-the-dpi-of-an-image-in-adobe-illustrator-cs5/.
    - |C| that export 'with images' includes extra folders with images that have been interpolated (this will be all images for TIFF export).
 
 
