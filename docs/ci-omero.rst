@@ -61,11 +61,11 @@ Jobs
 .. glossary::
 
 
-    :mergecijob:`OMERO-gradle-plugins-push`
-    :mergecijob:`OMERO-build-push`
-    :mergecijob:`OMERO-push`
-    :mergecijob:`OMERO-insight-push`
-    :mergecijob:`OMERO-matlab-push`
+    :mergecijob:`OMERO-gradle-plugins-push <OMERO-gradle-plugins-push>`
+    :mergecijob:`OMERO-build-push <OMERO-build-push>`
+    :mergecijob:`OMERO-push <OMERO-push>`
+    :mergecijob:`OMERO-insight-push <OMERO-insight-push>`
+    :mergecijob:`OMERO-matlab-push <OMERO-matlab-push>`
 
         These jobs merge all the PRs opened against the development branches
         and couple the component versions for the following repositories:
@@ -76,26 +76,26 @@ Jobs
         - https://github.com/ome/omero-insight
         - https://github.com/ome/omero-matlab
 
-    :mergecijob:`OMERO-gradle-plugins-build`
-    :mergecijob:`OMERO-build-build`
-    :mergecijob:`OMERO-build`
-    :mergecijob:`OMERO-insight-build`
-    :mergecijob:`OMERO-matlab-build`
+    :mergecijob:`OMERO-gradle-plugins-build <OMERO-gradle-plugins-build>`
+    :mergecijob:`OMERO-build-build <OMERO-build-build>`
+    :mergecijob:`OMERO-build <OMERO-build>`
+    :mergecijob:`OMERO-insight-build <OMERO-insight-build>`
+    :mergecijob:`OMERO-matlab-build <OMERO-matlab-build>`
 
         These jobs build the OMERO server components, the OMERO bundles and the
         OMERO clients from the integration branches created by the push jobs.
 
-    :mergecijob:`OMERO-server`
+    :mergecijob:`OMERO-server <OMERO-server>`
 
         This job deploys the server (see :ref:`deployment_servers`) created by
         :term:`OMERO-build`.
 
-    :mergecijob:`OMERO-web`
+    :mergecijob:`OMERO-web <OMERO-web>`
 
         This job deploys the Web application (see :ref:`deployment_servers`)
         created by :term:`OMERO-build`.
 
-    :mergecijob:`OMERO-test-integration`
+    :mergecijob:`OMERO-test-integration <OMERO-test-integration>`
 
         This job deploys an OMERO.server and runs the OMERO.java, OMERO.py
         and OMERO.web integration tests.

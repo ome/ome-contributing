@@ -50,7 +50,7 @@ OMERO
 
 .. glossary::
 
-    :jenkinsjob:`OMERO-DEV-release-trigger`
+    :jenkinsjob:`OMERO-DEV-release-trigger <OMERO-DEV-release-trigger>`
 
         This job triggers the OMERO release jobs. Prior to running it, its
         variables need to be properly configured:
@@ -67,14 +67,14 @@ OMERO
 
         See :jenkinsjob:`the build graph <OMERO-DEV-release-trigger/lastSuccessfulBuild/BuildGraph>`
 
-    :jenkinsjob:`OMERO-DEV-release-push`
+    :jenkinsjob:`OMERO-DEV-release-push <OMERO-DEV-release-push>`
 
         This job creates a tag on the `develop` branch
 
         #. Runs `scc tag-release $RELEASE` and pushes the tag to the
            snoopycrimecop fork of openmicroscopy.git_
 
-    :jenkinsjob:`OMERO-DEV-release`
+    :jenkinsjob:`OMERO-DEV-release <OMERO-DEV-release>`
 
         This matrix job builds the OMERO components with Ice 3.6
 
@@ -86,7 +86,7 @@ OMERO
         #. |copyreleaseartifacts|
         #. Triggers :term:`OMERO-DEV-release-downloads`
 
-    :jenkinsjob:`OMERO-DEV-release-downloads`
+    :jenkinsjob:`OMERO-DEV-release-downloads <OMERO-DEV-release-downloads>`
 
         This job builds the OMERO downloads page
 
@@ -94,7 +94,7 @@ OMERO
            https://github.com/ome/ome-release.git
         #. Runs `make clean omero`
 
-    :jenkinsjob:`OMERO-DEV-release-artifacts`
+    :jenkinsjob:`OMERO-DEV-release-artifacts <OMERO-DEV-release-artifacts>`
         This job deploys the Javadoc and the slice2html documentation
 
         #. Loops through omero-{model,common,romio,renderer,server,blitz,gateway-java}

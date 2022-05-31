@@ -67,7 +67,7 @@ The branch for the 5.x series of the OMERO documentation is develop.
 
 .. glossary::
 
-	:mergecijob:`OMERO-docs`
+	:mergecijob:`OMERO-docs <OMERO-docs>`
 
 		This job is used to review the PRs opened against the develop branch
 		of the OMERO 5.x documentation
@@ -86,7 +86,7 @@ The following set of jobs is used to review or publish the content of the
 
 .. glossary::
 
-	:mergecijob:`WEBSITE-push`
+	:mergecijob:`WEBSITE-push <WEBSITE-push>`
 
 		This job is used to review the PRs opened against the master branch of
 		https://github.com/ome/www.openmicroscopy.org
@@ -95,7 +95,7 @@ The following set of jobs is used to review or publish the content of the
 		#. The GitHub Pages service deploys the staging website content under https://snoopycrimecop.github.io/www.openmicroscopy.org/
 
 
-	:jenkinsjob:`PRESENTATIONS-merge`
+	:jenkinsjob:`PRESENTATIONS-merge <PRESENTATIONS-merge>`
 
 		This job is used to review the PRs opened against the master branch of
 		https://github.com/ome/presentations

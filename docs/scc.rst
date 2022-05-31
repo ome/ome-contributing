@@ -460,7 +460,7 @@ scc deploy
 
 .. program:: scc deploy
 
-Deploy a website update using `file symlink replacement <https://gist.github.com/datagrok/3807742#file-symlink-replacement-md>`_::
+Deploy a website update using `file symlink replacement <https://gist.github.com/hussfelt/3931118#file-symlink-replacement-md>`_::
 
     $ scc deploy folder
 
