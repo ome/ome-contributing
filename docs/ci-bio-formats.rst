@@ -23,22 +23,22 @@ Bio-Formats jobs
 
 .. glossary::
 
-    :mergecijob:`BIOFORMATS-push`
+    :mergecijob:`BIOFORMATS-push <BIOFORMATS-push>`
 
         This job merges all the PRs opened against the development branch of
         https://github.com/ome/bio-formats-build and couples the component
         versions
 
-    :mergecijob:`BIOFORMATS-build`
-    :mergecijob:`BIOFORMATS-image`
+    :mergecijob:`BIOFORMATS-build <BIOFORMATS-build>`
+    :mergecijob:`BIOFORMATS-image <BIOFORMATS-image>`
 
         This job builds all the Bio-Formats artifacts using Maven and Ant
 
-    :mergecijob:`BIOFORMATS-linkcheck`
+    :mergecijob:`BIOFORMATS-linkcheck <BIOFORMATS-linkcheck>`
 
         This job runs the linkchecker on the Bio-Formats documentation
 
-    :mergecijob:`BIOFORMATS-test-repo`
+    :mergecijob:`BIOFORMATS-test-repo <BIOFORMATS-test-repo>`
 
         This job consumes the Docker image built by :term:`BIOFORMATS-image`
         and runs the non-regression automated tests against the curated QA
