@@ -39,7 +39,7 @@ follow the standard Maven layout i.e. in the case of a single-module project::
   build.gradle
   settings.gradle
 
-Additionally, a :file:`publish.gradle` might exists allowing to declare.
+Additionally, a :file:`publish.gradle` might exist allowing to declare some publishing tasks.
 
 .. seealso::
    :doc:`using-git`
