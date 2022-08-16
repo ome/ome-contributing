@@ -18,7 +18,7 @@ be valuable to a wider audience.
     team-workflow
     ansible-development
     java-development
-    omero-server-java-development
+    gradle-development
     cpp-development
     development-tools
     deployment-tools

@@ -1,14 +1,19 @@
-OMERO.server Java components
-============================
+Java components (Gradle)
+========================
 
 .. _Semantic Versioning: https://semver.org
 .. _Git: https://git-scm.com/
 .. _Gradle: https://gradle.org/
 
 This document describes the conventions and process used by the OME team for developing,
-maintaining and releasing the Java components of the OMERO.server. The set of rules and
-procedures described below applies to all the submodules of
-https://github.com/ome/omero-build/.
+maintaining and releasing its Java components using Gradle_ as their build system. The
+set of rules and procedures described below applies to all the submodules of
+https://github.com/ome/omero-build as well as https://github.com/ome/omero-gradle-plugins/.
+
+.. seealso::
+
+    :doc:`java-development`
+       Conventions and process for maintaining the OME Java Components using Maven
 
 Conventions
 -----------
@@ -16,7 +21,7 @@ Conventions
 Source code and build system
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The source code of the OMERO.server components is maintained under version control
+The source code of the components is maintained under version control
 using Git_ and hosted on GitHub_.
 
 Gradle_ is the primary build system. The directory layout should
