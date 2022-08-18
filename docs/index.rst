@@ -18,6 +18,7 @@ be valuable to a wider audience.
     team-workflow
     ansible-development
     java-development
+    gradle-development
     cpp-development
     development-tools
     deployment-tools
