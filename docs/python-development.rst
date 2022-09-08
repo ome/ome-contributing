@@ -48,6 +48,6 @@ To complete the release, push the master branch and the release tag to origin::
 Publishing to Pypi
 ==================
 
-Many of the OME Python repositories use GitHub actions to pubish to Pypi
+Many of the OME Python repositories use GitHub actions to publish to ` Pypi <https://pypi.org/>`_
 when a new Tag is created and pushed to GitHub.
 This is typically specified in a file such as `.github/workflows/publish_pypi.yml`.
