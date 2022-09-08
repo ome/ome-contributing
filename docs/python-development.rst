@@ -2,8 +2,8 @@
 Python development
 ==================
 
-Many OME repositories use
- `bump2version <https://pypi.org/project/bump2version/>`_ to manage version numbers.
+Many OME repositories use `bump2version <https://pypi.org/project/bump2version/>`_
+to manage version numbers.
 These can be identified by the presence of a `.bumpversion.cfg` file at the top of the
 repository.
 
