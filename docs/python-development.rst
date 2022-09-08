@@ -1,6 +1,6 @@
 
-Bump2version Release process
-============================
+Python development
+==================
 
 Many OME repositories use
  `bump2version <https://pypi.org/project/bump2version/>`_ to manage version numbers.
