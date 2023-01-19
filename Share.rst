@@ -2,6 +2,12 @@ Share
 ======
 
 
+.. warning::
+
+  Shares is a discontinued feature since OMERO.web 5.9.0. In particular, share creation is no longer
+  supported in OMERO.web. However, previously created shares can still be viewed.
+
+  See https://omero-guides.readthedocs.io/projects/introduction/en/latest/data-management.html#shares-discontinued-feature
 
 **To test in**: Web
 
