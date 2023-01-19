@@ -5,20 +5,21 @@ Share
 
 **To test in**: Web
 
-**Purpose of the test** is to check the Share feature in Web, creation, visibility, and annotation possibility
+**Purpose of the test** is to check the Share feature in Web, visibility, and annotation possibility
 
-#. Make sure you have 2 users, in two different groups, e.g. user ``share-1`` and user ``share-2`` in groups ``group-1`` and ``group-2``. 
+#. Make sure you have 2 users, in two different groups, e.g. user ``user-1`` and user ``user-4`` in groups
+   ``Private`` and ``Read-only`` as described in :doc:`TablePermissionsUsers`.
 
-   - User ``share-1`` has images in ``group-1``. 
-   - User ``share-2`` is not a member of ``group-1`` and cannot see the images of ``share-1`` in ``group-1``. 
+   - User ``user-1`` has images in ``Private`.
+   - User ``user-4`` is not a member of ``Private`` and cannot see the images of ``user-1`` in ``Private``.
 
-#. Log in as ``share-1`` and in ``group-1`` select 2 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
+#. Log in as ``user-1`` and in ``Private`` select 2 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
 
 #. |C| that a dialog appears [:ref:`Share002`]. Again, select some images in the tree and use the right-click context menu and choose the ``Create share`` menu item. |C| that the same dialog appears as when you used the "Globe" icon [:ref:`Share002`]. Enter the Message. Choose an expiry date one day after creation [:ref:`Share003`]. Start typing ``sha...`` into the "Members" box and |C| that the filter function offers you sub-selection of users starting with ``sha``. Create a share sharing your images with ``share-2``. 
 
-   - |C| that users on the share (``share-2`` and any other users you have chosen as members of the share) get e-mail with the share Message and link bringing them to the ``Shares`` tab
+   - |C| that users on the share (``user-4`` and any other users you have chosen as members of the share) get e-mail with the share Message and link bringing them to the ``Shares`` tab
 
-#. Immediately after this, create another Share with different images with ``share-2``. |C| that the share creation dialog is behaving exactly as when creating the first share. 
+#. Immediately after this, create another Share with different images with ``user-4``. |C| that the share creation dialog is behaving exactly as when creating the first share.
 
 
 #. Try to edit (pencil symbol - General tab, right pane).[:ref:`Share004`][:ref:`Share005`]
@@ -38,7 +39,7 @@ Share
 
 #. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
 
-#. Log out and log in as user ``share-2``. Go to ``Shares`` tab (left-hand Panel). Select the share. 
+#. Log out and log in as user ``user-4``. Go to ``Shares`` tab (left-hand Panel). Select the share.
 
 
    - |C| that you CANNOT edit the share - the pencil symbol is not present.
