@@ -13,7 +13,7 @@ Share
    - User ``user-1`` has images in ``Private`.
    - User ``user-4`` is not a member of ``Private`` and cannot see the images of ``user-1`` in ``Private``.
 
-#. Log in as ``user-1`` and in ``Private`` select 2 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
+#. Log in as ``user-1`` and in ``Private`` select 3 or more images in the left-hand pane, click on the "Globe" icon in the top icon bar to create a share [:ref:`Share001`].
 
 #. |C| that a dialog appears [:ref:`Share002`]. Again, select some images in the tree and use the right-click context menu and choose the ``Create share`` menu item. |C| that the same dialog appears as when you used the "Globe" icon [:ref:`Share002`]. Enter the Message. Choose an expiry date one day after creation [:ref:`Share003`]. Start typing ``sha...`` into the "Members" box and |C| that the filter function offers you sub-selection of users starting with ``sha``. Create a share sharing your images with ``share-2``. 
 
@@ -30,14 +30,13 @@ Share
    - |C| that you can change the expiry date.
    - |C| that when you edit one Share, save the changes and immediately try to edit another share, the changes get updated immediately and the share dialogs change the share you ARE just editing, not the one you HAVE just edited.
 
-#. Remove one image from the share using
-
-   - Scissors icon above left-hand pane
+#. Remove one image from the share using the scissors icon above left-hand pane
    - |C| that the tree and the middle pane updates
-   - Delete one of the images in the share (going back to Data pane and using Delete icon)
-   - Load the share in ``Shares`` tab, a ``Object deleted`` item should be displayed in the tree.
 
-#. |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
+#. Delete one of the images in the share (going back to Data pane and using Delete icon)
+   - Load the share in ``Shares`` tab
+   - |C| that an ``Object deleted`` item is displayed in the tree.
+   - |C| that Delete Key on keyboard has no effect neither on selected images in Share nor on the Share itself in the tree.
 
 #. Log out and log in as user ``user-4``. Go to ``Shares`` tab (left-hand Panel). Select the share.
 
