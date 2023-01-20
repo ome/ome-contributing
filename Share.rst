@@ -9,6 +9,12 @@ Share
 
   See https://omero-guides.readthedocs.io/projects/introduction/en/latest/data-management.html#shares-discontinued-feature
 
+.. _Noteshare:
+
+.. note::
+
+  In case OMERO.iviewer is installed on the server, opening of the image in full viewer steps will fail. Instead, iviewer opens a dialog saing ``Image not found``.
+
 **To test in**: Web
 
 **Purpose of the test** is to check the Share feature in Web, visibility, and annotation possibility
@@ -55,10 +61,10 @@ Share
    - |C| that the number of images in the share [right-hand panel] is correct i.e. Share Count [:ref:`Share006`]
    - |C| that all the panes are available (Preview with all Rnd settings except Save, Acquisition, General with the info, but no Annotations).
    - |C| that you cannot run any scripts on the images (scripts menu is disabled)
-   - Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share007`].
-   - Double-click on a thumbnail in central pane and |C| that Full viewer opens.[:ref:`Share007`].
-   - Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share007`]
-   - |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
+   - Note :ref:`limitation of Full viewer <Noteshare>`. Double-click on an image in tree and |C| that Full viewer opens.[:ref:`Share007`].
+   - Note :ref:`limitation of Full viewer <Noteshare>`. Double-click on a thumbnail in central pane and |C| that Full viewer (the old, inbuilt viewer of OMERO.web) opens.  [:ref:`Share007`].
+   - Note :ref:`limitation of Full viewer <Noteshare>`. Click on the ``Full Viewer`` button in right-hand pane and |C| that Full Viewer opens [:ref:`Share007`]
+   - Note :ref:`limitation of Full viewer <Noteshare>`. |C| that you can change rendering settings in Full Viewer, but cannot Save the changes.
    - |C| that images in the share cannot be annotated (i.e. rate, tags etc.) i.e. the General tab has no choices in its lower part.[:ref:`Share008`]
    - |C| that you can comment on the share (right-hand pane).
 
