@@ -27,7 +27,7 @@ tag locally::
 The last command will create a tag with the default `v` prefix, i.e. `vx.y.z`.
 
 
-Push the signed tag needs to the source code repository to trigger the upload to PyPI_ via GitHub action::
+Push the signed tag to the source code repository to trigger the upload to PyPI_ via GitHub action::
 
    $ git push origin vx.y.z
 
