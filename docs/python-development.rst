@@ -1,6 +1,13 @@
-
 Python development
 ==================
+
+Release process
+---------------
+
+Prior to release a new version, the maintainer:
+ - can create a GitHub project if required listing the PR included in an upcoming release (optional)
+ - must create an entry in the CHANGELOG: PRs included in the release should be listed in the CHANGELOG with a link to the PR.
+ - must have the ability to push the generated tag to ``origin``.
 
 Many OME repositories use `bump2version <https://pypi.org/project/bump2version/>`_
 to manage version numbers.
@@ -17,6 +24,8 @@ First fetch and checkout master or main branch::
 You will need to be able to sign commits with `gpg`. Test this with::
 
     $ echo "test" | gpg --clearsign
+
+
 
 Compare the current version in `.bumpversion.cfg` with the last release version
 to see if the current difference represents a patch release.
