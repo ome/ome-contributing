@@ -5,7 +5,7 @@ Release process
 ---------------
 
 Prior to release a new version, the maintainer:
- - can create a GitHub project if required listing the PRs to be considered in the upcoming release (optional)
+ - can create a GitHub project and/or milestone if required listing the PRs to be considered in the upcoming release (optional)
  - must create an entry in the CHANGELOG: PRs included in the release should be listed in the CHANGELOG with a link to the PR.
  - must have the ability to push the generated tag to ``origin``.
 
