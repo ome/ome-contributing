@@ -12,11 +12,8 @@ To be able to maintain a Python development tool, a developer must:
 
 - have a GitHub account and have push rights to the GitHub source code
   repository
-- have a PyPI account and be registered as a maintainer of the PyPI repository
 - have a valid PGP key for signing the tags
 
-For uploading your package to PyPI, you will also need to create a
-:file:`~/.pypirc` file.
 
 Release process
 ---------------
@@ -25,21 +22,12 @@ The first operation to perform while releasing a project is to create a signed
 tag locally::
 
    $ cd <project>
-   $ scc tag-release -s x.y.z
+   $ git tag -s vx.y.z
 
 The last command will create a tag with the default `v` prefix, i.e. `vx.y.z`.
-The distribution can then be created and uploaded to PyPI via::
 
-   $ git clean -dfx
-   $ python setup.py sdist upload
 
-The upload command should update the PyPI record.
-
-Finally, the signed tag needs to be pushed to the source code repository::
+Push the signed tag to the source code repository to trigger the upload to PyPI_ via GitHub action::
 
    $ git push origin vx.y.z
 
-.. seealso::
-
-  https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives
-     Instructions about uploading a project to PyPi
