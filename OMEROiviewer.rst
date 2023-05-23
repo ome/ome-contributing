@@ -57,7 +57,7 @@ OMERO.iviewer
     - Large image (tiled in iviewer, but not in OMERO) (between 4000 x 4000 and 2000 x 2000 pixel size, e.g. 2477 x 3498 pixels)
     - Small image (not tiled in iviewer), e.g. the ``[Series 2]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (less than 2000 x 2000 pixels). Note that you have to expand the birds eye first as it is collapsed by default for small images.
 
-#. Using Shift-drag, rotate the image (using selection tool) or draw “freehand” (polygon, polyline, rectangle and ellipse).
+#. Using Shift-drag, rotate the image (using selection tool), draw a rectangle or an ellipse or draw “freehand” (polygon, polyline).
 
     - |C| that after rotating the image, the arrow icon on top right of the central pane resets the image back to the 0 degree rotation.
 
