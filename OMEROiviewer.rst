@@ -3,6 +3,13 @@ OMERO.iviewer
 
 **To test in**: OMERO.iviewer
 
+#. With the OMERO.iviewer configured as the default viewer in webclient, adjust settings in Preview panel and then click "Full Viewer" to open iviewer. This should work the same both when you saved the settings in the Preview and when you did not save.
+
+    - |C| that the rendering settings are in the URL and are respected (channels on/off, levels etc.).
+    - |C| that adding Zoom, X, Y, Z & T to URL are respected in big / multi-plane image as appropriate: e.g. ?zm=50&x=300&y=500&z=10&t=5
+
+#. In webclient, select multiple Images or a Dataset or Well and test "Open with > OMERO.iviewer".
+
 #. In the left hand column, note the images thumbnails.
 
     - |C| that scrolling to the bottom of the column loads more images from the same dataset or selection
@@ -50,21 +57,28 @@ OMERO.iviewer
     - Large image (tiled in iviewer, but not in OMERO) (between 4000 x 4000 and 2000 x 2000 pixel size, e.g. 2477 x 3498 pixels)
     - Small image (not tiled in iviewer), e.g. the ``[Series 2]`` image of ``ome/data_repo/curated/alexandra/UMD001_ORO.svs`` (less than 2000 x 2000 pixels). Note that you have to expand the birds eye first as it is collapsed by default for small images.
 
-#. Using Shift-drag, rotate the image (using selection tool) or draw “freehand” (polygon, polyline, rectangle and ellipse).
+#. Using Shift-drag, rotate the image (using selection tool), draw a rectangle or an ellipse or draw “freehand” (polygon, polyline).
 
     - |C| that after rotating the image, the arrow icon on top right of the central pane resets the image back to the 0 degree rotation.
 
-#. Click on a ROI in the right-hand pane ROI table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
+#. Click on each type of ROI in the right-hand pane ROI table. This should bring the viewport to the position where the selected ROI is in the middle of it and navigates the viewport to the timepoint and z section the ROI is associated with.
 
 #. Select several ROIs from different Z planes in the ROI table. Shift-click to select a range, Cmd-click to select several ROIs.
 
     - |C| that the selected ROIs are highlighted in blue in the image and the ROI table.
+    - |C| that the table scrolls to show selected row.
 
 #. Select multiple ROIs in the image using Cmd-drag.
 
     - |C| that the selected ROIs are highlighted in blue in the image and the ROI table.
 
 #. Save the ROIs. Export the Intensities, areas and line lengths into Excel. Select, in the top-left corner ROIs > Export (CSV). This will export the values from the selected ROIs.
+
+#. If possible, open a Big image and a multi-Z/T image with as many ROIs as possible.
+
+    - |C| that ROIs are paginated if more than 500 on any plane.
+    - |C| that ROIs are loaded for each plane viewed.
+    - |C| that new or edited ROIs are not lost when moving between Z/T/page: "Save first" dialog is shown.
 
 #. Delete some ROIs. Note that the deletion of saved ROIs just highlights these as red in the ROI table. The deletion is executed only after the Save button has been clicked. The unsaved ROIs should disappear immediately from image and table after deletion. Try deleting using
 
@@ -74,6 +88,11 @@ OMERO.iviewer
     - Main menu (ROIs > Delete)
 
 #. Save the viewport by selecting in the top left corner File > Save Viewport as PNG.
+
+#. Open multiple viewers by double-clicking on thumbnails or dragging them to centre panel
+
+    - |C| double-clicking opens the first 4 images in 2x2 grid, then randomly places others.
+    - |C| dragging a thumbnail to the centre opens in a new viewer (same as for double-clicking), unless dragged into an existing viewer window when it should replace the image.
 
 #. Use a multi-z image for the two following steps. Compare the two channels of one of the Images in multi-image view:
 
