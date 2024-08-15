@@ -68,7 +68,7 @@ e.g. ``omero-install``, ``omeroweb-install``, ``openmicroscopy``, and bump the v
 If you wish to publish the documentation the same day as the source code release, the easiest option is to 
 modify the format of the cron job in the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, commit and push the change to the `master` branch.
 
-After a succesful run of the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, merge the Pull Request.
+After a succesful run of the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, merge the Pull Request created by the action if changes were made in the related repositories.
 After fetching the `master` branch, revert the change to the cron job in :file:`update.yml`. A signed tag must be created for the released version using :command:`git tag -s`::
 
     $ git tag -s -m "Tag version x.y.z" vx.y.z
