@@ -6,7 +6,6 @@ OMERO.server release
 .. _OMERO Server Docker: https://github.com/ome/omero-server-docker
 .. _OMERO Documentation: https://github.com/ome/omero-documentation/
 .. _Read The Docs: https://readthedocs.org/projects/omero/builds/
-.. _OME website: https://github.com/ome/www.openmicroscopy.org
 .. _image.sc: https://forum.image.sc/
 
 This document describes the release process for OMERO_ server.
@@ -85,7 +84,7 @@ An hourly cron job runs on our virtual machine and redirects the documentation u
 Website release
 ---------------
 
-When the documentation is deployed, you can make a release of the `OME website`_.
+When the documentation is deployed, you can make a release of the `Open Microscopy Environment`_ website.
 
 To make a release:
  - Update the version in `_config.yml <https://github.com/ome/www.openmicroscopy.org/tree/master/_config.yml>`_
