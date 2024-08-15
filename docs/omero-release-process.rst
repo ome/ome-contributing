@@ -10,6 +10,7 @@ OMERO.server release
 .. _image.sc: https://forum.image.sc/
 
 This document describes the release process for OMERO_ server.
+The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
 
 Register CVE
 ^^^^^^^^^^^^
