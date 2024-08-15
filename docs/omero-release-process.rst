@@ -24,8 +24,8 @@ Source code release
 
 To make a new release:
  - Merge all contributions on the `develop` branch.
- - Ensure that all the dependencies have been bumped via the :file:`update.yml` GitHub action which is run hourly. You can also execute the script :file:`update_dependencies.sh` manually if you wish.
- - Add an entry to :file:`history.rst`.
+ - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. You can also execute the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
+ - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
 
 After committing the changes, a signed tag must be created for the released version
 using :command:`git tag -s`::
@@ -46,7 +46,7 @@ Docker container release
 Before making a new release, merge all contributions on the `master` branch (rare).
 
 When the artifacts are available under `OMERO Downloads`_, you can release the `OMERO Server Docker`_.
-Bump the version in :file:`Dockerfile` to the latest release version.
+Bump the version in `Dockerfile <https://github.com/ome/omero-server-docker/blob/master/Dockerfile>`_ to the latest release version.
 
 After committing the changes, a signed tag must be created for the released version
 using :command:`git tag -s`::
@@ -66,16 +66,16 @@ Before making a new release, merge all contributions on the `master` branch.
 A GitHub action is run daily to update the documentation with changes made in various repositories
 e.g. ``omero-install``, ``omeroweb-install``, ``openmicroscopy``, and bump the version of various components e.g. ``omero-web``.
 If you wish to publish the documentation the same day as the source code release, the easiest option is to 
-modify the format of the cron job in the :file:`update.yml` GitHub action, commit and push the change to the `master` branch.
+modify the format of the cron job in the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, commit and push the change to the `master` branch.
 
-After a succesful run of the :file:`update.yml` GitHub action, merge the Pull Request.
+After a succesful run of the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, merge the Pull Request.
 After fetching the `master` branch, revert the change to the cron job in :file:`update.yml`. A signed tag must be created for the released version using :command:`git tag -s`::
 
     $ git tag -s -m "Tag version x.y.z" vx.y.z
 
-Both the `master` branch as well as the tag must be pushed upstream::
+Both the `develop` branch as well as the tag must be pushed upstream::
 
-    $ git push origin master vx.y.z
+    $ git push origin develop vx.y.z
 
 The documentation is then published on `Read The Docs`_.
 
@@ -86,8 +86,8 @@ Website release
 
 When the documentation is deployed, you can make a release of the `OME website`_.
 
- - Update the version in :file:`_config.yml`
- - Add a new entry under :file:`_posts`
+ - Update the version in `_config.yml <https://github.com/ome/www.openmicroscopy.org/tree/master/_config.yml>`_
+ - Add a new entry under `_posts <https://github.com/ome/www.openmicroscopy.org/tree/master/_posts>`_
 
  A signed tag must be created using :command:`git tag -s`::
 
