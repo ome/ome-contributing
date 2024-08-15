@@ -35,7 +35,7 @@ else:
 # -- General configuration ----------------------------------------------------
 
 # General information about the project.
-copyright = u'2013-2021, Open Microscopy Environment'
+copyright = u'2013-2024, Open Microscopy Environment'
 project = u'OME Contributing Developer'
 title = project + u' Documentation'
 
