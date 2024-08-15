@@ -23,8 +23,8 @@ Source code release
 -------------------
 
 To make a new release:
- - Merge all contributions on the `develop` branch.
- - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. You can also execute the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
+ - Merge all contributions on the ``develop`` branch.
+ - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file, merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
  - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
 
 After committing the changes, a signed tag must be created for the released version
