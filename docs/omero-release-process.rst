@@ -95,11 +95,11 @@ To make a release:
 
 A signed tag must be created using :command:`git tag -s`::
 
-    $ git tag -s -m "Message" YYYY-MM-DD
+    $ git tag -s -m "Message" YYYY.MM.DD
 
 Both the `master` branch as well as the tag must be pushed upstream::
 
-    $ git push origin master YYYY-MM-DD
+    $ git push origin master YYYY.MM.DD
 
 An hourly cron job runs on our virtual machine and deploys the website.
 
