@@ -79,7 +79,7 @@ Both the `develop` branch as well as the tag must be pushed upstream::
 
 The documentation is built and published on `Read The Docs`_.
 
-An hourly cron job runs on our virtual machine and redirects the documentation under `docs.openmicroscopy.org <https://docs.openmicroscopy.org/omero>`_ to `omero.readthedocs.io/ <https://omero.readthedocs.io/>`_.
+An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/omero/5.6.13 <https://docs.openmicroscopy.org/omero/5.6.13>`_ to `omero.readthedocs.io/en/v5.6.13/ <https://omero.readthedocs.io/en/v5.6.13/>`_.
 
 Website release
 ---------------
