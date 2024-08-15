@@ -63,13 +63,13 @@ Documentation release
 
 Before making a new release, merge all contributions on the `develop` branch.
 
-A GitHub action is run daily to update the documentation with changes made in various repositories
-e.g. ``omero-install``, ``omeroweb-install``, ``openmicroscopy``, and bump the version of various components e.g. ``omero-web``.
+A `GitHub action <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ is run daily to synchronize the documentation with changes made in various repositories
+e.g. ``omero-install``, ``omeroweb-install``, ``openmicroscopy``, and bump the version of various components e.g. ``omero-web``. The action will automatically open a Pull Request if some changes happened. The Pull Request must be merged before the release.
 If you wish to publish the documentation the same day as the source code release, the easiest option is to 
-modify the format of the cron job in the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, commit and push the change to the `develop` branch.
+modify the format of the cron job in the `update.yml GitHub action <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ and merge the Pull Request opened by the action.
 
-After a succesful run of the `update.yml <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ GitHub action, merge the Pull Request created by the action if changes were made in the related repositories.
-After fetching the `develop` branch, revert the change to the cron job in :file:`update.yml`. A signed tag must be created for the released version using :command:`git tag -s`::
+After fetching the `develop` branch, revert the change to the cron job made above.
+A signed tag must be created for the released version using :command:`git tag -s`::
 
     $ git tag -s -m "Tag version x.y.z" vx.y.z
 
