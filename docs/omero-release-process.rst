@@ -86,12 +86,13 @@ Website release
 
 When the documentation is deployed, you can make a release of the `OME website`_.
 
+To make a release:
  - Update the version in `_config.yml <https://github.com/ome/www.openmicroscopy.org/tree/master/_config.yml>`_
  - Add a new entry under `_posts <https://github.com/ome/www.openmicroscopy.org/tree/master/_posts>`_. The name of the post should be ``YYYY-MM-DD-omero-MAJOR-MINOR-PATCH.md`` e.g. ``2024-08-15-omero-5-6-13.md``
  - Point to the post announcing the release in `omero/downloads/index.html <https://github.com/ome/www.openmicroscopy.org/tree/master/omero/downloads/index.html>`_.
 
 
- A signed tag must be created using :command:`git tag -s`::
+A signed tag must be created using :command:`git tag -s`::
 
     $ git tag -s -m "Message" YYYY-MM-DD
 
