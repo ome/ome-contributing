@@ -5,7 +5,7 @@ OMERO.server release
 .. _OMERO Downloads: https://downloads.openmicroscopy.org/omero/
 .. _OMERO Server Docker: https://github.com/ome/omero-server-docker
 .. _OMERO Documentation: https://github.com/ome/omero-documentation/
-.. _Read The Docs: https://readthedocs.org/
+.. _Read The Docs: https://readthedocs.org/projects/omero/builds/
 .. _OME website: https://github.com/ome/www.openmicroscopy.org
 .. _image.sc: https://forum.image.sc/
 
@@ -78,7 +78,7 @@ Both the `develop` branch as well as the tag must be pushed upstream::
 
     $ git push origin develop vx.y.z
 
-The documentation is then published on `Read The Docs`_.
+The documentation is built and published on `Read The Docs`_.
 
 An hourly cron job runs on our virtual machine and redirects the documentation under `docs.openmicroscopy.org <https://docs.openmicroscopy.org/omero>`_ to `omero.readthedocs.io/ <https://omero.readthedocs.io/>`_.
 
@@ -103,6 +103,6 @@ Both the `master` branch as well as the tag must be pushed upstream::
 
 An hourly cron job runs on our virtual machine and deploys the website.
 
-Finally add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883 and announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements` categorie.
+Finally add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883 and announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` categorie.
 
 
