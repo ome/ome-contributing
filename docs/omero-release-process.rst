@@ -51,11 +51,11 @@ Bump the version in `Dockerfile <https://github.com/ome/omero-server-docker/blob
 After committing the changes, a signed tag must be created for the released version
 using :command:`git tag -s`::
 
-    $ git tag -s -m "Tag version x.y.z" vx.y.z
+    $ git tag -s -m "Tag version x.y.z" x.y.z
 
 Both the `master` branch as well as the tag must be pushed upstream::
 
-    $ git push origin master vx.y.z
+    $ git push origin master x.y.z
 
 
 Documentation release
