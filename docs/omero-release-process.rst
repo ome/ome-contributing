@@ -7,7 +7,7 @@ OMERO.server release
 .. _OMERO Documentation: https://github.com/ome/omero-documentation/
 .. _Read The Docs: https://readthedocs.org/
 .. _OME website: https://github.com/ome/www.openmicroscopy.org
-
+.. _image.sc: https://forum.image.sc/
 
 This document describes the release process for OMERO_ server.
 
@@ -102,6 +102,6 @@ Both the `master` branch as well as the tag must be pushed upstream::
 
 An hourly cron job runs on our virtual machine and deploys the website.
 
-Finally add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883.
+Finally add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883 and announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements` categorie.
 
 
