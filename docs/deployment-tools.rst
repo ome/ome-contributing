@@ -67,10 +67,10 @@ The :doc:`Devspace <devspace>` repository is available from:
 
 -  https://github.com/ome/devspace
 
-Devspace Dockerfiles uses common devslave image. The Devslave repository
+Devspace Dockerfiles uses common devagent image. The repository
 is available from:
 
--  https://github.com/ome/devslave-c7-docker
+-  https://github.com/ome/devagent-docker
 
 
 CI-master - Continuous Delivery (Production)
@@ -131,8 +131,8 @@ This example shows how to test and upgrade OMERO dependencies.
 1. Open a PR against omero-install (e.g. install Pillow from RPM
    https://github.com/ome/omero-install/pull/129).
 2. Upgrade base docker image using
-   (e.g. https://github.com/ome/devslave-c7-docker/blob/master/Dockerfile#L19)
-   and open a PR against `devslave-c7-docker <https://github.com/ome/devslave-c7-docker>`_.
+   (e.g. https://github.com/ome/devagent-docker/blob/master/Dockerfile#L19)
+   and open a PR against `devagent-docker <https://github.com/ome/devagent-docker>`_.
    
    Run :jenkinsjob:`DOCKER-merge`.
    Latest merge image will be released to `Docker Hub <https://hub.docker.com/r/snoopycrimecop/devslave-c7-docker/builds/>`_.
