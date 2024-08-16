@@ -89,8 +89,4 @@ Both the master branch as well as the tag must be pushed upstream::
 This will trigger two GitHub Actions builds and the generated artifacts will be uploaded
 to the OME Artifactory. All builds from the `master` branch are expected to be snapshots
 and uploaded to the `ome.snapshots` repository. All tag builds are expected to be full
-releases and uploaded to the `ome.staging` repository.
-
-Once the artifacts are uploaded, the release artifacts need to be promoted from `ome.staging`
-to `ome.releases` by logging into https://artifacts.openmicroscopy.org/, going to the
-Artifacts tab, selecting the `ome.staging` repository and choosing the `Move Content` action. 
+releases and uploaded to the `ome.releases` repository.
