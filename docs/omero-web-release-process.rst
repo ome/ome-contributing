@@ -5,7 +5,7 @@ OMERO.web release
 .. _image.sc: https://forum.image.sc/
 
 This document describes the release process for `OMERO Web`_.
-The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
+The release process uses GitHub actions, make sure that the actions are **active** before pushing any tag.
 
 
 Release process
@@ -14,10 +14,7 @@ Release process
 Source code release
 -------------------
 
-.. seealso::
-
-    :doc:`python-development`
-       Release process of Python components
+See `Release process <https://github.com/ome/omero-web#release-process>`_.
 
 Docker container release
 ------------------------
