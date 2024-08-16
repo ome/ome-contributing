@@ -24,7 +24,7 @@ Source code release
 
 To make a new release:
  - Merge all contributions on the ``develop`` branch.
- - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file, merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
+ - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file. Merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
  - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
 
 After committing the changes, a signed tag must be created for the released version
@@ -67,7 +67,7 @@ Before making a new release, merge all contributions on the `develop` branch.
 A `GitHub action <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ is run daily to synchronize the documentation with changes made in various repositories
 e.g. ``omero-install``, ``omeroweb-install``, ``openmicroscopy``, and bump the version of various components e.g. ``omero-web``. The action will automatically open a Pull Request if some changes happened. The Pull Request must be merged before the release.
 If you wish to publish the documentation the same day as the source code release, the easiest option is to 
-modify the format of the cron job in the `update.yml GitHub action <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ and merge the Pull Request opened by the action.
+modify the format of the cron job in the `update.yml GitHub action <https://github.com/ome/omero-documentation/blob/develop/.github/workflows/update.yml>`_ e.g. ``cron: '*/10 * * * *'`` and merge the Pull Request opened by the action.
 
 After fetching the `develop` branch, revert the change to the cron job made above.
 A signed tag must be created for the released version using :command:`git tag -s`::
@@ -106,6 +106,6 @@ An hourly cron job runs on our virtual machine and deploys the website.
 
 Finally 
  - Add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883
- - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` categorie after checking that the website has been deployed.
+ - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` category after checking that the website has been deployed.
 
 
