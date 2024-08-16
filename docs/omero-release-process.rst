@@ -106,6 +106,6 @@ An hourly cron job runs on our virtual machine and deploys the website.
 
 Finally 
  - Add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883
- - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` category after checking that the website has been deployed.
+ - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Announcements`` category after checking that the website has been deployed.
 
 
