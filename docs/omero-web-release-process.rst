@@ -2,6 +2,7 @@ OMERO.web release
 =================
 
 .. _OMERO Web: https://github.com/ome/omero-web/
+.. _OMERO Web Docker: https://github.com/ome/omero-web-docker/
 .. _image.sc: https://forum.image.sc/
 
 This document describes the release process for `OMERO Web`_.
@@ -19,7 +20,7 @@ See `Release process <https://github.com/ome/omero-web#release-process>`_.
 Docker container release
 ------------------------
 
-Before making a new release, merge all contributions on the `master` branch.
+Before making a new release of `OMERO Web Docker`_, merge all contributions on the `master` branch.
 
 A signed tag must be created for the released version
 using :command:`git tag -s`::
