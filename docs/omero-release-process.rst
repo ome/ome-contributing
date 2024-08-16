@@ -53,6 +53,7 @@ using :command:`git tag -s`::
 
     $ git tag -s -m "Tag version x.y.z" x.y.z
 
+Before pushing, make sure that the artifacts have been copied under `OMERO Downloads`_.
 Both the `master` branch as well as the tag must be pushed upstream::
 
     $ git push origin master x.y.z
@@ -96,12 +97,15 @@ A signed tag must be created using :command:`git tag -s`::
 
     $ git tag -s -m "Message" YYYY.MM.DD
 
+Before pushing, make sure that the documentation has been built and published on `Read The Docs`_.
 Both the `master` branch as well as the tag must be pushed upstream::
 
     $ git push origin master YYYY.MM.DD
 
 An hourly cron job runs on our virtual machine and deploys the website.
 
-Finally add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883 and announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` categorie.
+Finally 
+ - Add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883
+ - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Annoucements`` categorie after checking that the website has been deployed.
 
 
