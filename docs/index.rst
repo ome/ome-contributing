@@ -29,6 +29,7 @@ be valuable to a wider audience.
     schema-changes
     python-development
     omero-release-process
+    omero-web-release-process
 
 Information specific to developing OMERO, the OME Data Model and file formats,
 and Bio-Formats can be found in their respective developer documentation
