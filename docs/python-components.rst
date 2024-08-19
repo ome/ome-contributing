@@ -53,7 +53,7 @@ To complete the release, push the master branch and the release tag to origin::
     $ git push origin master v5.8.0
 
 Publishing
-==========
+----------
 
 Many of the OME Python repositories use GitHub actions to publish to PyPI_
 when a new tag is created and pushed to GitHub.
