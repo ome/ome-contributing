@@ -8,9 +8,10 @@ Note this is not an exhaustive list of all tools release process.
 .. toctree::
     :maxdepth: 1
 
-    omero-release-process
-    omero-web-release-process
+    cpp-development
     gradle-development
     java-development
-    cpp-development
+    python-development
+    omero-release-process
+    omero-web-release-process
   

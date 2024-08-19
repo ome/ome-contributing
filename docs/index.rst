@@ -24,7 +24,6 @@ be valuable to a wider audience.
     jekyll
     data-model-schema
     schema-changes
-    python-development
     components-release
 
 Information specific to developing OMERO, the OME Data Model and file formats,
