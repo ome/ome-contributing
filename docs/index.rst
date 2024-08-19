@@ -17,9 +17,6 @@ be valuable to a wider audience.
     team-communication
     team-workflow
     ansible-development
-    java-development
-    gradle-development
-    cpp-development
     development-tools
     deployment-tools
     continuous-integration
@@ -27,9 +24,7 @@ be valuable to a wider audience.
     jekyll
     data-model-schema
     schema-changes
-    python-development
-    omero-release-process
-    omero-web-release-process
+    components-release
 
 Information specific to developing OMERO, the OME Data Model and file formats,
 and Bio-Formats can be found in their respective developer documentation

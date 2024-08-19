@@ -15,6 +15,7 @@
 
 import sys
 import os
+import shutil
 
 linkcheck_ignore = []
 extensions = ['sphinx.ext.extlinks']
@@ -245,3 +246,28 @@ linkcheck_ignore += [
     r'https://oss.sonatype.org/.*',  # Requires login
     github_root + 'ome/'
 ]
+
+def copy_legacy_redirects(app, exception):
+    """
+    see: https://tech.signavio.com/2017/managing-sphinx-redirects
+    """
+    print("Adding redirects:")
+    redirect_files = [
+        'python-development.html',
+
+    ]
+    if app.builder.name == 'html':
+        for html_src_path in redirect_files:
+            target_path = app.outdir + '/' + html_src_path
+            src_path = app.srcdir + '/' + html_src_path
+            if os.path.isfile(src_path):
+                target_dir = os.path.dirname(target_path)
+                if not os.path.exists(target_dir):
+                    os.makedirs(target_dir)
+                shutil.copyfile(src_path, target_path)
+                print("  %s" % html_src_path)
+
+
+def setup(app):
+    app.connect('build-finished', copy_legacy_redirects)
+

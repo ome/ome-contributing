@@ -1,5 +1,5 @@
-C++ components
-==============
+C++ components (deprecated)
+===========================
 
 This document describes the conventions and process used by the OME team for
 developing, maintaining and releasing its C++ components.
