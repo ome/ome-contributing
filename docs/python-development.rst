@@ -1,5 +1,5 @@
-Python development
-==================
+Publish to PyPI
+===============
 
 Release process
 ---------------
