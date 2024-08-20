@@ -1,7 +1,7 @@
 Jekyll-hosted websites
 ======================
 
-The main `OME website <https://www.openmicroscopy.org/>`_ is produced using `Jekyll <https://jekyllrb.com/>`_.
+The main `Open Microscopy Environment`_ website is produced using `Jekyll <https://jekyllrb.com/>`_.
 
 Installing Jekyll
 -----------------
@@ -37,7 +37,7 @@ source files, and will override any `baseurl` defined in `_config.yml`.
 Editing the website
 -------------------
 
-The source for the `OME website <https://www.openmicroscopy.org>`_ is
+The source for the `Open Microscopy Environment`_ website is
 on GitHub at https://github.com/ome/www.openmicroscopy.org.
 The website uses the ‘master’ branch, PRs should be opened directly against
 it. Most of the files are written in html but the announcements and blog posts

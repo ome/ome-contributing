@@ -3,7 +3,6 @@ OMERO.web release
 
 .. _OMERO Web: https://github.com/ome/omero-web/
 .. _OMERO Web Docker: https://github.com/ome/omero-web-docker/
-.. _image.sc: https://forum.image.sc/
 
 This document describes the release process for `OMERO Web`_.
 The release process uses GitHub actions, make sure that the actions are **active** before pushing any tag.
@@ -54,4 +53,4 @@ Both the `master` branch as well as the tag must be pushed upstream::
 An hourly cron job runs on our virtual machine and deploys the website.
 
 Finally 
-- Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Announcements`` category after checking that the website has been deployed.
+- Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.

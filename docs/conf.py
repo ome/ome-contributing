@@ -170,6 +170,7 @@ rst_epilog = """
 .. _PyPI: https://pypi.org
 .. _Conda: https://docs.conda.io/en/latest/
 .. _PyTables: http://pytables.org
+.. _image.sc: https://forum.image.sc/
 
 .. |SSH| replace:: :abbr:`SSH (Secure Shell)`
 .. |VM| replace:: :abbr:`VM (Virtual Machine)`
