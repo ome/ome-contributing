@@ -8,6 +8,7 @@ Note this is not an exhaustive list of all tools release process.
 .. toctree::
     :maxdepth: 1
 
+    bioformats-release-process
     cpp-development
     gradle-development
     java-development
