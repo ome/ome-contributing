@@ -81,7 +81,7 @@ Both the `master` branch as well as the tag must be pushed upstream::
 
 The documentation is built and published on `Read The Docs`_.
 
-An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `omero.readthedocs.io/en/v7.3.1/ <https://omero.readthedocs.io/en/v7.3.1/>`_.
+An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `bio-formats.readthedocs.io/en/v7.3.1/ <https://bio-formats.readthedocs.io/en/v7.3.1/>`_.
 
 Close the milestone if any and add new one if needed.
 
@@ -162,7 +162,7 @@ When the documentation is deployed, you can make a release of the `Open Microsco
 To make a release:
  - Update the version in `_config.yml <https://github.com/ome/www.openmicroscopy.org/tree/master/_config.yml>`_
  - Add a new entry under `_posts <https://github.com/ome/www.openmicroscopy.org/tree/master/_posts>`_. The name of the post should be ``YYYY-MM-DD-omero-MAJOR-MINOR-PATCH.md`` e.g. ``2024-08-15-omero-5-6-13.md``
- - Point to the post announcing the release in `omero/downloads/index.html <https://github.com/ome/www.openmicroscopy.org/tree/master/omero/downloads/index.html>`_.
+ - Point to the post announcing the release in `bio-formats/downloads/index.html <https://github.com/ome/www.openmicroscopy.org/tree/master/bio-formats/downloads/index.html>`_.
 
 
 A signed tag must be created using :command:`git tag -s`::
