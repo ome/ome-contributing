@@ -48,7 +48,7 @@ Both the `master` branch as well as the tag must be pushed upstream::
     $ git push origin master vx.y.z
 
 This will trigger GitHub action builds, generate artifacts, create a GitHub release and upload
-the artifacts to the release on GitHub.
+the artifacts to the release on GitHub and to the `OME artifactory`_. 
 An hourly cron job runs on our virtual machine and copy the artifacts published on Github under `Bio-Formats Downloads`_.
 
 Close the milestone if any and add new one if needed.
