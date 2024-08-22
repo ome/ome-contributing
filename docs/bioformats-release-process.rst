@@ -89,7 +89,7 @@ An hourly cron job runs on our virtual machine and adds redirect from for exampl
 
 Close the milestone if any and add new one if needed.
 
-Bio-Formats example release
+Bio-Formats examples release
 ---------------------------
 
 Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Examples <https://github.com/ome/bio-formats-examples>`_.
