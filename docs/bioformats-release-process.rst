@@ -8,7 +8,7 @@ BioFormats release
 .. _Read The Docs: https://readthedocs.org/projects/bio-formats/builds/
 .. _Data Repository: https://github.com/openmicroscopy/data_repo_config
 
-This document describes the release process the `Bio-Formats`_ Java library.
+This document describes the release process of the `Bio-Formats`_ Java library.
 The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
 
 Before starting the release process, 
@@ -200,7 +200,7 @@ To make a release:
  - Update the version in `_config.yml <https://github.com/ome/www.openmicroscopy.org/tree/master/_config.yml>`_
  - Add a new entry under `_posts <https://github.com/ome/www.openmicroscopy.org/tree/master/_posts>`_. The name of the post should be ``YYYY-MM-DD-omero-MAJOR-MINOR-PATCH.md`` e.g. ``2024-08-15-omero-5-6-13.md``
  - Point to the post announcing the release in `bio-formats/downloads/index.html <https://github.com/ome/www.openmicroscopy.org/tree/master/bio-formats/downloads/index.html>`_.
-
+ - Add, in alphabetical order, new contributors to `_data/bio-formats.json <https://github.com/ome/www.openmicroscopy.org/tree/master/_data/bio-formats.json>`_ and `_data/contributors.json <https://github.com/ome/www.openmicroscopy.org/tree/master/_data/contributors.json>`_.
 
 A signed tag must be created using :command:`git tag -s`::
 
