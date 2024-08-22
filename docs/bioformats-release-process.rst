@@ -29,7 +29,7 @@ SNAPSHOT using the Maven versions plugin, add and commit::
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=release.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
 
 
 A signed tag must be created for the released version using :command:`git tag -s`::
