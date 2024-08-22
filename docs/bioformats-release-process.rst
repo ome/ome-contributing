@@ -55,40 +55,6 @@ An hourly cron job runs on our virtual machine and copy the artifacts published 
 
 Close the milestone if any and add new one if needed.
 
-Documentation release
----------------------
-
-Before making a new release, merge all contributions on the ``master`` branch of `Bio-Formats Documentation`_.
-
-The first operation to perform a Maven release is to bump the version out of
-``SNAPSHOT`` using the Maven versions plugin, add and commit::
-
-    $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ mvn versions:set-property -Dproperty=bio-formats-examples.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ git add -u .
-    $ git commit -m "Bump release version to x.y.z"
-
-A signed tag must be created for the released version using :command:`git tag -s`::
-
-    $ git tag -s -m "Tag version x.y.z" vx.y.z
-
-Revert to ``SNAPSHOT``, add and commit::
-
-    $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
-    $ git add -u .
-    $ git commit -m "Revert to snapshot"
-
-Both the ``master`` branch as well as the tag must be pushed upstream::
-
-    $ git push origin master vx.y.z
-
-
-The documentation is built and published on `Read The Docs`_.
-
-An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `bio-formats.readthedocs.io/en/v7.3.1/ <https://bio-formats.readthedocs.io/en/v7.3.1/>`_.
-
-Close the milestone if any and add new one if needed.
 
 Bio-Formats examples release
 ---------------------------
@@ -126,6 +92,41 @@ Both the ``master`` branch as well as the tag must be pushed upstream::
 This will trigger GitHub action builds, generate artifacts and upload
 the artifacts to the `OME artifactory`_. 
 
+
+Documentation release
+---------------------
+
+Before making a new release, merge all contributions on the ``master`` branch of `Bio-Formats Documentation`_.
+
+The first operation to perform a Maven release is to bump the version out of
+``SNAPSHOT`` using the Maven versions plugin, add and commit::
+
+    $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=bio-formats-examples.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ git add -u .
+    $ git commit -m "Bump release version to x.y.z"
+
+A signed tag must be created for the released version using :command:`git tag -s`::
+
+    $ git tag -s -m "Tag version x.y.z" vx.y.z
+
+Revert to ``SNAPSHOT``, add and commit::
+
+    $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
+    $ git add -u .
+    $ git commit -m "Revert to snapshot"
+
+Both the ``master`` branch as well as the tag must be pushed upstream::
+
+    $ git push origin master vx.y.z
+
+
+The documentation is built and published on `Read The Docs`_.
+
+An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `bio-formats.readthedocs.io/en/v7.3.1/ <https://bio-formats.readthedocs.io/en/v7.3.1/>`_.
+
+Close the milestone if any and add new one if needed.
 
 Fiji Update site
 ----------------
