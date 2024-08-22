@@ -7,6 +7,7 @@ BioFormats release
 .. _Octave Docker: https://github.com/ome/bio-formats-octave-docker
 .. _Read The Docs: https://readthedocs.org/projects/bio-formats/builds/
 .. _Data Repository: https://github.com/openmicroscopy/data_repo_config
+.. _Bio-Formats homebrew: https://github.com/ome/homebrew-alt
 
 This document describes the release process of the `Bio-Formats`_ Java library.
 The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
@@ -24,7 +25,7 @@ Source code release
 Before making a new release, merge all contributions on the ``develop`` branch of `Bio-Formats`_.
 
 The first operation to perform a Maven release is to bump the version out of
-SNAPSHOT using the Maven versions plugin, add and commit::
+``SNAPSHOT`` using the Maven versions plugin, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=release.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
@@ -43,7 +44,7 @@ Revert to ``SNAPSHOT``, add and commit::
     $ git add -u .
     $ git commit -m "Revert to snapshot"
 
-Both the `develop` branch as well as the tag must be pushed upstream::
+Both the ``develop`` branch as well as the tag must be pushed upstream::
 
     $ git push origin develop vx.y.z
 
@@ -59,7 +60,7 @@ Documentation release
 Before making a new release, merge all contributions on the ``master`` branch of `Bio-Formats Documentation`_.
 
 The first operation to perform a Maven release is to bump the version out of
-SNAPSHOT using the Maven versions plugin, add and commit::
+``SNAPSHOT`` using the Maven versions plugin, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
@@ -67,6 +68,9 @@ SNAPSHOT using the Maven versions plugin, add and commit::
     $ git add -u .
     $ git commit -m "Bump release version to x.y.z"
 
+A signed tag must be created for the released version using :command:`git tag -s`::
+
+    $ git tag -s -m "Tag version x.y.z" vx.y.z
 
 Revert to ``SNAPSHOT``, add and commit::
 
@@ -74,7 +78,7 @@ Revert to ``SNAPSHOT``, add and commit::
     $ git add -u .
     $ git commit -m "Revert to snapshot"
 
-Both the `master` branch as well as the tag must be pushed upstream::
+Both the ``master`` branch as well as the tag must be pushed upstream::
 
     $ git push origin master vx.y.z
 
@@ -91,7 +95,7 @@ Bio-Formats example release
 Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Examples <https://github.com/ome/bio-formats-examples>`_.
 
 The first operation to perform a Maven release is to bump the version out of
-SNAPSHOT using the Maven versions plugin::
+``SNAPSHOT`` using the Maven versions plugin::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=formats-gpl.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
@@ -114,7 +118,7 @@ Revert to ``SNAPSHOT`` in :file:`pom.xml`::
 
 Revert the ``version`` to ``SNAPSHOT`` in :file:`build.gradle`.
 
-Both the `master` branch as well as the tag must be pushed upstream::
+Both the ``master`` branch as well as the tag must be pushed upstream::
 
     $ git push origin master vx.y.z
 
@@ -128,7 +132,7 @@ Fiji Update site
 Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Fiji <https://github.com/ome/bio-formats-fiji>`_.
 
 The first operation to perform a Maven release is to bump the version out of
-SNAPSHOT using the Maven versions plugin, add and commit::
+``SNAPSHOT`` using the Maven versions plugin, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
@@ -149,6 +153,8 @@ Revert to ``SNAPSHOT``, add, commit and push to origin::
 
 Homebrew
 --------
+
+Before making a new release, merge all contributions on the `master` branch (rare) of `Bio-Formats homebrew`_.
 
 - Update the `Bio-Formats formula <https://github.com/ome/homebrew-alt/blob/master/Formula/bioformats>`_
   by pointing to the ``bioformats-RELEASE.zip`` and update the ``sha256`` value. The ``sha256`` can be found in the ``SHASUM`` file under https://downloads.openmicroscopy.org/bio-formats/RELEASE/artifacts/.
@@ -190,7 +196,6 @@ A signed tag must be created for the released version using :command:`git tag -s
     $ git push origin master
 
 
-
 Website release
 ---------------
 
@@ -218,8 +223,8 @@ Announcement
 ------------
 
  - Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.
- - Confocal email
- - X/linkedin
+ - Announce on the Confocal email
+ - Announce on X and linkedin
 
 
 Post Release
