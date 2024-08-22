@@ -85,6 +85,43 @@ An hourly cron job runs on our virtual machine and adds redirect from for exampl
 
 Close the milestone if any and add new one if needed.
 
+Bio-Formats example release
+---------------------------
+
+Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Examples <https://github.com/ome/bio-formats-examples>`_.
+
+The first operation to perform a Maven release is to bump the version out of
+SNAPSHOT using the Maven versions plugin::
+
+    $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=formats-gpl.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
+
+Bump the ``version`` and ``formats-gpl`` in :file:`build.gradle`.
+
+Add and commit::
+
+    $ git add -u .
+    $ git commit -m "Bump release version to x.y.z"
+
+
+A signed tag must be created for the released version using :command:`git tag -s`::
+
+    $ git tag -s -m "Tag version x.y.z" vx.y.z
+
+Revert to ``SNAPSHOT`` in :file:`pom.xml`::
+
+    $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
+
+Revert the ``version`` to ``SNAPSHOT`` in :file:`build.gradle`.
+
+Both the `master` branch as well as the tag must be pushed upstream::
+
+    $ git push origin master vx.y.z
+
+This will trigger GitHub action builds, generate artifacts and upload
+the artifacts to the `OME artifactory`_. 
+
+
 Fiji Update site
 ----------------
 
@@ -94,7 +131,7 @@ The first operation to perform a Maven release is to bump the version out of
 SNAPSHOT using the Maven versions plugin, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ git add -u .
     $ git commit -m "Bump release version to x.y.z"
     $ git push origin master
