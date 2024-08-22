@@ -41,7 +41,7 @@ Revert to ``SNAPSHOT``, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Revert to snapshot”
+    $ git commit -m "Revert to snapshot"
 
 Both the `develop` branch as well as the tag must be pushed upstream::
 
@@ -65,14 +65,14 @@ SNAPSHOT using the Maven versions plugin, add and commit::
     $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=bio-formats-examples.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
 
 
 Revert to ``SNAPSHOT``, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Revert to snapshot”
+    $ git commit -m "Revert to snapshot"
 
 Both the `master` branch as well as the tag must be pushed upstream::
 
@@ -96,7 +96,7 @@ SNAPSHOT using the Maven versions plugin, add and commit::
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=.y.z -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
     $ git push origin master
     $ mvn clean package -Dfiji.home=x.y.z
 
@@ -107,7 +107,7 @@ Revert to ``SNAPSHOT``, add, commit and push to origin::
 
     $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Revert to snapshot”
+    $ git commit -m "Revert to snapshot"
     $ git push origin master
 
 Homebrew
@@ -121,7 +121,7 @@ Homebrew
 Add, commit the changes and push to origin::
 
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
     $ git push origin master
 
 
@@ -136,7 +136,7 @@ Bump the version in `Dockerfile <https://github.com/ome/bio-formats-octave-docke
 Add, commit the changes and push to origin::
 
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
     $ git push origin master
 
 Close the milestone if any and add new one if needed.
