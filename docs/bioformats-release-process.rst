@@ -43,9 +43,9 @@ Revert to ``SNAPSHOT``, add and commit::
     $ git add -u .
     $ git commit -m “Revert to snapshot”
 
-Both the `master` branch as well as the tag must be pushed upstream::
+Both the `develop` branch as well as the tag must be pushed upstream::
 
-    $ git push origin master vx.y.z
+    $ git push origin develop vx.y.z
 
 This will trigger GitHub action builds, generate artifacts, create a GitHub release and upload
 the artifacts to the release on GitHub and to the `OME artifactory`_. 
