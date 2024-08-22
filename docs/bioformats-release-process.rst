@@ -41,6 +41,7 @@ A signed tag must be created for the released version using :command:`git tag -s
 Revert to ``SNAPSHOT``, add and commit::
 
     $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=release.version -DnewVersion=x.y.z-SNAPSHOT -DgenerateBackupPoms=false
     $ git add -u .
     $ git commit -m "Revert to snapshot"
 
