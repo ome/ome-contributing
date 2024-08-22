@@ -189,7 +189,7 @@ Post Release
 ------------
 
  - Add an entry in `Web Server Stats`_.
- - Bump bio-formats version in `omero-model <https://github.com/ome/omero-model/blob/master/build.gradle>`_.
- - Bump bio-formats version in `OMEZarrReader <https://github.com/ome/ZarrReader/blob/main/pom.xml>`_.
- - Bump bio-formats version in `pom-scijava <https://github.com/scijava/pom-scijava/blob/master/pom.xml>`_.
+ - Bump Bio-Formats version in `omero-model <https://github.com/ome/omero-model/blob/master/build.gradle>`_.
+ - Bump Bio-Formats version in `OMEZarrReader <https://github.com/ome/ZarrReader/blob/main/pom.xml>`_.
+ - Bump Bio-Formats version in `pom-scijava <https://github.com/scijava/pom-scijava/blob/master/pom.xml>`_.
 
