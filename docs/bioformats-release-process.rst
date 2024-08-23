@@ -56,8 +56,26 @@ An hourly cron job runs on our virtual machine and copy the artifacts published 
 Close the milestone if any and add new one if needed.
 
 
+Testing the artifacts
+---------------------
+
+To test the artifacts published, 
+ - Test the `bio-formats-command-line-tools <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-command-line-tools>`_.
+ - Test `MATLAB (only) <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-matlab-octave>`_.
+ - Test `Fiji Plugin <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-imagej-fiji-testing>`_
+ - Check the schema version using the command line tools::
+      $ ./bfconvert B.ome.tiff
+      $ ./tiffcomment B.ome.tiff
+  Check that the schema version in OME-XML be ``2016-06``
+
+
+If an error occurs during the testing:
+ - Delete the release and the tag on GitHub.
+ - Delete the artifacts on `OME artifactory`_.
+ - Delete the folder corresponding to the latest release under `Bio-Formats Downloads`_, if it has already been created.
+
 Bio-Formats examples release
----------------------------
+----------------------------
 
 Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Examples <https://github.com/ome/bio-formats-examples>`_.
 
