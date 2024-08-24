@@ -217,6 +217,8 @@ rst_epilog += """
 ..  |deploy-doc| replace:: Runs :ref:`scc deploy` to update
 """
 
+rst_epilog += '.. |C| replace:: **Check**'
+
 # -- Options for LaTeX output -------------------------------------------------
 
 # Grouping the document tree into LaTeX files. List of tuples
