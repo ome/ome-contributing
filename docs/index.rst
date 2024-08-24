@@ -25,6 +25,7 @@ be valuable to a wider audience.
     data-model-schema
     schema-changes
     components-release
+    testing_scenarios/index
 
 Information specific to developing OMERO, the OME Data Model and file formats,
 and Bio-Formats can be found in their respective developer documentation
