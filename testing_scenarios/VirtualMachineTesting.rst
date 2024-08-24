@@ -1,0 +1,47 @@
+Virtual Machine Testing
+=============================
+
+**No longer supported - OMERO 5.2.1 is the last version released**
+
+**To test in**: Virtual Box - OVA, Insight
+
+**Purpose of the test** is to check the functioning of the Virtual Machine.
+
+
+**Documentation for working with the Virtual Appliance is to be found
+in the** `OMERO 5.2 docs <https://docs.openmicroscopy.org/latest/omero5.2/users/virtual-appliance.html>`_:
+
+**You should also be aware that the OVA is ~1.1GB so if you are testing from home it might be worth downloading the OVA from the office before heading out, (up to 2 hours if less than 200Kb/sec)**
+
+#. Appliance Import Testing
+
+   -  If you do not have VirtualBox installed then download it from <https://www.virtualbox.org/wiki/Downloads> & follow the installation instructions.
+   -  Download omero-vm.ova from jenkins, from the last successful build /artifact/src/docs/install/VM/omero-vm.ova. Start VirtualBox and select File >> Import Appliance
+   -  Accept the defaults offered by VirtualBox and follow the on screen prompts until your appliance is imported. At this point there should be a new virtual machine located in your virtual machine library.
+   -  Select the omero-vm virtual machine then click the start button from the menu bar.
+   -  NB. Check port forwarding. If no port forwarding is set up then use the `setup_port_forwarding.sh <https://docs.openmicroscopy.org/latest/omero5.2/_downloads/setup_port_forwarding.sh>`_ script to set up port forwarding, e.g. ``$ bash setup\_port\_forwarding.sh omero-vm``
+   - |C| Your VM now boots
+
+
+#. Virtualised OMERO.server Testing (A) Using an OMERO.client
+
+   - Start your omero VM
+   - Connect to your VM using OMERO.insight in your host environment [SERVER ADDRESS=localhost SERVER PORT=4064, USERNAME=root,PASSWORD=omero]
+   - Import a couple of test images into your virtual OMERO.server using insight UI. Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+   - |C| the images imported correctly
+
+
+#. Virtualised OMERO.server Testing (B) Using the CLI
+
+
+   - Log into your Omero VM using SSH. In a shell run:   ``$ ssh -p 2222 omero@localhost``
+
+   - Use password "omero" when prompted.
+   - This should give you a shell on the VM.
+   - Run the Omero diagnostics command. This should work as expected for a native install. ``$ omero admin diagnostics``
+
+   - |C| you see in terminal output as shown [:download:`here </downloads/VirtualMachine01.txt>`]
+
+   - |C| that after 20 seconds you see output as shown [:download:`here </downloads/VirtualMachine02.txt>`]
+
+
