@@ -171,6 +171,7 @@ rst_epilog = """
 .. _Conda: https://docs.conda.io/en/latest/
 .. _PyTables: http://pytables.org
 .. _image.sc: https://forum.image.sc/
+.. _Web Server Stats: https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883
 
 .. |SSH| replace:: :abbr:`SSH (Secure Shell)`
 .. |VM| replace:: :abbr:`VM (Virtual Machine)`
