@@ -153,7 +153,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot001:
-.. figure:: /images/testing_scenarios/BulkAnnotations/001.png
+.. figure:: images/testing_scenarios/BulkAnnotations/001.png
    :align: center
 
    BulkAnnot001: 
@@ -190,7 +190,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot001Nout:
-.. figure:: /images/testing_scenarios/BulkAnnotations/001Nout.png
+.. figure:: images/testing_scenarios/BulkAnnotations/001Nout.png
    :align: center
 
    Console output: 
@@ -229,7 +229,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot004NWeb:
-.. figure:: /images/testing_scenarios/BulkAnnotations/004NWeb.png
+.. figure:: images/testing_scenarios/BulkAnnotations/004NWeb.png
    :align: center
 
    BulkAnnot001NWeb: 
@@ -269,7 +269,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot002NWeb:
-.. figure:: /images/testing_scenarios/BulkAnnotations/002NWeb.png
+.. figure:: images/testing_scenarios/BulkAnnotations/002NWeb.png
    :align: center
 
    BulkAnnot002NWeb: 
@@ -306,7 +306,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot005NWeb:
-.. figure:: /images/testing_scenarios/BulkAnnotations/005NWeb.png
+.. figure:: images/testing_scenarios/BulkAnnotations/005NWeb.png
    :align: center
 
    BulkAnnot005NWeb: 
@@ -337,7 +337,7 @@ For both sections below, you must have:
 
 
 .. _BulkAnnot006:
-.. figure:: /images/testing_scenarios/BulkAnnotations/006.png
+.. figure:: images/testing_scenarios/BulkAnnotations/006.png
    :align: center
 
    BulkAnnot006: 
@@ -365,7 +365,7 @@ For both sections below, you must have:
 |
 
 .. _BulkAnnot007:
-.. figure:: /images/testing_scenarios/BulkAnnotations/007.png
+.. figure:: images/testing_scenarios/BulkAnnotations/007.png
    :align: center
 
    BulkAnnot007: 

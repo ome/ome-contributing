@@ -360,7 +360,7 @@ Annotate
 
 
 .. _Annotate003:
-.. figure:: /images/testing_scenarios/Annotate/003.png
+.. figure:: images/testing_scenarios/Annotate/003.png
    :align: center
 
    Annotate003: Check in Web
