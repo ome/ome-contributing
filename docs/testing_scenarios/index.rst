@@ -32,7 +32,6 @@ Testing scenarios
    DownloadExportDowngrade
    Edit
    FileFormatMetadataValidation
-   FLIMfit
    GeneralRelease
    ImportAs
    ImportCLI
@@ -75,12 +74,6 @@ Testing scenarios
    UserGroupManipulation
    ViewImageWithPerm
    ViewBigImage
-   VirtualMachineTesting
    VirtualMicroscope
    WebLightTesting
    Webtagging
-   Woolz
-
-
-
-
