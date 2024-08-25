@@ -21,7 +21,7 @@ Move Data between Groups
    - Move an orphaned Plate
    - |C| that the Screen/Plates are at the destination with all the ROIs/annotations as allowed by permissions, see the setup table for expected results
 
-#. Move an Image (see here for choice of images [:download:`Images </downloads/ImportTestingSetTable.pdf>`])
+#. Move an Image (see here for choice of images [:download:`Images <downloads/ImportTestingSetTable.pdf>`])
 
    - rich in metadata 
    - with a ROI

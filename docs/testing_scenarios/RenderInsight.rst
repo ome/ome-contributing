@@ -70,7 +70,7 @@ Render - basic
 
 #. Repeat steps 1. - 6. working on orphaned images. 
 
-#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]). Preview is **NOT** available for Big images. 
+#. Repeat the steps 1. - 6. with Big Images (Find suitable images here [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]). Preview is **NOT** available for Big images. 
 
 Render - copying / resetting
 ============================

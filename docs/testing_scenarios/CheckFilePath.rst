@@ -17,7 +17,7 @@ Check Filepath (FS)
 #. Go to the server and find the file according to the given filepath.
 
 
-   - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:download:`Path example </downloads/check_path.txt>`].
+   - Go to the server, directory `/OMERO/ManagedRepository/<filepath>` [:download:`Path example <downloads/check_path.txt>`].
    - |C| that the path shown in the clients and the filepath on the server match 
 
 

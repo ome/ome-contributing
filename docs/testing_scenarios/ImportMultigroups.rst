@@ -7,7 +7,7 @@ Import and Multigroups
 
 **Purpose of the test** is to test the import of images into multiple groups and check the Import Queue behaviour in this case
 
-#. Import the same image in 2 different groups. Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+#. Import the same image in 2 different groups. Find suitable images here [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]
 
    - Open Importer window, select an image, click onto ">" to bring up the "Import Location" window 
    - Choose where to import the image in the first group [:ref:`ImportMultiGr000a`]

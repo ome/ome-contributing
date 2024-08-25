@@ -13,7 +13,7 @@ implemented.
 
 **Note:** images are not imported into a dataset so the images will be orphaned.
 
-**Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+**Find suitable images here** [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]
 
 #. Find the DropBox folder in your ``/omero`` folder e.g. ``Petr/var/omero/DropBox``.
 
@@ -27,12 +27,12 @@ implemented.
 
 #. Observe the log info in your command line
 
-   - |C| the file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`] and immediately
+   - |C| the file has been registered by DropBox [:download:`001 <downloads/DropBox_001.txt>`] and immediately
 
 #. Drag and Drop a companion file to the DV file you put in in step 5 (e.g. ``IAGFP-Noc01_R3D.dv.log``)
 
-   - |C| the companion file has been registered by DropBox [:download:`001 </downloads/DropBox_001.txt>`]
-   - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 </downloads/DropBox_001.txt>`]
+   - |C| the companion file has been registered by DropBox [:download:`001 <downloads/DropBox_001.txt>`]
+   - |C| that the import starts within ~60 sec (if you do not interrupt it by another file addition into DropBox) [:download:`001 <downloads/DropBox_001.txt>`]
    - |C| that the files have been correctly imported (using Insight UI)
 
 #. Drag and Drop an image without companion file into the DropBox subfolder you created in step 2 (e.g. ``Petr/var/omero/DropBox/petr``)

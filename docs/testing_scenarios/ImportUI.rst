@@ -7,7 +7,7 @@ Import (UI)
 
 **Purpose of the test** is to check all the features of Importer UI as started from Insight
 
-Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+Find suitable images here [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]
 
 NB: **Data Manager** == **The main window of Insight UI**
 

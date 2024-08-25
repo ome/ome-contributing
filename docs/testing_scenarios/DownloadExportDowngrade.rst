@@ -21,7 +21,7 @@ Download non-image files (both in OMERO 5 and OMERO 4)
 
 **To test in**: Web, Insight
 
-    - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`])
+    - Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv`` (or see column "Extra information" in [:download:`here <downloads/ImportTestingSetTable.pdf>`])
 
     - Select the image, go to the right-hand panel, Acquisition tab, Companion files, and (Insight only) left-click on icon to the right of the filename to see a menu.
 
@@ -30,11 +30,11 @@ Download non-image files (both in OMERO 5 and OMERO 4)
     - Download the Companion file [:ref:`DownloadED003`][:ref:`DownloadED004`] - open downloaded file in text editor,
     - |C| that the size is not zero.[:ref:`DownloadED005`]
 
-    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt </downloads/Export_Downgrade_original_metadata.txt>`] (Web only - Acquisition tab) [:ref:`DownloadED007`].
+    - Download the metadata file created by OMERO i.e. ``original_metadata.txt`` [:download:`original_metadata.txt <downloads/Export_Downgrade_original_metadata.txt>`] (Web only - Acquisition tab) [:ref:`DownloadED007`].
 
     - Download the original metadata file using the menu item under the icon above right-hand pane (Insight only) [:ref:`DownloadED007b`].
 
-    - |C| the downloaded file [:download:`008 </downloads/Export_Downgrade_008.txt>`].
+    - |C| the downloaded file [:download:`008 <downloads/Export_Downgrade_008.txt>`].
 
     - Download the companion files as well as original metadata both into your home directory as well as to your Desktop.
 

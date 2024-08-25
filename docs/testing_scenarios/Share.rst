@@ -29,7 +29,7 @@ Share
 
    - |C| that a pop-up dialog is displaying indicating that Shares are not supported.
 
-#. Select 3 or more images in the left-hand pane, note their IDs and use the :download:`create_share.py </downloads/create_share.py>`
+#. Select 3 or more images in the left-hand pane, note their IDs and use the :download:`create_share.py <downloads/create_share.py>`
    script to create a share of these images with `user-1`::
 
        python create_share.py user-1 image_id_1 image_id_2 image_id_3

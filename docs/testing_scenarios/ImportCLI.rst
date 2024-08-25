@@ -8,7 +8,7 @@ Import CLI
 **Purpose of the test** is to check the import of single, multiple images and multi-images file from command line. Also, to test In-place import and the Background import functionalities.
 
 
-**Find suitable images here** [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+**Find suitable images here** [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]
 
 **Note that you have to download the right .zip server file (with the correct Ice version) to have the correct CLI-client for testing. You can use omego for this purpose, or download the .zip manually.**
 
@@ -20,20 +20,20 @@ Import CLI
 
 #. Go to Terminal. cd into the directory where your server runs. From there:
 
-#. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 </downloads/CLI_001.txt>`]
+#. Log in onto the server you chose in step 1 as the user you chose in step 1. Import a single image without a companion file [:download:`001 <downloads/CLI_001.txt>`]
 
    - |C| that the file was imported using Insight UI [:ref:`ImportCLI002`]
 
-#. Import several images in one transaction (a whole folder).[:download:`003 </downloads/CLI_003.txt>`]
+#. Import several images in one transaction (a whole folder).[:download:`003 <downloads/CLI_003.txt>`]
 
    - |C| that the files were imported using Insight UI [:ref:`ImportCLI004`]
 
-#. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here </downloads/ImportTestingSetTable.pdf>`]
+#. Import an image with a companion file e.g. ``data_repo/test_images_good/dv/CFPNEAT01_R3D.dv``, or see "Extra information" in [:download:`here <downloads/ImportTestingSetTable.pdf>`]
 
    - |C| that the file was imported and you can see the companion file.- Acquisition tab, Companion files [:ref:`ImportCLI005`]
    - |C| that you can download the companion file
 
-#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 </downloads/CLI_007.txt>`][:ref:`ImportCLI006`]
+#. Select a folder with a multi-images file (like ``test_images_good/lei``) [:download:`007 <downloads/CLI_007.txt>`][:ref:`ImportCLI006`]
 
    - |C| that you can see the imported images within the file
 

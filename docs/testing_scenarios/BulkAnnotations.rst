@@ -103,7 +103,7 @@ For both sections below, you must have:
 
       `PYTHONPATH=$PYTHONPATH:. python omero/util/populate_roi.py -s localhost -u user-4 61`
 
-   - |C| that you can see following console output as a result of steps 6 and 7 [:download:`populate_roi_output.txt </downloads/pop_roi_output.txt>`]. 
+   - |C| that you can see following console output as a result of steps 6 and 7 [:download:`populate_roi_output.txt <downloads/pop_roi_output.txt>`]. 
 
 
 #. Open or go to the previously opened Insight UI

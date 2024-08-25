@@ -7,7 +7,7 @@ Screen/Plate/Well
 
 **Purpose of the test** is to check a plate/screen (with multiple Fields per well) import and viewing
 
-#. In Importer, in the Location dialog. Switch from Project/Dataset to Screen. Import a plate with multiple fields for example ``ome/data_repo/curated/cellworx/hms/plate1/plate1_B02.pnl``. Other useful plate can be found [:download:`here </downloads/ImportTestingSetTable.pdf>`].
+#. In Importer, in the Location dialog. Switch from Project/Dataset to Screen. Import a plate with multiple fields for example ``ome/data_repo/curated/cellworx/hms/plate1/plate1_B02.pnl``. Other useful plate can be found [:download:`here <downloads/ImportTestingSetTable.pdf>`].
 
    - |C| in Web that plate imported successfully - refresh and find the plate at the bottom of the tree (left-hand pane). 
    - |C| Refresh Datamanager. Check that a Plate Run is created in ``Screens`` tab [:ref:`SPW001`] (Insight only)

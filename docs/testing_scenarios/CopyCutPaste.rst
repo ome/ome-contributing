@@ -7,7 +7,7 @@ Copy/Cut/Paste
 
 **Purpose of the test** is to check the Copy, Cut and Paste functionalities
 
-Find suitable images here [:download:`TestingSet </downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate </downloads/ImportTestingTemplate.pdf>`]
+Find suitable images here [:download:`TestingSet <downloads/ImportTestingSetTable.pdf>`] or here [:download:`TestingTemplate <downloads/ImportTestingTemplate.pdf>`]
 
 **Note that in Insight and Web, these commands are named as** ``Copy-Link``, ``Cut-Link`` and ``Paste-Link``, **in order to inform our users about the fact that this is not a deep copy.**
 

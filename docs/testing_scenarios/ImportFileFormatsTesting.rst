@@ -7,9 +7,9 @@ Import File Formats Testing
 
 **Purpose of the test** is to check the import of various file formats and ability to report failures correctly.
 
-#. Note any special cases for the file format. These will be in the Notes column in the spreadsheet - see [:download:`here </downloads/ImportTestingSetTable.pdf>`], or for special cases in a README which you must read first.
+#. Note any special cases for the file format. These will be in the Notes column in the spreadsheet - see [:download:`here <downloads/ImportTestingSetTable.pdf>`], or for special cases in a README which you must read first.
 
-#. Import the files for this format. A known good selection is located in :file:`/ome/data_repo/test_images_good` or a larger set in :file:`/ome/data_repo/curated` (see details [:download:`here </downloads/ImportTestingSetTable.pdf>`]) 
+#. Import the files for this format. A known good selection is located in :file:`/ome/data_repo/test_images_good` or a larger set in :file:`/ome/data_repo/curated` (see details [:download:`here <downloads/ImportTestingSetTable.pdf>`]) 
 
    - Note that some formats have special import requirements--please check first!
    - |C| for any import failures, and take a copy of any exceptions

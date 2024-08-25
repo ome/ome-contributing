@@ -40,7 +40,7 @@ NB: Because the image features are being stored in two different places, which m
 #. Run ``Rebuild Content DB`` script
 
    - Go Scripts > searcher > Rebuild Content DB 
-   - |C| that the script ended up successfully  [:download:`002b </downloads/Output_rebuild_ContentDB.txt>`].
+   - |C| that the script ended up successfully  [:download:`002b <downloads/Output_rebuild_ContentDB.txt>`].
 
 #. Search for images
 

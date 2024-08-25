@@ -7,7 +7,7 @@ ROI Web
 
 **Purpose of the test** is to check the ROI viewing in Web
 
-#. Open in Viewer an image with >3 ROIs propagated through multiple z/t (check here for suitable image [:download:`Images set </downloads/ImportTestingSetTable.pdf>`]). If it does not exist, create it in Insight.)
+#. Open in Viewer an image with >3 ROIs propagated through multiple z/t (check here for suitable image [:download:`Images set <downloads/ImportTestingSetTable.pdf>`]). If it does not exist, create it in Insight.)
 
 #. View the ROIs [:ref:`ROIWeb001`][:ref:`ROIWeb002`]
 
