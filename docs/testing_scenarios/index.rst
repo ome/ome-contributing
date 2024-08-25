@@ -64,8 +64,6 @@ Testing scenarios
    ROIWeb
    ScriptsClient
    Search
-   2014-SV2
-   2014-SV3
    SwitchUser
    Share
    ShareSecurityTesting
