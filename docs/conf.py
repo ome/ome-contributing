@@ -75,6 +75,8 @@ docs_root = 'https://docs.openmicroscopy.org'
 imagesc_root = 'https://forum.image.sc'
 
 extlinks = {
+    'modeldoc': (oo_site_root + '/support/ome-model/%s', None),
+    'team_plone' : (oo_site_root + '/team/%s', None),
     # image.sc
     'imagesc': (imagesc_root + '/%s', '#%s'),
     # Trac links
