@@ -91,7 +91,7 @@ Import CLI
 
 #. **Note that the In-place import works only on the data which are local to the server (the imported files might be remote, but must be mounted on your file system, for example under Volumes).**
 
-#. Perform ``ssh`` command into the server you are going to test the In-place import to or start up your local server. Import a multi z/t image and a plate In-place. To understand better, read the doc :doc:`/investigations/2014/01/InPlace`. Do the In-place import using
+#. Perform ``ssh`` command into the server you are going to test the In-place import to or start up your local server. Import a multi z/t image and a plate In-place. To understand better, read the doc :omerodoc:`sysadmins/in-place-import.html`. Do the In-place import using
 
    - hard link = ``--transfer=ln``
    - soft link = ``--transfer=ln_s``
@@ -114,7 +114,7 @@ Import CLI
    - |C| that the actions proceed without error.
 
 
-#. Background importing: read the doc :doc:`In-place import </investigations/2014/01/InPlace>`, section ``Background importing`` to understand better.
+#. Background importing: read :omerodoc:`sysadmins/in-place-import.html`.
 
    - Perform background import with all options mentioned in the doc.
    - |C| that the importer disconnected as expected and the images were imported okay.

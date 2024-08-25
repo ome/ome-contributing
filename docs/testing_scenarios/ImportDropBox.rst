@@ -55,7 +55,7 @@ implemented.
    - Wait at least ~60sec - watch the progress of the import in the log
    - |C| they are all imported (using Insight UI)
 
-#. Inplace import via DropBox. To understand better, read the DropBox section at the bottom of :doc:`this doc </investigations/2014/01/InPlace>`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
+#. Inplace import via DropBox. To understand better, read :omerodoc:`sysadmins/in-place-import.html#dropbox`.  Set the ``bin/omero config set -- omero.fs.importArgs`` variable in your local server to:
 
    - ``--transfer=ln_rm`` 
    - ``--transfer=ln_s`` 
@@ -67,5 +67,3 @@ implemented.
 
    - |C| that the plate/image has been imported successfully and the files stay in the DropBox folder (``ln`` and ``ln_s`` options) or are deleted from it (``ln_rm`` option)
 
-
- 
