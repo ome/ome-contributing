@@ -197,7 +197,7 @@ Annotate
 
 
 .. _Annotate001:
-.. figure:: /images/testing_scenarios/Annotate/001.png
+.. figure:: images/testing_scenarios/Annotate/001.png
    :align: center
 
    Annotate001: Comments in Insight
@@ -237,7 +237,7 @@ Annotate
 |
 
 .. _AnnotateM001:
-.. figure:: /images/testing_scenarios/Annotate/multiple001.png
+.. figure:: images/testing_scenarios/Annotate/multiple001.png
    :align: center
 
    AnnotateM001
@@ -282,7 +282,7 @@ Annotate
 |
 
 .. _AnnotateM002:
-.. figure:: /images/testing_scenarios/Annotate/multiple002.png
+.. figure:: images/testing_scenarios/Annotate/multiple002.png
    :align: center
 
    AnnotateM002
@@ -319,7 +319,7 @@ Annotate
 |
 
 .. _Annotate002:
-.. figure:: /images/testing_scenarios/Annotate/002.png
+.. figure:: images/testing_scenarios/Annotate/002.png
    :align: center
 
    Annotate002: Check in Insight
@@ -390,7 +390,7 @@ Annotate
 |
 
 .. _AnnotateM003:
-.. figure:: /images/testing_scenarios/Annotate/multiple003.png
+.. figure:: images/testing_scenarios/Annotate/multiple003.png
    :align: center
 
    AnnotateM003
@@ -426,7 +426,7 @@ Annotate
 |
 
 .. _AnnotateM004:
-.. figure:: /images/testing_scenarios/Annotate/multiple004.png
+.. figure:: images/testing_scenarios/Annotate/multiple004.png
    :align: center
 
    AnnotateM004
@@ -463,7 +463,7 @@ Annotate
 |
 
 .. _AnnotateM005:
-.. figure:: /images/testing_scenarios/Annotate/multiple005.png
+.. figure:: images/testing_scenarios/Annotate/multiple005.png
    :align: center
 
    AnnotateM005
@@ -497,7 +497,7 @@ Annotate
 |
 
 .. _AnnotateM006:
-.. figure:: /images/testing_scenarios/Annotate/multiple006.png
+.. figure:: images/testing_scenarios/Annotate/multiple006.png
    :align: center
 
    AnnotateM006
@@ -531,7 +531,7 @@ Annotate
 |
 
 .. _AnnotateM007:
-.. figure:: /images/testing_scenarios/Annotate/multiple007.png
+.. figure:: images/testing_scenarios/Annotate/multiple007.png
    :align: center
 
    AnnotateM007
@@ -565,7 +565,7 @@ Annotate
 |
 
 .. _AnnotateM008:
-.. figure:: /images/testing_scenarios/Annotate/multiple008.png
+.. figure:: images/testing_scenarios/Annotate/multiple008.png
    :align: center
 
    AnnotateM008
@@ -589,7 +589,7 @@ Annotate
 |
 
 .. _Annotate009:
-.. figure:: /images/testing_scenarios/Annotate/009.png
+.. figure:: images/testing_scenarios/Annotate/009.png
    :align: center
 
    Annotate009
@@ -614,7 +614,7 @@ Annotate
 |
 
 .. _Annotate010:
-.. figure:: /images/testing_scenarios/Annotate/010.png
+.. figure:: images/testing_scenarios/Annotate/010.png
    :align: center
 
    Annotate010
@@ -637,7 +637,7 @@ Annotate
 |
 
 .. _Annotate011:
-.. figure:: /images/testing_scenarios/Annotate/011.png
+.. figure:: images/testing_scenarios/Annotate/011.png
    :align: center
 
    Annotate011
@@ -661,7 +661,7 @@ Annotate
 |
 
 .. _Annotate012:
-.. figure:: /images/testing_scenarios/Annotate/012.png
+.. figure:: images/testing_scenarios/Annotate/012.png
    :align: center
 
    Annotate012
@@ -684,7 +684,7 @@ Annotate
 |
 
 .. _Annotate013:
-.. figure:: /images/testing_scenarios/Annotate/013.png
+.. figure:: images/testing_scenarios/Annotate/013.png
    :align: center
 
    Annotate013
@@ -708,7 +708,7 @@ Annotate
 |
 
 .. _Annotate014:
-.. figure:: /images/testing_scenarios/Annotate/014.png
+.. figure:: images/testing_scenarios/Annotate/014.png
    :align: center
 
    Annotate014
@@ -731,7 +731,7 @@ Annotate
 |
 
 .. _Annotate015:
-.. figure:: /images/testing_scenarios/Annotate/015.png
+.. figure:: images/testing_scenarios/Annotate/015.png
    :align: center
 
    Annotate015
@@ -754,7 +754,7 @@ Annotate
 |
 
 .. _Annotate016:
-.. figure:: /images/testing_scenarios/Annotate/016.png
+.. figure:: images/testing_scenarios/Annotate/016.png
    :align: center
 
    Annotate016
@@ -777,7 +777,7 @@ Annotate
 |
 
 .. _Annotate017:
-.. figure:: /images/testing_scenarios/Annotate/017.png
+.. figure:: images/testing_scenarios/Annotate/017.png
    :align: center
 
    Annotate017
@@ -800,7 +800,7 @@ Annotate
 |
 
 .. _Annotate018:
-.. figure:: /images/testing_scenarios/Annotate/018.png
+.. figure:: images/testing_scenarios/Annotate/018.png
    :align: center
 
    Annotate018
@@ -823,7 +823,7 @@ Annotate
 |
 
 .. _Annotate019:
-.. figure:: /images/testing_scenarios/Annotate/019.png
+.. figure:: images/testing_scenarios/Annotate/019.png
    :align: center
 
    Annotate019
@@ -846,7 +846,7 @@ Annotate
 |
 
 .. _Annotate020:
-.. figure:: /images/testing_scenarios/Annotate/020.png
+.. figure:: images/testing_scenarios/Annotate/020.png
    :align: center
 
    Annotate020
@@ -871,7 +871,7 @@ Annotate
 |
 
 .. _Annotate021:
-.. figure:: /images/testing_scenarios/Annotate/021.png
+.. figure:: images/testing_scenarios/Annotate/021.png
    :align: center
 
    Annotate021

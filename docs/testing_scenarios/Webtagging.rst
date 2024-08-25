@@ -69,7 +69,7 @@ Webtagging
 |
 
 .. _Screenshot001:
-.. figure:: /images/testing_scenarios/Webtagging/001.png
+.. figure:: images/testing_scenarios/Webtagging/001.png
    :align: center
 
    Screenshot001: 
@@ -85,7 +85,7 @@ Webtagging
 |
 
 .. _Screenshot002:
-.. figure:: /images/testing_scenarios/Webtagging/002.png
+.. figure:: images/testing_scenarios/Webtagging/002.png
    :align: center
 
    Screenshot002: 
@@ -102,7 +102,7 @@ Webtagging
 |
 
 .. _Screenshot003:
-.. figure:: /images/testing_scenarios/Webtagging/003.png
+.. figure:: images/testing_scenarios/Webtagging/003.png
    :align: center
 
    Screenshot003: 
@@ -118,7 +118,7 @@ Webtagging
 |
 
 .. _Screenshot004:
-.. figure:: /images/testing_scenarios/Webtagging/004.png
+.. figure:: images/testing_scenarios/Webtagging/004.png
    :align: center
 
    Screenshot004: 
@@ -134,7 +134,7 @@ Webtagging
 |
 
 .. _Screenshot005:
-.. figure:: /images/testing_scenarios/Webtagging/005.png
+.. figure:: images/testing_scenarios/Webtagging/005.png
    :align: center
 
    Screenshot005: 
@@ -149,7 +149,7 @@ Webtagging
 |
 
 .. _Screenshot006:
-.. figure:: /images/testing_scenarios/Webtagging/006.png
+.. figure:: images/testing_scenarios/Webtagging/006.png
    :align: center
 
    Screenshot006: 
@@ -165,7 +165,7 @@ Webtagging
 |
 
 .. _Screenshot007:
-.. figure:: /images/testing_scenarios/Webtagging/007.png
+.. figure:: images/testing_scenarios/Webtagging/007.png
    :align: center
 
    Screenshot007: 

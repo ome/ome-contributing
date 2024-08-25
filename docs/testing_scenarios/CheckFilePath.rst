@@ -1,5 +1,5 @@
 Check Filepath (FS)
-====================
+===================
 
 
 
@@ -70,7 +70,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath002ina:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002ina.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002ina.png
 	   :align: center
 
 	   top of General tab in Insight
@@ -107,7 +107,7 @@ Check Filepath (FS)
 
 
 	.. _filepath icon:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002in.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002in.png
 	   :align: center
 
 	   filepath icon Insight
@@ -147,7 +147,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath002wa:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002wa.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002wa.png
 	   :align: center
 
 	   top of General tab in Web
@@ -182,7 +182,7 @@ Check Filepath (FS)
 
 
 	.. _filepath icon web:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002w.png
 	   :align: center
 
 	   filepath icon Web 
@@ -247,7 +247,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath003w:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
 	   Pane with path Web
@@ -283,7 +283,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath004:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/004.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/004.png
 	   :align: center
 
 	   Popup window with path Insight
@@ -320,7 +320,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath004a:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/004a.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/004a.png
 	   :align: center
 
 	   In-place icon Insight large view
@@ -355,7 +355,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath005:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/005.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/005.png
 	   :align: center
 
 	   In-place icon Insight
@@ -392,7 +392,7 @@ Check Filepath (FS)
 
 
 	.. _CheckFilePath006:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/006.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/006.png
 	   :align: center
 
 	   Tooltip of In-place icon Insight

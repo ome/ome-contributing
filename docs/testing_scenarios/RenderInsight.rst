@@ -148,7 +148,7 @@ Other users' data
 
 
 .. _Render001:
-.. figure:: /images/testing_scenarios/Render/001.png
+.. figure:: images/testing_scenarios/Render/001.png
    :align: center
 
    Render001: 
@@ -185,7 +185,7 @@ Other users' data
 
 
 .. _Render002:
-.. figure:: /images/testing_scenarios/Render/002.png
+.. figure:: images/testing_scenarios/Render/002.png
    :align: center
 
    Render002:
@@ -217,7 +217,7 @@ Other users' data
 
 
 .. _Render003:
-.. figure:: /images/testing_scenarios/Render/003.png
+.. figure:: images/testing_scenarios/Render/003.png
    :align: center
 
    Render003
@@ -254,7 +254,7 @@ Other users' data
 
 
 .. _Render004:
-.. figure:: /images/testing_scenarios/Render/004.png
+.. figure:: images/testing_scenarios/Render/004.png
    :align: center
 
    Render004

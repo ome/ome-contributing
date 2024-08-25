@@ -100,6 +100,7 @@ extlinks = {
     'security': (oo_root + '/security/%s', None),
     'presentations': (downloads_root + '/presentations/%s', None),
     # Doc links
+    'omerodoc': (docs_root + '/latest/%s', None),
     'model_doc': (docs_root + '/latest/ome-model/%s', None),
     'devs_doc': (docs_root + '/contributing/%s', None),
     'schema': (oo_root + '/Schemas/%s', None),

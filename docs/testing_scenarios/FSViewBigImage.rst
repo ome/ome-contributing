@@ -1,5 +1,5 @@
 FS View Big Image
-==================
+=================
 
 ``Test in``: Web, Insight
 
@@ -31,7 +31,7 @@ FS View Big Image
 
 
 	.. _FSViewBig001:
-	.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
+	.. figure:: images/testing_scenarios/ViewBigImage/001pub.png
 	   :align: center
 	   :width: 100%
 
@@ -39,28 +39,28 @@ FS View Big Image
 
 
 	.. _FSViewBig002:
-	.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
+	.. figure:: images/testing_scenarios/ViewBigImage/002pub.png
 	   :align: center
 
 	   FSViewBig002
 
 
 	.. _FSViewBig004:
-	.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+	.. figure:: images/testing_scenarios/ViewBigImage/004.png
 	   :align: center
 
 	   FSViewBig004
 
 
 	.. _FSViewBig005:
-	.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+	.. figure:: images/testing_scenarios/ViewBigImage/005.png
 	   :align: center
 
 	   FSViewBig005
 
 
 	.. _FSViewBig006:
-	.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
+	.. figure:: images/testing_scenarios/ViewBigImage/006pub.png
 	   :align: center
 	   :width: 100%
 

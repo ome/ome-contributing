@@ -1,5 +1,5 @@
 Insight as Plugin ImageJ/Fiji
-==============================
+=============================
 
 
 **To test in**: ImageJ, Fiji
@@ -256,7 +256,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI001:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/001.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/001.png
    :align: center
 
    InsightIJI001 
@@ -293,7 +293,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI002:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/002.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/002.png
    :align: center
 
    InsightIJI002
@@ -331,7 +331,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI003:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/003.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/003.png
    :align: center
 
    InsightIJI003
@@ -364,7 +364,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI004:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/004.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/004.png
    :align: center
 
    InsightIJI004
@@ -398,7 +398,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI005:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/005.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/005.png
    :align: center
 
    InsightIJI005
@@ -432,7 +432,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI006:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/006.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/006.png
    :align: center
 
    InsightIJI006
@@ -465,7 +465,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007.png
    :align: center
 
    InsightIJI007
@@ -504,7 +504,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007b:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007b.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007b.png
    :align: center
 
    InsightIJI007b
@@ -546,7 +546,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007c:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007c.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007c.png
    :align: center
 
    InsightIJI007c
@@ -586,7 +586,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007d:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007d.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007d.png
    :align: center
 
    InsightIJI007d
@@ -628,7 +628,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007e:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007e.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007e.png
    :align: center
 
    InsightIJI007e
@@ -667,7 +667,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI007f:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/007f.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/007f.png
    :align: center
 
    InsightIJI007f
@@ -709,7 +709,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI008:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/008.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/008.png
    :align: center
 
    InsightIJI008
@@ -736,7 +736,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI008b:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/008b.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/008b.png
    :align: center
 
    InsightIJI008b
@@ -763,7 +763,7 @@ The warning looks as follows:
 
 
 .. _InsightIJI009:
-.. figure:: /images/testing_scenarios/InsightasPluginImageJFiji/009.png
+.. figure:: images/testing_scenarios/InsightasPluginImageJFiji/009.png
    :align: center
 
    InsightIJI009

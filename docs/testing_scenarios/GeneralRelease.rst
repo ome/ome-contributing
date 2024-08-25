@@ -2,9 +2,9 @@
    :depth: 2
 
 
-##############################################
+###############
 General Release
-##############################################
+###############
 
 
 **Purpose of the test** is to make sure the particular application on the release day is built correctly, starts, connects and opens an image as expected (when applicable).
@@ -14,7 +14,7 @@ General Release
 
 
 OMERO.clients
-============================================================
+=============
 
 #. Download and open the application and login as any user
 
@@ -30,13 +30,13 @@ OMERO.clients
 
 
 IJ/Fiji Plugin
-============================================================
+==============
 
 #. Follow :doc:`InsightasPluginImageJFiji` 
 
 
 OMERO.server
-============================================================
+============
 
 #. Download the appropriate OMERO.server*.zip and unzip the downloaded file. 
 #. Configure the server.
@@ -53,7 +53,7 @@ OMERO.server
 
 
 OMERO.matlab toolbox
-============================================================
+====================
 
 #. Install Matlab (development).
 
@@ -88,7 +88,7 @@ OMERO.matlab toolbox
 
 
 OMERO Virtual Appliance
-============================================================
+=======================
 
 #. This section is only valid for testing versions prior to 5.2.2.
 
@@ -228,7 +228,7 @@ This testing assumes the release artifacts have been deployed to the
 
 
 Bio-Formats command-line tools
-============================================================
+==============================
 
 #. Download and unzip the bftools.zip. 
 

@@ -1,5 +1,5 @@
 LDAP testing
-=============
+============
 
 **To test in:** local ldap server, and on a local OMERO.server, using command line.
 

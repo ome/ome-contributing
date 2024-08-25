@@ -1,7 +1,7 @@
 :orphan:
 
 Scenarios for Publication
-===========================
+=========================
 
 .. toctree::
    :maxdepth: 1

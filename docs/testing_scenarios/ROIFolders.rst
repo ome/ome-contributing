@@ -59,7 +59,7 @@ ROI Folders
 
 
 .. _ROIFolders000:
-.. figure:: /images/testing_scenarios/ROIFolders/000.png
+.. figure:: images/testing_scenarios/ROIFolders/000.png
    :align: center
 
    ROIFolders000: 
@@ -73,7 +73,7 @@ ROI Folders
 
 
 .. _ROIFolders001:
-.. figure:: /images/testing_scenarios/ROIFolders/001.png
+.. figure:: images/testing_scenarios/ROIFolders/001.png
    :align: center
 
    ROIFolders001: 
@@ -96,7 +96,7 @@ ROI Folders
 
 
 .. _ROIFolders002:
-.. figure:: /images/testing_scenarios/ROIFolders/002.png
+.. figure:: images/testing_scenarios/ROIFolders/002.png
    :align: center
 
    ROIFolders002: 
@@ -121,7 +121,7 @@ ROI Folders
 
 
 .. _ROIFolders003:
-.. figure:: /images/testing_scenarios/ROIFolders/003.png
+.. figure:: images/testing_scenarios/ROIFolders/003.png
    :align: center
 
    ROIFolders003: 
@@ -148,7 +148,7 @@ ROI Folders
 
 
 .. _ROIFolders004:
-.. figure:: /images/testing_scenarios/ROIFolders/004.png
+.. figure:: images/testing_scenarios/ROIFolders/004.png
    :align: center
 
    ROIFolders004: 
@@ -172,7 +172,7 @@ ROI Folders
 
 
 .. _ROIFolders005:
-.. figure:: /images/testing_scenarios/ROIFolders/005.png
+.. figure:: images/testing_scenarios/ROIFolders/005.png
    :align: center
 
    ROIFolders005: 
@@ -195,7 +195,7 @@ ROI Folders
 
 
 .. _ROIFolders006:
-.. figure:: /images/testing_scenarios/ROIFolders/006.png
+.. figure:: images/testing_scenarios/ROIFolders/006.png
    :align: center
 
    ROIFolders006: 

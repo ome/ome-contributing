@@ -1,5 +1,5 @@
 FS View Image
-===============
+=============
 
 
 
@@ -50,35 +50,35 @@ FS View Image
 
 
 	.. _FSView002:
-	.. figure:: /images/testing_scenarios/ViewImage/002.png
+	.. figure:: images/testing_scenarios/ViewImage/002.png
 	   :align: center
 
 	   FSView002
 
 
 	.. _FSView003:
-	.. figure:: /images/testing_scenarios/ViewImage/003.png
+	.. figure:: images/testing_scenarios/ViewImage/003.png
 	   :align: center
 
 	   FSView003
 
 
 	.. _FSView004:
-	.. figure:: /images/testing_scenarios/ViewImage/004.png
+	.. figure:: images/testing_scenarios/ViewImage/004.png
 	   :align: center
 
 	   FSView004
 
 
 	.. _FSView005:
-	.. figure:: /images/testing_scenarios/ViewImage/005.png
+	.. figure:: images/testing_scenarios/ViewImage/005.png
 	   :align: center
 
 	   FSView005
 
 
 	.. _FSView006:
-	.. figure:: /images/testing_scenarios/ViewImage/006.png
+	.. figure:: images/testing_scenarios/ViewImage/006.png
 	   :align: center
 	 
 
@@ -86,35 +86,35 @@ FS View Image
 
 
 	.. _FSView007:
-	.. figure:: /images/testing_scenarios/ViewImage/007.png
+	.. figure:: images/testing_scenarios/ViewImage/007.png
 	   :align: center
 
 	   FSView007
 
 
 	.. _FSView008:
-	.. figure:: /images/testing_scenarios/ViewImage/008.png
+	.. figure:: images/testing_scenarios/ViewImage/008.png
 	   :align: center
 	 
 
 	   FSView008
 	
 	.. _FSView009:
-	.. figure:: /images/testing_scenarios/ViewImage/009.png
+	.. figure:: images/testing_scenarios/ViewImage/009.png
 	   :align: center
 
 
 	   FSView009
 	
 	.. _FSView010:
-	.. figure:: /images/testing_scenarios/ViewImage/010.png
+	.. figure:: images/testing_scenarios/ViewImage/010.png
 	   :align: center
 
 
 	   FSView010
 	
 	.. _FSView011:
-	.. figure:: /images/testing_scenarios/ViewImage/011.png
+	.. figure:: images/testing_scenarios/ViewImage/011.png
 	   :align: center
 
 

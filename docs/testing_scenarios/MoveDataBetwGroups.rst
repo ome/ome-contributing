@@ -1,5 +1,5 @@
 Move Data between Groups
-=========================
+========================
 
 
 
@@ -99,7 +99,7 @@ Move Data between Groups
 
 
 .. _MoveData001:
-.. figure:: /images/testing_scenarios/MoveData/001.png
+.. figure:: images/testing_scenarios/MoveData/001.png
    :align: center
 
    MoveData001: 
@@ -136,7 +136,7 @@ Move Data between Groups
 
 
 .. _MoveData002:
-.. figure:: /images/testing_scenarios/MoveData/002.png
+.. figure:: images/testing_scenarios/MoveData/002.png
    :align: center
 
    MoveData002:
@@ -173,7 +173,7 @@ Move Data between Groups
 
 
 .. _MoveData003:
-.. figure:: /images/testing_scenarios/MoveData/003.png
+.. figure:: images/testing_scenarios/MoveData/003.png
    :align: center
 
    MoveData003
@@ -210,7 +210,7 @@ Move Data between Groups
 
 
 .. _MoveData004:
-.. figure:: /images/testing_scenarios/MoveData/004.png
+.. figure:: images/testing_scenarios/MoveData/004.png
    :align: center
 
    MoveData004
@@ -247,7 +247,7 @@ Move Data between Groups
 
 
 .. _MoveData005:
-.. figure:: /images/testing_scenarios/MoveData/005.png
+.. figure:: images/testing_scenarios/MoveData/005.png
    :align: center
 
    MoveData005
@@ -284,7 +284,7 @@ Move Data between Groups
 
 
 .. _MoveData006:
-.. figure:: /images/testing_scenarios/MoveData/006.png
+.. figure:: images/testing_scenarios/MoveData/006.png
    :align: center
 
    MoveData006: 
@@ -331,7 +331,7 @@ Move Data between Groups
 
 
 .. _MoveData007:
-.. figure:: /images/testing_scenarios/MoveData/007.png
+.. figure:: images/testing_scenarios/MoveData/007.png
    :align: center
 
    MoveData007: 
@@ -358,7 +358,7 @@ Move Data between Groups
 
 
 .. _MoveData008:
-.. figure:: /images/testing_scenarios/MoveData/008.png
+.. figure:: images/testing_scenarios/MoveData/008.png
    :align: center
 
    MoveData008: 
@@ -386,7 +386,7 @@ Move Data between Groups
 
 
 .. _MoveData009:
-.. figure:: /images/testing_scenarios/MoveData/009.png
+.. figure:: images/testing_scenarios/MoveData/009.png
    :align: center
 
    MoveData009: 
@@ -414,7 +414,7 @@ Move Data between Groups
 
 
 .. _MoveData010:
-.. figure:: /images/testing_scenarios/MoveData/010.png
+.. figure:: images/testing_scenarios/MoveData/010.png
    :align: center
 
    MoveData010: 
@@ -442,7 +442,7 @@ Move Data between Groups
 
 
 .. _MoveData011:
-.. figure:: /images/testing_scenarios/MoveData/011.png
+.. figure:: images/testing_scenarios/MoveData/011.png
    :align: center
 
    MoveData011: 

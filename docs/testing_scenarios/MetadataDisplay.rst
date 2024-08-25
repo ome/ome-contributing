@@ -18,7 +18,7 @@ Metadata Display
 
 
 	.. _Metadata001:
-	.. figure:: /images/testing_scenarios/MetadataDisplay/001.png
+	.. figure:: images/testing_scenarios/MetadataDisplay/001.png
 	   :align: center
 
 	   Metadata001: 
@@ -55,7 +55,7 @@ Metadata Display
 
 
 	.. _Metadata002:
-	.. figure:: /images/testing_scenarios/MetadataDisplay/002.png
+	.. figure:: images/testing_scenarios/MetadataDisplay/002.png
 	   :align: center
 
 	   Metadata002:
@@ -92,7 +92,7 @@ Metadata Display
 
 
 	.. _Metadata003:
-	.. figure:: /images/testing_scenarios/MetadataDisplay/003.png
+	.. figure:: images/testing_scenarios/MetadataDisplay/003.png
 	   :align: center
 
 	   Metadata003
@@ -129,7 +129,7 @@ Metadata Display
 
 
 	.. _Metadata004:
-	.. figure:: /images/testing_scenarios/MetadataDisplay/004.png
+	.. figure:: images/testing_scenarios/MetadataDisplay/004.png
 	   :align: center
 
 	   Metadata004

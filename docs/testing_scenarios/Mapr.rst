@@ -93,7 +93,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _Mapr001:
-.. figure:: /images/testing_scenarios/Mapr/001.png
+.. figure:: images/testing_scenarios/Mapr/001.png
    :align: center
 
    Mapr001
@@ -118,7 +118,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _Mapr002:
-.. figure:: /images/testing_scenarios/Mapr/002.png
+.. figure:: images/testing_scenarios/Mapr/002.png
    :align: center
 
    Mapr002
@@ -141,7 +141,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _compound_not_expected:
-.. figure:: /images/testing_scenarios/Mapr/compound_not_expected.png
+.. figure:: images/testing_scenarios/Mapr/compound_not_expected.png
    :align: center
 
    compound_not_expected
@@ -164,7 +164,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _compound_expected:
-.. figure:: /images/testing_scenarios/Mapr/compound_expected.png
+.. figure:: images/testing_scenarios/Mapr/compound_expected.png
    :align: center
 
    compound_expected
@@ -187,7 +187,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _gene_supplementary:
-.. figure:: /images/testing_scenarios/Mapr/gene_supplementary.png
+.. figure:: images/testing_scenarios/Mapr/gene_supplementary.png
    :align: center
 
    gene_supplementary
@@ -210,7 +210,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _tree_numbers:
-.. figure:: /images/testing_scenarios/Mapr/tree_numbers.png
+.. figure:: images/testing_scenarios/Mapr/tree_numbers.png
    :align: center
 
    tree_numbers
@@ -239,7 +239,7 @@ Note: **Replace the ``idr-demo-test-server``** with the server address from the 
 |
 
 .. _pagination_left-hand_tree:
-.. figure:: /images/testing_scenarios/Mapr/pagination_left-hand_tree.png
+.. figure:: images/testing_scenarios/Mapr/pagination_left-hand_tree.png
    :align: center
 
    pagination_left-hand_tree

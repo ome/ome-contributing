@@ -1,5 +1,5 @@
 De-Annotate/Unlink
-===================
+==================
 
 
 
@@ -89,7 +89,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _DeAnnotateU001:
-.. figure:: /images/testing_scenarios/DeAnnotateUnlink/001.png
+.. figure:: images/testing_scenarios/DeAnnotateUnlink/001.png
    :align: center
    :width: 110%
    
@@ -130,7 +130,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _DeAnnotateU002:
-.. figure:: /images/testing_scenarios/DeAnnotateUnlink/002b.png
+.. figure:: images/testing_scenarios/DeAnnotateUnlink/002b.png
    :align: center
 
    DeAnnotateU002:
@@ -169,7 +169,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _DeAnnotateU003:
-.. figure:: /images/testing_scenarios/DeAnnotateUnlink/002.png
+.. figure:: images/testing_scenarios/DeAnnotateUnlink/002.png
    :align: center
 
    DeAnnotateU003
@@ -209,7 +209,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _DeAnnotateU004:
-.. figure:: /images/testing_scenarios/DeAnnotateUnlink/003.png
+.. figure:: images/testing_scenarios/DeAnnotateUnlink/003.png
    :align: center
    :width: 110%
 
@@ -251,7 +251,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _DeAnnotateU005:
-.. figure:: /images/testing_scenarios/DeAnnotateUnlink/004.png
+.. figure:: images/testing_scenarios/DeAnnotateUnlink/004.png
    :align: center
 
    DeAnnotateU005

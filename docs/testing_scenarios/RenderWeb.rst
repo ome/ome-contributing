@@ -171,7 +171,7 @@ Other users' data
 
 
 .. _RenderWeb002:
-.. figure:: /images/testing_scenarios/Render/Web002.png
+.. figure:: images/testing_scenarios/Render/Web002.png
    :align: center
 
    RenderWeb002:
@@ -202,7 +202,7 @@ Other users' data
 
 
 .. _RenderWeb003:
-.. figure:: /images/testing_scenarios/Render/Web003.png
+.. figure:: images/testing_scenarios/Render/Web003.png
    :align: center
 
    RenderWeb003:
@@ -253,7 +253,7 @@ Other users' data
 
 
 .. _RenderWeb004:
-.. figure:: /images/testing_scenarios/Render/Web004.png
+.. figure:: images/testing_scenarios/Render/Web004.png
    :align: center
 
    RenderWeb004
@@ -299,7 +299,7 @@ Other users' data
 
 
 .. _RenderWeb004b:
-.. figure:: /images/testing_scenarios/Render/Web004b.png
+.. figure:: images/testing_scenarios/Render/Web004b.png
    :align: center
 
    RenderWeb004b
@@ -332,7 +332,7 @@ Other users' data
 
 
 .. _Render005:
-.. figure:: /images/testing_scenarios/Render/005.png
+.. figure:: images/testing_scenarios/Render/005.png
    :align: center
 
    Render005
@@ -378,7 +378,7 @@ Other users' data
 
 
 .. _RenderWeb005:
-.. figure:: /images/testing_scenarios/Render/Web005.png
+.. figure:: images/testing_scenarios/Render/Web005.png
    :align: center
 
    RenderWeb005
@@ -414,7 +414,7 @@ Other users' data
 
 
 .. _Render007:
-.. figure:: /images/testing_scenarios/Render/007.png
+.. figure:: images/testing_scenarios/Render/007.png
    :align: center
 
    Render007: 

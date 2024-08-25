@@ -2,10 +2,9 @@
    :depth: 2
 
 
-##############################################
+#########################
 Download/Export/Downgrade
-##############################################
-
+#########################
 
 
 
@@ -18,7 +17,7 @@ Note: if several images have to be downloaded a zip will be created (Web and Ins
 
 
 Download non-image files (both in OMERO 5 and OMERO 4)
-============================================================
+======================================================
 
 **To test in**: Web, Insight
 
@@ -41,7 +40,7 @@ Download non-image files (both in OMERO 5 and OMERO 4)
 
 
 OMERO 4 Download/Export images
-============================================================
+==============================
 
 **To test in**: Web, Insight
 
@@ -75,7 +74,7 @@ OMERO 4 Download/Export images
 
 
 OMERO 5 Download/Export images (perform on OMERO 5 server with OMERO 5 imported data only database)
-========================================================================================================================
+===================================================================================================
 
 **To test in**: Web, Insight
 
@@ -108,7 +107,7 @@ Mixed OMERO 5 imported & OMERO 4 imported images Download/Export (this is to be 
 
 
 Downgrade
-============================================================
+=========
 
 **To test in**: Web, Insight
 
@@ -140,7 +139,7 @@ When performing the following steps, export both into your home directory as wel
 
 
 Command line download
-============================================================
+=====================
 
 #. Go to the command line, ``cd`` to your downloaded server and connect to the testing server (e.g. gretzky). and try to download files using following commands.
 
@@ -161,7 +160,7 @@ Command line download
 
 
 	.. _DownloadED001:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/001.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/001.png
 	   :align: center
 
 	   DownloadED001: 
@@ -198,7 +197,7 @@ Command line download
 
 
 	.. _DownloadED002:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/002.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/002.png
 	   :align: center
 
 	   DownloadED002:
@@ -235,7 +234,7 @@ Command line download
 
 
 	.. _DownloadED003:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/003.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/003.png
 	   :align: center
 	   :width: 100%
 
@@ -273,7 +272,7 @@ Command line download
 
 
 	.. _DownloadED004:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/004.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/004.png
 	   :align: center
 
 	   DownloadED004
@@ -310,7 +309,7 @@ Command line download
 
 
 	.. _DownloadED005:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/005.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/005.png
 	   :align: center
 
 	   DownloadED005
@@ -363,7 +362,7 @@ Command line download
 
 
 	.. _DownloadED007:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/007.png
 	   :align: center
 
 	   DownloadED007:
@@ -401,7 +400,7 @@ Command line download
 
 
 	.. _DownloadED007b:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/007b.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/007b.png
 	   :align: center
 
 	   DownloadED007b:
@@ -437,7 +436,7 @@ Command line download
 
 
 	.. _DownloadED009:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/009.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/009.png
 	   :align: center
 
 	   DownloadED009: 
@@ -474,7 +473,7 @@ Command line download
 
 
 	.. _DownloadED010:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/010.png
 	   :align: center
 
 	   DownloadED010:
@@ -512,7 +511,7 @@ Command line download
 
 
 	.. _DownloadED010a:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010a.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/010a.png
 	   :align: center
 
 	   DownloadED010a:
@@ -549,7 +548,7 @@ Command line download
 
 
 	.. _DownloadED010b:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/010b.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/010b.png
 	   :align: center
 
 	   DownloadED010b:
@@ -585,7 +584,7 @@ Command line download
 
 
 	.. _DownloadED011:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/011.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/011.png
 	   :align: center
 
 	   DownloadED011
@@ -627,7 +626,7 @@ Command line download
 
 
 	.. _FSDownloadED011:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/FS011.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/FS011.png
 	   :align: center
 
 	   FSDownloadED011
@@ -663,7 +662,7 @@ Command line download
 
 
 	.. _DownloadED012:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/012.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/012.png
 	   :align: center
 
 	   DownloadED012
@@ -700,7 +699,7 @@ Command line download
 
 
 	.. _DownloadED013:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013.png
 	   :align: center
 
 	   DownloadED013
@@ -738,7 +737,7 @@ Command line download
 
 
 	.. _DownloadED013b:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013b.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013b.png
 	   :align: center
 
 	   DownloadED013b
@@ -776,7 +775,7 @@ Command line download
 
 
 	.. _DownloadED013c:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013c.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013c.png
 	   :align: center
 
 	   the screenshot shows the expected situation after 1st image of the 56 images of the ``050118.lei`` set was selected & downloaded
@@ -814,7 +813,7 @@ Command line download
 
 
 	.. _DownloadED013d:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013d.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013d.png
 	   :align: center
 
 	   DownloadED013d
@@ -852,7 +851,7 @@ Command line download
 
 
 	.. _DownloadED013e:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013e.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013e.png
 	   :align: center
 
 	   DownloadED013e
@@ -890,7 +889,7 @@ Command line download
 
 
 	.. _DownloadED013f:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013f.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013f.png
 	   :align: center
 
 	   DownloadED013f
@@ -929,7 +928,7 @@ Command line download
 
 
 	.. _DownloadED013p:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/013p.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/013p.png
 	   :align: center
 
 	   example of `test_images_good/lei/leica-original/050118.lei` when 1st image only was selected.
@@ -959,7 +958,7 @@ Command line download
 
 
 	.. _DownloadED014:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/014.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/014.png
 	   :align: center
 
 	   DownloadED014: 
@@ -996,7 +995,7 @@ Command line download
 
 
 	.. _DownloadED015:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/015.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/015.png
 	   :align: center
 
 	   DownloadED015:
@@ -1033,7 +1032,7 @@ Command line download
 
 
 	.. _DownloadED016:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/016.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/016.png
 	   :align: center
 
 	   DownloadED016
@@ -1070,7 +1069,7 @@ Command line download
 
 
 	.. _DownloadED017:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/017.png
 	   :align: center
 
 	   DownloadED017: 
@@ -1108,7 +1107,7 @@ Command line download
 
 
 	.. _DownloadED017b:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017b.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/017b.png
 	   :align: center
 
 	   DownloadED017b: 
@@ -1146,7 +1145,7 @@ Command line download
 
 
 	.. _DownloadED017c:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/017c.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/017c.png
 	   :align: center
 
 	   DownloadED017c: 
@@ -1182,7 +1181,7 @@ Command line download
 	|
 
 	.. _DownloadED018:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/018.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/018.png
 	   :align: center
 
 	   DownloadED018:
@@ -1219,7 +1218,7 @@ Command line download
 
 
 	.. _DownloadED019:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/019.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/019.png
 	   :align: center
 	   :width: 100%
 
@@ -1257,7 +1256,7 @@ Command line download
 
 
 	.. _DownloadED020:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/020.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/020.png
 	   :align: center
 
 	   DownloadED020
@@ -1294,7 +1293,7 @@ Command line download
 
 
 	.. _DownloadED021:
-	.. figure:: /images/testing_scenarios/DownloadExportDowngrade/021.png
+	.. figure:: images/testing_scenarios/DownloadExportDowngrade/021.png
 	   :align: center
 	   :width: 110%
 

@@ -1,5 +1,5 @@
 Screen/Plate/Well
-==================
+=================
 
 
 
@@ -32,7 +32,7 @@ Screen/Plate/Well
 
 
 .. _SPW001:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/001.png
    :align: center
 
    SPW001: 
@@ -69,7 +69,7 @@ Screen/Plate/Well
 
 
 .. _SPW002:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/002.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/002.png
    :align: center
    :width: 100%
 
@@ -107,7 +107,7 @@ Screen/Plate/Well
 
 
 .. _SPW003:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/003.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/003.png
    :align: center
    :width: 100%
 
@@ -145,7 +145,7 @@ Screen/Plate/Well
 
 
 .. _SPW004:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/004.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/004.png
    :align: center
    :width: 100%
 
@@ -183,7 +183,7 @@ Screen/Plate/Well
 
 
 .. _SPW005:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/005.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/005.png
    :align: center
 
    SPW005
@@ -220,7 +220,7 @@ Screen/Plate/Well
 
 
 .. _SPW006:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/006.png
    :align: center
 
    SPW006: 
@@ -257,7 +257,7 @@ Screen/Plate/Well
 
 
 .. _SPW007:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/007.png
    :align: center
 
    SPW007:
@@ -294,7 +294,7 @@ Screen/Plate/Well
 
 
 .. _SPW008:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/008.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/008.png
    :align: center
 
    SPW008
@@ -331,7 +331,7 @@ Screen/Plate/Well
 
 
 .. _SPW009:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/009.png
    :align: center
 
    SPW009: 
@@ -368,7 +368,7 @@ Screen/Plate/Well
 
 
 .. _SPW010:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/010.png
    :align: center
 
    SPW010:
@@ -405,7 +405,7 @@ Screen/Plate/Well
 
 
 .. _SPW011:
-.. figure:: /images/testing_scenarios/ScreenPlateWell/011.png
+.. figure:: images/testing_scenarios/ScreenPlateWell/011.png
    :align: center
 
    SPW011

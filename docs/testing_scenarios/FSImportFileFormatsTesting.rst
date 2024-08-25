@@ -1,5 +1,5 @@
 FS Import File Formats Testing
-===============================
+==============================
 
 
 
@@ -38,42 +38,42 @@ FS Import File Formats Testing
 
 
 .. _FSImportFileFT002:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002pub.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/002pub.png
    :align: center
 
    FSImportFileFT002
 
 
 .. _FSImportFileFT003:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/003.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/003.png
    :align: center
 
    FSImportFileFT003
 
 
 .. _FSImportFileFT004:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/004.png
    :align: center
 
    FSImportFileFT004
 
 
 .. _FSImportFileFT005:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005pub.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/005pub.png
    :align: center
 
    FSImportFileFT005
 
 
 .. _FSImportFileFT006:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/006.png
    :align: center
 
    FSImportFileFT006 
 
 
 .. _FSImportFileFT007:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/007.png
    :align: center
 
    FSImportFileFT007

@@ -98,7 +98,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 |
 
 .. _Create001:
-.. figure:: /images/testing_scenarios/Create/001.png
+.. figure:: images/testing_scenarios/Create/001.png
    :align: center
 
    Create001: 
@@ -138,7 +138,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _Create002:
-.. figure:: /images/testing_scenarios/Create/002.png
+.. figure:: images/testing_scenarios/Create/002.png
    :align: center
 
    Create002:
@@ -178,7 +178,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _Create003:
-.. figure:: /images/testing_scenarios/Create/003.png
+.. figure:: images/testing_scenarios/Create/003.png
    :align: center
 
    Create003
@@ -218,7 +218,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _Create004:
-.. figure:: /images/testing_scenarios/Create/004.png
+.. figure:: images/testing_scenarios/Create/004.png
    :align: center
 
    Create004
@@ -258,7 +258,7 @@ If you test work on others' data (permissions) go first to :ref:`Section 2: Work
 
 
 .. _Create005:
-.. figure:: /images/testing_scenarios/Create/005.png
+.. figure:: images/testing_scenarios/Create/005.png
    :align: center
 
    Create005

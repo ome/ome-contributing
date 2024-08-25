@@ -1,5 +1,5 @@
 FS Import (UI)
-===============
+==============
 
 
 
@@ -123,7 +123,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI001:
-	.. figure:: /images/testing_scenarios/ImportUI/001.png
+	.. figure:: images/testing_scenarios/ImportUI/001.png
 	   :align: center
 	   :width: 100%
 
@@ -133,7 +133,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI002:
-	.. figure:: /images/testing_scenarios/ImportUI/002.png
+	.. figure:: images/testing_scenarios/ImportUI/002.png
 	   :align: center
 
 	   ImportUI002
@@ -142,7 +142,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI003:
-	.. figure:: /images/testing_scenarios/ImportUI/003.png
+	.. figure:: images/testing_scenarios/ImportUI/003.png
 	   :align: center
 
 	   ImportUI003
@@ -151,7 +151,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI004:
-	.. figure:: /images/testing_scenarios/ImportUI/004.png
+	.. figure:: images/testing_scenarios/ImportUI/004.png
 	   :align: center
 	   :width: 100%
 
@@ -161,7 +161,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI004b:
-	.. figure:: /images/testing_scenarios/ImportUI/004b.png
+	.. figure:: images/testing_scenarios/ImportUI/004b.png
 	   :align: center
 	   :width: 100%
 
@@ -171,7 +171,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI004c:
-	.. figure:: /images/testing_scenarios/ImportUI/004c.png
+	.. figure:: images/testing_scenarios/ImportUI/004c.png
 	   :align: center
 	   :width: 100%
 
@@ -180,7 +180,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI004d:
-	.. figure:: /images/testing_scenarios/ImportUI/004d.png
+	.. figure:: images/testing_scenarios/ImportUI/004d.png
 	   :align: center
 	   :width: 100%
 
@@ -189,21 +189,21 @@ FS Import (UI)
 
 
 	.. _FSImportUI005:
-	.. figure:: /images/testing_scenarios/ImportUI/005.png
+	.. figure:: images/testing_scenarios/ImportUI/005.png
 	   :align: center
 
 	   ImportUI005
 
 
 	.. _FSImportUI006:
-	.. figure:: /images/testing_scenarios/ImportUI/006.png
+	.. figure:: images/testing_scenarios/ImportUI/006.png
 	   :align: center
 
 	   ImportUI006 
 
 
 	.. _FSImportUI007:
-	.. figure:: /images/testing_scenarios/ImportUI/007.png
+	.. figure:: images/testing_scenarios/ImportUI/007.png
 	   :align: center
 
 	   ImportUI007
@@ -211,7 +211,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI008:
-	.. figure:: /images/testing_scenarios/ImportUI/008.png
+	.. figure:: images/testing_scenarios/ImportUI/008.png
 	   :align: center
 
 	   ImportUI008
@@ -219,20 +219,20 @@ FS Import (UI)
 
 
 	.. _FSImportUI009:
-	.. figure:: /images/testing_scenarios/ImportUI/009.png
+	.. figure:: images/testing_scenarios/ImportUI/009.png
 	   :align: center
 
 	   ImportUI009 
 
 	.. _FSImportUI011:
-	.. figure:: /images/testing_scenarios/ImportUI/011.png
+	.. figure:: images/testing_scenarios/ImportUI/011.png
 	   :align: center
 
 	   ImportUI011
 
 
 	.. _FSImportUI011b:
-	.. figure:: /images/testing_scenarios/ImportUI/011b.png
+	.. figure:: images/testing_scenarios/ImportUI/011b.png
 	   :align: center
 
 	   ImportUI011b
@@ -240,7 +240,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI011c:
-	.. figure:: /images/testing_scenarios/ImportUI/011c.png
+	.. figure:: images/testing_scenarios/ImportUI/011c.png
 	   :align: center
 
 	   ImportUI011c
@@ -248,7 +248,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI012:
-	.. figure:: /images/testing_scenarios/ImportUI/012.png
+	.. figure:: images/testing_scenarios/ImportUI/012.png
 	   :align: center
 
 	   ImportUI012
@@ -256,21 +256,21 @@ FS Import (UI)
 
 
 	.. _FSImportUI012b:
-	.. figure:: /images/testing_scenarios/ImportUI/012b.png
+	.. figure:: images/testing_scenarios/ImportUI/012b.png
 	   :align: center
 
 	   ImportUI012b
 
 
 	.. _FSImportUI013:
-	.. figure:: /images/testing_scenarios/ImportUI/013.png
+	.. figure:: images/testing_scenarios/ImportUI/013.png
 	   :align: center
 
 	   ImportUI013
 
 
 	.. _FSImportUI013b:
-	.. figure:: /images/testing_scenarios/ImportUI/013b.png
+	.. figure:: images/testing_scenarios/ImportUI/013b.png
 	   :align: center
 
 	   ImportUI013b
@@ -279,7 +279,7 @@ FS Import (UI)
 
 
 	.. _FSImportUI013c:
-	.. figure:: /images/testing_scenarios/ImportUI/013c.png
+	.. figure:: images/testing_scenarios/ImportUI/013c.png
 	   :align: center
 
 	   ImportUI013c
@@ -288,7 +288,7 @@ FS Import (UI)
 	 
 
 	.. _FSImportUI013d:
-	.. figure:: /images/testing_scenarios/ImportUI/013d.png
+	.. figure:: images/testing_scenarios/ImportUI/013d.png
 	   :align: center
 
 	   ImportUI013d
@@ -296,14 +296,14 @@ FS Import (UI)
 
 
 	.. _FSImportUI013e:
-	.. figure:: /images/testing_scenarios/ImportUI/013e.png
+	.. figure:: images/testing_scenarios/ImportUI/013e.png
 	   :align: center
 
 	   ImportUI013e
 
 
 	.. _FSImportUI013f:
-	.. figure:: /images/testing_scenarios/ImportUI/013f.png
+	.. figure:: images/testing_scenarios/ImportUI/013f.png
 	   :align: center
 
 	   ImportUI013f

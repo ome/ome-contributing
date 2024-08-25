@@ -1,9 +1,9 @@
 Import As
-===============
+=========
 
 
 
-**To test in**: Insight and Web (Web - viewing the imported plates/images 
+**To test in**: Insight and Web (Web - viewing the imported platesimages 
 only)
 
 **Purpose of the test** is to check the import of data for other users.
@@ -147,7 +147,7 @@ imported ( = the owner of the data).
 
 
 .. _ImportAs001:
-.. figure:: /images/testing_scenarios/ImportAs/001.png
+.. figure:: images/testing_scenarios/ImportAs/001.png
    :align: center
 
    ImportAs001
@@ -183,7 +183,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs002:
-.. figure:: /images/testing_scenarios/ImportAs/002.png
+.. figure:: images/testing_scenarios/ImportAs/002.png
    :align: center
 
    ImportAs002
@@ -217,7 +217,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs002b:
-.. figure:: /images/testing_scenarios/ImportAs/002b.png
+.. figure:: images/testing_scenarios/ImportAs/002b.png
    :align: center
 
    ImportAs002b
@@ -244,7 +244,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs002c:
-.. figure:: /images/testing_scenarios/ImportAs/002c.png
+.. figure:: images/testing_scenarios/ImportAs/002c.png
    :align: center
 
    ImportAs002c
@@ -269,7 +269,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs002d:
-.. figure:: /images/testing_scenarios/ImportAs/002d.png
+.. figure:: images/testing_scenarios/ImportAs/002d.png
    :align: center
 
    ImportAs002d
@@ -310,7 +310,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs004:
-.. figure:: /images/testing_scenarios/ImportAs/004.png
+.. figure:: images/testing_scenarios/ImportAs/004.png
    :align: center
 
    ImportAs004
@@ -346,7 +346,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs005:
-.. figure:: /images/testing_scenarios/ImportAs/005.png
+.. figure:: images/testing_scenarios/ImportAs/005.png
    :align: center
 
    ImportAs005
@@ -382,7 +382,7 @@ imported ( = the owner of the data).
 
 
 .. _ImportAs006:
-.. figure:: /images/testing_scenarios/ImportAs/006.png
+.. figure:: images/testing_scenarios/ImportAs/006.png
    :align: center
 
    ImportAs006
@@ -418,7 +418,7 @@ imported ( = the owner of the data).
 |
 
 .. _ImportAs007:
-.. figure:: /images/testing_scenarios/ImportAs/007.png
+.. figure:: images/testing_scenarios/ImportAs/007.png
    :align: center
 
    ImportAs007

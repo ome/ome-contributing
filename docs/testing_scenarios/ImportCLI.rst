@@ -1,5 +1,5 @@
 Import CLI
-===========
+==========
 
 
 
@@ -83,7 +83,7 @@ Import CLI
       Using session 5d7d8cd2-13e7-4a1d-988b-e65b02cf7f2f (user-8@localhost:4064). Current group: private-1
       Group 'private-1' (id=7) switched to 'read-only-1' (id=8)
 
-  - ``bin/omero import <path/to/images>``
+  - ``bin/omero import <path/toimages>``
   - |C| that the images are displayed as owned by ``<user>`` in both Insight and Web. 
 
 
@@ -176,7 +176,7 @@ Import CLI
 
 
 	.. _ImportCLI002:
-	.. figure:: /images/testing_scenarios/ImportCLI/002.png
+	.. figure:: images/testing_scenarios/ImportCLI/002.png
 	   :align: center
 
 	   ImportCLI002: 
@@ -213,7 +213,7 @@ Import CLI
 
 
 	.. _ImportCLI004:
-	.. figure:: /images/testing_scenarios/ImportCLI/004.png
+	.. figure:: images/testing_scenarios/ImportCLI/004.png
 	   :align: center
 
 	   ImportCLI004:
@@ -250,7 +250,7 @@ Import CLI
 
 
 	.. _ImportCLI005:
-	.. figure:: /images/testing_scenarios/ImportCLI/005.png
+	.. figure:: images/testing_scenarios/ImportCLI/005.png
 	   :align: center
 
 	   ImportCLI005:
@@ -287,7 +287,7 @@ Import CLI
 
 
 	.. _ImportCLI006:
-	.. figure:: /images/testing_scenarios/ImportCLI/006.png
+	.. figure:: images/testing_scenarios/ImportCLI/006.png
 	   :align: center
 
 	   ImportCLI006

@@ -1,5 +1,5 @@
 Client-server compatibility
-===============================
+===========================
 
 
 **To test in**: Web, Insight

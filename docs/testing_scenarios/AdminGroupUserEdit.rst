@@ -1,5 +1,5 @@
 Admin: Group/User Edit
-========================
+======================
 
 
 
@@ -64,7 +64,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd001:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/001Insight.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/001Insight.png
 	   :align: center
 
 	   AdminGrUsEd001: 
@@ -101,7 +101,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd002:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
 	   AdminGrUsEd002:
@@ -138,7 +138,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd003:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/003Web.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/003Web.png
 	   :align: center
 
 	   AdminGrUsEd003
@@ -175,7 +175,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd004:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/004Insight.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/004Insight.png
 	   :align: center
 
 	   AdminGrUsEd004
@@ -208,7 +208,7 @@ Admin: Group/User Edit
 
 
 .. _AdminGrUsCr004b:
-.. figure:: /images/testing_scenarios/GroupUserEditAdmin/004b.png
+.. figure:: images/testing_scenarios/GroupUserEditAdmin/004b.png
    :align: center
 
    Edit Users dialog: 
@@ -243,7 +243,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd005:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/005Insight.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/005Insight.png
 	   :align: center
 
 	   AdminGrUsEd005
@@ -280,7 +280,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd006:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/002Web.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/002Web.png
 	   :align: center
 
 	   AdminGrUsEd006: 
@@ -317,7 +317,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd007:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/006Web.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/006Web.png
 	   :align: center
 
 	   AdminGrUsEd007:
@@ -362,7 +362,7 @@ Admin: Group/User Edit
 
 
 	.. _AdminGrUsEd008:
-	.. figure:: /images/testing_scenarios/GroupUserEditAdmin/008Web.png
+	.. figure:: images/testing_scenarios/GroupUserEditAdmin/008Web.png
 	   :align: center
 
 	   AdminGrUsEd008:

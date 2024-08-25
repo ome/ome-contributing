@@ -2,9 +2,9 @@
    :depth: 2
 
 
-##############################################
+############
 OMERO.figure
-##############################################
+############
 
 
 
@@ -35,7 +35,7 @@ OMERO.figure
 
 
 Saving files to OMERO
-============================================================
+=====================
 
 **Test that saved figures are not lost**
 
@@ -147,7 +147,7 @@ Saving files to OMERO
 
 
 Layout of image panels, paper setup
-============================================================
+===================================
 
 #. Add several images (all same width and height) to a new Figure.
 
@@ -206,7 +206,7 @@ Layout of image panels, paper setup
 
 
 Preview Tab - Z/T and rendering
-============================================================
+===============================
 
 #. Add image with multiple Z sections. Select panel and 'Preview' tab:
 
@@ -290,7 +290,7 @@ Preview Tab - Z/T and rendering
 
 
 Preview Tab - Zoom, pan and rotation
-============================================================
+====================================
 
 #. All behaviours below need to be tested on Big (tiled) images and small images.
 
@@ -342,7 +342,7 @@ Preview Tab - Zoom, pan and rotation
 
 
 Labels Tab
-============================================================
+==========
 
 #. Test adding a scalebar. Add an image that does NOT have pixel size metadata. Select the image and the Labels tab.
 
@@ -416,7 +416,7 @@ Labels Tab
 
 
 ROIs
-============================================================
+====
 
 #. Test drawing of ROIs.
 
@@ -486,7 +486,7 @@ ROIs
 
 
 Info Tab
-============================================================
+========
 
 #. Test Info for a single panel. Select panel and click the 'Info' tab.
 
@@ -544,7 +544,7 @@ Info Tab
 
 
 Export Options
-============================================================
+==============
 
 #. There are 4 export options: PDF, PDF with Images, TIFF and TIFF with images. Choose each in turn and export:
 

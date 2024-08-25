@@ -1,5 +1,5 @@
 OMERO.searcher
-===============
+==============
 
 
 
@@ -76,7 +76,7 @@ NB: Because the image features are being stored in two different places, which m
 
 
 	.. _OMERO.searcher001a:
-	.. figure:: /images/testing_scenarios/OMEROsearcher/001a.png
+	.. figure:: images/testing_scenarios/OMEROsearcher/001a.png
 	   :align: center
 
 	   OMERO.searcher001a: 
@@ -113,7 +113,7 @@ NB: Because the image features are being stored in two different places, which m
 
 
 	.. _OMERO.searcher001b:
-	.. figure:: /images/testing_scenarios/OMEROsearcher/001b.png
+	.. figure:: images/testing_scenarios/OMEROsearcher/001b.png
 	   :align: center
 
 	   OMERO.searcher001b:
@@ -150,7 +150,7 @@ NB: Because the image features are being stored in two different places, which m
 
 
 	.. _OMERO.searcher002:
-	.. figure:: /images/testing_scenarios/OMEROsearcher/002.png
+	.. figure:: images/testing_scenarios/OMEROsearcher/002.png
 	   :align: center
 
 	   OMERO.searcher002
@@ -187,7 +187,7 @@ NB: Because the image features are being stored in two different places, which m
 
 
 	.. _OMERO.searcher003:
-	.. figure:: /images/testing_scenarios/OMEROsearcher/003.png
+	.. figure:: images/testing_scenarios/OMEROsearcher/003.png
 	   :align: center
 
 	   OMERO.searcher003

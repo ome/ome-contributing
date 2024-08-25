@@ -201,7 +201,7 @@ ROI Insight
 
 
 	.. _ROIInsight001:
-	.. figure:: /images/testing_scenarios/ROIInsight/001.png
+	.. figure:: images/testing_scenarios/ROIInsight/001.png
 	   :align: center
 
 	   ROIInsight001: 
@@ -238,7 +238,7 @@ ROI Insight
 
 
 	.. _ROIInsight002:
-	.. figure:: /images/testing_scenarios/ROIInsight/002.png
+	.. figure:: images/testing_scenarios/ROIInsight/002.png
 	   :align: center
 
 	   ROIInsight002:
@@ -275,7 +275,7 @@ ROI Insight
 
 
 	.. _ROIInsight003:
-	.. figure:: /images/testing_scenarios/ROIInsight/003.png
+	.. figure:: images/testing_scenarios/ROIInsight/003.png
 	   :align: center
 
 	   ROIInsight003
@@ -312,7 +312,7 @@ ROI Insight
 
 
 	.. _ROIInsight005:
-	.. figure:: /images/testing_scenarios/ROIInsight/005.png
+	.. figure:: images/testing_scenarios/ROIInsight/005.png
 	   :align: center
 
 	   ROIInsight005
@@ -349,7 +349,7 @@ ROI Insight
 
 
 	.. _ROIInsight006:
-	.. figure:: /images/testing_scenarios/ROIInsight/006.png
+	.. figure:: images/testing_scenarios/ROIInsight/006.png
 	   :align: center
 
 	   ROIInsight006: 
@@ -386,7 +386,7 @@ ROI Insight
 
 
 	.. _ROIInsight007:
-	.. figure:: /images/testing_scenarios/ROIInsight/007.png
+	.. figure:: images/testing_scenarios/ROIInsight/007.png
 	   :align: center
 
 	   ROIInsight007:
@@ -423,7 +423,7 @@ ROI Insight
 
 
 	.. _ROIInsight008:
-	.. figure:: /images/testing_scenarios/ROIInsight/008.png
+	.. figure:: images/testing_scenarios/ROIInsight/008.png
 	   :align: center
 
 	   ROIInsight008
@@ -460,7 +460,7 @@ ROI Insight
 
 
 	.. _ROIInsight009:
-	.. figure:: /images/testing_scenarios/ROIInsight/009.png
+	.. figure:: images/testing_scenarios/ROIInsight/009.png
 	   :align: center
 
 	   ROIInsight009: 
@@ -500,7 +500,7 @@ ROI Insight
 
 
 	.. _ROIInsight009b:
-	.. figure:: /images/testing_scenarios/ROIInsight/009b.png
+	.. figure:: images/testing_scenarios/ROIInsight/009b.png
 	   :align: center
 
 	   ROIInsight009b: 
@@ -536,7 +536,7 @@ ROI Insight
 
 
 	.. _ROIInsight010:
-	.. figure:: /images/testing_scenarios/ROIInsight/010.png
+	.. figure:: images/testing_scenarios/ROIInsight/010.png
 	   :align: center
 
 	   ROIInsight010:
@@ -573,7 +573,7 @@ ROI Insight
 
 
 	.. _ROIInsight011:
-	.. figure:: /images/testing_scenarios/ROIInsight/011.png
+	.. figure:: images/testing_scenarios/ROIInsight/011.png
 	   :align: center
 
 	   ROIInsight011

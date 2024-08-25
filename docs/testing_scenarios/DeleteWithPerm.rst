@@ -1,5 +1,5 @@
 Delete
-=======
+======
 
 
 
@@ -103,7 +103,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete001:
-.. figure:: /images/testing_scenarios/Delete/001.png
+.. figure:: images/testing_scenarios/Delete/001.png
    :align: center
 
    Delete001 
@@ -140,7 +140,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete002:
-.. figure:: /images/testing_scenarios/Delete/002.png
+.. figure:: images/testing_scenarios/Delete/002.png
    :align: center
 
    Delete002
@@ -177,7 +177,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete003:
-.. figure:: /images/testing_scenarios/Delete/003.png
+.. figure:: images/testing_scenarios/Delete/003.png
    :align: center
 
    Delete003
@@ -214,7 +214,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete004:
-.. figure:: /images/testing_scenarios/Delete/004.png
+.. figure:: images/testing_scenarios/Delete/004.png
    :align: center
 
    Delete004
@@ -251,7 +251,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete005:
-.. figure:: /images/testing_scenarios/Delete/005.png
+.. figure:: images/testing_scenarios/Delete/005.png
    :align: center
 
    Delete005
@@ -288,7 +288,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete006:
-.. figure:: /images/testing_scenarios/Delete/006.png
+.. figure:: images/testing_scenarios/Delete/006.png
    :align: center
 
    Delete006 
@@ -325,7 +325,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete007:
-.. figure:: /images/testing_scenarios/Delete/007.png
+.. figure:: images/testing_scenarios/Delete/007.png
    :align: center
 
    Delete007
@@ -362,7 +362,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete008:
-.. figure:: /images/testing_scenarios/Delete/008.png
+.. figure:: images/testing_scenarios/Delete/008.png
    :align: center
 
    Delete008
@@ -398,7 +398,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete009:
-.. figure:: /images/testing_scenarios/Delete/009.png
+.. figure:: images/testing_scenarios/Delete/009.png
    :align: center
 
    Delete009
@@ -427,7 +427,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete010:
-.. figure:: /images/testing_scenarios/Delete/010.png
+.. figure:: images/testing_scenarios/Delete/010.png
    :align: center
 
    Delete010
@@ -455,7 +455,7 @@ Group Administrator    Y        Y           Y
 
 
 .. _Delete011:
-.. figure:: /images/testing_scenarios/Delete/011.png
+.. figure:: images/testing_scenarios/Delete/011.png
    :align: center
 
    Delete011
@@ -481,7 +481,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete012:
-.. figure:: /images/testing_scenarios/Delete/012.png
+.. figure:: images/testing_scenarios/Delete/012.png
    :align: center
 
    Delete012
@@ -507,7 +507,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete013:
-.. figure:: /images/testing_scenarios/Delete/013.png
+.. figure:: images/testing_scenarios/Delete/013.png
    :align: center
 
    Delete013
@@ -533,7 +533,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete014:
-.. figure:: /images/testing_scenarios/Delete/014.png
+.. figure:: images/testing_scenarios/Delete/014.png
    :align: center
 
    Delete014
@@ -558,7 +558,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete015:
-.. figure:: /images/testing_scenarios/Delete/015.png
+.. figure:: images/testing_scenarios/Delete/015.png
    :align: center
 
    Delete015
@@ -583,7 +583,7 @@ Group Administrator    Y        Y           Y
 |
 
 .. _Delete016:
-.. figure:: /images/testing_scenarios/Delete/016.png
+.. figure:: images/testing_scenarios/Delete/016.png
    :align: center
 
    Delete016

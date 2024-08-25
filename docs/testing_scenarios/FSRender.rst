@@ -1,5 +1,5 @@
 FS Render
-==========
+=========
 
 
 
@@ -48,49 +48,49 @@ FS Render
 
 
 	.. _FSRender001:
-	.. figure:: /images/testing_scenarios/Render/001.png
+	.. figure:: images/testing_scenarios/Render/001.png
 	   :align: center
 
 	   FSRender001 
 
 
 	.. _FSRender002:
-	.. figure:: /images/testing_scenarios/Render/002.png
+	.. figure:: images/testing_scenarios/Render/002.png
 	   :align: center
 
 	   FSRender002
 
 
 	.. _FSRender003:
-	.. figure:: /images/testing_scenarios/Render/003.png
+	.. figure:: images/testing_scenarios/Render/003.png
 	   :align: center
 
 	   FSRender003
 
 
 	.. _FSRender004:
-	.. figure:: /images/testing_scenarios/Render/004.png
+	.. figure:: images/testing_scenarios/Render/004.png
 	   :align: center
 
 	   FSRender004
 
 
 	.. _FSRender005:
-	.. figure:: /images/testing_scenarios/Render/005.png
+	.. figure:: images/testing_scenarios/Render/005.png
 	   :align: center
 
 	   FSRender005
 
 
 	.. _FSRender006:
-	.. figure:: /images/testing_scenarios/Render/006.png
+	.. figure:: images/testing_scenarios/Render/006.png
 	   :align: center
 
 	   FSRender006 
 
 
 	.. _FSRender007:
-	.. figure:: /images/testing_scenarios/Render/007.png
+	.. figure:: images/testing_scenarios/Render/007.png
 	   :align: center
 
 	   FSRender007

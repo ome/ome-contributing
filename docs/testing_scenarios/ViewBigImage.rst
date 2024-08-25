@@ -1,5 +1,5 @@
 View Big Image
-===============
+==============
 
 
 
@@ -45,7 +45,7 @@ View Big Image
 
 
 .. _ViewBig001:
-.. figure:: /images/testing_scenarios/ViewBigImage/001pub.png
+.. figure:: images/testing_scenarios/ViewBigImage/001pub.png
    :align: center
    :width: 100%
 
@@ -76,7 +76,7 @@ View Big Image
 |
 
 .. _ViewBig002:
-.. figure:: /images/testing_scenarios/ViewBigImage/002pub.png
+.. figure:: images/testing_scenarios/ViewBigImage/002pub.png
    :align: center
 
    ViewBig002
@@ -105,7 +105,7 @@ View Big Image
 |
 
 .. _ViewBig004:
-.. figure:: /images/testing_scenarios/ViewBigImage/004.png
+.. figure:: images/testing_scenarios/ViewBigImage/004.png
    :align: center
 
    ViewBig004
@@ -134,7 +134,7 @@ View Big Image
 |
 
 .. _ViewBig005:
-.. figure:: /images/testing_scenarios/ViewBigImage/005.png
+.. figure:: images/testing_scenarios/ViewBigImage/005.png
    :align: center
 
    ViewBig005
@@ -163,7 +163,7 @@ View Big Image
 |
 
 .. _ViewBig006:
-.. figure:: /images/testing_scenarios/ViewBigImage/006pub.png
+.. figure:: images/testing_scenarios/ViewBigImage/006pub.png
    :align: center
    :width: 100%
 

@@ -1,5 +1,5 @@
 Import File Formats Testing
-============================
+===========================
 
 
 
@@ -25,7 +25,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT002:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/002.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/002.png
    :align: center
 
    ImportFileFT002:
@@ -62,7 +62,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT003:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/003.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/003.png
    :align: center
 
    ImportFileFT003
@@ -99,7 +99,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT004:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/004.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/004.png
    :align: center
 
    ImportFileFT004
@@ -136,7 +136,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT005:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/005.png
    :align: center
 
    ImportFileFT005
@@ -169,7 +169,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT005b:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/005b.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/005b.png
    :align: center
 
    ImportFileFT005b
@@ -197,7 +197,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT006:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/006.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/006.png
    :align: center
 
    ImportFileFT006: 
@@ -234,7 +234,7 @@ Import File Formats Testing
 
 
 .. _ImportFileFT007:
-.. figure:: /images/testing_scenarios/ImportFileFormatsTesting/007.png
+.. figure:: images/testing_scenarios/ImportFileFormatsTesting/007.png
    :align: center
 
    ImportFileFT007:

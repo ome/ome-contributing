@@ -205,7 +205,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI001:
-	.. figure:: /images/testing_scenarios/ImportUI/001.png
+	.. figure:: images/testing_scenarios/ImportUI/001.png
 	   :align: center
 	   :width: 100%
 
@@ -243,7 +243,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI002:
-	.. figure:: /images/testing_scenarios/ImportUI/002.png
+	.. figure:: images/testing_scenarios/ImportUI/002.png
 	   :align: center
 
 	   ImportUI002
@@ -280,7 +280,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI003:
-	.. figure:: /images/testing_scenarios/ImportUI/003.png
+	.. figure:: images/testing_scenarios/ImportUI/003.png
 	   :align: center
 
 	   ImportUI003
@@ -317,7 +317,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI004:
-	.. figure:: /images/testing_scenarios/ImportUI/004.png
+	.. figure:: images/testing_scenarios/ImportUI/004.png
 	   :align: center
 	   :width: 100%
 
@@ -350,7 +350,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI004b:
-	.. figure:: /images/testing_scenarios/ImportUI/004b.png
+	.. figure:: images/testing_scenarios/ImportUI/004b.png
 	   :align: center
 	   :width: 100%
 
@@ -386,7 +386,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI004c:
-	.. figure:: /images/testing_scenarios/ImportUI/004c.png
+	.. figure:: images/testing_scenarios/ImportUI/004c.png
 	   :align: center
 	   :width: 100%
 
@@ -419,7 +419,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI004d:
-	.. figure:: /images/testing_scenarios/ImportUI/004d.png
+	.. figure:: images/testing_scenarios/ImportUI/004d.png
 	   :align: center
 	   :width: 100%
 
@@ -452,7 +452,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI004e:
-	.. figure:: /images/testing_scenarios/ImportUI/004e.png
+	.. figure:: images/testing_scenarios/ImportUI/004e.png
 	   :align: center
 	   :width: 100%
 
@@ -478,7 +478,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI005:
-	.. figure:: /images/testing_scenarios/ImportUI/005.png
+	.. figure:: images/testing_scenarios/ImportUI/005.png
 	   :align: center
 
 	   ImportUI005
@@ -515,7 +515,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI006:
-	.. figure:: /images/testing_scenarios/ImportUI/006.png
+	.. figure:: images/testing_scenarios/ImportUI/006.png
 	   :align: center
 
 	   ImportUI006 
@@ -552,7 +552,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI007:
-	.. figure:: /images/testing_scenarios/ImportUI/007.png
+	.. figure:: images/testing_scenarios/ImportUI/007.png
 	   :align: center
 
 	   ImportUI007
@@ -589,7 +589,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI008:
-	.. figure:: /images/testing_scenarios/ImportUI/008.png
+	.. figure:: images/testing_scenarios/ImportUI/008.png
 	   :align: center
 
 	   ImportUI008
@@ -626,7 +626,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI009:
-	.. figure:: /images/testing_scenarios/ImportUI/009.png
+	.. figure:: images/testing_scenarios/ImportUI/009.png
 	   :align: center
 
 	   ImportUI009 
@@ -685,7 +685,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI011:
-	.. figure:: /images/testing_scenarios/ImportUI/011.png
+	.. figure:: images/testing_scenarios/ImportUI/011.png
 	   :align: center
 
 	   ImportUI011
@@ -729,7 +729,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI011b:
-	.. figure:: /images/testing_scenarios/ImportUI/011b.png
+	.. figure:: images/testing_scenarios/ImportUI/011b.png
 	   :align: center
 
 	   ImportUI011b
@@ -773,7 +773,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI011c:
-	.. figure:: /images/testing_scenarios/ImportUI/011c.png
+	.. figure:: images/testing_scenarios/ImportUI/011c.png
 	   :align: center
 
 	   ImportUI011c
@@ -810,7 +810,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI012:
-	.. figure:: /images/testing_scenarios/ImportUI/012.png
+	.. figure:: images/testing_scenarios/ImportUI/012.png
 	   :align: center
 
 	   Tickbox for thumbs
@@ -845,7 +845,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI012b:
-	.. figure:: /images/testing_scenarios/ImportUI/012b.png
+	.. figure:: images/testing_scenarios/ImportUI/012b.png
 	   :align: center
 
 	   ImportUI012b
@@ -880,7 +880,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013:
-	.. figure:: /images/testing_scenarios/ImportUI/013.png
+	.. figure:: images/testing_scenarios/ImportUI/013.png
 	   :align: center
 
 	   ImportUI013
@@ -914,7 +914,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013b:
-	.. figure:: /images/testing_scenarios/ImportUI/013b.png
+	.. figure:: images/testing_scenarios/ImportUI/013b.png
 	   :align: center
 
 	   ImportUI013b
@@ -948,7 +948,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013c:
-	.. figure:: /images/testing_scenarios/ImportUI/013c.png
+	.. figure:: images/testing_scenarios/ImportUI/013c.png
 	   :align: center
 
 	   ImportUI013c
@@ -983,7 +983,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI014:
-	.. figure:: /images/testing_scenarios/ImportUI/014.png
+	.. figure:: images/testing_scenarios/ImportUI/014.png
 	   :align: center
 
 	   ImportUI014 
@@ -1020,7 +1020,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI015:
-	.. figure:: /images/testing_scenarios/ImportUI/015.png
+	.. figure:: images/testing_scenarios/ImportUI/015.png
 	   :align: center
 
 	   ImportUI015
@@ -1061,7 +1061,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI015b:
-	.. figure:: /images/testing_scenarios/ImportUI/015b.png
+	.. figure:: images/testing_scenarios/ImportUI/015b.png
 	   :align: center
 
 	   ImportUI015b
@@ -1095,7 +1095,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI016:
-	.. figure:: /images/testing_scenarios/ImportUI/016.png
+	.. figure:: images/testing_scenarios/ImportUI/016.png
 	   :align: center
 
 	   ImportUI016
@@ -1143,7 +1143,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013d:
-	.. figure:: /images/testing_scenarios/ImportUI/013d.png
+	.. figure:: images/testing_scenarios/ImportUI/013d.png
 	   :align: center
 
 	   ImportUI013d
@@ -1177,7 +1177,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013e:
-	.. figure:: /images/testing_scenarios/ImportUI/013e.png
+	.. figure:: images/testing_scenarios/ImportUI/013e.png
 	   :align: center
 
 	   ImportUI013e
@@ -1204,7 +1204,7 @@ NB: **Data Manager** == **The main window of Insight UI**
 
 
 	.. _ImportUI013f:
-	.. figure:: /images/testing_scenarios/ImportUI/013f.png
+	.. figure:: images/testing_scenarios/ImportUI/013f.png
 	   :align: center
 
 	   ImportUI013f

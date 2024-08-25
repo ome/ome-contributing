@@ -1,5 +1,5 @@
 Share
-======
+=====
 
 
 .. warning::
@@ -73,7 +73,7 @@ Share
 
 
 	.. _Share001:
-	.. figure:: /images/testing_scenarios/Share/001.png
+	.. figure:: images/testing_scenarios/Share/001.png
 	   :align: center
 
 	   Share001: 
@@ -110,7 +110,7 @@ Share
 
 
 	.. _Share003:
-	.. figure:: /images/testing_scenarios/Share/003.png
+	.. figure:: images/testing_scenarios/Share/003.png
 	   :align: center
 	 
 
@@ -141,7 +141,7 @@ Share
 
 
 	.. _Share004:
-	.. figure:: /images/testing_scenarios/Share/004.png
+	.. figure:: images/testing_scenarios/Share/004.png
 	   :align: center
 
 	   Share004: 
@@ -178,7 +178,7 @@ Share
 
 
 	.. _Share005:
-	.. figure:: /images/testing_scenarios/Share/005.png
+	.. figure:: images/testing_scenarios/Share/005.png
 	   :align: center
 
 	   Share005:
@@ -215,7 +215,7 @@ Share
 
 
 	.. _Share006:
-	.. figure:: /images/testing_scenarios/Share/006.png
+	.. figure:: images/testing_scenarios/Share/006.png
 	   :align: center
 
 	   Share006
@@ -252,7 +252,7 @@ Share
 
 
 	.. _Share007:
-	.. figure:: /images/testing_scenarios/Share/007.png
+	.. figure:: images/testing_scenarios/Share/007.png
 	   :align: center
 
 	   Share007: 
@@ -289,7 +289,7 @@ Share
 
 
 	.. _Share008:
-	.. figure:: /images/testing_scenarios/Share/008.png
+	.. figure:: images/testing_scenarios/Share/008.png
 	   :align: center
 
 	   Share008:

@@ -53,7 +53,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP001b:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/001b.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/001b.png
    :align: center
 
    BrowseFP001b: 
@@ -84,7 +84,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP001a:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/001a.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/001a.png
    :align: center
 
    BrowseFP001a: 
@@ -121,7 +121,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP001:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/001.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/001.png
    :align: center
 
    BrowseFP001: 
@@ -162,7 +162,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP002:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/002.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/002.png
    :align: center
 
    BrowseFP002:
@@ -202,7 +202,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP003:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/003.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/003.png
    :align: center
 
    BrowseFP003
@@ -242,7 +242,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP004:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/004.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/004.png
    :align: center
 
    BrowseFP004
@@ -282,7 +282,7 @@ Browse/Filter/Preview
 
 
 .. _BrowseFP005:
-.. figure:: /images/testing_scenarios/BrowseFilterPreview/005.png
+.. figure:: images/testing_scenarios/BrowseFilterPreview/005.png
    :align: center
 
    BrowseFP005

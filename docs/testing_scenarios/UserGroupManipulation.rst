@@ -1,5 +1,5 @@
 User/Group Manipulation
-========================
+=======================
 
 
 
@@ -60,7 +60,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 	|
 
 	.. _UserGroupM001b:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/001b.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/001b.png
 	   :align: center
 
 	   UserGroupM001b 
@@ -81,7 +81,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM001:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/001.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/001.png
 	   :align: center
 
 	   UserGroupM001 
@@ -118,7 +118,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM002:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/002.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/002.png
 	   :align: center
 
 	   UserGroupM002
@@ -155,7 +155,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM003:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/003.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/003.png
 	   :align: center
 
 	   UserGroupM003
@@ -192,7 +192,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM004:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/004.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/004.png
 	   :align: center
 
 	   UserGroupM004
@@ -229,7 +229,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM005:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/005.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/005.png
 	   :align: center
 
 	   UserGroupM005
@@ -261,7 +261,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM005bi:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/005bi.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/005bi.png
 	   :align: center
 
 	   UserGroupM005bi
@@ -303,7 +303,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM006i:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/006i.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/006i.png
 	   :align: center
 
 	   UserGroupM006i
@@ -344,7 +344,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM006w:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/006w.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/006w.png
 	   :align: center
 
 	   UserGroupM006w
@@ -378,7 +378,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM007i:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/007i.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/007i.png
 	   :align: center
 
 	   UserGroupM007i
@@ -417,7 +417,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM008i:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/008i.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/008i.png
 	   :align: center
 
 	   UserGroupM008i
@@ -447,7 +447,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM008w:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/008w.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/008w.png
 	   :align: center
 
 	   UserGroupM008w
@@ -477,7 +477,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 	|
 
 	.. _UserGroupM001c:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/001c.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/001c.png
 	   :align: center
 
 	   UserGroupM001c: 
@@ -502,7 +502,7 @@ Note that at the moment, the ``Group Display`` menu is "old style". The new desi
 
 
 	.. _UserGroupM009w:
-	.. figure:: /images/testing_scenarios/UserGroupManipulation/009w.png
+	.. figure:: images/testing_scenarios/UserGroupManipulation/009w.png
 	   :align: center
 
 	   UserGroupM009w

@@ -1,5 +1,5 @@
 FS Check Filepath
-====================
+=================
 
 
 
@@ -19,35 +19,35 @@ FS Check Filepath
 
 
 	.. _FSCheckFilePath001in:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/001in.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/001in.png
 	   :align: center
 
 	   CheckFilePath001Insight
 
 
 	.. _FSCheckFilePath002in:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002in.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002in.png
 	   :align: center
 
 	   CheckFilePath002Insight
 
 
 	.. _FSCheckFilePath002w:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/002w.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/002w.png
 	   :align: center
 
 	   CheckFilePath002Web
 
 
 	.. _FSCheckFilePath003in:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/003in.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/003in.png
 	   :align: center
 
 	   CheckFilePath003Insight
 
 
 	.. _FSCheckFilePath003w:
-	.. figure:: /images/testing_scenarios/CheckFilePathFS/003w.png
+	.. figure:: images/testing_scenarios/CheckFilePathFS/003w.png
 	   :align: center
 
 	   CheckFilePath003Web

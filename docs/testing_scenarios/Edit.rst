@@ -1,5 +1,5 @@
 Edit
-=====
+====
 
 
 
@@ -41,7 +41,7 @@ Edit
 
 
 	.. _Edit001:
-	.. figure:: /images/testing_scenarios/Edit/001.png
+	.. figure:: images/testing_scenarios/Edit/001.png
 	   :align: center
 
 	   Edit001  
@@ -78,7 +78,7 @@ Edit
 
 
 	.. _Edit002:
-	.. figure:: /images/testing_scenarios/Edit/002.png
+	.. figure:: images/testing_scenarios/Edit/002.png
 	   :align: center
 
 	   Edit002 
@@ -115,7 +115,7 @@ Edit
 
 
 	.. _Edit003:
-	.. figure:: /images/testing_scenarios/Edit/003.png
+	.. figure:: images/testing_scenarios/Edit/003.png
 	   :align: center
 
 	   Edit003
@@ -152,7 +152,7 @@ Edit
 
 
 	.. _Edit004:
-	.. figure:: /images/testing_scenarios/Edit/004.png
+	.. figure:: images/testing_scenarios/Edit/004.png
 	   :align: center
 
 	   Edit004
@@ -189,7 +189,7 @@ Edit
 
 
 	.. _Edit005:
-	.. figure:: /images/testing_scenarios/Edit/005.png
+	.. figure:: images/testing_scenarios/Edit/005.png
 	   :align: center
 
 	   Edit005
@@ -226,7 +226,7 @@ Edit
 
 
 	.. _Edit006:
-	.. figure:: /images/testing_scenarios/Edit/006.png
+	.. figure:: images/testing_scenarios/Edit/006.png
 	   :align: center
 
 	   Edit006  
@@ -276,7 +276,7 @@ Edit
 
 
 	.. _Edit008:
-	.. figure:: /images/testing_scenarios/Edit/008.png
+	.. figure:: images/testing_scenarios/Edit/008.png
 	   :align: center
 
 	   Edit008
@@ -313,7 +313,7 @@ Edit
 
 
 	.. _Edit009:
-	.. figure:: /images/testing_scenarios/Edit/009.png
+	.. figure:: images/testing_scenarios/Edit/009.png
 	   :align: center
 
 	   Edit009  
@@ -350,7 +350,7 @@ Edit
 
 
 	.. _Edit010:
-	.. figure:: /images/testing_scenarios/Edit/010.png
+	.. figure:: images/testing_scenarios/Edit/010.png
 	   :align: center
 
 	   Edit010  
@@ -388,7 +388,7 @@ Edit
 
 
 	.. _Edit001N:
-	.. figure:: /images/testing_scenarios/Edit/001N.png
+	.. figure:: images/testing_scenarios/Edit/001N.png
 	   :align: center
 
 	   Edit001N  
@@ -432,7 +432,7 @@ Edit
 
 
 	.. _Edit001NN:
-	.. figure:: /images/testing_scenarios/Edit/001NN.png
+	.. figure:: images/testing_scenarios/Edit/001NN.png
 	   :align: center
 
 	   Edit001NN  
@@ -470,7 +470,7 @@ Edit
 
 
 	.. _Edit001NWeb:
-	.. figure:: /images/testing_scenarios/Edit/001NWeb.png
+	.. figure:: images/testing_scenarios/Edit/001NWeb.png
 	   :align: center
 
 	   Web client  
@@ -509,7 +509,7 @@ Edit
 
 
 	.. _Edit002N:
-	.. figure:: /images/testing_scenarios/Edit/002N.png
+	.. figure:: images/testing_scenarios/Edit/002N.png
 	   :align: center
 
 	   Edit002N  
@@ -548,7 +548,7 @@ Edit
 
 
 	.. _Edit002NWeb:
-	.. figure:: /images/testing_scenarios/Edit/002NWeb.png
+	.. figure:: images/testing_scenarios/Edit/002NWeb.png
 	   :align: center
 
 	   Web Client  
@@ -587,7 +587,7 @@ Edit
 
 
 	.. _Edit002Nb:
-	.. figure:: /images/testing_scenarios/Edit/002Nb.png
+	.. figure:: images/testing_scenarios/Edit/002Nb.png
 	   :align: center
 
 	   002Nb  
@@ -622,7 +622,7 @@ Edit
 
 
 	.. _Edit003N:
-	.. figure:: /images/testing_scenarios/Edit/003N.png
+	.. figure:: images/testing_scenarios/Edit/003N.png
 	   :align: center
 
 	   Edit003N  
@@ -661,7 +661,7 @@ Edit
 
 
 	.. _Edit003NWeb:
-	.. figure:: /images/testing_scenarios/Edit/003NWeb.png
+	.. figure:: images/testing_scenarios/Edit/003NWeb.png
 	   :align: center
 
 	   Web Client  
@@ -700,7 +700,7 @@ Edit
 
 
 	.. _Edit004N:
-	.. figure:: /images/testing_scenarios/Edit/004N.png
+	.. figure:: images/testing_scenarios/Edit/004N.png
 	   :align: center
 
 	   Edit004N  
@@ -738,7 +738,7 @@ Edit
 
 
 	.. _Edit004NWeb:
-	.. figure:: /images/testing_scenarios/Edit/004NWeb.png
+	.. figure:: images/testing_scenarios/Edit/004NWeb.png
 	   :align: center
 
 	   Web client  
@@ -776,7 +776,7 @@ Edit
 
 
 	.. _Edit005N:
-	.. figure:: /images/testing_scenarios/Edit/005N.png
+	.. figure:: images/testing_scenarios/Edit/005N.png
 	   :align: center
 
 	   Edit005N  
@@ -815,7 +815,7 @@ Edit
 
 
 	.. _Edit005NWeb:
-	.. figure:: /images/testing_scenarios/Edit/005NWeb.png
+	.. figure:: images/testing_scenarios/Edit/005NWeb.png
 	   :align: center
 
 	   Web client  
@@ -854,7 +854,7 @@ Edit
 
 
 	.. _Edit006N:
-	.. figure:: /images/testing_scenarios/Edit/006N.png
+	.. figure:: images/testing_scenarios/Edit/006N.png
 	   :align: center
 
 	   006N  
@@ -889,7 +889,7 @@ Edit
 
 
 	.. _Edit006NWeb:
-	.. figure:: /images/testing_scenarios/Edit/006NWeb.png
+	.. figure:: images/testing_scenarios/Edit/006NWeb.png
 	   :align: center
 
 	   Web Client  
@@ -926,7 +926,7 @@ Edit
 
 
 	.. _Edit006Nb:
-	.. figure:: /images/testing_scenarios/Edit/006Nb.png
+	.. figure:: images/testing_scenarios/Edit/006Nb.png
 	   :align: center
 
 	   006Nb  
@@ -963,7 +963,7 @@ Edit
 
 
 	.. _Edit006NbWeb:
-	.. figure:: /images/testing_scenarios/Edit/006NbWeb.png
+	.. figure:: images/testing_scenarios/Edit/006NbWeb.png
 	   :align: center
 
 	   Web Client b  

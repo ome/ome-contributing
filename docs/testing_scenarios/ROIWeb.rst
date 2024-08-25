@@ -27,7 +27,7 @@ ROI Web
 
 
 	.. _ROIWeb001:
-	.. figure:: /images/testing_scenarios/ROIWeb/001.png
+	.. figure:: images/testing_scenarios/ROIWeb/001.png
 	   :align: center
 
 	   ROIWeb001: 
@@ -64,7 +64,7 @@ ROI Web
 
 
 	.. _ROIWeb002:
-	.. figure:: /images/testing_scenarios/ROIWeb/002.png
+	.. figure:: images/testing_scenarios/ROIWeb/002.png
 	   :align: center
 
 	   ROIWeb002:
@@ -101,7 +101,7 @@ ROI Web
 
 
 	.. _ROIWeb003:
-	.. figure:: /images/testing_scenarios/ROIWeb/003.png
+	.. figure:: images/testing_scenarios/ROIWeb/003.png
 	   :align: center
 
 	   ROIWeb003
@@ -138,7 +138,7 @@ ROI Web
 
 
 	.. _ROIWeb004:
-	.. figure:: /images/testing_scenarios/ROIWeb/004.png
+	.. figure:: images/testing_scenarios/ROIWeb/004.png
 	   :align: center
 
 	   ROIWeb004

@@ -1,5 +1,5 @@
 FS Delete
-==========
+=========
 
 
 
@@ -45,110 +45,110 @@ FS Delete
    - |C| that this time the Delete action proceeds successfully [:ref:`FSdelete015`, :ref:`FSdelete016`].
 
 .. _FSdelete001:
-.. figure:: /images/testing_scenarios/Delete/001.png
+.. figure:: images/testing_scenarios/Delete/001.png
    :align: center
 
    FSdelete001 
 
 
 .. _FSdelete002:
-.. figure:: /images/testing_scenarios/Delete/002.png
+.. figure:: images/testing_scenarios/Delete/002.png
    :align: center
 
    FSdelete002
 
 
 .. _FSdelete003:
-.. figure:: /images/testing_scenarios/Delete/003.png
+.. figure:: images/testing_scenarios/Delete/003.png
    :align: center
 
    FSdelete003
 
 
 .. _FSdelete004:
-.. figure:: /images/testing_scenarios/Delete/004.png
+.. figure:: images/testing_scenarios/Delete/004.png
    :align: center
 
    FSdelete004
 
 
 .. _FSdelete005:
-.. figure:: /images/testing_scenarios/Delete/005.png
+.. figure:: images/testing_scenarios/Delete/005.png
    :align: center
 
    FSdelete005
 
 
 .. _FSdelete006:
-.. figure:: /images/testing_scenarios/Delete/006.png
+.. figure:: images/testing_scenarios/Delete/006.png
    :align: center
 
    FSdelete006 
 
 
 .. _FSdelete007:
-.. figure:: /images/testing_scenarios/Delete/007.png
+.. figure:: images/testing_scenarios/Delete/007.png
    :align: center
 
    FSdelete007
 
 
 .. _FSdelete008:
-.. figure:: /images/testing_scenarios/Delete/008.png
+.. figure:: images/testing_scenarios/Delete/008.png
    :align: center
 
    FSdelete008
 
 .. _FSdelete009:
-.. figure:: /images/testing_scenarios/Delete/009.png
+.. figure:: images/testing_scenarios/Delete/009.png
    :align: center
 
    FSdelete009
 
 .. _FSdelete010:
-.. figure:: /images/testing_scenarios/Delete/010.png
+.. figure:: images/testing_scenarios/Delete/010.png
    :align: center
 
    FSdelete010
 
 
 .. _FSdelete011:
-.. figure:: /images/testing_scenarios/Delete/011.png
+.. figure:: images/testing_scenarios/Delete/011.png
    :align: center
 
    FSdelete011
 
 
 .. _FSdelete012:
-.. figure:: /images/testing_scenarios/Delete/012.png
+.. figure:: images/testing_scenarios/Delete/012.png
    :align: center
 
    FSdelete012
 
 
 .. _FSdelete013:
-.. figure:: /images/testing_scenarios/Delete/013.png
+.. figure:: images/testing_scenarios/Delete/013.png
    :align: center
 
    FSdelete013
 
 
 .. _FSdelete014:
-.. figure:: /images/testing_scenarios/Delete/014.png
+.. figure:: images/testing_scenarios/Delete/014.png
    :align: center
 
    FSdelete014
 
 
 .. _FSdelete015:
-.. figure:: /images/testing_scenarios/Delete/015.png
+.. figure:: images/testing_scenarios/Delete/015.png
    :align: center
 
    FSdelete015
 
 
 .. _FSdelete016:
-.. figure:: /images/testing_scenarios/Delete/016.png
+.. figure:: images/testing_scenarios/Delete/016.png
    :align: center
 
    FSdelete016

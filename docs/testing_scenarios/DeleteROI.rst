@@ -23,7 +23,7 @@ Delete ROI
 
 
 .. _DeleteROI001:
-.. figure:: /images/testing_scenarios/DeleteROI/001.png
+.. figure:: images/testing_scenarios/DeleteROI/001.png
    :align: center
 
    DeleteROI001: 
@@ -60,7 +60,7 @@ Delete ROI
 
 
 .. _DeleteROI002:
-.. figure:: /images/testing_scenarios/DeleteROI/002.png
+.. figure:: images/testing_scenarios/DeleteROI/002.png
    :align: center
 
    DeleteROI002:

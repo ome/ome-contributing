@@ -1,5 +1,5 @@
 File Format Metadata Validation
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **To test in**: Insight
 

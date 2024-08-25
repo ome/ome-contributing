@@ -1,5 +1,5 @@
 Admin: Group/User Create
-==========================
+========================
 
 **To test in**: Web, Insight
 
@@ -38,7 +38,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr001:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/00Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/00Web.png
    :align: center
 
    AdminGrUsCr001: 
@@ -75,7 +75,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr002:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
    :align: center
 
    AdminGrUsCr002:
@@ -105,7 +105,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr002b:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002b.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/002b.png
    :align: center
 
    New User dialog:
@@ -142,7 +142,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr003:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/001Web.png
    :align: center
 
    AdminGrUsCr003
@@ -179,7 +179,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr004:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/002Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/002Web.png
    :align: center
 
    AdminGrUsCr004
@@ -216,7 +216,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr005:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/001Insight.png
    :align: center
 
    AdminGrUsCr005
@@ -253,7 +253,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr006:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/003Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/003Web.png
    :align: center
    :width: 100%
 
@@ -291,7 +291,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr007:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/004Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/004Web.png
    :align: center
 
    AdminGrUsCr007:
@@ -328,7 +328,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr008:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/005Insight.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/005Insight.png
    :align: center
 
    AdminGrUsCr008
@@ -365,7 +365,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr009:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/006Web.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/006Web.png
    :align: center
 
    AdminGrUsCr009: 
@@ -413,7 +413,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr010:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/010.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/010.png
    :align: center
 
    AdminGrUsCr010: 
@@ -459,7 +459,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr011:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/011Insight.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/011Insight.png
    :align: center
 
    AdminGrUsCr011: 
@@ -497,7 +497,7 @@ Admin: Group/User Create
 
 
 .. _AdminGrUsCr012:
-.. figure:: /images/testing_scenarios/GroupUserCreateAdmin/012Insight.png
+.. figure:: images/testing_scenarios/GroupUserCreateAdmin/012Insight.png
    :align: center
 
    AdminGrUsCr012: 

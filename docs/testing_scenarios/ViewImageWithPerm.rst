@@ -1,5 +1,5 @@
 View Image
-===========
+==========
 
 
 
@@ -19,7 +19,7 @@ If you test work on other's data (permissions) go first to :ref:`Section 2: Work
 
 #. Go to the split-view (=multi-channel in Web). Turn channels on/off, user z and t-sliders.
 
-#. Find a ``FLIM-modulo-sample.ome.tiff`` image (either it was pre-imported for you under ``FLIM`` Project or Dataset or import it from `here <https://downloads.openmicroscopy.org/images/OME-TIFF/2016-06/modulo/>`_.
+#. Find a ``FLIM-modulo-sample.ome.tiff`` image (either it was pre-imported for you under ``FLIM`` Project or Dataset or import it from `here <https://downloads.openmicroscopy.orgimages/OME-TIFF/2016-06/modulo/>`_.
 
    - |C| that when you move either the ``T`` or the ``t`` slider, the ``True-T`` (for ``T``) and ``Sub-T`` (for ``t``) changes accordingly (=the correct ``T`` and ``t`` planes are shown)
    - |C| that when you play ``T`` or ``t`` movie, again, the planes display changes accordingly and the movie stops as expected at the last plane.
@@ -94,7 +94,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View001:
-	.. figure:: /images/testing_scenarios/ViewImage/001.png
+	.. figure:: images/testing_scenarios/ViewImage/001.png
 	   :align: center
 	   :width: 100%
 
@@ -132,7 +132,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View002:
-	.. figure:: /images/testing_scenarios/ViewImage/002.png
+	.. figure:: images/testing_scenarios/ViewImage/002.png
 	   :align: center
 
 	   View002:
@@ -169,7 +169,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View003:
-	.. figure:: /images/testing_scenarios/ViewImage/003.png
+	.. figure:: images/testing_scenarios/ViewImage/003.png
 	   :align: center
 
 	   View003
@@ -206,7 +206,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View004:
-	.. figure:: /images/testing_scenarios/ViewImage/004.png
+	.. figure:: images/testing_scenarios/ViewImage/004.png
 	   :align: center
 
 	   View004
@@ -243,7 +243,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View005:
-	.. figure:: /images/testing_scenarios/ViewImage/005.png
+	.. figure:: images/testing_scenarios/ViewImage/005.png
 	   :align: center
 
 	   View005
@@ -280,7 +280,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View006:
-	.. figure:: /images/testing_scenarios/ViewImage/006.png
+	.. figure:: images/testing_scenarios/ViewImage/006.png
 	   :align: center
 	 
 
@@ -318,7 +318,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View007:
-	.. figure:: /images/testing_scenarios/ViewImage/007.png
+	.. figure:: images/testing_scenarios/ViewImage/007.png
 	   :align: center
 
 	   View007:
@@ -355,7 +355,7 @@ Group Administrator    Y        Y           Y                  Y
 
 
 	.. _View008:
-	.. figure:: /images/testing_scenarios/ViewImage/008.png
+	.. figure:: images/testing_scenarios/ViewImage/008.png
 	   :align: center
 	 
 

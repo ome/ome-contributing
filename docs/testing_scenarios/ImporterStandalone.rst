@@ -19,7 +19,7 @@ Importer Standalone
    -  Try to import something with importer.
 
 .. _ImporterStA001:
-.. figure:: /images/testing_scenarios/ImporterStandalone/001.png
+.. figure:: images/testing_scenarios/ImporterStandalone/001.png
    :align: center
 
    ImporterStA001: 
@@ -56,7 +56,7 @@ Importer Standalone
 
 
 .. _ImporterStA002:
-.. figure:: /images/testing_scenarios/ImporterStandalone/002.png
+.. figure:: images/testing_scenarios/ImporterStandalone/002.png
    :align: center
 
    ImporterStA002:
@@ -93,7 +93,7 @@ Importer Standalone
 
 
 .. _ImporterStA003:
-.. figure:: /images/testing_scenarios/ImporterStandalone/003.png
+.. figure:: images/testing_scenarios/ImporterStandalone/003.png
    :align: center
 
    ImporterStA003
@@ -130,7 +130,7 @@ Importer Standalone
 
 
 .. _ImporterStA004:
-.. figure:: /images/testing_scenarios/ImporterStandalone/004.png
+.. figure:: images/testing_scenarios/ImporterStandalone/004.png
    :align: center
 
    ImporterStA004
@@ -167,7 +167,7 @@ Importer Standalone
 
 
 .. _ImporterStA005:
-.. figure:: /images/testing_scenarios/ImporterStandalone/005.png
+.. figure:: images/testing_scenarios/ImporterStandalone/005.png
    :align: center
 
    ImporterStA005
@@ -204,7 +204,7 @@ Importer Standalone
 
 
 .. _ImporterStA006:
-.. figure:: /images/testing_scenarios/ImporterStandalone/006.png
+.. figure:: images/testing_scenarios/ImporterStandalone/006.png
    :align: center
 
    ImporterStA006: 
@@ -241,7 +241,7 @@ Importer Standalone
 
 
 .. _ImporterStA007:
-.. figure:: /images/testing_scenarios/ImporterStandalone/007.png
+.. figure:: images/testing_scenarios/ImporterStandalone/007.png
    :align: center
 
    ImporterStA007:
@@ -278,7 +278,7 @@ Importer Standalone
 
 
 .. _ImporterStA008:
-.. figure:: /images/testing_scenarios/ImporterStandalone/008.png
+.. figure:: images/testing_scenarios/ImporterStandalone/008.png
    :align: center
 
    ImporterStA008

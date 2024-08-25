@@ -1,5 +1,5 @@
 FS Screen/Plate/Well
-======================
+====================
 
 
 
@@ -39,14 +39,14 @@ FS Screen/Plate/Well
 
 
 	.. _FSspw001:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/001.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/001.png
 	   :align: center
 
 	   FSspw001 
 
 
 	.. _FSspw002:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/002.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/002.png
 	   :align: center
 	   :width: 100%
 
@@ -54,7 +54,7 @@ FS Screen/Plate/Well
 
 
 	.. _FSspw003:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/003.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/003.png
 	   :align: center
 	   :width: 100%
 
@@ -62,7 +62,7 @@ FS Screen/Plate/Well
 
 
 	.. _FSspw004:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/004pub.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/004pub.png
 	   :align: center
 	   :width: 100%
 
@@ -70,49 +70,49 @@ FS Screen/Plate/Well
 
 
 	.. _FSspw005:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/005pub.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/005pub.png
 	   :align: center
 
 	   FSspw005
 
 
 	.. _FSspw006:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/006.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/006.png
 	   :align: center
 
 	   FSspw006 
 
 
 	.. _FSspw007:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/007.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/007.png
 	   :align: center
 
 	   FSspw007
 
 
 	.. _FSspw008:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/008.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/008.png
 	   :align: center
 
 	   FSspw008
 
 
 	.. _FSspw009:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/009.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/009.png
 	   :align: center
 
 	   FSspw009 
 
 
 	.. _FSspw010:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/010.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/010.png
 	   :align: center
 
 	   FSspw010
 
 
 	.. _FSspw011:
-	.. figure:: /images/testing_scenarios/ScreenPlateWell/011pub.png
+	.. figure:: images/testing_scenarios/ScreenPlateWell/011pub.png
 	   :align: center
 
 	   FSspw011

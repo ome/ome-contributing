@@ -1,5 +1,5 @@
 Scripts Client
-===============
+==============
 
 
 
@@ -88,7 +88,7 @@ Scripts Client
 
 
 .. _ScriptClient001:
-.. figure:: /images/testing_scenarios/ScriptsClient/001.png
+.. figure:: images/testing_scenarios/ScriptsClient/001.png
    :align: center
 
    ScriptClient001: 
@@ -106,7 +106,7 @@ Scripts Client
 
 
 .. _ScriptClient001b:
-.. figure:: /images/testing_scenarios/ScriptsClient/001b.png
+.. figure:: images/testing_scenarios/ScriptsClient/001b.png
    :align: center
 
    ScriptClient001b: 
@@ -143,7 +143,7 @@ Scripts Client
 
 
 .. _ScriptClient002:
-.. figure:: /images/testing_scenarios/ScriptsClient/002.png
+.. figure:: images/testing_scenarios/ScriptsClient/002.png
    :align: center
 
    ScriptClient002:
@@ -191,7 +191,7 @@ Scripts Client
 
 
 .. _ScriptClient002b:
-.. figure:: /images/testing_scenarios/ScriptsClient/002b.png
+.. figure:: images/testing_scenarios/ScriptsClient/002b.png
    :align: center
 
    ScriptClient002b:
@@ -211,7 +211,7 @@ Scripts Client
 
 
 .. _ScriptClient003:
-.. figure:: /images/testing_scenarios/ScriptsClient/003.png
+.. figure:: images/testing_scenarios/ScriptsClient/003.png
    :align: center
 
    ScriptClient003
@@ -248,7 +248,7 @@ Scripts Client
 
 
 .. _ScriptClient004:
-.. figure:: /images/testing_scenarios/ScriptsClient/004.png
+.. figure:: images/testing_scenarios/ScriptsClient/004.png
    :align: center
 
    ScriptClient004
@@ -285,7 +285,7 @@ Scripts Client
 
 
 .. _ScriptClient005:
-.. figure:: /images/testing_scenarios/ScriptsClient/005.png
+.. figure:: images/testing_scenarios/ScriptsClient/005.png
    :align: center
 
    ScriptClient005
@@ -322,7 +322,7 @@ Scripts Client
 
 
 .. _ScriptClient006:
-.. figure:: /images/testing_scenarios/ScriptsClient/006.png
+.. figure:: images/testing_scenarios/ScriptsClient/006.png
    :align: center
 
    ScriptClient006: 
@@ -359,7 +359,7 @@ Scripts Client
 
 
 .. _ScriptClient007:
-.. figure:: /images/testing_scenarios/ScriptsClient/007.png
+.. figure:: images/testing_scenarios/ScriptsClient/007.png
    :align: center
 
    ScriptClient007:
@@ -397,7 +397,7 @@ Scripts Client
 |
 
 .. _ScriptClientN001:
-.. figure:: /images/testing_scenarios/ScriptsClient/001N.png
+.. figure:: images/testing_scenarios/ScriptsClient/001N.png
    :align: center
 
    ScriptClientN001
@@ -432,7 +432,7 @@ Scripts Client
 
 
 .. _ScriptClientN002:
-.. figure:: /images/testing_scenarios/ScriptsClient/002N.png
+.. figure:: images/testing_scenarios/ScriptsClient/002N.png
    :align: center
 
    ScriptClientN002
@@ -476,7 +476,7 @@ Scripts Client
 
 
 .. _ScriptClientN003:
-.. figure:: /images/testing_scenarios/ScriptsClient/003N.png
+.. figure:: images/testing_scenarios/ScriptsClient/003N.png
    :align: center
 
    ScriptClientN003

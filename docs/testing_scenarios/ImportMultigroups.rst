@@ -61,7 +61,7 @@ Import and Multigroups
 
 
 .. _ImportMultiGr000a:
-.. figure:: /images/testing_scenarios/ImportMultigroups/000a.png
+.. figure:: images/testing_scenarios/ImportMultigroups/000a.png
    :align: center
 
    ImportMultiGr000a 
@@ -94,7 +94,7 @@ Import and Multigroups
 |
 
 .. _ImportMultiGr000b:
-.. figure:: /images/testing_scenarios/ImportMultigroups/000b.png
+.. figure:: images/testing_scenarios/ImportMultigroups/000b.png
    :align: center
 
    ImportMultiGr000b 
@@ -133,7 +133,7 @@ Import and Multigroups
 |
 
 .. _ImportMultiGr001:
-.. figure:: /images/testing_scenarios/ImportMultigroups/001.png
+.. figure:: images/testing_scenarios/ImportMultigroups/001.png
    :align: center
 
    ImportMultiGr001: 
@@ -169,7 +169,7 @@ Import and Multigroups
 
 
 .. _ImportMultiGr002:
-.. figure:: /images/testing_scenarios/ImportMultigroups/002.png
+.. figure:: images/testing_scenarios/ImportMultigroups/002.png
    :align: center
 
    Tree in left-hand pane:
@@ -217,7 +217,7 @@ Import and Multigroups
 
 
 .. _ImportMultiGr003:
-.. figure:: /images/testing_scenarios/ImportMultigroups/003.png
+.. figure:: images/testing_scenarios/ImportMultigroups/003.png
    :align: center
 
    Known limitation - black thumbnails:

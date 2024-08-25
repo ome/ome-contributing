@@ -1,5 +1,5 @@
 Delete Image and binary data Windows server
-================================================
+===========================================
 
 **Scenario Updated for 4.3.1**
 
