@@ -1,0 +1,2 @@
+Using session 5d7d8cd2-13e7-4a1d-988b-e65b02cf7f2f (user-8@localhost:4064). Current group: private-1
+Group 'private-1' (id=7) switched to 'read-only-1' (id=8) 

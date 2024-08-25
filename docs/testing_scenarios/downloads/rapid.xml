@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rapid xmlns="http://www.ed.ac.uk/rapid" xmlns:x="http://www.w3.org/1999/xhtml">
+
+    <initialise>
+	<variable name="uuid">
+		<uuid/>
+	</variable>
+	<variable name="hostname">
+		<single><value>escience2.inf.ed.ac.uk</value></single>
+	</variable>
+	<variable name="username">
+		<single><value>username</value></single>
+	</variable>
+	<variable name="password">
+		<single><value>password</value></single>
+	</variable>
+	<variable name="control">
+		<single><value></value></single>
+	</variable>
+	<variable name="experiment">
+		<single><value></value></single>
+	</variable>
+	<variable name="irffile">
+		<single><value>53</value></single>
+	</variable>
+        <posix>
+            <executable>
+                <single><value>/usr/bin/mpirun -np $NSLOTS $EXECUTABLE</value></single>
+            </executable>
+        </posix>
+	<submitto> 
+	        <single><value>omerocluster</value></single> 
+	</submitto> 	
+    </initialise>
+	
+    <ssh name="cluster">
+       <url>sftp://escience3.inf.ed.ac.uk/</url>
+       <username>username</username>
+       <password>password</password>
+   </ssh>
+
+   <sungridengine name="omerocluster">
+	<option>#$ -cwd</option>
+	<option>#$ -j y</option>
+	<option>#$ -V</option>
+	<option>#$ -S /bin/bash</option>
+	<option>#$ -pe openmpi 9</option>
+	<option>export LD_LIBRARY_PATH=/usr/lib/openmpi/lib/openmpi:/usr/lib/openmpi/lib/:/usr/lib </option>
+        <option>export PYTHONPATH=/opt/Server/omero/dist/lib/python</option>
+	<option>export HOME=${HOME:-$1}</option>
+	<option>export HOME=${HOME:-"/home/omero"}</option>
+	<option>export ROOTPATH=${ROOTPATH:-$2}</option>
+	<option>export ROOTPATH=${ROOTPATH:-"/home/share/scripts/FLIM"}</option>
+	<option>export EXECPATH=${EXECPATH:-$3}</option>
+	<option>export EXECPATH=${EXECPATH:-$ROOTPATH"/bin"}</option>
+	<option>export EXECUTABLE="python $EXECPATH/flim-omero.py -h $(hostname) -u $(username) -p $(password) -c $(control) -e $(experiment) -r $(irffile) -o test_n.tex" </option>
+	<option>export MATPLOTLIBRC=/tmp/$$$$</option>
+      <sgeroot>/usr</sgeroot>
+      <filesystemname>cluster</filesystemname>
+   </sungridengine>
+
+    <page name="doflim">
+	<x:h1>Perform Flim Analysis</x:h1><x:br/>
+	<x:table border="1">
+	<x:tr>
+		<x:td>Hostname</x:td>
+		<x:td><variable name="hostname"><text/></variable></x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>Username</x:td>
+		<x:td><variable name="username"><text/></variable></x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>Password</x:td>
+		<x:td><variable name="password"><text password="true"/></variable></x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>Control Dataset Id</x:td>
+		<x:td><variable name="control"><text/></variable></x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>Experiment Dataset Id</x:td>
+		<x:td><variable name="experiment"><text/></variable></x:td>
+	</x:tr>
+	<x:tr>
+		<x:td>IRF File ID</x:td>
+		<x:td><variable name="irffile"><text/></variable></x:td>
+	</x:tr>
+	</x:table>         
+
+	<button display = "refresh">
+		<navigate nextpage="doflim"/>
+	</button>
+	<button display="submit">
+		<submit/>
+		<navigate nextpage="monitor"/>
+	</button>
+	<button display="display results">	
+		<navigate nextpage="monitor"/>
+	</button>	
+	<x:br/>
+    </page>
+
+    <page name="monitor">
+        <x:h1>Job Monitor</x:h1>
+        <setjob selection="selection">
+        </setjob>
+        <joblist>
+            <x:table border="1" width="800">
+                <x:tr>
+                    <x:td>
+                        <selection name="selection"/>
+                    </x:td>
+                    <x:td>
+                        <date/>
+                    </x:td>
+                    <x:td>
+                        <jobid/>
+                    </x:td>
+                    <x:td>
+                        <status/>
+                    </x:td>
+                </x:tr>
+            </x:table>
+        </joblist>
+        <x:br/>
+        	<button  display="Refresh">
+                        <navigate nextpage="monitor" />
+                </button>
+                <button  display="delete job">
+                        <haltjob selection="selection"/>
+			<!--deletejob selection="selection"/-->
+                </button>
+
+           	<button  display="New Flim Analysis">
+                        <navigate nextpage="doflim" />
+                </button>
+    	</page>
+    <persistence>
+        <username name="sa"/>
+        <password name=""/>
+        <host name=""/>
+        <dbms name="file"/>
+        <database name="/home/share/FLIMdb"/>
+     </persistence>
+</rapid>

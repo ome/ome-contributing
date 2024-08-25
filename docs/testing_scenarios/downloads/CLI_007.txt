@@ -1,0 +1,895 @@
+[petr@ls25165 ~]$ omero import -d 101 ~/Desktop/lei/
+Using session 2d70d607-5173-4d4d-8683-45d5b88d3865 (petr@localhost:4064). Idle timeout: 10.0 min. Current group: petr's group
+2012-11-05 15:17:37,269 0          [      main] INFO          ome.formats.importer.ImportConfig  - OMERO Version: 4.4.4-DEV-ice33
+2012-11-05 15:17:37,273 4          [      main] INFO          ome.formats.importer.ImportConfig  - Bioformats version: 4.4.4 revision: 96c615b date: 1 November 2012
+2012-11-05 15:17:37,283 14         [      main] INFO   formats.importer.cli.CommandLineImporter  - Log levels -- Bio-Formats: ERROR OMERO.importer: INFO
+2012-11-05 15:17:37,532 263        [      main] INFO      ome.formats.importer.ImportCandidates  - Depth: 4 Metadata Level: MINIMUM
+2012-11-05 15:17:38,750 1481       [      main] INFO      ome.formats.importer.ImportCandidates  - 541 file(s) parsed into 6 group(s) with 16 call(s) to setId in 1168ms. (1218ms total) [10 unknowns]
+2012-11-05 15:17:39,981 2712       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Attempting initial SSL connection to localhost:4064
+2012-11-05 15:17:40,390 3121       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Insecure connection requested, falling back
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Server: 4.4.4
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Client: 4.4.4-DEV-ice33
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Java Version: 1.6.0_35
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - OS Name: Mac OS X
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - OS Arch: x86_64
+2012-11-05 15:17:40,557 3288       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - OS Version: 10.8.2
+2012-11-05 15:17:40,655 3386       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:17:40,714 3445       [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:17:41,414 4145       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,414 4145       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,415 4146       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,434 4165       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,532 4263       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,532 4263       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,532 4263       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,532 4263       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,582 4313       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,582 4313       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,582 4313       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,583 4314       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,626 4357       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,626 4357       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,626 4357       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,627 4358       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,656 4387       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,656 4387       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,656 4387       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,656 4387       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,686 4417       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,686 4417       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,686 4417       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,686 4417       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,711 4442       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,711 4442       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,711 4442       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,711 4442       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,736 4467       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,736 4467       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,736 4467       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,737 4468       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,759 4490       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,760 4491       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,760 4491       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,760 4491       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,782 4513       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,782 4513       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,782 4513       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,783 4514       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,809 4540       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,809 4540       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,809 4540       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,810 4541       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,831 4562       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,831 4562       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,831 4562       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,831 4562       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,853 4584       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,853 4584       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,853 4584       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,854 4585       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,877 4608       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,877 4608       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,877 4608       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,877 4608       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,899 4630       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,899 4630       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,899 4630       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,899 4630       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,922 4653       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,922 4653       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,922 4653       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,922 4653       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,945 4676       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,946 4677       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,946 4677       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,946 4677       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,966 4697       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,966 4697       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,966 4697       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,967 4698       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,987 4718       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:41,987 4718       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:41,987 4718       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:41,988 4719       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,012 4743       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,012 4743       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,012 4743       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,012 4743       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,036 4767       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,036 4767       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,036 4767       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,036 4767       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,058 4789       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,058 4789       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,058 4789       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,058 4789       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,079 4810       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,079 4810       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,079 4810       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,079 4810       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,099 4830       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,099 4830       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,099 4830       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,100 4831       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,120 4851       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,120 4851       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,120 4851       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,121 4852       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,141 4872       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,141 4872       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,141 4872       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,142 4873       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,160 4891       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,160 4891       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,160 4891       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,160 4891       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,178 4909       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,178 4909       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,178 4909       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,179 4910       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,199 4930       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,199 4930       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,200 4931       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,200 4931       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,221 4952       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,221 4952       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,221 4952       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,221 4952       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,241 4972       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,241 4972       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,241 4972       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,241 4972       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,263 4994       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,263 4994       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,263 4994       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,264 4995       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,284 5015       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,284 5015       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,284 5015       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,284 5015       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,303 5034       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,303 5034       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,303 5034       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,304 5035       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,325 5056       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,325 5056       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,325 5056       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,325 5056       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,348 5079       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,348 5079       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,348 5079       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,348 5079       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,369 5100       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,369 5100       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,369 5100       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,369 5100       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,393 5124       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,393 5124       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,393 5124       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,393 5124       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,413 5144       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,413 5144       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,413 5144       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,413 5144       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,431 5162       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,431 5162       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,431 5162       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,431 5162       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,457 5188       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,457 5188       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,457 5188       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,457 5188       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,480 5211       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,480 5211       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,480 5211       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,481 5212       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,501 5232       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,501 5232       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,501 5232       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,501 5232       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,523 5254       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,523 5254       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,523 5254       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,523 5254       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,543 5274       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,544 5275       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,544 5275       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,544 5275       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,566 5297       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,566 5297       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,566 5297       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,567 5298       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,587 5318       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,587 5318       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,588 5319       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,588 5319       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,609 5340       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,609 5340       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,609 5340       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,609 5340       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,636 5367       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,636 5367       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,636 5367       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,637 5368       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,657 5388       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,657 5388       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,657 5388       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,657 5388       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,678 5409       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,678 5409       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,679 5410       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,796 5527       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,816 5547       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,816 5547       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,816 5547       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,816 5547       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,835 5566       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,835 5566       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,835 5566       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,836 5567       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,859 5590       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,859 5590       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,859 5590       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,859 5590       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,878 5609       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,879 5610       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,879 5610       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,879 5610       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,900 5631       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:42,900 5631       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,900 5631       [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:42,902 5633       [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:17:42,939 5670       [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:17:43,109 5840       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:2
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:1
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:6
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:5
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:4
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:3
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:9
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:8
+2012-11-05 15:17:43,110 5841       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:7
+2012-11-05 15:17:43,113 5844       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:51
+2012-11-05 15:17:43,113 5844       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:50
+2012-11-05 15:17:43,113 5844       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:53
+2012-11-05 15:17:43,113 5844       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:52
+2012-11-05 15:17:43,113 5844       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:55
+2012-11-05 15:17:43,114 5845       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:54
+2012-11-05 15:17:43,114 5845       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:45
+2012-11-05 15:17:43,114 5845       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:46
+2012-11-05 15:17:43,115 5846       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:47
+2012-11-05 15:17:43,115 5846       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:48
+2012-11-05 15:17:43,115 5846       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:49
+2012-11-05 15:17:43,115 5846       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:40
+2012-11-05 15:17:43,115 5846       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:44
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:43
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:42
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:41
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:36
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:37
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:34
+2012-11-05 15:17:43,116 5847       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:35
+2012-11-05 15:17:43,117 5848       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:38
+2012-11-05 15:17:43,117 5848       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:39
+2012-11-05 15:17:43,119 5850       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:10
+2012-11-05 15:17:43,119 5850       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:11
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:29
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:28
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:27
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:26
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:25
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:24
+2012-11-05 15:17:43,120 5851       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:23
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:32
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:33
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:30
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:31
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:17
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:16
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:19
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:18
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:13
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:12
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:15
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:14
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:20
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:21
+2012-11-05 15:17:43,121 5852       [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:22
+2012-11-05 15:17:54,597 17328      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+383
+384
+385
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+401
+402
+403
+404
+405
+406
+407
+408
+409
+410
+411
+412
+413
+414
+415
+416
+417
+418
+419
+420
+421
+422
+423
+424
+425
+426
+427
+428
+429
+430
+431
+432
+433
+434
+435
+436
+437
+438
+2012-11-05 15:17:54,598 17329      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0
+2012-11-05 15:17:54,669 17400      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:17:54,721 17452      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:17:55,208 17939      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,208 17939      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,208 17939      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,218 17949      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,237 17968      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,237 17968      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,237 17968      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,237 17968      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,254 17985      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,254 17985      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,254 17985      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,254 17985      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,271 18002      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,271 18002      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,271 18002      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,271 18002      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,287 18018      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,288 18019      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,288 18019      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,288 18019      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,304 18035      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,304 18035      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,304 18035      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,304 18035      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,316 18047      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,316 18047      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,316 18047      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,317 18048      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,329 18060      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,329 18060      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,329 18060      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,330 18061      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,345 18076      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,345 18076      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,345 18076      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,345 18076      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,358 18089      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,359 18090      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,359 18090      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,359 18090      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,372 18103      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,372 18103      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,372 18103      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,372 18103      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,388 18119      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,388 18119      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,388 18119      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,389 18120      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,402 18133      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,402 18133      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,402 18133      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,402 18133      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,415 18146      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,415 18146      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,415 18146      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,416 18147      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,431 18162      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,431 18162      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,431 18162      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,431 18162      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,444 18175      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,444 18175      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,444 18175      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,445 18176      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,460 18191      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,460 18191      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,460 18191      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,460 18191      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,474 18205      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,474 18205      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,474 18205      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,474 18205      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,488 18219      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,488 18219      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,488 18219      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,488 18219      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,506 18237      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,506 18237      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,506 18237      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,507 18238      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,522 18253      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,522 18253      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,522 18253      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,522 18253      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,535 18266      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,535 18266      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,535 18266      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,536 18267      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,551 18282      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,551 18282      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,551 18282      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,552 18283      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,565 18296      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,565 18296      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,565 18296      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,565 18296      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,579 18310      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,579 18310      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,579 18310      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,579 18310      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,596 18327      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,596 18327      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,596 18327      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,597 18328      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,610 18341      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,610 18341      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,610 18341      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,611 18342      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,627 18358      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,627 18358      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,627 18358      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,627 18358      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,644 18375      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,644 18375      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,644 18375      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,644 18375      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,660 18391      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,660 18391      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,660 18391      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,660 18391      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,674 18405      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,674 18405      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,674 18405      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,674 18405      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,689 18420      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,689 18420      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,689 18420      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,689 18420      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,706 18437      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,706 18437      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,706 18437      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,706 18437      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,721 18452      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,721 18452      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,721 18452      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,721 18452      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,736 18467      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,736 18467      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,736 18467      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,736 18467      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,753 18484      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,753 18484      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,753 18484      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,753 18484      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,767 18498      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,767 18498      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,767 18498      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,767 18498      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,784 18515      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,784 18515      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,784 18515      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,784 18515      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,799 18530      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,799 18530      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,799 18530      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,799 18530      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,813 18544      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,813 18544      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,813 18544      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,813 18544      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,829 18560      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,829 18560      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,829 18560      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,829 18560      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,843 18574      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,843 18574      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,843 18574      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,844 18575      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,860 18591      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,860 18591      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,860 18591      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,860 18591      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,874 18605      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,874 18605      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,874 18605      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,874 18605      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,889 18620      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,889 18620      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,889 18620      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,890 18621      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,906 18637      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,906 18637      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,907 18638      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,907 18638      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,922 18653      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,922 18653      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,922 18653      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,922 18653      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,938 18669      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,938 18669      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,938 18669      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,938 18669      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,952 18683      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,952 18683      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,952 18683      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,952 18683      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,970 18701      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,970 18701      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,970 18701      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,970 18701      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,987 18718      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:55,987 18718      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:55,987 18718      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:55,987 18718      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,003 18734      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,003 18734      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,003 18734      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,003 18734      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,023 18754      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,023 18754      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,023 18754      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,023 18754      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,043 18774      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,043 18774      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,043 18774      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,043 18774      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,064 18795      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,064 18795      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,064 18795      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,064 18795      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,081 18812      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,081 18812      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,081 18812      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,081 18812      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,100 18831      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,100 18831      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,100 18831      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,101 18832      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,122 18853      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,122 18853      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,122 18853      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,122 18853      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,142 18873      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,142 18873      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,142 18873      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,142 18873      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,161 18892      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,161 18892      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,161 18892      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,162 18893      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,182 18913      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,182 18913      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,182 18913      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,182 18913      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,203 18934      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,203 18934      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,203 18934      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,204 18935      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,222 18953      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,222 18953      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,222 18953      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,223 18954      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,243 18974      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,244 18975      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,244 18975      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,244 18975      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,262 18993      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,263 18994      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,263 18994      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,263 18994      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,284 19015      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,284 19015      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,284 19015      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,284 19015      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,302 19033      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,302 19033      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,302 19033      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,302 19033      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,323 19054      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,323 19054      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,323 19054      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,323 19054      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,344 19075      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,344 19075      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,344 19075      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,345 19076      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,368 19099      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,368 19099      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,368 19099      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,368 19099      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,387 19118      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,387 19118      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,387 19118      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,387 19118      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,409 19140      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,409 19140      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,409 19140      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,409 19140      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,428 19159      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:17:56,428 19159      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,428 19159      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:17:56,428 19159      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:17:56,472 19203      [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:2
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:1
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:6
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:5
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:4
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:3
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:9
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:8
+2012-11-05 15:17:56,550 19281      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:7
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:51
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:50
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:53
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:52
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:55
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:54
+2012-11-05 15:17:56,551 19282      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:45
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:46
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:47
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:48
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:49
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:40
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:44
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:43
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:42
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:41
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:36
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:37
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:34
+2012-11-05 15:17:56,552 19283      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:35
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:38
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:39
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:71
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:70
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:72
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:67
+2012-11-05 15:17:56,553 19284      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:68
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:69
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:66
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:65
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:64
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:63
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:62
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:61
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:60
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:58
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:59
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:56
+2012-11-05 15:17:56,554 19285      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:57
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:10
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:11
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:29
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:28
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:27
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:26
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:25
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:24
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:23
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:32
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:33
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:30
+2012-11-05 15:17:56,555 19286      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:31
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:17
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:16
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:19
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:18
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:13
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:12
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:15
+2012-11-05 15:17:56,556 19287      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:14
+2012-11-05 15:17:56,557 19288      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:20
+2012-11-05 15:17:56,557 19288      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:21
+2012-11-05 15:17:56,557 19288      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:22
+2012-11-05 15:18:10,531 33262      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+439
+440
+441
+442
+443
+444
+445
+446
+447
+448
+449
+450
+451
+452
+453
+454
+455
+456
+457
+458
+459
+460
+461
+462
+463
+464
+465
+466
+467
+468
+469
+470
+471
+472
+473
+474
+475
+476
+477
+478
+479
+480
+481
+482
+483
+484
+485
+486
+487
+488
+489
+490
+491
+492
+493
+494
+495
+496
+497
+498
+499
+500
+501
+502
+503
+504
+505
+506
+507
+508
+509
+510
+511
+2012-11-05 15:18:10,533 33264      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0
+2012-11-05 15:18:10,605 33336      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:10,647 33378      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:10,890 33621      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OIL' will be stored as "Other"
+2012-11-05 15:18:10,890 33621      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,890 33621      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,898 33629      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,914 33645      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OIL' will be stored as "Other"
+2012-11-05 15:18:10,914 33645      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,914 33645      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,914 33645      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'BD' will be stored as "Other"
+2012-11-05 15:18:10,929 33660      [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:18:10,929 33660      [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:18:10,929 33660      [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:18:10,930 33661      [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:18:10,930 33661      [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:18:10,930 33661      [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:18:10,962 33693      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:2
+2012-11-05 15:18:10,962 33693      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:1
+2012-11-05 15:18:10,962 33693      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:18:10,962 33693      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:3
+2012-11-05 15:18:12,615 35346      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+512
+513
+514
+515
+2012-11-05 15:18:12,615 35346      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0
+2012-11-05 15:18:12,685 35416      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:12,727 35458      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:12,785 35516      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:12,785 35516      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:18:12,785 35516      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'UV' will be stored as "Other"
+2012-11-05 15:18:12,785 35516      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:18:12,799 35530      [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:18:12,799 35530      [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:18:12,799 35530      [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:18:12,799 35530      [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:18:12,799 35530      [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:18:12,800 35531      [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:18:12,801 35532      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:18:13,236 35967      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+516
+2012-11-05 15:18:13,236 35967      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0
+2012-11-05 15:18:13,321 36052      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:13,371 36102      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:13,437 36168      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:18:13,437 36168      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:13,437 36168      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:18:13,446 36177      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:18:13,454 36185      [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:18:13,456 36187      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:18:13,933 36664      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+517
+2012-11-05 15:18:13,933 36664      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0
+2012-11-05 15:18:13,999 36730      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:14,042 36773      [      main] INFO       ome.formats.OMEROMetadataStoreClient  - Call context: {omero.group:3}
+2012-11-05 15:18:14,095 36826      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:18:14,095 36826      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:14,095 36826      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:18:14,103 36834      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:14,110 36841      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'OI' will be stored as "Other"
+2012-11-05 15:18:14,110 36841      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:14,110 36841      [      main] WARN   odel.enums.handlers.ImmersionEnumHandler  - Unknown Immersion value 'null' will be stored as "Other"
+2012-11-05 15:18:14,110 36841      [      main] WARN   del.enums.handlers.CorrectionEnumHandler  - Unknown Correction value 'null' will be stored as "Other"
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - File format: Leica
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - Base reader: loci.formats.in.LeicaReader
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - Metadata only import? false
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - Archiving enabled? false
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - Container metadata only import? false
+2012-11-05 15:18:14,113 36844      [      main] INFO         ome.formats.importer.ImportLibrary  - Reader is not of HCS domain, use metafile: true
+2012-11-05 15:18:14,115 36846      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:1
+2012-11-05 15:18:14,115 36846      [      main] WARN       ome.formats.model.ReferenceProcessor  - Unknown target class for LSID: Image:0
+2012-11-05 15:18:14,664 37395      [      main] INFO   ormats.importer.cli.LoggingImportMonitor  - IMPORT_DONE
+Imported pixels:
+518
+519
+2012-11-05 15:18:14,664 37395      [      main] INFO      ome.formats.importer.cli.ErrorHandler  - Number of errors: 0

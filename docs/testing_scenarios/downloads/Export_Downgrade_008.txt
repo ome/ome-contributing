@@ -1,0 +1,691 @@
+[GlobalMetadata]
+Image 61. Stage coordinates=(-1087.100,-1035.290,-4.518)
+Image 60. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 20. Time=Tue Aug 23 10:55:20 2005
+Image 33. Exposure time=0.200 secs
+Image 18. ND filter=BLANK
+Image 17. EX filter=FITC
+Image 56. Time=Tue Aug 23 10:56:20 2005
+Image 26. EX filter=FITC
+Image 19. Photosensor reading=13303368.0
+Image 35. EX filter=FITC
+Image 44. EX filter=FITC
+Image 53. EX filter=FITC
+Image 15. Time=Tue Aug 23 10:55:11 2005
+Wavelength 1 mean intensity=123.40843
+Image 19. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 54. Time Point=81.436 secs
+Image 39. Intensity=Min = 112, Max = 309, Mean = 123.37289
+Image 48. Intensity=Min = 112, Max = 310, Mean = 123.32681
+Image 57. Intensity=Min = 112, Max = 303, Mean = 123.28231
+Image 66. Intensity=Min = 112, Max = 323, Mean = 123.02003
+Image 29. Exposure time=0.200 secs
+Image 19. ND filter=BLANK
+Image 18. EX filter=FITC
+Image 27. EX filter=FITC
+Image 36. EX filter=FITC
+Image 45. EX filter=FITC
+Wavelength 5 min. intensity=0.0
+Image 54. EX filter=FITC
+Image 11. Time=Tue Aug 23 10:55:05 2005
+Image 50. EM filter=FITC
+Image 49. Intensity=Min = 112, Max = 332, Mean = 123.16348
+Image 55. Time Point=85.537 secs
+Image 58. Intensity=Min = 112, Max = 334, Mean = 123.05953
+Image 67. Intensity=Min = 112, Max = 343, Mean = 122.88374
+Image 18. Photosensor reading=13288158.0
+Image 5. Photosensor reading=13294533.0
+Image 31. Exposure time=0.200 secs
+Wavelength 5 (in nm)=0
+Image 29. ND filter=BLANK
+Image 19. EX filter=FITC
+Image 28. EX filter=FITC
+Image 37. EX filter=FITC
+Image 46. EX filter=FITC
+Image 55. EX filter=FITC
+Image 68. Photosensor reading=13311466.0
+Image 60. EM filter=FITC
+Image 41. Exposure time=0.200 secs
+Image 42. Time=Tue Aug 23 10:55:56 2005
+Image 47. Photosensor reading=13305465.0
+Optics Aux Magn=1.00
+Image 59. Intensity=Min = 112, Max = 321, Mean = 123.12460
+Image 56. Time Point=86.135 secs
+Image 68. Intensity=Min = 112, Max = 333, Mean = 122.87642
+Optics Lens ID=10003
+Number of timepoints=23
+Image 26. Photosensor reading=13312867.0
+Image 50. Time Point=75.558 secs
+Image 17. Intensity=Min = 112, Max = 294, Mean = 123.30158
+Wavelength 3 min. intensity=0.0
+Image 60. Time Point=90.985 secs
+Image 37. Exposure time=0.200 secs
+Image 29. EX filter=FITC
+Image 38. EX filter=FITC
+Image 47. EX filter=FITC
+Image 56. EX filter=FITC
+Number of wavelengths=1
+Image 65. EX filter=FITC
+Image 61. EM filter=FITC
+Image 7. Time=Tue Aug 23 10:54:59 2005
+Image 69. Intensity=Min = 112, Max = 319, Mean = 123.01232
+Image 57. Time Point=86.713 secs
+Image 55. Photosensor reading=13328527.0
+Image 10. EM filter=FITC
+Image 67. Time Point=105.642 secs
+Image 18. Intensity=Min = 112, Max = 290, Mean = 123.44207
+Image 33. Time=Tue Aug 23 10:55:41 2005
+Image 69. Time=Tue Aug 23 10:56:41 2005
+Image 61. Time Point=95.092 secs
+Lens ID Number=10003
+Image 28. Time=Tue Aug 23 10:55:34 2005
+Image 39. EX filter=FITC
+Image 48. EX filter=FITC
+Image 57. EX filter=FITC
+Image 66. EX filter=FITC
+Image 62. EM filter=FITC
+Z position for position #1=-5.517
+Image 58. Time Point=89.819 secs
+Image 11. EM filter=FITC
+Image 20. EM filter=FITC
+Image 35. Exposure time=0.200 secs
+Image 19. Intensity=Min = 112, Max = 286, Mean = 123.23777
+Image 68. Time Point=106.222 secs
+Image 62. Time Point=95.674 secs
+Image 49. EX filter=FITC
+Image 24. Time=Tue Aug 23 10:55:26 2005
+Image 58. EX filter=FITC
+Image 33. Photosensor reading=13325774.0
+Image 67. EX filter=FITC
+Image 19. Time=Tue Aug 23 10:55:20 2005
+Image 12. Photosensor reading=13309133.0
+Image 45. Exposure time=0.200 secs
+Image 12. EM filter=FITC
+Image 21. EM filter=FITC
+Z element length (in um)=0.5
+Image 30. EM filter=FITC
+Image 3. Exposure time=0.200 secs
+Image 29. Intensity=Min = 112, Max = 308, Mean = 123.20489
+Image 69. Time Point=106.804 secs
+Image 63. Time Point=96.256 secs
+Image 60. Time=Tue Aug 23 10:56:25 2005
+Image 62. Photosensor reading=13321401.0
+Image 59. EX filter=FITC
+Section axis sequence=3
+Image 68. EX filter=FITC
+Image 55. Time=Tue Aug 23 10:56:20 2005
+Image 41. Photosensor reading=13319770.0
+Image 20. Photosensor reading=13310158.0
+Image 13. EM filter=FITC
+Image 22. EM filter=FITC
+Image 31. EM filter=FITC
+Image 40. EM filter=FITC
+Image 14. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 18. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 17. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 16. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 15. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 64. Time Point=100.377 secs
+Image 43. Exposure time=0.200 secs
+Image 69. EX filter=FITC
+Image Properties ZWT Dimensions (expected)=3 x 1 x 201
+Image 1. Exposure time=0.200 secs
+Image 51. Time=Tue Aug 23 10:56:10 2005
+Image 10. Time=Tue Aug 23 10:55:05 2005
+Image 14. EM filter=FITC
+Image 23. EM filter=FITC
+Image 46. Time=Tue Aug 23 10:56:05 2005
+Number of Sub-resolution sets=1
+Image 32. EM filter=FITC
+Image 39. Photosensor reading=13313010.0
+Image 41. EM filter=FITC
+Image 39. Exposure time=0.200 secs
+Row axis sequence=2
+Image 53. Exposure time=0.200 secs
+Image 65. Time Point=100.962 secs
+Wavelength 2 (in nm)=0
+Image 49. Exposure time=0.200 secs
+Image 15. EM filter=FITC
+Image 24. EM filter=FITC
+Image 33. EM filter=FITC
+Image 42. EM filter=FITC
+Image 51. EM filter=FITC
+X origin (in um)=0.0
+Image 7. Exposure time=0.200 secs
+Image 37. Time=Tue Aug 23 10:55:49 2005
+Image 66. Time Point=101.544 secs
+Image 17. Photosensor reading=13300329.0
+Image 4. Photosensor reading=13299625.0
+Image 51. Exposure time=0.200 secs
+Image 16. EM filter=FITC
+Image 25. EM filter=FITC
+Image 6. Time=Tue Aug 23 10:54:58 2005
+Image 34. EM filter=FITC
+Image 43. EM filter=FITC
+Image 52. EM filter=FITC
+Image 67. Photosensor reading=13322647.0
+Image 68. Time=Tue Aug 23 10:56:40 2005
+Image 47. Exposure time=0.200 secs
+Image 46. Photosensor reading=13324903.0
+Image Properties Flat-field Calibration=Off
+Image 61. Exposure time=0.200 secs
+Camera Type=COOLSNAP_HQ / ICX285
+Image 25. Photosensor reading=13319913.0
+Image 5. Exposure time=0.200 secs
+Image 17. EM filter=FITC
+Image 26. EM filter=FITC
+Image 35. EM filter=FITC
+Image 44. EM filter=FITC
+Image 53. EM filter=FITC
+Image 2. Time=Tue Aug 23 10:54:55 2005
+Image 57. Exposure time=0.200 secs
+Wavelength 3 max. intensity=0.0
+Image 12. Exposure time=0.200 secs
+Image 1. ND filter=BLANK
+Image 64. Time=Tue Aug 23 10:56:35 2005
+Image 54. Photosensor reading=13318523.0
+Image 26. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 25. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 29. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 28. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 27. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 23. Time=Tue Aug 23 10:55:25 2005
+Image 59. Time=Tue Aug 23 10:56:25 2005
+Image 18. EM filter=FITC
+Image 18. Time=Tue Aug 23 10:55:15 2005
+Image 27. EM filter=FITC
+Image 36. EM filter=FITC
+Image 45. EM filter=FITC
+Image 54. EM filter=FITC
+Image 63. EM filter=FITC
+Optics Objective=Olympus 100X/1.35, U Plan Apo, IX70
+Image 2. ND filter=BLANK
+Image 55. Exposure time=0.200 secs
+Wavelength 1 max. intensity=343.0
+Image Properties Binning=1x1
+Image 28. EM filter=FITC
+Image 37. EM filter=FITC
+Image 46. EM filter=FITC
+Image 55. EM filter=FITC
+Image 64. EM filter=FITC
+Image 10. Exposure time=0.200 secs
+Image 14. Time=Tue Aug 23 10:55:11 2005
+Image 32. Photosensor reading=13314877.0
+X axis angle=90.0
+Image 13. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 12. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 11. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 10. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 11. Photosensor reading=13299840.0
+Image 3. ND filter=BLANK
+Image 65. Exposure time=0.200 secs
+Image 9. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 8. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 7. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 6. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 9. Exposure time=0.200 secs
+Image 20. Exposure time=0.200 secs
+Z origin (in um)=0.0
+Image 50. Time=Tue Aug 23 10:56:10 2005
+Image Type=normal
+Image 29. EM filter=FITC
+Image 38. EM filter=FITC
+Image 47. EM filter=FITC
+Image 56. EM filter=FITC
+Image 65. EM filter=FITC
+Column axis sequence=1
+Image 61. Photosensor reading=13318807.0
+Y axis angle=90.0
+Image 40. Photosensor reading=13301894.0
+Image 16. Exposure time=0.200 secs
+Image 4. ND filter=BLANK
+Image 39. EM filter=FITC
+Image 48. EM filter=FITC
+Image 57. EM filter=FITC
+Image 66. EM filter=FITC
+Image 1. Intensity=Min = 112, Max = 284, Mean = 125.35012
+Image 41. Time=Tue Aug 23 10:55:55 2005
+Image 63. Exposure time=0.200 secs
+Z axis angle=90.0
+Image 59. Photosensor reading=13357452.0
+Image 36. Time=Tue Aug 23 10:55:46 2005
+Image 5. ND filter=BLANK
+Image 38. Photosensor reading=13313168.0
+Image 59. Exposure time=0.200 secs
+Wavelength 5 max. intensity=0.0
+Image 49. EM filter=FITC
+Image 58. EM filter=FITC
+Image 67. EM filter=FITC
+Image 14. Exposure time=0.200 secs
+Image 2. Intensity=Min = 112, Max = 304, Mean = 125.28311
+Image 37. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 36. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 35. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 39. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 38. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image Properties Pixel Size=0.06631 0.06631 0.500
+Image 6. ND filter=BLANK
+Image 32. Time=Tue Aug 23 10:55:40 2005
+Image 27. Time=Tue Aug 23 10:55:30 2005
+Image 24. Exposure time=0.200 secs
+Image 59. EM filter=FITC
+Image 68. EM filter=FITC
+Image 3. Intensity=Min = 113, Max = 309, Mean = 125.46524
+Image 1. Time=Tue Aug 23 10:54:54 2005
+Image 16. Photosensor reading=13303959.0
+Image 3. Photosensor reading=13303703.0
+Image 7. ND filter=BLANK
+Created=Tue Aug 23 10:54:53 2005
+Image 63. Time=Tue Aug 23 10:56:31 2005
+Image 20. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 24. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 23. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 22. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 21. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 69. EM filter=FITC
+Image 66. Photosensor reading=13321049.0
+Image 4. Intensity=Min = 112, Max = 262, Mean = 123.55140
+Image 45. Photosensor reading=13297220.0
+Image 67. Exposure time=0.200 secs
+Image 24. Photosensor reading=13297334.0
+Image 22. Exposure time=0.200 secs
+Wavelength 4 (in nm)=0
+Image 1. EX filter=FITC
+Image 54. Time=Tue Aug 23 10:56:16 2005
+Image 18. Exposure time=0.200 secs
+Image 5. Intensity=Min = 112, Max = 276, Mean = 123.84928
+Image 13. Time=Tue Aug 23 10:55:10 2005
+Image 19. EM filter=FITC
+Image 32. Exposure time=0.200 secs
+Image 49. Time=Tue Aug 23 10:56:09 2005
+Image 53. Photosensor reading=13317183.0
+Y position for position #1=-1048.0216
+Image 2. EX filter=FITC
+Image 9. Photosensor reading=13296875.0
+Image 28. Exposure time=0.200 secs
+Image 4. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 3. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 2. Stage coordinates=(-1087.100,-1035.290,-5.514)
+Image 1. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 5. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 6. Intensity=Min = 112, Max = 294, Mean = 124.11213
+Wavelength 4 min. intensity=0.0
+Image 45. Time=Tue Aug 23 10:56:01 2005
+Image 11. Time Point=11.018 secs
+Image 52. Photosensor reading=13297703.0
+Image 3. EX filter=FITC
+Image 48. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 47. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 46. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 30. Exposure time=0.200 secs
+Image 49. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 31. Photosensor reading=13327654.0
+Image 10. Photosensor reading=13305998.0
+ImageWidth=384
+Image 7. Intensity=Min = 112, Max = 265, Mean = 123.75503
+Image 18. Time Point=21.158 secs
+Image 26. Exposure time=0.200 secs
+Image 12. Time Point=11.598 secs
+Image 40. Exposure time=0.200 secs
+X axis tilt angle=0.0
+Image 60. Photosensor reading=13309422.0
+Image 4. EX filter=FITC
+Wavelength 2 min. intensity=0.0
+Image 36. Exposure time=0.200 secs
+Image 29. Photosensor reading=13314955.0
+Image 19. Time Point=25.272 secs
+Image 5. Time=Tue Aug 23 10:54:58 2005
+Image 32. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 31. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 30. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 34. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 33. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 13. Time Point=15.710 secs
+Y element length (in um)=0.06631
+Image 31. Time=Tue Aug 23 10:55:40 2005
+Image 5. EX filter=FITC
+Image 67. Time=Tue Aug 23 10:56:40 2005
+Image 69. Exposure time=0.200 secs
+Image 26. Time=Tue Aug 23 10:55:30 2005
+Image 58. Photosensor reading=13326284.0
+Pixel sampling size (Z)=1
+Image 37. Photosensor reading=13317350.0
+Image 14. Time Point=16.287 secs
+Image 6. EX filter=FITC
+Image 34. Exposure time=0.200 secs
+Image 22. Time=Tue Aug 23 10:55:25 2005
+Resolve3D Image File=/homes/will/IAGFP-Noc01_R3D.dv
+Pixel sampling size (Y)=1
+Image 58. Time=Tue Aug 23 10:56:24 2005
+Image 17. Time=Tue Aug 23 10:55:15 2005
+Image 15. Time Point=16.868 secs
+Image 44. Exposure time=0.200 secs
+Image 69. Total number of images saved=69
+Image 8. ND filter=BLANK
+Image 7. EX filter=FITC
+Image 15. Photosensor reading=13297529.0
+Pixel sampling size (X)=1
+Image 2. Photosensor reading=13302498.0
+Wavelength 1 (in nm)=528
+Image 59. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 58. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 57. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 56. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 16. Time Point=19.991 secs
+Image 65. Photosensor reading=13379185.0
+Image 9. ND filter=BLANK
+Image 10. Time Point=10.439 secs
+Image 8. EX filter=FITC
+Image 44. Photosensor reading=13297778.0
+Image 20. Time Point=25.857 secs
+Image 23. Photosensor reading=13296858.0
+Image 42. Exposure time=0.200 secs
+Image 44. Time=Tue Aug 23 10:56:00 2005
+Image 17. Time Point=20.569 secs
+Image 39. Time=Tue Aug 23 10:55:50 2005
+Image 9. EX filter=FITC
+Image 27. Time Point=35.966 secs
+Camera Temp Setting=-30.0C
+Image 38. Exposure time=0.200 secs
+Image 21. Time Point=26.440 secs
+ImageHeight=384
+Image 43. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 42. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 41. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 45. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 44. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 60. ND filter=BLANK
+Image 8. Photosensor reading=13296550.0
+Image 9. Time=Tue Aug 23 10:55:01 2005
+Image 40. Time=Tue Aug 23 10:55:54 2005
+Image 48. Exposure time=0.200 secs
+Image 28. Time Point=40.067 secs
+Image 35. Time=Tue Aug 23 10:55:45 2005
+Image 22. Time Point=30.548 secs
+Image 51. Photosensor reading=13318437.0
+Image 8. Intensity=Min = 113, Max = 281, Mean = 123.96528
+Image 10. ND filter=BLANK
+Image 30. Photosensor reading=13313463.0
+Image 50. Exposure time=0.200 secs
+Image 29. Time Point=40.647 secs
+Y axis tilt angle=0.0
+Image 7. Photosensor reading=13307815.0
+Image 23. Time Point=31.132 secs
+Image 1. EM filter=FITC
+Image 46. Exposure time=0.200 secs
+Image 9. Intensity=Min = 112, Max = 307, Mean = 124.17527
+Image 11. ND filter=BLANK
+Image 20. ND filter=BLANK
+Image 4. Exposure time=0.200 secs
+Z axis tilt angle=0.0
+Image 49. Photosensor reading=13378153.0
+Image 28. Photosensor reading=13311444.0
+Image 24. Time Point=31.718 secs
+Image 69. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 68. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 67. Stage coordinates=(-1087.100,-1035.290,-4.518)
+Wavelength 2 max. intensity=0.0
+Image 62. Time=Tue Aug 23 10:56:30 2005
+Image 11. Exposure time=0.200 secs
+Image 21. Time=Tue Aug 23 10:55:21 2005
+Camera Gain=0.50X
+Image 2. EM filter=FITC
+Image 57. Time=Tue Aug 23 10:56:21 2005
+Image 12. ND filter=BLANK
+Image 21. ND filter=BLANK
+Image 30. ND filter=BLANK
+Sub-image starting point (Z)=0
+Image 57. Photosensor reading=13309559.0
+Image 60. Intensity=Min = 112, Max = 300, Mean = 123.23679
+Image 25. Time Point=34.807 secs
+Image 36. Photosensor reading=13317657.0
+Image 2. Exposure time=0.200 secs
+Image 35. Time Point=51.204 secs
+Image 3. EM filter=FITC
+Image 53. Time=Tue Aug 23 10:56:15 2005
+Image 13. ND filter=BLANK
+Image 22. ND filter=BLANK
+Image 31. ND filter=BLANK
+Image 12. Time=Tue Aug 23 10:55:06 2005
+Image 40. ND filter=BLANK
+Sub-image starting point (Y)=0
+Image 54. Exposure time=0.200 secs
+Image 48. Time=Tue Aug 23 10:56:06 2005
+Image 54. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 53. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 52. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 51. Stage coordinates=(-1087.100,-1035.290,-6.015)
+Image 55. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 26. Time Point=35.387 secs
+Image 10. Intensity=Min = 112, Max = 280, Mean = 123.95586
+Image 4. EM filter=FITC
+Image 36. Time Point=51.807 secs
+Image 30. Time Point=41.229 secs
+Image 35. Photosensor reading=13380214.0
+Image 14. ND filter=BLANK
+Image 23. ND filter=BLANK
+Sub-image starting point (X)=0
+Image 32. ND filter=BLANK
+Image 41. ND filter=BLANK
+Y origin (in um)=0.0
+Image 50. ND filter=BLANK
+Image 8. Exposure time=0.200 secs
+Image 14. Photosensor reading=13301607.0
+Image 1. Photosensor reading=13304370.0
+Image 11. Intensity=Min = 112, Max = 294, Mean = 123.88520
+Image 20. Intensity=Min = 112, Max = 295, Mean = 123.24325
+Image 5. EM filter=FITC
+Image 15. Exposure time=0.200 secs
+Image 37. Time Point=54.906 secs
+Image 52. Exposure time=0.200 secs
+Image 64. Photosensor reading=13301180.0
+Image 40. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 31. Time Point=45.340 secs
+Image 15. ND filter=BLANK
+Image 24. ND filter=BLANK
+Image 33. ND filter=BLANK
+Image 43. Photosensor reading=13307640.0
+Image 42. ND filter=BLANK
+Image 51. ND filter=BLANK
+Image 50. EX filter=FITC
+Image 8. Time=Tue Aug 23 10:55:00 2005
+Image 22. Photosensor reading=13310070.0
+X position for position #1=-1099.8315
+Image 34. Time=Tue Aug 23 10:55:45 2005
+Image 62. Exposure time=0.200 secs
+Image 12. Intensity=Min = 112, Max = 307, Mean = 124.04636
+Image 6. EM filter=FITC
+Image 21. Intensity=Min = 112, Max = 306, Mean = 123.40277
+Image 6. Exposure time=0.200 secs
+Image 30. Intensity=Min = 113, Max = 306, Mean = 123.36591
+Image 38. Time Point=55.484 secs
+Image 32. Time Point=45.926 secs
+Image 16. ND filter=BLANK
+Image 25. ND filter=BLANK
+Image 34. ND filter=BLANK
+Image 43. ND filter=BLANK
+Image 52. ND filter=BLANK
+Image 61. ND filter=BLANK
+Image 51. EX filter=FITC
+Image 60. EX filter=FITC
+Image 58. Exposure time=0.200 secs
+Wavelength 4 max. intensity=0.0
+Image 6. Time Point=4.029 secs
+Image 4. Time=Tue Aug 23 10:54:57 2005
+Wavelength 3 (in nm)=0
+Image 13. Exposure time=0.200 secs
+Image 13. Intensity=Min = 112, Max = 281, Mean = 123.71118
+Image 30. Time=Tue Aug 23 10:55:35 2005
+Image 22. Intensity=Min = 112, Max = 285, Mean = 123.24682
+Image 7. EM filter=FITC
+Image 31. Intensity=Min = 112, Max = 301, Mean = 123.25329
+Image 40. Intensity=Min = 112, Max = 318, Mean = 123.24600
+Image 66. Time=Tue Aug 23 10:56:36 2005
+Image 39. Time Point=56.077 secs
+Image 25. Time=Tue Aug 23 10:55:29 2005
+Image 33. Time Point=46.506 secs
+Image 26. ND filter=BLANK
+Image 35. ND filter=BLANK
+Image 44. ND filter=BLANK
+Image 53. ND filter=BLANK
+Image 62. ND filter=BLANK
+Image 61. EX filter=FITC
+Image 23. Exposure time=0.200 secs
+Image 43. Time Point=65.451 secs
+Image 60. Exposure time=0.200 secs
+Image 7. Time Point=5.116 secs
+Image 10. EX filter=FITC
+Image 1. Time Point=0.000 secs
+Number of focal planes=3
+Image 50. Photosensor reading=13310680.0
+Image 14. Intensity=Min = 112, Max = 295, Mean = 123.62534
+Image 23. Intensity=Min = 112, Max = 297, Mean = 123.21452
+Image 8. EM filter=FITC
+Image 32. Intensity=Min = 112, Max = 311, Mean = 123.21243
+Image 41. Intensity=Min = 112, Max = 316, Mean = 123.21998
+Image 19. Exposure time=0.200 secs
+Image 50. Intensity=Min = 112, Max = 321, Mean = 123.14371
+Image 66. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 65. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 64. Stage coordinates=(-1087.100,-1035.290,-4.518)
+Image 63. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 62. Stage coordinates=(-1087.100,-1035.290,-5.016)
+Image 56. Exposure time=0.200 secs
+Image 34. Time Point=50.605 secs
+Image 27. ND filter=BLANK
+Image 36. ND filter=BLANK
+Image 45. ND filter=BLANK
+Image 54. ND filter=BLANK
+Image 63. ND filter=BLANK
+Image 6. Photosensor reading=13308545.0
+Image 62. EX filter=FITC
+Image 44. Time Point=66.035 secs
+Image 16. Time=Tue Aug 23 10:55:14 2005
+Image 11. EX filter=FITC
+Image 20. EX filter=FITC
+NumberOfImages=69
+Image 8. Time Point=5.719 secs
+Image Properties XY Dimensions=384 x 384
+Image 2. Time Point=0.600 secs
+Image 66. Exposure time=0.200 secs
+Image 15. Intensity=Min = 112, Max = 305, Mean = 123.75312
+Image 24. Intensity=Min = 112, Max = 299, Mean = 123.36919
+Image 9. EM filter=FITC
+Image 69. Photosensor reading=13310311.0
+Image 33. Intensity=Min = 112, Max = 305, Mean = 123.38190
+Image 42. Intensity=Min = 112, Max = 310, Mean = 123.36956
+Image 51. Intensity=Min = 112, Max = 307, Mean = 123.29066
+Image 21. Exposure time=0.200 secs
+Image 48. Photosensor reading=13306051.0
+Image 28. ND filter=BLANK
+Image 37. ND filter=BLANK
+PixelType=16 bit signed integer
+Image 46. ND filter=BLANK
+Image 55. ND filter=BLANK
+Image 64. ND filter=BLANK
+Image 63. EX filter=FITC
+Image 52. Time=Tue Aug 23 10:56:15 2005
+Image 27. Photosensor reading=13317769.0
+Image 45. Time Point=66.617 secs
+Camera Speed=10000KHz
+Image 12. EX filter=FITC
+Image 47. Time=Tue Aug 23 10:56:06 2005
+Image 21. EX filter=FITC
+Image 30. EX filter=FITC
+Image 9. Time Point=6.322 secs
+Image 17. Exposure time=0.200 secs
+Image 50. Stage coordinates=(-1087.100,-1035.290,-5.517)
+Image 3. Time Point=1.178 secs
+Image 16. Intensity=Min = 112, Max = 280, Mean = 123.33149
+Image 25. Intensity=Min = 112, Max = 302, Mean = 123.17751
+Image 34. Intensity=Min = 112, Max = 319, Mean = 123.26498
+Image 43. Intensity=Min = 112, Max = 320, Mean = 123.23780
+Image 52. Intensity=Min = 111, Max = 337, Mean = 123.14898
+Image 61. Intensity=Min = 112, Max = 330, Mean = 122.87868
+Image 38. ND filter=BLANK
+Image 47. ND filter=BLANK
+Image 56. Photosensor reading=13311175.0
+Image 56. ND filter=BLANK
+Image 65. ND filter=BLANK
+Image 64. EX filter=FITC
+Image 27. Exposure time=0.200 secs
+Image 46. Time Point=70.712 secs
+Image 64. Exposure time=0.200 secs
+Image 13. EX filter=FITC
+Image 22. EX filter=FITC
+Image 31. EX filter=FITC
+Image 40. Time Point=60.188 secs
+Image 40. EX filter=FITC
+Image 43. Time=Tue Aug 23 10:56:00 2005
+Image 4. Time Point=2.865 secs
+X element length (in um)=0.06631
+Image 26. Intensity=Min = 112, Max = 297, Mean = 123.22234
+Image 38. Time=Tue Aug 23 10:55:50 2005
+Image 35. Intensity=Min = 112, Max = 306, Mean = 123.27597
+Image 44. Intensity=Min = 112, Max = 318, Mean = 123.21880
+Image 53. Intensity=Min = 112, Max = 322, Mean = 123.10580
+Space group number=0
+Image 62. Intensity=Min = 112, Max = 328, Mean = 122.85614
+Image 39. ND filter=BLANK
+Image 48. ND filter=BLANK
+Image 57. ND filter=BLANK
+Image 66. ND filter=BLANK
+Image 47. Time Point=71.294 secs
+Image sequence=WZT
+Image 14. EX filter=FITC
+Image 23. EX filter=FITC
+Image 32. EX filter=FITC
+Image 41. EX filter=FITC
+Image 41. Time Point=60.766 secs
+Image 5. Time Point=3.448 secs
+Image 51. Time Point=76.145 secs
+Image 27. Intensity=Min = 112, Max = 302, Mean = 123.38792
+Image 34. Photosensor reading=13326309.0
+Image 36. Intensity=Min = 112, Max = 310, Mean = 123.37882
+Image 45. Intensity=Min = 112, Max = 313, Mean = 123.36087
+Image 54. Intensity=Min = 112, Max = 299, Mean = 123.26778
+Image 63. Intensity=Min = 112, Max = 317, Mean = 123.01031
+Image 25. Exposure time=0.200 secs
+Image 13. Photosensor reading=13312088.0
+Image 49. ND filter=BLANK
+Image 58. ND filter=BLANK
+Image 29. Time=Tue Aug 23 10:55:35 2005
+Image 67. ND filter=BLANK
+Image 48. Time Point=71.875 secs
+Image 15. EX filter=FITC
+Image 24. EX filter=FITC
+Wavelength 1 min. intensity=111.0
+Image 33. EX filter=FITC
+Image 42. EX filter=FITC
+Image 42. Time Point=61.347 secs
+Image 3. Time=Tue Aug 23 10:54:55 2005
+Image 63. Photosensor reading=13312513.0
+Image 52. Time Point=80.273 secs
+Image 28. Intensity=Min = 112, Max = 297, Mean = 123.24514
+Image 37. Intensity=Min = 112, Max = 310, Mean = 123.21006
+Image 46. Intensity=Min = 112, Max = 328, Mean = 123.19318
+Image 55. Intensity=Min = 112, Max = 334, Mean = 123.13229
+Image 64. Intensity=Min = 112, Max = 342, Mean = 122.86584
+Image 42. Photosensor reading=13329032.0
+Z axis reduction quotient=1
+Image 65. Time=Tue Aug 23 10:56:35 2005
+Image 21. Photosensor reading=13300886.0
+Image 59. ND filter=BLANK
+Image 68. ND filter=BLANK
+Image 17. ND filter=BLANK
+Image 68. Exposure time=0.200 secs
+Image 16. EX filter=FITC
+Image 49. Time Point=74.969 secs
+Image 25. EX filter=FITC
+Image 34. EX filter=FITC
+Image 43. EX filter=FITC
+Image 52. EX filter=FITC
+Image 59. Time Point=90.404 secs
+Image 53. Time Point=80.854 secs
+Image 38. Intensity=Min = 112, Max = 312, Mean = 123.20901
+Image 47. Intensity=Min = 112, Max = 334, Mean = 123.17560
+Image 56. Intensity=Min = 112, Max = 322, Mean = 123.11501
+Image 65. Intensity=Min = 112, Max = 333, Mean = 122.92243
+Image 69. ND filter=BLANK
+Image 61. Time=Tue Aug 23 10:56:29 2005
+[SeriesMetadata]

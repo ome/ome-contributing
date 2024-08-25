@@ -1,0 +1,8 @@
+Password: 
+INFO:omero.util.Resources:Starting
+INFO:omero.util.populate_roi:Parsing: Well0001_mode1_z000_t000_detail_2008-09-18-10h48m54s.txt
+INFO:omero.util.populate_roi:Downloading original file: 747
+INFO:omero.util.populate_roi:Batch 1 ROI update took 808ms
+INFO:omero.util.populate_roi:Created new table: 1252
+INFO:omero.util.populate_roi:Table update took 47ms
+INFO:omero.util.Resources:Halted
