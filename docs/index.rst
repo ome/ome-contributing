@@ -7,25 +7,44 @@ consortium projects. It includes internal developer practices and workflows,
 standard procedures for tasks such as release, and other information which may
 be valuable to a wider audience.
 
+
+*******
+General
+*******
+
 .. toctree::
     :maxdepth: 1
 
-    source-code
-    using-git
-    code-contributions
-    cla
-    team-communication
-    team-workflow
-    ansible-development
-    development-tools
-    deployment-tools
-    continuous-integration
-    editing-docs
-    jekyll
-    data-model-schema
-    schema-changes
-    components-release
+    general
+
+
+***********
+Development
+***********
+
+.. toctree::
+    :maxdepth: 1
+
+    components-development
+
+*******
+Testing
+*******
+
+.. toctree::
+    :maxdepth: 1
+
     testing_scenarios/index
+
+*******
+Release
+*******
+
+.. toctree::
+    :maxdepth: 1
+
+    components-release
+
 
 Information specific to developing OMERO, the OME Data Model and file formats,
 and Bio-Formats can be found in their respective developer documentation
