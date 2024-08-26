@@ -275,6 +275,8 @@ def copy_legacy_redirects(app, exception):
                 print("  %s" % html_src_path)
 
 
+html_theme = "sphinx_rtd_theme"
+
 def setup(app):
     app.connect('build-finished', copy_legacy_redirects)
 
