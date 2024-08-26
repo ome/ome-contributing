@@ -1,0 +1,4 @@
+omero@gretzky:/$ cd OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15/
+omero@gretzky:/OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15$ cd petr/Desktop/dv
+omero@gretzky:/OMERO/ManagedRepository/user-6-7-1411389817/2013-02/15/petr/Desktop/dv$ ls
+CFPNEAT01_R3D.dv  CFPNEAT01_R3D.dv.log

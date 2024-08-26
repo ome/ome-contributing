@@ -75,6 +75,8 @@ docs_root = 'https://docs.openmicroscopy.org'
 imagesc_root = 'https://forum.image.sc'
 
 extlinks = {
+    'modeldoc': (oo_site_root + '/support/ome-model/%s', None),
+    'team_plone' : (oo_site_root + '/team/%s', None),
     # image.sc
     'imagesc': (imagesc_root + '/%s', '#%s'),
     # Trac links
@@ -100,6 +102,7 @@ extlinks = {
     'security': (oo_root + '/security/%s', None),
     'presentations': (downloads_root + '/presentations/%s', None),
     # Doc links
+    'omerodoc': (docs_root + '/omero/latest/%s', None),
     'model_doc': (docs_root + '/latest/ome-model/%s', None),
     'devs_doc': (docs_root + '/contributing/%s', None),
     'schema': (oo_root + '/Schemas/%s', None),
@@ -216,6 +219,8 @@ rst_epilog += """
 ..  |ssh-doc| replace:: Copies the HTML documentation over SSH to
 ..  |deploy-doc| replace:: Runs :ref:`scc deploy` to update
 """
+
+rst_epilog += '.. |C| replace:: **Check**'
 
 # -- Options for LaTeX output -------------------------------------------------
 
