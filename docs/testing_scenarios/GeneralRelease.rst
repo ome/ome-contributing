@@ -178,6 +178,7 @@ ImageJ
 
    - |C| that the URLs shown in the popup link to existing and sensible pages.
    - |C| that the release version and date are correct.
+
 Fiji
 ----
 
@@ -213,20 +214,6 @@ This testing assumes the release artifacts have been deployed to the
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and  paste the URL ``https://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up
 
    - |C| that the image imports successfully.
-
-#. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
-
-   - |C| that the URLs shown in the popup link to existing and sensible pages.
-
-#. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
-
-   - |C| that the version number in the brackets shows the most recent stable release number.
-  
-#. (**post-release step**) |C| that you can execute the updates (Note that the release page has not been made public prior to the later release steps. This is why this step would cause an error when executed prior to Release Acceptance.)
-
-   - |C| that after you have updated, the ``loci_tools.jar`` in your Plugins folder vanished, and ``bioformats_package.jar`` appeared instead.
-
-
 
 
 Bio-Formats command-line tools
