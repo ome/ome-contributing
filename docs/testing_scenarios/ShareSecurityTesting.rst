@@ -3,7 +3,7 @@ Share security testing
 
 **To test in**: Web, CLI
 
-**Purpose of the test** is to check that you cannot bypass security on the server as a member of a share. The rationale for the test: A member of a single private group which has no data on their own should not be able to retrieve any data (of other users) on the server, even if the user is a member of a Share. The Share for the purposes of this test contains no images. See also github issue https://github.com/openmicroscopy/omero_private/issues/2. 
+**Purpose of the test** is to check that you cannot bypass security on the server as a member of a share. The rationale for the test: A member of a single private group which has no data on their own should not be able to retrieve any data (of other users) on the server, even if the user is a member of a Share. The Share for the purposes of this test contains no images.
 
 #. Login to web as an admin. Create a brand new user (non-admin, non-group owner, username:"test_share_owner") in a private group. This user should have no data.
 
@@ -12,9 +12,9 @@ Share security testing
     import omero
     from omero.rtypes import unwrap
 
-    host = "eel.openmicroscopy.org"
-    port = 14064
-    password = "ome"
+    host = "myserver"
+    port = 4064
+    password = "CHANGEME"
     owner = "test_share_owner"
 
     c_owner = omero.client(host=host, port=port)
