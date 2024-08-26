@@ -13,7 +13,7 @@ General
 *******
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     general
 
@@ -23,7 +23,7 @@ Development
 ***********
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     components-development
 
@@ -41,7 +41,7 @@ Release
 *******
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     components-release
 
