@@ -60,9 +60,9 @@ Testing the artifacts
 ---------------------
 
 To test the artifacts published, 
- - Test the `bio-formats-command-line-tools <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-command-line-tools>`_.
- - Test `MATLAB (only) <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-matlab-octave>`_.
- - Test `Fiji Plugin <https://docs.openmicroscopy.org/internal/testing_scenarios/GeneralRelease.html#bio-formats-imagej-fiji-testing>`_
+ - Test the `bio-formats-command-line-tools <testing_scenarios/GeneralRelease.html#bio-formats-command-line-tools>`_.
+ - Test `MATLAB (only) <testing_scenarios/GeneralRelease.html#bio-formats-matlab-octave>`_.
+ - Test `Fiji Plugin <testing_scenarios/GeneralRelease.html#bio-formats-imagej-fiji-testing>`_
  - Check the schema version in OME-XML be ``2016-06`` using the command line tools::
       $ ./bfconvert B.ome.tiff
       $ ./tiffcomment B.ome.tiff
