@@ -157,7 +157,7 @@ ImageJ
 
 #. Use ImageJ for this section, not Fiji.
 
-#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``loci_tools.jar`` into the Plugins folder of ImageJ and start ImageJ.
+#. Remove any previous ``bioformats_package.jar`` or ``loci_tools.jar`` files from your ImageJ Plugins folder. Put the freshly downloaded ``bioformats_package.jar`` into the Plugins folder of ImageJ and start ImageJ.
 
    - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use ``Bio-Formats`` menu.
    - |C| that there is a ``Bio-Formats`` menu item under the ``Plugins`` menu.
