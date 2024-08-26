@@ -41,7 +41,6 @@ Testing scenarios
    ImportMultigroups
    ImportUI
    InsightasPluginImageJFiji
-   LdapTesting
    MapAnnotations
    Mapr
    MemoFile
