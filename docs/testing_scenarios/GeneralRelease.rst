@@ -170,20 +170,14 @@ ImageJ
 
    - |C| that the image exports successfully.
 
-#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``http://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up.
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and paste the URL ``https://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up.
 
    - |C| that the image imports successfully.
 
 #. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
 
    - |C| that the URLs shown in the popup link to existing and sensible pages.
-
-#. Select ``Plugins`` > ``Bio-Formats`` > ``Update Bio-Formats Plugins`` and go to the ``Stable build (*.*.*)`` item in the ``Release`` dropdown menu.
-
-   - |C| that the version number in the brackets shows the most recent stable release number.
-
-#. (**post-release step**) |C| that you can execute the updates (Note that the release page has not been made public prior to the later release steps. This is why this step would cause an error when executed prior to Release Acceptance.)
-
+   - |C| that the release version and date are correct.
 Fiji
 ----
 
@@ -195,10 +189,18 @@ This testing assumes the release artifacts have been deployed to the
 
 #. Activate the Bio-Formats update site :menuselection:`Help -> Update... -> Manage update sites` in addition to the Java-8 update site.
 
-#. Put the freshly downloaded ``loci_tools.jar`` into the plugins folder of Fiji and start Fiji.
+#. In the ImageJ Updater Window ensure that the ``plugins/bio-formats_plugins.jar`` file and jars in the ``jars/bio-formats`` folder are listed for update.
 
-   - |C| that there is a ``LOCI`` menu item under the ``Plugins`` menu and when you select it, the submenu asks you to use the ``Bio-Formats`` menu
-   - |C| that there is a ``Bio-Formats`` menu item under the ``Plugins`` menu
+   - |C| check that the ``Update Site`` for each is listed as the ``Bio-Formats`` update site.
+   - |C| the ``Status/Action`` field for each should be set to ``Install it`` or ``Update it``.
+   - |C| click on ``Advanced Mode``, then select each file and ensure the date and version in the ``Details`` panel is correct.
+
+#. Select ``Help`` > ``About Plugins`` > ``Bio-Formats Plugins...``
+
+   - |C| that the URLs shown in the popup link to existing and sensible pages.
+   - |C| that the release version and date are correct.
+
+#. In the ImageJ Updater Window select ``Apply Changes`` to run the update and restart FIJI
 
 #. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Importer`` and import a small image (any small image will do).
 
@@ -208,7 +210,7 @@ This testing assumes the release artifacts have been deployed to the
 
    - |C| that the image exports successfully.
 
-#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and  paste the URL ``http://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up
+#. Select ``Plugins`` > ``Bio-Formats`` > ``Bio-Formats Remote Importer`` and  paste the URL ``https://downloads.openmicroscopy.org/images/DV/U2OS/U2OS_Eg5_PH3_001_R3D.dv`` into the first dialog that pops up
 
    - |C| that the image imports successfully.
 
