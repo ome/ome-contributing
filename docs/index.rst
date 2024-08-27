@@ -13,9 +13,17 @@ General
 *******
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    general
+    source-code
+    using-git
+    code-contributions
+    cla
+    team-communication
+    team-workflow
+    continuous-integration
+    editing-docs
+    data-model-schema
 
 
 ***********
@@ -23,9 +31,16 @@ Development
 ***********
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    components-development
+    ansible-development
+    development-tools
+    deployment-tools
+    continuous-integration
+    editing-docs
+    jekyll
+    data-model-schema
+    schema-changes
 
 *******
 Testing
@@ -41,9 +56,15 @@ Release
 *******
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
-    components-release
+    bioformats-release-process
+    cpp-development
+    gradle-development
+    java-development
+    python-components
+    omero-release-process
+    omero-web-release-process
 
 
 Information specific to developing OMERO, the OME Data Model and file formats,
