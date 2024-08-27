@@ -16,15 +16,12 @@ General
     :maxdepth: 1
 
     source-code
-    using-git
     code-contributions
     cla
+    deployment-tools
     team-communication
     team-workflow
-    continuous-integration
-    editing-docs
-    data-model-schema
-
+    using-git
 
 ***********
 Development
@@ -34,13 +31,12 @@ Development
     :maxdepth: 1
 
     ansible-development
-    development-tools
-    deployment-tools
+    schema-changes
     continuous-integration
+    data-model-schema
     editing-docs
     jekyll
-    data-model-schema
-    schema-changes
+    development-tools
 
 *******
 Testing
@@ -62,9 +58,9 @@ Release
     cpp-development
     gradle-development
     java-development
-    python-components
     omero-release-process
     omero-web-release-process
+    python-components
 
 
 Information specific to developing OMERO, the OME Data Model and file formats,
