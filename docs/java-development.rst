@@ -110,19 +110,33 @@ Release process
 Maintainer prerequisites
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-It is important to get familiar with the
-`OSSRH guide <https://central.sonatype.org/pages/ossrh-guide.html>`__ and
-especially the
-`Maven section for performing a release deployment <https://central.sonatype.org/pages/apache-maven.html>`__.
+To be able to maintain a Java component, a developer must have:
 
-To be able to maintain a Java component, a developer must:
+- a GitHub_ account with push rights to the GitHub source code repository
+- a Sonatype_ account and be registered as a maintainer of the
+  `org.openmicroscopy` repository
+- a valid PGP key for signing the tags and the JARs
+- a local :file:`~/.m2/settings.xml` file configured with an access token
+  generated as described in https://central.sonatype.org/publish/generate-token
 
-- have a GitHub_ account and have push rights to the GitHub source code
-  repository
-- have a Sonatype_ account and be registered as a maintainer of the
-  `org.openmicroscopy` repository (JIRA issues should be opened for each
-  developer)
-- have a valid PGP key for signing the tags and the JARs
+Follow the instructions at https://central.sonatype.org/register/legacy to
+create a Sonatype account allowing to publish via OSSRH. You need to
+contact Central Support to be able to release the artifacts of
+groupId `org.openmicroscopy`.
+
+.. seealso:
+
+    https://central.sonatype.org/register/legacy
+      Registration instructions to public via OSSRH
+
+    https://central.sonatype.org/publish/publish-guide/
+      Publishing via OSSRH
+
+    https://central.sonatype.org/publish/generate-token
+      Generating a token for publishing via OSSRH
+
+    https://central.sonatype.org/publish/publish-maven/
+      Deploying to OSSRH with Apache Maven
 
 Release strategies
 ^^^^^^^^^^^^^^^^^^
@@ -180,17 +194,11 @@ Release promotion
 At the moment all Java components use the Nexus Staging Maven plugin with the
 `autoReleaseAfterClose` option set to `false`. A separate promotion step is
 necessary for releasing the component to the Sonatype releases repository.
-This promotion can happen either via the Sonatype UI using the Release button
-or using the release phase of the nexus-staging plugin::
+This promotion can happen either via the Sonatype UI as described in
+https://central.sonatype.org/publish/release/ or via command-line using
+the release phase of the nexus-staging plugin::
 
     $ mvn nexus-staging:release -P release
-
-See the 'Manually Releasing the Deployment to the Central Repository' section
-of the
-`Apache Maven guide <https://central.sonatype.org/pages/apache-maven.html>`_
-for more instructions. You should be able to find the staged repository by
-visiting `<https://oss.sonatype.org/#stagingRepositories>`_ and searching for
-"org.openmicroscopy".
 
 The rsync to Central Maven and the update of Maven search usually happen
 within a couple of hours but the components are accessible beforehand.
