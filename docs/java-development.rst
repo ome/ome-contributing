@@ -166,9 +166,9 @@ versions plugin::
     $ git commit -m "Bump release version to x.y.z"
 
 Additionally, a PGP-signed tag should be created for the released version e.g.
-using :command:`scc tag-release` or more simply :command:`git tag -s`::
+using :command:`git tag -s`::
 
-    $ scc tag-release -s x.y.z --prefix v
+    $ git tag -s -m "Release version x.y.x" vx.y.z
 
 Push the master branch and the tag to your fork for validation by another
 member of the team::
