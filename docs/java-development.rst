@@ -149,7 +149,7 @@ versions plugin::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.z”
+    $ git commit -m "Bump release version to x.y.z"
 
 Additionally, a PGP-signed tag should be created for the released version e.g.
 using :command:`scc tag-release` or more simply :command:`git tag -s`::
@@ -210,7 +210,7 @@ plugin again::
     # Where w == z+1
     $ mvn versions:set -DnewVersion=x.y.w-SNAPSHOT -DgenerateBackupPoms=false
     $ git add -u .
-    $ git commit -m “Bump release version to x.y.w-SNAPSHOT”
+    $ git commit -m "Bump release version to x.y.w-SNAPSHOT"
     $ git push origin master
 
 Javadoc
