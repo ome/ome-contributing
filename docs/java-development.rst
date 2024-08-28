@@ -170,7 +170,7 @@ using :command:`git tag -s`::
 
     $ git tag -s -m "Release version x.y.x" vx.y.z
 
-Push the master branch and the tag to your fork for validation by another
+Optionally, push the master branch and the tag to your fork for validation by another
 member of the team::
 
     $ git push <fork_name> master
@@ -203,17 +203,15 @@ the release phase of the nexus-staging plugin::
 The rsync to Central Maven and the update of Maven search usually happen
 within a couple of hours but the components are accessible beforehand.
 
-Once the tag is validated, the master branch and the tag can also be pushed to
-the organization repository together::
+Once the tag is validated, the tag can  be pushed to the organization repository::
 
     $ git push origin vx.y.z
-    $ git push origin master
 
 Next development version
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Then finally restore the new development version using e.g. the Maven versions
-plugin again::
+Finally create a commit to bump the new development version e.g. using the Maven
+versions plugin again and push the master branch::
 
     # Where w == z+1
     $ mvn versions:set -DnewVersion=x.y.w-SNAPSHOT -DgenerateBackupPoms=false
