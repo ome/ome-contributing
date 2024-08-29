@@ -168,7 +168,7 @@ versions plugin::
 Additionally, a PGP-signed tag should be created for the released version e.g.
 using :command:`git tag -s`::
 
-    $ git tag -s -m "Release version x.y.x" vx.y.z
+    $ git tag -s -m "Release version x.y.z" vx.y.z
 
 Optionally, push the master branch and the tag to your fork for validation by another
 member of the team::
@@ -203,7 +203,7 @@ the release phase of the nexus-staging plugin::
 The rsync to Central Maven and the update of Maven search usually happen
 within a couple of hours but the components are accessible beforehand.
 
-Once the tag is validated, the tag can  be pushed to the organization repository::
+Once the tag is validated, the tag can be pushed to the organization repository::
 
     $ git push origin vx.y.z
 
