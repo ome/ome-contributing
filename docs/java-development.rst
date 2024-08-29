@@ -124,7 +124,7 @@ create a Sonatype account allowing to publish via OSSRH. You need to
 contact Central Support to be able to release the artifacts of
 groupId `org.openmicroscopy`.
 
-.. seealso:
+.. seealso::
 
     https://central.sonatype.org/register/legacy
       Registration instructions to public via OSSRH
