@@ -13,6 +13,3 @@ The following sections summarize general work practises followed by the OME team
     cla
     team-communication
     team-workflow
-    continuous-integration
-    editing-docs
-    data-model-schema
