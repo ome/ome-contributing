@@ -12,13 +12,13 @@ Development
     :maxdepth: 1
 
     ansible-development
-    development-tools
-    deployment-tools
+    schema-changes
     continuous-integration
+    data-model-schema
     editing-docs
     jekyll
-    data-model-schema
-    schema-changes
+    development-tools
+    deployment-tools
 
 Release
 -------
