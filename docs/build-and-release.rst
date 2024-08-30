@@ -5,8 +5,8 @@ The following sections summarize the development and release processes followed 
 
 
 
-Development
------------
+Build
+-----
 
 .. toctree::
     :maxdepth: 1
