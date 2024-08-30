@@ -8,59 +8,12 @@ standard procedures for tasks such as release, and other information which may
 be valuable to a wider audience.
 
 
-*******
-General
-*******
-
 .. toctree::
     :maxdepth: 1
 
-    source-code
-    code-contributions
-    cla
-    deployment-tools
-    team-communication
-    team-workflow
-    using-git
-
-***********
-Development
-***********
-
-.. toctree::
-    :maxdepth: 1
-
-    ansible-development
-    schema-changes
-    continuous-integration
-    data-model-schema
-    editing-docs
-    jekyll
-    development-tools
-
-*******
-Testing
-*******
-
-.. toctree::
-    :maxdepth: 1
-
+    general
+    build-and-release
     testing_scenarios/index
-
-*******
-Release
-*******
-
-.. toctree::
-    :maxdepth: 1
-
-    bioformats-release-process
-    cpp-development
-    gradle-development
-    java-development
-    omero-release-process
-    omero-web-release-process
-    python-components
 
 
 Information specific to developing OMERO, the OME Data Model and file formats,
