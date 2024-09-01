@@ -1,5 +1,5 @@
-BioFormats release
-==================
+Bio-Formats release
+===================
 
 .. _Bio-Formats: https://github.com/ome/bioformats
 .. _Bio-Formats Documentation: https://github.com/ome/bio-formats-documentation
