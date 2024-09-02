@@ -53,6 +53,9 @@ It is the expectation when providing sample data to OME’s academically funded
 staff that the data may be made public unless otherwise stated under a liberal
 license, at least 
 `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_.
+The recommended way to submit public sample data is to use the
+`Bio-Formats Zenodo community <https://zenodo.org/communities/bio-formats>`_.
+
 Providing data that cannot be made public is strongly discouraged. Doing so may
 dramatically delay addressing an issue as the team has to assess the benefit of
 doing so against the future maintenance burden to third party contributors who
