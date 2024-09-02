@@ -77,7 +77,7 @@ be added to :file:`CHANGELOG.md`.
 After committing the changes, a PGP-signed tag must be created for the released version
 using :command:`git tag -s`::
 
-    $ git tag -s -m "Tag version x.y.z" vx.y.z:
+    $ git tag -s -m "Tag version x.y.z" vx.y.z
 
 The version should then be set to the next SNAPSHOT version in :file:`build.gradle` and
 the changes committed to the `master` branch.
