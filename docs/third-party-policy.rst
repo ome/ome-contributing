@@ -26,11 +26,12 @@ OME has two main methods of primary communication:
 The wider community, OME’s academically funded staff, and Glencoe Software
 participate primarily in the first of these methods using the
 `Scientific Community Image Forum <image.sc>`_ discussion forum for scientific
-image software sponsored by the Center for Open Bioimage Analysis (COBA) and
-through OME’s GitHub repositories. OME’s academically funded staff endeavours
-to at least reply to new threads within 24 hours. Here the communication
-expectations follow time honoured BBS and public internet forum etiquette of
-“no support via private message unless invited.”
+image software sponsored by the
+`Center for Open Bioimage Analysis (COBA) <https://openbioimageanalysis.org/>`_
+and through OME’s GitHub repositories. OME’s academically funded staff
+endeavours to at least reply to new threads within 24 hours. Here the
+communication expectations follow time honoured BBS and public internet forum
+etiquette of “no support via private message unless invited”.
 
 The rationale for this is simple:
 
