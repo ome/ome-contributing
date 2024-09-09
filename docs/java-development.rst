@@ -114,7 +114,7 @@ To be able to maintain a Java component, a developer must have:
 
 - a GitHub_ account with push rights to the GitHub source code repository
 - a Sonatype_ account and be registered as a maintainer of the
-  `org.openmicroscopy` repository
+  `org.openmicroscopy` repository, if the artifact is deployed to Maven Central
 - a valid PGP key for signing the tags and the JARs
 - a local :file:`~/.m2/settings.xml` file configured with an access token
   generated as described in https://central.sonatype.org/publish/generate-token
