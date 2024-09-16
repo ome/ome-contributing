@@ -82,9 +82,9 @@ The first operation to perform a Maven release is to bump the version out of
 ``SNAPSHOT`` using the Maven versions plugin::
 
     $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ mvn versions:set-property -Dproperty=formats-gpl.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=formats-bsd.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
 
-Bump the ``version`` and ``formats-gpl`` in :file:`build.gradle`.
+Bump the ``version`` and ``formats-bsd`` in :file:`build.gradle`.
 
 Add and commit::
 
