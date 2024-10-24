@@ -102,6 +102,11 @@ Revert to ``SNAPSHOT`` in :file:`pom.xml`::
 
 Revert the ``version`` to ``SNAPSHOT`` in :file:`build.gradle`.
 
+Add and commit::
+
+    $ git add -u .
+    $ git commit -m "Bump version to x.y.t-SNAPSHOT"
+
 Both the ``master`` branch as well as the tag must be pushed upstream::
 
     $ git push origin master vx.y.z
@@ -212,7 +217,7 @@ Before making a new release, merge all contributions on the `master` branch of `
 A signed tag must be created for the released version using :command:`git tag -s`::
 
     $ git tag -s -m "Tag version x.y.z" vx.y.z
-    $ git push origin master
+    $ git push origin vx.y.z
 
 
 Website release
