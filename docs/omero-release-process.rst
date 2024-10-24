@@ -13,7 +13,9 @@ The release process uses GitHub actions, make sure that the actions are active b
 Register CVE
 ^^^^^^^^^^^^
 
-To be added
+As soon as a CVE is identified, create a security advisory on `GitHub <https://github.com/ome/openmicroscopy/security/advisories>`_.
+The work to fix the CVE will be done using the private copy of `ome/openmicroscopy <https://github.com/ome/openmicroscopy/>`_ and the private copies of the Java components.
+The release process needs to eb adjusted in that case.
 
 Release process
 ^^^^^^^^^^^^^^^
@@ -21,10 +23,15 @@ Release process
 Source code release
 -------------------
 
-To make a new release:
+To make a new public release:
  - Merge all contributions on the ``develop`` branch.
  - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file. Merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
  - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
+
+ To make a private release:
+  - Squash all the commits
+  - Ensure that all the dependencies have been bumped using the script :file:update_dependencies.sh
+  - Add an entry to :file:history.rst
 
 After committing the changes, a signed tag must be created for the released version
 using :command:`git tag -s`::
