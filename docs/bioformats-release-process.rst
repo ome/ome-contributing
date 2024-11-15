@@ -16,9 +16,6 @@ Before starting the release process,
 open a Pull Request with a new release entry in the `whats-new <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/about/whats-new.rst>`_ page. When approved by both the OME team and the Glencoe Software team, merge and start the release process.
 
 
-Release process
-^^^^^^^^^^^^^^^
-
 Source code release
 -------------------
 
@@ -55,23 +52,50 @@ An hourly cron job runs on our virtual machine and copy the artifacts published 
 
 Close the milestone if any and add new one if needed.
 
-
 Testing the artifacts
 ---------------------
 
 To test the artifacts published, 
  - Test the `bio-formats-command-line-tools <testing_scenarios/GeneralRelease.html#bio-formats-command-line-tools>`_.
  - Test `MATLAB (only) <testing_scenarios/GeneralRelease.html#bio-formats-matlab-octave>`_.
- - Test `Fiji Plugin <testing_scenarios/GeneralRelease.html#bio-formats-imagej-fiji-testing>`_
  - Check the schema version in OME-XML be ``2016-06`` using the command line tools::
       $ ./bfconvert B.ome.tiff
       $ ./tiffcomment B.ome.tiff
-
 
 If an error occurs during the testing:
  - Delete the release and the tag on GitHub.
  - Delete the artifacts on `OME artifactory`_.
  - Delete the folder corresponding to the latest release under `Bio-Formats Downloads`_, if it has already been created.
+
+Fiji update site
+----------------
+
+After merging all contributions on the ``master`` branch
+of https://github.com/ome/bio-formats-fiji, bump the version, add and
+commit::
+
+    $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
+    $ git add -u .
+    $ git commit -m "Bump release version to x.y.z"
+    $ git push origin master
+
+Run the `mvn package` command by pointing the `fiji.home` property at the home
+folder of your local Fiji application to replace the Bio-Formats JARs e.g.:
+
+    $ mvn clean package -Dfiji.home=/Application/Fiji.app/
+
+Test the Fiji Bio-Formats plugin as described in the
+`Fiji Plugin scenario <testing_scenarios/GeneralRelease.html#bio-formats-imagej-fiji-testing>`_.
+Once validated, `upload <https://imagej.net/update-sites/setup#Uploading_files_to_your_update_site>`_
+the Bio-Formats JARs to the Java-8 update site.
+
+Revert to ``SNAPSHOT``, add, commit and push to origin::
+
+    $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
+    $ git add -u .
+    $ git commit -m "Revert to snapshot"
+    $ git push origin master
 
 Bio-Formats examples release
 ----------------------------
@@ -150,30 +174,6 @@ An hourly cron job runs on our virtual machine and adds redirect from for exampl
 
 Close the milestone if any and add new one if needed.
 
-Fiji Update site
-----------------
-
-Before making a release, merge all contributions on the ``master`` branch of `Bio-Formats Fiji <https://github.com/ome/bio-formats-fiji>`_.
-
-The first operation to perform a Maven release is to bump the version out of
-``SNAPSHOT`` using the Maven versions plugin, add and commit::
-
-    $ mvn versions:set -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ mvn versions:set-property -Dproperty=bioformats.version -DnewVersion=x.y.z -DgenerateBackupPoms=false
-    $ git add -u .
-    $ git commit -m "Bump release version to x.y.z"
-    $ git push origin master
-    $ mvn clean package -Dfiji.home=x.y.z
-
-`Upload <https://imagej.net/update-sites/setup#Uploading_files_to_your_update_site>`_ the generated jars to the update site.
-
-
-Revert to ``SNAPSHOT``, add, commit and push to origin::
-
-    $ mvn versions:set -DnewVersion=x.y.t-SNAPSHOT -DgenerateBackupPoms=false
-    $ git add -u .
-    $ git commit -m "Revert to snapshot"
-    $ git push origin master
 
 Homebrew
 --------
