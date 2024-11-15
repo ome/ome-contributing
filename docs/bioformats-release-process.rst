@@ -81,7 +81,7 @@ commit::
     $ git push origin master
 
 Run the `mvn package` command by pointing the `fiji.home` property at the home
-folder of your local Fiji application to replace the Bio-Formats JARs e.g.:
+folder of your local Fiji application to replace the Bio-Formats JARs e.g.::
 
     $ mvn clean package -Dfiji.home=/Application/Fiji.app/
 
