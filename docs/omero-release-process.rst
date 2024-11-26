@@ -13,9 +13,9 @@ The release process uses GitHub actions, make sure that the actions are active b
 Register CVE
 ^^^^^^^^^^^^
 
-As soon as a CVE is identified, create a security advisory on `GitHub <https://github.com/ome/openmicroscopy/security/advisories>`_.
-The work to fix the CVE will be done using the private copy of `ome/openmicroscopy <https://github.com/ome/openmicroscopy/>`_ and the private copies of the Java components.
-The release process needs to eb adjusted in that case.
+As soon as a vulnerability is identified, create a security advisory on `GitHub <https://github.com/ome/openmicroscopy/security/advisories>`_.
+The work to fix the vulnerability will be done using the private copy of `ome/openmicroscopy <https://github.com/ome/openmicroscopy/>`_ and the private copies of the Java components.
+The release process needs to be adjusted in that case.
 
 Release process
 ^^^^^^^^^^^^^^^
@@ -23,13 +23,13 @@ Release process
 Source code release
 -------------------
 
-To make a new public release:
+To make a new release:
  - Merge all contributions on the ``develop`` branch.
  - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file. Merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
  - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
 
- To make a private release:
-  - Squash all the commits
+ To make a release from a private copy:
+  - Squash all the commits fixing the vulnerability
   - Ensure that all the dependencies have been bumped using the script :file:update_dependencies.sh
   - Add an entry to :file:history.rst
 
@@ -42,14 +42,14 @@ Both the `develop` branch as well as the tag must be pushed upstream::
 
     $ git push origin develop vx.y.z
 
-This will trigger GitHub action builds, generate artifacts, create a GitHub release and upload
+This will trigger the GitHub action builds, generate artifacts, create a GitHub release and upload
 the artifacts to the release on GitHub.
 An hourly cron job runs on our virtual machine and copy the artifacts published on Github under `OMERO Downloads`_.
 
 Docker container release
 ------------------------
 
-Before making a new release, merge all contributions on the `master` branch (rare).
+Before making a new release, ensure that the GitHub actions are still enabled and merge all contributions on the `master` branch (rare).
 
 When the artifacts are available under `OMERO Downloads`_, you can release the `OMERO Server Docker`_.
 Bump the version in `Dockerfile <https://github.com/ome/omero-server-docker/blob/master/Dockerfile>`_ to the latest release version.
