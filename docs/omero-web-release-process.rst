@@ -8,6 +8,13 @@ This document describes the release process for `OMERO Web`_.
 The release process uses GitHub actions, make sure that the actions are **active** before pushing any tag.
 
 
+Register CVE
+^^^^^^^^^^^^
+
+As soon as a vulnerability is identified, create a security advisory on `GitHub <https://github.com/ome/omero-web/security/advisories>`_.
+The work to fix the vulnerability will be done using the private copy of `ome/omero-web <https://github.com/ome/omero-web/>`_.
+The release process needs to be adjusted in that case.
+
 Release process
 ^^^^^^^^^^^^^^^
 
