@@ -28,10 +28,10 @@ To make a new release:
  - Ensure that all the dependencies have been bumped via the `update <https://github.com/ome/openmicroscopy/blob/develop/.github/workflows/update.yaml>`_ GitHub action which is run hourly. The action will open a Pull Request that updates the `omero.properties <https://github.com/ome/openmicroscopy/blob/develop/etc/omero.properties>`_ file. Merge the Pull Request. You can also execute locally the script `update_dependencies.sh <https://github.com/ome/openmicroscopy/blob/develop/update_dependencies.sh>`_ manually if you wish.
  - Add an entry to `history.rst <https://github.com/ome/openmicroscopy/blob/develop/history.rst>`_.
 
- To make a release from a private copy:
-  - Squash all the commits fixing the vulnerability
-  - Ensure that all the dependencies have been bumped using the script :file:update_dependencies.sh
-  - Add an entry to :file:history.rst
+To make a release from a private copy:
+ - Squash all the commits fixing the vulnerability
+ - Ensure that all the dependencies have been bumped using the script :file:update_dependencies.sh
+ - Add an entry to :file:history.rst
 
 After committing the changes, a signed tag must be created for the released version
 using :command:`git tag -s`::
@@ -112,6 +112,4 @@ An hourly cron job runs on our virtual machine and deploys the website.
 
 Finally 
  - Add an entry in https://docs.google.com/spreadsheets/d/1K7ab1UpuiE3FmAq3et7OpyxFwumrT7z8tGrDDBSDxsk/edit#gid=908994883
- - Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.
-
-
+ - Announce the release on `image.sc <https://forum.image.sc/>`_ using the ``Announcements`` category after checking that the website has been deployed.
