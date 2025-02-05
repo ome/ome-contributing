@@ -4,10 +4,8 @@ Bio-Formats release
 .. _Bio-Formats: https://github.com/ome/bioformats
 .. _Bio-Formats Documentation: https://github.com/ome/bio-formats-documentation
 .. _Bio-Formats Downloads: https://downloads.openmicroscopy.org/bio-formats/
-.. _Octave Docker: https://github.com/ome/bio-formats-octave-docker
 .. _Read The Docs: https://readthedocs.org/projects/bio-formats/builds/
 .. _Data Repository: https://github.com/openmicroscopy/data_repo_config
-.. _Bio-Formats homebrew: https://github.com/ome/homebrew-alt
 
 This document describes the release process of the `Bio-Formats`_ Java library.
 The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
@@ -171,40 +169,6 @@ Both the ``master`` branch as well as the tag must be pushed upstream::
 The documentation is built and published on `Read The Docs`_.
 
 An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `bio-formats.readthedocs.io/en/v7.3.1/ <https://bio-formats.readthedocs.io/en/v7.3.1/>`_.
-
-Close the milestone if any and add new one if needed.
-
-
-Homebrew
---------
-
-Before making a new release, merge all contributions on the `master` branch (rare) of `Bio-Formats homebrew`_.
-
-- Update the `Bio-Formats formula <https://github.com/ome/homebrew-alt/blob/master/Formula/bioformats>`_
-  by pointing to the ``bioformats-RELEASE.zip`` and update the ``sha256`` value. The ``sha256`` can be found in the ``SHASUM`` file under https://downloads.openmicroscopy.org/bio-formats/RELEASE/artifacts/.
-- Update the version and sha256 in the ``.rb`` file corresponding to the current release.
-
-
-Add, commit the changes and push to origin::
-
-    $ git add -u .
-    $ git commit -m "Bump release version to x.y.z"
-    $ git push origin master
-
-
-Docker container release
-------------------------
-
-Before making a new release, merge all contributions on the `master` branch (rare) of `Octave Docker`_.
-
-When the artifacts are available under `Bio-Formats Downloads`_, you can release the `Octave Docker`_.
-Bump the version in `Dockerfile <https://github.com/ome/bio-formats-octave-docker/blob/master/Dockerfile>`_ to the latest release version.
-
-Add, commit the changes and push to origin::
-
-    $ git add -u .
-    $ git commit -m "Bump release version to x.y.z"
-    $ git push origin master
 
 Close the milestone if any and add new one if needed.
 
