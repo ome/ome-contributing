@@ -24,7 +24,7 @@ Build step
 
 We need a ``build`` command that generates the static files to be deployed e.g. for JavaScript
 apps, this might be a `npm run build` command. We use `vite.js` for several apps. See
-https://vite.dev/guide/static-deploy for their docs.
+https://vite.dev/guide/static-deploy for more details.
 
 For OMERO.figure, we have a specific `ghpages` command in the `package.json` file (see below).
 This generates the static output (`index.html` and `assets/` directory) into the top-level
