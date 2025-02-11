@@ -83,7 +83,7 @@ by default for `vite.js` apps. The `BRANCH` is the branch to push the build to, 
           FOLDER: gh_pages
 
 Once this `ghpages.yml` is pushed to the specified `main` or `master` branch of your repo, you
-can check the `Actions` tab of the repo, e.g. https://github.com/ome/ome2024-ngff-challenge/actions
+can check the `Actions` tab of the repository, e.g. https://github.com/ome/ome2024-ngff-challenge/actions
 to see if the action ran and was successful. If so, you can check the output that was
 pushed to the `gh-pages` branch, including the presence of 
 
