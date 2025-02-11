@@ -62,7 +62,7 @@ We use GitHub Actions to automate the build and deploy steps. This is configured
 `.github/workflows/ghpages.yml` in the repository. This file specifies the build and deploy
 steps. Make sure that the branch corresponds to the `main` or `master` branch used by the repository.
 The `run:` section specifies the build steps e.g. `npm run build` or `npm run ghpages`
-as described above). The `FOLDER` corresponds to the `--outDir` above, which is `build`
+as described above. The `FOLDER` corresponds to the `--outDir` above, which is `build`
 by default for `vite.js` apps. The `BRANCH` is the branch to push the build to, which is `gh-pages`.
 
 .. code-block:: yaml
