@@ -14,7 +14,7 @@ For example:
  - https://idr.github.io/ome-ngff-samples/ from https://github.com/IDR/ome-ngff-samples
 
 
-In general, we want the `main` or `master` branch to be build and depoloyed to the `gh-pages` branch
+In general, we want the `main` or `master` branch to be built and deployed to the `gh-pages` branch
 when changes are pushed. 
 
 Several steps are needed:
