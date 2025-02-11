@@ -22,7 +22,7 @@ Several steps are needed:
 Build step
 ----------
 
-We need a build command that generates the static files to be deployed. E.g for JavaScript
+We need a ``build`` command that generates the static files to be deployed e.g. for JavaScript
 apps, this might be a `npm run build` command. We use `vite.js` for several apps. See
 https://vite.dev/guide/static-deploy for their docs.
 
