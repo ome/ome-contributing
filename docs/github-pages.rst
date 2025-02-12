@@ -15,7 +15,8 @@ For example:
 
 
 In general, we want the `main` or `master` branch to be built and deployed to the `gh-pages` branch
-when changes are pushed. 
+when changes are pushed. Then we enable GitHub Pages for the repository to publish the
+contents of the `gh-pages` branch.
 
 Several steps are needed:
 
@@ -32,10 +33,6 @@ This generates the static output (`index.html` and `assets/` directory) into the
 `index.html` to the sibling `/assets/` directory, to allow hosting the app under a sub-directory
 at https://github.com/will-moore/figure/.
 
-The build step includes running a script at `./deploy_ghpages.sh` that simply adds an empty
-`.nojekyll` file to the `gh-pages` directory. This is needed to prevent GitHub Pages from
-using Jekyll to publish the site (which will ignore the `/assets/` directory).
-
 .. code-block:: javascript
 
     {
@@ -44,7 +41,13 @@ using Jekyll to publish the site (which will ignore the `/assets/` directory).
       }
     }
 
-An alternative to a relative `--base` is to configure `base` in the `vite.config.js` to
+The build step for OMERO.figure includes running a script at `./deploy_ghpages.sh` that simply adds an empty
+`.nojekyll` file to the `gh-pages` directory. This is needed to prevent GitHub Pages from
+using Jekyll to publish the site (which would ignore the `/assets/` directory).
+An alternative option could be to place a `.nojekyll` file in a suitable location
+`as described here <https://github.com/metonym/sveltekit-gh-pages>`_.
+
+An alternative to a relative base (`--base=./`) is to configure `base` in the `vite.config.js` file to
 correspond to the deploy location, for example:
 
 .. code-block:: javascript
@@ -53,7 +56,8 @@ correspond to the deploy location, for example:
         config.base = `https://${process.env.GITHUB_REPOSITORY_OWNER}.github.io/ome2024-ngff-challenge/`;
     }
 
-Test the build step with `npm run ghpages` or `npm run build` and check the output directory.
+Test the build step with `npm run ghpages` or `npm run build` and check the contents of the
+specified output directory.
 
 GitHub Actions
 --------------
@@ -85,7 +89,7 @@ by default for `vite.js` apps. The `BRANCH` is the branch to push the build to, 
 Once this `ghpages.yml` is pushed to the specified `main` or `master` branch of your repo, you
 can check the `Actions` tab of the repository, e.g. https://github.com/ome/ome2024-ngff-challenge/actions
 to see if the action ran and was successful. If so, you can check the output that was
-pushed to the `gh-pages` branch, including the presence of 
+pushed to the `gh-pages` branch, including the presence of a top-level `.nojekyll` file if needed.
 
 GitHub Pages
 ------------
