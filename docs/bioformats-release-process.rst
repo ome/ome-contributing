@@ -12,8 +12,13 @@ Bio-Formats release
 This document describes the release process of the `Bio-Formats`_ Java library.
 The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
 
-Before starting the release process, 
-open a Pull Request with a new release entry in the `whats-new <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/about/whats-new.rst>`_ page. When approved by both the OME team and the Glencoe Software team, merge and start the release process.
+Before starting the release process, make sure documentation is updated appropriately:
+
+- open a Pull Request with a new release entry in the `whats-new <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/about/whats-new.rst>`_ page
+- if any new reader or writer options were added, open a pull request to update `the options page <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/formats/options.rst>`_ and relevant `format page entries <https://github.com/ome/bio-formats-documentation/blob/master/src/main/resources/format-pages.txt>`_
+- if any new readers or writers were added, open a pull request to add them to the `list of supported formats <https://github.com/ome/bio-formats-documentation/blob/master/src/main/resources/format-pages.txt>`_
+
+When all changes are approved by both the OME team and the Glencoe Software team, merge documentation pull requests and start the release process.
 
 
 Source code release
