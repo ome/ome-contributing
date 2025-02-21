@@ -68,8 +68,13 @@ new file format work undertaken on the behalf of instrumentation vendors,
 Glencoe Software always insists that any test data used to validate its work
 can be made publicly available via OME.
 
-All publicly available sample data is made available
-`here <https://downloads.openmicroscopy.org/images/>`__.
+OME maintains a curated QA repository with all data received from the
+community. The public subset of this repository is made available from
+the `OME downloads page <https://downloads.openmicroscopy.org/images/>`__.
+Historical data received without an explicit license allowing it to be
+published cannot be shared with the community. In order to make such data
+public, owners should resubmit a version using the
+`Bio-Formats Zenodo community <https://zenodo.org/communities/bio-formats>`_.
 
 Third Party Contributions
 -------------------------
