@@ -25,7 +25,7 @@ OME has two main methods of primary communication:
 
 The wider community, OME’s academically funded staff, and Glencoe Software
 participate primarily in the first of these methods using the
-`Scientific Community Image Forum <image.sc>`_ discussion forum for scientific
+`Scientific Community Image Forum <https://forum.image.sc/>`_ discussion forum for scientific
 image software sponsored by the
 `Center for Open Bioimage Analysis (COBA) <https://openbioimageanalysis.org/>`_
 and through OME’s GitHub repositories. OME’s academically funded staff
@@ -84,7 +84,7 @@ who are the subject matter experts on their respective proprietary file formats.
 It expects these contributions to come in one of these forms:
 
 - public contributions of expertise or support without expectation of remuneration
-  on the `Scientific Community Image Forum <image.sc>`_ and through OME’s GitHub
+  on the `Scientific Community Image Forum <https://forum.image.sc/>`_ and through OME’s GitHub
   repositories.
 - appropriately licensed :doc:`code contributions <code-contributions>` to OME’s
   GitHub repositories made via Pull Request in the primary programming language
