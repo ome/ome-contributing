@@ -99,25 +99,18 @@ OMERO Virtual Appliance
    - |C| that Insight and Web start okay and you can login successfully.
    - |C| that you can import and then open a small image (any small image will do).
 
-Bio-Formats MATLAB/Octave
-=========================
+Bio-Formats MATLAB
+==================
 
-.. warning::
-  Milestone or SNAPSHOT versions cannot be tested using the version of GNU
-  Octave installed by the Ubuntu 16.04 package manager (4.0.x) as only versions
-  of the format x.y.z are accepted by the implementation
-  (https://wiki.octave.org/OEP:pkg#version_definition).
+#. Log into https://mathworks.com/products/matlab-online.html
 
-**System installation**
+#. Upload the :bf_doc:`Bio-Formats MATLAB toolbox <users/matlab>` to
+   https://drive.mathworks.com/files
 
-#. Install MATLAB or GNU Octave on your operating system using the appropriate
-   downloads or package manager.
+#. Upload one of our :modeldoc:`sample images <ome-tiff/data.html>` or
+   any sample file to https://drive.mathworks.com/files
 
-#. Install the :bf_doc:`Bio-Formats MATLAB toolbox <users/matlab>` or the
-   :bf_doc:`Bio-Formats Octave package <users/octave>`.
-
-#. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
-   Alternatively, use any small image on your local disk or on squig.
+#. Start an interactive MATLAB session
 
 #. Follow the instructions :bf_doc:`here <developers/matlab-dev.html>` up to
    and including the section ``Displaying images``.
@@ -131,23 +124,6 @@ Bio-Formats MATLAB/Octave
 #. Reopen the image using the same commands as previously.
 
    - |C| that the amount of logging increases in the MATLAB command prompt.
-
-**Docker (GNU Octave only)**
-
-#. Clone https://github.com/openmicroscopy/bio-formats-octave-docker, update
-   the ``VERSION`` argument and build the Docker image::
-
-     $ docker build -t bio-formats-octave  .
-
-#. Download one of our :modeldoc:`sample images <ome-tiff/data.html>`.
-   Alternatively, use any small image on your local disk or on squig.
-
-#. Run the :file:`travis_test.m` on the image e.g.::
-
-     $ docker run -ti -v /data/:/data/ bio-formats-octave travis_test.m /data/tubhiswt-2D/tubhiswt_C0.ome.tif
-
-   - |C| that the image opens as expected.
-   - |C| that the amount of logging increases in the second execution.
 
 Bio-Formats: ImageJ/Fiji testing
 ================================
