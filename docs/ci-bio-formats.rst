@@ -11,14 +11,10 @@ Bio-Formats jobs
         * :term:`BIOFORMATS-push`
 
     -   * Build the Bio-Formats artifacts
-        * | :term:`BIOFORMATS-build`
-          | :term:`BIOFORMATS-image`
+        * :term:`BIOFORMATS-build`
 
     -   * Build the Bio-Formats documentation
         * :term:`BIOFORMATS-linkcheck`
-
-    -   * Run the Bio-Formats non-regression tests
-        * :term:`BIOFORMATS-test-repo`
 
 
 .. glossary::
@@ -30,16 +26,9 @@ Bio-Formats jobs
         versions
 
     :mergecijob:`BIOFORMATS-build <BIOFORMATS-build>`
-    :mergecijob:`BIOFORMATS-image <BIOFORMATS-image>`
 
         This job builds all the Bio-Formats artifacts using Maven and Ant
 
     :mergecijob:`BIOFORMATS-linkcheck <BIOFORMATS-linkcheck>`
 
         This job runs the linkchecker on the Bio-Formats documentation
-
-    :mergecijob:`BIOFORMATS-test-repo <BIOFORMATS-test-repo>`
-
-        This job consumes the Docker image built by :term:`BIOFORMATS-image`
-        and runs the non-regression automated tests against the curated QA
-        repository
