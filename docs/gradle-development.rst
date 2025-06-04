@@ -33,7 +33,6 @@ follow the standard Maven layout i.e. in the case of a single-module project::
      main/          # Component source
    test/
      main/
-  CHANGELOG.md
   LICENSE.txt
   README.md
   build.gradle
@@ -71,8 +70,7 @@ Release process
 
 To  make a new component release, after merging all contributions, on the `master`
 branch, the version defined in :file:`build.gradle` must be moved out of SNAPSHOT
-and set to the target version. Release notes described the major changes should also
-be added to :file:`CHANGELOG.md`.
+and set to the target version.
 
 After committing the changes, a PGP-signed tag must be created for the released version
 using :command:`git tag -s`::
@@ -90,3 +88,6 @@ This will trigger two GitHub Actions builds and the generated artifacts will be 
 to the OME Artifactory. All builds from the `master` branch are expected to be snapshots
 and uploaded to the `ome.snapshots` repository. All tag builds are expected to be full
 releases and uploaded to the `ome.releases` repository.
+
+On GitHub, create a release from the `vx.y.z` tag e.g. using https://github.com/ome/omero-server/releases/new
+and use `Generate release notes` to automatically fill the release content.
