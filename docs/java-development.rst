@@ -19,43 +19,43 @@ Java libraries.
 
     -   * Component name
         * GitHub URL
-        * groupId:artifactId
+        * Artifact
 
-    -   * OME Common Java libary
+    -   * OME Common Java library
         * https://github.com/ome/ome-common-java
-        * `org.openmicroscopy:ome-common <https://central.sonatype.com/artifact/org.openmicroscopy/ome-common>`_
+        * `ome-common <https://central.sonatype.com/artifact/org.openmicroscopy/ome-common>`_
 
     -   * OME Data model
         * https://github.com/ome/ome-model
-        * | `org.openmicroscopy:ome-model <https://central.sonatype.com/artifact/org.openmicroscopy/ome-model>`_
-            `org.openmicroscopy:ome-xml <https://central.sonatype.com/artifact/org.openmicroscopy/ome-xml>`_
-            `org.openmicroscopy:specification <https://central.sonatype.com/artifact/org.openmicroscopy/specification>`_
+        * | `ome-model <https://central.sonatype.com/artifact/org.openmicroscopy/ome-model>`_
+            `ome-xml <https://central.sonatype.com/artifact/org.openmicroscopy/ome-xml>`_
+            `specification <https://central.sonatype.com/artifact/org.openmicroscopy/specification>`_
 
     -   * OME JAI
         * https://github.com/ome/ome-jai
-        * `org.openmicroscopy:ome-jai <https://central.sonatype.com/artifact/org.openmicroscopy/ome-jai>`_
+        * `ome-jai <https://central.sonatype.com/artifact/org.openmicroscopy/ome-jai>`_
 
     -   * OME POI
         * https://github.com/ome/ome-poi
-        * `org.openmicroscopy:ome-poi <https://central.sonatype.com/artifact/org.openmicroscopy/ome-poi>`_
+        * `ome-poi <https://central.sonatype.com/artifact/org.openmicroscopy/ome-poi>`_
 
     -   * OME MDB Tools
         * https://github.com/ome/ome-mdbtools
-        * `org.openmicroscopy:ome-mdbtools <https://central.sonatype.com/artifact/org.openmicroscopy/ome-mdbtools>`_
+        * `ome-mdbtools <https://central.sonatype.com/artifact/org.openmicroscopy/ome-mdbtools>`_
 
     -   * OME Stubs
         * https://github.com/ome/ome-stubs
-        * | `org.openmicroscopy:ome-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-stubs>`_
-            `org.openmicroscopy:lwf-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/lwf-stubs>`_
-            `org.openmicroscopy:mipav-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/mipav-stubs>`_
+        * | `ome-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-stubs>`_
+            `lwf-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/lwf-stubs>`_
+            `mipav-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/mipav-stubs>`_
 
     -   * OME Metakit
         * https://github.com/ome/ome-metakit
-        * `org.openmicroscopy:metakit <https://central.sonatype.com/artifact/org.openmicroscopy/metakit>`_
+        * `metakit <https://central.sonatype.com/artifact/org.openmicroscopy/metakit>`_
 
     -   * OME Codecs
         * https://github.com/ome/ome-codecs
-        * `org.openmicroscopy:ome-codecs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-codecs>`_
+        * `ome-codecs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-codecs>`_
 
 .. note::
    Some of the historical monolithic Java projects, including Bio-Formats and
