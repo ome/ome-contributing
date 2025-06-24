@@ -21,32 +21,39 @@ Java libraries.
 
     -   * OME Common Java libary
         * https://github.com/ome/ome-common-java
-        * `org.openmicroscopy:ome-common`
+        * `org.openmicroscopy:ome-common <https://central.sonatype.com/artifact/org.openmicroscopy/ome-common>`_
 
     -   * OME Data model
         * https://github.com/ome/ome-model
-        * | `org.openmicroscopy:ome-model`
-            `org.openmicroscopy:ome-xml`
-            `org.openmicroscopy:specification`
-            `org.openmicroscopy:ome-model-doc`
+        * | `org.openmicroscopy:ome-model <https://central.sonatype.com/artifact/org.openmicroscopy/ome-model>`_
+            `org.openmicroscopy:ome-xml <https://central.sonatype.com/artifact/org.openmicroscopy/ome-xml>`_
+            `org.openmicroscopy:specification <https://central.sonatype.com/artifact/org.openmicroscopy/specification>`_
+
+    -   * OME JAI
+        * https://github.com/ome/ome-jai
+        * `org.openmicroscopy:ome-jai <https://central.sonatype.com/artifact/org.openmicroscopy/ome-jai>`_
 
     -   * OME POI
         * https://github.com/ome/ome-poi
-        * `org.openmicroscopy:ome-poi`
+        * `org.openmicroscopy:ome-poi <https://central.sonatype.com/artifact/org.openmicroscopy/ome-poi>`_
 
     -   * OME MDB Tools
         * https://github.com/ome/ome-mdbtools
-        * `org.openmicroscopy:ome-mdbtools`
+        * `org.openmicroscopy:ome-mdbtools <https://central.sonatype.com/artifact/org.openmicroscopy/ome-mdbtools>`_
 
     -   * OME Stubs
         * https://github.com/ome/ome-stubs
-        * | `org.openmicroscopy:ome-stubs`
-            `org.openmicroscopy:lwf-stubs`
-            `org.openmicroscopy:mipav-stubs`
+        * | `org.openmicroscopy:ome-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-stubs>`_
+            `org.openmicroscopy:lwf-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/lwf-stubs>`_
+            `org.openmicroscopy:mipav-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/mipav-stubs>`_
 
     -   * OME Metakit
         * https://github.com/ome/ome-metakit
-        * `org.openmicroscopy:metakit`
+        * `org.openmicroscopy:metakit <https://central.sonatype.com/artifact/org.openmicroscopy/metakit>`_
+
+    -   * OME Codecs
+        * https://github.com/ome/ome-codecs
+        * `org.openmicroscopy:ome-codecs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-codecs>`_
 
 .. note::
    Some of the historical monolithic Java projects, including Bio-Formats and
