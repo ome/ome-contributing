@@ -6,8 +6,10 @@ Java components (Maven)
 .. _Git: https://git-scm.com/
 .. _Maven: https://maven.apache.org/
 
-This document describes the conventions and process used by the OME team for developing, maintaining and releasing its Java components
-using Maven_ as their build system.
+This document describes the conventions and process used by the OME team for developing and maintaining
+Java components using Maven_ as their build system and publishing them to the `Central Repository`_ under
+the `org.openmicroscopy <https://central.sonatype.com/search?namespace=org.openmicroscopy>`_
+namespace.
 
 The set of rules and procedures described below applies to all the following
 Java libraries.
