@@ -19,6 +19,7 @@ Build
     jekyll
     development-tools
     deployment-tools
+    github-pages
 
 Release
 -------
