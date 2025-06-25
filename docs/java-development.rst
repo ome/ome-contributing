@@ -1,13 +1,15 @@
 Java components (Maven)
 =======================
 
-.. _Central Repository: https://search.maven.org
+.. _Central Repository: https://central.sonatype.org/pages/about/
 .. _Semantic Versioning: https://semver.org
 .. _Git: https://git-scm.com/
 .. _Maven: https://maven.apache.org/
 
-This document describes the conventions and process used by the OME team for developing, maintaining and releasing its Java components
-using Maven_ as their build system.
+This document describes the conventions and process used by the OME team for developing and maintaining
+Java components using Maven_ as their build system and publishing them to the `Central Repository`_ under
+the `org.openmicroscopy <https://central.sonatype.com/search?namespace=org.openmicroscopy>`_
+namespace.
 
 The set of rules and procedures described below applies to all the following
 Java libraries.
@@ -17,36 +19,43 @@ Java libraries.
 
     -   * Component name
         * GitHub URL
-        * groupId:artifactId
+        * Artifact
 
-    -   * OME Common Java libary
+    -   * OME Common Java library
         * https://github.com/ome/ome-common-java
-        * `org.openmicroscopy:ome-common`
+        * `ome-common <https://central.sonatype.com/artifact/org.openmicroscopy/ome-common>`_
 
     -   * OME Data model
         * https://github.com/ome/ome-model
-        * | `org.openmicroscopy:ome-model`
-            `org.openmicroscopy:ome-xml`
-            `org.openmicroscopy:specification`
-            `org.openmicroscopy:ome-model-doc`
+        * | `ome-model <https://central.sonatype.com/artifact/org.openmicroscopy/ome-model>`_
+            `ome-xml <https://central.sonatype.com/artifact/org.openmicroscopy/ome-xml>`_
+            `specification <https://central.sonatype.com/artifact/org.openmicroscopy/specification>`_
+
+    -   * OME JAI
+        * https://github.com/ome/ome-jai
+        * `ome-jai <https://central.sonatype.com/artifact/org.openmicroscopy/ome-jai>`_
 
     -   * OME POI
         * https://github.com/ome/ome-poi
-        * `org.openmicroscopy:ome-poi`
+        * `ome-poi <https://central.sonatype.com/artifact/org.openmicroscopy/ome-poi>`_
 
     -   * OME MDB Tools
         * https://github.com/ome/ome-mdbtools
-        * `org.openmicroscopy:ome-mdbtools`
+        * `ome-mdbtools <https://central.sonatype.com/artifact/org.openmicroscopy/ome-mdbtools>`_
 
     -   * OME Stubs
         * https://github.com/ome/ome-stubs
-        * | `org.openmicroscopy:ome-stubs`
-            `org.openmicroscopy:lwf-stubs`
-            `org.openmicroscopy:mipav-stubs`
+        * | `ome-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-stubs>`_
+            `lwf-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/lwf-stubs>`_
+            `mipav-stubs <https://central.sonatype.com/artifact/org.openmicroscopy/mipav-stubs>`_
 
     -   * OME Metakit
         * https://github.com/ome/ome-metakit
-        * `org.openmicroscopy:metakit`
+        * `metakit <https://central.sonatype.com/artifact/org.openmicroscopy/metakit>`_
+
+    -   * OME Codecs
+        * https://github.com/ome/ome-codecs
+        * `ome-codecs <https://central.sonatype.com/artifact/org.openmicroscopy/ome-codecs>`_
 
 .. note::
    Some of the historical monolithic Java projects, including Bio-Formats and
@@ -101,7 +110,7 @@ Distribution
 ^^^^^^^^^^^^
 
 All the release artifacts for the repositories listed above should be deployed
-to the Central Repository according to the process described in the next
+to the `Central Repository`_ according to the process described in the next
 section.
 
 Release process
@@ -113,30 +122,26 @@ Maintainer prerequisites
 To be able to maintain a Java component, a developer must have:
 
 - a GitHub_ account with push rights to the GitHub source code repository
-- a Sonatype_ account and be registered as a maintainer of the
-  `org.openmicroscopy` repository, if the artifact is deployed to Maven Central
-- a valid PGP key for signing the tags and the JARs
-- a local :file:`~/.m2/settings.xml` file configured with an access token
-  generated as described in https://central.sonatype.org/publish/generate-token
+- a Central Portal account registered as an user of the
+  `org.openmicroscopy` namespace
+- a valid GPG key for signing the tags and the JARs
+- a local :file:`~/.m2/settings.xml` file configured with an user token
+  generated as described in https://central.sonatype.org/publish/generate-portal-token/
 
-Follow the instructions at https://central.sonatype.org/register/legacy to
-create a Sonatype account allowing to publish via OSSRH. You need to
-contact Central Support to be able to release the artifacts of
-groupId `org.openmicroscopy`.
+Follow the instructions at https://central.sonatype.org/register/central-portal/ to
+register to publish via the Central Portal. You need to contact Central Support to be
+associated with the `org.openmicroscopy` namespace.
 
 .. seealso::
 
-    https://central.sonatype.org/register/legacy
-      Registration instructions to public via OSSRH
+    https://central.sonatype.org/register/central-portal/
+      Register to Publish Via the Central Portal
 
-    https://central.sonatype.org/publish/publish-guide/
-      Publishing via OSSRH
+    https://central.sonatype.org/publish/generate-portal-token/
+      Generating a Portal Token for Publishing
 
-    https://central.sonatype.org/publish/generate-token
-      Generating a token for publishing via OSSRH
-
-    https://central.sonatype.org/publish/publish-maven/
-      Deploying to OSSRH with Apache Maven
+    https://central.sonatype.org/publish/publish-portal-maven/
+      Publishing By Using the Maven Plugin
 
 Release strategies
 ^^^^^^^^^^^^^^^^^^
@@ -155,7 +160,7 @@ Release preparation
 ^^^^^^^^^^^^^^^^^^^
 
 The first step of the Java component release is to prepare a release
-candidate on the GitHub_ and Sonatype_ repositories.
+candidate on the GitHub_ and `Central Repository`_ repositories.
 
 The first operation to perform a Maven release is to bump the version out of
 SNAPSHOT either via editing the :file:`pom.xml` manually or using the Maven
@@ -183,27 +188,17 @@ with::
     $ mvn clean deploy -P release
     # Potentially add -D gpg.keyname=keyname if desired.
 
-This will upload the artifacts to a staging Sonatype repository and perform
-all the validation steps. The uploaded artifacts can be examined at
-\https://oss.sonatype.org/content/repositories/orgopenmicroscopy-xxxx/ where
-xxxx is an number incremented for each release.
+This will perform validation steps and upload the artifacts to a staging deployment
+available at https://central.sonatype.com/publishing/deployments.
 
-Release promotion
-^^^^^^^^^^^^^^^^^
+Publication
+^^^^^^^^^^^
 
-At the moment all Java components use the Nexus Staging Maven plugin with the
-`autoReleaseAfterClose` option set to `false`. A separate promotion step is
-necessary for releasing the component to the Sonatype releases repository.
-This promotion can happen either via the Sonatype UI as described in
-https://central.sonatype.org/publish/release/ or via command-line using
-the release phase of the nexus-staging plugin::
+At the moment all Java components use the Central Publishing Maven plugin with the
+`auoPublish` option set to `false`. To finish the publication, visit
+https://central.sonatype.com/publishing/deployments and click `Publish`.
 
-    $ mvn nexus-staging:release -P release
-
-The rsync to Central Maven and the update of Maven search usually happen
-within a couple of hours but the components are accessible beforehand.
-
-Once the tag is validated, the tag can be pushed to the organization repository::
+The GitHub tag can be pushed to the organization repository::
 
     $ git push origin vx.y.z
 
@@ -221,6 +216,7 @@ versions plugin again and push the master branch::
 
 Javadoc
 ^^^^^^^
+
 At the moment, we use the service provided https://javadoc.io/ for public
 hosting of the Javadoc. For each release to Maven Central, the new Javadoc
 should be automatically deployed within 24h. It is possible to trigger the
