@@ -220,7 +220,7 @@ Announcement
 
  - Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.
  - Announce on the Confocal email
- - Announce on X and linkedin
+ - Announce on Bluesky and Linkedin
 
 
 Post Release
