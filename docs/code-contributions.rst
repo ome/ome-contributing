@@ -4,7 +4,9 @@ Code contributions
 In order to expedite the contribution of code to the OME project,
 whether individual files or entire modules such as a service or web
 application, we have put together the following guidelines. If you have
-issues with any of the below, please let us know.
+issues with any of the below, please let us know. Anyone outside of the
+OME team should also see :doc:`third-party-policy` for additional
+contribution guidelines.
 
 File headers
 ------------
@@ -80,7 +82,7 @@ Procedure for accepting code contributions
 
 External contributors will need to sign our
 :doc:`Contributor License Agreement <cla>` in order to get their pull requests
-reviewed.
+reviewed. See also :doc:`third-party-policy`.
 
 External pull requests will get an initial review to identify if they are suitable to pass into our
 :doc:`continuous integration system <continuous-integration>` for building and
@@ -98,8 +100,8 @@ The "include" label will be removed until this is completed. The PR will be
 merged once all the builds are green with the "include" label added.
 
 If the code you wish to submit is large enough to require its own submodule,
-you should :community:`contact us <>` to discuss how we might
-incorporate your work into the official distribution.
+you should :community:`contact us <>` before investing substantial time
+to discuss how we might incorporate your work into the official distribution.
 
 Examples of contribution templates
 ----------------------------------
