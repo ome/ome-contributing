@@ -13,4 +13,3 @@ The following sections summarize general work practises followed by the OME team
     code-contributions
     cla
     team-communication
-    team-workflow
