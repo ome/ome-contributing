@@ -17,7 +17,6 @@ OMERO
 The main repository, known as ome.git, is available from:
 
 -  https://github.com/ome/openmicroscopy
--  git://openmicroscopy.org/ome.git
 
 Bio-Formats
 ^^^^^^^^^^^
@@ -25,7 +24,6 @@ Bio-Formats
 The Bio-Formats repository is available from:
 
 -  https://github.com/ome/bioformats
--  git://openmicroscopy.org/bioformats.git
 
 Other repositories
 ^^^^^^^^^^^^^^^^^^
@@ -67,8 +65,7 @@ Alternatively, with version 1.6.5 of Git and later, you can pass the
         git clone --recursive https://github.com/ome/openmicroscopy.git
 
 .. Note:: The use of submodules does not apply to Bio-Formats, which has all
-    code and documentation within a single repository at
-    https://github.com/ome/bioformats.git
+    code within a single repository at https://github.com/ome/bioformats.git
 
 The natural workflow when using GitHub is not just to download someone else’s
 repository, but also to create a personal working copy. Go to the repository
