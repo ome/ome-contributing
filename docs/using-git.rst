@@ -129,7 +129,7 @@ can follow what they are doing:
 
 ::
 
-    git remote add SOMEUSER https://github.com/SOMEUSER/openmicroscopy.git
+    git remote add SOMEUSER git://github.com/SOMEUSER/openmicroscopy.git
     git fetch SOMEUSER
 
 If you would like to work more closely with someone, via pushing directly to
@@ -728,10 +728,10 @@ and see all changes that the team have made:
     remote: Compressing objects: 100% (2/2), done.
     remote: Total 24 (delta 19), reused 24 (delta 19)
     Unpacking objects: 100% (24/24), done.
-    From https://github.com/jburel/openmicroscopy
+    From git://github.com/jburel/openmicroscopy
     * [new branch]      feature/plateAcquisitionAnnotation -> jm/feature/plateAcquisitionAnnotation
     Fetching colin
-    From https://github.com/ximenesuk/openmicroscopy
+    From git://github.com/ximenesuk/openmicroscopy
     * [new branch]      909-Proposal2 -> colin/909-Proposal2
 
 If you want to get the changes for all submodules, you can use:
