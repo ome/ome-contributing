@@ -17,8 +17,9 @@ The daily stand-up meeting is managed via the '#general' channel, with notes
 in google docs that are edited throughout the day as people complete the tasks
 assigned to them.
 
-The OME team meets weekly on Tuesdays via Zoom to summarize the status of
-all projects. Public notes of these meetings are available at https://hackmd.io/@ome.
+The OME teams meet weekly on Tuesdays via Zoom to summarize the status of
+all projects. Public notes of these meetings are available at https://hackmd.io/@ome,
+and published to https://www.openmicroscopy.org/minutes/.
 
 Focused meetings around specific components (e.g. formats, OMERO.web)
 typically happen weekly as well, but are not publicly minuted.
@@ -43,10 +44,10 @@ and `Bio-Formats <https://github.com/ome/bioformats/milestones>`_.
 Historical issue tracking
 -------------------------
 
+.. note:: Trac and Trello are no longer used by the OME team
+
 Trac
 ^^^^
-
-.. note:: Trac is no longer used by the OME team
 
 The Trac server is available under https://trac.openmicroscopy.org/ome.
 Trac was previously used to record all tickets, but has not been actively used in many years

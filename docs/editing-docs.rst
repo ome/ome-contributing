@@ -57,10 +57,8 @@ behind choosing what information to host where.
 Bio-Formats documentation
 -------------------------
 
-Hosted at `<https://bio-formats.readthedocs.io/en/>`_\{{version}} (plus
-latest redirect - :bf_doc:`https://bio-formats.readthedocs.io/en/latest/ <>`)
-
-This documentation covers all aspects of Bio-Formats - using it with other
+This documentation is hosted at `<https://bio-formats.readthedocs.io/en/>`_
+and covers all aspects of Bio-Formats - using it with other
 tools, specific guidance for Bio-Formats developers, and supported
 formats. Related topics - OME file formats and the data model are covered in
 the OME Data Model and File Formats documentation.
@@ -153,10 +151,8 @@ The live webpages are updated when a PR is merged.
 OME Data Model and File Formats documentation
 ---------------------------------------------
 
-Hosted at `<https://ome-model.readthedocs.io/en/>`_\{{version}}/ (plus
-latest redirect - `<https://ome-model.readthedocs.io/en/latest/>`_).
-
-This covers the OME-TIFF format and the OME data model.
+This documentation is hosted at `<https://ome-model.readthedocs.io/en/>`_
+and covers the OME-TIFF format and the OME data model.
 
 Builds
 ^^^^^^
