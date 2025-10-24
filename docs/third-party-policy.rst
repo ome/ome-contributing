@@ -52,7 +52,7 @@ OME regularly receives, solicited and unsolicited, sample data primarily when
 discussing and attempting to address file format problems issues in Bio-Formats.
 It is the expectation when providing sample data to OME’s academically funded
 staff that the data may be made public unless otherwise stated under a liberal
-license, at least 
+license, at least
 `Creative Commons Attribution 4.0 International License <https://creativecommons.org/licenses/by/4.0/>`_.
 The recommended way to submit public sample data is to use the
 `Bio-Formats Zenodo community <https://zenodo.org/communities/bio-formats>`_.
@@ -68,12 +68,20 @@ new file format work undertaken on the behalf of instrumentation vendors,
 Glencoe Software always insists that any test data used to validate its work
 can be made publicly available via OME.
 
+Usage of Sample Data
+--------------------
+
 OME maintains a curated QA repository with all data received from the
 community. The public subset of this repository is made available from
 the `OME downloads page <https://downloads.openmicroscopy.org/images/>`__.
-Historical data received without an explicit license allowing it to be
-published cannot be shared with the community. In order to make such data
-public, owners should resubmit a version using the
+Daily tests are run against this data repository, as described in :doc:`ci-bio-formats`.
+
+Historical data that was received either without an explicit license allowing it to be
+published or with explicit instructions to remain private cannot be shared with the community.
+Third party contributors in particular do not have access to any test data beyond what is
+on the public download page.
+
+Data owners may make private data public by resubmitting an appropriately-licensed version using the
 `Bio-Formats Zenodo community <https://zenodo.org/communities/bio-formats>`_.
 
 Third Party Contributions
