@@ -4,6 +4,10 @@ Third Party Contribution and Interaction Policy
 Introduction
 ------------
 
+OME defines third party contributors as anyone
+who is currently neither a member of the OME teams as defined in https://www.openmicroscopy.org/teams/
+nor a member of the Glencoe Software team as defined in https://www.glencoesoftware.com/about/team/.
+
 In 2016, OME published its first statement on
 `supporting file formats in Bio-Formats <https://www.openmicroscopy.org/2016/01/06/format-support.html>`__.
 This was refined further with `a follow up <https://www.openmicroscopy.org/2019/06/25/formats.html>`__
