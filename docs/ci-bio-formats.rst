@@ -32,3 +32,11 @@ Bio-Formats jobs
     :mergecijob:`BIOFORMATS-linkcheck <BIOFORMATS-linkcheck>`
 
         This job runs the linkchecker on the Bio-Formats documentation
+
+    `Nightly repository test <https://bf-testing-results.s3.amazonaws.com/index.html>`_
+
+        These tests are run nightly against a merge build of Bio-Formats.
+        The current status is also reported in a
+        `GitHub Action <https://github.com/ome/bioformats/actions/workflows/report.yml>`_.
+        These tests independently produce a merge build, and are not dependent upon
+        :mergecijob:`BIOFORMATS-push <BIOFORMATS-push>`.

@@ -17,50 +17,58 @@ The daily stand-up meeting is managed via the '#general' channel, with notes
 in google docs that are edited throughout the day as people complete the tasks
 assigned to them.
 
-Slightly less frequently, members of the team meet on Zoom for voice
-discussions. These meetings are organized as needed, but should provide
-feedback where appropriate (tickets, notes, etc).
+The OME teams meet weekly on Tuesdays via Zoom to summarize the status of
+all projects. Public notes of these meetings are available at https://hackmd.io/@ome,
+and published to https://www.openmicroscopy.org/minutes/.
+
+Focused meetings around specific components (e.g. formats, OMERO.web)
+typically happen weekly as well, but are not publicly minuted.
 
 Other IM tools
 ^^^^^^^^^^^^^^
 
-Slack is the only IM tool used by the entire OME team. Some team members
-do also use IRC (#ome on irc.freenode.net) and **may** provide support
-via that channel but in general, all external requests for help are best
-submitted and dealt with via the forums so they are available for the
-whole community. In particular, the various Gitter channels associated
-with OME projects on GitHub are not routinely monitored and responded
-to.
+Slack is the only IM tool used by the entire OME team, but is only used for internal discussion.
+All external requests for help should be submitted and dealt with as indicated on
+the :community:`support page <>`.
+
+GitHub Issues
+-------------
+
+Open issues and feature requests are recorded in the `Issues` tab for
+each GitHub repository in the `OME GitHub organization <https://github.com/ome>`_.
+If an issue is planned for an upcoming release, it will be assigned to
+the relevant milestone. See for example open milestones for
+`OMERO <https://github.com/ome/openmicroscopy/milestones>`_
+and `Bio-Formats <https://github.com/ome/bioformats/milestones>`_.
+
+Historical issue tracking
+-------------------------
+
+.. note:: Trac and Trello are no longer used by the OME team
 
 Trac
-----
+^^^^
 
-.. note:: The team is increasingly moving away from Trac and towards using
-    Trello, especially for managing 'story'-level items, documentation and
-    testing.
-
-The Trac server is available under https://trac.openmicroscopy.org/ome and
-uses your LDAP account for authentication. Trac was used to record all tickets,
-but today is no longer actively used for new tasks and is mainly a record of
-older tasks.
+The Trac server is available under https://trac.openmicroscopy.org/ome.
+Trac was previously used to record all tickets, but has not been actively used in many years
+and most content is no longer available.
 
 Trello
-------
+^^^^^^
 
 `Trello <https://www.trello.com>`_ is an online organizational tool used to
-manage "cards" arranged in "lists" on various subject-themed "boards". This is
-currently the team's main internal planning tool for higher level development
-goals and for managing documentation, testing, and the maintenance of our
+manage "cards" arranged in "lists" on various subject-themed "boards".
+Prior to using GitHub issues, this was the team's main internal planning tool
+for higher level development goals and for managing documentation, testing,
+and the maintenance of our
 continuous integration tools.
 
 .. figure:: /images/trello_screenshot.png
    :align:  center
 
-You can request access to the openmicroscopy boards as an external
-collaborator. Sign up for a free account and then get in touch with us to be
-added. We have now added a `public OME organization <https://trello.com/ome>`_
-to allow anyone to follow our development progress (see :ref:`public-trello`
-for more information).
+The `public OME organization <https://trello.com/ome>`_
+shows our previous work in Trello, but is not actively monitored and should
+not be used for tracking current development.
 
 Developer documentation
 -----------------------
@@ -73,14 +81,16 @@ will direct you to all the developer documentation that you might need. For
 example, the Developer page for OMERO is
 :omero_doc:`here <developers/index.html>`.
 
-Jenkins: Continuous integration
--------------------------------
+For more information on working with documentation, see :doc:`editing-docs`.
+
+Continuous integration
+-----------------------
 
 Our Jenkins_ server is available :jenkins:`here <>` and also uses LDAP
 authentication. Jenkins provides a mechanism to run arbitrary tasks
 ("jobs") on one or more platforms after particular events (time of day,
-git push, etc.) These jobs build all of the binaries released by the
-team, and also run automated testing.
+git push, etc.). GitHub Actions is also used; see :doc:`ci-introduction`
+for more information.
 
 .. _jenkins_screenshot:
 .. figure:: /images/jenkins_screenshot.png
@@ -102,7 +112,7 @@ Forums and mailing list
 -----------------------
 
 Feedback from the OME community happens primarily on the
-`forum <https://www.openmicroscopy.org/forums>`_ as well as GitHub.
+`image.sc forum <https://forum.image.sc>`_ as well as GitHub.
 
 You should be aware of and scan all threads on a fairly regular basis.
 The general rule is that requests from the community will be responded
@@ -120,10 +130,7 @@ posting.
 
 As much information about our activities and decision processes should
 be made public as possible. For many items, there is no reason to hide
-our process, but we do not go out of our way to make them public. For
-example, internally the team often uses OmniGraffle documents to
-illustrate concepts, but these are kept privately to prevent any
-confusion.
+our process, but we do not go out of our way to make them public.
 
 Internal servers
 ----------------
@@ -133,26 +140,20 @@ Dundee system that are used by the entire team. You may not need
 access to all of them immediately, but it is good to know what is
 available in case you do.
 
-* **vpn.lifesci.dundee.ac.uk** (LDAP-based) is necessary for securely
-  accessing some of the following resources (e.g. squig, jenkins)
-
-* **squig.openmicroscopy.org** is the shared, team-wide repository for
-  data which can be mounted if you are on VPN or within the UoD
-  system. It contains test data for various file formats.
-
 * The OME `QA <http://qa.openmicroscopy.org.uk/>`_ system is an in-house
   system for collecting feedback from users, including failing files,
   stack traces, etc. Like our community feedback, QA feedback should
   be turned into a ticket in a timely manner.
 
-* Home directory / data repository on necromancer (|SSH|-based)
+* Procedures and guidelines for connecting to servers hosted by the
+  University of Dundee depends upon a number of factors, and should
+  be discussed internally with the OME sysadmin team.
 
 .. note::
 
   For anyone who has been hired to work at the University of
-  Dundee, you will be provided with a
-  `new start tasklist <https://trello.com/c/GmuPPLAi/5-start-tasks>`_ which
-  itemizes all the things that need to be done to get you set up in RL
+  Dundee, you will be provided with a new start tasklist which
+  itemizes all the things that need to be done to get you set up
   (building access, a chair, etc.).
 
 Google Docs
@@ -174,8 +175,7 @@ Meetings
 --------
 
 Weekly meetings are held online with all members of the team. Notes are taken
-collaboratively in a **public** Google doc in the “OME Docs > Notes > Tuesday
-meetings” collection.
+collaboratively in https://hackmd.io/@ome.
 Anyone who missed the meeting is expected to review the notes and
 raise any issues during the next meeting.
 
@@ -184,8 +184,8 @@ meeting. This can be used to either introduce an external tool for
 suggested use by the team or as a peer review of in-progress work.
 
 Mini group meetings can either be regularly scheduled (e.g. weekly) or
-on an as-needed basis. Notes from such meetings should be recorded in gdocs or
-on Trello as appropriate and if necessary matters arising should be covered in
+on an as-needed basis. Notes from such meetings should be recorded in Google Docs or
+HackMD as appropriate and if necessary matters arising should be covered in
 the weekly meeting for the rest of the team.
 
 .. _DevContactList spreadsheet: https://docs.google.com/spreadsheets/d/1oHHU1GdEQq03dDf1FzUe0xoEi1RK1BOLOaL0HhMAeEA/edit
