@@ -147,7 +147,8 @@ the artifacts to the `OME artifactory`_.
 Documentation release
 ---------------------
 
-Before making a new release, merge all contributions on the ``master`` branch of `Bio-Formats Documentation`_.
+Before making a new release, merge all relevant contributions on the ``master`` branch of `Bio-Formats Documentation`_.
+Pull requests for new format pages need to be merged and tagged as a follow-up to the initial release tag.
 
 The first operation to perform a Maven release is to bump the version out of
 ``SNAPSHOT`` using the Maven versions plugin, add and commit::
@@ -177,8 +178,11 @@ The documentation is built and published on `Read The Docs`_.
 
 An hourly cron job runs on our virtual machine and adds redirect from for example `docs.openmicroscopy.org/bio-formats/7.3.1 <https://docs.openmicroscopy.org/bio-formats/7.3.1>`_ to `bio-formats.readthedocs.io/en/v7.3.1/ <https://bio-formats.readthedocs.io/en/v7.3.1/>`_.
 
-Close the milestone if any and add new one if needed.
+Merge `origin/master` into the branches for any new format pages. RTD builds are not merge builds, so closing/re-opening pull requests is not sufficient.
 
+Merge any new format page pull requests and tag with `git tag -s -m "Tag version x.y.z-n" vx.y.z-n`.
+
+Close the milestone if any and add new one if needed.
 
 Data repository release
 -----------------------
