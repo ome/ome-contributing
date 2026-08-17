@@ -14,12 +14,12 @@ yourself, and let us have a conversation with you, not a chatbot.
 Introduction
 ------------
 
-Our goal in napari is to develop excellent software. This requires
-careful attention to detail in every change we integrate. Maintainer
-time and attention is very limited, so it’s important that changes you
-ask us to review represent your *best* work.
+Our goal in OME is to develop excellent software. This requires careful
+attention to detail in every change we integrate. Maintainer time and
+attention is very limited, so it’s important that changes you ask us to
+review represent your *best* work.
 
-You can use any tools that help you understand the napari codebase and
+You can use any tools that help you understand the OME codebase and
 write good code, including AI tools. However, as noted above, you always
 need to make a sincere effort to understand and explain the changes
 you’re proposing, whether or not you used an LLM as part of your process
@@ -40,10 +40,10 @@ Using AI as a coding assistant
    working on. This will let you write better prompts and validate their
    output if you use an LLM. Code assistants can be a useful search
    engine/discovery tool in this process, but don’t trust claims they
-   make about how napari works. LLMs are often wrong, even about details
-   that are clearly answered in the napari documentation. When in doubt,
-   please reach out to us on our `Zulip chat
-   room <https://napari.zulipchat.com>`__.
+   make about how OME software works. LLMs are often wrong, even about
+   details that are clearly answered in the documentation. When in
+   doubt, please reach out to us on our `Zulip
+   chat <https://imagesc.zulipchat.com>`__.
 2. Try to submit your changes in small, self-contained pull requests,
    even if an LLM generates them all in one go.
 3. Don’t simply ask an LLM to add **code comments**, as it will likely
@@ -55,7 +55,7 @@ Using AI as a coding assistant
 Using AI for communication
 --------------------------
 
-As noted above, napari’s contributors are expected to communicate with
+As noted above, OME’s contributors are expected to communicate with
 intention, to avoid wasting maintainer time with long, sloppy writing.
 We strongly prefer clear and concise communication about points that
 actually require discussion over long AI-generated comments.
@@ -76,10 +76,10 @@ communication workflows.
    behalf based on your code changes, as it will simply regurgitate the
    information that’s already there.
 2. Similarly, when responding to a pull request comment, **explain your
-   reasoning**. D:won’t prompt an LLM to re-describe what can already be
+   reasoning**. Don’t prompt an LLM to re-describe what can already be
    seen from the code.
 3. Verify that **everything you write is accurate**, whether or not an
-   LLM generated any part of it. napari’s maintainers will be unable to
+   LLM generated any part of it. OME’s maintainers will be unable to
    review your contributions if you misrepresent your work (e.g.,
    misdescribing your code changes, their effect, or your testing
    process).
@@ -92,7 +92,7 @@ communication workflows.
    your prompt.
 6. Quoting an LLM answer is usually less helpful than linking to
    **relevant primary sources**, like source code or reference
-   documentation. If you do need to quote an LLM answer in a napari
+   documentation. If you do need to quote an LLM answer in an OME
    conversation, put the answer in a `quote
    block <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#quoting-text>`__,
    to clearly distinguish LLM output from your own thoughts.
@@ -100,8 +100,11 @@ communication workflows.
 Acknowledgements
 ----------------
 
-*This guide is copied with minor modifications from the*\ `Zulip policy
+*This guide is copied with minor modifications from the*\ `napari policy
 on AI
+use <https://napari.org/dev/developers/contributing/ai.html>`__\ *which
+in turn was copied with minor modifications from the*\ `Zulip policy on
+AI
 use <https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md#ai-use-policy-and-guidelines>`__\ *.
-We once again thank the Zulip team for their work in support of open
-source.*
+We are thankful for all the many members of the open source community
+that have worked on this issue before us.*
