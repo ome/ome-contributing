@@ -1,5 +1,3 @@
-(ai-policy)=
-
 AI use policy and guidelines
 ============================
 
@@ -100,11 +98,9 @@ communication workflows.
 Acknowledgements
 ----------------
 
-*This guide is copied with minor modifications from the*\ `napari policy
-on AI
-use <https://napari.org/dev/developers/contributing/ai.html>`__\ *which
-in turn was copied with minor modifications from the*\ `Zulip policy on
-AI
-use <https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md#ai-use-policy-and-guidelines>`__\ *.
+*This guide is copied with minor modifications from the
+`*napari policy on AI use* <https://napari.org/dev/developers/contributing/ai.html>`__
+which in turn was copied with minor modifications from the
+`*Zulip policy on AI use* <https://github.com/zulip/zulip/blob/main/CONTRIBUTING.md#ai-use-policy-and-guidelines>`__.
 We are thankful for all the many members of the open source community
 that have worked on this issue before us.*
