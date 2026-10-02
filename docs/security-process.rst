@@ -22,7 +22,7 @@ a security issue. The email thread can be used to gather additional information
 from the reporter as necessary.
 
 Once a decision on the nature of the report has been made, it should be
-communicated to the report alongside a mitigation timeline, if applicable.
+communicated to the reporter alongside a mitigation timeline, if applicable.
 
 Create a draft advisory
 ^^^^^^^^^^^^^^^^^^^^^^^
