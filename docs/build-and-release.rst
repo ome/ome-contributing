@@ -34,5 +34,6 @@ Release
     java-development
     omero-release-process
     omero-web-release-process
+    security-process
     python-components
     

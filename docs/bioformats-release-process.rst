@@ -8,16 +8,16 @@ Bio-Formats release
 .. _Data Repository: https://github.com/openmicroscopy/data_repo_config
 
 This document describes the release process of the `Bio-Formats`_ Java library.
-The release process uses GitHub actions, make sure that the actions are active before pushing any tag.
 
-Before starting the release process, make sure documentation is updated appropriately:
+Before starting the release process:
 
-- open a Pull Request with a new release entry in the `whats-new <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/about/whats-new.rst>`_ page
+- follow the steps of the :doc:`security-process` if the release fixes a security vulnerability
+- make sure GitHub actions are active on the Bio-Formats repositories
+- open a Pull Request against the `Bio-Formats Documentation`_ with a new release entry in the `whats-new <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/about/whats-new.rst>`_ page
 - if any new reader or writer options were added, open a pull request to update `the options page <https://github.com/ome/bio-formats-documentation/blob/master/sphinx/formats/options.rst>`_ and relevant `format page entries <https://github.com/ome/bio-formats-documentation/blob/master/src/main/resources/format-pages.txt>`_
 - if any new readers or writers were added, open a pull request to add them to the `list of supported formats <https://github.com/ome/bio-formats-documentation/blob/master/src/main/resources/format-pages.txt>`_
 
 When all changes are approved by both the OME team and the Glencoe Software team, merge documentation pull requests and start the release process.
-
 
 Source code release
 -------------------
@@ -219,18 +219,17 @@ Both the `master` branch as well as the tag must be pushed upstream::
 An hourly cron job runs on our virtual machine and deploys the website.
 
 
+
 Announcement
 ------------
 
- - Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.
- - Announce on the Confocal email
- - Announce on Bluesky and Linkedin
-
+Announce the release on `image.sc`_ using the
+`Announcements <https://forum.image.sc/c/announcements/10>`_ category after
+checking that the website has been deployed.
 
 Post Release
 ------------
 
- - Add an entry in `Web Server Stats`_.
  - Bump Bio-Formats version in `omero-model <https://github.com/ome/omero-model/blob/master/build.gradle>`_.
  - Bump Bio-Formats version in `pom-scijava <https://github.com/scijava/pom-scijava/blob/master/pom.xml>`_.
 

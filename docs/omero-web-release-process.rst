@@ -5,18 +5,11 @@ OMERO.web release
 .. _OMERO Web Docker: https://github.com/ome/omero-web-docker/
 
 This document describes the release process for `OMERO Web`_.
-The release process uses GitHub actions, make sure that the actions are **active** before pushing any tag.
 
+Before starting the release process:
 
-Register CVE
-^^^^^^^^^^^^
-
-As soon as a vulnerability is identified, create a security advisory on `GitHub <https://github.com/ome/omero-web/security/advisories>`_.
-The work to fix the vulnerability will be done using the private copy of `ome/omero-web <https://github.com/ome/omero-web/>`_.
-The release process needs to be adjusted in that case.
-
-Release process
-^^^^^^^^^^^^^^^
+- follow the steps of the :doc:`security-process` if the release fixes a security vulnerability
+- make sure GitHub actions are active on the OMERO.web repositories
 
 Source code release
 -------------------
@@ -59,5 +52,10 @@ Both the `master` branch as well as the tag must be pushed upstream::
 
 An hourly cron job runs on our virtual machine and deploys the website.
 
-Finally 
-- Announce the release on `image.sc`_ using the ``Announcements`` category after checking that the website has been deployed.
+
+Announcement
+------------
+
+Announce the release on `image.sc`_ using the
+`Announcements <https://forum.image.sc/c/announcements/10>`_ category after
+checking that the website has been deployed.
