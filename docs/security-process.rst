@@ -1,7 +1,7 @@
 Security process
 ================
 
-This document describes OME security process and covers the steps from the
+This document describes the OME security process and covers the steps from the
 reception of a vulnerability report up to the security release of a component.
 The development process makes extensive use of GitHub functionalities for
 managing vulnerability reports and fixes - see
@@ -40,7 +40,7 @@ To work securely on the development of a security fix, a temporary private fork
 of the repository should be created from the draft advisory as described in
 https://docs.github.com/en/code-security/tutorials/fix-reported-vulnerabilities/collaborate-in-a-fork/.
 
-Collaborators can be added and removed to/from the private fork as described in 
+Collaborators can be added to and removed from the private fork as described in
 https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/fix-reported-vulnerabilities/add-collaborators
 and https://docs.github.com/en/code-security/how-tos/report-and-fix-vulnerabilities/fix-reported-vulnerabilities/remove-collaborators.
 
