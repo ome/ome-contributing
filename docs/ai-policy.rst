@@ -58,11 +58,16 @@ intention, to avoid wasting maintainer time with long, sloppy writing.
 We strongly prefer clear and concise communication about points that
 actually require discussion over long AI-generated comments.
 
-If you use an LLM to write a message for you, it remains **your
+For any LLM-generated content, it remains **your
 responsibility** to read through the whole thing and make sure that it
 makes sense to you and represents your ideas concisely. A good rule of
 thumb is that if you can’t make yourself carefully read some LLM output
 that you generated, nobody else will want to read it either.
+
+LLMs should not be used to generate messages, comments, descriptions of issues and pull requests, or any similar communications.
+Maintainers may choose not engage with communications they consider likely to be LLM-generated.
+If you can express your understanding and intent well enough in a prompt for an LLM to re-format it faithfully, we'd rather just see your words.
+Using an LLM for translation into English is acceptable so long as it is a faithful translation of a message composed by you.
 
 Here are some concrete guidelines for using LLMs as part of your
 communication workflows.
