@@ -40,8 +40,8 @@ Using AI as a coding assistant
    engine/discovery tool in this process, but don’t trust claims they
    make about how OME software works. LLMs are often wrong, even about
    details that are clearly answered in the documentation. When in
-   doubt, please reach out to us on our `Zulip
-   chat <https://imagesc.zulipchat.com>`__.
+   doubt, please reach out to us *using your own voice*, either via
+   [image.sc](https://image.sc) or a short issue in the relevant repository.
 2. Try to submit your changes in small, self-contained pull requests,
    even if an LLM generates them all in one go.
 3. Don’t simply ask an LLM to add **code comments**, as it will likely
