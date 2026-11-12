@@ -119,29 +119,10 @@ Release process
 Maintainer prerequisites
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-To be able to maintain a Java component, a developer must have:
+To be able to maintain a Java component, a developer must have
 
 - a GitHub_ account with push rights to the GitHub source code repository
-- a Central Portal account registered as an user of the
-  `org.openmicroscopy` namespace
-- a valid GPG key for signing the tags and the JARs
-- a local :file:`~/.m2/settings.xml` file configured with an user token
-  generated as described in https://central.sonatype.org/publish/generate-portal-token/
-
-Follow the instructions at https://central.sonatype.org/register/central-portal/ to
-register to publish via the Central Portal. You need to contact Central Support to be
-associated with the `org.openmicroscopy` namespace.
-
-.. seealso::
-
-    https://central.sonatype.org/register/central-portal/
-      Register to Publish Via the Central Portal
-
-    https://central.sonatype.org/publish/generate-portal-token/
-      Generating a Portal Token for Publishing
-
-    https://central.sonatype.org/publish/publish-portal-maven/
-      Publishing By Using the Maven Plugin
+- a valid GPG key for signing the tags
 
 Release strategies
 ^^^^^^^^^^^^^^^^^^
@@ -175,32 +156,21 @@ using :command:`git tag -s`::
 
     $ git tag -s -m "Release version x.y.z" vx.y.z
 
-Optionally, push the master branch and the tag to your fork for validation by another
-member of the team::
+Pushing the master branch and the tag will automatically publish artifacts to
+Maven Central and create a GitHub release::
 
-    $ git push <fork_name> master
-    $ git push <fork_name> vx.y.z
-
-Once you have updated all the versions and ensured that your build passes
-without deployment you can perform the deployment by using the release profile
-with::
-
-    $ mvn clean deploy -P release
-    # Potentially add -D gpg.keyname=keyname if desired.
-
-This will perform validation steps and upload the artifacts to a staging deployment
-available at https://central.sonatype.com/publishing/deployments.
-
-Publication
-^^^^^^^^^^^
-
-At the moment all Java components use the Central Publishing Maven plugin with the
-`auoPublish` option set to `false`. To finish the publication, visit
-https://central.sonatype.com/publishing/deployments and click `Publish`.
-
-The GitHub tag can be pushed to the organization repository::
-
+    $ git push origin master
     $ git push origin vx.y.z
+
+If the `release` step times out in the `maven` GitHub_ action while waiting
+for artifact publication to complete, then it may be necessary to generate
+a GitHub release manually. This is done with the following steps:
+
+- navigate to the releases page in the GitHub_ repository
+- select `Draft new release`
+- choose the tag that was just pushed
+- click `Generate release notes`
+- set the release to `Latest`
 
 Next development version
 ^^^^^^^^^^^^^^^^^^^^^^^^
