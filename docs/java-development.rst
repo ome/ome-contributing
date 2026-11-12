@@ -119,7 +119,7 @@ Release process
 Maintainer prerequisites
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-To be able to maintain a Java component, a developer must have
+To be able to maintain a Java component, a developer must have:
 
 - a GitHub_ account with push rights to the GitHub source code repository
 - a valid GPG key for signing the tags
