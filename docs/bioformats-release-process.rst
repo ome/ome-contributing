@@ -49,7 +49,7 @@ Both the ``develop`` branch as well as the tag must be pushed upstream::
 
     $ git push origin develop vx.y.z
 
-This will trigger GitHub action builds, generate artifacts, create a GitHub release and upload
+This will trigger GitHub action builds, generate artifacts, deploy to Maven Central, create a GitHub release and upload
 the artifacts to the release on GitHub and to the `OME artifactory`_. 
 An hourly cron job runs on our virtual machine and copy the artifacts published on Github under `Bio-Formats Downloads`_.
 
@@ -67,10 +67,9 @@ To test the artifacts published,
       $ ./bfconvert B.ome.tiff
       $ ./tiffcomment B.ome.tiff
 
-If an error occurs during the testing:
- - Delete the release and the tag on GitHub.
- - Delete the artifacts on `OME artifactory`_.
- - Delete the folder corresponding to the latest release under `Bio-Formats Downloads`_, if it has already been created.
+If an error occurs during the testing, **STOP** and discuss with the formats team before proceeding.
+With automatic deployment to Maven Central in 9.0.0, it is no longer appropriate to delete tags or artifacts that have been
+published, as indicated in `Maven Central's policy on immutability <https://central.sonatype.org/publish/requirements/immutability/>`_.
 
 Fiji update site
 ----------------
